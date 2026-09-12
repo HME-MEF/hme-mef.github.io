@@ -1,0 +1,40 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+*.gem
+
+# Dependencies
+vendor/
+.bundle/
+Gemfile.lock
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Backups
+*.bak
+*.tmp
+*.temp
+*.log
+
+# Development
+node_modules/
+.env
+.env.local
+
+# Compiled files
+*.class
+*.pyc
+__pycache__/

@@ -1,0 +1,48 @@
+<footer class="site-footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>{{ site.title }}</h4>
+            <p>{{ site.description }}</p>
+            <p style="font-size: 0.9em; margin-top: 1rem;">Plataforma de investigación académica y advocacy legislativa.</p>
+        </div>
+        
+        <div class="footer-section">
+            <h4>Recursos</h4>
+            <ul>
+                <li><a href="{{ '/publicaciones/' | relative_url }}">Publicaciones</a></li>
+                <li><a href="{{ '/marco-legal/' | relative_url }}">Marco Legal</a></li>
+                <li><a href="{{ '/recursos/faq/' | relative_url }}">FAQs</a></li>
+                <li><a href="{{ '/recursos/glosario/' | relative_url }}">Glosario</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-section">
+            <h4>Advocacy</h4>
+            <ul>
+                <li><a href="{{ '/advocacy/' | relative_url }}">Propuestas Formales</a></li>
+                <li><a href="{{ '/advocacy/#cronologia' | relative_url }}">Cronología</a></li>
+                <li><a href="{{ '/advocacy/#documentos' | relative_url }}">Documentos</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-section">
+            <h4>Contacto</h4>
+            <ul>
+                <li><a href="mailto:{{ site.author_email }}">{{ site.author_email }}</a></li>
+            </ul>
+            <p style="font-size: 0.9em; margin-top: 1rem;">
+                <strong>Autor:</strong> {{ site.author }}<br>
+                Universidad de Murcia
+            </p>
+        </div>
+    </div>
+    
+    <div class="footer-copyright">
+        <p>
+            © 2026 HME — Honorarios Mínimos Equivalentes. Todos los derechos reservados.<br>
+            <a href="{{ '/legal/privacidad/' | relative_url }}">Privacidad</a> •
+            <a href="{{ '/legal/uso/' | relative_url }}">Términos de Uso</a> •
+            <a href="https://github.com/hme-mef/hme-mef.github.io">Código fuente (GitHub)</a>
+        </p>
+    </div>
+</footer>

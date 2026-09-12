@@ -1,0 +1,82 @@
+# HME / MEF ADVOCACY — Jekyll Configuration
+
+# Site metadata
+title: "HME — Honorarios Mínimos Equivalentes"
+description: "Plataforma de investigación y advocacy para mínimos equivalentes de honorarios en España y la UE."
+url: "https://hme-mef.es"  # Cambiar según dominio registrado
+baseurl: ""
+
+# Author
+author: "Ricardo Alvira Baeza"
+author_email: "ricardo@hme-mef.es"
+
+# Timezone
+timezone: "Europe/Madrid"
+
+# Jekyll settings
+permalink: /:categories/:year/:month/:day/:title/
+markdown: kramdown
+
+# Collections
+collections:
+  publicaciones:
+    output: true
+    permalink: /publicaciones/:path/
+  
+  articulos:
+    output: true
+    permalink: /publicaciones/articulos/:path/
+  
+  propuestas:
+    output: true
+    permalink: /advocacy/propuestas/:path/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  
+  - scope:
+      path: "publicaciones"
+    values:
+      layout: "page"
+  
+  - scope:
+      path: "marco-legal"
+    values:
+      layout: "page"
+  
+  - scope:
+      path: "advocacy"
+    values:
+      layout: "page"
+
+# Asset compression
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+# Plugins (GitHub Pages)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# SEO
+jekyll-feed:
+  path: /feed.xml
+
+# Build settings
+incremental: true
+exclude:
+  - .gitignore
+  - README.md
+  - LICENSE
+  - .DS_Store
+  - vendor/
+  - .bundle/
+
+# Social & Analytics
+twitter:
+  username: null
