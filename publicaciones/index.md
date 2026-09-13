@@ -28,8 +28,8 @@ Emanuele Menegatti, University of Bologna
 
 ### Versión Inglesa (Publicada)
 
-- **PDF**: [Descargar artículo original (English)]({{ '/assets/documents/Alvira-HME-2026.pdf' | relative_url }})
-- **HTML**: [Leer en línea →]({{ '/publicaciones/articulos/alvira-hme-2026/' | relative_url }})
+- **PDF**: [Descargar artículo original (English)]({{ '/assets/documents/Alvira-MEF-2026.pdf' | relative_url }})
+- **HTML**: [Leer en línea →]({{ '/publicaciones/articulos/alvira-mef-2026/' | relative_url }})
 
 ### Versión Española (Traducción)
 
