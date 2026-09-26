@@ -113,8 +113,7 @@ italiana 49/2023 sobre *equo compenso* — así como datos empíricos (ACE, EIGE
 sobre discriminación retributiva entre profesionales autónomos y asalariados; y
 (b) solicitud de que el Ministerio valore si el criterio actual de la CNMC es
 compatible con ese marco y, en su caso, inste su actualización.
-[Descargar petición]({{ '/assets/docs/peticion-2026-03.pdf' | relative_url }}) ·
-[Justificante de presentación]({{ '/assets/docs/justificante-2026-03.pdf' | relative_url }})
+[Descargar petición]({{ '/assets/docs/peticion-2026-03.pdf' | relative_url }})
 
 **09/06/2026** — Nueva queja ante el Defensor del Pueblo por incumplimiento del
 plazo de tres meses del artículo 12 de la Ley Orgánica 4/2001 para responder a la
