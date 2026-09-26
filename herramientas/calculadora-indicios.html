@@ -139,17 +139,29 @@
 
         <h2>Tablas de referencia (consulta manual)</h2>
         <table class="ref">
-          <tr><th>Modelo</th><th>Concepto</th><th>Valor</th></tr>
-          <tr><td rowspan="2">SEGIPSA (BOE 27/5/2015)</td><td>Redacción de proyecto</td><td>3,60% – 6,65% PEM (según tramo)</td></tr>
-          <tr><td>Dirección facultativa</td><td>3,08% – 5,68% PEM (según tramo)</td></tr>
-          <tr><td rowspan="2">Italia, DM 17/6/2016</td><td>Tarifa horaria art. 6.2</td><td>50 – 75 €/h (2016)</td></tr>
-          <tr><td>Fórmula</td><td>CP = Σ(V·G·Q·P), P = 0,03 + 10/V^0,4</td></tr>
+          <tr><th>Modelo</th><th>Concepto</th><th>Tramo PEM</th><th>% PEM</th></tr>
+          <tr><td rowspan="5">SEGIPSA<br>(BOE 27/5/2015)<br>Redacción de proyecto</td><td rowspan="5"></td><td>Hasta 1.000.000 €</td><td>6,65%</td></tr>
+          <tr><td>1.000.001 € – 3.000.000 €</td><td>5,61%</td></tr>
+          <tr><td>3.000.001 € – 6.000.000 €</td><td>4,63%</td></tr>
+          <tr><td>6.000.001 € – 10.000.000 €</td><td>4,11%</td></tr>
+          <tr><td>Más de 10.000.000 €</td><td>3,60%</td></tr>
+          <tr><td rowspan="5">SEGIPSA<br>(BOE 27/5/2015)<br>Dirección de obra</td><td rowspan="5"></td><td>Hasta 1.000.000 €</td><td>5,68%</td></tr>
+          <tr><td>1.000.001 € – 3.000.000 €</td><td>4,77%</td></tr>
+          <tr><td>3.000.001 € – 6.000.000 €</td><td>3,97%</td></tr>
+          <tr><td>6.000.001 € – 10.000.000 €</td><td>3,53%</td></tr>
+          <tr><td>Más de 10.000.000 €</td><td>3,08%</td></tr>
+          <tr><td rowspan="2">Italia, DM 17/6/2016</td><td colspan="2">Tarifa horaria art. 6.2</td><td>50 – 75 €/h (2016)</td></tr>
+          <tr><td colspan="2">Fórmula (Tablas Z-1/Z-2)</td><td>CP = Σ(V·G·Q·P), P = 0,03 + 10/V^0,4</td></tr>
         </table>
         <div class="notice">
-          Estas tablas son de consulta manual: los tramos exactos del BOE y los parámetros G/Q del
-          DM italiano no se aplican automáticamente aquí porque requieren la tabla oficial completa
-          por categoría de edificación. Úsalas para contrastar tu propia estimación de HME o el
-          importe evaluado, no como cálculo automático del suelo.
+          Los tramos de SEGIPSA están verificados directamente contra el texto de la Resolución de
+          11/5/2015 (BOE 27/5/2015) — ver <a href="{{ '/marco-legal/' | relative_url }}">Marco Legal</a>.
+          Aun así se muestran como consulta manual y no se aplican automáticamente, porque SEGIPSA
+          tarifa encomiendas de gestión de la propia Administración, no cualquier encargo evaluado
+          aquí. Los parámetros G/Q del DM italiano (Tablas Z-1 y Z-2, por categoría y complejidad de
+          la obra) tampoco se aplican automáticamente: requieren identificar la categoría de edificio
+          concreta en la tabla oficial completa. Úsalas para contrastar tu propia estimación de HME o
+          el importe evaluado, no como cálculo automático del suelo.
         </div>
       </div>
     </div>

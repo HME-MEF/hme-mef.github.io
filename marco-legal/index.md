@@ -82,13 +82,94 @@ Más reciente: reconoce que restricciones a libertad profesional pueden justific
 
 ## 3. Normativa Administrativa Española
 
-### Ley 34/1988 de Ordenación de la Edificación (LOE)
+España cuenta con más de un siglo de tarifas estatales de honorarios de
+arquitecto, calculadas mediante porcentaje sobre el coste de la obra. Este
+precedente histórico es relevante porque muestra que un mecanismo de
+mínimos retributivos regulado por el Estado —no por los colegios
+profesionales— es una tradición jurídica española asentada, y no una
+innovación ajena al ordenamiento.
 
-Regula acuerdos sobre honorarios de arquitectos sin prohibirlos expresamente si responden a cálculo de costes.
+### Real Decreto de 2 de noviembre de 1905 (*Gaceta de Madrid* núm. 309)
+
+Primera tarifa estatal identificada. Aprueba la "Tarifa de honorarios que
+han de percibir los Arquitectos por los trabajos de su profesión",
+clasificando las obras en seis grupos según su naturaleza (desde
+cobertizos y edificios agrícolas hasta catedrales y edificios de primer
+orden) y fijando el honorario como un porcentaje del coste total de la
+obra, decreciente según el grupo y el tramo de coste.
+[Descargar RD 2/11/1905]({{ '/assets/docs/gaceta-madrid-1905-rd-tarifas-es.pdf' | relative_url }})
+
+### Real Decreto de 1 de diciembre de 1922 (*La Construcción Moderna*, 15/3/1923)
+
+Sustituye la tarifa de 1905 con la misma estructura (seis grupos, tarifa
+porcentual decreciente por tramos de coste), actualizada a los precios de
+la época. Vigente hasta 1977.
+[Descargar RD 1/12/1922 (reproducido en La Construcción Moderna)]({{ '/assets/docs/construccion-moderna-1923-tarifas-es.pdf' | relative_url }})
+
+### Real Decreto 2512/1977, de 17 de junio
+
+Aprueba las "Tarifas de honorarios de los Arquitectos en trabajos de su
+profesión", vigentes con carácter obligatorio durante veinte años. Regula
+honorarios por fases del encargo (estudios previos, anteproyecto,
+proyecto básico, proyecto de ejecución, dirección de obra), por tipo de
+edificación, y un factor de actualización anual (Fa) ligado al índice de
+coste de la vida. Constituye el último marco de tarifa obligatoria antes
+de la liberalización de 1997.
+[Descargar RD 2512/1977]({{ '/assets/docs/rd-2512-1977-tarifas-honorarios-es.pdf' | relative_url }})
+
+### Ley 7/1997, de Medidas Liberalizadoras en Materia de Suelo y de Colegios Profesionales
+
+Sustituye el régimen de tarifas obligatorias por el de **baremos de
+honorarios de carácter meramente orientativo** (art. 5.ñ), en
+cumplimiento del Derecho de la competencia. A partir de aquí, los
+honorarios de arquitecto dejan de estar tarifados por el Estado y pasan a
+fijarse por acuerdo entre las partes, con baremos colegiales de referencia
+no vinculante.
+
+### COAM — Baremos Orientativos 2007 (adaptación al CTE)
+
+Documento vigente de referencia orientativa del Colegio Oficial de
+Arquitectos de Madrid, elaborado en cumplimiento del art. 5.ñ) de la Ley
+7/1997 y el art. 14.e) de la Ley 19/1997 de Colegios Profesionales de la
+Comunidad de Madrid. Considera el grado de trabajo, capacitación,
+conocimientos, dedicación y costes necesarios para el desarrollo de un
+encargo, con tablas de coeficientes por superficie, uso y complejidad.
+Expresamente compatible con la libertad de contratación de la Ley 7/1997:
+no fija honorarios, los orienta.
+[Descargar COAM Baremos Orientativos 2007]({{ '/assets/docs/coam-baremos-orientativos-2007-es.pdf' | relative_url }})
 
 ### Real Decreto 1619/2012 (Contratos de Obras)
 
 Establece metodología de cálculo de presupuestos en obra pública, incluyendo gastos generales y beneficio industrial, como referencia válida.
+
+### SEGIPSA — Resolución de 11 de mayo de 2015 (BOE núm. 126, 27/5/2015)
+
+La Sociedad Estatal de Gestión Inmobiliaria de Patrimonio, S.A. (SEGIPSA),
+medio propio instrumental de la Administración General del Estado, aplica
+tarifas porcentuales sobre el Presupuesto de Ejecución Material (PEM) para
+la redacción de proyectos y la dirección facultativa de obra que encomienda
+la Administración:
+
+| Concepto | Tramo PEM | % sobre PEM |
+|---|---|---|
+| **Redacción de proyecto** (incl. Estudio de Seguridad y Salud) | Hasta 1.000.000 € | 6,65% |
+| | 1.000.001 € – 3.000.000 € | 5,61% |
+| | 3.000.001 € – 6.000.000 € | 4,63% |
+| | 6.000.001 € – 10.000.000 € | 4,11% |
+| | Más de 10.000.000 € | 3,60% |
+| **Dirección de obra y dirección de ejecución** (sin coordinación de seguridad y salud) | Hasta 1.000.000 € | 5,68% |
+| | 1.000.001 € – 3.000.000 € | 4,77% |
+| | 3.000.001 € – 6.000.000 € | 3,97% |
+| | 6.000.001 € – 10.000.000 € | 3,53% |
+| | Más de 10.000.000 € | 3,08% |
+
+Es, en la práctica, el mismo mecanismo que las tarifas estatales de
+1905, 1922 y 1977 —un porcentaje sobre el coste de la obra, decreciente
+por tramos—, aplicado hoy por la propia Administración General del Estado
+a sus encomiendas de gestión. Estos tramos son la referencia empleada
+—como consulta manual, no de aplicación automática— en la
+[herramienta de evaluación]({{ '/herramientas/' | relative_url }}) de este sitio.
+[Descargar Resolución SEGIPSA (BOE 27/5/2015)]({{ '/assets/docs/segipsa-boe-2015-es.pdf' | relative_url }})
 
 ### CNMC — Decisión CNS/DC/902/23 (26/9/2023)
 
@@ -205,6 +286,12 @@ Sentencia que reconoce derechos de divulgación de obra arquitectónica por moti
 | Directiva 2006/123/CE | 15 | [eur-lex.europa.eu](https://eur-lex.europa.eu) |
 | Directiva 2018/958 | Arts. 6-8 | [eur-lex.europa.eu](https://eur-lex.europa.eu) |
 | RD 1619/2012 | 107-115 | [boe.es](https://www.boe.es) |
+| RD 2/11/1905 (tarifa honorarios) | Tarifa I-XI | [PDF]({{ '/assets/docs/gaceta-madrid-1905-rd-tarifas-es.pdf' | relative_url }}) |
+| RD 1/12/1922 (tarifa honorarios) | Tarifa I | [PDF]({{ '/assets/docs/construccion-moderna-1923-tarifas-es.pdf' | relative_url }}) |
+| RD 2512/1977 (tarifa honorarios) | Arts. 1-2, Disp. Transitorias | [PDF]({{ '/assets/docs/rd-2512-1977-tarifas-honorarios-es.pdf' | relative_url }}) |
+| Ley 7/1997 (liberalización) | Art. 5.ñ) | [boe.es](https://www.boe.es) |
+| COAM, Baremos Orientativos 2007 | — | [PDF]({{ '/assets/docs/coam-baremos-orientativos-2007-es.pdf' | relative_url }}) |
+| SEGIPSA, Resolución 11/5/2015 (BOE 27/5/2015) | Apdo. Segundo.2 | [PDF]({{ '/assets/docs/segipsa-boe-2015-es.pdf' | relative_url }}) |
 | Legge (IT) 2/3/1949, n. 143 | Capo I, art. 4 | [PDF]({{ '/assets/docs/legge-143-1949-it.pdf' | relative_url }}) |
 | DM (IT) 17/6/2016 | Arts. 2-6 | [PDF]({{ '/assets/docs/dm-17-giugno-2016-it.pdf' | relative_url }}) |
 | D.Lgs. (IT) 31/12/2024, n. 209 | — (referencia general) | [gazzettaufficiale.it](https://www.gazzettaufficiale.it/eli/id/2025/01/22/25A00154/sg) |

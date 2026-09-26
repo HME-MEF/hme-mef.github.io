@@ -57,15 +57,19 @@ frente a ellos:
   dicho.
 
 Las tablas de referencia (SEGIPSA, DM italiano) se muestran como
-consulta manual, no se aplican automáticamente: los tramos exactos del
-BOE y los parámetros de complejidad G/Q del modelo italiano requieren
-la tabla oficial completa por categoría de edificación, que no se
-simplifica aquí para no introducir umbrales aproximados. El usuario
-introduce directamente su propia estimación de horas del encargo
-(HME), pudiendo contrastarla con esas tablas — por ejemplo, dividiendo
-un importe de referencia entre 60,5 €/h (extremo inferior de la banda
-del art. 6.2 del DM italiano, actualizado por IPC italiano
-2016→2024).
+consulta manual, no se aplican automáticamente. Los tramos de SEGIPSA
+están verificados directamente contra la Resolución de 11/5/2015 (BOE
+27/5/2015) — ver [Marco Legal]({{ '/marco-legal/' | relative_url }}) —,
+pero no se aplican de forma automática porque tarifan encomiendas de
+gestión de la propia Administración, no cualquier encargo evaluado aquí.
+Los parámetros de complejidad G/Q del modelo italiano requieren
+identificar la categoría de edificio concreta en la tabla oficial
+completa (Tablas Z-1 y Z-2 del DM 17/6/2016), que no se simplifica aquí
+para no introducir umbrales aproximados. El usuario introduce
+directamente su propia estimación de horas del encargo (HME), pudiendo
+contrastarla con esas tablas — por ejemplo, dividiendo un importe de
+referencia entre 60,5 €/h (extremo inferior de la banda del art. 6.2 del
+DM italiano, actualizado por IPC italiano 2016→2024).
 
 ### Diagnóstico
 
