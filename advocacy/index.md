@@ -44,7 +44,8 @@ del Ministerio de Asuntos Económicos y Transformación Digital (CSV
 1471189-94538828), que desestima el fondo de la solicitud, fundamentándose en
 informes previos de la extinta Comisión Nacional de la Competencia (CNC) de 2009 y
 2012, sin analizar la normativa y jurisprudencia europea posterior aportada en la
-petición.
+petición. Este informe se aportó como parte del expediente en sede judicial, con
+posterioridad a la interposición de la demanda.
 [Descargar informe DGPOLECO]({{ '/assets/docs/informe-dgpoleco-2022.pdf' | relative_url }})
 
 **03/07/2024** — Sentencia nº 525/2024 de la Audiencia Nacional (Sala de lo
@@ -68,12 +69,14 @@ perjudicar al peticionario.
 [Descargar recurso de casación]({{ '/assets/docs/recurso-casacion-2024-09.pdf' | relative_url }})
 
 **16/10/2024** — El Tribunal Supremo (Sala de lo Contencioso-Administrativo,
-Sección Primera; ponente Excmo. Sr. D. Diego Córdoba Castroverde) inadmite por
-providencia el recurso de casación, por razones estrictamente formales: falta de
+Sección Primera) inadmite por providencia el recurso de casación, por razones
+estrictamente formales: falta de
 fundamentación suficiente del interés casacional objetivo (art. 89.2.f y 90.4.b
 LJCA) y falta de justificación del juicio de relevancia exigido por el art. 89.2.d
 LJCA. No entra a valorar el fondo del asunto. Impone una tasación de costas de
 hasta 1.000 € más IVA.
+Código Seguro de Verificación: `E04799402-MI:kdc9-RGcS-ZKEZ-DQGa-G`
+([verificar en administraciondejusticia.gob.es](https://www.administraciondejusticia.gob.es)).
 
 **25/11/2024** — La misma Sección inadmite, también por providencia, el
 incidente de nulidad de actuaciones planteado contra la providencia anterior:
@@ -81,6 +84,8 @@ considera que no hubo indefensión, aplicación arbitraria de la norma ni error
 patente, remitiéndose a lo ya razonado sobre la insuficiente justificación del
 interés casacional objetivo y del juicio de relevancia. Sin costas. La sentencia
 de la Audiencia Nacional deviene firme.
+Código Seguro de Verificación: `E04799402-MI:dXdY-HWsh-cSSU-msoM-Q`
+([verificar en administraciondejusticia.gob.es](https://www.administraciondejusticia.gob.es)).
 
 **31/12/2025** — El interesado tiene conocimiento formal de la firmeza de la
 resolución judicial.
