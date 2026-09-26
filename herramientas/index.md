@@ -23,6 +23,10 @@ una cifra concreta (la ofertada o adjudicada) frente a dos suelos de
 referencia objetivos, derivados de fuentes normativas y de coste, no de
 un criterio colegial.
 
+Si lo que necesitas es calcular de antemano una banda de referencia para
+un encargo —en vez de evaluar una cifra ya ofertada— usa el
+[**estimador de banda de honorarios →**]({{ '/herramientas/estimacion/' | relative_url }}).
+
 ### Alcance
 
 - **Encargo**: redacción de proyecto, dirección facultativa de obra, o
@@ -140,6 +144,7 @@ incluso con costes conservadores.
 
 ## Más información
 
+[**Estimador de banda de honorarios →**]({{ '/herramientas/estimacion/' | relative_url }})
 [**Ver memoria técnica de la calculadora →**]({{ '/herramientas/metodologia/' | relative_url }})
 [**Ver Marco Legal completo →**]({{ '/marco-legal/' | relative_url }})
 [**Leer artículo académico →**]({{ '/publicaciones/' | relative_url }})

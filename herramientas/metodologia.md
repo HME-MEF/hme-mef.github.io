@@ -5,11 +5,13 @@ title: "Memoria técnica de la calculadora"
 
 # Memoria técnica del modelo de cálculo
 
-Este documento explica el origen y el estatus de cada dato que emplea el
-[evaluador de indicios de discriminación retributiva]({{ '/herramientas/' | relative_url }}),
-para que quien lo use pueda distinguir qué es una cifra normativa, qué es
+Este documento explica el origen y el estatus de cada dato que emplean el
+[evaluador de indicios de discriminación retributiva]({{ '/herramientas/' | relative_url }})
+y el [estimador de banda de honorarios]({{ '/herramientas/estimacion/' | relative_url }}),
+para que quien las use pueda distinguir qué es una cifra normativa, qué es
 un benchmark de industria no oficial, y qué es una hipótesis propia
-—editable y discutible— del modelo.
+—editable y discutible— del modelo. Ambas herramientas comparten el mismo
+motor de cálculo (estimación de horas, suelo de coste, suelo MEF).
 
 No es una tarifa ni un baremo: es una metodología de justificación de
 coste, construida por capas explícitas.
@@ -99,7 +101,8 @@ referencia (Ripollet / Santa Margarida).
 
 ## Más información
 
-[**Volver a Herramientas →**]({{ '/herramientas/' | relative_url }})
+[**Evaluador de indicios de discriminación →**]({{ '/herramientas/' | relative_url }})
+[**Estimador de banda de honorarios →**]({{ '/herramientas/estimacion/' | relative_url }})
 [**Ver Marco Legal completo →**]({{ '/marco-legal/' | relative_url }})
 
 ---
