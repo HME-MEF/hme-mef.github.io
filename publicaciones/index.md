@@ -49,30 +49,6 @@ Documento origen de la investigación. Revisa la evolución de la regulación de
 
 ---
 
-## Cómo citar
-
-**Formato APA:**
-```
-Alvira, R. (2026). Minimum equivalent fees: A proposal to re-establish
-income equality for equivalent work. Italian Labour Law e-Journal, 19(1), 19–40.
-https://doi.org/10.60923/issn.1561-8048/23568
-```
-
-**BibTeX:**
-```bibtex
-@article{alvira2026mef,
-  author = {Alvira, Ricardo},
-  title = {Minimum Equivalent Fees. A proposal to re-establish income equality for equivalent work},
-  journal = {Italian Labour Law e-Journal},
-  volume = {19},
-  number = {1},
-  year = {2026},
-  doi = {10.60923/issn.1561-8048/23568}
-}
-```
-
----
-
 ## Presentaciones formales relacionadas
 
 El artículo y la ponencia han sido citados como fundamento en las presentaciones formales ante administraciones españolas (Ministerio de Economía, Comercio y Empresa; Defensor del Pueblo).
