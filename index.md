@@ -6,7 +6,7 @@ excerpt: "Propuesta de regulación de mínimos de honorarios para profesionales 
 
 ## ¿Qué es HME?
 
-**Honorarios Mínimos Equivalentes (HME)** —o **Mínimos Equivalentes de Honorarios (MEF)**— es una propuesta para establecer un piso mínimo de retribución para profesionales autónomos (arquitectos, ingenieros, consultores, etc.), basada en el principio de no discriminación constitucional.
+**Honorarios Mínimos Equivalentes (HME)** —o en inglés, **Minimum Equivalent Fees (MEF)**— es una propuesta para establecer un piso mínimo de retribución para profesionales autónomos (arquitectos, ingenieros, consultores, etc.), basada en el principio de no discriminación constitucional.
 
 El concepto sostiene que:
 
