@@ -28,7 +28,6 @@ La "remuneración suficiente" debe ser equivalente para trabajo equivalente, ind
 ### Jurisprudencia constitucional relevante
 
 - **STC 31/1984**: Reconoce que la discriminación requiere "tratamiento diferenciado injustificado"
-- **STC 18/2011**: Análisis de igualdad material en relaciones de trabajo
 
 ---
 
@@ -171,12 +170,35 @@ a sus encomiendas de gestión. Estos tramos son la referencia empleada
 [herramienta de evaluación]({{ '/herramientas/' | relative_url }}) de este sitio.
 [Descargar Resolución SEGIPSA (BOE 27/5/2015)]({{ '/assets/docs/segipsa-boe-2015-es.pdf' | relative_url }})
 
-### CNMC — Decisión CNS/DC/902/23 (26/9/2023)
+### CNMC — Comunicación CNS/DC/902/23 (26/9/2023)
 
-Reconoce que negociaciones colectivas sobre tarifas de servicios profesionales pueden ser legales cuando:
-- Responden a interés público (no discriminación, viabilidad económica)
-- No son impuestas por asociaciones de forma coercitiva
-- Existe análisis de costes riguroso
+Comunicación de la Dirección de Competencia de la CNMC, en respuesta a una
+consulta de asociaciones y colegios de profesionales sanitarios, sobre la
+aplicación a España de las Directrices de la Comisión Europea 2022/C
+374/02 sobre el Derecho de la competencia de la UE y la negociación
+colectiva de personas que trabajan por cuenta propia **sin asalariados**.
+
+La CNMC confirma que, conforme a las Directrices, quedan **fuera del
+ámbito del art. 101 TFUE** los convenios colectivos que negocien
+autónomos sin asalariados que se encuentren en alguna de estas
+situaciones: (a) dependencia económica (≥50% de ingresos de una sola
+contraparte); (b) trabajo "codo con codo" con trabajadores por cuenta
+ajena, en condiciones equiparables; o (c) dependencia de plataformas
+digitales. Además, la Dirección de Competencia declara que **no
+intervendrá**, aunque no se cumplan esos supuestos, cuando exista un
+desequilibrio de poder de negociación frente a la contraparte —en
+particular, cuando esta represente a todo un sector o tenga un volumen
+de negocio anual superior a 2.000.000 € o 10 o más empleados.
+
+**Alcance — importante:** esta comunicación se refiere expresamente a
+personas que trabajan por cuenta propia **sin asalariados**. No cubre,
+tal cual, al profesional autónomo con empleados a su cargo (un estudio de
+arquitectura con plantilla, por ejemplo), cuyo encaje en el art. 101 TFUE
+requeriría un análisis distinto. HME se apoya en ella como precedente de
+que la CNMC admite excepciones al art. 101 TFUE basadas en el
+desequilibrio de poder de negociación del trabajador autónomo, no como
+cobertura directa de cualquier forma de ejercicio profesional.
+[Descargar comunicación CNMC CNS/DC/902/23]({{ '/assets/docs/cnmc-cns-dc-902-23-2023.pdf' | relative_url }})
 
 ---
 
@@ -295,6 +317,7 @@ Sentencia que reconoce derechos de divulgación de obra arquitectónica por moti
 | Legge (IT) 2/3/1949, n. 143 | Capo I, art. 4 | [PDF]({{ '/assets/docs/legge-143-1949-it.pdf' | relative_url }}) |
 | DM (IT) 17/6/2016 | Arts. 2-6 | [PDF]({{ '/assets/docs/dm-17-giugno-2016-it.pdf' | relative_url }}) |
 | D.Lgs. (IT) 31/12/2024, n. 209 | — (referencia general) | [gazzettaufficiale.it](https://www.gazzettaufficiale.it/eli/id/2025/01/22/25A00154/sg) |
+| CNMC, CNS/DC/902/23 (26/9/2023) | — (autónomos sin asalariados) | [PDF]({{ '/assets/docs/cnmc-cns-dc-902-23-2023.pdf' | relative_url }}) |
 
 ---
 

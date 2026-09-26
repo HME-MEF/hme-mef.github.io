@@ -50,7 +50,7 @@ Esta desigualdad no es eficiencia del mercado, sino dumping por falta de protecc
 
 - **Artículo 14 CE** (igualdad): no discriminación en retribución por trabajo equivalente
 - **Artículo 35 CE** (derecho al trabajo): "remuneración suficiente" debe ser equivalente
-- **Jurisprudencia constitucional** (STC 31/1984, STC 18/2011)
+- **Jurisprudencia constitucional** (STC 31/1984)
 
 ### ¿Es compatible con la Directiva de Servicios (2006/123/CE)?
 
