@@ -260,10 +260,6 @@ fórmula específica utilizados en este sitio.
 [Ver texto oficial (Gazzetta Ufficiale)](https://www.gazzettaufficiale.it/eli/id/2025/01/22/25A00154/sg) ·
 [Ver en Normattiva](https://www.normattiva.it/eli/id/2024/12/31/24G00231/ORIGINAL)
 
-### Francia — CNOA y RIBA
-
-Marcos profesionales con referencias de costes mínimos.
-
 ### Alemania — HOAI
 
 Honorarordnung für Architekten und Ingenieure: tabla de mínimos actualizados periódicamente por análisis de mercado.
@@ -287,7 +283,7 @@ Honorarordnung für Architekten und Ingenieure: tabla de mínimos actualizados p
 **No**, porque:
 - Directiva 2006/123/CE art. 15 permite restricciones por razones imperativas
 - No discriminación es razón imperativa reconocida
-- Hay precedente de modelos similares en UE (Italia, Francia, Alemania)
+- Hay precedente de modelos similares en la UE (Italia)
 
 ---
 
@@ -329,5 +325,4 @@ Sentencia que reconoce derechos de divulgación de obra arquitectónica por moti
 
 ---
 
-**Última actualización**: Septiembre 2026  
-**Responsable**: Ricardo Alvira Baeza
+**Última actualización**: Septiembre 2026

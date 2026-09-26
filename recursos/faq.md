@@ -63,7 +63,7 @@ Esta desigualdad no es eficiencia del mercado, sino dumping por falta de protecc
 1. **No es un acuerdo entre competidores** (prohibido), sino regulación estatal
 2. **Responde a objetivo de interés general** (no discriminación)
 3. **No elimina la competencia en precio** (es piso, no precio único)
-4. **Hay precedentes en UE**: Italia, Francia, Alemania tienen modelos similares
+4. **Hay precedente en UE**: Italia tiene un modelo similar (DM 17/6/2016)
 
 ---
 
@@ -145,10 +145,8 @@ Similar al modelo italiano (DM anual).
 
 | País | Modelo | Status |
 |---|---|---|
-| **Italia** | DM 17/6/2016: Tarifa mínima = CD + 30% GG + 15% BI | Vigente |
-| **Francia** | CNOA: referencias de costes (no obligatorio) | Orientativo |
-| **Alemania** | HOAI: tabla de mínimos por tipología | Vigente |
-| **Portugal** | Referencia de cálculo de costes | Orientativo |
+| **Italia** | DM 17/6/2016: CP = Σ(V·G·Q·P), tarifa horaria art. 6.2 | Vigente |
+| **Alemania** | HOAI: tabla de mínimos por tipología | Mínimos obligatorios declarados contrarios al Derecho UE (STJUE C-377/17, 2019) |
 | **España** | Propuesta HME | En advocacy |
 
 ### ¿Se basa la propuesta HME en el modelo italiano?
@@ -247,5 +245,4 @@ Contacta con:
 
 ---
 
-**Última actualización**: Septiembre 2026  
-**Responsable**: Ricardo Alvira Baeza
+**Última actualización**: Septiembre 2026
