@@ -235,8 +235,7 @@ HME *corrige* fallo de mercado, no lo distorsiona.
 
 ### ¿Cómo colaborar?
 
-A través del [formulario de contacto]({{ '/recursos/contacto/' | relative_url }}),
-o directamente en 📧 [{{ site.author_email }}](mailto:{{ site.author_email }}).
+A través del [formulario de contacto]({{ '/recursos/contacto/' | relative_url }}).
 
 - Académicos: citas, referencias, análisis complementarios
 - Profesionales: datos de costes, testimonios de dumping, o de

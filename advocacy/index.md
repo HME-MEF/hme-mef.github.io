@@ -171,8 +171,7 @@ queja ante el Defensor del Pueblo.
 ¿Conoces una actuación administrativa o judicial similar, o quieres
 proponer una colaboración?
 
-[**Formulario de contacto →**]({{ '/recursos/contacto/' | relative_url }}) ·
-📧 [{{ site.author_email }}](mailto:{{ site.author_email }})
+[**Formulario de contacto →**]({{ '/recursos/contacto/' | relative_url }})
 
 ---
 

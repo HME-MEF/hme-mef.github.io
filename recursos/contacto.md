@@ -53,9 +53,6 @@ metodología o el marco legal del proyecto.
 
 ---
 
-También puedes escribir directamente a
-📧 [{{ site.author_email }}](mailto:{{ site.author_email }}).
-
 - **Académicos**: citas, referencias, análisis complementarios.
 - **Profesionales**: datos de costes, testimonios de dumping, casos similares al de Ripollet/Santa Margarida.
 - **Administraciones**: colaboración técnica, criterios comparables de otras comunidades o países.
@@ -100,8 +97,7 @@ function enviarContacto(e){
   })
   .catch(function(err){
     status.style.color = '#a3261a';
-    status.innerHTML = 'No se pudo enviar el mensaje. Escribe directamente a ' +
-      '<a href="mailto:{{ site.author_email }}">{{ site.author_email }}</a>.';
+    status.textContent = 'No se pudo enviar el mensaje. Inténtalo de nuevo en unos minutos.';
     btn.textContent = 'Enviar mensaje';
     btn.disabled = false;
   });

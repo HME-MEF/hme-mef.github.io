@@ -98,7 +98,7 @@ En el principio constitucional de no discriminación (arts. 14 y 35 CE): a igual
 
 ¿Preguntas, comentarios o colaboraciones?
 
-📧 [{{ site.author_email }}](mailto:{{ site.author_email }})
+[**Formulario de contacto →**]({{ '/recursos/contacto/' | relative_url }})
 
 ---
 
