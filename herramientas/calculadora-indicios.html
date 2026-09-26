@@ -75,8 +75,33 @@
           <legend>Edificación</legend>
           <label for="pem">PEM — Presupuesto de Ejecución Material (€)</label>
           <input type="number" id="pem" value="1500000" min="0" step="1000">
-          <div class="hint">Se usa como referencia de contexto (% del PEM que representa el honorario evaluado).</div>
+          <div class="hint">Se usa como referencia de contexto (% del PEM) y como base V de la estimación de horas.</div>
 
+          <label for="tipologia">Tipología del edificio</label>
+          <select id="tipologia">
+            <option value="vivienda">Vivienda (unifamiliar o colectiva)</option>
+            <option value="educativo_sanitario">Educativo / sanitario (escuela, centro de salud, hospital)</option>
+            <option value="cultural" selected>Cultural / social / deportivo (biblioteca, museo, teatro, polideportivo)</option>
+            <option value="administrativo_seguridad">Administrativo / seguridad (oficinas públicas, comisaría, juzgado)</option>
+            <option value="industrial">Industrial / turístico / comercial</option>
+          </select>
+
+          <label for="complejidad">Grado de complejidad</label>
+          <select id="complejidad">
+            <option value="baja">Baja</option>
+            <option value="media" selected>Media</option>
+            <option value="alta">Alta</option>
+          </select>
+          <div class="hint">
+            La tipología y el grado de complejidad determinan el parámetro G (grado di complessità),
+            leído directamente de la Tabla Z-1 del DM 17/6/2016 — ver
+            <a href="{{ '/marco-legal/' | relative_url }}">Marco Legal</a>. Es una categorización
+            orientativa por grandes grupos, no la tabla completa de subcategorías del decreto.
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Alcance del encargo</legend>
           <label for="encargo">Tipo de encargo</label>
           <select id="encargo">
             <option value="redaccion">Redacción de proyecto</option>
@@ -84,7 +109,9 @@
             <option value="ambos" selected>Redacción + Dirección</option>
           </select>
 
-          <label for="procedimiento">Procedimiento</label>
+          <label><input type="checkbox" id="coordseg"> Incluye coordinación de seguridad y salud (ESS + CSS)</label>
+
+          <label for="procedimiento" style="margin-top:10px;">Procedimiento</label>
           <select id="procedimiento">
             <option value="publico">Concurso público</option>
             <option value="privado">Encargo privado</option>
@@ -92,13 +119,22 @@
         </fieldset>
 
         <fieldset>
-          <legend>Contenido de trabajo</legend>
-          <label for="hme">Horas estimadas del encargo — HME (h)</label>
-          <input type="number" id="hme" value="1500" min="1" step="10">
+          <legend>Horas del encargo — HME</legend>
+          <div class="result-row" style="border:none; padding:2px 0;">
+            <span>Horas estimadas (calculadas)</span><span class="v" id="r-horas">—</span>
+          </div>
           <div class="hint">
-            Estimación profesional del contenido total de horas de trabajo del encargo completo
-            (todas las fases; puede implicar a varias personas y superar una anualidad-persona).
-            Puedes apoyarte en las tablas de referencia de la derecha para contrastarla.
+            Estimadas a partir del PEM, la tipología/complejidad (G) y el alcance del encargo (ΣQ),
+            aplicando la fórmula del DM 17/6/2016 (CP = V·G·ΣQ·P) y convirtiendo el resultado a horas
+            mediante la tarifa de referencia de 60,5 €/h. No requiere que introduzcas una estimación
+            propia de horas: se deriva de datos objetivos de la obra, no de un juicio subjetivo del
+            evaluador. Es el mismo método usado para el caso de referencia (Ripollet / Sta. Margarida)
+            más abajo.
+          </div>
+          <label style="margin-top:8px;"><input type="checkbox" id="hme-manual-toggle" onchange="toggleHmeManual()"> Ajustar manualmente las horas (juicio profesional)</label>
+          <div id="hme-manual-wrap" style="display:none; margin-top:6px;">
+            <label for="hme">Horas estimadas del encargo — HME (h)</label>
+            <input type="number" id="hme" value="1500" min="1" step="10">
           </div>
         </fieldset>
 
@@ -195,17 +231,74 @@
 const SUELO_COSTE = 49.50;
 const MEF_CONVENIO = 31.08;
 const MEF_SMI = 21.59;
+const REF_CONVERSION = 60.5; // €/h — extremo inferior art. 6.2 DM 17/6/2016, actualizado por IPC italiano 2016→2024
+
+// G (grado di complessità), Tabla Z-1 del DM 17/6/2016 — categorías orientativas por grandes grupos
+const G_TABLE = {
+  vivienda:                 { baja:0.65, media:0.95, alta:1.20 },
+  educativo_sanitario:      { baja:0.95, media:1.15, alta:1.20 },
+  cultural:                 { baja:1.15, media:1.15, alta:1.20 },
+  administrativo_seguridad: { baja:0.65, media:0.95, alta:1.20 },
+  industrial:               { baja:0.65, media:0.95, alta:1.20 }
+};
+
+// ΣQ (incidencia de fases), aproximación agregada a partir de la Tabla Z-2 del DM 17/6/2016
+const Q_REDACCION = 0.86;  // proyecto básico + ejecución, incl. PSC
+const Q_DIRECCION = 0.44;  // dirección de obra, sin coordinación de seguridad
+const Q_COORDSEG  = 0.35;  // coordinación de seguridad y salud (ESS + CSS)
 
 function fmt(n){
   return n.toLocaleString('es-ES', {maximumFractionDigits:2, minimumFractionDigits:2});
 }
 
+function toggleHmeManual(){
+  const on = document.getElementById('hme-manual-toggle').checked;
+  document.getElementById('hme-manual-wrap').style.display = on ? 'block' : 'none';
+}
+
+function horasEstimadas(pem){
+  const tipologia = document.getElementById('tipologia').value;
+  const complejidad = document.getElementById('complejidad').value;
+  const encargo = document.getElementById('encargo').value;
+  const coordseg = document.getElementById('coordseg').checked;
+
+  const G = G_TABLE[tipologia][complejidad];
+
+  let SQ = 0;
+  if (encargo === 'redaccion') SQ = Q_REDACCION;
+  else if (encargo === 'direccion') SQ = Q_DIRECCION;
+  else SQ = Q_REDACCION + Q_DIRECCION;
+  if (coordseg) SQ += Q_COORDSEG;
+
+  const V = pem > 0 ? pem : 1;
+  const P = 0.03 + 10 / Math.pow(V, 0.4);
+  const spese = V <= 1000000 ? 0.25
+              : V >= 25000000 ? 0.10
+              : 0.25 + (0.10 - 0.25) * (V - 1000000) / (24000000);
+
+  const CP = V * G * SQ * P * (1 + spese);
+  const horas = CP / REF_CONVERSION;
+
+  return { horas, G, SQ, P, spese, CP };
+}
+
 function calcular(){
   const pem = parseFloat(document.getElementById('pem').value) || 0;
-  const hme = parseFloat(document.getElementById('hme').value) || 1;
   const importe = parseFloat(document.getElementById('importe').value) || 0;
   const mefBase = document.querySelector('input[name=mefbase]:checked').value;
   const suelomef = mefBase === 'convenio' ? MEF_CONVENIO : MEF_SMI;
+
+  const manual = document.getElementById('hme-manual-toggle').checked;
+  let hme, calc;
+  if (manual) {
+    hme = parseFloat(document.getElementById('hme').value) || 1;
+  } else {
+    calc = horasEstimadas(pem);
+    hme = calc.horas > 0 ? calc.horas : 1;
+  }
+
+  document.getElementById('r-horas').textContent = fmt(hme) + ' h' +
+    (manual ? ' (manual)' : ' (G=' + fmt(calc.G) + ', ΣQ=' + fmt(calc.SQ) + ')');
 
   const pct = pem > 0 ? (importe/pem*100) : 0;
   const euroh = importe / hme;

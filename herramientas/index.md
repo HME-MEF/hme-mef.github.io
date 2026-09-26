@@ -26,10 +26,12 @@ un criterio colegial.
 ### Alcance
 
 - **Encargo**: redacción de proyecto, dirección facultativa de obra, o
-  ambos.
+  ambos, con o sin coordinación de seguridad y salud.
 - **Procedimiento**: concurso público (licitación) o encargo directo de
   empresa privada.
-- **Tipología**: edificación, en función de su PEM.
+- **Tipología**: edificación, en función de su PEM, uso (vivienda,
+  educativo/sanitario, cultural/social, administrativo/seguridad,
+  industrial) y grado de complejidad.
 - **No cubre**: urbanismo, informes periciales, tasaciones, ni encargos
   de otras profesiones.
 
@@ -44,6 +46,30 @@ un criterio colegial.
 
 ### Metodología
 
+**Estimación de horas (HME).** A diferencia de una primera versión de
+esta herramienta, las horas del encargo no se piden como una estimación
+subjetiva del usuario: se calculan automáticamente a partir de tres datos
+objetivos de la obra:
+
+1. **PEM** (V) — el valor de la obra.
+2. **Tipología y grado de complejidad** — determinan el parámetro G
+   (grado di complessità), leído de la Tabla Z-1 del DM 17/6/2016 por
+   grandes categorías (vivienda, educativo/sanitario, cultural/social,
+   administrativo/seguridad, industrial).
+3. **Alcance del encargo** (redacción, dirección, o ambos, con o sin
+   coordinación de seguridad) — determina ΣQ, una aproximación agregada
+   de la incidencia de fases de la Tabla Z-2 del mismo decreto.
+
+Con estos tres datos se aplica la fórmula del DM 17/6/2016 —
+CP = V·G·ΣQ·P, con P = 0,03 + 10/V^0,4 y gastos forfettari según el
+tramo de V (art. 5)— y el resultado se convierte a horas dividiendo entre
+60,5 €/h (extremo inferior de la banda del art. 6.2, actualizado por IPC
+italiano 2016→2024). Es exactamente el método ya usado para calcular las
+"horas de diseño implícitas" del caso de referencia (Ripollet / Santa
+Margarida) que se muestra más abajo, y que ya estaba validado contra
+datos reales antes de automatizarlo aquí. Quien prefiera introducir su
+propio juicio profesional puede activar el ajuste manual de horas.
+
 La herramienta calcula dos suelos propios y sitúa el importe evaluado
 frente a ellos:
 
@@ -56,20 +82,14 @@ frente a ellos:
   SMI): HME × tarifa MEF/h — el suelo antidiscriminatorio propiamente
   dicho.
 
-Las tablas de referencia (SEGIPSA, DM italiano) se muestran como
-consulta manual, no se aplican automáticamente. Los tramos de SEGIPSA
-están verificados directamente contra la Resolución de 11/5/2015 (BOE
-27/5/2015) — ver [Marco Legal]({{ '/marco-legal/' | relative_url }}) —,
-pero no se aplican de forma automática porque tarifan encomiendas de
-gestión de la propia Administración, no cualquier encargo evaluado aquí.
-Los parámetros de complejidad G/Q del modelo italiano requieren
-identificar la categoría de edificio concreta en la tabla oficial
-completa (Tablas Z-1 y Z-2 del DM 17/6/2016), que no se simplifica aquí
-para no introducir umbrales aproximados. El usuario introduce
-directamente su propia estimación de horas del encargo (HME), pudiendo
-contrastarla con esas tablas — por ejemplo, dividiendo un importe de
-referencia entre 60,5 €/h (extremo inferior de la banda del art. 6.2 del
-DM italiano, actualizado por IPC italiano 2016→2024).
+Las tablas SEGIPSA y DM italiano que se muestran junto al resultado son
+de consulta manual y no se aplican automáticamente al cálculo. Los
+tramos de SEGIPSA están verificados directamente contra la Resolución de
+11/5/2015 (BOE 27/5/2015) — ver [Marco Legal]({{ '/marco-legal/' | relative_url }}).
+La categorización de tipología/complejidad usada para G es una
+simplificación orientativa por grandes grupos de la Tabla Z-1 completa,
+igual que ΣQ es una aproximación agregada de la Tabla Z-2, no el
+desglose línea a línea del decreto.
 
 ### Diagnóstico
 
