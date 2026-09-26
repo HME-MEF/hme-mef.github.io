@@ -235,11 +235,12 @@ HME *corrige* fallo de mercado, no lo distorsiona.
 
 ### ¿Cómo colaborar?
 
-Contacta con:  
-📧 **[ricardo@hme-mef.es](mailto:ricardo@hme-mef.es)**
+A través del [formulario de contacto]({{ '/recursos/contacto/' | relative_url }}),
+o directamente en 📧 [{{ site.author_email }}](mailto:{{ site.author_email }}).
 
 - Académicos: citas, referencias, análisis complementarios
-- Profesionales: datos de costes, testimonios de dumping
+- Profesionales: datos de costes, testimonios de dumping, o de
+  actuaciones administrativas o judiciales similares
 - Administraciones: colaboración técnica
 - Medios: difusión de propuesta
 

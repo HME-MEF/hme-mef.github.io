@@ -141,8 +141,10 @@ queja ante el Defensor del Pueblo.
 
 ## Contacto
 
-¿Preguntas, comentarios o colaboraciones?
+¿Conoces una actuación administrativa o judicial similar, o quieres
+proponer una colaboración?
 
+[**Formulario de contacto →**]({{ '/recursos/contacto/' | relative_url }}) ·
 📧 [{{ site.author_email }}](mailto:{{ site.author_email }})
 
 ---
