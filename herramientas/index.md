@@ -91,6 +91,12 @@ simplificación orientativa por grandes grupos de la Tabla Z-1 completa,
 igual que ΣQ es una aproximación agregada de la Tabla Z-2, no el
 desglose línea a línea del decreto.
 
+Cada dato de entrada (salario de referencia, costes operativos,
+facturabilidad, gastos generales…) tiene un origen y un estatus distinto
+— normativo, convencional, benchmark de industria o hipótesis propia
+editable. El detalle completo, con la derivación paso a paso de los dos
+suelos, está en la [memoria técnica]({{ '/herramientas/metodologia/' | relative_url }}).
+
 ### Diagnóstico
 
 | Resultado | Diagnóstico |
@@ -134,6 +140,7 @@ incluso con costes conservadores.
 
 ## Más información
 
+[**Ver memoria técnica de la calculadora →**]({{ '/herramientas/metodologia/' | relative_url }})
 [**Ver Marco Legal completo →**]({{ '/marco-legal/' | relative_url }})
 [**Leer artículo académico →**]({{ '/publicaciones/' | relative_url }})
 [**Preguntas frecuentes →**]({{ '/recursos/faq/' | relative_url }})
