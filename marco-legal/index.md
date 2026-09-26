@@ -108,7 +108,7 @@ Decreto ministerial que establece **tarifas mínimas de arquitectos** basadas en
 - Gastos generales (30%)
 - Beneficio industrial (15%)
 
-*Modelo de referencia directo para HME.*
+*El fundamento de HME no es este decreto —la propuesta se planteó en España en 2021, sobre la base del principio constitucional de no discriminación (arts. 14 y 35 CE)—, sino que el DM 17/6/2016 se incorpora después como referencia de método de cálculo y como prueba de que un mecanismo equivalente es jurídicamente viable en la UE.*
 
 ### Francia — CNOA y RIBA
 

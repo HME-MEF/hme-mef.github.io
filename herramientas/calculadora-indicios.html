@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evaluador de indicios de discriminación retributiva — HME</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:#f4f6f9; color:#2c3e50; line-height:1.5; padding:20px;
+  }
+  .wrap { max-width:1100px; margin:0 auto; }
+  .card {
+    background:#fff; border-radius:10px; box-shadow:0 4px 18px rgba(0,0,0,.08);
+    padding:28px 30px; margin-bottom:22px;
+  }
+  h1 { font-size:22px; color:#1F3864; margin-bottom:6px; }
+  .subtitle { color:#595959; font-size:13px; margin-bottom:18px; }
+  h2 { font-size:15px; color:#1F3864; margin:18px 0 10px; border-bottom:2px solid #D9E1F2; padding-bottom:6px; }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:26px; }
+  @media (max-width:760px){ .grid{grid-template-columns:1fr;} }
+  label { display:block; font-size:12.5px; font-weight:600; color:#34495e; margin-bottom:4px; }
+  .hint { font-size:11px; color:#7f8c8d; margin:2px 0 12px; }
+  input[type=number], select {
+    width:100%; padding:9px 10px; border:1px solid #c7ccd1; border-radius:5px;
+    font-size:13.5px; margin-bottom:4px; background:#fff;
+  }
+  input:focus, select:focus { outline:none; border-color:#3498db; }
+  fieldset { border:1px solid #e3e7ea; border-radius:6px; padding:12px 14px; margin-bottom:14px; }
+  legend { font-size:12px; font-weight:700; color:#1F3864; padding:0 6px; }
+  .row { display:flex; gap:10px; }
+  .row > div { flex:1; }
+  button {
+    background:#1F3864; color:#fff; border:none; padding:12px 20px; border-radius:6px;
+    font-size:14px; font-weight:600; cursor:pointer; width:100%; margin-top:6px;
+  }
+  button:hover { background:#16294d; }
+  .result-box { background:#f8f9fb; border-radius:8px; padding:16px 18px; margin-bottom:14px; }
+  .result-row { display:flex; justify-content:space-between; padding:6px 0; border-bottom:1px solid #eceff2; font-size:13px; }
+  .result-row:last-child { border-bottom:none; }
+  .result-row .v { font-weight:700; }
+  .diag {
+    margin-top:14px; padding:16px; border-radius:8px; font-size:14px; font-weight:600;
+  }
+  .diag.ok { background:#e6f6ec; color:#1e7e42; border-left:5px solid #27ae60; }
+  .diag.warn { background:#fff6e0; color:#8a6100; border-left:5px solid #f0ad4e; }
+  .diag.bad { background:#fdecea; color:#a3261a; border-left:5px solid #d9534f; }
+  table.ref { width:100%; border-collapse:collapse; font-size:12px; margin-top:6px; }
+  table.ref th, table.ref td { padding:6px 8px; border-bottom:1px solid #eceff2; text-align:left; }
+  table.ref th { background:#f1f3f6; color:#1F3864; font-size:11px; text-transform:uppercase; }
+  .notice { font-size:11.5px; color:#7f8c8d; background:#f8f9fb; border-radius:6px; padding:10px 12px; margin-top:10px; }
+  .scope { font-size:12px; background:#eef3fb; border-left:4px solid #3498db; padding:10px 14px; border-radius:6px; margin-bottom:18px; color:#2c3e50; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="card">
+    <h1>Evaluador de indicios de discriminación retributiva</h1>
+    <div class="subtitle">Redacción de proyecto y/o dirección de obra de arquitectos · concurso público o encargo privado · en función del PEM</div>
+
+    <div class="scope">
+      <strong>Alcance:</strong> esta herramienta evalúa un único tipo de encargo — redacción de proyecto
+      y/o dirección facultativa de obra de arquitectos, en concurso público o encargo directo de empresa privada —
+      comparando el importe ofertado o adjudicado frente a dos suelos de referencia (coste y MEF).
+      No es una calculadora general de honorarios ni sustituye ningún baremo.
+    </div>
+
+    <div class="grid">
+      <!-- INPUTS -->
+      <div>
+        <h2>Datos del encargo</h2>
+
+        <fieldset>
+          <legend>Edificación</legend>
+          <label for="pem">PEM — Presupuesto de Ejecución Material (€)</label>
+          <input type="number" id="pem" value="1500000" min="0" step="1000">
+          <div class="hint">Se usa como referencia de contexto (% del PEM que representa el honorario evaluado).</div>
+
+          <label for="encargo">Tipo de encargo</label>
+          <select id="encargo">
+            <option value="redaccion">Redacción de proyecto</option>
+            <option value="direccion">Dirección de obra</option>
+            <option value="ambos" selected>Redacción + Dirección</option>
+          </select>
+
+          <label for="procedimiento">Procedimiento</label>
+          <select id="procedimiento">
+            <option value="publico">Concurso público</option>
+            <option value="privado">Encargo privado</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Contenido de trabajo</legend>
+          <label for="hme">Horas estimadas del encargo — HME (h)</label>
+          <input type="number" id="hme" value="1500" min="1" step="10">
+          <div class="hint">
+            Estimación profesional del contenido total de horas de trabajo del encargo completo
+            (todas las fases; puede implicar a varias personas y superar una anualidad-persona).
+            Puedes apoyarte en las tablas de referencia de la derecha para contrastarla.
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Importe a evaluar</legend>
+          <label for="importe">Importe ofertado o adjudicado (€)</label>
+          <input type="number" id="importe" value="45000" min="0" step="500">
+        </fieldset>
+
+        <fieldset>
+          <legend>Suelo MEF — base de cálculo</legend>
+          <div class="row">
+            <div>
+              <label><input type="radio" name="mefbase" value="convenio" checked> Convenio (31,08 €/h)</label>
+            </div>
+            <div>
+              <label><input type="radio" name="mefbase" value="smi"> SMI (21,59 €/h)</label>
+            </div>
+          </div>
+          <div class="hint">Convenio = salario de convenio de ingeniería y oficinas técnicas. SMI = salario mínimo interprofesional. El convenio es el suelo de referencia principal; el SMI, el umbral absoluto.</div>
+        </fieldset>
+
+        <button onclick="calcular()">Evaluar</button>
+      </div>
+
+      <!-- RESULTS -->
+      <div>
+        <h2>Resultado</h2>
+
+        <div class="result-box">
+          <div class="result-row"><span>% del PEM que representa el importe evaluado</span><span class="v" id="r-pct">—</span></div>
+          <div class="result-row"><span>€/h del importe evaluado</span><span class="v" id="r-euroh">—</span></div>
+          <div class="result-row"><span>Suelo de coste (referencia)</span><span class="v">49,50 €/h</span></div>
+          <div class="result-row"><span>Suelo MEF (umbral antidiscriminatorio)</span><span class="v" id="r-mef">—</span></div>
+        </div>
+
+        <div id="diagnostico" class="diag" style="display:none;"></div>
+
+        <h2>Tablas de referencia (consulta manual)</h2>
+        <table class="ref">
+          <tr><th>Modelo</th><th>Concepto</th><th>Valor</th></tr>
+          <tr><td rowspan="2">SEGIPSA (BOE 27/5/2015)</td><td>Redacción de proyecto</td><td>3,60% – 6,65% PEM (según tramo)</td></tr>
+          <tr><td>Dirección facultativa</td><td>3,08% – 5,68% PEM (según tramo)</td></tr>
+          <tr><td rowspan="2">Italia, DM 17/6/2016</td><td>Tarifa horaria art. 6.2</td><td>50 – 75 €/h (2016)</td></tr>
+          <tr><td>Fórmula</td><td>CP = Σ(V·G·Q·P), P = 0,03 + 10/V^0,4</td></tr>
+        </table>
+        <div class="notice">
+          Estas tablas son de consulta manual: los tramos exactos del BOE y los parámetros G/Q del
+          DM italiano no se aplican automáticamente aquí porque requieren la tabla oficial completa
+          por categoría de edificación. Úsalas para contrastar tu propia estimación de HME o el
+          importe evaluado, no como cálculo automático del suelo.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0;">Caso de referencia (validación del modelo)</h2>
+    <table class="ref">
+      <tr><th>Concepto</th><th>Ripollet (Biblioteca)</th><th>Sta. Margarida (Comisaría)</th></tr>
+      <tr><td>PEM</td><td>2.966.214 €</td><td>1.287.888 €</td></tr>
+      <tr><td>Redacción adjudicada</td><td>196.950 € (6,64% PEM)</td><td>40.597 € (3,15% PEM)</td></tr>
+      <tr><td>Horas de diseño implícitas</td><td>≈ 3.493 h</td><td>≈ 1.432 h</td></tr>
+      <tr><td>€/h realmente pagado</td><td>56,4 €/h</td><td>28,3 €/h</td></tr>
+      <tr><td>Suelo MEF</td><td>31,08 €/h</td><td>31,08 €/h</td></tr>
+      <tr><td><strong>Diagnóstico</strong></td><td>Adecuado</td><td><strong>Indicio de discriminación</strong></td></tr>
+    </table>
+    <div class="notice">Fuente: Observatorio de Honorarios COAM (26/5/2025). Horas implícitas derivadas de la referencia italiana de redacción a 60,5 €/h (extremo inferior art. 6.2 DM 2016, actualizado por IPC italiano 2016→2024).</div>
+  </div>
+
+  <div class="card notice">
+    Esta herramienta no es asesoramiento jurídico ni un baremo de honorarios. Los valores monetarios
+    (SMI, convenio, tarifas) deben actualizarse periódicamente conforme al IPC. El vehículo admisible
+    para un suelo retributivo es la norma estatal o el control de la contratación pública (oferta
+    anormalmente baja, art. 149 LCSP) — nunca una tabla de origen colegial. Un resultado "indicio de
+    discriminación" no acredita por sí solo una infracción: es un punto de partida para revisar el
+    expediente.
+  </div>
+</div>
+
+<script>
+const SUELO_COSTE = 49.50;
+const MEF_CONVENIO = 31.08;
+const MEF_SMI = 21.59;
+
+function fmt(n){
+  return n.toLocaleString('es-ES', {maximumFractionDigits:2, minimumFractionDigits:2});
+}
+
+function calcular(){
+  const pem = parseFloat(document.getElementById('pem').value) || 0;
+  const hme = parseFloat(document.getElementById('hme').value) || 1;
+  const importe = parseFloat(document.getElementById('importe').value) || 0;
+  const mefBase = document.querySelector('input[name=mefbase]:checked').value;
+  const suelomef = mefBase === 'convenio' ? MEF_CONVENIO : MEF_SMI;
+
+  const pct = pem > 0 ? (importe/pem*100) : 0;
+  const euroh = importe / hme;
+
+  document.getElementById('r-pct').textContent = fmt(pct) + '% PEM';
+  document.getElementById('r-euroh').textContent = fmt(euroh) + ' €/h';
+  document.getElementById('r-mef').textContent = fmt(suelomef) + ' €/h';
+
+  const diag = document.getElementById('diagnostico');
+  diag.style.display = 'block';
+
+  if (euroh >= SUELO_COSTE) {
+    diag.className = 'diag ok';
+    diag.innerHTML = '✅ <strong>Adecuado.</strong> El importe evaluado (' + fmt(euroh) +
+      ' €/h) está por encima del suelo de coste (49,50 €/h).';
+  } else if (euroh >= suelomef) {
+    diag.className = 'diag warn';
+    diag.innerHTML = '⚠️ <strong>Ajustado — revisar.</strong> El importe evaluado (' + fmt(euroh) +
+      ' €/h) está entre el suelo MEF (' + fmt(suelomef) + ' €/h) y el suelo de coste (49,50 €/h).';
+  } else {
+    diag.className = 'diag bad';
+    diag.innerHTML = '❌ <strong>Indicio de discriminación retributiva.</strong> El importe evaluado (' +
+      fmt(euroh) + ' €/h) está por debajo del suelo MEF (' + fmt(suelomef) + ' €/h).';
+  }
+}
+
+calcular();
+</script>
+</body>
+</html>

@@ -151,12 +151,20 @@ Similar al modelo italiano (DM anual).
 | **Portugal** | Referencia de cálculo de costes | Orientativo |
 | **España** | Propuesta HME | En advocacy |
 
-### ¿Por qué Italia es modelo de referencia?
+### ¿Se basa la propuesta HME en el modelo italiano?
 
-- Mismo marco legal (Constitución, TFUE)
-- Jurisprudencia análoga
-- Implementación transparente basada en costes
-- Resultados: estabilidad retributiva sin eliminación de competencia
+No. El fundamento de HME es el principio constitucional de no
+discriminación (arts. 14 y 35 CE), planteado formalmente en España en
+marzo de 2021 — antes, por tanto, de que la Ley italiana 49/2023 de
+*equo compenso* existiera. Italia se cita como referencia comparada
+por dos motivos, no como origen de la propuesta:
+
+- El DM 17/6/2016 aporta un método de cálculo (coste directo + gastos
+  generales + beneficio industrial) técnicamente útil para contrastar
+  el suelo MEF.
+- La Ley 49/2023 confirma que otro Estado miembro de la UE ya ha
+  implementado un mecanismo equivalente, lo que respalda la viabilidad
+  jurídica de HME frente al Derecho de la competencia de la Unión.
 
 ---
 

@@ -3,101 +3,69 @@ layout: page
 title: "Publicaciones Académicas"
 ---
 
-## Artículos Académicos
+## Minimum Equivalent Fees. A proposal to re-establish income equality for equivalent work
 
-### Minimum Equivalent Fees (2026)
+**Autor:** Ricardo Alvira
+**Publicado en:** *Italian Labour Law e-Journal*, Issue 1, Vol. 19 (2026), ISSN 1561-8048, Sección Miscellaneous
+**DOI:** [10.60923/issn.1561-8048/23568](https://doi.org/10.60923/issn.1561-8048/23568)
 
-**Título completo:**  
-*Minimum Equivalent Fees. A proposal to re-establish income equality for equivalent work*
+Artículo académico revisado por pares (*double-blind peer review*) que desarrolla y formaliza el marco jurídico de los Honorarios Mínimos Equivalentes (HME/MEF), a partir del documento presentado en el I Congreso de Arquitectos de Madrid (COAM) en 2025.
 
-**Autor:**  
-Ricardo Alvira Baeza
+**Resumen.** La reciente sentencia del TJUE en el asunto C-19/23, que confirma la práctica totalidad de la Directiva 2022/2041 sobre salarios mínimos adecuados, pone de relieve una cuestión no resuelta: la eliminación de los honorarios mínimos profesionales en España, y en la mayoría de los Estados miembros de la UE, ha generado una asimetría estructural entre trabajadores asalariados y autónomos. Esta asimetría compromete el derecho constitucional a una remuneración suficiente y el principio europeo de no discriminación, particularmente en la medida en que los trabajadores autónomos han sido crecientemente tratados como "entidades legales", lo que les priva de derechos inherentes a las personas físicas. A través del análisis de la legislación española y europea, la jurisprudencia constitucional y datos de ingresos de sectores como la arquitectura, el artículo muestra que la regulación vigente produce una discriminación material. A continuación, propone los Honorarios Mínimos Equivalentes (HME) como un mecanismo proporcional y jurídicamente coherente para restablecer la igualdad de ingresos por trabajo equivalente, alineado con el Derecho de la UE y la jurisprudencia del TJUE.
 
-**Publicado en:**  
-*Italian Labour Law e-Journal*, vol. 19, no. 1, 2026, pp. 19–40
+**Palabras clave:** trabajadores autónomos; Honorarios Mínimos Equivalentes; no discriminación; derechos fundamentales; libertad de empresa; Derecho de la Unión Europea.
 
-**DOI:**  
-10.60923/issn.1561-8048/23568
+**Descargas:**
 
-**Editor:**  
-Emanuele Menegatti, University of Bologna
+- [Descargar PDF (inglés, versión publicada)]({{ '/publicaciones/2026-alvira-minimum-equivalent-fees-en.pdf' | relative_url }})
+- [Descargar PDF (español, traducción del autor)]({{ '/publicaciones/2026-alvira-minimum-equivalent-fees-es.pdf' | relative_url }})
 
----
-
-## Descargas
-
-### Versión Inglesa (Publicada)
-
-- **PDF**: [Descargar artículo original (English)]({{ '/assets/documents/Alvira-MEF-2026.pdf' | relative_url }})
-- **HTML**: [Leer en línea →]({{ '/publicaciones/articulos/alvira-mef-2026/' | relative_url }})
-
-### Versión Española (Traducción)
-
-La traducción al español incorpora correcciones a la Tabla 3 ausentes en la versión publicada en inglés, y se propone para su consideración como errata.
-
-- **PDF**: [Descargar traducción (Español)]({{ '/assets/documents/Alvira-HME-2026-ES.pdf' | relative_url }})
-- **HTML**: [Leer en línea →]({{ '/publicaciones/articulos/alvira-hme-2026-es/' | relative_url }})
+La traducción al español ha sido realizada por el propio autor y sigue fielmente el texto publicado.
 
 ---
 
-## Resumen
+## Honorarios Mínimos Profesionales. Un elefante (legislativo) en la habitación
 
-El artículo propone un marco regulatorio para establecer honorarios mínimos equivalentes (HME) para profesionales autónomos en España y la UE.
+**Autor:** Ricardo Alvira Baeza · Dr. Arquitecto, Col. nº 13148 · Dr. en Ciencia Política y de la Administración
+**Ponencia presentada en:** I Congreso de Arquitectos de Madrid (COAM), 2025
 
-### Argumentación central
+Documento origen de la investigación. Revisa la evolución de la regulación de la remuneración de los trabajadores en España durante el último siglo, tanto por cuenta ajena como por cuenta propia, y plantea la desconexión actual entre los honorarios profesionales de los arquitectos y una remuneración suficiente conforme al artículo 35 de la Constitución Española. Este documento constituye la base sobre la que se desarrolló posteriormente el artículo académico *Minimum Equivalent Fees* (2026); el propio artículo lo cita expresamente como el trabajo que desarrolla y amplía.
 
-1. **Brecha retributiva**: Los autónomos perciben significativamente menos que empleados con igual cualificación
-2. **Fundamento constitucional**: Artículos 14 (igualdad) y 35 (derecho al trabajo) de la Constitución española
-3. **Compatibilidad con TFUE**: La propuesta responde a principios de no discriminación (art. 101 TFUE)
-4. **Modelo de referencia**: Italia (DM 17/6/2016) y otros marcos europeos
-5. **Implementación**: Por vía legislativa/regulatoria pública, no por tarifa colegial
-
-### Método de cálculo
-
-**HME = Costo Directo + Gastos Generales (30%) + Beneficio Industrial (15%)**
-
-Donde:
-- **Costo Directo**: Equivalencia a salario profesional empleado
-- **Gastos Generales**: Estructura administrativa, alquiler, seguros, formación continua
-- **Beneficio Industrial**: Margen de ganancia empresarial
+[Descargar PDF]({{ '/publicaciones/2025-alvira-elefante-legislativo-coam.pdf' | relative_url }})
 
 ---
 
 ## Referencias jurisprudenciales clave
 
 - Directiva 2006/123/CE (Servicios), art. 15
-- TJUE C-94/04, C-202/04, C-377/17, C-19/23
+- STJUE *FNV Kunsten* (C-413/13)
+- STJUE *Comisión c. Alemania* (C-377/17, caso HOAI)
+- STJUE C-19/23 (Directiva 2022/2041 sobre salarios mínimos adecuados)
+- Comunicación de la Comisión Europea 2022/C 374/02
 - Constitución Española, arts. 14, 35
-- CNMC CNS/DC/902/23 (26 de septiembre de 2023)
+- CNMC, CNS/DC/902/23 (26 de septiembre de 2023)
+
+[**Ver Marco Legal completo →**]({{ '/marco-legal/' | relative_url }})
 
 ---
 
-## Presentaciones Formales
+## Cómo citar
 
-El artículo ha sido acompañado de presentaciones formales ante administraciones españolas:
+**Formato APA:**
+```
+Alvira, R. (2026). Minimum equivalent fees: A proposal to re-establish
+income equality for equivalent work. Italian Labour Law e-Journal, 19(1), 19–40.
+https://doi.org/10.60923/issn.1561-8048/23568
+```
 
-- **Ministerio de Economía, Comercio y Empresa**  
-  Entrada: REGAGE26e00069946240 (31 de julio de 2026)
-
-- **Defensor del Pueblo**  
-  Expediente: 26010099
-
-[**Ver presentaciones en Advocacy →**]({{ '/advocacy/' | relative_url }})
-
----
-
-## Citas y referencias
-
-Si citas este artículo, utiliza:
-
+**BibTeX:**
 ```bibtex
-@article{alvira2026hme,
-  author = {Alvira Baeza, Ricardo},
+@article{alvira2026mef,
+  author = {Alvira, Ricardo},
   title = {Minimum Equivalent Fees. A proposal to re-establish income equality for equivalent work},
   journal = {Italian Labour Law e-Journal},
   volume = {19},
   number = {1},
-  pages = {19--40},
   year = {2026},
   doi = {10.60923/issn.1561-8048/23568}
 }
@@ -105,11 +73,11 @@ Si citas este artículo, utiliza:
 
 ---
 
-## Trabajos relacionados
+## Presentaciones formales relacionadas
 
-- Leist D. (2025). *[Título complementario]*, Italian Labour Law e-Journal 18, 2, 2025. DOI: 10.6092/issn.1561-8048/22056
+El artículo y la ponencia han sido citados como fundamento en las presentaciones formales ante administraciones españolas (Ministerio de Economía, Comercio y Empresa; Defensor del Pueblo).
 
-[**Ver más en Recursos > Bibliografía →**]({{ '/recursos/bibliografia/' | relative_url }})
+[**Ver cronología completa en Advocacy →**]({{ '/advocacy/' | relative_url }})
 
 ---
 
