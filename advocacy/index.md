@@ -56,9 +56,31 @@ plazo (art. 9.2 LO 4/2001), si bien considera que la causa de inadmisibilidad op
 como causa de desestimación.
 [Descargar sentencia]({{ '/assets/docs/sentencia-an-525-2024.pdf' | relative_url }})
 
-**16/10/2024** — El Tribunal Supremo inadmite por providencia el recurso de
-casación (Recurso de Casación 6564/2024). La sentencia de la Audiencia Nacional
-deviene firme.
+**03/09/2024** — Preparación de recurso de casación ante el Tribunal Supremo
+(R. Casación 6564/2024) contra la sentencia. Alega, entre otros motivos: que la
+sentencia impone las costas pese a reconocer que la Administración vulneró el
+derecho de petición; que ignora que la petición incorporaba una transmisión de
+normativa europea (Directiva 2018/958, STJUE ECLI:EU:C:2019:562) desconocida
+por el Ministerio, lo que por sí sola generaría efectos jurídicos autónomos con
+independencia de si procedía o no un pronunciamiento sobre el fondo; y que la
+falta de notificación en forma de las vías de recurso disponibles no puede
+perjudicar al peticionario.
+[Descargar recurso de casación]({{ '/assets/docs/recurso-casacion-2024-09.pdf' | relative_url }})
+
+**16/10/2024** — El Tribunal Supremo (Sala de lo Contencioso-Administrativo,
+Sección Primera; ponente Excmo. Sr. D. Diego Córdoba Castroverde) inadmite por
+providencia el recurso de casación, por razones estrictamente formales: falta de
+fundamentación suficiente del interés casacional objetivo (art. 89.2.f y 90.4.b
+LJCA) y falta de justificación del juicio de relevancia exigido por el art. 89.2.d
+LJCA. No entra a valorar el fondo del asunto. Impone una tasación de costas de
+hasta 1.000 € más IVA.
+
+**25/11/2024** — La misma Sección inadmite, también por providencia, el
+incidente de nulidad de actuaciones planteado contra la providencia anterior:
+considera que no hubo indefensión, aplicación arbitraria de la norma ni error
+patente, remitiéndose a lo ya razonado sobre la insuficiente justificación del
+interés casacional objetivo y del juicio de relevancia. Sin costas. La sentencia
+de la Audiencia Nacional deviene firme.
 
 **31/12/2025** — El interesado tiene conocimiento formal de la firmeza de la
 resolución judicial.
@@ -76,6 +98,7 @@ Unión Europea).
 Registro de Salida 26078333): no intervención, al amparo del artículo 17.2 de la
 Ley Orgánica 3/1981, por entender que el asunto ya había sido examinado por los
 tribunales. *Cierre del Bloque 1.*
+[Descargar resolución]({{ '/assets/docs/resolucion-defensor-2026-06.pdf' | relative_url }})
 
 ---
 
@@ -131,7 +154,7 @@ queja ante el Defensor del Pueblo.
 
 | Administración | Registro/Expediente | Fecha | Estado |
 |---|---|---|---|
-| Audiencia Nacional / Tribunal Supremo | Proc. Ordinario 1/2022, R. Casación 6564/2024 | 03/07/2024 – 16/10/2024 | Resuelto (firme) |
+| Audiencia Nacional / Tribunal Supremo | Proc. Ordinario 1/2022, R. Casación 6564/2024 | 03/07/2024 – 25/11/2024 | Resuelto (firme) |
 | Defensor del Pueblo (expediente original) | 26010099 | 06/03/2026 – 04/06/2026 | Cerrado (no intervención) |
 | Ministerio de Economía, Comercio y Empresa | REGAGE26e00024522458 | 07/03/2026 | Pendiente de respuesta |
 | Defensor del Pueblo (nueva queja) | Acumulación solicitada a 26010099 | 09/06/2026 | Pendiente de resolución |
