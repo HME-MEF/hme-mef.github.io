@@ -69,7 +69,7 @@ Artículo académico, ponencia COAM 2025, trabajos relacionados.
 Análisis de Constitución española, Directivas UE, jurisprudencia TJUE, doctrina legal.
 
 ### 🔧 [Herramientas]({{ '/herramientas/' | relative_url }})
-Evaluador de indicios de discriminación retributiva en encargos de arquitectura.
+Evaluador de indicios de discriminación retributiva y estimador de banda de honorarios de referencia.
 
 ### 📢 [Advocacy]({{ '/advocacy/' | relative_url }})
 Propuestas legislativas, presentaciones formales, cronología completa de diligencias.

@@ -3,10 +3,12 @@ layout: page
 title: "Estimador de banda de honorarios"
 ---
 
+[← Volver a Herramientas]({{ '/herramientas/' | relative_url }})
+
 # Estimador de banda de honorarios de referencia
 
 Esta herramienta responde a una pregunta distinta de la del
-[evaluador de indicios de discriminación]({{ '/herramientas/' | relative_url }}):
+[evaluador de indicios de discriminación]({{ '/herramientas/evaluador/' | relative_url }}):
 en vez de comparar un importe ya ofertado o adjudicado, calcula **de
 antemano** una banda de referencias objetivas para un encargo de
 **redacción de proyecto y/o dirección de obra**, a partir de su PEM, su
@@ -70,7 +72,7 @@ elegidos.
 
 ## Más información
 
-[**Evaluador de indicios de discriminación →**]({{ '/herramientas/' | relative_url }})
+[**Evaluador de indicios de discriminación →**]({{ '/herramientas/evaluador/' | relative_url }})
 [**Ver memoria técnica de la calculadora →**]({{ '/herramientas/metodologia/' | relative_url }})
 [**Ver Marco Legal completo →**]({{ '/marco-legal/' | relative_url }})
 

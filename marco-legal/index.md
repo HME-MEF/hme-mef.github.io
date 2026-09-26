@@ -166,8 +166,8 @@ Es, en la práctica, el mismo mecanismo que las tarifas estatales de
 1905, 1922 y 1977 —un porcentaje sobre el coste de la obra, decreciente
 por tramos—, aplicado hoy por la propia Administración General del Estado
 a sus encomiendas de gestión. Estos tramos son la referencia empleada
-—como consulta manual, no de aplicación automática— en la
-[herramienta de evaluación]({{ '/herramientas/' | relative_url }}) de este sitio.
+—como consulta manual, no de aplicación automática— en las
+[herramientas de cálculo]({{ '/herramientas/' | relative_url }}) de este sitio.
 [Descargar Resolución SEGIPSA (BOE 27/5/2015)]({{ '/assets/docs/segipsa-boe-2015-es.pdf' | relative_url }})
 
 ### CNMC — Comunicación CNS/DC/902/23 (26/9/2023)
@@ -242,7 +242,7 @@ corrispettivo a base di gara para servicios de arquitectura e ingeniería:
   iscritto 37–50 €/h, aiuto di concetto 30–37 €/h.
 
 Estas tarifas horarias del art. 6.2 son la base del factor de conversión
-importe↔horas (60,5 €/h) empleado en la [herramienta de evaluación]({{ '/herramientas/' | relative_url }})
+importe↔horas (60,5 €/h) empleado en las [herramientas de cálculo]({{ '/herramientas/' | relative_url }})
 de este sitio, actualizando el extremo inferior de la banda (50 €/h, 2016)
 por el IPC italiano acumulado 2016→2024.
 [Descargar DM 17/6/2016 (texto completo con Tablas Z-1 y Z-2)]({{ '/assets/docs/dm-17-giugno-2016-it.pdf' | relative_url }})

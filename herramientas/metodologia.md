@@ -6,7 +6,7 @@ title: "Memoria técnica de la calculadora"
 # Memoria técnica del modelo de cálculo
 
 Este documento explica el origen y el estatus de cada dato que emplean el
-[evaluador de indicios de discriminación retributiva]({{ '/herramientas/' | relative_url }})
+[evaluador de indicios de discriminación retributiva]({{ '/herramientas/evaluador/' | relative_url }})
 y el [estimador de banda de honorarios]({{ '/herramientas/estimacion/' | relative_url }}),
 para que quien las use pueda distinguir qué es una cifra normativa, qué es
 un benchmark de industria no oficial, y qué es una hipótesis propia
@@ -69,7 +69,7 @@ cliente contratar a un empleado.
 
 ## 4. Estimación automática de horas del encargo (HME)
 
-Se explica en detalle en la página de [Herramientas]({{ '/herramientas/' | relative_url }}#metodología):
+Se explica en detalle en la página del [Evaluador]({{ '/herramientas/evaluador/' | relative_url }}#metodología):
 en síntesis, se aplica la fórmula del propio DM 17/6/2016
 (CP = V·G·ΣQ·P, con los gastos forfettari del art. 5) al PEM introducido,
 y el resultado se convierte a horas dividiendo por la tarifa de
@@ -101,7 +101,7 @@ referencia (Ripollet / Santa Margarida).
 
 ## Más información
 
-[**Evaluador de indicios de discriminación →**]({{ '/herramientas/' | relative_url }})
+[**Evaluador de indicios de discriminación →**]({{ '/herramientas/evaluador/' | relative_url }})
 [**Estimador de banda de honorarios →**]({{ '/herramientas/estimacion/' | relative_url }})
 [**Ver Marco Legal completo →**]({{ '/marco-legal/' | relative_url }})
 
