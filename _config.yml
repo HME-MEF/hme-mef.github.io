@@ -53,6 +53,11 @@ defaults:
     values:
       layout: "page"
 
+  - scope:
+      path: "noticias"
+    values:
+      layout: "page"
+
 # Asset compression
 sass:
   sass_dir: assets/css

@@ -74,6 +74,9 @@ Evaluador de indicios de discriminación retributiva y estimador de banda de hon
 ### 📢 [Advocacy]({{ '/advocacy/' | relative_url }})
 Propuestas legislativas, presentaciones formales, cronología completa de diligencias.
 
+### 📰 [Noticias]({{ '/noticias/' | relative_url }})
+Novedades normativas, jurisprudenciales e institucionales relevantes para HME/MEF.
+
 ### 📚 [Recursos]({{ '/recursos/' | relative_url }})
 Glosario, FAQs, bibliografía completa, enlaces útiles.
 

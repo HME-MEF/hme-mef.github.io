@@ -74,18 +74,21 @@ estrictamente formales: falta de
 fundamentación suficiente del interés casacional objetivo (art. 89.2.f y 90.4.b
 LJCA) y falta de justificación del juicio de relevancia exigido por el art. 89.2.d
 LJCA. No entra a valorar el fondo del asunto. Impone una tasación de costas de
-hasta 1.000 € más IVA.
-Código Seguro de Verificación: `E04799402-MI:kdc9-RGcS-ZKEZ-DQGa-G`
-([verificar en sedejudicial.justicia.es](https://sedejudicial.justicia.es/-/codigo-seguro-de-verificacion-csv)).
+hasta 1.000 € más IVA. *(Transcripción del texto íntegro, con los nombres de
+partes y personal judicial suprimidos; CSV `E04799402-MI:kdc9-RGcS-ZKEZ-DQGa-G`,
+[verificable en sedejudicial.justicia.es](https://sedejudicial.justicia.es/-/codigo-seguro-de-verificacion-csv).)*
+[Descargar providencia (texto)]({{ '/assets/docs/providencia-inadmision-casacion-2024-10-16.pdf' | relative_url }})
 
 **25/11/2024** — La misma Sección inadmite, también por providencia, el
 incidente de nulidad de actuaciones planteado contra la providencia anterior:
 considera que no hubo indefensión, aplicación arbitraria de la norma ni error
 patente, remitiéndose a lo ya razonado sobre la insuficiente justificación del
 interés casacional objetivo y del juicio de relevancia. Sin costas. La sentencia
-de la Audiencia Nacional deviene firme.
-Código Seguro de Verificación: `E04799402-MI:dXdY-HWsh-cSSU-msoM-Q`
-([verificar en sedejudicial.justicia.es](https://sedejudicial.justicia.es/-/codigo-seguro-de-verificacion-csv)).
+de la Audiencia Nacional deviene firme. *(Transcripción del texto íntegro, con
+los nombres de partes y personal judicial suprimidos; CSV
+`E04799402-MI:dXdY-HWsh-cSSU-msoM-Q`,
+[verificable en sedejudicial.justicia.es](https://sedejudicial.justicia.es/-/codigo-seguro-de-verificacion-csv).)*
+[Descargar providencia (texto)]({{ '/assets/docs/providencia-inadmision-nulidad-2024-11-25.pdf' | relative_url }})
 
 **31/12/2025** — El interesado tiene conocimiento formal de la firmeza de la
 resolución judicial.
