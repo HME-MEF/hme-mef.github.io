@@ -3,8 +3,6 @@ layout: page
 title: "Noticias"
 ---
 
-# Noticias
-
 Novedades relevantes para la propuesta HME/MEF: normativa, jurisprudencia,
 iniciativas de colegios profesionales u otras administraciones, y desarrollos
 comparados en otros países de la UE.

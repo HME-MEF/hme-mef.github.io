@@ -3,8 +3,6 @@ layout: page
 title: "Contacto"
 ---
 
-# Contacto
-
 Este espacio está abierto a quien quiera **proponer una colaboración**
 —incluyendo aportar datos de coste, testimonio profesional, o datos para
 calcular la HME de otra profesión u oficio distinto de los ya cubiertos por

@@ -5,8 +5,6 @@ title: "Evaluador de indicios de discriminación"
 
 [← Volver a Herramientas]({{ '/herramientas/' | relative_url }})
 
-# Evaluador de indicios de discriminación retributiva en encargos de arquitectura
-
 Esta herramienta tiene un alcance **deliberadamente acotado**. No es una
 calculadora de honorarios para cualquier profesión ni un simulador de
 tarifas orientativas. Sirve para un único propósito:

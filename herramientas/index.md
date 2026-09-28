@@ -3,8 +3,6 @@ layout: page
 title: "Herramientas"
 ---
 
-# Herramientas
-
 Dos calculadoras, dos preguntas distintas. Ambas comparten el mismo motor
 de cálculo (estimación automática de horas del encargo, suelo de coste,
 suelo MEF), documentado en la [memoria técnica](#memoria-técnica) común a

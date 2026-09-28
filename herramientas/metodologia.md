@@ -3,8 +3,6 @@ layout: page
 title: "Memoria técnica de la calculadora"
 ---
 
-# Memoria técnica del modelo de cálculo
-
 Este documento explica el origen y el estatus de cada dato que emplean el
 [evaluador de indicios de discriminación retributiva]({{ '/herramientas/evaluador/' | relative_url }})
 y el [estimador de banda de honorarios]({{ '/herramientas/estimacion/' | relative_url }}),

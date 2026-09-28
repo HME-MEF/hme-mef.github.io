@@ -3,8 +3,6 @@ layout: page
 title: "Advocacy — Cronología de diligencias"
 ---
 
-# Advocacy
-
 Desde 2021 se ha planteado formalmente ante distintas administraciones la necesidad
 de un marco de honorarios mínimos equivalentes (MEF/HME) para profesionales que
 ejercen por cuenta propia, incluyendo una vía judicial ya resuelta (2021–2024) y un
