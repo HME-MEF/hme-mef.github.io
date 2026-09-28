@@ -13,9 +13,10 @@ title: "Publicaciones Académicas"
 
 Artículo académico revisado por pares (*double-blind peer review*) que desarrolla y formaliza el marco jurídico de los Honorarios Mínimos Equivalentes (HME/MEF), a partir del documento presentado en el I Congreso de Arquitectos de Madrid (COAM) en 2025.
 
-**Descargas:**
+[Ver artículo (versión publicada, inglés) — Italian Labour Law e-Journal →](https://illej.unibo.it/article/view/23568)
 
-- [Descargar PDF (inglés, versión publicada)]({{ '/publicaciones/2026-alvira-minimum-equivalent-fees-en.pdf' | relative_url }})
+**Descarga:**
+
 - [Descargar PDF (español, traducción del autor)]({{ '/publicaciones/2026-alvira-minimum-equivalent-fees-es.pdf' | relative_url }})
 
 La traducción al español ha sido realizada por el propio autor y sigue fielmente el texto publicado.
