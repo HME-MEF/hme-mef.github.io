@@ -44,25 +44,17 @@ Documento origen de la investigación. Revisa la evolución de la regulación de
 
 ---
 
-## Referencias jurisprudenciales clave
-
-- Directiva 2006/123/CE (Servicios), art. 15
-- STJUE *FNV Kunsten* (C-413/13)
-- STJUE *Comisión c. Alemania* (C-377/17, caso HOAI)
-- STJUE C-19/23 (Directiva 2022/2041 sobre salarios mínimos adecuados)
-- Comunicación de la Comisión Europea 2022/C 374/02
-- Constitución Española, arts. 14, 35
-- CNMC, CNS/DC/902/23 (26 de septiembre de 2023)
-
-[**Ver Marco Legal completo →**]({{ '/marco-legal/' | relative_url }})
-
----
-
 ## Presentaciones formales relacionadas
 
 El artículo y la ponencia han sido citados como fundamento en las presentaciones formales ante administraciones españolas (Ministerio de Economía, Comercio y Empresa; Defensor del Pueblo).
 
 [**Ver cronología completa en Advocacy →**]({{ '/advocacy/' | relative_url }})
+
+---
+
+Los textos normativos y jurisprudenciales complementarios (directivas europeas,
+STJUE, Constitución Española, resoluciones de la CNMC) se recogen en
+[Marco Legal]({{ '/marco-legal/' | relative_url }}).
 
 ---
 
