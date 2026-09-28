@@ -169,11 +169,11 @@ planteamiento exacto.
 | País | Modelo | Estatus |
 |---|---|---|
 | **Italia** | DM 17/6/2016: fórmula CP = V·G·ΣQ·P, tarifa horaria de referencia (art. 6.2) | Vigente |
-| **Alemania** | HOAI: tabla de mínimos por tipología | Mínimos obligatorios declarados contrarios al Derecho de la UE (STJUE C-377/17, 2019) |
 | **España** | Propuesta HME | En fase de advocacy |
 
-Desarrollo completo de ambos modelos, con artículos y fuentes primarias,
-en [Marco Legal]({{ '/marco-legal/' | relative_url }}).
+Desarrollo completo del modelo italiano, con artículos y fuentes primarias,
+en [Marco Legal]({{ '/marco-legal/' | relative_url }}), que también recoge el
+precedente alemán (HOAI) y los límites que marca para una propuesta como HME.
 
 ### ¿Se basa la propuesta HME en el modelo italiano?
 
