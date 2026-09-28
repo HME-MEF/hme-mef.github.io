@@ -105,16 +105,16 @@ en la [memoria técnica]({{ '/herramientas/metodologia/' | relative_url }})):
 1. Se parte del **salario de referencia** de convenio colectivo del
    sector (o, alternativamente, del SMI), más la **cotización
    empresarial** y los **costes operativos** del estudio.
-2. Se divide entre las **horas anuales** de convenio (1.792 h) ajustadas
-   por un índice de **facturabilidad** (70%, *benchmark* de industria, no
-   un dato oficial español).
+2. Se divide entre las **horas anuales** de convenio (1.792 h).
 3. El resultado son dos valores de referencia: **31,08 €/h** (suelo MEF,
    base convenio) y **21,59 €/h** (base SMI, el umbral absoluto).
 
 Separadamente, el **suelo de coste** (lo que le cuesta a un estudio
-producir una hora de trabajo, incluido su margen) se calcula añadiendo
-gastos generales y beneficio industrial por analogía con el art. 131
-RGLCAP, y resulta en **48,02 €/h**.
+producir una hora de trabajo, incluido su margen) ajusta esas horas por
+un índice de **facturabilidad** (58,9%, mediana del sector para el
+ejercicio fiscal 2025, *benchmark* de industria — Deltek Clarity A&E, no
+un dato oficial español) y añade gastos generales y beneficio industrial
+por analogía con el art. 131 RGLCAP, resultando en **57,07 €/h**.
 
 Estos valores se recalculan automáticamente, para cada encargo concreto,
 en el [evaluador]({{ '/herramientas/evaluador/' | relative_url }}) y el

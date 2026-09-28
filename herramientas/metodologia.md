@@ -20,30 +20,30 @@ coste, construida por capas explícitas.
 
 | Dato | Valor | Estatus |
 |---|---|---|
-| Salario de referencia (convenio) | 28.664 €/año | Convenio colectivo de ingeniería y oficinas técnicas de proyectos (nivel GI-N1) — **convencional** |
-| Cotización empresarial | 9.459 €/año | Cálculo normativo de Seguridad Social sobre el salario de convenio — **normativo** |
-| Costes operativos (Madrid) | 17.569 €/año (alquiler 10.500 €, responsabilidad civil 1.000 €, resto) | Valores medios de mercado en Madrid — **hipótesis propia**, conservadora y editable |
+| Salario de referencia (convenio) | 28.664 €/año | Nivel 1, tablas salariales **2024** del XX Convenio colectivo de ingeniería y oficinas de estudios técnicos — **convencional** ([BOE-A-2024-5873, 12/3/2024](https://www.boe.es/buscar/doc.php?id=BOE-A-2024-5873)) |
+| Cotización empresarial | 9.459 €/año | Cálculo normativo de Seguridad Social sobre el salario de convenio **2024** — **normativo** |
+| Costes operativos (Madrid) | 17.569 €/año (alquiler 10.500 €, responsabilidad civil 1.000 €, resto) | Valores medios de mercado en Madrid — **hipótesis propia**, conservadora y editable; sin año de referencia único (estimación revisable) |
 | Horas anuales | 1.792 h | Jornada máxima del convenio de ingeniería y oficinas técnicas — **convencional** |
-| Facturabilidad (utilization rate) | 70% | Deltek Clarity A&E (*benchmark* de industria, EE.UU.) — **no es un dato oficial español** |
-| Retribución bruta de referencia (suelo de coste) | 38.345 €/año | Media entre ACE 2020 empleo público (44.512 €) y dirección de estudio privado (32.178 €) — **hipótesis propia**, con dato de partida del Architects' Council of Europe |
+| Facturabilidad (utilization rate) | 58,9% | Mediana del sector A&E, ejercicio fiscal **2025** — Deltek Clarity A&E Industry Study (47.ª edición), citada en ["KPIs for Architecture Firms"](https://www.deltek.com/en/architecture-and-engineering/architecture-project-management/kpis-for-architects), Deltek, 25/9/2026 — **benchmark de industria, EE.UU.**, no es un dato oficial español ([ver fuente, PDF]({{ '/assets/docs/deltek-clarity-ae-utilizacion-2026.pdf' | relative_url }})) |
+| Retribución bruta de referencia (suelo de coste) | 38.345 €/año | Media entre ACE **2020** empleo público (44.512 €) y dirección de estudio privado (32.178 €) — **hipótesis propia**, con dato de partida del Architects' Council of Europe |
 | Coeficiente coste-empresa | 1,32 | Cotizaciones, pagas extra, IT — **hipótesis propia** |
 | Gastos generales / beneficio industrial (suelo de coste) | 13% / 6% | Por analogía con el art. 131 RGLCAP (obra pública) — **normativo por analogía**, no una cifra propia del sector arquitectura |
-| SMI | Anual, BOE | **Normativo**, debe actualizarse cada año |
+| SMI | Anual, BOE — **2024** | **Normativo**, debe actualizarse cada año |
 | Tarifa de conversión importe→horas | 50 × 1,21 (IPC italiano 2016→2024) = 60,5 €/h | Extremo inferior de la banda del art. 6.2 del DM 17/6/2016, actualizado — **normativo actualizado** |
 | Parámetros V, G, Q, P (modelo italiano) | Tablas Z-1 y Z-2 | DM 17/6/2016 — **normativo (Italia)**; el G y el ΣQ que usa esta herramienta son una categorización agregada orientativa, no el desglose línea a línea del decreto — ver [Marco Legal]({{ '/marco-legal/' | relative_url }}) |
 | % sobre PEM (SEGIPSA) | 6,65%–3,08% según tramo y concepto | Resolución de 11/5/2015 (BOE 27/5/2015) — **normativo**, verificado contra el texto oficial |
 
 ---
 
-## 2. Derivación del suelo de coste (48,02 €/h)
+## 2. Derivación del suelo de coste (57,07 €/h)
 
 1. Retribución bruta de referencia: **38.345 €/año**.
 2. × coeficiente coste-empresa (1,32): coste bruto para el empleador.
-3. ÷ (1.792 horas anuales × 70% de facturabilidad): coste por hora
+3. ÷ (1.792 horas anuales × 58,9% de facturabilidad): coste por hora
    efectivamente facturable.
 4. × (1 + 13% GG + 6% BI): añade gastos generales y beneficio industrial
    por analogía con el art. 131 RGLCAP.
-5. Resultado: **48,02 €/h**.
+5. Resultado: **57,07 €/h**.
 
 Este suelo responde a la pregunta "¿cuánto le cuesta a un estudio producir
 una hora de trabajo, incluyendo su margen?" — es un suelo de **coste**,
@@ -82,9 +82,12 @@ referencia (Ripollet / Santa Margarida).
   discutibles: representan una estimación razonable y documentada, no un
   hecho normativo. Quien discrepe de alguno puede recalcular el suelo con
   sus propios valores.
-- El *benchmark* de facturabilidad (70%) procede de una fuente de
-  industria estadounidense (Deltek Clarity A&E), no de datos oficiales
-  españoles, a falta de un estudio equivalente publicado en España.
+- El *benchmark* de facturabilidad (58,9%, ejercicio fiscal 2025) procede
+  de una fuente de industria estadounidense (Deltek Clarity A&E), no de
+  datos oficiales españoles, a falta de un estudio equivalente publicado
+  en España. Es la mediana anual del sector, que varía de un ejercicio a
+  otro (61,1% el año anterior); conviene revisar la edición más reciente
+  del estudio periódicamente.
 - Los costes operativos (17.569 €/año) están calculados para Madrid; en
   otras ciudades o regiones el suelo de coste variará.
 - La categorización de tipología/complejidad (parámetro G) y el ΣQ del
