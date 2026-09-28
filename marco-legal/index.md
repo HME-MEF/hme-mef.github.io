@@ -71,11 +71,11 @@ Señala que un arancel colegial impuesto por asociación de abogados es restricc
 **C-202/04 (Asnef-Equifax)**  
 Permite acuerdos entre competidores si cumplen condiciones: beneficio consumidor, no eliminación competencia, necesidad para lograr objetivo.
 
-**C-377/17 (Consiglio Nazionale degli Architetti)**  
-Sustenta que códigos de conducta profesional pueden imponerse si responden a interés público legítimo.
+**C-377/17 (Comisión c. Alemania, 2019 — caso HOAI)**  
+Declara que las tarifas mínimas y máximas obligatorias de honorarios de arquitectos e ingenieros del sistema alemán (HOAI) son contrarias a la Directiva 2006/123/CE. El propio HME se distingue de ese supuesto: el reproche del TJUE recae sobre un baremo impuesto con carácter general y sin justificación suficiente de necesidad y proporcionalidad, no sobre la posibilidad misma de un mínimo retributivo — de ahí que HME se plantee como una regulación estatal fundamentada en la no discriminación (art. 14 y 35 CE) y sometida al test de proporcionalidad de la Directiva (UE) 2018/958, no como un baremo colegial.
 
-**C-19/23 (Regulating Professions**  
-Más reciente: reconoce que restricciones a libertad profesional pueden justificarse por "objetivos de interés general" (protección consumidor, no discriminación).
+**C-19/23**  
+Sentencia reciente del TJUE que confirma la validez de la mayor parte de las disposiciones de la Directiva (UE) 2022/2041 sobre salarios mínimos adecuados, consolidando el principio de remuneración justa en el seno de la Unión Europea.
 
 ---
 
@@ -284,14 +284,6 @@ Honorarordnung für Architekten und Ingenieure: tabla de mínimos actualizados p
 - Directiva 2006/123/CE art. 15 permite restricciones por razones imperativas
 - No discriminación es razón imperativa reconocida
 - Hay precedente de modelos similares en la UE (Italia)
-
----
-
-## 6. Jurisprudencia de Tribunales Españoles
-
-### Audiencia Provincial de Gipuzkoa (2012)
-
-Sentencia que reconoce derechos de divulgación de obra arquitectónica por motivos de derecho moral, independiente de contrato.
 
 ---
 
