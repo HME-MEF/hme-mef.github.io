@@ -26,7 +26,7 @@ documentos originales para quien quiera consultar el expediente completo.
 la Ley Orgánica 4/2001, presentada ante la Ministra de Trabajo y Economía Social,
 solicitando el establecimiento de un sistema de Honorarios Mínimos Profesionales
 equivalente al Salario Mínimo Interprofesional.
-[Descargar petición]({{ '/assets/docs/peticion-2021.pdf' | relative_url }})
+[Ver petición]({{ '/assets/docs/peticion-2021.pdf' | relative_url }})
 
 **29/03/2021** — El Ministerio de Trabajo y Economía Social remite la petición a
 la Secretaría General Técnica del Ministerio de Asuntos Económicos y
@@ -36,7 +36,7 @@ Transformación Digital (MINECO), por razón de la materia.
 contencioso-administrativo ante la Audiencia Nacional (Sala de lo
 Contencioso-Administrativo, Sección Tercera; Procedimiento Ordinario 1/2022,
 Registro General 17390/2022), admitido a trámite por Decreto de 15/10/2021.
-[Descargar decreto de admisión]({{ '/assets/docs/decreto-admision-recurso-2021-10-15.pdf' | relative_url }})
+[Ver decreto de admisión]({{ '/assets/docs/decreto-admision-recurso-2021-10-15.pdf' | relative_url }})
 
 **10/02/2022** — Informe de la Dirección General de Política Económica (DGPOLECO),
 del Ministerio de Asuntos Económicos y Transformación Digital (CSV
@@ -45,7 +45,7 @@ informes previos de la extinta Comisión Nacional de la Competencia (CNC) de 200
 2012, sin analizar la normativa y jurisprudencia europea posterior aportada en la
 petición. Este informe se aportó como parte del expediente en sede judicial, con
 posterioridad a la interposición del recurso contencioso-administrativo.
-[Descargar informe DGPOLECO]({{ '/assets/docs/informe-dgpoleco-2022.pdf' | relative_url }})
+[Ver informe DGPOLECO]({{ '/assets/docs/informe-dgpoleco-2022.pdf' | relative_url }})
 
 **23/03/2022** — Formalización de la demanda, con la argumentación jurídica de
 fondo: vulneración de los arts. 14 y 35 CE, compatibilidad de un sistema de
@@ -54,7 +54,7 @@ Honorarios Mínimos Equivalentes con la libertad de empresa (art. 38 CE y art.
 la Directiva 2006/123/CE, y refutación punto por punto de los argumentos de la
 DGPOLECO, con datos del Architects' Council of Europe sobre ingresos y brecha
 retributiva de género entre arquitectos autónomos y asalariados.
-[Descargar demanda]({{ '/assets/docs/demanda-2022-03-23.pdf' | relative_url }})
+[Ver demanda]({{ '/assets/docs/demanda-2022-03-23.pdf' | relative_url }})
 
 **03/07/2024** — Sentencia nº 525/2024 de la Audiencia Nacional (Sala de lo
 Contencioso-Administrativo, Sección Tercera; Procedimiento Ordinario 1/2022):
@@ -63,7 +63,7 @@ costas a la parte actora (art. 139.1 LJCA). La sentencia reconoce que la petici�
 debía entenderse admitida a trámite por no haberse declarado su inadmisión en
 plazo (art. 9.2 LO 4/2001), si bien considera que la causa de inadmisibilidad opera
 como causa de desestimación.
-[Descargar sentencia]({{ '/assets/docs/sentencia-an-525-2024.pdf' | relative_url }})
+[Ver sentencia]({{ '/assets/docs/sentencia-an-525-2024.pdf' | relative_url }})
 
 **03/09/2024** — Preparación de recurso de casación ante el Tribunal Supremo
 (R. Casación 6564/2024) contra la sentencia. Alega, entre otros motivos: que la
@@ -74,7 +74,7 @@ por el Ministerio, lo que por sí sola generaría efectos jurídicos autónomos 
 independencia de si procedía o no un pronunciamiento sobre el fondo; y que la
 falta de notificación en forma de las vías de recurso disponibles no puede
 perjudicar al peticionario.
-[Descargar recurso de casación]({{ '/assets/docs/recurso-casacion-2024-09.pdf' | relative_url }})
+[Ver recurso de casación]({{ '/assets/docs/recurso-casacion-2024-09.pdf' | relative_url }})
 
 **16/10/2024** — El Tribunal Supremo (Sala de lo Contencioso-Administrativo,
 Sección Primera) inadmite por providencia el recurso de casación, por razones
@@ -85,13 +85,13 @@ LJCA. No entra a valorar el fondo del asunto. Impone una tasación de costas de
 hasta 1.000 € más IVA. *(Transcripción del texto íntegro, con los nombres de
 partes y personal judicial suprimidos; CSV `E04799402-MI:kdc9-RGcS-ZKEZ-DQGa-G`,
 [verificable en sedejudicial.justicia.es](https://sedejudicial.justicia.es/-/codigo-seguro-de-verificacion-csv).)*
-[Descargar providencia (texto)]({{ '/assets/docs/providencia-inadmision-casacion-2024-10-16.pdf' | relative_url }})
+[Ver providencia (texto)]({{ '/assets/docs/providencia-inadmision-casacion-2024-10-16.pdf' | relative_url }})
 
 **27/10/2024** — Se plantea incidente de nulidad de actuaciones (art. 241 LOPJ)
 contra la providencia anterior, por entender que vulnera el derecho a la tutela
 judicial efectiva (art. 24 CE): alega falta de motivación suficiente y arbitrariedad
 en la aplicación de los requisitos formales de admisión del recurso de casación.
-[Descargar incidente de nulidad]({{ '/assets/docs/incidente-nulidad-2024-10-27.pdf' | relative_url }})
+[Ver incidente de nulidad]({{ '/assets/docs/incidente-nulidad-2024-10-27.pdf' | relative_url }})
 
 **25/11/2024** — La misma Sección inadmite, también por providencia, el
 incidente de nulidad de actuaciones planteado contra la providencia anterior:
@@ -102,7 +102,7 @@ de la Audiencia Nacional deviene firme. *(Transcripción del texto íntegro, con
 los nombres de partes y personal judicial suprimidos; CSV
 `E04799402-MI:dXdY-HWsh-cSSU-msoM-Q`,
 [verificable en sedejudicial.justicia.es](https://sedejudicial.justicia.es/-/codigo-seguro-de-verificacion-csv).)*
-[Descargar providencia (texto)]({{ '/assets/docs/providencia-inadmision-nulidad-2024-11-25.pdf' | relative_url }})
+[Ver providencia (texto)]({{ '/assets/docs/providencia-inadmision-nulidad-2024-11-25.pdf' | relative_url }})
 
 **31/12/2025** — El interesado tiene conocimiento formal de la firmeza de la
 resolución judicial.
@@ -114,13 +114,13 @@ paradoja del régimen de admisión/inadmisión de peticiones, el efecto disuasor
 del régimen de costas en el ejercicio de derechos fundamentales, y el principio de
 buena administración (art. 41 de la Carta de los Derechos Fundamentales de la
 Unión Europea).
-[Descargar queja]({{ '/assets/docs/queja-defensor-2026-03.pdf' | relative_url }})
+[Ver queja]({{ '/assets/docs/queja-defensor-2026-03.pdf' | relative_url }})
 
 **04/06/2026** — Resolución del Defensor del Pueblo (expediente 26010099,
 Registro de Salida 26078333): no intervención, al amparo del artículo 17.2 de la
 Ley Orgánica 3/1981, por entender que el asunto ya había sido examinado por los
 tribunales. *Cierre del Bloque 1.*
-[Descargar resolución]({{ '/assets/docs/resolucion-defensor-2026-06.pdf' | relative_url }})
+[Ver resolución]({{ '/assets/docs/resolucion-defensor-2026-06.pdf' | relative_url }})
 
 ---
 
@@ -129,7 +129,7 @@ tribunales. *Cierre del Bloque 1.*
 **2025** — Presentación del documento *"Honorarios Mínimos Profesionales. Un
 elefante (legislativo) en la habitación"* en el I Congreso de Arquitectos de
 Madrid (COAM).
-[Descargar documento]({{ '/publicaciones/2025-alvira-elefante-legislativo-coam.pdf' | relative_url }})
+[Ver documento]({{ '/publicaciones/2025-alvira-elefante-legislativo-coam.pdf' | relative_url }})
 
 **2026** — Desarrollo y publicación del artículo académico derivado, *"Minimum
 Equivalent Fees: A proposal to re-establish income equality for equivalent
@@ -158,18 +158,18 @@ italiana 49/2023 sobre *equo compenso* — así como datos empíricos (ACE, EIGE
 sobre discriminación retributiva entre profesionales autónomos y asalariados; y
 (b) solicitud de que el Ministerio valore si el criterio actual de la CNMC es
 compatible con ese marco y, en su caso, inste su actualización.
-[Descargar petición]({{ '/assets/docs/peticion-2026-03.pdf' | relative_url }})
+[Ver petición]({{ '/assets/docs/peticion-2026-03.pdf' | relative_url }})
 
 **09/06/2026** — Nueva queja ante el Defensor del Pueblo por incumplimiento del
 plazo de tres meses del artículo 12 de la Ley Orgánica 4/2001 para responder a la
 petición de marzo de 2026 (vencido el 07/06/2026), solicitando su acumulación al
 expediente 26010099.
-[Descargar queja]({{ '/assets/docs/queja-defensor-2026-06.pdf' | relative_url }})
+[Ver queja]({{ '/assets/docs/queja-defensor-2026-06.pdf' | relative_url }})
 
 **13/08/2026** — El Defensor del Pueblo acusa recibo de la queja anterior
 (N.º de Entrada 26086717, Registro de Salida 26111384). *(Datos personales
 del interesado suprimidos.)*
-[Descargar acuse de recibo]({{ '/assets/docs/acuse-recibo-defensor-2026-08-13.pdf' | relative_url }})
+[Ver acuse de recibo]({{ '/assets/docs/acuse-recibo-defensor-2026-08-13.pdf' | relative_url }})
 
 **Estado actual** — Pendiente de respuesta del Ministerio de Economía, Comercio y
 Empresa a la petición de marzo de 2026, y pendiente de resolución de la nueva
