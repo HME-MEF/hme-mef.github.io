@@ -5,14 +5,15 @@ title: "Contacto"
 
 # Contacto
 
-Este espacio está abierto a quien quiera **aportar datos de coste para
-calcular la HME de otra profesión u oficio** distinto de los ya cubiertos
-por las [herramientas]({{ '/herramientas/' | relative_url }}), **proponer
-una colaboración**, **informar de una actuación administrativa o judicial
-similar** a las recogidas en [Advocacy]({{ '/advocacy/' | relative_url }})
-(dumping en concurso público, litigios, quejas ante el Defensor del
-Pueblo, criterios de otras administraciones), o simplemente hacer una
-observación sobre la metodología o el marco legal del proyecto.
+Este espacio está abierto a quien quiera **proponer una colaboración**
+—incluyendo aportar datos de coste, testimonio profesional, o datos para
+calcular la HME de otra profesión u oficio distinto de los ya cubiertos por
+las [herramientas]({{ '/herramientas/' | relative_url }})—, **informar de
+una norma, actuación judicial o administrativa relevante** no incluida
+todavía en la página (véanse [Advocacy]({{ '/advocacy/' | relative_url }})
+y [Noticias]({{ '/noticias/' | relative_url }})), o simplemente dejar
+**feedback**: desde comentarios positivos hasta sugerencias de mejora o
+observaciones sobre la metodología o el marco legal del proyecto.
 
 <div style="margin:24px 0; max-width:640px;">
   <form id="contact-form" onsubmit="return enviarContacto(event)">
@@ -23,11 +24,10 @@ observación sobre la metodología o el marco legal del proyecto.
 
     <label for="c-tipo" style="display:block; font-weight:600; font-size:13px; margin-bottom:4px;">Motivo del mensaje</label>
     <select id="c-tipo" name="motivo" style="width:100%; padding:9px 10px; border:1px solid #c7ccd1; border-radius:5px; font-size:14px; margin-bottom:14px;">
-      <option value="Aportar datos para calcular HME de otra profesión u oficio">Aportar datos para calcular HME de otra profesión u oficio</option>
-      <option value="Propuesta de colaboración">Propuesta de colaboración</option>
-      <option value="Informar de una actuación administrativa o judicial similar">Informar de una actuación administrativa o judicial similar</option>
-      <option value="Aportar datos de costes o testimonio profesional">Aportar datos de costes o testimonio profesional</option>
-      <option value="Comentario sobre el marco legal o la metodología">Comentario sobre el marco legal o la metodología</option>
+      <option value="" selected disabled>— Selecciona un motivo —</option>
+      <option value="Propuesta de colaboración (aportar datos de costes, testimonio profesional, o para calcular HME de otra profesión u oficio, etc.)">Propuesta de colaboración (aportar datos de costes, testimonio profesional, o para calcular HME de otra profesión u oficio, etc.)</option>
+      <option value="Informar de una norma, actuación judicial o administrativa relevante no incluida en la página">Informar de una norma, actuación judicial o administrativa relevante no incluida en la página</option>
+      <option value="Feedback o comentarios sobre la página y la propuesta (incluye comentarios positivos, mejoras, marco legal o metodología)">Feedback o comentarios sobre la página y la propuesta (incluye comentarios positivos, mejoras, marco legal o metodología)</option>
       <option value="Prensa / medios">Prensa / medios</option>
       <option value="Otro">Otro</option>
     </select>
