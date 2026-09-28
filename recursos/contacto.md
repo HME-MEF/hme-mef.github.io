@@ -54,13 +54,6 @@ observaciones sobre la metodología o el marco legal del proyecto.
   </form>
 </div>
 
----
-
-- **Académicos**: citas, referencias, análisis complementarios.
-- **Profesionales**: datos de costes, testimonios de dumping, casos similares al de Ripollet/Santa Margarida.
-- **Administraciones**: colaboración técnica, criterios comparables de otras comunidades o países.
-- **Medios**: difusión de la propuesta.
-
 <script>
 function enviarContacto(e){
   e.preventDefault();
