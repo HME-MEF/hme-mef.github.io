@@ -97,7 +97,7 @@ en la aplicación de los requisitos formales de admisión del recurso de casaci�
 incidente de nulidad de actuaciones planteado contra la providencia anterior:
 considera que no hubo indefensión, aplicación arbitraria de la norma ni error
 patente, remitiéndose a lo ya razonado sobre la insuficiente justificación del
-interés casacional objetivo y del juicio de relevancia. Sin costas. La sentencia
+interés casacional objetivo y del juicio de relevancia. La sentencia
 de la Audiencia Nacional deviene firme. *(Transcripción del texto íntegro, con
 los nombres de partes y personal judicial suprimidos; CSV
 `E04799402-MI:dXdY-HWsh-cSSU-msoM-Q`,
