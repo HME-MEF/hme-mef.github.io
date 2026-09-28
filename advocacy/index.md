@@ -166,6 +166,11 @@ petición de marzo de 2026 (vencido el 07/06/2026), solicitando su acumulación 
 expediente 26010099.
 [Descargar queja]({{ '/assets/docs/queja-defensor-2026-06.pdf' | relative_url }})
 
+**13/08/2026** — El Defensor del Pueblo acusa recibo de la queja anterior
+(N.º de Entrada 26086717, Registro de Salida 26111384). *(Datos personales
+del interesado suprimidos.)*
+[Descargar acuse de recibo]({{ '/assets/docs/acuse-recibo-defensor-2026-08-13.pdf' | relative_url }})
+
 **Estado actual** — Pendiente de respuesta del Ministerio de Economía, Comercio y
 Empresa a la petición de marzo de 2026, y pendiente de resolución de la nueva
 queja ante el Defensor del Pueblo.
