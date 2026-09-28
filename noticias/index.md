@@ -26,9 +26,8 @@ español, encargada por el propio colegio, de la ley italiana *Disposizioni
 in materia di equo compenso delle prestazioni professionali* (Gazzetta
 Ufficiale n.º 104, de 5 de mayo de 2023), junto con sus parámetros
 ministeriales, "para conocimiento de la situación en otros países
-europeos". La publicación se produce a resultas de las comunicaciones de
-trabajo mantenidas con el responsable del grupo de trabajo de honorarios
-del COAM.
+europeos". La publicación se produce a resultas de las comunicaciones
+mantenidas en el contexto de un Grupo de Trabajo de Honorarios del COAM.
 
 Es relevante para HME/MEF por dos motivos: primero, porque confirma con una
 fuente colegial independiente el contenido de la Ley 49/2023 ya citado como
