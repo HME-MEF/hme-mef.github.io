@@ -12,7 +12,7 @@ El concepto sostiene que:
 
 > **El profesional autónomo debe poder percibir, como mínimo, el costo equivalente de lo que le costaría a un empleador contratar a un profesional empleado con las mismas competencias.**
 
-Esta propuesta es compatible con la libre competencia (TFUE art. 101) cuando se fundamenta en la no discriminación (Constitución Española arts. 14 y 35) y se implementa por vía legislativa o regulatoria pública, no colegial.
+Esta propuesta es compatible con la libre competencia (TFUE art. 101) cuando se fundamenta en la no discriminación (Constitución Española arts. 14 y 35) y se implementa por regulación estatal; eventualmente, con colaboración técnica o gestión delegada de los colegios bajo supervisión pública, nunca mediante baremos colegiales autónomos.
 
 ---
 
@@ -29,7 +29,7 @@ La propuesta HME busca cerrar esta brecha mediante:
 1. **Fundamento constitucional**: el principio de no discriminación (arts. 14 y 35 CE) exige que un mismo trabajo reciba una remuneración equivalente, sea cual sea el tipo de contrato bajo el que se realiza. Este es el fundamento de la propuesta, planteado formalmente desde marzo de 2021, no un modelo importado.
 2. **Análisis de costes**: desagregación de gasto directo + gastos generales + margen industrial, por analogía con la normativa de contratación pública (RGLCAP).
 3. **Validación comparada**: una vez formulada la propuesta, se ha contrastado con modelos de otros Estados miembros —el método de cálculo del Decreto italiano DM 17/6/2016 y, más recientemente, la Ley italiana 49/2023 sobre *equo compenso*— que confirman que fórmulas equivalentes son jurídicamente viables en la UE, sin ser el origen del planteamiento.
-4. **Implementación legislativa**: propuestas concretas de reforma, por vía estatal o de control de la contratación pública, nunca por difusión colegial.
+4. **Implementación legislativa**: propuestas concretas de reforma, por vía estatal o de control de la contratación pública; eventualmente, con colaboración técnica o gestión delegada de los colegios bajo supervisión pública, nunca mediante baremos colegiales autónomos.
 
 ---
 
@@ -54,7 +54,7 @@ La propuesta HME busca cerrar esta brecha mediante:
 La propuesta ha sido planteada formalmente ante distintas administraciones desde 2021, incluyendo una vía judicial ya resuelta (2021–2024, Audiencia Nacional) y una nueva vía institucional abierta en 2026, centrada en la actualización del criterio de la Comisión Nacional de los Mercados y la Competencia (CNMC):
 
 - **Ministerio de Economía, Comercio y Empresa** — petición de marzo de 2026 (registro **REGAGE26e00024522458**), actualmente pendiente de respuesta.
-- **Defensor del Pueblo** — expediente **n.º 26010099**, en curso.
+- **Defensor del Pueblo** — nueva queja de 09/06/2026, pendiente de resolución (acumulación solicitada al expediente **n.º 26010099**, cerrado el 04/06/2026 sin intervención).
 
 [**Ver cronología completa →**]({{ '/advocacy/' | relative_url }})
 

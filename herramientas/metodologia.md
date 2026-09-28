@@ -35,7 +35,7 @@ coste, construida por capas explícitas.
 
 ---
 
-## 2. Derivación del suelo de coste (49,50 €/h)
+## 2. Derivación del suelo de coste (48,02 €/h)
 
 1. Retribución bruta de referencia: **38.345 €/año**.
 2. × coeficiente coste-empresa (1,32): coste bruto para el empleador.
@@ -43,7 +43,7 @@ coste, construida por capas explícitas.
    efectivamente facturable.
 4. × (1 + 13% GG + 6% BI): añade gastos generales y beneficio industrial
    por analogía con el art. 131 RGLCAP.
-5. Resultado: **49,50 €/h**.
+5. Resultado: **48,02 €/h**.
 
 Este suelo responde a la pregunta "¿cuánto le cuesta a un estudio producir
 una hora de trabajo, incluyendo su margen?" — es un suelo de **coste**,

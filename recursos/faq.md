@@ -114,7 +114,7 @@ en la [memoria técnica]({{ '/herramientas/metodologia/' | relative_url }})):
 Separadamente, el **suelo de coste** (lo que le cuesta a un estudio
 producir una hora de trabajo, incluido su margen) se calcula añadiendo
 gastos generales y beneficio industrial por analogía con el art. 131
-RGLCAP, y resulta en **49,50 €/h**.
+RGLCAP, y resulta en **48,02 €/h**.
 
 Estos valores se recalculan automáticamente, para cada encargo concreto,
 en el [evaluador]({{ '/herramientas/evaluador/' | relative_url }}) y el

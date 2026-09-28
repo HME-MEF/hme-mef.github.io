@@ -7,7 +7,7 @@ title: "Publicaciones Académicas"
 
 ### Minimum Equivalent Fees. A proposal to re-establish income equality for equivalent work
 
-**Autor:** Ricardo Alvira
+**Autor:** Ricardo Alvira Baeza
 **Publicado en:** *Italian Labour Law e-Journal*, Issue 1, Vol. 19 (2026), ISSN 1561-8048, Sección Miscellaneous
 **DOI:** [10.60923/issn.1561-8048/23568](https://doi.org/10.60923/issn.1561-8048/23568)
 
