@@ -12,6 +12,8 @@ El concepto sostiene que:
 
 > **El profesional autónomo debe poder percibir, como mínimo, el costo equivalente de lo que le costaría a un empleador contratar a un profesional empleado con las mismas competencias.**
 
+**Precisión importante:** "equivalencia" no significa identidad de ingresos brutos entre autónomo y empleado. El suelo MEF compara el coste equivalente para quien contrata —lo que le costaría emplear a un profesional con la misma cualificación, incluida la cotización empresarial— con lo que factura el autónomo, una vez cubiertos los costes operativos inherentes al ejercicio por cuenta propia (estructura, seguros, cotización propia) que un empleado no soporta directamente. Es, por tanto, una remuneración comparable tras esos costes, no una igualdad de nómina.
+
 Esta propuesta es compatible con la libre competencia (TFUE art. 101) cuando se fundamenta en la no discriminación (Constitución Española arts. 14 y 35) y se implementa por regulación estatal; eventualmente, con colaboración técnica o gestión delegada de los colegios bajo supervisión pública, nunca mediante baremos colegiales autónomos.
 
 ---
