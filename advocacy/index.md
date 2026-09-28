@@ -57,8 +57,8 @@ retributiva de género entre arquitectos autónomos y asalariados.
 [Descargar demanda]({{ '/assets/docs/demanda-2022-03-23.pdf' | relative_url }})
 
 **03/07/2024** — Sentencia nº 525/2024 de la Audiencia Nacional (Sala de lo
-Contencioso-Administrativo, Sección Tercera; Procedimiento Ordinario 1/2022;
-ponente Ilmo. Sr. D. Francisco Díaz Fraile): desestima el recurso e impone las
+Contencioso-Administrativo, Sección Tercera; Procedimiento Ordinario 1/2022):
+desestima el recurso e impone las
 costas a la parte actora (art. 139.1 LJCA). La sentencia reconoce que la petición
 debía entenderse admitida a trámite por no haberse declarado su inadmisión en
 plazo (art. 9.2 LO 4/2001), si bien considera que la causa de inadmisibilidad opera
