@@ -47,6 +47,15 @@ petición. Este informe se aportó como parte del expediente en sede judicial, c
 posterioridad a la interposición del recurso contencioso-administrativo.
 [Descargar informe DGPOLECO]({{ '/assets/docs/informe-dgpoleco-2022.pdf' | relative_url }})
 
+**23/03/2022** — Formalización de la demanda, con la argumentación jurídica de
+fondo: vulneración de los arts. 14 y 35 CE, compatibilidad de un sistema de
+Honorarios Mínimos Equivalentes con la libertad de empresa (art. 38 CE y art.
+16 CDFUE) a la luz del test de proporcionalidad de la Directiva (UE) 2018/958 y
+la Directiva 2006/123/CE, y refutación punto por punto de los argumentos de la
+DGPOLECO, con datos del Architects' Council of Europe sobre ingresos y brecha
+retributiva de género entre arquitectos autónomos y asalariados.
+[Descargar demanda]({{ '/assets/docs/demanda-2022-03-23.pdf' | relative_url }})
+
 **03/07/2024** — Sentencia nº 525/2024 de la Audiencia Nacional (Sala de lo
 Contencioso-Administrativo, Sección Tercera; Procedimiento Ordinario 1/2022;
 ponente Ilmo. Sr. D. Francisco Díaz Fraile): desestima el recurso e impone las
