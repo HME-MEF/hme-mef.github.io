@@ -86,8 +86,8 @@ referencia (Ripollet / Santa Margarida).
   de una fuente de industria estadounidense (Deltek Clarity A&E), no de
   datos oficiales españoles, a falta de un estudio equivalente publicado
   en España. Es la mediana anual del sector, que varía de un ejercicio a
-  otro (61,1% el año anterior); conviene revisar la edición más reciente
-  del estudio periódicamente.
+  otro; conviene revisar la edición más reciente del estudio
+  periódicamente.
 - Los costes operativos (17.569 €/año) están calculados para Madrid; en
   otras ciudades o regiones el suelo de coste variará.
 - La categorización de tipología/complejidad (parámetro G) y el ΣQ del
