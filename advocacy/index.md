@@ -35,7 +35,8 @@ Transformación Digital (MINECO), por razón de la materia.
 **12/10/2021** — Ante la falta de resolución expresa, se interpone recurso
 contencioso-administrativo ante la Audiencia Nacional (Sala de lo
 Contencioso-Administrativo, Sección Tercera; Procedimiento Ordinario 1/2022,
-Registro General 17390/2022).
+Registro General 17390/2022), admitido a trámite por Decreto de 15/10/2021.
+[Descargar decreto de admisión]({{ '/assets/docs/decreto-admision-recurso-2021-10-15.pdf' | relative_url }})
 
 **10/02/2022** — Informe de la Dirección General de Política Económica (DGPOLECO),
 del Ministerio de Asuntos Económicos y Transformación Digital (CSV
@@ -43,7 +44,7 @@ del Ministerio de Asuntos Económicos y Transformación Digital (CSV
 informes previos de la extinta Comisión Nacional de la Competencia (CNC) de 2009 y
 2012, sin analizar la normativa y jurisprudencia europea posterior aportada en la
 petición. Este informe se aportó como parte del expediente en sede judicial, con
-posterioridad a la interposición de la demanda.
+posterioridad a la interposición del recurso contencioso-administrativo.
 [Descargar informe DGPOLECO]({{ '/assets/docs/informe-dgpoleco-2022.pdf' | relative_url }})
 
 **03/07/2024** — Sentencia nº 525/2024 de la Audiencia Nacional (Sala de lo
