@@ -79,6 +79,12 @@ partes y personal judicial suprimidos; CSV `E04799402-MI:kdc9-RGcS-ZKEZ-DQGa-G`,
 [verificable en sedejudicial.justicia.es](https://sedejudicial.justicia.es/-/codigo-seguro-de-verificacion-csv).)*
 [Descargar providencia (texto)]({{ '/assets/docs/providencia-inadmision-casacion-2024-10-16.pdf' | relative_url }})
 
+**27/10/2024** — Se plantea incidente de nulidad de actuaciones (art. 241 LOPJ)
+contra la providencia anterior, por entender que vulnera el derecho a la tutela
+judicial efectiva (art. 24 CE): alega falta de motivación suficiente y arbitrariedad
+en la aplicación de los requisitos formales de admisión del recurso de casación.
+[Descargar incidente de nulidad]({{ '/assets/docs/incidente-nulidad-2024-10-27.pdf' | relative_url }})
+
 **25/11/2024** — La misma Sección inadmite, también por providencia, el
 incidente de nulidad de actuaciones planteado contra la providencia anterior:
 considera que no hubo indefensión, aplicación arbitraria de la norma ni error
