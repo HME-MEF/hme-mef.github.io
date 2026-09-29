@@ -56,6 +56,17 @@ DGPOLECO, con datos del Architects' Council of Europe sobre ingresos y brecha
 retributiva de género entre arquitectos autónomos y asalariados.
 [Ver demanda]({{ '/assets/docs/demanda-2022-03-23.pdf' | relative_url }})
 
+**23/05/2022** — Escrito de Conclusiones, en respuesta a la contestación a la
+demanda del Ministerio de Asuntos Económicos y Transformación Digital: rebate
+punto por punto sus argumentos (naturaleza graciable de la petición, doctrina
+del Tribunal Constitucional sobre el derecho de petición —STC 242/1993, STC
+161/1988—, deberes de los arts. 9, 53 y 103 CE), aporta datos de Eurostat sobre
+la brecha retributiva de género entre trabajadores autónomos (hasta 34,3% en
+2009), y sugiere, subsidiariamente, plantear cuestión prejudicial ante el TJUE
+sobre la compatibilidad de un sistema de honorarios mínimos equivalentes con la
+libertad de empresa.
+[Ver escrito de conclusiones]({{ '/assets/docs/escrito-conclusiones-2022-05-23.pdf' | relative_url }})
+
 **03/07/2024** — Sentencia nº 525/2024 de la Audiencia Nacional (Sala de lo
 Contencioso-Administrativo, Sección Tercera; Procedimiento Ordinario 1/2022):
 desestima el recurso e impone las
