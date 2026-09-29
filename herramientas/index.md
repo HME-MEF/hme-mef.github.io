@@ -3,6 +3,8 @@ layout: page
 title: "Herramientas"
 ---
 
+{% include beta-notice.html %}
+
 Dos calculadoras, dos preguntas distintas. Ambas comparten el mismo motor
 de cálculo (estimación automática de horas del encargo, suelo de coste,
 suelo MEF) y un **selector de año** (2024–2027), documentados en la

@@ -5,6 +5,8 @@ title: "Estimador de banda de honorarios"
 
 [← Volver a Herramientas]({{ '/herramientas/' | relative_url }})
 
+{% include beta-notice.html %}
+
 Esta herramienta responde a una pregunta distinta de la del
 [evaluador de indicios de discriminación]({{ '/herramientas/evaluador/' | relative_url }}):
 en vez de comparar un importe ya ofertado o adjudicado, calcula **de
