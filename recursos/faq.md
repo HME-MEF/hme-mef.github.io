@@ -107,7 +107,11 @@ en la [memoria técnica]({{ '/herramientas/metodologia/' | relative_url }})):
    empresarial** y los **costes operativos** del estudio.
 2. Se divide entre las **horas anuales** de convenio (1.792 h).
 3. El resultado son dos valores de referencia: **31,08 €/h** (suelo MEF,
-   base convenio) y **21,59 €/h** (base SMI, el umbral absoluto).
+   base convenio, igual en 2024–2027 a falta de una tabla salarial más
+   reciente) y, sobre SMI, entre **21,59 €/h** (2024) y **22,49 €/h**
+   (2026–2027), según el año — el umbral absoluto. Las dos calculadoras
+   incluyen un **selector de año** (2024–2027) para elegir qué cifras
+   aplicar en cada caso.
 
 Separadamente, el **suelo de coste** (lo que le cuesta a un estudio
 producir una hora de trabajo, incluido su margen) ajusta esas horas por

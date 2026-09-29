@@ -5,8 +5,8 @@ title: "Herramientas"
 
 Dos calculadoras, dos preguntas distintas. Ambas comparten el mismo motor
 de cálculo (estimación automática de horas del encargo, suelo de coste,
-suelo MEF), documentado en la [memoria técnica](#memoria-técnica) común a
-las dos.
+suelo MEF) y un **selector de año** (2024–2027), documentados en la
+[memoria técnica](#memoria-técnica) común a las dos.
 
 **Por el momento, las calculadoras disponibles se limitan a proyectos de
 edificación de arquitectura.** Está previsto ampliar el repertorio de

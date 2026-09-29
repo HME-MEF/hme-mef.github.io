@@ -72,6 +72,24 @@
         <h2>Datos del encargo</h2>
 
         <fieldset>
+          <legend>Año de referencia (datos económicos)</legend>
+          <label for="anio">Año</label>
+          <select id="anio" onchange="onAnioChange()">
+            <option value="" selected>— Selecciona un año —</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+          </select>
+          <div class="hint" id="anio-nota">
+            Determina qué cifras de salario de convenio, SMI y facturabilidad (Deltek) se usan en
+            el suelo MEF y el suelo de coste. Ver la
+            <a href="{{ '/herramientas/metodologia/' | relative_url }}">memoria técnica</a> para el
+            origen y las limitaciones de cada año.
+          </div>
+        </fieldset>
+
+        <fieldset>
           <legend>Edificación</legend>
           <label for="pem">PEM — Presupuesto de Ejecución Material (€)</label>
           <input type="number" id="pem" value="1500000" min="0" step="1000">
@@ -148,10 +166,10 @@
           <legend>Suelo MEF — base de cálculo</legend>
           <div class="row">
             <div>
-              <label><input type="radio" name="mefbase" value="convenio" checked> Convenio (31,08 €/h)</label>
+              <label><input type="radio" name="mefbase" value="convenio" checked> Convenio (<span id="v-convenio">—</span> €/h)</label>
             </div>
             <div>
-              <label><input type="radio" name="mefbase" value="smi"> SMI (21,59 €/h)</label>
+              <label><input type="radio" name="mefbase" value="smi"> SMI (<span id="v-smi">—</span> €/h)</label>
             </div>
           </div>
           <div class="hint">Convenio = salario de convenio de ingeniería y oficinas técnicas. SMI = salario mínimo interprofesional. El convenio es el suelo de referencia principal; el SMI, el umbral absoluto.</div>
@@ -167,7 +185,7 @@
         <div class="result-box">
           <div class="result-row"><span>% del PEM que representa el importe evaluado</span><span class="v" id="r-pct">—</span></div>
           <div class="result-row"><span>€/h del importe evaluado</span><span class="v" id="r-euroh">—</span></div>
-          <div class="result-row"><span>Suelo de coste (referencia)</span><span class="v">56,68 €/h</span></div>
+          <div class="result-row"><span>Suelo de coste (referencia)</span><span class="v" id="r-suelocoste">—</span></div>
           <div class="result-row"><span>Suelo MEF (umbral antidiscriminatorio)</span><span class="v" id="r-mef">—</span></div>
         </div>
 
@@ -228,9 +246,23 @@
 </div>
 
 <script>
-const SUELO_COSTE = 56.68;
-const MEF_CONVENIO = 31.08;
-const MEF_SMI = 21.59;
+// Datos por año — ver memoria técnica (herramientas/metodologia.md) para el origen y las
+// limitaciones de cada cifra. Donde no hay tabla o benchmark publicado para un año, se mantiene
+// la última cifra oficial/verificada disponible, marcada explícitamente en NOTA_ANIO.
+const DATA_BY_YEAR = {
+  2024: { mefConvenio: 31.08, mefSmi: 21.59, sueloCoste: 56.68 },
+  2025: { mefConvenio: 31.08, mefSmi: 22.11, sueloCoste: 56.68 },
+  2026: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 56.68 },
+  2027: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 56.68 }
+};
+
+const NOTA_ANIO = {
+  2024: 'Salario de convenio, SMI y facturabilidad corresponden a fuentes oficiales/verificadas de 2024.',
+  2025: 'Salario de convenio: sin tabla pactada para 2025; se mantiene la última tabla oficial (2024). SMI: dato oficial de 2025. Facturabilidad: único dato específico de arquitectura publicado (FY2025).',
+  2026: 'Salario de convenio: sin tabla pactada para 2026; se mantiene la última tabla oficial (2024). SMI: dato oficial de 2026. Facturabilidad: sin edición más reciente disponible; se mantiene el dato de FY2025.',
+  2027: 'Salario de convenio, SMI y facturabilidad: sin dato oficial publicado aún para 2027; se mantienen las últimas cifras disponibles (convenio 2024, SMI 2026, facturabilidad FY2025).'
+};
+
 const REF_CONVERSION = 60.5; // €/h — extremo inferior art. 6.2 DM 17/6/2016, actualizado por IPC italiano 2016→2024
 
 // G (grado di complessità), Tabla Z-1 del DM 17/6/2016 — categorías orientativas por grandes grupos
@@ -254,6 +286,30 @@ function fmt(n){
 function toggleHmeManual(){
   const on = document.getElementById('hme-manual-toggle').checked;
   document.getElementById('hme-manual-wrap').style.display = on ? 'block' : 'none';
+}
+
+function onAnioChange(){
+  const anio = document.getElementById('anio').value;
+  const vConvenio = document.getElementById('v-convenio');
+  const vSmi = document.getElementById('v-smi');
+  const rSuelo = document.getElementById('r-suelocoste');
+  const nota = document.getElementById('anio-nota');
+
+  if (!anio) {
+    vConvenio.textContent = '—';
+    vSmi.textContent = '—';
+    rSuelo.textContent = '—';
+    nota.textContent = 'Determina qué cifras de salario de convenio, SMI y facturabilidad (Deltek) ' +
+      'se usan en el suelo MEF y el suelo de coste. Ver la memoria técnica (enlace más abajo) para ' +
+      'el origen y las limitaciones de cada año.';
+    return;
+  }
+
+  const d = DATA_BY_YEAR[anio];
+  vConvenio.textContent = fmt(d.mefConvenio);
+  vSmi.textContent = fmt(d.mefSmi);
+  rSuelo.textContent = fmt(d.sueloCoste) + ' €/h';
+  nota.textContent = NOTA_ANIO[anio];
 }
 
 function horasEstimadas(pem){
@@ -283,10 +339,26 @@ function horasEstimadas(pem){
 }
 
 function calcular(){
+  const anio = document.getElementById('anio').value;
+  const diag = document.getElementById('diagnostico');
+
+  if (!anio) {
+    diag.style.display = 'block';
+    diag.className = 'diag warn';
+    diag.innerHTML = '⚠️ Selecciona primero un <strong>año de referencia</strong> (arriba) para calcular el resultado.';
+    document.getElementById('r-pct').textContent = '—';
+    document.getElementById('r-euroh').textContent = '—';
+    document.getElementById('r-mef').textContent = '—';
+    return;
+  }
+
+  const d = DATA_BY_YEAR[anio];
+  const SUELO_COSTE = d.sueloCoste;
+
   const pem = parseFloat(document.getElementById('pem').value) || 0;
   const importe = parseFloat(document.getElementById('importe').value) || 0;
   const mefBase = document.querySelector('input[name=mefbase]:checked').value;
-  const suelomef = mefBase === 'convenio' ? MEF_CONVENIO : MEF_SMI;
+  const suelomef = mefBase === 'convenio' ? d.mefConvenio : d.mefSmi;
 
   const manual = document.getElementById('hme-manual-toggle').checked;
   let hme, calc;
@@ -307,17 +379,16 @@ function calcular(){
   document.getElementById('r-euroh').textContent = fmt(euroh) + ' €/h';
   document.getElementById('r-mef').textContent = fmt(suelomef) + ' €/h';
 
-  const diag = document.getElementById('diagnostico');
   diag.style.display = 'block';
 
   if (euroh >= SUELO_COSTE) {
     diag.className = 'diag ok';
     diag.innerHTML = '✅ <strong>Adecuado.</strong> El importe evaluado (' + fmt(euroh) +
-      ' €/h) está por encima del suelo de coste (56,68 €/h).';
+      ' €/h) está por encima del suelo de coste (' + fmt(SUELO_COSTE) + ' €/h).';
   } else if (euroh >= suelomef) {
     diag.className = 'diag warn';
     diag.innerHTML = '⚠️ <strong>Ajustado — revisar.</strong> El importe evaluado (' + fmt(euroh) +
-      ' €/h) está entre el suelo MEF (' + fmt(suelomef) + ' €/h) y el suelo de coste (56,68 €/h).';
+      ' €/h) está entre el suelo MEF (' + fmt(suelomef) + ' €/h) y el suelo de coste (' + fmt(SUELO_COSTE) + ' €/h).';
   } else {
     diag.className = 'diag bad';
     diag.innerHTML = '❌ <strong>Indicio de discriminación retributiva.</strong> El importe evaluado (' +

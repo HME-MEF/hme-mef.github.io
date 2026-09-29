@@ -72,17 +72,23 @@ Margarida) que se muestra más abajo, y que ya estaba validado contra
 datos reales antes de automatizarlo aquí. Quien prefiera introducir su
 propio juicio profesional puede activar el ajuste manual de horas.
 
-La herramienta calcula dos suelos propios y sitúa el importe evaluado
-frente a ellos:
+La herramienta requiere elegir primero un **año de referencia**
+(2024–2027), porque el salario de convenio, el SMI y la facturabilidad
+Deltek varían según el ejercicio — a diferencia del modelo italiano o de
+SEGIPSA. Con el año elegido, calcula dos suelos propios y sitúa el
+importe evaluado frente a ellos:
 
-- **Suelo de coste** (56,68 €/h): horas estimadas del encargo (HME) ×
-  tarifa horaria de coste, derivada de la retribución media ACE 2020
-  entre empleo público y dirección de estudio privado, con gastos
-  generales 13% y beneficio industrial 6% (por analogía con el art. 131
-  RGLCAP).
-- **Suelo MEF** (31,08 €/h sobre salario de convenio; 21,59 €/h sobre
-  SMI): HME × tarifa MEF/h — el suelo antidiscriminatorio propiamente
-  dicho.
+- **Suelo de coste** (56,68 €/h, igual en los cuatro años del selector
+  por ahora): horas estimadas del encargo (HME) × tarifa horaria de
+  coste, derivada de la retribución media ACE 2020 entre empleo público
+  y dirección de estudio privado, con gastos generales 13% y beneficio
+  industrial 6% (por analogía con el art. 131 RGLCAP).
+- **Suelo MEF** (31,08 €/h sobre salario de convenio en los cuatro años;
+  entre 21,59 €/h y 22,49 €/h sobre SMI, según el año): HME × tarifa
+  MEF/h — el suelo antidiscriminatorio propiamente dicho. Ver la
+  [memoria técnica]({{ '/herramientas/metodologia/' | relative_url }}#6-datos-y-resultados-por-año-2024-2027)
+  para el valor exacto de cada año y por qué algunas cifras se mantienen
+  constantes a falta de dato oficial más reciente.
 
 Las tablas SEGIPSA y DM italiano que se muestran junto al resultado son
 de consulta manual y no se aplican automáticamente al cálculo. Los
@@ -111,7 +117,8 @@ suelos, está en la [memoria técnica]({{ '/herramientas/metodologia/' | relativ
 
 El modelo se ha validado con dos contratos reales de redacción de
 proyecto recogidos por el Observatorio de Honorarios del COAM
-(26/5/2025):
+(26/5/2025) — corresponden al año 2025 en el selector de año de la
+herramienta:
 
 | Concepto | Ripollet (Biblioteca) | Sta. Margarida (Comisaría) |
 |---|---|---|
