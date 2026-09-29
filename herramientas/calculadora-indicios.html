@@ -167,7 +167,7 @@
         <div class="result-box">
           <div class="result-row"><span>% del PEM que representa el importe evaluado</span><span class="v" id="r-pct">—</span></div>
           <div class="result-row"><span>€/h del importe evaluado</span><span class="v" id="r-euroh">—</span></div>
-          <div class="result-row"><span>Suelo de coste (referencia)</span><span class="v">57,07 €/h</span></div>
+          <div class="result-row"><span>Suelo de coste (referencia)</span><span class="v">56,68 €/h</span></div>
           <div class="result-row"><span>Suelo MEF (umbral antidiscriminatorio)</span><span class="v" id="r-mef">—</span></div>
         </div>
 
@@ -228,7 +228,7 @@
 </div>
 
 <script>
-const SUELO_COSTE = 57.07;
+const SUELO_COSTE = 56.68;
 const MEF_CONVENIO = 31.08;
 const MEF_SMI = 21.59;
 const REF_CONVERSION = 60.5; // €/h — extremo inferior art. 6.2 DM 17/6/2016, actualizado por IPC italiano 2016→2024
@@ -313,11 +313,11 @@ function calcular(){
   if (euroh >= SUELO_COSTE) {
     diag.className = 'diag ok';
     diag.innerHTML = '✅ <strong>Adecuado.</strong> El importe evaluado (' + fmt(euroh) +
-      ' €/h) está por encima del suelo de coste (57,07 €/h).';
+      ' €/h) está por encima del suelo de coste (56,68 €/h).';
   } else if (euroh >= suelomef) {
     diag.className = 'diag warn';
     diag.innerHTML = '⚠️ <strong>Ajustado — revisar.</strong> El importe evaluado (' + fmt(euroh) +
-      ' €/h) está entre el suelo MEF (' + fmt(suelomef) + ' €/h) y el suelo de coste (57,07 €/h).';
+      ' €/h) está entre el suelo MEF (' + fmt(suelomef) + ' €/h) y el suelo de coste (56,68 €/h).';
   } else {
     diag.className = 'diag bad';
     diag.innerHTML = '❌ <strong>Indicio de discriminación retributiva.</strong> El importe evaluado (' +

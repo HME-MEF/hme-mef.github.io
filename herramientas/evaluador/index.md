@@ -75,7 +75,7 @@ propio juicio profesional puede activar el ajuste manual de horas.
 La herramienta calcula dos suelos propios y sitúa el importe evaluado
 frente a ellos:
 
-- **Suelo de coste** (57,07 €/h): horas estimadas del encargo (HME) ×
+- **Suelo de coste** (56,68 €/h): horas estimadas del encargo (HME) ×
   tarifa horaria de coste, derivada de la retribución media ACE 2020
   entre empleo público y dirección de estudio privado, con gastos
   generales 13% y beneficio industrial 6% (por analogía con el art. 131
