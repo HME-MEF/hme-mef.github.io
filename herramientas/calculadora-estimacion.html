@@ -45,6 +45,11 @@
   table.ref th { background:#f1f3f6; color:#1F3864; font-size:11px; text-transform:uppercase; }
   .notice { font-size:11.5px; color:#7f8c8d; background:#f8f9fb; border-radius:6px; padding:10px 12px; margin-top:10px; }
   .scope { font-size:12px; background:#eef3fb; border-left:4px solid #3498db; padding:10px 14px; border-radius:6px; margin-bottom:18px; color:#2c3e50; }
+  .btn-secondary {
+    background:#fff; color:#1F3864; border:1px solid #1F3864; padding:10px 20px; border-radius:6px;
+    font-size:13.5px; font-weight:600; cursor:pointer; width:100%; margin-top:8px;
+  }
+  .btn-secondary:hover { background:#eef3fb; }
   .band {
     position:relative; height:54px; margin:18px 0 8px; border-radius:8px;
     background:linear-gradient(to right, #fdecea 0%, #fff6e0 25%, #e6f6ec 55%, #e6f6ec 100%);
@@ -156,6 +161,7 @@
         </fieldset>
 
         <button onclick="calcular()">Calcular banda de referencia</button>
+        <button class="btn-secondary" onclick="descargarPDF()">⬇ Descargar PDF del análisis</button>
       </div>
 
       <!-- RESULTS -->
@@ -199,7 +205,10 @@
   </div>
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script>
+const SITE_URL = "{{ site.url }}";
+
 // Datos por año — ver memoria técnica (herramientas/metodologia.md) para el origen y las
 // limitaciones de cada cifra. Donde no hay tabla o benchmark publicado para un año, se mantiene
 // la última cifra oficial/verificada disponible, marcada explícitamente en NOTA_ANIO.
@@ -324,6 +333,95 @@ function calcular(){
     mark.innerHTML = '<span class="lbl">' + p.l + '</span><span class="val">' + fmt(p.v) + ' €</span>';
     band.appendChild(mark);
   });
+}
+
+function descargarPDF(){
+  calcular();
+  const anio = document.getElementById('anio').value;
+
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF({ unit: 'mm', format: 'a4' });
+  const marginL = 18, width = 174;
+  let y = 20;
+
+  function h(text, size, gap){
+    doc.setFont('helvetica', 'bold'); doc.setFontSize(size);
+    doc.text(text, marginL, y);
+    y += gap;
+  }
+  function limpiar(str){
+    return String(str).replace(/Σ/g, 'S'); // jsPDF/helvetica no soporta el carácter Σ
+  }
+  function p(label, value){
+    doc.setFont('helvetica', 'bold'); doc.setFontSize(10);
+    doc.text(label, marginL, y);
+    const labelWidth = doc.getTextWidth(label);
+    doc.setFont('helvetica', 'normal');
+    const valueText = limpiar(value);
+    const valueWidth = doc.getTextWidth(valueText);
+    if (labelWidth + 3 + valueWidth <= width) {
+      doc.text(valueText, marginL + labelWidth + 3, y);
+      y += 6;
+    } else {
+      y += 5;
+      doc.text(valueText, marginL + 4, y);
+      y += 6;
+    }
+  }
+  function parrafo(text, size){
+    doc.setFont('helvetica', 'normal'); doc.setFontSize(size || 9);
+    const lines = doc.splitTextToSize(text, width);
+    doc.text(lines, marginL, y);
+    y += lines.length * 4.6 + 2;
+  }
+  function linea(){ doc.setDrawColor(210); doc.line(marginL, y, marginL + width, y); y += 6; }
+
+  h('HME/MEF — Estimador de banda de honorarios de referencia', 13, 8);
+  doc.setFont('helvetica', 'normal'); doc.setFontSize(9); doc.setTextColor(100);
+  doc.text('Generado el ' + new Date().toLocaleDateString('es-ES', {day:'2-digit', month:'2-digit', year:'numeric'}) +
+    ' · Año de referencia: ' + anio, marginL, y);
+  doc.setTextColor(0);
+  y += 8;
+  linea();
+
+  h('Datos del encargo', 11, 7);
+  p('PEM (Presupuesto de Ejecución Material):', document.getElementById('pem').value + ' €');
+  p('Tipología del edificio:', document.getElementById('tipologia').selectedOptions[0].text);
+  p('Grado de complejidad:', document.getElementById('complejidad').selectedOptions[0].text);
+  p('Tipo de encargo:', document.getElementById('encargo').selectedOptions[0].text);
+  p('Coordinación de seguridad y salud:', document.getElementById('coordseg').checked ? 'Sí' : 'No');
+  const mefBaseTxt = document.querySelector('input[name=mefbase]:checked').value === 'convenio' ? 'Convenio' : 'SMI';
+  p('Suelo MEF — base de cálculo:', mefBaseTxt);
+  p('Horas estimadas del encargo (HME):', document.getElementById('r-horas').textContent);
+  y += 2;
+  linea();
+
+  h('Banda de referencia', 11, 7);
+  p('Suelo MEF (mínimo antidiscriminatorio):', document.getElementById('r-mef').textContent);
+  p('Suelo de coste:', document.getElementById('r-coste').textContent);
+  p('Referencia SEGIPSA (BOE 27/5/2015):', document.getElementById('r-segipsa').textContent);
+  p('Referencia italiana (DM 17/6/2016):', document.getElementById('r-italia').textContent);
+  y += 2;
+
+  parrafo('La banda va del suelo MEF (mínimo absoluto antidiscriminatorio) a la mayor de ' +
+    'las dos referencias de valor externas. Un presupuesto puede razonablemente situarse ' +
+    'en cualquier punto de la banda, o por encima; por debajo del suelo MEF hay indicio de ' +
+    'infravaloración.');
+
+  linea();
+  h('Advertencias y metodología', 11, 7);
+  parrafo('Esta herramienta está en fase de prueba (beta): las cifras y el motor de ' +
+    'cálculo pueden cambiar. No es asesoramiento jurídico ni un baremo de honorarios, y ' +
+    'no sustituye el juicio profesional sobre el encargo concreto. Cada profesional fija ' +
+    'su honorario libremente; esta banda es una referencia de coste y de valor, no un ' +
+    'precio recomendado.');
+  parrafo('Origen y estatus de cada dato empleado (normativo, convencional, benchmark de ' +
+    'industria o hipótesis propia editable), y detalle de los valores por año: ' +
+    SITE_URL + '/herramientas/metodologia/');
+  parrafo('Herramienta: ' + SITE_URL + '/herramientas/estimacion/  ·  Propuesta HME/MEF: ' + SITE_URL + '/');
+
+  const pem = document.getElementById('pem').value;
+  doc.save('hme-mef-estimador-' + anio + '-pem' + pem + '.pdf');
 }
 
 onAnioChange();
