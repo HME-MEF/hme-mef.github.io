@@ -48,7 +48,7 @@ coste, construida por capas explícitas.
 Este suelo responde a la pregunta "¿cuánto le cuesta a un estudio producir
 una hora de trabajo, incluyendo su margen?" — es un suelo de **coste**,
 no un suelo antidiscriminatorio. Un honorario por debajo de este suelo no
-es necesariamente discriminatorio, pero sí indica un precio inadecuado.
+es necesariamente discriminatorio, pero sí indica un precio inferior al adecuado.
 
 ## 3. Derivación del suelo MEF (31,08 €/h convenio / 21,59 €/h SMI)
 
@@ -62,8 +62,8 @@ es necesariamente discriminatorio, pero sí indica un precio inadecuado.
    Con base SMI: **21,59 €/h**, el umbral absoluto.
 
 Este suelo es el fundamento de HME: el trabajador autónomo no debería
-cobrar, por trabajo equivalente, menos que lo que le costaría al mismo
-cliente contratar a un empleado.
+cobrar, por trabajo equivalente, menos remuneración neta que la que
+recibiría por el mismo trabajo un trabajador asalariado.
 
 ## 4. Estimación automática de horas del encargo (HME)
 
@@ -71,8 +71,7 @@ Se explica en detalle en la página del [Evaluador]({{ '/herramientas/evaluador/
 en síntesis, se aplica la fórmula del propio DM 17/6/2016
 (CP = V·G·ΣQ·P, con los gastos forfettari del art. 5) al PEM introducido,
 y el resultado se convierte a horas dividiendo por la tarifa de
-conversión de 60,5 €/h. Es el mismo cálculo ya validado en el caso de
-referencia (Ripollet / Santa Margarida).
+conversión de 60,5 €/h.
 
 ---
 
