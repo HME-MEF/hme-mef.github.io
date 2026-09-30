@@ -438,7 +438,11 @@ async function descargarPDF(){
   parrafo('Herramienta: ' + SITE_URL + '/herramientas/estimacion/  ·  Propuesta HME/MEF: ' + SITE_URL + '/');
 
   const pem = document.getElementById('pem').value;
-  doc.save('hme-mef-estimador-' + anio + '-pem' + pem + '.pdf');
+  const ahora = new Date();
+  const pad = n => String(n).padStart(2, '0');
+  const marca = ahora.getFullYear() + pad(ahora.getMonth() + 1) + pad(ahora.getDate()) +
+    '-' + pad(ahora.getHours()) + pad(ahora.getMinutes()) + pad(ahora.getSeconds());
+  doc.save('hme-mef-estimador-' + anio + '-pem' + pem + '-' + marca + '.pdf');
 }
 
 onAnioChange();
