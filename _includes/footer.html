@@ -1,3 +1,55 @@
+{% if page.lang == 'en' %}
+<footer class="site-footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>{{ site.title }}</h4>
+            <p>Research and advocacy platform for equivalent minimum architectural fees in Spain and the EU.</p>
+            <p style="font-size: 0.9em; margin-top: 1rem;">Academic research and legislative advocacy platform.</p>
+        </div>
+
+        <div class="footer-section">
+            <h4>Resources</h4>
+            <ul>
+                <li><a href="{{ '/en/publicaciones/' | relative_url }}">Publications</a></li>
+                <li><a href="{{ '/en/marco-legal/' | relative_url }}">Legal Framework</a></li>
+                <li><a href="{{ '/en/recursos/faq/' | relative_url }}">FAQ</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Advocacy</h4>
+            <ul>
+                <li><a href="{{ '/en/advocacy/' | relative_url }}">Formal proposals</a></li>
+                <li><a href="{{ '/en/advocacy/#cronologia' | relative_url }}">Timeline</a></li>
+                <li><a href="{{ '/en/advocacy/#documentos' | relative_url }}">Documents</a></li>
+                <li><a href="{{ '/en/noticias/' | relative_url }}">News</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Contact</h4>
+            <ul>
+                <li><a href="{{ '/en/recursos/contacto/' | relative_url }}">Contact form</a></li>
+            </ul>
+            <p style="font-size: 0.9em; margin-top: 1rem;">
+                <strong>Author:</strong> {{ site.author }}<br>
+                University of Murcia
+            </p>
+        </div>
+    </div>
+
+    <div class="footer-copyright">
+        <p>
+            © 2026 HME — Equivalent Minimum Fees. All rights reserved.<br>
+            This page is a translation for reference; the original, authoritative version is in
+            <a href="{{ page.url | remove_first: '/en' | relative_url }}">Spanish</a>.<br>
+            <a href="{{ '/legal/privacidad/' | relative_url }}">Privacy</a> •
+            <a href="{{ '/legal/uso/' | relative_url }}">Terms of Use</a> •
+            <a href="https://github.com/hme-mef/hme-mef.github.io">Source code (GitHub)</a>
+        </p>
+    </div>
+</footer>
+{% else %}
 <footer class="site-footer">
     <div class="footer-content">
         <div class="footer-section">
@@ -5,7 +57,7 @@
             <p>{{ site.description }}</p>
             <p style="font-size: 0.9em; margin-top: 1rem;">Plataforma de investigación académica y advocacy legislativa.</p>
         </div>
-        
+
         <div class="footer-section">
             <h4>Recursos</h4>
             <ul>
@@ -15,7 +67,7 @@
                 <li><a href="{{ '/recursos/glosario/' | relative_url }}">Glosario</a></li>
             </ul>
         </div>
-        
+
         <div class="footer-section">
             <h4>Advocacy</h4>
             <ul>
@@ -25,7 +77,7 @@
                 <li><a href="{{ '/noticias/' | relative_url }}">Noticias</a></li>
             </ul>
         </div>
-        
+
         <div class="footer-section">
             <h4>Contacto</h4>
             <ul>
@@ -37,7 +89,7 @@
             </p>
         </div>
     </div>
-    
+
     <div class="footer-copyright">
         <p>
             © 2026 HME — Honorarios Mínimos Equivalentes. Todos los derechos reservados.<br>
@@ -47,3 +99,4 @@
         </p>
     </div>
 </footer>
+{% endif %}

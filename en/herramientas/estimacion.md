@@ -1,0 +1,80 @@
+---
+layout: page
+lang: en
+title: "Fee band estimator"
+---
+
+[← Back to Tools]({{ '/en/herramientas/' | relative_url }})
+
+{% include beta-notice.html %}
+
+This tool answers a different question from the
+[pay-discrimination evaluator]({{ '/en/herramientas/evaluador/' | relative_url }}):
+instead of comparing an amount already offered or awarded, it calculates
+**in advance** a band of objective references for a commission to **draft a
+project and/or supervise a site**, based on its PEM (construction budget),
+its building type and its scope.
+
+> Just as the collectively-bargained salary is public information, a
+> self-employed professional's equivalent remuneration should be openly
+> consultable. Hiding that figure perpetuates the information asymmetry
+> that HME/MEF wants to correct. Publishing a band of cost and value
+> references — open, with their origin documented and checkable by anyone —
+> is not the same as a professional-association tariff: the case law (CJEU
+> *Cipolla*, see [Legal Framework]({{ '/en/marco-legal/' | relative_url }}))
+> distinguishes by who sets the figure and how, not by whether the figure is
+> public.
+
+**This is not a tariff, a fee scale, or a recommended fee.** No professional
+is obliged to fall within the band or above it; it is a cost-and-value
+reference for reasoning about one's own quote, with the origin of every
+input made explicit in the
+[technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }}).
+
+<div style="margin:24px 0;">
+  <iframe src="{{ '/en/herramientas/calculadora-estimacion.html' | relative_url }}"
+          style="width:100%; height:1500px; border:none; border-radius:8px;"
+          title="Reference fee band estimator">
+  </iframe>
+</div>
+
+---
+
+### What it calculates
+
+The band runs from the **MEF floor** (the anti-discrimination minimum: what
+it would cost to hire an employee with the same qualification) up to the
+higher of two external **value references**:
+
+| Reference | What it measures |
+|---|---|
+| **MEF floor** | Opportunity cost of self-employed–employee equivalence. Absolute minimum. |
+| **Cost floor** | The practice's real production cost (salary + overheads + industrial profit). |
+| **SEGIPSA** (BOE 27/5/2015) | % of PEM that the Spanish General State Administration itself applies to its own commissioned work. |
+| **Italy** (DM 17/6/2016) | A value-based fee model in force in the EU, cited as a comparative reference. |
+
+Commission hours (HME) are estimated automatically using the same method as
+the pay-discrimination evaluator: the DM 17/6/2016 formula
+(CP = V·G·ΣQ·P) applied to the PEM, the chosen building type/complexity and
+scope.
+
+### Caveats
+
+- It does not replace professional judgement about the specific commission,
+  nor is it legal advice.
+- No point on the band is a price to be charged: each professional sets
+  their own fee freely, above or below any of these references, except for
+  the MEF floor, which marks the anti-discrimination threshold.
+- Monetary values should be updated periodically in line with CPI.
+
+---
+
+## More information
+
+[**Pay-discrimination evaluator →**]({{ '/en/herramientas/evaluador/' | relative_url }})
+[**See the calculator's technical methodology →**]({{ '/en/herramientas/metodologia/' | relative_url }})
+[**See the full Legal Framework →**]({{ '/en/marco-legal/' | relative_url }})
+
+---
+
+**Last updated**: September 2026

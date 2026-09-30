@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reference fee band estimator — HME/MEF</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:#f4f6f9; color:#2c3e50; line-height:1.5; padding:20px;
+  }
+  .wrap { max-width:1100px; margin:0 auto; }
+  .card {
+    background:#fff; border-radius:10px; box-shadow:0 4px 18px rgba(0,0,0,.08);
+    padding:28px 30px; margin-bottom:22px;
+  }
+  h1 { font-size:22px; color:#1F3864; margin-bottom:6px; }
+  .subtitle { color:#595959; font-size:13px; margin-bottom:18px; }
+  h2 { font-size:15px; color:#1F3864; margin:18px 0 10px; border-bottom:2px solid #D9E1F2; padding-bottom:6px; }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:26px; }
+  @media (max-width:760px){ .grid{grid-template-columns:1fr;} }
+  label { display:block; font-size:12.5px; font-weight:600; color:#34495e; margin-bottom:4px; }
+  .hint { font-size:11px; color:#7f8c8d; margin:2px 0 12px; }
+  input[type=number], select {
+    width:100%; padding:9px 10px; border:1px solid #c7ccd1; border-radius:5px;
+    font-size:13.5px; margin-bottom:4px; background:#fff;
+  }
+  input:focus, select:focus { outline:none; border-color:#3498db; }
+  fieldset { border:1px solid #e3e7ea; border-radius:6px; padding:12px 14px; margin-bottom:14px; }
+  legend { font-size:12px; font-weight:700; color:#1F3864; padding:0 6px; }
+  .row { display:flex; gap:10px; }
+  .row > div { flex:1; }
+  button {
+    background:#1F3864; color:#fff; border:none; padding:12px 20px; border-radius:6px;
+    font-size:14px; font-weight:600; cursor:pointer; width:100%; margin-top:6px;
+  }
+  button:hover { background:#16294d; }
+  .result-box { background:#f8f9fb; border-radius:8px; padding:16px 18px; margin-bottom:14px; }
+  .result-row { display:flex; justify-content:space-between; padding:6px 0; border-bottom:1px solid #eceff2; font-size:13px; }
+  .result-row:last-child { border-bottom:none; }
+  .result-row .v { font-weight:700; }
+  table.ref { width:100%; border-collapse:collapse; font-size:12px; margin-top:6px; }
+  table.ref th, table.ref td { padding:6px 8px; border-bottom:1px solid #eceff2; text-align:left; }
+  table.ref th { background:#f1f3f6; color:#1F3864; font-size:11px; text-transform:uppercase; }
+  .notice { font-size:11.5px; color:#7f8c8d; background:#f8f9fb; border-radius:6px; padding:10px 12px; margin-top:10px; }
+  .scope { font-size:12px; background:#eef3fb; border-left:4px solid #3498db; padding:10px 14px; border-radius:6px; margin-bottom:18px; color:#2c3e50; }
+  .btn-secondary {
+    background:#fff; color:#1F3864; border:1px solid #1F3864; padding:10px 20px; border-radius:6px;
+    font-size:13.5px; font-weight:600; cursor:pointer; width:100%; margin-top:8px;
+  }
+  .btn-secondary:hover { background:#eef3fb; }
+  .band {
+    position:relative; padding:64px 0; margin:0 0 8px;
+  }
+  .band .band-bar {
+    height:54px; border-radius:8px;
+    background:linear-gradient(to right, #fdecea 0%, #fff6e0 25%, #e6f6ec 55%, #e6f6ec 100%);
+  }
+  .band .mark {
+    position:absolute; top:64px; bottom:64px; width:2px; background:#1F3864;
+  }
+  .band .mark .lbl {
+    position:absolute; left:0; bottom:100%;
+    transform-origin: left bottom; transform: rotate(-90deg) translate(6px, 4px);
+    font-size:10.5px; font-weight:700; color:#1F3864; white-space:nowrap;
+  }
+  .band .mark .val {
+    position:absolute; left:0; top:100%;
+    transform-origin: left top; transform: rotate(-90deg) translate(-6px, -12px);
+    font-size:10.5px; color:#34495e; white-space:nowrap;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="card">
+    <h1>Reference fee band estimator
+      <span style="display:inline-block; vertical-align:middle; font-size:10.5px; font-weight:700; letter-spacing:.03em; color:#8a6100; background:#fff6e0; border:1px solid #f0ad4e; border-radius:4px; padding:2px 7px; margin-left:8px;">BETA</span>
+    </h1>
+    <div class="subtitle">Project drafting and/or site supervision by architects · based on the PEM (construction budget)</div>
+
+    <div class="scope">
+      <strong>What this is, and isn't:</strong> this tool calculates, from the PEM, the building type and the
+      scope of the commission, a <strong>band of objective references</strong> — a cost floor, an
+      anti-discrimination floor (MEF) and two external value references (SEGIPSA, the Italian model) —
+      for the professional to check their own quote against. <strong>It is not a recommended tariff, a
+      fee scale, or a price to charge</strong>: each professional sets their own fee freely, and this band
+      is only a starting point for cost analysis. See also the
+      <a href="{{ '/en/herramientas/evaluador/' | relative_url }}">pay-discrimination evaluator</a>, which
+      compares an amount already offered or awarded against the MEF floor.
+    </div>
+
+    <div class="grid">
+      <!-- INPUTS -->
+      <div>
+        <h2>Commission details</h2>
+
+        <fieldset>
+          <legend>Reference year (economic data)</legend>
+          <label for="anio">Year</label>
+          <select id="anio" onchange="onAnioChange(); calcular();">
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026" selected>2026</option>
+            <option value="2027">2027</option>
+          </select>
+          <div class="hint" id="anio-nota">
+            Determines which collectively-bargained salary, SMI and utilization-rate (Deltek) figures
+            are used for the MEF floor and the cost floor. See the
+            <a href="{{ '/en/herramientas/metodologia/' | relative_url }}">technical methodology</a> for
+            the origin and limitations of each year.
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Building</legend>
+          <label for="pem">PEM — Execution Cost Budget (€)</label>
+          <input type="number" id="pem" value="1500000" min="0" step="1000">
+          <div class="hint">The base V of the estimate.</div>
+
+          <label for="tipologia">Building type</label>
+          <select id="tipologia">
+            <option value="vivienda" selected>Residential (single-family or multi-family)</option>
+            <option value="educativo_sanitario">Educational / healthcare (school, health centre, hospital)</option>
+            <option value="cultural">Cultural / social / sports (library, museum, theatre, sports centre)</option>
+            <option value="administrativo_seguridad">Administrative / security (public offices, police station, courthouse)</option>
+            <option value="industrial">Industrial / tourism / commercial</option>
+          </select>
+
+          <label for="complejidad">Degree of complexity</label>
+          <select id="complejidad">
+            <option value="baja">Low</option>
+            <option value="media" selected>Medium</option>
+            <option value="alta">High</option>
+          </select>
+          <div class="hint">
+            Determine parameter G (Table Z-1 of DM 17/6/2016) — an indicative categorisation by broad
+            group. See <a href="{{ '/en/marco-legal/' | relative_url }}">Legal Framework</a>.
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Scope of the commission</legend>
+          <label for="encargo">Type of commission</label>
+          <select id="encargo">
+            <option value="redaccion">Project drafting</option>
+            <option value="direccion">Site supervision</option>
+            <option value="ambos" selected>Drafting + Supervision</option>
+          </select>
+
+          <label><input type="checkbox" id="coordseg"> Includes health and safety coordination (design + execution)</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>MEF floor — calculation base</legend>
+          <div class="row">
+            <div>
+              <label><input type="radio" name="mefbase" value="convenio" checked> Collective agreement (<span id="v-convenio">—</span> €/h)</label>
+            </div>
+            <div>
+              <label><input type="radio" name="mefbase" value="smi"> SMI (<span id="v-smi">—</span> €/h)</label>
+            </div>
+          </div>
+          <div class="hint">Collective agreement = the salary under the engineering and technical consultancy agreement. SMI = the Spanish national minimum wage.</div>
+        </fieldset>
+
+        <button onclick="calcular()">Calculate the reference band</button>
+        <button class="btn-secondary" onclick="descargarPDF()">⬇ Download analysis PDF</button>
+      </div>
+
+      <!-- RESULTS -->
+      <div>
+        <h2>Reference band</h2>
+
+        <div class="result-box">
+          <div class="result-row"><span>Estimated commission hours (HME)</span><span class="v" id="r-horas">—</span></div>
+          <div class="result-row"><span>MEF floor (anti-discrimination minimum)</span><span class="v" id="r-mef">—</span></div>
+          <div class="result-row"><span>Cost floor</span><span class="v" id="r-coste">—</span></div>
+          <div class="result-row"><span>SEGIPSA reference (BOE 27/5/2015)</span><span class="v" id="r-segipsa">—</span></div>
+          <div class="result-row"><span>Italian reference (DM 17/6/2016)</span><span class="v" id="r-italia">—</span></div>
+        </div>
+
+        <div class="band" id="band-viz"></div>
+        <div class="notice">
+          The band runs from the MEF floor (the absolute anti-discrimination minimum) to the higher of
+          the two external value references. A quote can reasonably fall anywhere within the band, or
+          above it; below the MEF floor there is an indicator of undervaluation.
+        </div>
+
+        <h2>Origin of each reference</h2>
+        <table class="ref">
+          <tr><th>Reference</th><th>Nature</th></tr>
+          <tr><td>MEF floor</td><td>Opportunity cost — what it would cost to hire an equivalent employee. Anti-discrimination floor.</td></tr>
+          <tr><td>Cost floor</td><td>The practice's production cost (salary + overheads + industrial profit), by analogy with art. 131 RGLCAP.</td></tr>
+          <tr><td>SEGIPSA</td><td>% of PEM applied by the Spanish General State Administration to its own commissioned work (BOE 27/5/2015).</td></tr>
+          <tr><td>Italy (DM 17/6/2016)</td><td>A value-based fee model in force in Italy, used here only as a comparative reference — see <a href="{{ '/en/marco-legal/' | relative_url }}">Legal Framework</a>.</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card notice">
+    This tool is not legal advice or a fee scale, and does not replace professional judgement about the
+    specific commission. Monetary values (SMI, collective agreement, rates) should be updated
+    periodically in line with CPI. Each professional sets their own fee freely; this band is a cost and
+    value reference, not a recommended price. See the
+    <a href="{{ '/en/herramientas/metodologia/' | relative_url }}">technical methodology</a> for the
+    origin and status of every input used.
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script>
+const SITE_URL = "{{ site.url }}";
+
+// Data by year — see the technical methodology (herramientas/metodologia.md) for the origin and
+// limitations of each figure. Where no table or benchmark has been published for a given year, the
+// last official/verified figure is kept, explicitly flagged in NOTA_ANIO.
+const DATA_BY_YEAR = {
+  2024: { mefConvenio: 31.08, mefSmi: 21.59, sueloCoste: 58.23 },
+  2025: { mefConvenio: 31.08, mefSmi: 22.11, sueloCoste: 58.23 },
+  2026: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 58.23 },
+  2027: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 58.23 }
+};
+
+const NOTA_ANIO = {
+  2024: 'Collective-agreement salary, SMI and utilization rate correspond to official/verified 2024 sources.',
+  2025: 'Collective-agreement salary: no agreed table for 2025; the last official table (2024) is kept. SMI: official 2025 figure. Utilization rate: the only architecture-specific figure published (FY2025).',
+  2026: 'Collective-agreement salary: no agreed table for 2026; the last official table (2024) is kept. SMI: official 2026 figure. Utilization rate: no more recent edition available; the FY2025 figure is kept.',
+  2027: 'Collective-agreement salary, SMI and utilization rate: no official figure published yet for 2027; the latest available figures are kept (2024 agreement, 2026 SMI, FY2025 utilization rate).'
+};
+
+const REF_CONVERSION = 60.5; // €/h — lower end of art. 6.2 DM 17/6/2016, updated by Italian CPI 2016→2024
+
+const G_TABLE = {
+  vivienda:                 { baja:0.65, media:0.95, alta:1.20 },
+  educativo_sanitario:      { baja:0.95, media:1.15, alta:1.20 },
+  cultural:                 { baja:1.15, media:1.15, alta:1.20 },
+  administrativo_seguridad: { baja:0.65, media:0.95, alta:1.20 },
+  industrial:               { baja:0.65, media:0.95, alta:1.20 }
+};
+
+const Q_REDACCION = 0.86;
+const Q_DIRECCION = 0.44;
+const Q_COORDSEG  = 0.35;
+
+function fmt(n){
+  return n.toLocaleString('en-GB', {maximumFractionDigits:0, minimumFractionDigits:0});
+}
+function fmtH(n){
+  return n.toLocaleString('en-GB', {maximumFractionDigits:0});
+}
+function fmt2(n){
+  return n.toLocaleString('en-GB', {maximumFractionDigits:2, minimumFractionDigits:2});
+}
+
+function onAnioChange(){
+  const anio = document.getElementById('anio').value;
+  const d = DATA_BY_YEAR[anio];
+  document.getElementById('v-convenio').textContent = fmt2(d.mefConvenio);
+  document.getElementById('v-smi').textContent = fmt2(d.mefSmi);
+  document.getElementById('anio-nota').textContent = NOTA_ANIO[anio];
+}
+
+function segipsaTramo(pem, tabla){
+  if (pem <= 1000000) return tabla[0];
+  if (pem <= 3000000) return tabla[1];
+  if (pem <= 6000000) return tabla[2];
+  if (pem <= 10000000) return tabla[3];
+  return tabla[4];
+}
+
+function segipsaTotal(pem, encargo){
+  const RED = [0.0665, 0.0561, 0.0463, 0.0411, 0.0360];
+  const DIR = [0.0568, 0.0477, 0.0397, 0.0353, 0.0308];
+  let total = 0;
+  if (encargo === 'redaccion' || encargo === 'ambos') {
+    total += Math.max(5474, pem * segipsaTramo(pem, RED));
+  }
+  if (encargo === 'direccion' || encargo === 'ambos') {
+    total += Math.max(4560, pem * segipsaTramo(pem, DIR));
+  }
+  return total;
+}
+
+function calcular(){
+  const anio = document.getElementById('anio').value;
+  const d = DATA_BY_YEAR[anio];
+
+  const pem = parseFloat(document.getElementById('pem').value) || 0;
+  const tipologia = document.getElementById('tipologia').value;
+  const complejidad = document.getElementById('complejidad').value;
+  const encargo = document.getElementById('encargo').value;
+  const coordseg = document.getElementById('coordseg').checked;
+  const mefBase = document.querySelector('input[name=mefbase]:checked').value;
+  const suelomefH = mefBase === 'convenio' ? d.mefConvenio : d.mefSmi;
+  const SUELO_COSTE_H = d.sueloCoste;
+
+  const G = G_TABLE[tipologia][complejidad];
+  let SQ = encargo === 'redaccion' ? Q_REDACCION : encargo === 'direccion' ? Q_DIRECCION : (Q_REDACCION + Q_DIRECCION);
+  if (coordseg) SQ += Q_COORDSEG;
+
+  const V = pem > 0 ? pem : 1;
+  const P = 0.03 + 10 / Math.pow(V, 0.4);
+  const spese = V <= 1000000 ? 0.25
+              : V >= 25000000 ? 0.10
+              : 0.25 + (0.10 - 0.25) * (V - 1000000) / (24000000);
+  const CP = V * G * SQ * P * (1 + spese);
+  const horas = CP / REF_CONVERSION;
+
+  const mefTotal = horas * suelomefH;
+  const costeTotal = horas * SUELO_COSTE_H;
+  const segipsa = segipsaTotal(pem, encargo);
+  const italia = CP;
+
+  document.getElementById('r-horas').textContent = fmtH(horas) + ' h (G=' + G.toFixed(2) + ', ΣQ=' + SQ.toFixed(2) + ')';
+  document.getElementById('r-mef').textContent = '€' + fmt(mefTotal);
+  document.getElementById('r-coste').textContent = '€' + fmt(costeTotal);
+  document.getElementById('r-segipsa').textContent = '€' + fmt(segipsa);
+  document.getElementById('r-italia').textContent = '€' + fmt(italia);
+
+  const top = Math.max(mefTotal, costeTotal, segipsa, italia);
+  const points = [
+    { v: mefTotal, l: 'MEF' },
+    { v: costeTotal, l: 'Cost' },
+    { v: segipsa, l: 'SEGIPSA' },
+    { v: italia, l: 'Italy' }
+  ].sort(function(a,b){ return a.v - b.v; });
+
+  const band = document.getElementById('band-viz');
+  band.innerHTML = '<div class="band-bar"></div>';
+  points.forEach(function(p){
+    const pct = top > 0 ? (p.v / top * 92) + 4 : 50;
+    const mark = document.createElement('div');
+    mark.className = 'mark';
+    mark.style.left = pct + '%';
+    mark.innerHTML = '<span class="lbl">' + p.l + '</span><span class="val">€' + fmt(p.v) + '</span>';
+    band.appendChild(mark);
+  });
+}
+
+async function descargarPDF(){
+  calcular();
+  const anio = document.getElementById('anio').value;
+
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF({ unit: 'mm', format: 'a4' });
+  const marginL = 18, width = 174;
+  let y = 20;
+
+  function h(text, size, gap){
+    doc.setFont('helvetica', 'bold'); doc.setFontSize(size);
+    doc.text(text, marginL, y);
+    y += gap;
+  }
+  function limpiar(str){
+    return String(str).replace(/Σ/g, 'S'); // jsPDF/helvetica does not support the Σ character
+  }
+  function p(label, value){
+    doc.setFont('helvetica', 'bold'); doc.setFontSize(10);
+    doc.text(label, marginL, y);
+    const labelWidth = doc.getTextWidth(label);
+    doc.setFont('helvetica', 'normal');
+    const valueText = limpiar(value);
+    const valueWidth = doc.getTextWidth(valueText);
+    if (labelWidth + 3 + valueWidth <= width) {
+      doc.text(valueText, marginL + labelWidth + 3, y);
+      y += 6;
+    } else {
+      y += 5;
+      doc.text(valueText, marginL + 4, y);
+      y += 6;
+    }
+  }
+  function parrafo(text, size){
+    doc.setFont('helvetica', 'normal'); doc.setFontSize(size || 9);
+    const lines = doc.splitTextToSize(text, width);
+    doc.text(lines, marginL, y);
+    y += lines.length * 4.6 + 2;
+  }
+  function linea(){ doc.setDrawColor(210); doc.line(marginL, y, marginL + width, y); y += 6; }
+
+  h('HME/MEF — Reference fee band estimator', 13, 8);
+  doc.setFont('helvetica', 'normal'); doc.setFontSize(9); doc.setTextColor(100);
+  doc.text('Generated on ' + new Date().toLocaleDateString('en-GB', {day:'2-digit', month:'2-digit', year:'numeric'}) +
+    ' · Reference year: ' + anio, marginL, y);
+  doc.setTextColor(0);
+  y += 8;
+  linea();
+
+  h('Commission details', 11, 7);
+  p('PEM (Execution Cost Budget):', '€' + document.getElementById('pem').value);
+  p('Building type:', document.getElementById('tipologia').selectedOptions[0].text);
+  p('Degree of complexity:', document.getElementById('complejidad').selectedOptions[0].text);
+  p('Type of commission:', document.getElementById('encargo').selectedOptions[0].text);
+  p('Health and safety coordination:', document.getElementById('coordseg').checked ? 'Yes' : 'No');
+  const mefBaseTxt = document.querySelector('input[name=mefbase]:checked').value === 'convenio' ? 'Collective agreement' : 'SMI';
+  p('MEF floor — calculation base:', mefBaseTxt);
+  p('Estimated commission hours (HME):', document.getElementById('r-horas').textContent);
+  y += 2;
+  linea();
+
+  h('Reference band', 11, 7);
+  p('MEF floor (anti-discrimination minimum):', document.getElementById('r-mef').textContent);
+  p('Cost floor:', document.getElementById('r-coste').textContent);
+  p('SEGIPSA reference (BOE 27/5/2015):', document.getElementById('r-segipsa').textContent);
+  p('Italian reference (DM 17/6/2016):', document.getElementById('r-italia').textContent);
+  y += 4;
+
+  try {
+    const bandEl = document.getElementById('band-viz');
+    const canvas = await html2canvas(bandEl, { backgroundColor: '#ffffff', scale: 2 });
+    const imgW = width;
+    const imgH = imgW * canvas.height / canvas.width;
+    doc.addImage(canvas.toDataURL('image/png'), 'PNG', marginL, y, imgW, imgH);
+    y += imgH + 6;
+  } catch (e) {
+    console.warn('Could not capture the band chart for the PDF:', e);
+  }
+
+  parrafo('The band runs from the MEF floor (the absolute anti-discrimination minimum) to the ' +
+    'higher of the two external value references. A quote can reasonably fall anywhere within the ' +
+    'band, or above it; below the MEF floor there is an indicator of undervaluation.');
+
+  linea();
+  h('Caveats and methodology', 11, 7);
+  parrafo('This tool is in beta testing: the figures and the calculation engine may change. It is ' +
+    'not legal advice or a fee scale, and does not replace professional judgement about the specific ' +
+    'commission. Each professional sets their own fee freely; this band is a cost and value ' +
+    'reference, not a recommended price.');
+  parrafo('Origin and status of every input used (regulatory, collectively-bargained, industry ' +
+    'benchmark, or an editable working assumption), and the detail of the values by year: ' +
+    SITE_URL + '/en/herramientas/metodologia/');
+  parrafo('Tool: ' + SITE_URL + '/en/herramientas/estimacion/  ·  HME/MEF proposal: ' + SITE_URL + '/en/');
+
+  const pem = document.getElementById('pem').value;
+  const ahora = new Date();
+  const pad = n => String(n).padStart(2, '0');
+  const marca = ahora.getFullYear() + pad(ahora.getMonth() + 1) + pad(ahora.getDate()) +
+    '-' + pad(ahora.getHours()) + pad(ahora.getMinutes()) + pad(ahora.getSeconds());
+  doc.save('hme-mef-estimator-' + anio + '-pem' + pem + '-' + marca + '.pdf');
+}
+
+onAnioChange();
+calcular();
+</script>
+</body>
+</html>

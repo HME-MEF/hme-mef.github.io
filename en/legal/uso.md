@@ -1,0 +1,120 @@
+---
+layout: page
+lang: en
+title: "Terms of Use"
+---
+
+## Terms of Use
+
+*This is a translation for reference. The [Spanish version]({{ '/legal/uso/' | relative_url }}) is the authoritative one.*
+
+---
+
+### 1. Purpose
+
+This site (hme-mef.es / hme-mef.github.io) publishes the **Minimum
+Equivalent Fees (HME/MEF)** proposal: academic research, legal analysis,
+calculation tools, and documentation of the advocacy work carried out
+before various administrations. By using this site, you accept these
+terms.
+
+---
+
+### 2. Nature of the content
+
+All content on this site — articles, legal-framework analysis, calculation
+tools, the advocacy timeline — is for **informational, academic and
+political-advocacy purposes**. In particular:
+
+- **It does not constitute legal advice.** For a specific situation,
+  consult a legal professional.
+- **It is not a fee scale or an official tariff.** The reference "floors"
+  (MEF and cost) calculated by the [tools]({{ '/en/herramientas/' | relative_url }})
+  are a proposal for anti-discrimination minimums, not a fee that is
+  currently in force or recommended. Each tool details its own caveats and
+  limitations.
+- HME/MEF is, as of today, **a proposal in the advocacy stage**, not a rule
+  in force — see the status of proceedings in [Advocacy]({{ '/en/advocacy/' | relative_url }}).
+
+---
+
+### 3. Content licences
+
+The content of this site is distributed under a multiple-licence model,
+depending on the type of material:
+
+| Content | Licence |
+|---|---|
+| Site code (Jekyll configuration, HTML, CSS, JS, calculators) | MIT |
+| Academic content (articles, legal framework, FAQ) | Creative Commons BY-NC-SA 4.0 |
+| Original legal documents (petitions, appeals, advocacy filings) | All rights reserved — express permission required for reproduction, except for standard academic citation with attribution |
+
+Full detail, including the conditions of each licence, is in the
+[`LICENSE`](https://github.com/hme-mef/hme-mef.github.io/blob/master/LICENSE)
+file of the repository.
+
+Official third-party documents linked to or reproduced on this site
+(judicial rulings, regulation, the BOE, the Gaceta de Madrid, etc.) belong
+to their respective administrations or bodies and are cited for
+informational and verification purposes, in accordance with their public-
+sector information reuse regime.
+
+---
+
+### 4. Use of the calculation tools
+
+The [calculators on this site]({{ '/en/herramientas/' | relative_url }})
+are free to use. Their results are based on the parameters and sources
+documented in their [technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }}),
+some of which are working assumptions, editable and open to debate. The
+author does not guarantee that the figures are permanently up to date
+(SMI, collective agreements, CPI) and assumes no liability for decisions
+taken based on their results.
+
+---
+
+### 5. External links
+
+This site links to regulation, case law, academic articles and other
+third-party pages. The author does not control, and is not responsible
+for, the content of those external sites.
+
+---
+
+### 6. Accuracy of the information
+
+The author strives to keep the information up to date and accurate, but
+does not guarantee its completeness or permanent currency. Each page shows
+its last-updated date. If you spot an error, you can report it through the
+[contact form]({{ '/en/recursos/contacto/' | relative_url }}).
+
+---
+
+### 7. Personal data
+
+The processing of personal data (for example, through the contact form) is
+governed by the [Privacy Policy]({{ '/en/legal/privacidad/' | relative_url }}).
+
+---
+
+### 8. Amendments
+
+These terms may be updated to reflect changes to the site or to applicable
+regulation. The date of the last update appears at the foot of this page.
+
+---
+
+### 9. Governing law
+
+These terms are governed by Spanish law.
+
+---
+
+### 10. Contact
+
+For any query about these terms: [ra.13148@gmail.com](mailto:ra.13148@gmail.com),
+or through the [contact form]({{ '/en/recursos/contacto/' | relative_url }}).
+
+---
+
+**Last updated**: September 2026

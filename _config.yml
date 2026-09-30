@@ -58,6 +58,11 @@ defaults:
     values:
       layout: "page"
 
+  - scope:
+      path: "en"
+    values:
+      lang: "en"
+
 # Asset compression
 sass:
   sass_dir: assets/css
