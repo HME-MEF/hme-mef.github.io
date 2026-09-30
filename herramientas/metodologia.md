@@ -48,8 +48,8 @@ coste, construida por capas explícitas.
 
 1. Retribución bruta de referencia: **38.345 €/año**.
 2. × coeficiente coste-empresa (1,32): coste bruto para el empleador.
-3. ÷ (1.792 horas anuales × 59,3% de facturabilidad): coste por hora
-   efectivamente facturable.
+3. ÷ (1.792 horas anuales × 59,3% de facturabilidad — *Deltek Clarity A&E*):
+   coste por hora efectivamente facturable.
 4. × (1 + 13% GG + 6% BI): añade gastos generales y beneficio industrial
    por analogía con el art. 131 RGLCAP.
 5. Resultado: **56,68 €/h**.
