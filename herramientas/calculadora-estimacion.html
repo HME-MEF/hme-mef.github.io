@@ -51,18 +51,20 @@
   }
   .btn-secondary:hover { background:#eef3fb; }
   .band {
-    position:relative; height:54px; margin:18px 0 8px; border-radius:8px;
+    position:relative; height:54px; margin:62px 0 62px; border-radius:8px;
     background:linear-gradient(to right, #fdecea 0%, #fff6e0 25%, #e6f6ec 55%, #e6f6ec 100%);
   }
   .band .mark {
     position:absolute; top:0; bottom:0; width:2px; background:#1F3864;
   }
   .band .mark .lbl {
-    position:absolute; top:-20px; left:50%; transform:translateX(-50%);
+    position:absolute; left:50%; bottom:calc(100% + 6px);
+    writing-mode:vertical-rl; transform:translateX(-50%) rotate(180deg);
     font-size:10.5px; font-weight:700; color:#1F3864; white-space:nowrap;
   }
   .band .mark .val {
-    position:absolute; bottom:-20px; left:50%; transform:translateX(-50%);
+    position:absolute; left:50%; top:calc(100% + 6px);
+    writing-mode:vertical-rl; transform:translateX(-50%) rotate(180deg);
     font-size:10.5px; color:#34495e; white-space:nowrap;
   }
 </style>
@@ -177,7 +179,7 @@
         </div>
 
         <div class="band" id="band-viz"></div>
-        <div class="notice" style="margin-top:26px;">
+        <div class="notice">
           La banda va del suelo MEF (mínimo absoluto antidiscriminatorio) a la mayor de las dos
           referencias de valor externas. Un presupuesto puede razonablemente situarse en cualquier
           punto de la banda, o por encima; por debajo del suelo MEF hay indicio de infravaloración.
