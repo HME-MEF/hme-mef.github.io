@@ -381,8 +381,24 @@ async function descargarPDF(){
     y += lines.length * 4.6 + 2;
   }
   function linea(){ doc.setDrawColor(210); doc.line(marginL, y, marginL + width, y); y += 6; }
+  function logotipo(sigla){
+    // Balanza vectorial (el emoji ⚖ de la web no lo dibuja bien jsPDF/Helvetica) + sigla, colores del sitio
+    const cx = marginL + 3, cy = y - 1.5;
+    doc.setDrawColor(52, 152, 219); doc.setLineWidth(0.6);
+    doc.line(cx - 3.5, cy - 2.5, cx + 3.5, cy - 2.5);
+    doc.line(cx, cy - 2.5, cx, cy + 1.5);
+    doc.setFillColor(52, 152, 219);
+    doc.circle(cx - 3.5, cy - 1, 0.9, 'F');
+    doc.circle(cx + 3.5, cy - 1, 0.9, 'F');
+    doc.setFont('helvetica', 'bold'); doc.setFontSize(15);
+    doc.setTextColor(44, 62, 80);
+    doc.text(sigla, cx + 7, y);
+    doc.setTextColor(0);
+    y += 8;
+  }
 
-  h('HME/MEF — Estimador de banda de honorarios de referencia', 13, 8);
+  logotipo('HME');
+  h('Estimador de banda de honorarios de referencia', 13, 8);
   doc.setFont('helvetica', 'normal'); doc.setFontSize(9); doc.setTextColor(100);
   doc.text('Generado el ' + new Date().toLocaleDateString('es-ES', {day:'2-digit', month:'2-digit', year:'numeric'}) +
     ' · Año de referencia: ' + anio, marginL, y);

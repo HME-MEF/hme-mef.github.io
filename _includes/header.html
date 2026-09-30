@@ -1,7 +1,7 @@
 <header class="site-header">
     {% if page.lang == 'en' %}
-        <a href="{{ '/en/' | relative_url }}" class="site-logo">
-            {{ site.title }}
+        <a href="{{ '/en/' | relative_url }}" class="site-logo" aria-label="HME/MEF — Minimum Equivalent Fees">
+            MEF
         </a>
 
         <nav>
@@ -21,8 +21,8 @@
         {% if es_url == '' %}{% assign es_url = '/' %}{% endif %}
         <a href="{{ es_url | relative_url }}" class="lang-switch" hreflang="es">ES</a>
     {% else %}
-        <a href="{{ '/' | relative_url }}" class="site-logo">
-            {{ site.title }}
+        <a href="{{ '/' | relative_url }}" class="site-logo" aria-label="{{ site.title }}">
+            HME
         </a>
 
         <nav>

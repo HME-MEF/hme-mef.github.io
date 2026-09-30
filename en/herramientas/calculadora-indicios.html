@@ -451,8 +451,24 @@ function descargarPDF(){
     y += lines.length * 4.6 + 2;
   }
   function linea(){ doc.setDrawColor(210); doc.line(marginL, y, marginL + width, y); y += 6; }
+  function logotipo(sigla){
+    // Vector balance icon (the ⚖ emoji used on the web page isn't rendered reliably by jsPDF/Helvetica) + acronym, site colors
+    const cx = marginL + 3, cy = y - 1.5;
+    doc.setDrawColor(52, 152, 219); doc.setLineWidth(0.6);
+    doc.line(cx - 3.5, cy - 2.5, cx + 3.5, cy - 2.5);
+    doc.line(cx, cy - 2.5, cx, cy + 1.5);
+    doc.setFillColor(52, 152, 219);
+    doc.circle(cx - 3.5, cy - 1, 0.9, 'F');
+    doc.circle(cx + 3.5, cy - 1, 0.9, 'F');
+    doc.setFont('helvetica', 'bold'); doc.setFontSize(15);
+    doc.setTextColor(44, 62, 80);
+    doc.text(sigla, cx + 7, y);
+    doc.setTextColor(0);
+    y += 8;
+  }
 
-  h('HME/MEF — Pay-discrimination evaluator', 13, 8);
+  logotipo('MEF');
+  h('Pay-discrimination evaluator', 13, 8);
   doc.setFont('helvetica', 'normal'); doc.setFontSize(9); doc.setTextColor(100);
   doc.text('Generated on ' + new Date().toLocaleDateString('en-GB', {day:'2-digit', month:'2-digit', year:'numeric'}) +
     ' · Reference year: ' + anio, marginL, y);
