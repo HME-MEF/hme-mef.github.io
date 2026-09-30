@@ -51,20 +51,23 @@
   }
   .btn-secondary:hover { background:#eef3fb; }
   .band {
-    position:relative; height:54px; margin:62px 0 62px; border-radius:8px;
+    position:relative; padding:64px 0; margin:0 0 8px;
+  }
+  .band .band-bar {
+    height:54px; border-radius:8px;
     background:linear-gradient(to right, #fdecea 0%, #fff6e0 25%, #e6f6ec 55%, #e6f6ec 100%);
   }
   .band .mark {
-    position:absolute; top:0; bottom:0; width:2px; background:#1F3864;
+    position:absolute; top:64px; bottom:64px; width:2px; background:#1F3864;
   }
   .band .mark .lbl {
-    position:absolute; left:50%; bottom:calc(100% + 6px);
-    writing-mode:vertical-rl; transform:translateX(-50%) rotate(180deg);
+    position:absolute; left:0; bottom:100%;
+    transform-origin: left bottom; transform: rotate(-90deg) translate(6px, 4px);
     font-size:10.5px; font-weight:700; color:#1F3864; white-space:nowrap;
   }
   .band .mark .val {
-    position:absolute; left:50%; top:calc(100% + 6px);
-    writing-mode:vertical-rl; transform:translateX(-50%) rotate(180deg);
+    position:absolute; left:0; top:100%;
+    transform-origin: left top; transform: rotate(-90deg) translate(-6px, -12px);
     font-size:10.5px; color:#34495e; white-space:nowrap;
   }
 </style>
@@ -208,6 +211,7 @@
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <script>
 const SITE_URL = "{{ site.url }}";
 
@@ -326,7 +330,7 @@ function calcular(){
   ].sort(function(a,b){ return a.v - b.v; });
 
   const band = document.getElementById('band-viz');
-  band.innerHTML = '';
+  band.innerHTML = '<div class="band-bar"></div>';
   points.forEach(function(p){
     const pct = top > 0 ? (p.v / top * 92) + 4 : 50;
     const mark = document.createElement('div');
@@ -337,7 +341,7 @@ function calcular(){
   });
 }
 
-function descargarPDF(){
+async function descargarPDF(){
   calcular();
   const anio = document.getElementById('anio').value;
 
@@ -403,7 +407,18 @@ function descargarPDF(){
   p('Suelo de coste:', document.getElementById('r-coste').textContent);
   p('Referencia SEGIPSA (BOE 27/5/2015):', document.getElementById('r-segipsa').textContent);
   p('Referencia italiana (DM 17/6/2016):', document.getElementById('r-italia').textContent);
-  y += 2;
+  y += 4;
+
+  try {
+    const bandEl = document.getElementById('band-viz');
+    const canvas = await html2canvas(bandEl, { backgroundColor: '#ffffff', scale: 2 });
+    const imgW = width;
+    const imgH = imgW * canvas.height / canvas.width;
+    doc.addImage(canvas.toDataURL('image/png'), 'PNG', marginL, y, imgW, imgH);
+    y += imgH + 6;
+  } catch (e) {
+    console.warn('No se pudo capturar el gráfico de la banda para el PDF:', e);
+  }
 
   parrafo('La banda va del suelo MEF (mínimo absoluto antidiscriminatorio) a la mayor de ' +
     'las dos referencias de valor externas. Un presupuesto puede razonablemente situarse ' +
