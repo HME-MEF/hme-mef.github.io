@@ -27,7 +27,9 @@ in materia di equo compenso delle prestazioni professionali* (Gazzetta
 Ufficiale n.º 104, de 5 de mayo de 2023), junto con sus parámetros
 ministeriales, "para conocimiento de la situación en otros países
 europeos". La publicación se produce a resultas de las comunicaciones
-mantenidas en el contexto de un Grupo de Trabajo de Honorarios del COAM.
+mantenidas con el Grupo de Trabajo de Honorarios del COAM, coordinado por
+Fernando Landecho González-Soto, Vocal 1.º de la Junta de Gobierno del
+Colegio.
 
 Es relevante para HME/MEF por dos motivos: primero, porque confirma con una
 fuente colegial independiente el contenido de la Ley 49/2023 ya citado como
