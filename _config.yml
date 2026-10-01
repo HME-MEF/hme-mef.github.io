@@ -13,6 +13,9 @@ author_email: "info@hmef.eu"
 # Timezone
 timezone: "Europe/Madrid"
 
+# Analítica de visitas (GoatCounter — ver /legal/privacidad/)
+goatcounter_code: "hmef-goatcounter-com"
+
 # Jekyll settings
 permalink: /:categories/:year/:month/:day/:title/
 markdown: kramdown
