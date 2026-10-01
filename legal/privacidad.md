@@ -12,7 +12,7 @@ Esta política explica qué datos personales se recogen en este sitio, con qué 
 ### 1. Responsable del tratamiento
 
 **Ricardo Alvira Baeza**, arquitecto e investigador, Madrid (España).
-**Contacto:** [ra.13148@gmail.com](mailto:ra.13148@gmail.com)
+**Contacto:** [info@hmef.eu](mailto:info@hmef.eu)
 
 Este sitio es un proyecto personal de investigación y advocacy, sin personalidad jurídica propia ni actividad comercial asociada.
 
@@ -47,7 +47,7 @@ Los datos asociados a una consulta puntual se conservan solo el tiempo necesario
 
 ### 5. Tus derechos
 
-Puedes ejercer en cualquier momento tus derechos de **acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad** escribiendo a [ra.13148@gmail.com](mailto:ra.13148@gmail.com). Si te habías suscrito a las novedades, puedes darte de baja respondiendo a cualquier envío o escribiendo directamente a ese correo.
+Puedes ejercer en cualquier momento tus derechos de **acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad** escribiendo a [info@hmef.eu](mailto:info@hmef.eu). Si te habías suscrito a las novedades, puedes darte de baja respondiendo a cualquier envío o escribiendo directamente a ese correo.
 
 Si consideras que el tratamiento de tus datos no se ajusta a la normativa, puedes presentar una reclamación ante la **Agencia Española de Protección de Datos** ([www.aepd.es](https://www.aepd.es)).
 

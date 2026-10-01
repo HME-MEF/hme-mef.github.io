@@ -17,7 +17,7 @@ with Regulation (EU) 2016/679 (GDPR) and Organic Law 3/2018 (LOPDGDD).
 ### 1. Data controller
 
 **Ricardo Alvira Baeza**, architect and researcher, Madrid (Spain).
-**Contact:** [ra.13148@gmail.com](mailto:ra.13148@gmail.com)
+**Contact:** [info@hmef.eu](mailto:info@hmef.eu)
 
 This site is a personal research and advocacy project, with no legal
 personality of its own and no associated commercial activity.
@@ -71,7 +71,7 @@ when it is no longer needed for that purpose.
 
 You can exercise your rights of **access, rectification, erasure,
 objection, restriction of processing and portability** at any time by
-writing to [ra.13148@gmail.com](mailto:ra.13148@gmail.com). If you had
+writing to [info@hmef.eu](mailto:info@hmef.eu). If you had
 subscribed to updates, you can unsubscribe by replying to any message or
 by writing directly to that address.
 

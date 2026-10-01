@@ -112,7 +112,7 @@ These terms are governed by Spanish law.
 
 ### 10. Contact
 
-For any query about these terms: [ra.13148@gmail.com](mailto:ra.13148@gmail.com),
+For any query about these terms: [info@hmef.eu](mailto:info@hmef.eu),
 or through the [contact form]({{ '/en/recursos/contacto/' | relative_url }}).
 
 ---

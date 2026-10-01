@@ -77,7 +77,7 @@ Estos términos se rigen por la legislación española.
 
 ### 10. Contacto
 
-Para cualquier consulta sobre estos términos: [ra.13148@gmail.com](mailto:ra.13148@gmail.com), o a través del [formulario de contacto]({{ '/recursos/contacto/' | relative_url }}).
+Para cualquier consulta sobre estos términos: [info@hmef.eu](mailto:info@hmef.eu), o a través del [formulario de contacto]({{ '/recursos/contacto/' | relative_url }}).
 
 ---
 
