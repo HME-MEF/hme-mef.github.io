@@ -38,7 +38,9 @@ for two distinct purposes:
 | **Sending you updates about the proposal** (regulatory news, publications, advocacy progress) — only if you tick that box | Email (mandatory in this case), name (optional) | Express consent (art. 6.1.a GDPR), upon ticking the relevant box |
 
 No data is collected unless you fill in and submit the form. This site
-does not use cookies, visit analytics, or any other tracking mechanism.
+does not use cookies. Apart from the form, the only additional
+processing is aggregate, anonymous visit analytics, described in
+section 6.
 
 ---
 
@@ -81,18 +83,31 @@ Agency** ([www.aepd.es](https://www.aepd.es)).
 
 ---
 
-### 6. Minors
+### 6. Visit analytics
+
+To know how many people visit the site (without identifying them), this
+site uses [GoatCounter](https://www.goatcounter.com/), an open-source,
+privacy-respecting web analytics tool: it does not use cookies, does not
+generate an individual identifier for each visitor, and does not share or
+sell data to third parties for advertising purposes. The data processed is
+aggregate (number of visits per page, approximate country, browser type)
+and does not allow a specific person to be identified. More information in
+[GoatCounter's privacy policy](https://www.goatcounter.com/privacy).
+
+---
+
+### 7. Minors
 
 This site is not directed at minors. If data from a minor were
 unintentionally received, it will be deleted as soon as this is discovered.
 
 ---
 
-### 7. Changes to this policy
+### 8. Changes to this policy
 
 This policy may be updated to reflect changes to the site or to applicable
 regulation. The date of the last update appears at the foot of this page.
 
 ---
 
-**Last updated**: September 2026
+**Last updated**: October 2026

@@ -27,7 +27,7 @@ Este sitio **no tiene base de datos propia ni panel de administración**: está 
 | **Responder a tu mensaje** (propuesta de colaboración, información sobre normativa, feedback, prensa, etc.) | Motivo, nombre (opcional), email (opcional, solo si quieres respuesta), mensaje | Consentimiento (art. 6.1.a RGPD), al enviar el formulario voluntariamente |
 | **Enviarte información nueva sobre la propuesta** (novedades normativas, publicaciones, avances de advocacy) — solo si marcas esa casilla | Email (obligatorio en este caso), nombre (opcional) | Consentimiento expreso (art. 6.1.a RGPD), al marcar la casilla correspondiente |
 
-No se recoge ningún dato si no rellenas y envías el formulario. No se utilizan cookies, analítica de visitas ni ningún otro mecanismo de seguimiento en este sitio.
+No se recoge ningún dato si no rellenas y envías el formulario. Este sitio no usa cookies. Aparte del formulario, el único tratamiento adicional es una analítica de visitas agregada y anónima, descrita en el apartado 6.
 
 ---
 
@@ -53,16 +53,22 @@ Si consideras que el tratamiento de tus datos no se ajusta a la normativa, puede
 
 ---
 
-### 6. Menores de edad
+### 6. Analítica de visitas
+
+Para saber cuántas personas visitan el sitio (sin identificarlas), se utiliza [GoatCounter](https://www.goatcounter.com/), una herramienta de analítica web de código abierto y respetuosa con la privacidad: no usa cookies, no genera un identificador individual de cada visitante, y no comparte ni vende datos a terceros con fines publicitarios. Los datos procesados son agregados (número de visitas por página, país aproximado, tipo de navegador) y no permiten identificar a una persona concreta. Más información en la [política de privacidad de GoatCounter](https://www.goatcounter.com/privacy).
+
+---
+
+### 7. Menores de edad
 
 Este sitio no está dirigido a menores de edad. Si de forma involuntaria se recibieran datos de un menor, se eliminarán tan pronto como se tenga constancia de ello.
 
 ---
 
-### 7. Cambios en esta política
+### 8. Cambios en esta política
 
 Esta política puede actualizarse para reflejar cambios en el sitio o en la normativa aplicable. La fecha de la última actualización figura al pie de esta página.
 
 ---
 
-**Última actualización**: Septiembre 2026
+**Última actualización**: Octubre 2026

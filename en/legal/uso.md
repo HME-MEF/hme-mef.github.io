@@ -12,7 +12,7 @@ title: "Terms of Use"
 
 ### 1. Purpose
 
-This site (hme-mef.es / hme-mef.github.io) publishes the **Minimum
+This site (www.hmef.eu) publishes the **Minimum
 Equivalent Fees (HME/MEF)** proposal: academic research, legal analysis,
 calculation tools, and documentation of the advocacy work carried out
 before various administrations. By using this site, you accept these

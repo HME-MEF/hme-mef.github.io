@@ -9,7 +9,7 @@ title: "Términos de Uso"
 
 ### 1. Objeto
 
-Este sitio (hme-mef.es / hme-mef.github.io) difunde la propuesta de **Honorarios Mínimos Equivalentes (HME/MEF)**: investigación académica, análisis jurídico, herramientas de cálculo y documentación de las gestiones de advocacy realizadas ante distintas administraciones. Al usar este sitio, aceptas estos términos.
+Este sitio (www.hmef.eu) difunde la propuesta de **Honorarios Mínimos Equivalentes (HME/MEF)**: investigación académica, análisis jurídico, herramientas de cálculo y documentación de las gestiones de advocacy realizadas ante distintas administraciones. Al usar este sitio, aceptas estos términos.
 
 ---
 
