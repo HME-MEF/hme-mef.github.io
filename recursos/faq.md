@@ -259,10 +259,11 @@ competencia por eficiencia, sino por precarización.
 
 La diferencia con el arancel colegial es esencial: un arancel es una
 tarifa fija, acordada entre competidores y que elimina la competencia en
-precio. HME es un piso derivado de un análisis de costes, regulado por el
-Estado —no por un colegio—, que permite la competencia por encima del
-mínimo. El "proteccionismo" sería, en todo caso, permitir el dumping de
-forma indefinida.
+precio. HME es un piso derivado del SMI y los salarios de convenio, más
+las cotizaciones sociales y demás costes que el empleador asume en nombre
+del empleado, regulado por el Estado —no por un colegio—, que permite la
+competencia por encima del mínimo. El "proteccionismo" sería, en todo
+caso, permitir el dumping de forma indefinida.
 
 ### "El mercado debe fijarse libremente"
 

@@ -264,10 +264,11 @@ competition through efficiency, but through precarisation.
 
 The difference from a professional-association tariff is essential: a
 tariff is a fixed fee, agreed between competitors, that eliminates price
-competition. MEF is a floor derived from a cost analysis, regulated by the
-State — not by a professional association — that allows competition above
-the minimum. "Protectionism," if anything, would be allowing dumping
-indefinitely.
+competition. MEF is a floor derived from the SMI and collective-agreement
+wages, plus social-security contributions and other costs an employer
+bears on behalf of an employee, regulated by the State — not by a
+professional association — that allows competition above the minimum.
+"Protectionism," if anything, would be allowing dumping indefinitely.
 
 ### "The market should be left to set itself freely"
 
