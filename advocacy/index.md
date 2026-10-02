@@ -198,7 +198,7 @@ queja ante el Defensor del Pueblo.
 
 | Administración | Registro/Expediente | Fecha | Estado |
 |---|---|---|---|
-| Audiencia Nacional / Tribunal Supremo | Proc. Ordinario 1/2022, R. Casación 6564/2024 | 03/07/2024 – 25/11/2024 | Resuelto (firme) |
+| Audiencia Nacional / Tribunal Supremo | Proc. Ordinario 1/2022, R. Casación 6564/2024 | 03/07/2024 – 25/11/2024 | Cerrado (firme); desestimación por apreciar causa de inadmisibilidad, sin pronunciamiento sobre el fondo |
 | Defensor del Pueblo (expediente original) | 26010099 | 06/03/2026 – 04/06/2026 | Cerrado (no intervención) |
 | Ministerio de Economía, Comercio y Empresa | REGAGE26e00024522458 | 07/03/2026 | Pendiente de respuesta |
 | Defensor del Pueblo (nueva queja) | Acumulación solicitada a 26010099 | 09/06/2026 | Pendiente de resolución |

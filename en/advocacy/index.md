@@ -208,7 +208,7 @@ complaint before the Spanish Ombudsman.
 
 | Administration | Registry/Case file | Date | Status |
 |---|---|---|---|
-| Audiencia Nacional / Supreme Court | Ordinary Proceedings 1/2022, Cassation Appeal 6564/2024 | 03/07/2024 – 25/11/2024 | Resolved (final) |
+| Audiencia Nacional / Supreme Court | Ordinary Proceedings 1/2022, Cassation Appeal 6564/2024 | 03/07/2024 – 25/11/2024 | Closed (final); dismissed on a ground of inadmissibility, without a ruling on the merits |
 | Spanish Ombudsman (original case file) | 26010099 | 06/03/2026 – 04/06/2026 | Closed (no intervention) |
 | Ministry of Economy, Trade and Business | REGAGE26e00024522458 | 07/03/2026 | Awaiting response |
 | Spanish Ombudsman (new complaint) | Joinder requested with 26010099 | 09/06/2026 | Awaiting resolution |
