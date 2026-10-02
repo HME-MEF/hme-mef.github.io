@@ -2,12 +2,12 @@
 layout: home
 lang: en
 title: "HME/MEF — Minimum Equivalent Fees"
-excerpt: "A proposal to regulate minimum professional fees for self-employed professionals in Spain and the EU"
+excerpt: "A proposal to regulate minimum fees for self-employed workers of any kind in Spain and the EU"
 ---
 
 ## What is MEF?
 
-**Honorarios Mínimos Equivalentes (HME)** — in English, **Minimum Equivalent Fees (MEF)** — is a proposal to establish a minimum remuneration floor for self-employed professionals (architects, engineers, consultants, etc.), based on the constitutional principle of non-discrimination.
+**Honorarios Mínimos Equivalentes (HME)** — in English, **Minimum Equivalent Fees (MEF)** — is a proposal to establish a minimum remuneration floor for self-employed workers of any kind — from professionals such as architects, engineers, lawyers and consultants to tradespeople such as plumbers and electricians — based on the constitutional principle of non-discrimination.
 
 The concept holds that:
 
