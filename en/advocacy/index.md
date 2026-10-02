@@ -39,7 +39,8 @@ petition to the Technical General Secretariat of the Ministry of Economic
 Affairs and Digital Transformation (MINECO), as the matter falls within its
 remit.
 
-**12/10/2021** — In the absence of an express decision, an administrative
+**12/10/2021** — In the absence of any response whatsoever — the basis for
+administrative silence (*silencio administrativo*) under Spanish law — an administrative
 appeal is filed before the Audiencia Nacional (National High Court,
 Administrative Chamber, Third Section; Ordinary Proceedings 1/2022, General
 Registry 17390/2022), admitted for processing by Order of 15/10/2021.

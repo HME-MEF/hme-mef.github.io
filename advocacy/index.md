@@ -32,7 +32,8 @@ equivalente al Salario Mínimo Interprofesional.
 la Secretaría General Técnica del Ministerio de Asuntos Económicos y
 Transformación Digital (MINECO), por razón de la materia.
 
-**12/10/2021** — Ante la falta de resolución expresa, se interpone recurso
+**12/10/2021** — Ante la ausencia de respuesta de cualquier tipo —base del
+silencio administrativo—, se interpone recurso
 contencioso-administrativo ante la Audiencia Nacional (Sala de lo
 Contencioso-Administrativo, Sección Tercera; Procedimiento Ordinario 1/2022,
 Registro General 17390/2022), admitido a trámite por Decreto de 15/10/2021.
