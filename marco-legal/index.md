@@ -294,7 +294,7 @@ Honorarordnung für Architekten und Ingenieure: tabla de mínimos actualizados p
 
 **Sí**, bajo estos supuestos:
 
-1. **Implementación estatal** —eventualmente, con colaboración técnica o gestión delegada de los colegios bajo supervisión pública, nunca mediante baremos colegiales autónomos— (elimina carácter de acuerdo entre competidores)
+1. **Implementación estatal** —eventualmente, con colaboración técnica o gestión delegada de los colegios bajo supervisión pública— (elimina carácter de acuerdo entre competidores)
 2. **Fundamento en no discriminación** (objetivo de interés general)
 3. **Basado en análisis de costes riguroso**, no en "protección colegial"
 4. **No elimina competencia en precio** (es piso, no precio fijo)

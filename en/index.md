@@ -17,7 +17,7 @@ The concept holds that:
 
 **Important precision:** "equivalence" does not mean identical gross income between the self-employed professional and the employee. The MEF floor compares the equivalent cost for the party commissioning the work — what it would cost to employ a professional with the same qualification, including the employer's social security contribution — with what the self-employed professional invoices, once the operating costs inherent to self-employment (structure, insurance, one's own social security contribution) that an employee does not bear directly are covered. It is, therefore, comparable remuneration after those costs, not payroll equality.
 
-It is sustained that this proposal is compatible with free competition (TFEU art. 101) since it is grounded in the principle of non-discrimination — recognised both by the Spanish Constitution (arts. 14 and 35) and by the Charter of Fundamental Rights of the EU (arts. 20, 21 and 15) — and implemented through state regulation; possibly, with technical collaboration or delegated management by professional associations under public supervision, but never through autonomous association-set fee scales.
+It is sustained that this proposal is compatible with free competition (TFEU art. 101) since it is grounded in the principle of non-discrimination — recognised both by the Spanish Constitution (arts. 14 and 35) and by the Charter of Fundamental Rights of the EU (arts. 20, 21 and 15) — and implemented through state regulation; possibly, with technical collaboration or delegated management by professional associations under public supervision.
 
 ---
 
@@ -32,7 +32,7 @@ The MEF proposal seeks to close this gap through:
 3. **Comparative validation**: once formulated, the proposal has been checked against two different reference models:
    - *International*: the calculation method of the Italian Decree DM 17/6/2016 and, more recently, the Italian Law 49/2023 on *equo compenso*, which confirm that equivalent formulas are legally viable in the EU, without being the origin of the approach.
    - *Business cost analysis*: breakdown of direct cost + overheads + industrial margin, by analogy with Spanish public procurement regulation (RGLCAP) — the same logic used to price public-works contracts.
-4. **Legislative implementation**: concrete reform proposals, via state law or public procurement oversight; possibly, with technical collaboration or delegated management by professional associations under public supervision, but never through autonomous association-set fee scales.
+4. **Legislative implementation**: concrete reform proposals, via state law or public procurement oversight; possibly, with technical collaboration or delegated management by professional associations under public supervision.
 
 ---
 

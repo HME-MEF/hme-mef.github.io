@@ -201,7 +201,7 @@ Honorarordnung für Architekten und Ingenieure: a table of minimums periodically
 
 **Yes**, under the following conditions:
 
-1. **State implementation** — possibly, with technical collaboration or delegated management by professional associations under public supervision, but never through autonomous association-set fee scales (this removes the character of an agreement between competitors).
+1. **State implementation** — possibly, with technical collaboration or delegated management by professional associations under public supervision (this removes the character of an agreement between competitors).
 2. **Grounded in non-discrimination** (an objective of general interest).
 3. **Based on a rigorous cost analysis**, not on "protection of the profession."
 4. **Does not eliminate price competition** (it is a floor, not a fixed price).

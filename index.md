@@ -16,7 +16,7 @@ El concepto sostiene que:
 
 **Precisión importante:** "equivalencia" no significa identidad de ingresos brutos entre autónomo y empleado. El suelo MEF compara el coste equivalente para quien contrata —lo que le costaría emplear a un profesional con la misma cualificación, incluida la cotización empresarial— con lo que factura el autónomo, una vez cubiertos los costes operativos inherentes al ejercicio por cuenta propia (estructura, seguros, cotización propia) que un empleado no soporta directamente. Es, por tanto, una remuneración comparable tras esos costes, no una igualdad de nómina.
 
-Se sostiene que esta propuesta es compatible con la libre competencia (TFUE art. 101) por fundamentarse en el principio de no discriminación —reconocido tanto por la Constitución Española (arts. 14 y 35) como por la Carta de los Derechos Fundamentales de la UE (arts. 20, 21 y 15)— y aplicarse mediante regulación estatal; eventualmente, con colaboración técnica o gestión delegada de los colegios profesionales bajo supervisión pública, pero nunca mediante baremos colegiales autónomos.
+Se sostiene que esta propuesta es compatible con la libre competencia (TFUE art. 101) por fundamentarse en el principio de no discriminación —reconocido tanto por la Constitución Española (arts. 14 y 35) como por la Carta de los Derechos Fundamentales de la UE (arts. 20, 21 y 15)— y aplicarse mediante regulación estatal; eventualmente, con colaboración técnica o gestión delegada de los colegios profesionales bajo supervisión pública.
 
 ---
 
@@ -31,7 +31,7 @@ La propuesta HME busca cerrar esta brecha mediante:
 3. **Validación comparada**: una vez formulada la propuesta, se ha contrastado con dos modelos de referencia distintos:
    - *Internacional*: el método de cálculo del Decreto italiano DM 17/6/2016 y, más recientemente, la Ley italiana 49/2023 sobre *equo compenso*, que confirman que fórmulas equivalentes son jurídicamente viables en la UE, sin ser el origen del planteamiento.
    - *Análisis de coste empresarial*: desagregación de gasto directo + gastos generales + margen industrial, por analogía con la normativa de contratación pública española (RGLCAP) —la misma lógica con la que se calculan los precios en la obra pública.
-4. **Implementación legislativa**: propuestas concretas de reforma, por vía estatal o de control de la contratación pública; eventualmente, con colaboración técnica o gestión delegada de los colegios bajo supervisión pública, nunca mediante baremos colegiales autónomos.
+4. **Implementación legislativa**: propuestas concretas de reforma, por vía estatal o de control de la contratación pública; eventualmente, con colaboración técnica o gestión delegada de los colegios bajo supervisión pública.
 
 ---
 
