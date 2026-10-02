@@ -84,7 +84,7 @@ Una regulación de mínimos de honorarios puede justificarse bajo "protección d
 - Directiva 2006/123/CE art. 15: Restricciones justificadas por razones imperativas
 
 **Aplicación a HME:**  
-Una regulación por vía legislativa (no acuerdo colegial) que establezca un piso mínimo de cálculo de costes no constituye restricción prohibida si:
+Una regulación por vía legislativa (no acuerdo colegial) que establezca un piso mínimo no constituye restricción prohibida si:
 1. Se implementa por el Estado, no por agentes privados
 2. Responde a fundamento de no discriminación
 3. No elimina la competencia en precio

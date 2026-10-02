@@ -87,7 +87,7 @@ A regulation of minimum fees can be justified under "protection of workers" (equ
 - Directive 2006/123/EC, art. 15: restrictions justified by overriding reasons.
 
 **Application to MEF:**
-A regulation adopted through legislation (not a professional-association agreement) that establishes a minimum cost-based floor does not amount to a prohibited restriction if:
+A regulation adopted through legislation (not a professional-association agreement) that establishes a minimum floor does not amount to a prohibited restriction if:
 1. It is implemented by the State, not by private actors.
 2. It is grounded in non-discrimination.
 3. It does not eliminate price competition.
