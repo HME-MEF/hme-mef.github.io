@@ -168,6 +168,33 @@ A communication from the Competition Directorate of the CNMC (the Spanish compet
 The CNMC confirms that, under the Guidelines, collective agreements negotiated by solo self-employed people (without employees) fall **outside the scope of art. 101 TFEU** where they are in one of the following situations: (a) economic dependence (≥50% of income from a single counterparty); (b) working "side by side" with employees, under comparable conditions; or (c) dependence on digital platforms. In addition, the Competition Directorate states that, *in principle*, it would not act of its own motion — not a firm exclusion from art. 101 TFEU, but an indication of enforcement priority — even where those situations do not apply, where there is an imbalance of bargaining power vis-à-vis the counterparty: in particular where the counterparty represents an entire sector or has an annual turnover above €2,000,000 or 10 or more employees.
 [Download CNMC communication CNS/DC/902/23]({{ '/assets/docs/cnmc-cns-dc-902-23-2023.pdf' | relative_url }}) *(Spanish original)*
 
+#### CNC — 2009 and 2012 reports (background)
+
+Two reports from the now-defunct Tribunal/Comisión Nacional de la
+Competencia (CNC, the predecessor body to today's CNMC): *"Report on the
+professional-services sector and professional associations"* (2009) and
+*"Report on Professional Associations following the transposition of the
+Services Directive"* (2012). Both take a position against the
+establishment of minimum professional fees by any agent — professional
+association or otherwise — holding that even a merely indicative price
+recommendation restricts competition and can facilitate coordination
+between competitors.
+
+**Relevance to MEF:** these are the two reports cited by the report of
+the Directorate-General for Economic Policy (DGPOLECO) of 10/2/2022 —
+submitted by the Ministry of Economic Affairs to the judicial proceedings
+before the Audiencia Nacional — to justify the initial rejection of the
+2021 MEF petition, without analysing the subsequent European regulation
+and case law submitted with the petition itself (see the
+[Advocacy timeline]({{ '/en/advocacy/' | relative_url }})). They are
+included here for transparency, as a record of the historical stance of
+the Spanish competition authority against any professional-remuneration
+floor — even an indicative one — which contrasts with the later, more
+nuanced CNMC Communication CNS/DC/902/23 (2023), which does accept
+exceptions for solo self-employed people.
+[Download CNC Report 2009 (professional-services sector)]({{ '/assets/docs/cnc-informe-2009-servicios-profesionales.pdf' | relative_url }}) *(Spanish original)* ·
+[Download CNC Report 2012 (professional associations after the Services Directive)]({{ '/assets/docs/cnc-informe-2012-colegios-directiva-servicios.pdf' | relative_url }}) *(Spanish original)*
+
 ### Regulations specific to architects
 
 Spain has more than a century of state-set architects' fee tariffs, calculated as a percentage of the cost of the works. This historical precedent matters because it shows that a mechanism of remuneration floors regulated by the State — not by professional associations — is an established Spanish legal tradition, not an innovation foreign to the legal order, albeit one limited to this specific subgroup of self-employed workers.
@@ -310,6 +337,8 @@ abolishing it altogether — following a CJEU ruling.
 | DM (IT) 17/6/2016 | Arts. 2-6 | [PDF]({{ '/assets/docs/dm-17-giugno-2016-it.pdf' | relative_url }}) *(IT)* |
 | D.Lgs. (IT) 31/12/2024, n. 209 | — (general reference) | [gazzettaufficiale.it](https://www.gazzettaufficiale.it/eli/id/2025/01/22/25A00154/sg) |
 | CNMC, CNS/DC/902/23 (26/9/2023) | — (solo self-employed without employees) | [PDF]({{ '/assets/docs/cnmc-cns-dc-902-23-2023.pdf' | relative_url }}) *(ES)* |
+| CNC, Report on professional services sector (2009) | — (background) | [PDF]({{ '/assets/docs/cnc-informe-2009-servicios-profesionales.pdf' | relative_url }}) *(ES)* |
+| CNC, Report on professional associations after Services Directive (2012) | — (background) | [PDF]({{ '/assets/docs/cnc-informe-2012-colegios-directiva-servicios.pdf' | relative_url }}) *(ES)* |
 
 ---
 
