@@ -49,9 +49,8 @@ depending on the type of material:
 | Academic content (articles, legal framework, FAQ) | Creative Commons BY-NC-SA 4.0 |
 | Original legal documents (petitions, appeals, advocacy filings) | All rights reserved — express permission required for reproduction, except for standard academic citation with attribution |
 
-Full detail, including the conditions of each licence, is in the
-[`LICENSE`](https://github.com/hme-mef/hme-mef.github.io/blob/master/LICENSE)
-file of the repository.
+Full detail, including the conditions of each licence, is on the
+[Licences]({{ '/en/legal/licencia/' | relative_url }}) page.
 
 Official third-party documents linked to or reproduced on this site
 (judicial rulings, regulation, the BOE, the Gaceta de Madrid, etc.) belong

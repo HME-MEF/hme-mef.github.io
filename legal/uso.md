@@ -33,7 +33,7 @@ El contenido de este sitio se distribuye bajo un modelo de licencia múltiple, s
 | Contenido académico (artículos, marco legal, FAQs) | Creative Commons BY-NC-SA 4.0 |
 | Documentos legales originales (peticiones, recursos, escritos de advocacy) | Todos los derechos reservados — requieren permiso expreso para su reproducción, salvo cita académica estándar con atribución |
 
-El detalle completo, incluidas las condiciones de cada licencia, está en el archivo [`LICENSE`](https://github.com/hme-mef/hme-mef.github.io/blob/master/LICENSE) del repositorio.
+El detalle completo, incluidas las condiciones de cada licencia, está en la página de [Licencias]({{ '/legal/licencia/' | relative_url }}).
 
 Los documentos oficiales de terceros enlazados o reproducidos en este sitio (resoluciones judiciales, normativa, BOE, Gaceta de Madrid, etc.) pertenecen a sus respectivas administraciones u organismos y se citan con fines informativos y de verificación, conforme a su régimen de reutilización de la información del sector público.
 
