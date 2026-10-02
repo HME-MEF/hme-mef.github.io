@@ -33,6 +33,28 @@ La "remuneración suficiente" debe ser equivalente para trabajo equivalente, ind
 
 ## 2. Derecho de la Unión Europea
 
+### Carta de los Derechos Fundamentales de la Unión Europea (CDFUE)
+
+Los artículos 14 y 35 de la Constitución Española tienen su equivalente directo en el derecho primario de la UE, en la Carta de los Derechos Fundamentales de la Unión Europea (2000/C 364/01, con el valor jurídico vinculante del art. 6.1 TUE desde el Tratado de Lisboa).
+
+**Artículo 20 CDFUE — Igualdad ante la ley**
+
+> *"Todas las personas son iguales ante la ley."*
+
+**Artículo 21 CDFUE — No discriminación**
+
+> *"1. Se prohíbe toda discriminación, y en particular la ejercida por razón de sexo, raza, color, orígenes étnicos o sociales, características genéticas, lengua, religión o convicciones, opiniones políticas o de cualquier otro tipo, pertenencia a una minoría nacional, patrimonio, nacimiento, discapacidad, edad u orientación sexual.
+> 2. Se prohíbe toda discriminación por razón de nacionalidad en el ámbito de aplicación de los Tratados y sin perjuicio de sus disposiciones particulares."*
+
+**Artículo 15 CDFUE — Libertad profesional y derecho a trabajar**
+
+> *"1. Toda persona tiene derecho a trabajar y a ejercer una profesión libremente elegida o aceptada.
+> 2. Todo ciudadano de la Unión tiene libertad para buscar un empleo, trabajar, establecerse o prestar servicios en cualquier Estado miembro.
+> 3. Los nacionales de terceros países que estén autorizados a trabajar en el territorio de los Estados miembros tienen derecho a unas condiciones laborales equivalentes a aquellas de que disfrutan los ciudadanos de la Unión."*
+
+**Aplicación a HME:**  
+Los arts. 20 y 21 CDFUE son el equivalente de ámbito europeo del art. 14 CE (igualdad y no discriminación), y el art. 15 CDFUE lo es del art. 35 CE (derecho al trabajo y a la libre elección de profesión). HME se apoya en ambos niveles —constitucional español y de derecho primario de la UE— para fundamentar que un mismo trabajo debe recibir una remuneración equivalente, sea cual sea el tipo de relación (asalariada o autónoma) bajo el que se preste.
+
 ### Directiva 2006/123/CE (Directiva de Servicios)
 
 **Artículo 15 — Restricciones a la libre prestación de servicios**
@@ -292,6 +314,7 @@ Honorarordnung für Architekten und Ingenieure: tabla de mínimos actualizados p
 | Norma | Artículos Relevantes | Enlace |
 |---|---|---|
 | Constitución Española | 14, 35 | [boe.es](https://www.boe.es) |
+| Carta de los Derechos Fundamentales de la UE (CDFUE) | 15, 20, 21 | [europarl.europa.eu](https://www.europarl.europa.eu/charter/pdf/text_es.pdf) |
 | TFUE | 101, 102 | [eur-lex.europa.eu](https://eur-lex.europa.eu) |
 | Directiva 2006/123/CE | 15 | [eur-lex.europa.eu](https://eur-lex.europa.eu) |
 | Directiva 2018/958 | Arts. 6-8 | [eur-lex.europa.eu](https://eur-lex.europa.eu) |
@@ -317,4 +340,4 @@ Honorarordnung für Architekten und Ingenieure: tabla de mínimos actualizados p
 
 ---
 
-**Última actualización**: Septiembre 2026
+**Última actualización**: Octubre 2026

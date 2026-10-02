@@ -36,6 +36,28 @@ The self-employed professional must be protected against discriminatory treatmen
 
 ## 2. European Union Law
 
+### Charter of Fundamental Rights of the European Union (CFR)
+
+Articles 14 and 35 of the Spanish Constitution have a direct equivalent in EU primary law, in the Charter of Fundamental Rights of the European Union (2000/C 364/01, legally binding under art. 6.1 TEU since the Treaty of Lisbon).
+
+**Article 20 CFR — Equality before the law**
+
+> *"Everyone is equal before the law."*
+
+**Article 21 CFR — Non-discrimination**
+
+> *"1. Any discrimination based on any ground such as sex, race, colour, ethnic or social origin, genetic features, language, religion or belief, political or any other opinion, membership of a national minority, property, birth, disability, age or sexual orientation shall be prohibited.
+> 2. Within the scope of application of the Treaties and without prejudice to any of their specific provisions, any discrimination on grounds of nationality shall be prohibited."*
+
+**Article 15 CFR — Freedom to choose an occupation and right to engage in work**
+
+> *"1. Everyone has the right to engage in work and to pursue a freely chosen or accepted occupation.
+> 2. Every citizen of the Union has the freedom to seek employment, to work, to exercise the right of establishment and to provide services in any Member State.
+> 3. Nationals of third countries who are authorised to work in the territories of the Member States are entitled to working conditions equivalent to those of citizens of the Union."*
+
+**Application to MEF:**
+Articles 20 and 21 CFR are the EU-level equivalent of art. 14 CE (equality and non-discrimination), and art. 15 CFR is the equivalent of art. 35 CE (right to work and free choice of profession). MEF rests on both levels — Spanish constitutional law and EU primary law — to ground the claim that the same work must receive equivalent remuneration, regardless of the type of relationship (employed or self-employed) under which it is performed.
+
 ### Directive 2006/123/EC (Services Directive)
 
 **Article 15 — Restrictions on the freedom to provide services**
@@ -199,6 +221,7 @@ Honorarordnung für Architekten und Ingenieure: a table of minimums periodically
 | Instrument | Relevant articles | Link |
 |---|---|---|
 | Spanish Constitution | 14, 35 | [boe.es](https://www.boe.es) |
+| Charter of Fundamental Rights of the EU (CFR) | 15, 20, 21 | [europarl.europa.eu](https://www.europarl.europa.eu/charter/pdf/text_en.pdf) |
 | TFEU | 101, 102 | [eur-lex.europa.eu](https://eur-lex.europa.eu) |
 | Directive 2006/123/EC | 15 | [eur-lex.europa.eu](https://eur-lex.europa.eu) |
 | Directive 2018/958 | Arts. 6-8 | [eur-lex.europa.eu](https://eur-lex.europa.eu) |
@@ -224,4 +247,4 @@ Honorarordnung für Architekten und Ingenieure: a table of minimums periodically
 
 ---
 
-**Last updated**: September 2026
+**Last updated**: October 2026
