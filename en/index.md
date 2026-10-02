@@ -17,7 +17,7 @@ The concept holds that:
 
 **Important precision:** "equivalence" does not mean identical gross income between the self-employed professional and the employee. The MEF floor compares the equivalent cost for the party commissioning the work — what it would cost to employ a professional with the same qualification, including the employer's social security contribution — with what the self-employed professional invoices, once the operating costs inherent to self-employment (structure, insurance, one's own social security contribution) that an employee does not bear directly are covered. It is, therefore, comparable remuneration after those costs, not payroll equality.
 
-This proposal is compatible with free competition (TFEU art. 101) when it is grounded in non-discrimination (Spanish Constitution arts. 14 and 35) and implemented through state regulation; possibly, with technical collaboration or delegated management by professional associations under public supervision, but never through autonomous association-set fee scales.
+It is sustained that this proposal is compatible with free competition (TFEU art. 101) since it is grounded in the principle of non-discrimination — recognised both by the Spanish Constitution (arts. 14 and 35) and by the Charter of Fundamental Rights of the EU (arts. 20, 21 and 15) — and implemented through state regulation; possibly, with technical collaboration or delegated management by professional associations under public supervision, but never through autonomous association-set fee scales.
 
 ---
 
