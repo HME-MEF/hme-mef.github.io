@@ -9,29 +9,29 @@ La propuesta de Honorarios Mínimos Equivalentes se fundamenta en tres niveles n
 
 ---
 
-## 1. Constitución Española
+## 1. Legislación Constitucional
 
-### Artículo 14 CE — Principio de Igualdad
+HME se fundamenta en dos niveles normativos de rango constitucional —la Constitución Española y la Carta de los Derechos Fundamentales de la Unión Europea—, que convergen en el mismo principio de no discriminación.
+
+### Constitución Española
+
+#### Artículo 14 CE — Principio de Igualdad
 
 > *"Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social."*
 
 **Aplicación a HME:**  
 El profesional autónomo debe tener protección frente a tratamiento discriminatorio en retribución por trabajo equivalente. La desigualdad sistemática entre autónomo y empleado (a igual cualificación) constituye un trato discriminatorio permitido por la actual falta de regulación.
 
-### Artículo 35 CE — Derecho al Trabajo Digno
+#### Artículo 35 CE — Derecho al Trabajo Digno
 
 > *"Todos los españoles tienen el deber de trabajar y el derecho al trabajo, a la libre elección de profesión u oficio, a la promoción a través del trabajo y a una remuneración suficiente para satisfacer sus necesidades y las de su familia, sin que en ningún caso pueda hacerse discriminación por razón de sexo."*
 
 **Aplicación a HME:**  
 La "remuneración suficiente" debe ser equivalente para trabajo equivalente, independientemente del estatus (empleado vs. autónomo).
 
-### Jurisprudencia constitucional relevante
+#### Jurisprudencia constitucional relevante
 
 - **STC 31/1984**: Reconoce que la discriminación requiere "tratamiento diferenciado injustificado"
-
----
-
-## 2. Derecho de la Unión Europea
 
 ### Carta de los Derechos Fundamentales de la Unión Europea (CDFUE)
 
@@ -54,6 +54,10 @@ Los artículos 14 y 35 de la Constitución Española tienen su equivalente direc
 
 **Aplicación a HME:**  
 Los arts. 20 y 21 CDFUE son el equivalente de ámbito europeo del art. 14 CE (igualdad y no discriminación), y el art. 15 CDFUE lo es del art. 35 CE (derecho al trabajo y a la libre elección de profesión). HME se apoya en ambos niveles —constitucional español y de derecho primario de la UE— para fundamentar que un mismo trabajo debe recibir una remuneración equivalente, sea cual sea el tipo de relación (asalariada o autónoma) bajo el que se preste.
+
+---
+
+## 2. Derecho de la Unión Europea
 
 ### Directiva 2006/123/CE (Directiva de Servicios)
 

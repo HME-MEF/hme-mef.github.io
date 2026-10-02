@@ -12,29 +12,29 @@ The Minimum Equivalent Fees (HME/MEF) proposal rests on three interconnected lay
 
 ---
 
-## 1. The Spanish Constitution
+## 1. Constitutional Legislation
 
-### Article 14 CE — Principle of equality
+MEF rests on two layers of constitutional-rank law — the Spanish Constitution and the Charter of Fundamental Rights of the European Union — which converge on the same principle of non-discrimination.
+
+### The Spanish Constitution
+
+#### Article 14 CE — Principle of equality
 
 > *"Spaniards are equal before the law, and no discrimination whatsoever may prevail on account of birth, race, sex, religion, opinion or any other personal or social condition or circumstance."*
 
 **Application to MEF:**
 The self-employed professional must be protected against discriminatory treatment in remuneration for equivalent work. Systematic inequality between a self-employed professional and an employee (with equal qualification) amounts to discriminatory treatment currently permitted only by the absence of regulation.
 
-### Article 35 CE — Right to decent work
+#### Article 35 CE — Right to decent work
 
 > *"All Spaniards have the duty to work and the right to work, to the free choice of profession or trade, to advancement through work, and to sufficient remuneration to satisfy their needs and those of their family, and under no circumstances may they be discriminated against on grounds of sex."*
 
 **Application to MEF:**
 "Sufficient remuneration" must be equivalent for equivalent work, regardless of status (employee vs. self-employed).
 
-### Relevant constitutional case law
+#### Relevant constitutional case law
 
 - **STC 31/1984** (Constitutional Court): recognises that discrimination requires "unjustified differential treatment."
-
----
-
-## 2. European Union Law
 
 ### Charter of Fundamental Rights of the European Union (CFR)
 
@@ -57,6 +57,10 @@ Articles 14 and 35 of the Spanish Constitution have a direct equivalent in EU pr
 
 **Application to MEF:**
 Articles 20 and 21 CFR are the EU-level equivalent of art. 14 CE (equality and non-discrimination), and art. 15 CFR is the equivalent of art. 35 CE (right to work and free choice of profession). MEF rests on both levels — Spanish constitutional law and EU primary law — to ground the claim that the same work must receive equivalent remuneration, regardless of the type of relationship (employed or self-employed) under which it is performed.
+
+---
+
+## 2. European Union Law
 
 ### Directive 2006/123/EC (Services Directive)
 
