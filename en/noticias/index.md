@@ -33,8 +33,11 @@ the mandate of its Assembly of Representatives, it will continue to press
 for the need to amend Spanish regulation to provide architects' work with
 sufficient minimum fees" — while acknowledging that Spain currently
 prohibits both minimum fees (Law 7/1997) and indicative professional-
-association scales (Law 25/2009, the "Omnibus Law"), unlike Germany (HOAI)
-and Italy. COAM clarifies that it disseminates the Italian law solely for
+association scales (Law 25/2009, the "Omnibus Law"), unlike Italy and,
+until the 2021 reform of the German HOAI, Germany — which has since
+replaced its mandatory minimums and maximums with indicative reference
+values (see [Legal Framework]({{ '/en/marco-legal/' | relative_url }})).
+COAM clarifies that it disseminates the Italian law solely for
 informational purposes, without it having any legal or indicative value in
 Spain — the same distinction between a "professional-association tariff"
 (which HME/MEF does not propose either) and a "legislative floor" that this

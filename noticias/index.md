@@ -41,7 +41,10 @@ de modificar la normativa española para dotar a los trabajos realizados por
 los arquitectos de tarifas mínimas suficientes" — reconociendo al mismo
 tiempo que hoy España prohíbe tanto los honorarios mínimos (Ley 7/1997)
 como los baremos orientativos colegiales (Ley 25/2009, "Ley Ómnibus"), a
-diferencia de Alemania (HOAI) e Italia. El COAM aclara que difunde la ley
+diferencia de Italia y, hasta la reforma de la HOAI alemana en 2021, de
+Alemania —que desde entonces ha sustituido sus mínimos y máximos
+obligatorios por valores orientativos de referencia (ver
+[Marco Legal]({{ '/marco-legal/' | relative_url }})). El COAM aclara que difunde la ley
 italiana solo con fines informativos, sin que tenga valor legal ni
 orientativo en España — la misma distinción entre "arancel colegial" (que
 HME/MEF tampoco propone) y "piso legislativo" que sostiene este sitio.
