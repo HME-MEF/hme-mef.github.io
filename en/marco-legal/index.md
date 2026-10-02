@@ -62,6 +62,47 @@ Articles 20 and 21 CFR are the EU-level equivalent of art. 14 CE (equality and n
 
 ## 2. European Union Law
 
+### Directive 2010/41/EU — Equal treatment between men and women in self-employment
+
+Directive 2010/41/EU of the European Parliament and of the Council of 7
+July 2010 on the application of the principle of equal treatment between
+men and women engaged in a self-employed capacity repeals and updates
+Council Directive 86/613/EEC of 11 December 1986 on the application of
+the principle of equal treatment between men and women engaged in a
+self-employed capacity, including agriculture, and on the protection of
+self-employed women during pregnancy and motherhood — the first EU
+instrument to recognise that the self-employed, like employees, require
+protection against discrimination on grounds of sex.
+
+**Application to MEF:**
+Both directives confirm, since 1986, that the EU recognises the need to
+protect self-employed workers against discrimination on grounds of sex,
+just as it protects employees. MEF relies on this regulatory line to
+argue that, since there is already an express recognition of the need to
+prevent gender discrimination within the self-employed group, the
+self-employed–employee pay gap documented on this site — which bears
+more heavily on self-employed women — falls squarely within the scope
+these directives seek to address.
+
+### European Commission Guidelines 2022/C 374/02
+
+European Commission Guidelines on the Application of EU Competition Law
+to Collective Agreements Regarding the Working Conditions of Solo
+Self-Employed Persons [2022] OJ C374/2.
+
+**Application to MEF:**
+These Guidelines expressly recognise that certain solo self-employed
+people — in a situation of economic dependence, working "side by side"
+with employees, or dependent on digital platforms — may collectively
+bargain working conditions equivalent to those of employees, without
+this amounting to a prohibited restriction of competition. It is the
+most direct EU-law precedent for MEF: it recognises, for a subset of the
+self-employed, the same right to employee-equivalent labour protection
+that MEF proposes more generally. Its application in Spain — through CNMC
+Communication CNS/DC/902/23 — is covered further below, in section 3
+("CNMC reports and decisions").
+[See the Guidelines (OJ C374/2, 2022)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C:2022:374:TOC)
+
 ### Directive 2006/123/EC (Services Directive)
 
 **Article 15 — Restrictions on the freedom to provide services**
@@ -230,6 +271,8 @@ Honorarordnung für Architekten und Ingenieure: a table of minimums periodically
 |---|---|---|
 | Spanish Constitution | 14, 35 | [boe.es](https://www.boe.es) |
 | Charter of Fundamental Rights of the EU (CFR) | 15, 20, 21 | [europarl.europa.eu](https://www.europarl.europa.eu/charter/pdf/text_en.pdf) |
+| Directive 86/613/EEC (repealed) / Directive 2010/41/EU | — | [eur-lex.europa.eu](https://eur-lex.europa.eu) |
+| European Commission Guidelines 2022/C 374/02 | — | [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C:2022:374:TOC) |
 | TFEU | 101, 102 | [eur-lex.europa.eu](https://eur-lex.europa.eu) |
 | Directive 2006/123/EC | 15 | [eur-lex.europa.eu](https://eur-lex.europa.eu) |
 | Directive 2018/958 | Arts. 6-8 | [eur-lex.europa.eu](https://eur-lex.europa.eu) |

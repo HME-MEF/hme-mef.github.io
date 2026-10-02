@@ -59,6 +59,50 @@ Los arts. 20 y 21 CDFUE son el equivalente de ámbito europeo del art. 14 CE (ig
 
 ## 2. Derecho de la Unión Europea
 
+### Directiva 2010/41/UE — Igualdad de trato entre hombres y mujeres autónomos
+
+La Directiva 2010/41/UE del Parlamento Europeo y del Consejo, de 7 de
+julio de 2010, sobre la aplicación del principio de igualdad de trato
+entre hombres y mujeres que ejercen una actividad autónoma, deroga y
+actualiza la Directiva 86/613/CEE del Consejo, de 11 de diciembre de
+1986, relativa a la aplicación del principio de igualdad de trato entre
+hombres y mujeres que ejercen una actividad autónoma, incluidas las
+actividades agrícolas, así como la protección de la maternidad —primera
+norma de la UE en reconocer que el colectivo autónomo requiere, igual
+que el asalariado, protección frente a la discriminación por razón de
+sexo.
+
+**Aplicación a HME:**  
+Ambas directivas confirman, desde 1986, que la UE reconoce la necesidad
+de proteger al trabajador autónomo frente a la discriminación por razón
+de sexo, igual que al asalariado. HME se apoya en esta línea normativa
+para sostener que, si existe ya un reconocimiento expreso de la
+necesidad de evitar la discriminación de género en el colectivo autónomo,
+la brecha retributiva autónomo-asalariado documentada en este sitio —que
+afecta de forma más acusada a las mujeres autónomas— entra directamente
+en el ámbito que estas directivas buscan corregir.
+
+### Directrices de la Comisión Europea 2022/C 374/02
+
+Directrices de la Comisión Europea sobre la aplicación del Derecho de la
+competencia de la UE a los convenios colectivos relativos a las
+condiciones de trabajo de las personas que trabajan por cuenta propia sin
+asalariados [2022] OJ C374/2.
+
+**Aplicación a HME:**  
+Estas Directrices reconocen expresamente que determinados autónomos sin
+empleados —en situación de dependencia económica, que trabajan "codo con
+codo" con asalariados, o dependientes de plataformas digitales— pueden
+negociar colectivamente condiciones de trabajo equivalentes a las de los
+asalariados, sin que ello constituya una restricción prohibida de la
+competencia. Es el precedente de derecho de la UE más directo para HME:
+reconoce, para un subconjunto de autónomos, el mismo derecho a una
+protección laboral equiparable al asalariado que HME plantea con
+carácter general. Su aplicación en España —mediante la Comunicación CNMC
+CNS/DC/902/23— se desarrolla más abajo, en el apartado 3 ("Informes y
+decisiones de la CNMC").
+[Ver Directrices (DOUE C374/2, 2022)](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=OJ:C:2022:374:TOC)
+
 ### Directiva 2006/123/CE (Directiva de Servicios)
 
 **Artículo 15 — Restricciones a la libre prestación de servicios**
@@ -336,6 +380,8 @@ Honorarordnung für Architekten und Ingenieure: tabla de mínimos actualizados p
 |---|---|---|
 | Constitución Española | 14, 35 | [boe.es](https://www.boe.es) |
 | Carta de los Derechos Fundamentales de la UE (CDFUE) | 15, 20, 21 | [europarl.europa.eu](https://www.europarl.europa.eu/charter/pdf/text_es.pdf) |
+| Directiva 86/613/CEE (derogada) / Directiva 2010/41/UE | — | [eur-lex.europa.eu](https://eur-lex.europa.eu) |
+| Directrices Comisión Europea 2022/C 374/02 | — | [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=OJ:C:2022:374:TOC) |
 | TFUE | 101, 102 | [eur-lex.europa.eu](https://eur-lex.europa.eu) |
 | Directiva 2006/123/CE | 15 | [eur-lex.europa.eu](https://eur-lex.europa.eu) |
 | Directiva 2018/958 | Arts. 6-8 | [eur-lex.europa.eu](https://eur-lex.europa.eu) |
