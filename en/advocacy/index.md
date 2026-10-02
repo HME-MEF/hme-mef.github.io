@@ -87,6 +87,9 @@ LJCA). The judgment acknowledges that the petition should have been deemed
 admitted, since its inadmissibility had not been declared within the
 statutory time limit (art. 9.2 LO 4/2001), although it holds that this
 ground of inadmissibility nonetheless operates as a ground for dismissal.
+It does not address the preliminary reference to the CJEU suggested in
+the alternative in the Closing Submissions: the Audiencia Nacional did
+not deem it necessary to refer it.
 [View the judgment]({{ '/assets/docs/sentencia-an-525-2024.pdf' | relative_url }}) *(ES)*
 
 **03/09/2024** — Notice of intention to appeal in cassation before the
