@@ -31,7 +31,7 @@ La "remuneración suficiente" debe ser equivalente para trabajo equivalente, ind
 
 #### Jurisprudencia constitucional relevante
 
-- **STC 31/1984**: Reconoce que la discriminación requiere "tratamiento diferenciado injustificado"
+- **STC 31/1984**: Reconoce que el "tratamiento diferenciado injustificado" es discriminación.
 
 ### Carta de los Derechos Fundamentales de la Unión Europea (CDFUE)
 

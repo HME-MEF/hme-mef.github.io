@@ -34,7 +34,7 @@ The self-employed professional must be protected against discriminatory treatmen
 
 #### Relevant constitutional case law
 
-- **STC 31/1984** (Constitutional Court): recognises that discrimination requires "unjustified differential treatment."
+- **STC 31/1984** (Constitutional Court): recognises "unjustified differential treatment" is discrimination.
 
 ### Charter of Fundamental Rights of the European Union (CFR)
 
