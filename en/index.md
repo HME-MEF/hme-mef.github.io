@@ -54,10 +54,7 @@ The MEF proposal seeks to close this gap through:
 
 ## Formal submissions
 
-The proposal has been formally raised before various administrations since 2021, including a judicial route already resolved (2021–2024, Audiencia Nacional) and a new institutional route opened in 2026, focused on updating the criteria of the National Commission for Markets and Competition (CNMC):
-
-- **Ministry of Economy, Trade and Business** — petition filed in March 2026 (registry no. **REGAGE26e00024522458**), currently awaiting a response.
-- **Spanish Ombudsman (Defensor del Pueblo)** — new complaint filed on 09/06/2026, pending resolution (joinder requested with case file **no. 26010099**, closed on 04/06/2026 without intervention).
+The proposal has been formally raised before various administrations since 2021, including a judicial route already closed (2021–2024, Audiencia Nacional) and a new institutional route opened in 2026, focused on updating the criteria of the National Commission for Markets and Competition (CNMC).
 
 [**See the full timeline →**]({{ '/en/advocacy/' | relative_url }})
 

@@ -5,7 +5,7 @@ title: "Advocacy — Cronología de diligencias"
 
 Desde 2021 se ha planteado formalmente ante distintas administraciones la necesidad
 de un marco de honorarios mínimos equivalentes (MEF/HME) para profesionales que
-ejercen por cuenta propia, incluyendo una vía judicial ya resuelta (2021–2024) y un
+ejercen por cuenta propia, incluyendo una vía judicial ya cerrada (2021–2024) y un
 desarrollo académico continuado (Congreso COAM 2025, artículo publicado en el
 *Italian Labour Law e-Journal*, 2026). En 2026 se ha abierto una nueva vía
 institucional, centrada en la actualización del criterio de la Comisión Nacional de

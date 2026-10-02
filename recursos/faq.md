@@ -260,7 +260,7 @@ El estado de tramitación completo y actualizado —peticiones, quejas,
 recursos y sus fechas— está en la
 [cronología de Advocacy]({{ '/advocacy/' | relative_url }}#estado-de-tramitación),
 que se mantiene al día conforme avanza el expediente. En resumen: la vía
-judicial iniciada en 2021 quedó resuelta (firme) en 2024–2025; la vía
+judicial iniciada en 2021 quedó cerrada (firme) en 2024–2025; la vía
 institucional abierta en 2026 ante el Ministerio de Economía, Comercio y
 Empresa y el Defensor del Pueblo sigue en curso.
 

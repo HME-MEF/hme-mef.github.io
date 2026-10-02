@@ -6,7 +6,7 @@ title: "Advocacy — Timeline of proceedings"
 
 Since 2021, the need for a framework of minimum equivalent fees (MEF/HME) for
 self-employed professionals has been formally raised before various Spanish
-administrations, including a judicial route already resolved (2021–2024) and
+administrations, including a judicial route already closed (2021–2024) and
 continued academic work (COAM Congress 2025, article published in the
 *Italian Labour Law e-Journal*, 2026). In 2026, a new institutional route was
 opened, focused on updating the criteria of the National Commission for

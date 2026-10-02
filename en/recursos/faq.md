@@ -264,7 +264,7 @@ The full, up-to-date status of the proceedings — petitions, complaints,
 appeals and their dates — is in the
 [Advocacy timeline]({{ '/en/advocacy/' | relative_url }}#case-status),
 kept up to date as the case file progresses. In brief: the judicial route
-begun in 2021 was resolved (finally) in 2024–2025; the institutional route
+begun in 2021 was closed (became final) in 2024–2025; the institutional route
 opened in 2026 before the Ministry of Economy, Trade and Business and the
 Spanish Ombudsman is still ongoing.
 

@@ -53,10 +53,7 @@ La propuesta HME busca cerrar esta brecha mediante:
 
 ## Presentaciones Formales
 
-La propuesta ha sido planteada formalmente ante distintas administraciones desde 2021, incluyendo una vía judicial ya resuelta (2021–2024, Audiencia Nacional) y una nueva vía institucional abierta en 2026, centrada en la actualización del criterio de la Comisión Nacional de los Mercados y la Competencia (CNMC):
-
-- **Ministerio de Economía, Comercio y Empresa** — petición de marzo de 2026 (registro **REGAGE26e00024522458**), actualmente pendiente de respuesta.
-- **Defensor del Pueblo** — nueva queja de 09/06/2026, pendiente de resolución (acumulación solicitada al expediente **n.º 26010099**, cerrado el 04/06/2026 sin intervención).
+La propuesta ha sido planteada formalmente ante distintas administraciones desde 2021, incluyendo una vía judicial ya cerrada (2021–2024, Audiencia Nacional) y una nueva vía institucional abierta en 2026, centrada en la actualización del criterio de la Comisión Nacional de los Mercados y la Competencia (CNMC).
 
 [**Ver cronología completa →**]({{ '/advocacy/' | relative_url }})
 
