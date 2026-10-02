@@ -170,8 +170,9 @@ The CNMC confirms that, under the Guidelines, collective agreements negotiated b
 
 #### CNC — 2009 and 2012 reports (background)
 
-Two reports from the now-defunct Tribunal/Comisión Nacional de la
-Competencia (CNC, the predecessor body to today's CNMC): *"Report on the
+Two reports from the Comisión Nacional de la Competencia (CNC), a body
+that did not disappear but was folded into today's CNMC in 2013
+(Law 3/2013): *"Report on the
 professional-services sector and professional associations"* (2009) and
 *"Report on Professional Associations following the transposition of the
 Services Directive"* (2012). Both take a position against the

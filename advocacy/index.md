@@ -42,10 +42,16 @@ Registro General 17390/2022), admitido a trámite por Decreto de 15/10/2021.
 **10/02/2022** — Informe de la Dirección General de Política Económica (DGPOLECO),
 del Ministerio de Asuntos Económicos y Transformación Digital (CSV
 1471189-94538828), que desestima el fondo de la solicitud, fundamentándose en
-informes previos de la extinta Comisión Nacional de la Competencia (CNC) de 2009 y
+informes previos de la Comisión Nacional de la Competencia (CNC —integrada
+en la actual CNMC desde 2013, no un organismo desaparecido—) de 2009 y
 2012, sin analizar la normativa y jurisprudencia europea posterior aportada en la
-petición. Este informe se aportó como parte del expediente en sede judicial, con
-posterioridad a la interposición del recurso contencioso-administrativo.
+petición. Este informe no constituye una respuesta oficial del Ministerio
+a la petición —que nunca llegó a emitirse—, sino, en todo caso, un
+documento técnico que podría haber servido de base para dicha respuesta;
+al incorporarlo al expediente administrativo, el Ministerio aparentaba
+responder sin hacerlo realmente. Este informe se aportó como parte del
+expediente en sede judicial, con posterioridad a la interposición del
+recurso contencioso-administrativo.
 [Ver informe DGPOLECO]({{ '/assets/docs/informe-dgpoleco-2022.pdf' | relative_url }})
 
 **23/03/2022** — Formalización de la demanda, con la argumentación jurídica de

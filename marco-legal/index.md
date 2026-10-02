@@ -202,8 +202,9 @@ a 2.000.000 € o 10 o más empleados.
 
 #### CNC — Informes de 2009 y 2012 (antecedentes)
 
-Dos informes del extinto Tribunal/Comisión Nacional de la Competencia
-(CNC, organismo predecesor de la actual CNMC): *"Informe sobre el sector
+Dos informes de la Comisión Nacional de la Competencia (CNC), organismo
+que no desapareció sino que se integró en la actual CNMC en 2013
+(Ley 3/2013): *"Informe sobre el sector
 de servicios profesionales y los colegios profesionales"* (2009) e
 *"Informe sobre los Colegios Profesionales tras la transposición de la
 Directiva de Servicios"* (2012). Ambos mantienen una posición contraria

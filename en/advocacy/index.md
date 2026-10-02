@@ -49,9 +49,14 @@ Registry 17390/2022), admitted for processing by Order of 15/10/2021.
 **10/02/2022** — Report of the Directorate-General for Economic Policy
 (DGPOLECO), of the Ministry of Economic Affairs and Digital Transformation
 (CSV 1471189-94538828), rejecting the substance of the request, based on
-earlier 2009 and 2012 reports of the now-defunct National Competition
-Commission (CNC), without analysing the subsequent European regulation and
-case law submitted with the petition. This report was added to the case file
+earlier 2009 and 2012 reports of the National Competition Commission (CNC
+— folded into today's CNMC in 2013, not a defunct body), without
+analysing the subsequent European regulation and case law submitted with
+the petition. This report is not an official response from the Ministry
+to the petition — no such response was ever issued — but, at most, a
+technical document that could have served as the basis for one; by
+placing it in the administrative file, the Ministry gave the appearance
+of responding without actually doing so. This report was added to the case file
 in the judicial proceedings, after the administrative appeal had been filed.
 [View the DGPOLECO report]({{ '/assets/docs/informe-dgpoleco-2022.pdf' | relative_url }}) *(ES)*
 
