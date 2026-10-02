@@ -196,22 +196,7 @@ The current indicative-reference document of the Madrid Official Association of 
 
 #### SEGIPSA — Resolution of 11 May 2015 (BOE no. 126, 27/5/2015)
 
-SEGIPSA (Sociedad Estatal de Gestión Inmobiliaria de Patrimonio, S.A.), an in-house instrumental body of the Spanish General State Administration, applies percentage tariffs on the Execution Cost Budget (PEM) for drafting projects and site supervision commissioned by the Administration:
-
-| Item | PEM bracket | % of PEM |
-|---|---|---|
-| **Project drafting** (incl. Health and Safety Study) | Up to €1,000,000 | 6.65% |
-| | €1,000,001 – €3,000,000 | 5.61% |
-| | €3,000,001 – €6,000,000 | 4.63% |
-| | €6,000,001 – €10,000,000 | 4.11% |
-| | Over €10,000,000 | 3.60% |
-| **Site supervision and execution management** (without safety and health coordination) | Up to €1,000,000 | 5.68% |
-| | €1,000,001 – €3,000,000 | 4.77% |
-| | €3,000,001 – €6,000,000 | 3.97% |
-| | €6,000,001 – €10,000,000 | 3.53% |
-| | Over €10,000,000 | 3.08% |
-
-In practice, this is the very same mechanism as the state tariffs of 1905, 1922 and 1977 — a percentage of the cost of the works, decreasing by bracket — applied today by the General State Administration itself to its own commissioned work. These brackets are the reference used — as a manual check, not applied automatically — in this site's [calculation tools]({{ '/en/herramientas/' | relative_url }}).
+SEGIPSA (Sociedad Estatal de Gestión Inmobiliaria de Patrimonio, S.A.), an in-house instrumental body of the Spanish General State Administration, applies percentage tariffs on the Execution Cost Budget (PEM) — between 3.08% and 6.65% depending on bracket and item — for drafting projects and site supervision commissioned by the Administration. In practice, this is the very same mechanism as the state tariffs of 1905, 1922 and 1977 — a percentage of the cost of the works, decreasing by bracket — applied today by the General State Administration itself to its own commissioned work. The full breakdown by bracket, used as a reference in this site's [calculation tools]({{ '/en/herramientas/' | relative_url }}), is in the [technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }}).
 [Download the SEGIPSA Resolution (BOE 27/5/2015)]({{ '/assets/docs/segipsa-boe-2015-es.pdf' | relative_url }}) *(Spanish original)*
 
 ---

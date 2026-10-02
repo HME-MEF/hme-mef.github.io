@@ -262,29 +262,17 @@ no fija honorarios, los orienta.
 
 La Sociedad Estatal de Gestión Inmobiliaria de Patrimonio, S.A. (SEGIPSA),
 medio propio instrumental de la Administración General del Estado, aplica
-tarifas porcentuales sobre el Presupuesto de Ejecución Material (PEM) para
-la redacción de proyectos y la dirección facultativa de obra que encomienda
-la Administración:
-
-| Concepto | Tramo PEM | % sobre PEM |
-|---|---|---|
-| **Redacción de proyecto** (incl. Estudio de Seguridad y Salud) | Hasta 1.000.000 € | 6,65% |
-| | 1.000.001 € – 3.000.000 € | 5,61% |
-| | 3.000.001 € – 6.000.000 € | 4,63% |
-| | 6.000.001 € – 10.000.000 € | 4,11% |
-| | Más de 10.000.000 € | 3,60% |
-| **Dirección de obra y dirección de ejecución** (sin coordinación de seguridad y salud) | Hasta 1.000.000 € | 5,68% |
-| | 1.000.001 € – 3.000.000 € | 4,77% |
-| | 3.000.001 € – 6.000.000 € | 3,97% |
-| | 6.000.001 € – 10.000.000 € | 3,53% |
-| | Más de 10.000.000 € | 3,08% |
-
-Es, en la práctica, el mismo mecanismo que las tarifas estatales de
-1905, 1922 y 1977 —un porcentaje sobre el coste de la obra, decreciente
-por tramos—, aplicado hoy por la propia Administración General del Estado
-a sus encomiendas de gestión. Estos tramos son la referencia empleada
-—como consulta manual, no de aplicación automática— en las
-[herramientas de cálculo]({{ '/herramientas/' | relative_url }}) de este sitio.
+tarifas porcentuales sobre el Presupuesto de Ejecución Material (PEM)
+—entre el 3,08% y el 6,65% según tramo y concepto— para la redacción de
+proyectos y la dirección facultativa de obra que encomienda la
+Administración. Es, en la práctica, el mismo mecanismo que las tarifas
+estatales de 1905, 1922 y 1977 —un porcentaje sobre el coste de la obra,
+decreciente por tramos—, aplicado hoy por la propia Administración
+General del Estado a sus encomiendas de gestión. El detalle completo de
+los tramos, usado como referencia en las
+[herramientas de cálculo]({{ '/herramientas/' | relative_url }}) de este
+sitio, está en la
+[memoria técnica]({{ '/herramientas/metodologia/' | relative_url }}).
 [Descargar Resolución SEGIPSA (BOE 27/5/2015)]({{ '/assets/docs/segipsa-boe-2015-es.pdf' | relative_url }})
 
 ---

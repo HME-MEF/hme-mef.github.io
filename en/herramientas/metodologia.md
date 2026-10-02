@@ -44,6 +44,35 @@ built from explicit layers.
 | DM 2016 public-works maximum rebate | 65% fixed / 35% open to rebate; 20% for direct award (< €140,000) | As of 1/1/2025, the Italian *Codice dei Contratti Pubblici* (D.Lgs. 209/2024, amending D.Lgs. 36/2023) limits the admissible rebate on the DM 17/6/2016 parametric tariff: in a tender, 65% of the tariff is fixed (not reducible) and only the remaining 35% can be rebated, which sets the maximum discount range; for direct award (commissions under €140,000), the maximum admissible rebate is 20% — **regulatory (Italy)**, cited as a comparative reference, not applicable in Spain |
 | % of PEM (SEGIPSA) | 6.65%–3.08% depending on bracket and item | Resolution of 11/5/2015 (BOE 27/5/2015) — **regulatory**, verified against the official text |
 
+### Detail of the SEGIPSA tariffs (BOE 27/5/2015)
+
+SEGIPSA (Sociedad Estatal de Gestión Inmobiliaria de Patrimonio, S.A.), an
+in-house instrumental body of the Spanish General State Administration,
+applies these percentage tariffs on the Execution Cost Budget (PEM) for
+drafting projects and site supervision commissioned by the Administration:
+
+| Item | PEM bracket | % of PEM |
+|---|---|---|
+| **Project drafting** (incl. Health and Safety Study) | Up to €1,000,000 | 6.65% |
+| | €1,000,001 – €3,000,000 | 5.61% |
+| | €3,000,001 – €6,000,000 | 4.63% |
+| | €6,000,001 – €10,000,000 | 4.11% |
+| | Over €10,000,000 | 3.60% |
+| **Site supervision and execution management** (without safety and health coordination) | Up to €1,000,000 | 5.68% |
+| | €1,000,001 – €3,000,000 | 4.77% |
+| | €3,000,001 – €6,000,000 | 3.97% |
+| | €6,000,001 – €10,000,000 | 3.53% |
+| | Over €10,000,000 | 3.08% |
+
+These brackets are the reference used — as a manual check, not applied
+automatically in every case — in this site's calculators. In practice,
+this is the same mechanism as the historical state architects' fee
+tariffs (1905, 1922, 1977 — see [Legal Framework]({{ '/en/marco-legal/' | relative_url }})) —
+a percentage of the cost of the works, decreasing by bracket — applied
+today by the General State Administration itself to its own commissioned
+work.
+[Download the SEGIPSA Resolution (BOE 27/5/2015)]({{ '/assets/docs/segipsa-boe-2015-es.pdf' | relative_url }}) *(Spanish original)*
+
 ---
 
 ## 2. Derivation of the cost floor (€58.23/h)

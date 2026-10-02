@@ -42,6 +42,36 @@ coste, construida por capas explícitas.
 | DM 2016 O.P. (baja máxima en obra pública) | 65% fijo / 35% con baja posible; 20% en adjudicación directa (< 140.000 €) | Desde el 1/1/2025, el *Codice dei Contratti Pubblici* italiano (D.Lgs. 209/2024, que modifica el D.Lgs. 36/2023) limita la baja admisible sobre la tarifa paramétrica del DM 17/6/2016: en licitación, el 65% de la tarifa es fijo (no rebajable) y solo el 35% restante puede ser objeto de baja, lo que fija el rango máximo de descuento; en adjudicación directa (encargos por debajo de 140.000 €), la baja máxima admitida es del 20% — **normativo (Italia)**, citado como referencia comparada, no aplicable en España |
 | % sobre PEM (SEGIPSA) | 6,65%–3,08% según tramo y concepto | Resolución de 11/5/2015 (BOE 27/5/2015) — **normativo**, verificado contra el texto oficial |
 
+### Detalle de las tarifas SEGIPSA (BOE 27/5/2015)
+
+La Sociedad Estatal de Gestión Inmobiliaria de Patrimonio, S.A. (SEGIPSA),
+medio propio instrumental de la Administración General del Estado, aplica
+estas tarifas porcentuales sobre el Presupuesto de Ejecución Material
+(PEM) para la redacción de proyectos y la dirección facultativa de obra
+que encomienda la Administración:
+
+| Concepto | Tramo PEM | % sobre PEM |
+|---|---|---|
+| **Redacción de proyecto** (incl. Estudio de Seguridad y Salud) | Hasta 1.000.000 € | 6,65% |
+| | 1.000.001 € – 3.000.000 € | 5,61% |
+| | 3.000.001 € – 6.000.000 € | 4,63% |
+| | 6.000.001 € – 10.000.000 € | 4,11% |
+| | Más de 10.000.000 € | 3,60% |
+| **Dirección de obra y dirección de ejecución** (sin coordinación de seguridad y salud) | Hasta 1.000.000 € | 5,68% |
+| | 1.000.001 € – 3.000.000 € | 4,77% |
+| | 3.000.001 € – 6.000.000 € | 3,97% |
+| | 6.000.001 € – 10.000.000 € | 3,53% |
+| | Más de 10.000.000 € | 3,08% |
+
+Estos tramos son la referencia empleada —como consulta manual, no de
+aplicación automática en todos los casos— en las calculadoras de este
+sitio. Es, en la práctica, el mismo mecanismo que las tarifas estatales
+históricas de honorarios de arquitecto (1905, 1922, 1977, ver
+[Marco Legal]({{ '/marco-legal/' | relative_url }})) —un porcentaje sobre
+el coste de la obra, decreciente por tramos—, aplicado hoy por la propia
+Administración General del Estado a sus encomiendas de gestión.
+[Descargar Resolución SEGIPSA (BOE 27/5/2015)]({{ '/assets/docs/segipsa-boe-2015-es.pdf' | relative_url }})
+
 ---
 
 ## 2. Derivación del suelo de coste (58,23 €/h)
