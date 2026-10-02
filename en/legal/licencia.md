@@ -31,17 +31,17 @@ For permissions inquiries, contact: [info@hmef.eu](mailto:info@hmef.eu)
 
 ---
 
-### Academic content licence (CC BY-NC-SA 4.0)
+### Licence for the site's original content (CC BY-NC-SA 4.0)
 
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International © Ricardo Alvira Baeza
 
 This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit [creativecommons.org/licenses/by-nc-sa/4.0/](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-**Applies to:**
-- Academic articles and publications ([publicaciones/]({{ '/en/publicaciones/' | relative_url }}))
-- Legal and constitutional analysis ([marco-legal/]({{ '/en/marco-legal/' | relative_url }}))
-- FAQs and educational content ([recursos/]({{ '/en/recursos/' | relative_url }}))
-- Policy analysis and commentary
+**Applies only to text written directly for this site** — not to the external academic articles cited or linked, see below:
+- The legal and constitutional analysis in [Legal Framework]({{ '/en/marco-legal/' | relative_url }})
+- The [FAQ]({{ '/en/recursos/faq/' | relative_url }}) and other educational content in [recursos/]({{ '/en/recursos/' | relative_url }})
+- The [technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }})
+- Other policy analysis and commentary written for hmef.eu
 
 **You can share and adapt this material**, for any purpose, even commercially, under the following conditions:
 
@@ -55,15 +55,19 @@ More information: [creativecommons.org/licenses/by-nc-sa/4.0/](https://creativec
 
 ---
 
-### Legal documents licence (all rights reserved)
+### External academic articles cited or linked
+
+This site cites, links to, or summarises academic articles originally published elsewhere — among them, the article *"Minimum Equivalent Fees"* in the *Italian Labour Law e-Journal* (see [Publications]({{ '/en/publicaciones/' | relative_url }})), the paper presented at the 2025 Congress of Architects of Madrid (COAM), and the Dominik Leist article cited in the same section.
+
+These texts **retain the licence and ownership rights under which they were originally published**: this site does not grant, and cannot grant, a different licence over them. Their reuse must follow the terms of their original publication, or requires contacting their respective authors and/or publishers directly.
+
+---
+
+### Licence for the author's own legal filings (all rights reserved)
 
 © Ricardo Alvira Baeza — All Rights Reserved
 
-**Applies to:**
-- Formal submissions to Spanish administrations (Ministry of Economy, Spanish Ombudsman)
-- Legal briefs and petitions ([advocacy/]({{ '/en/advocacy/' | relative_url }}))
-- Formal proposals and legislative documents
-- Any document marked as confidential or legal in nature
+**Applies to the filings drafted by the author himself** for the proceedings: petitions, appeals, statements of claim and closing submissions filed before Spanish administrations and judicial bodies, published in [Advocacy]({{ '/en/advocacy/' | relative_url }}).
 
 **You cannot:** reproduce, distribute, or publicly display without explicit written permission; modify or create derivative works; use for commercial purposes.
 
@@ -73,15 +77,25 @@ For permissions inquiries, contact: [info@hmef.eu](mailto:info@hmef.eu)
 
 ---
 
+### Official third-party documents
+
+This site also reproduces or links to official documents that are **not authored by the site's owner**, but by the administrations or judicial bodies that issued them: for example, the report of the Directorate-General for Economic Policy (DGPOLECO), the resolutions of the Spanish Ombudsman, and the judgments and orders of the Audiencia Nacional and the Supreme Court.
+
+These documents **belong to their respective bodies or authors**, who must be contacted before any use beyond informational citation or verification. They are reproduced here for informational and case-verification purposes, in accordance with the public-sector information reuse regime.
+
+---
+
 ### Summary table
 
 | Component | Licence | Can use | Can modify | Can sell | Commercial use | Requires attribution |
 |---|---|---|---|---|---|---|
 | Code (Jekyll, CSS, HTML, JS, calculators) | All rights reserved | No | No | No | No | Yes* |
-| Academic content (articles, analysis, FAQs) | CC BY-NC-SA 4.0 | Yes | Yes | No | No | Yes |
-| Legal documents (proposals, briefs) | All rights reserved | No | No | No | No | Yes* |
+| Site's original content (Legal Framework, FAQ, methodology) | CC BY-NC-SA 4.0 | Yes | Yes | No | No | Yes |
+| External academic articles cited | That of their original publication | — | — | — | — | — |
+| Author's own legal filings (petitions, appeals) | All rights reserved | No | No | No | No | Yes* |
+| Official third-party documents (reports, judgments) | Belong to the issuing body | — | — | — | — | — |
 
-*With explicit permission only. The same applies to the legal documents.
+*With explicit permission only.
 
 ---
 

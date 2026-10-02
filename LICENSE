@@ -1,5 +1,5 @@
 Licenses
-This project uses a dual licensing model:
+This project uses a multiple licensing model:
 
 Code License (All Rights Reserved)
 © Ricardo Alvira Baeza - All Rights Reserved
@@ -23,15 +23,16 @@ You CAN:
 For permissions inquiries, contact: info@hmef.eu
 
 
-Academic Content License (CC BY-NC-SA 4.0)
+Site's Original Content License (CC BY-NC-SA 4.0)
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International © Ricardo Alvira Baeza
 This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
 
-Applies to:
-  Academic articles and publications (publicaciones/)
+Applies only to text written directly for this site, NOT to the external
+academic articles cited or linked below:
   Legal and constitutional analysis (marco-legal/)
   FAQs and educational content (recursos/)
-  Policy analysis and commentary
+  Technical methodology (herramientas/metodologia/)
+  Other policy analysis and commentary written for hmef.eu
 
 You can:
   Share, adapt, and build upon this material
@@ -51,13 +52,26 @@ Standard academic citation is always permitted (e.g., in thesis, papers, books)
 
 See: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-Legal Documents License (All Rights Reserved)
+
+External Academic Articles Cited or Linked
+This site cites, links to, or summarises academic articles originally
+published elsewhere — e.g., the article "Minimum Equivalent Fees" in the
+Italian Labour Law e-Journal, the paper presented at the 2025 Congress of
+Architects of Madrid (COAM), and the Dominik Leist article cited in
+publicaciones/.
+
+These texts retain the licence and ownership rights under which they were
+originally published: this site does not grant, and cannot grant, a
+different licence over them. Their reuse must follow the terms of their
+original publication, or requires contacting their respective authors
+and/or publishers directly.
+
+
+Author's Own Legal Filings License (All Rights Reserved)
 © Ricardo Alvira Baeza - All Rights Reserved
-Applies to:
-  Formal submissions to Spanish administrations (MECE, Defensor del Pueblo)
-  Legal briefs and petitions (advocacy/)
-  Formal proposals and legislative documents
-  Any document marked as confidential or legal in nature
+Applies to the filings drafted by the author himself for the proceedings:
+  Petitions, appeals, statements of claim and closing submissions
+  filed before Spanish administrations and judicial bodies (advocacy/)
 
 You CANNOT:
   Reproduce, distribute, or publicly display without explicit written permission
@@ -69,13 +83,30 @@ You CAN:
   Standard academic citation (with clear attribution)
 
 For permissions inquiries, contact: info@hmef.eu
-Summary Table
-Component	                                 License                Can Use	  CanModify	Can Sell	Can Use Commercially	Requires Attribution
-Code (Jekyll, CSS, HTML, JS, calculators)	  All Rights Reserved	✗*	        ✗*	      ✗	        ✗	                    Sí*
-Academic Content (articles, analysis, FAQs)	CC BY-NC-SA 4.0	      ✓	          ✓	        ✗	          ✗	                    ✓
-Legal Documents (proposals, briefs)	        All Rights Reserved	  ✗	          ✗	        ✗	          ✗	                    ✓*
 
-*With explicit permission only
+
+Official Third-Party Documents
+This site also reproduces or links to official documents that are NOT
+authored by the site's owner, but by the administrations or judicial
+bodies that issued them: e.g., the DGPOLECO report, the resolutions of
+the Spanish Ombudsman, and the judgments and orders of the Audiencia
+Nacional and the Supreme Court.
+
+These documents belong to their respective bodies or authors, who must be
+contacted before any use beyond informational citation or verification.
+They are reproduced here for informational and case-verification
+purposes, in accordance with the public-sector information reuse regime.
+
+
+Summary Table
+Component                                        License                        Can Use  Can Modify  Can Sell  Can Use Commercially  Requires Attribution
+Code (Jekyll, CSS, HTML, JS, calculators)        All Rights Reserved            ✗*       ✗*          ✗         ✗                      Yes*
+Site's original content (legal analysis, FAQs)   CC BY-NC-SA 4.0                ✓        ✓           ✗         ✗                      ✓
+External academic articles cited                 Their original publication's  —        —           —         —                      —
+Author's own legal filings (petitions, appeals)  All Rights Reserved            ✗        ✗           ✗         ✗                      Yes*
+Official third-party documents (reports, rulings) Belong to issuing body        —        —           —         —                      —
+
+*With explicit permission only.
 
 Questions?
 If you have questions about how these licenses apply to a specific use case, please contact: info@hmef.eu

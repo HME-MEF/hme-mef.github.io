@@ -28,17 +28,17 @@ Para solicitudes de permiso, contacta con: [info@hmef.eu](mailto:info@hmef.eu)
 
 ---
 
-### Licencia del contenido académico (CC BY-NC-SA 4.0)
+### Licencia del contenido original del sitio (CC BY-NC-SA 4.0)
 
 Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional © Ricardo Alvira Baeza
 
 Esta obra está bajo una licencia Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional. Para ver una copia de esta licencia, visita [creativecommons.org/licenses/by-nc-sa/4.0/](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-**Se aplica a:**
-- Artículos académicos y publicaciones ([publicaciones/]({{ '/publicaciones/' | relative_url }}))
-- Análisis jurídico y constitucional ([marco-legal/]({{ '/marco-legal/' | relative_url }}))
-- FAQs y contenido educativo ([recursos/]({{ '/recursos/' | relative_url }}))
-- Análisis y comentario de políticas públicas
+**Se aplica únicamente al texto redactado directamente para este sitio** —no a los artículos académicos externos citados o enlazados, ver más abajo—:
+- El análisis jurídico y constitucional de [Marco Legal]({{ '/marco-legal/' | relative_url }})
+- Las [FAQs]({{ '/recursos/faq/' | relative_url }}) y demás contenido educativo de [recursos/]({{ '/recursos/' | relative_url }})
+- La [memoria técnica/metodología]({{ '/herramientas/metodologia/' | relative_url }})
+- Otro análisis y comentario de políticas públicas redactado para hmef.eu
 
 **Puedes compartir y adaptar este material**, para cualquier propósito, incluso comercialmente, bajo las siguientes condiciones:
 
@@ -52,15 +52,19 @@ Más información: [creativecommons.org/licenses/by-nc-sa/4.0/](https://creative
 
 ---
 
-### Licencia de los documentos legales (todos los derechos reservados)
+### Artículos académicos externos citados o enlazados
+
+Este sitio cita, enlaza o resume artículos académicos publicados originalmente en otros medios —entre ellos, el artículo *"Minimum Equivalent Fees"* en el *Italian Labour Law e-Journal* (ver [Publicaciones]({{ '/publicaciones/' | relative_url }})), la ponencia presentada en el Congreso de Arquitectos de Madrid (COAM) 2025, y el artículo de Dominik Leist citado en la misma sección—.
+
+Estos textos **mantienen la licencia y los derechos de propiedad con los que fueron publicados originalmente**: este sitio no otorga, ni puede otorgar, una licencia distinta sobre ellos. Su reutilización debe regirse por los términos de su publicación original, o requiere contactar directamente con sus respectivos autores y/o editores.
+
+---
+
+### Licencia de los escritos jurídicos propios (todos los derechos reservados)
 
 © Ricardo Alvira Baeza — Todos los derechos reservados
 
-**Se aplica a:**
-- Escritos formales presentados ante administraciones españolas (Ministerio de Economía, Defensor del Pueblo)
-- Escritos y peticiones jurídicas ([advocacy/]({{ '/advocacy/' | relative_url }}))
-- Propuestas formales y documentos legislativos
-- Cualquier documento marcado como confidencial o de naturaleza jurídica
+**Se aplica a los escritos redactados por el propio autor** para el procedimiento: peticiones, recursos, demandas y escritos de conclusiones presentados ante administraciones y órganos judiciales españoles, publicados en [advocacy/]({{ '/advocacy/' | relative_url }}).
 
 **No puedes:** reproducir, distribuir o mostrar públicamente sin permiso expreso por escrito; modificar o crear obras derivadas; usar con fines comerciales.
 
@@ -70,15 +74,25 @@ Para solicitudes de permiso, contacta con: [info@hmef.eu](mailto:info@hmef.eu)
 
 ---
 
+### Documentos oficiales de terceros
+
+Este sitio también reproduce o enlaza documentos oficiales que **no son autoría del titular del sitio**, sino de las administraciones u órganos judiciales que los dictaron: por ejemplo, el informe de la Dirección General de Política Económica (DGPOLECO), las resoluciones del Defensor del Pueblo, y las sentencias y providencias de la Audiencia Nacional y el Tribunal Supremo.
+
+Estos documentos **pertenecen a sus respectivos organismos o autores**, que deben ser contactados antes de cualquier uso que exceda la cita informativa o de verificación. Se reproducen aquí con fines informativos y de verificación del caso, conforme al régimen de reutilización de la información del sector público.
+
+---
+
 ### Tabla resumen
 
 | Componente | Licencia | Usar | Modificar | Vender | Uso comercial | Requiere atribución |
 |---|---|---|---|---|---|---|
 | Código (Jekyll, CSS, HTML, JS, calculadoras) | Todos los derechos reservados | No | No | No | No | Sí* |
-| Contenido académico (artículos, análisis, FAQs) | CC BY-NC-SA 4.0 | Sí | Sí | No | No | Sí |
-| Documentos legales (propuestas, escritos) | Todos los derechos reservados | No | No | No | No | Sí* |
+| Contenido original del sitio (Marco Legal, FAQs, metodología) | CC BY-NC-SA 4.0 | Sí | Sí | No | No | Sí |
+| Artículos académicos externos citados | La de su publicación original | — | — | — | — | — |
+| Escritos jurídicos propios (peticiones, recursos) | Todos los derechos reservados | No | No | No | No | Sí* |
+| Documentos oficiales de terceros (informes, sentencias) | Pertenecen a su organismo de origen | — | — | — | — | — |
 
-*Solo con permiso expreso. Lo mismo se aplica a los documentos legales.
+*Solo con permiso expreso.
 
 ---
 

@@ -46,17 +46,19 @@ depending on the type of material:
 | Content | Licence |
 |---|---|
 | Site code (Jekyll configuration, HTML, CSS, JS, calculators) | All rights reserved |
-| Academic content (articles, legal framework, FAQ) | Creative Commons BY-NC-SA 4.0 |
-| Original legal documents (petitions, appeals, advocacy filings) | All rights reserved — express permission required for reproduction, except for standard academic citation with attribution |
+| Site's original content (Legal Framework, FAQ, methodology) | Creative Commons BY-NC-SA 4.0 |
+| External academic articles cited (e.g. the article in the *Italian Labour Law e-Journal*) | That of their original publication — this site does not grant a different licence over them |
+| Author's own legal filings (petitions, appeals, advocacy filings) | All rights reserved — express permission required for reproduction, except for standard academic citation with attribution |
 
 Full detail, including the conditions of each licence, is on the
 [Licences]({{ '/en/legal/licencia/' | relative_url }}) page.
 
 Official third-party documents linked to or reproduced on this site
-(judicial rulings, regulation, the BOE, the Gaceta de Madrid, etc.) belong
-to their respective administrations or bodies and are cited for
-informational and verification purposes, in accordance with their public-
-sector information reuse regime.
+(administrative reports and resolutions, judicial rulings and orders,
+regulation, the BOE, the Gaceta de Madrid, etc.) belong to their
+respective administrations or bodies, who must be contacted before any
+use beyond informational citation or verification, in accordance with
+their public-sector information reuse regime.
 
 ---
 
