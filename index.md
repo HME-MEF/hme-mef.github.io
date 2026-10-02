@@ -84,7 +84,7 @@ Glosario, FAQs, bibliografía completa, enlaces útiles.
 ## Preguntas frecuentes
 
 **¿Es esto un "arancel colegial" prohibido?**
-No. Un arancel colegial (tarifa fijada y difundida por el colegio profesional) está prohibido por competencia. La HME es un *piso legislativo* derivado del principio de no discriminación y de un análisis de costes, implementado por el Estado, no por colegios.
+No. Un arancel colegial (tarifa fijada y difundida por el colegio profesional) está prohibido por competencia. La HME se propone como un *piso legislativo* derivado del principio de no discriminación, implementado por el Estado, con los colegios limitados a un papel técnico o de gestión delegada bajo supervisión pública.
 
 **¿Vulnera el derecho de la UE?**
 No. La propuesta se fundamenta en la Directiva 2006/123/CE (servicios) art. 15, que permite restricciones de competencia justificadas por razones de no discriminación. La jurisprudencia del TJUE respalda este planteamiento (C-94/04, C-413/13, C-19/23) y, a la vez, marca sus límites: C-377/17 (caso HOAI) declaró contrarias al Derecho de la UE las tarifas obligatorias alemanas por no superar el test de necesidad y proporcionalidad — el mismo test que HME plantea superar al fundamentarse en la no discriminación (arts. 14 y 35 CE) y regularse por vía estatal, no colegial.

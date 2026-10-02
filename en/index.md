@@ -85,7 +85,7 @@ Glossary, FAQ, full bibliography, useful links.
 ## Frequently asked questions
 
 **Is this a prohibited "professional-association tariff"?**
-No. A professional-association tariff (a fee set and disseminated by the professional association itself) is prohibited on competition-law grounds. HME is a *legislative floor* derived from the principle of non-discrimination and a cost analysis, implemented by the State, not by professional associations.
+No. A professional-association tariff (a fee set and disseminated by the professional association itself) is prohibited on competition-law grounds. HME is proposed as a *legislative floor* derived from the principle of non-discrimination, implemented by the State, with professional associations limited to a technical or delegated role under public supervision.
 
 **Does it violate EU law?**
 No. The proposal is grounded in Directive 2006/123/EC (services), art. 15, which allows competition restrictions justified on non-discrimination grounds. CJEU case law supports this approach (C-94/04, C-413/13, C-19/23) and, at the same time, marks its limits: C-377/17 (the HOAI case) declared the mandatory German fee scales contrary to EU law for failing the necessity-and-proportionality test — the very test HME aims to pass by grounding itself in non-discrimination (arts. 14 and 35 of the Spanish Constitution) and being regulated by the State, not by professional associations.
