@@ -48,7 +48,8 @@ depending on the type of material:
 | Site code (Jekyll configuration, HTML, CSS, JS, calculators) | All rights reserved |
 | Site's original content (Legal Framework, FAQ, methodology) | Creative Commons BY-NC-SA 4.0 |
 | External academic articles cited (e.g. the article in the *Italian Labour Law e-Journal*) | That of their original publication — this site does not grant a different licence over them |
-| Author's own legal filings (petitions, appeals, advocacy filings) | All rights reserved — express permission required for reproduction, except for standard academic citation with attribution |
+| Author's own administrative petitions (Ministry, Ombudsman) | All rights reserved — express permission required for reproduction, except for standard academic citation with attribution |
+| Judicial filings via legal representation (claim, submissions, appeals) | Not claimed exclusively by the author — drafted by him but formally filed by a lawyer/procurador |
 
 Full detail, including the conditions of each licence, is on the
 [Licences]({{ '/en/legal/licencia/' | relative_url }}) page.

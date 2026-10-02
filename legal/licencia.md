@@ -60,17 +60,25 @@ Estos textos **mantienen la licencia y los derechos de propiedad con los que fue
 
 ---
 
-### Licencia de los escritos jurídicos propios (todos los derechos reservados)
+### Licencia de las peticiones administrativas propias (todos los derechos reservados)
 
 © Ricardo Alvira Baeza — Todos los derechos reservados
 
-**Se aplica a los escritos redactados por el propio autor** para el procedimiento: peticiones, recursos, demandas y escritos de conclusiones presentados ante administraciones y órganos judiciales españoles, publicados en [advocacy/]({{ '/advocacy/' | relative_url }}).
+**Se aplica a las peticiones presentadas directamente por el propio autor**, como peticionario, ante administraciones españolas (Ministerio de Economía, Defensor del Pueblo): la petición de 2021, la petición de 2026 y las quejas al Defensor del Pueblo, publicadas en [advocacy/]({{ '/advocacy/' | relative_url }}).
 
 **No puedes:** reproducir, distribuir o mostrar públicamente sin permiso expreso por escrito; modificar o crear obras derivadas; usar con fines comerciales.
 
 **Puedes:** contactar con el autor para solicitar permiso de uso o republicación; realizar cita académica estándar (con atribución clara).
 
 Para solicitudes de permiso, contacta con: [info@hmef.eu](mailto:info@hmef.eu)
+
+---
+
+### Escritos judiciales presentados mediante representación legal
+
+La demanda, el escrito de conclusiones, el recurso de casación y el incidente de nulidad del procedimiento judicial (Audiencia Nacional / Tribunal Supremo), también publicados en [advocacy/]({{ '/advocacy/' | relative_url }}), fueron redactados por el autor pero **presentados formalmente a través de representación legal (abogado/procurador)**, como exige el procedimiento judicial español. Por tanto, el autor no reclama sobre ellos derechos exclusivos a su propio nombre.
+
+Se reproducen aquí como parte del expediente documental público del caso, con fines informativos y de verificación. Para cualquier uso que exceda la cita informativa, contacta con [info@hmef.eu](mailto:info@hmef.eu).
 
 ---
 
@@ -89,7 +97,8 @@ Estos documentos **pertenecen a sus respectivos organismos o autores**, que debe
 | Código (Jekyll, CSS, HTML, JS, calculadoras) | Todos los derechos reservados | No | No | No | No | Sí* |
 | Contenido original del sitio (Marco Legal, FAQs, metodología) | CC BY-NC-SA 4.0 | Sí | Sí | No | No | Sí |
 | Artículos académicos externos citados | La de su publicación original | — | — | — | — | — |
-| Escritos jurídicos propios (peticiones, recursos) | Todos los derechos reservados | No | No | No | No | Sí* |
+| Peticiones administrativas propias (al Ministerio, al Defensor del Pueblo) | Todos los derechos reservados | No | No | No | No | Sí* |
+| Escritos judiciales por representación legal (demanda, conclusiones, recursos) | No reclamados por el autor a título exclusivo | — | — | — | — | — |
 | Documentos oficiales de terceros (informes, sentencias) | Pertenecen a su organismo de origen | — | — | — | — | — |
 
 *Solo con permiso expreso.

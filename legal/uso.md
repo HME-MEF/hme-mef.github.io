@@ -32,7 +32,8 @@ El contenido de este sitio se distribuye bajo un modelo de licencia múltiple, s
 | Código del sitio (configuración Jekyll, HTML, CSS, JS, calculadoras) | Todos los derechos reservados |
 | Contenido original del sitio (Marco Legal, FAQs, metodología) | Creative Commons BY-NC-SA 4.0 |
 | Artículos académicos externos citados (p. ej. el artículo en el *Italian Labour Law e-Journal*) | La de su publicación original — este sitio no otorga una licencia distinta sobre ellos |
-| Escritos jurídicos propios (peticiones, recursos, escritos de advocacy) | Todos los derechos reservados — requieren permiso expreso para su reproducción, salvo cita académica estándar con atribución |
+| Peticiones administrativas propias (al Ministerio, al Defensor del Pueblo) | Todos los derechos reservados — requieren permiso expreso para su reproducción, salvo cita académica estándar con atribución |
+| Escritos judiciales presentados mediante representación legal (demanda, conclusiones, recursos) | No reclamados por el autor a título exclusivo — redactados por él, pero presentados formalmente por abogado/procurador |
 
 El detalle completo, incluidas las condiciones de cada licencia, está en la página de [Licencias]({{ '/legal/licencia/' | relative_url }}).
 

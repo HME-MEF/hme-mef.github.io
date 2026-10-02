@@ -67,11 +67,12 @@ original publication, or requires contacting their respective authors
 and/or publishers directly.
 
 
-Author's Own Legal Filings License (All Rights Reserved)
+Author's Own Administrative Petitions License (All Rights Reserved)
 © Ricardo Alvira Baeza - All Rights Reserved
-Applies to the filings drafted by the author himself for the proceedings:
-  Petitions, appeals, statements of claim and closing submissions
-  filed before Spanish administrations and judicial bodies (advocacy/)
+Applies to the petitions filed directly by the author himself, as
+petitioner, before Spanish administrations (Ministry of Economy, Spanish
+Ombudsman): the 2021 petition, the 2026 petition, and the complaints to
+the Spanish Ombudsman (advocacy/)
 
 You CANNOT:
   Reproduce, distribute, or publicly display without explicit written permission
@@ -83,6 +84,20 @@ You CAN:
   Standard academic citation (with clear attribution)
 
 For permissions inquiries, contact: info@hmef.eu
+
+
+Judicial Filings Submitted Through Legal Representation
+The statement of claim, the closing submissions, the cassation appeal,
+and the motion for annulment from the judicial proceedings (Audiencia
+Nacional / Supreme Court), also published in advocacy/, were drafted by
+the author but formally filed through legal representation (a
+lawyer/procurador), as required by Spanish judicial procedure. The
+author therefore does not claim exclusive rights over them in his own
+name.
+
+They are reproduced here as part of the case's public documentary
+record, for informational and verification purposes. For any use beyond
+informational citation, contact info@hmef.eu.
 
 
 Official Third-Party Documents
@@ -103,7 +118,8 @@ Component                                        License                        
 Code (Jekyll, CSS, HTML, JS, calculators)        All Rights Reserved            ✗*       ✗*          ✗         ✗                      Yes*
 Site's original content (legal analysis, FAQs)   CC BY-NC-SA 4.0                ✓        ✓           ✗         ✗                      ✓
 External academic articles cited                 Their original publication's  —        —           —         —                      —
-Author's own legal filings (petitions, appeals)  All Rights Reserved            ✗        ✗           ✗         ✗                      Yes*
+Author's own administrative petitions            All Rights Reserved            ✗        ✗           ✗         ✗                      Yes*
+Judicial filings via legal representation         Not exclusively claimed        —        —           —         —                      —
 Official third-party documents (reports, rulings) Belong to issuing body        —        —           —         —                      —
 
 *With explicit permission only.

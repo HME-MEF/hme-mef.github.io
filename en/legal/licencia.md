@@ -63,17 +63,25 @@ These texts **retain the licence and ownership rights under which they were orig
 
 ---
 
-### Licence for the author's own legal filings (all rights reserved)
+### Licence for the author's own administrative petitions (all rights reserved)
 
 © Ricardo Alvira Baeza — All Rights Reserved
 
-**Applies to the filings drafted by the author himself** for the proceedings: petitions, appeals, statements of claim and closing submissions filed before Spanish administrations and judicial bodies, published in [Advocacy]({{ '/en/advocacy/' | relative_url }}).
+**Applies to the petitions filed directly by the author himself**, as petitioner, before Spanish administrations (Ministry of Economy, Spanish Ombudsman): the 2021 petition, the 2026 petition, and the complaints to the Spanish Ombudsman, published in [Advocacy]({{ '/en/advocacy/' | relative_url }}).
 
 **You cannot:** reproduce, distribute, or publicly display without explicit written permission; modify or create derivative works; use for commercial purposes.
 
 **You can:** contact the author for permission to use or republish; use standard academic citation (with clear attribution).
 
 For permissions inquiries, contact: [info@hmef.eu](mailto:info@hmef.eu)
+
+---
+
+### Judicial filings submitted through legal representation
+
+The statement of claim, the closing submissions, the cassation appeal, and the motion for annulment from the judicial proceedings (Audiencia Nacional / Supreme Court), also published in [Advocacy]({{ '/en/advocacy/' | relative_url }}), were drafted by the author but **formally filed through legal representation (a lawyer/procurador)**, as required by Spanish judicial procedure. The author therefore does not claim exclusive rights over them in his own name.
+
+They are reproduced here as part of the case's public documentary record, for informational and verification purposes. For any use beyond informational citation, contact [info@hmef.eu](mailto:info@hmef.eu).
 
 ---
 
@@ -92,7 +100,8 @@ These documents **belong to their respective bodies or authors**, who must be co
 | Code (Jekyll, CSS, HTML, JS, calculators) | All rights reserved | No | No | No | No | Yes* |
 | Site's original content (Legal Framework, FAQ, methodology) | CC BY-NC-SA 4.0 | Yes | Yes | No | No | Yes |
 | External academic articles cited | That of their original publication | — | — | — | — | — |
-| Author's own legal filings (petitions, appeals) | All rights reserved | No | No | No | No | Yes* |
+| Author's own administrative petitions (Ministry, Ombudsman) | All rights reserved | No | No | No | No | Yes* |
+| Judicial filings via legal representation (claim, submissions, appeals) | Not claimed exclusively by the author | — | — | — | — | — |
 | Official third-party documents (reports, judgments) | Belong to the issuing body | — | — | — | — | — |
 
 *With explicit permission only.
