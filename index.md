@@ -26,7 +26,7 @@ Los profesionales autónomos en España enfrentan una **brecha retributiva** sig
 
 La propuesta HME busca cerrar esta brecha mediante:
 
-1. **Fundamento constitucional**: el principio de no discriminación (arts. 14 y 35 CE) exige que un mismo trabajo reciba una remuneración equivalente, sea cual sea el tipo de contrato bajo el que se realiza. Este es el fundamento de la propuesta, planteado formalmente desde marzo de 2021, no un modelo importado.
+1. **Fundamento constitucional**: se considera que el principio de no discriminación —reconocido tanto por la Constitución Española (arts. 14 y 35) como por la Carta de los Derechos Fundamentales de la UE (arts. 20, 21 y 15)— exige que un mismo trabajo reciba una remuneración equivalente, sea cual sea el tipo de contrato bajo el que se realiza. Este es el fundamento de la propuesta, planteado formalmente desde marzo de 2021, no un modelo importado.
 2. **Análisis de costes**: desagregación de gasto directo + gastos generales + margen industrial, por analogía con la normativa de contratación pública (RGLCAP).
 3. **Validación comparada**: una vez formulada la propuesta, se ha contrastado con modelos de otros Estados miembros —el método de cálculo del Decreto italiano DM 17/6/2016 y, más recientemente, la Ley italiana 49/2023 sobre *equo compenso*— que confirman que fórmulas equivalentes son jurídicamente viables en la UE, sin ser el origen del planteamiento.
 4. **Implementación legislativa**: propuestas concretas de reforma, por vía estatal o de control de la contratación pública; eventualmente, con colaboración técnica o gestión delegada de los colegios bajo supervisión pública, nunca mediante baremos colegiales autónomos.

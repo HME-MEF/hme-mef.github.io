@@ -27,7 +27,7 @@ Self-employed professionals in Spain face a significant **pay gap**, both in gen
 
 The MEF proposal seeks to close this gap through:
 
-1. **Constitutional grounding**: the principle of non-discrimination (arts. 14 and 35 of the Spanish Constitution) requires that the same work receive equivalent remuneration, regardless of the type of contract under which it is performed. This is the foundation of the proposal, formally raised since March 2021, not an imported model.
+1. **Constitutional grounding**: it is considered that the principle of non-discrimination — recognised both by the Spanish Constitution (arts. 14 and 35) and by the Charter of Fundamental Rights of the EU (arts. 20, 21 and 15) — requires that the same work receive equivalent remuneration, regardless of the type of contract under which it is performed. This is the foundation of the proposal, formally raised since March 2021, not an imported model.
 2. **Cost analysis**: breakdown of direct cost + overheads + industrial margin, by analogy with public procurement regulation (RGLCAP).
 3. **Comparative validation**: once formulated, the proposal has been checked against models from other Member States — the calculation method of the Italian Decree DM 17/6/2016 and, more recently, the Italian Law 49/2023 on *equo compenso* — which confirm that equivalent formulas are legally viable in the EU, without being the origin of the approach.
 4. **Legislative implementation**: concrete reform proposals, via state law or public procurement oversight; possibly, with technical collaboration or delegated management by professional associations under public supervision, but never through autonomous association-set fee scales.
