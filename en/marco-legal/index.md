@@ -159,6 +159,15 @@ This section distinguishes three types of source, of different scope: (a) genera
 
 **Royal Decree 1619/2012 (Public Works Contracts)** — Establishes a budgeting methodology for public works, including overheads and industrial profit, used here as a valid reference, applicable to public procurement in general and not only to architectural services.
 
+**General Regulation of the Public Administration Contracts Act (RGLCAP),
+approved by Royal Decree 1098/2001, art. 131** — sets the standard
+percentages for overheads (between 13% and 17%) and industrial profit
+(6%) applied to the direct-execution budget in public-works procurement.
+HME uses these same percentages, by analogy, to calculate the **cost
+floor** (the practice's real production cost), distinct from the actual
+anti-discrimination MEF floor — see the
+[technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }}).
+
 ### CNMC reports and decisions
 
 #### CNMC — Communication CNS/DC/902/23 (26/9/2023)
@@ -327,6 +336,7 @@ abolishing it altogether — following a CJEU ruling.
 | Directive 2006/123/EC | 15 | [eur-lex.europa.eu](https://eur-lex.europa.eu) |
 | Directive 2018/958 | Arts. 6-8 | [eur-lex.europa.eu](https://eur-lex.europa.eu) |
 | RD 1619/2012 | 107-115 | [boe.es](https://www.boe.es) |
+| RGLCAP (RD 1098/2001) | 131 | [boe.es](https://www.boe.es) |
 | RD 2/11/1905 (fee tariff) | Tariff I-XI | [PDF]({{ '/assets/docs/gaceta-madrid-1905-rd-tarifas-es.pdf' | relative_url }}) *(ES)* |
 | RD 1/12/1922 (fee tariff) | Tariff I | [PDF]({{ '/assets/docs/construccion-moderna-1923-tarifas-es.pdf' | relative_url }}) *(ES)* |
 | RD 2512/1977 (fee tariff) | Arts. 1-2, Transitional provisions | [PDF]({{ '/assets/docs/rd-2512-1977-tarifas-honorarios-es.pdf' | relative_url }}) *(ES)* |
