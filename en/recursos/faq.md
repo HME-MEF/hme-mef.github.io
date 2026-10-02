@@ -14,11 +14,15 @@ title: "Frequently Asked Questions"
 
 **HME (Honorarios Mínimos Equivalentes)** — or **MEF** in English, *Minimum
 Equivalent Fees* — is a regulatory proposal that establishes a **minimum
-remuneration floor for self-employed professionals** (architects,
-engineers, consultants, etc.), based on the principle that a self-employed
-professional should be able to earn, at a minimum, the equivalent cost of
-what it would cost an employer to hire an employed professional with the
-same competencies.
+remuneration floor for self-employed workers of any kind** — from
+professionals such as architects, engineers, lawyers and consultants to
+tradespeople such as plumbers and electricians —, based on the
+constitutional principle of non-discrimination: a self-employed
+professional should be able to earn, at a minimum, a net remuneration
+equal to that of an employed professional with the same competencies —
+that is, a gross income which, once the costs the self-employed person
+bears but an employer would otherwise cover on behalf of an employee are
+deducted, leaves the same net remuneration.
 
 The model distinguishes two references, derived from explicit layers of
 regulatory and collectively-bargained data (see the

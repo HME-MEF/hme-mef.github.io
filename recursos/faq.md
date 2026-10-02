@@ -13,11 +13,15 @@ title: "Preguntas Frecuentes"
 
 **HME (Honorarios Mínimos Equivalentes)** —o **MEF** en inglés, *Minimum
 Equivalent Fees*— es una propuesta de regulación que establece un **piso
-mínimo de retribución para profesionales autónomos** (arquitectos,
-ingenieros, consultores, etc.), basada en el principio de que un
-profesional por cuenta propia debe poder percibir, como mínimo, el coste
-equivalente de lo que le costaría a un empleador contratar a un
-profesional empleado con las mismas competencias.
+mínimo de retribución para cualquier trabajador autónomo** —desde
+profesionales como arquitectos, ingenieros, abogados o consultores, hasta
+oficios como fontaneros o electricistas—, basada en el principio de no
+discriminación constitucional: el profesional autónomo debe poder
+percibir, como mínimo, una remuneración neta equivalente a la del
+profesional empleado con las mismas competencias; es decir, una
+retribución bruta que, una vez descontados los costes que soporta el
+autónomo y que el empleador asume en nombre del empleado, deje la misma
+remuneración neta.
 
 El modelo distingue dos referencias, derivadas por capas de datos
 normativos y convencionales explícitos (ver
