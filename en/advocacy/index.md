@@ -109,9 +109,7 @@ grounds: insufficient reasoning of the objective cassational interest (art.
 89.2.f and 90.4.b LJCA) and failure to justify the relevance test required
 by art. 89.2.d LJCA. It does not rule on the merits. It sets costs of up to
 €1,000 plus VAT. *(Full-text transcription, with the names of the parties
-and judicial staff redacted; CSV
-`E04799402-MI:kdc9-RGcS-ZKEZ-DQGa-G`,
-[verifiable at sedejudicial.justicia.es](https://sedejudicial.justicia.es/-/codigo-seguro-de-verificacion-csv).)*
+and judicial staff redacted.)*
 [View the order (text)]({{ '/assets/docs/providencia-inadmision-casacion-2024-10-16.pdf' | relative_url }}) *(ES)*
 
 **27/10/2024** — A motion for annulment of proceedings (art. 241 LOPJ) is
@@ -127,9 +125,7 @@ defencelessness, no arbitrary application of the law, and no patent error,
 referring back to its earlier reasoning on the insufficient justification of
 the objective cassational interest and the relevance test. The Audiencia
 Nacional's judgment becomes final. *(Full-text transcription, with the names
-of the parties and judicial staff redacted; CSV
-`E04799402-MI:dXdY-HWsh-cSSU-msoM-Q`,
-[verifiable at sedejudicial.justicia.es](https://sedejudicial.justicia.es/-/codigo-seguro-de-verificacion-csv).)*
+of the parties and judicial staff redacted.)*
 [View the order (text)]({{ '/assets/docs/providencia-inadmision-nulidad-2024-11-25.pdf' | relative_url }}) *(ES)*
 
 **31/12/2025** — The petitioner is formally notified that the judicial
