@@ -91,7 +91,10 @@ That is the argument put forward in the proposal: article 15 allows
 restrictions on the freedom to provide services for "overriding reasons
 relating to the public interest," including the protection of workers and
 non-discrimination — provided the measure is necessary and proportionate
-(the test under Directive (EU) 2018/958).
+(the test under Directive (EU) 2018/958). There is precedent for
+compatibility within the EU: Italian Law 49/2023 on *equo compenso*
+establishes minimum fees for professionals facing counterparties with
+greater bargaining power, precisely on grounds of general interest.
 
 ### And with TFEU art. 101 (prohibition of cartels)?
 
@@ -103,6 +106,10 @@ The compatibility argument rests on three elements:
    not to the protection of a professional group.
 3. It would not eliminate price competition (it is a floor, not a single or
    maximum price).
+
+Italian Law 49/2023 on *equo compenso* is an example that this approach is
+compatible with EU law: it establishes minimum fees on grounds of general
+interest without having been challenged as infringing TFEU art. 101.
 
 See the full analysis, with case law and comparative precedents, in the
 [Legal Framework]({{ '/en/marco-legal/' | relative_url }}).

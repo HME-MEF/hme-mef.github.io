@@ -89,7 +89,10 @@ Ese es el argumento sostenido en la propuesta: el artículo 15 permite
 restricciones a la libre prestación de servicios por "razones imperativas
 de interés general", entre ellas la protección de trabajadores y la no
 discriminación — siempre que la medida sea necesaria y proporcionada (test
-de la Directiva (UE) 2018/958).
+de la Directiva (UE) 2018/958). Hay precedente de compatibilidad dentro de
+la UE: la ley italiana 49/2023 de *equo compenso* establece honorarios
+mínimos para profesionales frente a contrapartes con mayor poder de
+negociación, precisamente por razones de interés general.
 
 ### ¿Y con el TFUE art. 101 (prohibición de carteles)?
 
@@ -101,6 +104,11 @@ El argumento de compatibilidad se apoya en tres elementos:
    la protección de un colectivo profesional.
 3. No eliminaría la competencia en precio (es un piso, no un precio
    único ni máximo).
+
+La ley italiana 49/2023 de *equo compenso* es una muestra de que este
+enfoque es compatible con el derecho de la UE: establece honorarios
+mínimos por interés general sin haber sido cuestionada por infringir el
+art. 101 TFUE.
 
 Ver el desarrollo completo, con jurisprudencia y precedentes comparados,
 en [Marco Legal]({{ '/marco-legal/' | relative_url }}).
