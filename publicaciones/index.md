@@ -38,7 +38,9 @@ Documento origen de la investigación. Revisa la evolución de la regulación de
 
 ### Ensuring adequate remuneration for vulnerable solo self-employed through collective bargaining – EU antitrust prohibition as a limit?
 
-**Publicado en:** *Italian Labour Law e-Journal*
+**Autor:** Dominik Leist (IAAEU Trier)
+**Publicado en:** *Italian Labour Law e-Journal*, Vol. 18, No. 2 (2025), pp. 159–188, ISSN 1561-8048, Sección Miscellaneous
+**DOI:** [10.6092/issn.1561-8048/22056](https://doi.org/10.6092/issn.1561-8048/22056)
 
 [Ver artículo (Italian Labour Law e-Journal) →](https://illej.unibo.it/article/view/22056)
 
