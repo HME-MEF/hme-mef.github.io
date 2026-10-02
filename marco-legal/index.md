@@ -386,7 +386,7 @@ tras un pronunciamiento del TJUE.
 **No**, porque:
 - Directiva 2006/123/CE art. 15 permite restricciones por razones imperativas
 - No discriminación es razón imperativa reconocida
-- Hay precedente de modelos similares en la UE (Italia)
+- Hay precedente de modelos similares en la UE (Italia, Ley 49/2023 de *equo compenso*)
 
 ---
 

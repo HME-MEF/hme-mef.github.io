@@ -283,7 +283,7 @@ abolishing it altogether — following a CJEU ruling.
 **No**, because:
 - Directive 2006/123/EC, art. 15, allows restrictions for overriding reasons.
 - Non-discrimination is a recognised overriding reason.
-- There is precedent for similar models within the EU (Italy).
+- There is precedent for similar models within the EU (Italy, Law 49/2023 on *equo compenso*).
 
 ---
 
