@@ -49,6 +49,14 @@ This inequality does not reflect market efficiency; rather, it reflects the
 absence of a legal remuneration floor of the kind that already exists for
 salaried work (SMI, collective agreement).
 
+This gap is not neutral: the self-employed collective shows a higher
+concentration of women and of older workers than the salaried workforce,
+so the absence of that remuneration floor also results in indirect
+discrimination on grounds of sex and age — both expressly prohibited
+under art. 14 of the Spanish Constitution and arts. 20, 21 and 15 of the
+Charter of Fundamental Rights of the EU. MEF is therefore also proposed as
+a tool to mitigate these gender and age gaps.
+
 ### Isn't this a "tariff" that violates free competition?
 
 **No.** There is a fundamental difference:

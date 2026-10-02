@@ -47,6 +47,14 @@ Esta desigualdad no responde a eficiencia del mercado, sino a la ausencia
 de un suelo legal de protección retributiva que sí existe para el trabajo
 asalariado (SMI, convenio colectivo).
 
+Esta brecha no es neutra: el colectivo autónomo presenta una mayor
+concentración de mujeres y de trabajadores de mayor edad que el asalariado,
+por lo que la ausencia de dicho suelo retributivo redunda, además, en una
+discriminación indirecta por razón de sexo y de edad —ambas expresamente
+prohibidas por el art. 14 CE y los arts. 20, 21 y 15 de la CDFUE—. HME se
+propone, por tanto, también como instrumento para mitigar estas brechas de
+género y edad.
+
 ### ¿No es esto un "arancel" que viola la libre competencia?
 
 **No.** Hay una diferencia fundamental:
