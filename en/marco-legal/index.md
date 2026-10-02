@@ -23,7 +23,7 @@ MEF rests on two layers of constitutional-rank law — the Spanish Constitution 
 > *"Spaniards are equal before the law, and no discrimination whatsoever may prevail on account of birth, race, sex, religion, opinion or any other personal or social condition or circumstance."*
 
 **Application to MEF:**
-The self-employed professional must be protected against discriminatory treatment in remuneration for equivalent work. Systematic inequality between a self-employed professional and an employee (with equal qualification) amounts to discriminatory treatment currently permitted only by the absence of regulation.
+The self-employed professional must be protected against discriminatory treatment in remuneration for equivalent work. Systematic inequality between a self-employed professional and an employee (with equal qualification) amounts to discriminatory treatment currently permitted only by the absence of regulation. This pay inequality bears, moreover, markedly on discrimination on grounds of sex, given the greater presence of women in the lower-paid self-employed group; and, since that group also shows a greater concentration of older workers, the lower pay relative to employees would apparently amount — though no data exist to verify this precisely — to discrimination on grounds of age as well. Both are forms of discrimination expressly prohibited by art. 14 CE.
 
 #### Article 35 CE — Right to decent work
 

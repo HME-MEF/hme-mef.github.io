@@ -20,7 +20,7 @@ HME se fundamenta en dos niveles normativos de rango constitucional —la Consti
 > *"Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social."*
 
 **Aplicación a HME:**  
-El profesional autónomo debe tener protección frente a tratamiento discriminatorio en retribución por trabajo equivalente. La desigualdad sistemática entre autónomo y empleado (a igual cualificación) constituye un trato discriminatorio permitido por la actual falta de regulación.
+El profesional autónomo debe tener protección frente a tratamiento discriminatorio en retribución por trabajo equivalente. La desigualdad sistemática entre autónomo y empleado (a igual cualificación) constituye un trato discriminatorio permitido por la actual falta de regulación. Esta desigualdad retributiva incide, además, de forma destacada en la discriminación por razón de sexo, dada la mayor presencia de mujeres en el colectivo autónomo peor remunerado; y, dado que dicho colectivo presenta también una mayor concentración de personas de edad avanzada, la menor remuneración frente a los asalariados redundaría, de forma aparente —sin que existan datos que permitan comprobarlo con exactitud—, en una discriminación por razón de edad. Ambas son formas de discriminación expresamente prohibidas por el art. 14 CE.
 
 #### Artículo 35 CE — Derecho al Trabajo Digno
 
