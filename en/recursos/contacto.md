@@ -4,17 +4,18 @@ lang: en
 title: "Contact"
 ---
 
-This space is open to anyone who wants to **propose a collaboration** —
-including contributing cost data, professional testimony, or data to
-calculate the MEF for another profession or trade not yet covered by the
-[tools]({{ '/en/herramientas/' | relative_url }}) —, **report a relevant
-regulation, or a judicial or administrative action** not yet included on
-the site (see [Advocacy]({{ '/en/advocacy/' | relative_url }}) and
-[News]({{ '/en/noticias/' | relative_url }})), or simply leave
-**feedback**: from positive comments to suggestions for improvement or
-observations about the project's methodology or legal framework. You can
-also tick the form's checkbox to **receive updates about the proposal**
-(regulatory news, publications, advocacy progress) by leaving your email.
+This space is open to anyone who wants to leave **feedback**: from
+positive comments to suggestions for improvement or observations about the
+project's methodology or legal framework; **report a relevant regulation,
+or a judicial or administrative action** not yet included on the site (see
+[Advocacy]({{ '/en/advocacy/' | relative_url }}) and
+[News]({{ '/en/noticias/' | relative_url }})); or **propose a
+collaboration** — including contributing cost data, professional
+testimony, or data to calculate the MEF for another profession or trade
+not yet covered by the [tools]({{ '/en/herramientas/' | relative_url }}) —.
+You can also tick the form's checkbox to **receive updates about the
+proposal** (regulatory news, publications, advocacy progress) by leaving
+your email.
 
 <div style="margin:24px 0; max-width:640px;">
   <form id="contact-form" onsubmit="return enviarContacto(event)">
@@ -26,9 +27,9 @@ also tick the form's checkbox to **receive updates about the proposal**
     <label for="c-tipo" style="display:block; font-weight:600; font-size:13px; margin-bottom:4px;">Reason for your message</label>
     <select id="c-tipo" name="motivo" style="width:100%; padding:9px 10px; border:1px solid #c7ccd1; border-radius:5px; font-size:14px; margin-bottom:14px;">
       <option value="" selected disabled>— Select a reason —</option>
-      <option value="Collaboration proposal (contributing cost data, professional testimony, or to calculate MEF for another profession or trade, etc.)">Collaboration proposal (contributing cost data, professional testimony, or to calculate MEF for another profession or trade, etc.)</option>
-      <option value="Reporting a relevant regulation, or a judicial or administrative action not yet included on the site">Reporting a relevant regulation, or a judicial or administrative action not yet included on the site</option>
       <option value="Feedback or comments on the site and the proposal (including positive comments, improvements, legal framework or methodology)">Feedback or comments on the site and the proposal (including positive comments, improvements, legal framework or methodology)</option>
+      <option value="Reporting a relevant regulation, or a judicial or administrative action not yet included on the site">Reporting a relevant regulation, or a judicial or administrative action not yet included on the site</option>
+      <option value="Collaboration proposal (contributing cost data, professional testimony, or to calculate MEF for another profession or trade, etc.)">Collaboration proposal (contributing cost data, professional testimony, or to calculate MEF for another profession or trade, etc.)</option>
       <option value="Press / media">Press / media</option>
       <option value="Other">Other</option>
     </select>

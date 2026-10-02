@@ -3,17 +3,17 @@ layout: page
 title: "Contacto"
 ---
 
-Este espacio está abierto a quien quiera **proponer una colaboración**
-—incluyendo aportar datos de coste, testimonio profesional, o datos para
-calcular la HME de otra profesión u oficio distinto de los ya cubiertos por
-las [herramientas]({{ '/herramientas/' | relative_url }})—, **informar de
-una norma, actuación judicial o administrativa relevante** no incluida
-todavía en la página (véanse [Advocacy]({{ '/advocacy/' | relative_url }})
-y [Noticias]({{ '/noticias/' | relative_url }})), o simplemente dejar
-**feedback**: desde comentarios positivos hasta sugerencias de mejora o
-observaciones sobre la metodología o el marco legal del proyecto. También
-puedes marcar la casilla del formulario para **recibir información nueva
-sobre la propuesta** (novedades normativas, publicaciones, avances de
+Este espacio está abierto a quien quiera dejar **feedback**: desde
+comentarios positivos hasta sugerencias de mejora u observaciones sobre la
+metodología o el marco legal del proyecto; **informar de una norma,
+actuación judicial o administrativa relevante** no incluida todavía en la
+página (véanse [Advocacy]({{ '/advocacy/' | relative_url }}) y
+[Noticias]({{ '/noticias/' | relative_url }})); o **proponer una
+colaboración** —incluyendo aportar datos de coste, testimonio profesional,
+o datos para calcular la HME de otra profesión u oficio distinto de los ya
+cubiertos por las [herramientas]({{ '/herramientas/' | relative_url }})—.
+También puedes marcar la casilla del formulario para **recibir información
+nueva sobre la propuesta** (novedades normativas, publicaciones, avances de
 advocacy) dejando tu email.
 
 <div style="margin:24px 0; max-width:640px;">
@@ -26,9 +26,9 @@ advocacy) dejando tu email.
     <label for="c-tipo" style="display:block; font-weight:600; font-size:13px; margin-bottom:4px;">Motivo del mensaje</label>
     <select id="c-tipo" name="motivo" style="width:100%; padding:9px 10px; border:1px solid #c7ccd1; border-radius:5px; font-size:14px; margin-bottom:14px;">
       <option value="" selected disabled>— Selecciona un motivo —</option>
-      <option value="Propuesta de colaboración (aportar datos de costes, testimonio profesional, o para calcular HME de otra profesión u oficio, etc.)">Propuesta de colaboración (aportar datos de costes, testimonio profesional, o para calcular HME de otra profesión u oficio, etc.)</option>
-      <option value="Informar de una norma, actuación judicial o administrativa relevante no incluida en la página">Informar de una norma, actuación judicial o administrativa relevante no incluida en la página</option>
       <option value="Feedback o comentarios sobre la página y la propuesta (incluye comentarios positivos, mejoras, marco legal o metodología)">Feedback o comentarios sobre la página y la propuesta (incluye comentarios positivos, mejoras, marco legal o metodología)</option>
+      <option value="Informar de una norma, actuación judicial o administrativa relevante no incluida en la página">Informar de una norma, actuación judicial o administrativa relevante no incluida en la página</option>
+      <option value="Propuesta de colaboración (aportar datos de costes, testimonio profesional, o para calcular HME de otra profesión u oficio, etc.)">Propuesta de colaboración (aportar datos de costes, testimonio profesional, o para calcular HME de otra profesión u oficio, etc.)</option>
       <option value="Prensa / medios">Prensa / medios</option>
       <option value="Otro">Otro</option>
     </select>
