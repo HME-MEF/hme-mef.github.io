@@ -201,9 +201,42 @@ SEGIPSA (Sociedad Estatal de Gestión Inmobiliaria de Patrimonio, S.A.), an in-h
 
 ## 4. International and Comparative Law
 
-### Italy — reference regulation
+As in section 3, this section distinguishes between general regulations —
+applicable to any profession, not only architecture — and regulations
+specific to the architecture and engineering sector.
 
-*HME/MEF's foundation is not Italian law — the proposal was raised in Spain in 2021, on the basis of the constitutional principle of non-discrimination (arts. 14 and 35 CE) — rather, these rules are brought in afterwards as a reference for the calculation method and as evidence that an equivalent mechanism is legally viable in the EU. Italy has three successive, mutually consistent layers of regulation, summarised below.*
+*HME/MEF's foundation is not Italian or German law — the proposal was
+raised in Spain in 2021, on the basis of the constitutional principle of
+non-discrimination (arts. 14 and 35 CE) — rather, these rules are brought
+in afterwards as a reference for the calculation method and as evidence
+that an equivalent mechanism is legally viable in the EU.*
+
+### General regulations
+
+**Italy — Legge 21 April 2023, n. 49 ("equo compenso")** — A general law
+on fair compensation for professional services, applicable to any
+regulated profession — not only architecture — in its contractual
+relationships with counterparties of strong bargaining power: banks and
+insurance companies, large businesses (more than 50 employees or over
+€10 million in annual turnover), public administrations and public
+enterprises. It voids any clause setting compensation below the
+reference minimums set by ministerial decree for each professional
+association, as well as other unfair practices (unilateral contract
+amendment, unpaid additional work, payment terms exceeding 60 days).
+
+**Application to MEF:** this law is the most direct comparative-EU-law
+evidence that a professional minimum-remuneration floor, justified by an
+imbalance of bargaining power vis-à-vis a strong counterparty — not by
+corporate protection of a group — is compatible with EU law. Unlike the
+DM 17/6/2016 (a calculation method specific to architecture and
+engineering), this law confirms that the principle can be applied
+generally, to any regulated profession.
+
+### Regulations specific to architecture and engineering
+
+Italy also has three successive, mutually consistent layers of
+regulation specific to the architecture and engineering sector,
+summarised below.
 
 **Legge 2 marzo 1949, n. 143** ("Approval of the professional tariff for engineers and architects"). A historical precedent: it set hourly rates *a vacazione* (Capo I, art. 4) for three categories — professionista incaricato (the professional in charge), aiuto iscritto (registered assistant), aiuto di concetto (junior assistant) — with a ratio between them (1.00 / 0.67 / 0.42) practically identical to the one the DM 17/6/2016 would adopt seventy years later (1.00 / 0.70 / 0.54), which evidences the continuity of the criterion of classification by professional category in the Italian system.
 [Download Legge 143/1949]({{ '/assets/docs/legge-143-1949-it.pdf' | relative_url }}) *(Italian original)*
@@ -221,9 +254,7 @@ These hourly rates under art. 6.2 are the basis of the amount↔hours conversion
 [See the official text (Gazzetta Ufficiale)](https://www.gazzettaufficiale.it/eli/id/2025/01/22/25A00154/sg) ·
 [See on Normattiva](https://www.normattiva.it/eli/id/2024/12/31/24G00231/ORIGINAL)
 
-### Germany — HOAI
-
-Honorarordnung für Architekten und Ingenieure. Following Judgment C-377/17
+**Germany — HOAI** — Honorarordnung für Architekten und Ingenieure. Following Judgment C-377/17
 (see section 2), Germany reformed the HOAI with effect from 1/1/2021: the
 fee tables stopped being mandatory minimums and maximums and became
 indicative reference values ("Preisorientierung," price orientation),
@@ -274,6 +305,7 @@ abolishing it altogether — following a CJEU ruling.
 | Law 7/1997 (liberalisation) | Art. 5.ñ) | [boe.es](https://www.boe.es) |
 | COAM, Indicative Scales 2007 | — | [PDF]({{ '/assets/docs/coam-baremos-orientativos-2007-es.pdf' | relative_url }}) *(ES)* |
 | SEGIPSA, Resolution 11/5/2015 (BOE 27/5/2015) | Section Second.2 | [PDF]({{ '/assets/docs/segipsa-boe-2015-es.pdf' | relative_url }}) *(ES)* |
+| Legge (IT) 21/4/2023, n. 49 (equo compenso) | Arts. 1-3 | [dirittobancario.it](https://www.dirittobancario.it/wp-content/uploads/2023/05/Legge-21-aprile-2023-n.-49.pdf) |
 | Legge (IT) 2/3/1949, n. 143 | Capo I, art. 4 | [PDF]({{ '/assets/docs/legge-143-1949-it.pdf' | relative_url }}) *(IT)* |
 | DM (IT) 17/6/2016 | Arts. 2-6 | [PDF]({{ '/assets/docs/dm-17-giugno-2016-it.pdf' | relative_url }}) *(IT)* |
 | D.Lgs. (IT) 31/12/2024, n. 209 | — (general reference) | [gazzettaufficiale.it](https://www.gazzettaufficiale.it/eli/id/2025/01/22/25A00154/sg) |

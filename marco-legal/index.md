@@ -271,15 +271,44 @@ sitio, está en la
 
 ## 4. Derecho Internacional y Comparado
 
-### Italia — normativa de referencia
+Igual que el apartado 3, esta sección distingue entre normativa general
+—aplicable a cualquier profesión, no solo a la arquitectura— y normativa
+específica del sector de la arquitectura e ingeniería.
 
-*El fundamento de HME no es la normativa italiana —la propuesta se planteó en
-España en 2021, sobre la base del principio constitucional de no
-discriminación (arts. 14 y 35 CE)—, sino que estas normas se incorporan
-después como referencia de método de cálculo y como prueba de que un
-mecanismo equivalente es jurídicamente viable en la UE. Italia cuenta con
-tres capas normativas sucesivas y coherentes entre sí, que se resumen a
-continuación.*
+*El fundamento de HME no es la normativa italiana ni alemana —la
+propuesta se planteó en España en 2021, sobre la base del principio
+constitucional de no discriminación (arts. 14 y 35 CE)—, sino que estas
+normas se incorporan después como referencia de método de cálculo y como
+prueba de que un mecanismo equivalente es jurídicamente viable en la UE.*
+
+### Normativa general
+
+**Italia — Legge 21 aprile 2023, n. 49 ("equo compenso")** — Ley general
+de equo compenso de las prestaciones profesionales, aplicable a
+cualquier profesión regulada —no solo a la arquitectura— en sus
+relaciones contractuales con contrapartes de fuerte poder de negociación:
+bancos y aseguradoras, grandes empresas (más de 50 empleados o más de 10
+millones de euros de facturación anual), Administraciones Públicas y
+empresas públicas. Declara nula cualquier cláusula que fije una
+retribución inferior a los mínimos ministeriales de referencia de cada
+colegio profesional, así como otras prácticas abusivas (modificación
+unilateral del contrato, trabajo adicional no retribuido, plazos de pago
+superiores a 60 días).
+
+**Aplicación a HME:** esta ley es la prueba más directa, dentro del
+Derecho comparado de la UE, de que un mínimo retributivo profesional
+justificado por el desequilibrio de poder de negociación frente a una
+contraparte fuerte —no por la protección corporativa de un colectivo— es
+compatible con el Derecho de la Unión. A diferencia del DM 17/6/2016 (que
+es un método de cálculo específico de arquitectura e ingeniería), esta
+ley confirma que el principio puede aplicarse con carácter general a
+cualquier profesión regulada.
+
+### Normativa específica de arquitectura e ingeniería
+
+Italia cuenta, además, con tres capas normativas sucesivas y coherentes
+entre sí propias del sector de la arquitectura e ingeniería, que se
+resumen a continuación.
 
 **Legge 2 marzo 1949, n. 143** — "Approvazione della tariffa professionale
 degli ingegneri ed architetti". Precedente histórico: establecía tarifas
@@ -327,9 +356,7 @@ fórmula específica utilizados en este sitio.
 [Ver texto oficial (Gazzetta Ufficiale)](https://www.gazzettaufficiale.it/eli/id/2025/01/22/25A00154/sg) ·
 [Ver en Normattiva](https://www.normattiva.it/eli/id/2024/12/31/24G00231/ORIGINAL)
 
-### Alemania — HOAI
-
-Honorarordnung für Architekten und Ingenieure. Tras la Sentencia C-377/17
+**Alemania — HOAI** — Honorarordnung für Architekten und Ingenieure. Tras la Sentencia C-377/17
 (véase apartado 2), Alemania reformó la HOAI con efecto 1/1/2021: las
 tablas de honorarios dejaron de ser mínimos y máximos obligatorios y
 pasaron a ser valores orientativos de referencia ("Preisorientierung"),
@@ -381,6 +408,7 @@ tras un pronunciamiento del TJUE.
 | Ley 7/1997 (liberalización) | Art. 5.ñ) | [boe.es](https://www.boe.es) |
 | COAM, Baremos Orientativos 2007 | — | [PDF]({{ '/assets/docs/coam-baremos-orientativos-2007-es.pdf' | relative_url }}) |
 | SEGIPSA, Resolución 11/5/2015 (BOE 27/5/2015) | Apdo. Segundo.2 | [PDF]({{ '/assets/docs/segipsa-boe-2015-es.pdf' | relative_url }}) |
+| Legge (IT) 21/4/2023, n. 49 (equo compenso) | Arts. 1-3 | [dirittobancario.it](https://www.dirittobancario.it/wp-content/uploads/2023/05/Legge-21-aprile-2023-n.-49.pdf) |
 | Legge (IT) 2/3/1949, n. 143 | Capo I, art. 4 | [PDF]({{ '/assets/docs/legge-143-1949-it.pdf' | relative_url }}) |
 | DM (IT) 17/6/2016 | Arts. 2-6 | [PDF]({{ '/assets/docs/dm-17-giugno-2016-it.pdf' | relative_url }}) |
 | D.Lgs. (IT) 31/12/2024, n. 209 | — (referencia general) | [gazzettaufficiale.it](https://www.gazzettaufficiale.it/eli/id/2025/01/22/25A00154/sg) |
