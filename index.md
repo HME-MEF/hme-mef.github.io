@@ -6,6 +6,8 @@ excerpt: "Propuesta de regulación de mínimos de honorarios para cualquier trab
 
 ## ¿Qué es HME?
 
+El concepto surge de una desigualdad en la protección de la remuneración dentro del marco legislativo actual de la Unión Europea: mientras que el trabajador asalariado ve su remuneración protegida por los salarios mínimos y los convenios colectivos, el trabajador autónomo se encuentra en una situación de discriminación, al no existir —e incluso considerarse prohibida por la normativa de competencia— ese mismo tipo de protección.
+
 **Honorarios Mínimos Equivalentes (HME)** —o en inglés, **Minimum Equivalent Fees (MEF)**— es una propuesta para establecer un piso mínimo de retribución para cualquier trabajador autónomo —desde profesionales como arquitectos, ingenieros, abogados o consultores, hasta oficios como fontaneros o electricistas—, basada en el principio de no discriminación constitucional.
 
 El concepto sostiene que:
