@@ -13,7 +13,7 @@ The concept arises from an inequality in remuneration protection under the Europ
 
 The concept holds that:
 
-> **A self-employed professional should be able to earn, at a minimum, the equivalent cost of what it would cost an employer to hire an employed professional with the same competencies.**
+> **A self-employed professional should be able to earn, at a minimum, a net remuneration equal to that of an employed professional with the same competencies — that is, a gross income which, once the costs the self-employed person bears but an employer would otherwise cover on behalf of an employee are deducted, leaves the same net remuneration.**
 
 **Important precision:** "equivalence" does not mean identical gross income between the self-employed professional and the employee. The MEF floor compares the equivalent cost for the party commissioning the work — what it would cost to employ a professional with the same qualification, including the employer's social security contribution — with what the self-employed professional invoices, once the operating costs inherent to self-employment (structure, insurance, one's own social security contribution) that an employee does not bear directly are covered. It is, therefore, comparable remuneration after those costs, not payroll equality.
 
