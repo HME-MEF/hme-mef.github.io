@@ -83,13 +83,13 @@ enterprise.
 **03/07/2024** — Judgment no. 525/2024 of the Audiencia Nacional
 (Administrative Chamber, Third Section; Ordinary Proceedings 1/2022):
 dismisses the appeal and orders costs against the claimant (art. 139.1
-LJCA). The judgment acknowledges that the petition should have been deemed
-admitted, since its inadmissibility had not been declared within the
-statutory time limit (art. 9.2 LO 4/2001), although it holds that this
-ground of inadmissibility nonetheless operates as a ground for dismissal.
-It does not address the preliminary reference to the CJEU suggested in
-the alternative in the Closing Submissions: the Audiencia Nacional did
-not deem it necessary to refer it.
+LJCA). The Audiencia Nacional did not consider it necessary to refer the
+preliminary question to the CJEU suggested in the alternative in the
+Closing Submissions. The judgment acknowledges that the petition should
+have been deemed admitted, since its inadmissibility had not been
+declared within the statutory time limit (art. 9.2 LO 4/2001), but holds
+that a ground of inadmissibility did exist, and on that basis dismisses
+the claim without ruling on the merits.
 [View the judgment]({{ '/assets/docs/sentencia-an-525-2024.pdf' | relative_url }}) *(ES)*
 
 **03/09/2024** — Notice of intention to appeal in cassation before the

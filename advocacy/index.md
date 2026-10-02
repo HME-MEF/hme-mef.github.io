@@ -76,13 +76,13 @@ libertad de empresa.
 
 **03/07/2024** — Sentencia nº 525/2024 de la Audiencia Nacional (Sala de lo
 Contencioso-Administrativo, Sección Tercera; Procedimiento Ordinario 1/2022):
-desestima el recurso e impone las
-costas a la parte actora (art. 139.1 LJCA). La sentencia reconoce que la petición
-debía entenderse admitida a trámite por no haberse declarado su inadmisión en
-plazo (art. 9.2 LO 4/2001), si bien considera que la causa de inadmisibilidad opera
-como causa de desestimación. No se pronuncia sobre la cuestión prejudicial
-ante el TJUE sugerida subsidiariamente en el Escrito de Conclusiones: la
-Audiencia Nacional no juzgó necesario plantearla.
+desestima el recurso e impone las costas a la parte actora (art. 139.1 LJCA).
+La Audiencia no consideró necesario plantear la cuestión prejudicial ante el
+TJUE sugerida subsidiariamente en el Escrito de Conclusiones. La sentencia
+reconoce que la petición debía entenderse admitida a trámite por no haberse
+declarado su inadmisión en plazo (art. 9.2 LO 4/2001), pero considera que
+existía causa de inadmisibilidad, por lo que desestima la demanda sin
+pronunciarse sobre el fondo.
 [Ver sentencia]({{ '/assets/docs/sentencia-an-525-2024.pdf' | relative_url }})
 
 **03/09/2024** — Preparación de recurso de casación ante el Tribunal Supremo
