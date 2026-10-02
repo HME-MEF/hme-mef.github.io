@@ -12,15 +12,9 @@ This project is distributed under a multiple-licence model, depending on the typ
 
 ---
 
-### Code licence (MIT)
+### Code licence (all rights reserved)
 
-MIT License © Ricardo Alvira Baeza
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+© Ricardo Alvira Baeza — All Rights Reserved
 
 **Applies to:**
 - Jekyll configuration files (`_config.yml`)
@@ -29,10 +23,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 - JavaScript files (`assets/js/`)
 - The MEF calculators
 
-**You can:** use, modify, distribute.
-**Required:** include the copyright notice.
+**You cannot:** reproduce, distribute, or publicly display the code, or create derivative works (including similar versions of the calculators, with the same look or other parameters), without explicit written permission. This applies even for non-commercial use.
 
-More information: [opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
+**You can:** view the source code as published on the public repository; and contact the author for permission to use, adapt or republish it — for example, to adapt a calculator to another profession or trade, one of the collaborations this site invites through the [contact form]({{ '/en/recursos/contacto/' | relative_url }}).
+
+For permissions inquiries, contact: [info@hmef.eu](mailto:info@hmef.eu)
 
 ---
 
@@ -82,11 +77,11 @@ For permissions inquiries, contact: [info@hmef.eu](mailto:info@hmef.eu)
 
 | Component | Licence | Can use | Can modify | Can sell | Commercial use | Requires attribution |
 |---|---|---|---|---|---|---|
-| Code (Jekyll, CSS, HTML, JS) | MIT | Yes | Yes | Yes | Yes | No (but recommended) |
+| Code (Jekyll, CSS, HTML, JS, calculators) | All rights reserved | No | No | No | No | Yes* |
 | Academic content (articles, analysis, FAQs) | CC BY-NC-SA 4.0 | Yes | Yes | No | No | Yes |
 | Legal documents (proposals, briefs) | All rights reserved | No | No | No | No | Yes* |
 
-*With explicit permission only.
+*With explicit permission only. The same applies to the legal documents.
 
 ---
 

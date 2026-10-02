@@ -9,15 +9,9 @@ Este proyecto se distribuye bajo un modelo de licencia múltiple, según el tipo
 
 ---
 
-### Licencia del código (MIT)
+### Licencia del código (todos los derechos reservados)
 
-MIT License © Ricardo Alvira Baeza
-
-Se concede permiso, de forma gratuita, a cualquier persona que obtenga una copia de este software y de la documentación asociada (el "Software"), para utilizar el Software sin restricción, incluyendo sin limitación los derechos de usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender copias del Software, y de permitir a las personas a quienes se les proporcione el Software hacer lo mismo, sujeto a las siguientes condiciones:
-
-El aviso de copyright anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del Software.
-
-EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUYENDO PERO NO LIMITADO A LAS GARANTÍAS DE COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR SERÁN RESPONSABLES DE NINGUNA RECLAMACIÓN, DAÑOS U OTRA RESPONSABILIDAD, YA SEA EN UNA ACCIÓN CONTRACTUAL, EXTRACONTRACTUAL O DE OTRO TIPO, DERIVADA DE, FUERA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTRO TIPO DE ACCIONES EN EL SOFTWARE.
+© Ricardo Alvira Baeza — Todos los derechos reservados
 
 **Se aplica a:**
 - Archivos de configuración de Jekyll (`_config.yml`)
@@ -26,10 +20,11 @@ EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O 
 - Archivos JavaScript (`assets/js/`)
 - Las calculadoras MEF
 
-**Puedes:** usar, modificar, distribuir.
-**Requisito:** incluir el aviso de copyright.
+**No puedes:** reproducir, distribuir o mostrar públicamente el código, ni crear obras derivadas (incluyendo versiones similares de las calculadoras, con el mismo aspecto u otros parámetros), sin permiso expreso por escrito. Tampoco con fines comerciales.
 
-Más información: [opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
+**Puedes:** consultar el código fuente, tal como está publicado en el repositorio público; y contactar con el autor para solicitar permiso de uso, adaptación o republicación —por ejemplo, para adaptar una calculadora a otra profesión u oficio, una de las colaboraciones que este sitio invita a proponer a través del [formulario de contacto]({{ '/recursos/contacto/' | relative_url }}).
+
+Para solicitudes de permiso, contacta con: [info@hmef.eu](mailto:info@hmef.eu)
 
 ---
 
@@ -79,11 +74,11 @@ Para solicitudes de permiso, contacta con: [info@hmef.eu](mailto:info@hmef.eu)
 
 | Componente | Licencia | Usar | Modificar | Vender | Uso comercial | Requiere atribución |
 |---|---|---|---|---|---|---|
-| Código (Jekyll, CSS, HTML, JS) | MIT | Sí | Sí | Sí | Sí | No (recomendado) |
+| Código (Jekyll, CSS, HTML, JS, calculadoras) | Todos los derechos reservados | No | No | No | No | Sí* |
 | Contenido académico (artículos, análisis, FAQs) | CC BY-NC-SA 4.0 | Sí | Sí | No | No | Sí |
 | Documentos legales (propuestas, escritos) | Todos los derechos reservados | No | No | No | No | Sí* |
 
-*Solo con permiso expreso.
+*Solo con permiso expreso. Lo mismo se aplica a los documentos legales.
 
 ---
 

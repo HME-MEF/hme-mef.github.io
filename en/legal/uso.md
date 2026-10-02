@@ -45,7 +45,7 @@ depending on the type of material:
 
 | Content | Licence |
 |---|---|
-| Site code (Jekyll configuration, HTML, CSS, JS, calculators) | MIT |
+| Site code (Jekyll configuration, HTML, CSS, JS, calculators) | All rights reserved |
 | Academic content (articles, legal framework, FAQ) | Creative Commons BY-NC-SA 4.0 |
 | Original legal documents (petitions, appeals, advocacy filings) | All rights reserved — express permission required for reproduction, except for standard academic citation with attribution |
 

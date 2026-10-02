@@ -29,7 +29,7 @@ El contenido de este sitio se distribuye bajo un modelo de licencia múltiple, s
 
 | Contenido | Licencia |
 |---|---|
-| Código del sitio (configuración Jekyll, HTML, CSS, JS, calculadoras) | MIT |
+| Código del sitio (configuración Jekyll, HTML, CSS, JS, calculadoras) | Todos los derechos reservados |
 | Contenido académico (artículos, marco legal, FAQs) | Creative Commons BY-NC-SA 4.0 |
 | Documentos legales originales (peticiones, recursos, escritos de advocacy) | Todos los derechos reservados — requieren permiso expreso para su reproducción, salvo cita académica estándar con atribución |
 
