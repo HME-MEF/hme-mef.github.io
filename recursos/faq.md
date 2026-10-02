@@ -219,8 +219,18 @@ dos motivos, no como origen de la propuesta:
 
 ### ¿Aumentaría mucho el coste de servicios profesionales?
 
-El argumento sostenido en la propuesta es que no de forma significativa,
-porque:
+Conviene precisar primero el planteamiento: la propuesta no se defiende
+porque no eleve el coste de los servicios profesionales, sino porque da
+cumplimiento al mandato constitucional de no discriminación (arts. 14 y
+35 CE). El mismo razonamiento se aplicaría al SMI o a los salarios de
+convenio: eliminarlos reduciría el coste laboral asalariado, pero eso no
+los convierte en indeseables, porque responden a un mandato de protección
+retributiva. La pregunta relevante no es si HME eleva o no el coste, sino
+si ese suelo retributivo es necesario y proporcionado para corregir una
+discriminación —cuestión abordada en el [Marco Legal]({{ '/marco-legal/' | relative_url }}).
+
+Dicho esto, el argumento sostenido en la propuesta es que el efecto sobre
+el coste no sería significativo, porque:
 
 1. Muchos profesionales ya cobran por encima del suelo MEF —el mínimo
    afecta principalmente a la cola inferior de precios, la más asociada al

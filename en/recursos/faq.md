@@ -221,8 +221,20 @@ proposal:
 
 ### Would it substantially increase the cost of professional services?
 
-The argument put forward in the proposal is that it would not, significantly,
-because:
+It is worth framing the question correctly first: the proposal is not
+defended on the grounds that it does not raise the cost of professional
+services, but because it gives effect to the constitutional mandate of
+non-discrimination (arts. 14 and 35 of the Spanish Constitution). The same
+reasoning would apply to the SMI (national minimum wage) or to
+collectively-bargained wages: removing them would lower salaried labour
+costs, but that does not make them undesirable, because they respond to a
+mandate of remuneration protection. The relevant question is not whether
+MEF raises costs, but whether that remuneration floor is necessary and
+proportionate to correct a discrimination — addressed in the
+[Legal Framework]({{ '/en/marco-legal/' | relative_url }}).
+
+That said, the argument put forward in the proposal is that the effect on
+cost would not be significant, because:
 
 1. Many professionals already charge above the MEF floor — the minimum
    mainly affects the lower tail of prices, the one most associated with
