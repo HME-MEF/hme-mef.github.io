@@ -198,22 +198,6 @@ aunque no se cumplan esos supuestos, cuando exista un desequilibrio de
 poder de negociación frente a la contraparte: en particular, cuando esta
 represente a todo un sector o tenga un volumen de negocio anual superior
 a 2.000.000 € o 10 o más empleados.
-
-**Alcance — importante:** esta comunicación se refiere expresamente a
-personas que trabajan por cuenta propia **sin asalariados**, de cualquier
-sector —no solo profesionales sanitarios ni arquitectos—. No cubre, tal
-cual, al profesional autónomo con empleados a su cargo (un estudio de
-arquitectura con plantilla, por ejemplo), cuyo encaje en el art. 101 TFUE
-requeriría un análisis distinto. Además, el segundo supuesto —el
-desequilibrio de poder de negociación fuera de los tres casos tasados—
-es una declaración de intención de no actuación, no una exclusión legal
-garantizada: la propia CNMC podría apartarse de ese criterio, lo que
-mantiene un margen de inseguridad jurídica ya señalado en la literatura
-(véase Leist, 2025, en [Publicaciones]({{ '/publicaciones/' | relative_url }})).
-HME se apoya en esta comunicación como precedente de que la CNMC admite
-excepciones al art. 101 TFUE basadas en el desequilibrio de poder de
-negociación del trabajador autónomo, no como cobertura directa o
-garantizada de cualquier forma de ejercicio profesional.
 [Descargar comunicación CNMC CNS/DC/902/23]({{ '/assets/docs/cnmc-cns-dc-902-23-2023.pdf' | relative_url }})
 
 ### Normativa específica de arquitectos
