@@ -329,7 +329,16 @@ fórmula específica utilizados en este sitio.
 
 ### Alemania — HOAI
 
-Honorarordnung für Architekten und Ingenieure: tabla de mínimos actualizados periódicamente por análisis de mercado.
+Honorarordnung für Architekten und Ingenieure. Tras la Sentencia C-377/17
+(véase apartado 2), Alemania reformó la HOAI con efecto 1/1/2021: las
+tablas de honorarios dejaron de ser mínimos y máximos obligatorios y
+pasaron a ser valores orientativos de referencia ("Preisorientierung"),
+de aplicación no vinculante entre particulares, salvo que las partes
+pacten expresamente su carácter vinculante en el contrato. Es, por tanto,
+un ejemplo de cómo un Estado miembro ha tenido que adaptar un baremo
+obligatorio de honorarios profesionales al Derecho de la UE, sustituyendo
+la obligatoriedad por una referencia orientativa —no por su desaparición—
+tras un pronunciamiento del TJUE.
 
 ---
 

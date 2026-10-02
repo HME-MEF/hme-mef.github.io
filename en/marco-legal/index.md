@@ -223,7 +223,15 @@ These hourly rates under art. 6.2 are the basis of the amount↔hours conversion
 
 ### Germany — HOAI
 
-Honorarordnung für Architekten und Ingenieure: a table of minimums periodically updated through market analysis.
+Honorarordnung für Architekten und Ingenieure. Following Judgment C-377/17
+(see section 2), Germany reformed the HOAI with effect from 1/1/2021: the
+fee tables stopped being mandatory minimums and maximums and became
+indicative reference values ("Preisorientierung," price orientation),
+non-binding between private parties unless they expressly agree to treat
+them as binding in the contract. It is therefore an example of how a
+Member State had to adapt a mandatory professional-fee scale to EU law by
+replacing its binding character with a non-binding reference — not by
+abolishing it altogether — following a CJEU ruling.
 
 ---
 
