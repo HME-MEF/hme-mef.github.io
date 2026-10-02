@@ -22,11 +22,7 @@ Se sostiene que esta propuesta es compatible con la libre competencia (TFUE art.
 
 ## ¿Por qué importa?
 
-Los profesionales autónomos en España enfrentan una **brecha retributiva** significativa frente a empleados con igual cualificación. A diferencia del salario, no existe un marco regulatorio que asegure:
-
-- **Recuperación de costes reales** (formación continua, seguros, cotizaciones sociales)
-- **Beneficio industrial mínimo** sobre costes (componente de ganancia)
-- **Protección frente a dumping** (competencia desleal por precios depredadores)
+Los profesionales autónomos en España enfrentan una **brecha retributiva** significativa, tanto general como de género, frente a empleados con igual cualificación. A diferencia del salario, no existe un marco regulatorio que asegure una remuneración suficiente, ni que garantice la ausencia de discriminación por razón de sexo o edad.
 
 La propuesta HME busca cerrar esta brecha mediante:
 

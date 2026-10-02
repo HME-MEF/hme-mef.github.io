@@ -23,11 +23,7 @@ It is sustained that this proposal is compatible with free competition (TFEU art
 
 ## Why does it matter?
 
-Self-employed professionals in Spain face a significant **pay gap** compared to employees with equal qualifications. Unlike a salary, there is no regulatory framework that ensures:
-
-- **Recovery of real costs** (continuing education, insurance, social security contributions)
-- **Minimum industrial profit** on costs (a profit component)
-- **Protection against dumping** (unfair competition through predatory pricing)
+Self-employed professionals in Spain face a significant **pay gap**, both in general and in gender terms, compared to employees with equal qualifications. Unlike a salary, there is no regulatory framework that ensures sufficient remuneration, nor one that ensures no gender or age discrimination.
 
 The MEF proposal seeks to close this gap through:
 
