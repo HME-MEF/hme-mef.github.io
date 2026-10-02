@@ -11,7 +11,7 @@ Esta política explica qué datos personales se recogen en este sitio, con qué 
 
 ### 1. Responsable del tratamiento
 
-**Ricardo Alvira Baeza**, arquitecto e investigador, Madrid (España).
+**Ricardo Alvira Baeza**, Doctor Arquitecto e investigador, Madrid (España).
 **Contacto:** [info@hmef.eu](mailto:info@hmef.eu)
 
 Este sitio es un proyecto personal de investigación y advocacy, sin personalidad jurídica propia ni actividad comercial asociada.

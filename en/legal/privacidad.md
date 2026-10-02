@@ -16,7 +16,7 @@ with Regulation (EU) 2016/679 (GDPR) and Organic Law 3/2018 (LOPDGDD).
 
 ### 1. Data controller
 
-**Ricardo Alvira Baeza**, architect and researcher, Madrid (Spain).
+**Ricardo Alvira Baeza**, PhD Architect and Researcher, Madrid (Spain).
 **Contact:** [info@hmef.eu](mailto:info@hmef.eu)
 
 This site is a personal research and advocacy project, with no legal
