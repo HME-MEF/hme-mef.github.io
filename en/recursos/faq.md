@@ -63,7 +63,7 @@ a tool to mitigate these gender and age gaps.
 
 | Professional-association tariff (prohibited) | MEF (proposed) |
 |---|---|
-| A fixed fee imposed by a professional association | A minimum floor derived from cost analysis |
+| A fixed fee imposed by a professional association | A minimum floor derived from the SMI and collective-agreement wages, plus social-security contributions and other costs an employer bears on behalf of an employee |
 | Agreed between competitors | Regulated by the State |
 | Eliminates price competition | Allows competition above the minimum |
 | Contrary to TFEU art. 101 | Justified by non-discrimination (arts. 14 and 35 CE) |

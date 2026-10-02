@@ -61,7 +61,7 @@ género y edad.
 
 | Arancel Colegial (prohibido) | HME (propuesto) |
 |---|---|
-| Tarifa fija impuesta por colegio profesional | Piso mínimo derivado de análisis de costes |
+| Tarifa fija impuesta por colegio profesional | Piso mínimo derivado del SMI y los salarios de convenio, más las cotizaciones sociales y demás costes que el empleador asume en nombre del empleado |
 | Acordada entre competidores | Regulada por el Estado |
 | Elimina competencia en precio | Permite competencia por encima del mínimo |
 | Contraria al art. 101 TFUE | Justificada por no discriminación (arts. 14 y 35 CE) |
