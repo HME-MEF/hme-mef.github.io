@@ -107,14 +107,74 @@ Sentencia reciente del TJUE que confirma la validez de la mayor parte de las dis
 
 ## 3. Normativa Administrativa Española
 
+Esta sección distingue tres tipos de fuentes, de alcance distinto: (a)
+normativa general, aplicable a cualquier colegio profesional o persona
+autónoma; (b) informes y decisiones de la CNMC sobre competencia y
+negociación colectiva de autónomos; y (c) normativa específica del
+sector de la arquitectura, que es solo un subgrupo —aunque
+particularmente bien documentado— dentro del colectivo de trabajadores
+autónomos al que se dirige HME.
+
+### Normativa general
+
+**Ley 7/1997, de Medidas Liberalizadoras en Materia de Suelo y de
+Colegios Profesionales** — Sustituye el régimen de tarifas obligatorias
+de cualquier colegio profesional por el de **baremos de honorarios de
+carácter meramente orientativo** (art. 5.ñ), en cumplimiento del Derecho
+de la competencia. A partir de aquí, los honorarios profesionales dejan
+de estar tarifados por el Estado con carácter general y pasan a fijarse
+por acuerdo entre las partes, con baremos colegiales de referencia no
+vinculante.
+
+**Real Decreto 1619/2012 (Contratos de Obras)** — Establece metodología
+de cálculo de presupuestos en obra pública, incluyendo gastos generales y
+beneficio industrial, como referencia válida, aplicable a cualquier
+contratación pública y no solo a servicios de arquitectura.
+
+### Informes y decisiones de la CNMC
+
+#### CNMC — Comunicación CNS/DC/902/23 (26/9/2023)
+
+Comunicación de la Dirección de Competencia de la CNMC, en respuesta a una
+consulta de asociaciones y colegios de profesionales sanitarios, sobre la
+aplicación a España de las Directrices de la Comisión Europea 2022/C
+374/02 sobre el Derecho de la competencia de la UE y la negociación
+colectiva de personas que trabajan por cuenta propia **sin asalariados**.
+
+La CNMC confirma que, conforme a las Directrices, quedan **fuera del
+ámbito del art. 101 TFUE** los convenios colectivos que negocien
+autónomos sin asalariados que se encuentren en alguna de estas
+situaciones: (a) dependencia económica (≥50% de ingresos de una sola
+contraparte); (b) trabajo "codo con codo" con trabajadores por cuenta
+ajena, en condiciones equiparables; o (c) dependencia de plataformas
+digitales. Además, la Dirección de Competencia declara que **no
+intervendrá**, aunque no se cumplan esos supuestos, cuando exista un
+desequilibrio de poder de negociación frente a la contraparte —en
+particular, cuando esta represente a todo un sector o tenga un volumen
+de negocio anual superior a 2.000.000 € o 10 o más empleados.
+
+**Alcance — importante:** esta comunicación se refiere expresamente a
+personas que trabajan por cuenta propia **sin asalariados**, de cualquier
+sector —no solo profesionales sanitarios ni arquitectos—. No cubre, tal
+cual, al profesional autónomo con empleados a su cargo (un estudio de
+arquitectura con plantilla, por ejemplo), cuyo encaje en el art. 101 TFUE
+requeriría un análisis distinto. HME se apoya en ella como precedente de
+que la CNMC admite excepciones al art. 101 TFUE basadas en el
+desequilibrio de poder de negociación del trabajador autónomo, no como
+cobertura directa de cualquier forma de ejercicio profesional.
+[Descargar comunicación CNMC CNS/DC/902/23]({{ '/assets/docs/cnmc-cns-dc-902-23-2023.pdf' | relative_url }})
+
+### Normativa específica de arquitectos
+
 España cuenta con más de un siglo de tarifas estatales de honorarios de
 arquitecto, calculadas mediante porcentaje sobre el coste de la obra. Este
 precedente histórico es relevante porque muestra que un mecanismo de
 mínimos retributivos regulado por el Estado —no por los colegios
 profesionales— es una tradición jurídica española asentada, y no una
-innovación ajena al ordenamiento.
+innovación ajena al ordenamiento, aunque limitada a este subgrupo
+concreto de autónomos.
 
-### Real Decreto de 2 de noviembre de 1905 (*Gaceta de Madrid* núm. 309)
+#### Real Decreto de 2 de noviembre de 1905 (*Gaceta de Madrid* núm. 309)
 
 Primera tarifa estatal identificada. Aprueba la "Tarifa de honorarios que
 han de percibir los Arquitectos por los trabajos de su profesión",
@@ -124,14 +184,14 @@ orden) y fijando el honorario como un porcentaje del coste total de la
 obra, decreciente según el grupo y el tramo de coste.
 [Descargar RD 2/11/1905]({{ '/assets/docs/gaceta-madrid-1905-rd-tarifas-es.pdf' | relative_url }})
 
-### Real Decreto de 1 de diciembre de 1922 (*La Construcción Moderna*, 15/3/1923)
+#### Real Decreto de 1 de diciembre de 1922 (*La Construcción Moderna*, 15/3/1923)
 
 Sustituye la tarifa de 1905 con la misma estructura (seis grupos, tarifa
 porcentual decreciente por tramos de coste), actualizada a los precios de
 la época. Vigente hasta 1977.
 [Descargar RD 1/12/1922 (reproducido en La Construcción Moderna)]({{ '/assets/docs/construccion-moderna-1923-tarifas-es.pdf' | relative_url }})
 
-### Real Decreto 2512/1977, de 17 de junio
+#### Real Decreto 2512/1977, de 17 de junio
 
 Aprueba las "Tarifas de honorarios de los Arquitectos en trabajos de su
 profesión", vigentes con carácter obligatorio durante veinte años. Regula
@@ -142,16 +202,7 @@ coste de la vida. Constituye el último marco de tarifa obligatoria antes
 de la liberalización de 1997.
 [Descargar RD 2512/1977]({{ '/assets/docs/rd-2512-1977-tarifas-honorarios-es.pdf' | relative_url }})
 
-### Ley 7/1997, de Medidas Liberalizadoras en Materia de Suelo y de Colegios Profesionales
-
-Sustituye el régimen de tarifas obligatorias por el de **baremos de
-honorarios de carácter meramente orientativo** (art. 5.ñ), en
-cumplimiento del Derecho de la competencia. A partir de aquí, los
-honorarios de arquitecto dejan de estar tarifados por el Estado y pasan a
-fijarse por acuerdo entre las partes, con baremos colegiales de referencia
-no vinculante.
-
-### COAM — Baremos Orientativos 2007 (adaptación al CTE)
+#### COAM — Baremos Orientativos 2007 (adaptación al CTE)
 
 Documento vigente de referencia orientativa del Colegio Oficial de
 Arquitectos de Madrid, elaborado en cumplimiento del art. 5.ñ) de la Ley
@@ -163,11 +214,7 @@ Expresamente compatible con la libertad de contratación de la Ley 7/1997:
 no fija honorarios, los orienta.
 [Descargar COAM Baremos Orientativos 2007]({{ '/assets/docs/coam-baremos-orientativos-2007-es.pdf' | relative_url }})
 
-### Real Decreto 1619/2012 (Contratos de Obras)
-
-Establece metodología de cálculo de presupuestos en obra pública, incluyendo gastos generales y beneficio industrial, como referencia válida.
-
-### SEGIPSA — Resolución de 11 de mayo de 2015 (BOE núm. 126, 27/5/2015)
+#### SEGIPSA — Resolución de 11 de mayo de 2015 (BOE núm. 126, 27/5/2015)
 
 La Sociedad Estatal de Gestión Inmobiliaria de Patrimonio, S.A. (SEGIPSA),
 medio propio instrumental de la Administración General del Estado, aplica
@@ -195,36 +242,6 @@ a sus encomiendas de gestión. Estos tramos son la referencia empleada
 —como consulta manual, no de aplicación automática— en las
 [herramientas de cálculo]({{ '/herramientas/' | relative_url }}) de este sitio.
 [Descargar Resolución SEGIPSA (BOE 27/5/2015)]({{ '/assets/docs/segipsa-boe-2015-es.pdf' | relative_url }})
-
-### CNMC — Comunicación CNS/DC/902/23 (26/9/2023)
-
-Comunicación de la Dirección de Competencia de la CNMC, en respuesta a una
-consulta de asociaciones y colegios de profesionales sanitarios, sobre la
-aplicación a España de las Directrices de la Comisión Europea 2022/C
-374/02 sobre el Derecho de la competencia de la UE y la negociación
-colectiva de personas que trabajan por cuenta propia **sin asalariados**.
-
-La CNMC confirma que, conforme a las Directrices, quedan **fuera del
-ámbito del art. 101 TFUE** los convenios colectivos que negocien
-autónomos sin asalariados que se encuentren en alguna de estas
-situaciones: (a) dependencia económica (≥50% de ingresos de una sola
-contraparte); (b) trabajo "codo con codo" con trabajadores por cuenta
-ajena, en condiciones equiparables; o (c) dependencia de plataformas
-digitales. Además, la Dirección de Competencia declara que **no
-intervendrá**, aunque no se cumplan esos supuestos, cuando exista un
-desequilibrio de poder de negociación frente a la contraparte —en
-particular, cuando esta represente a todo un sector o tenga un volumen
-de negocio anual superior a 2.000.000 € o 10 o más empleados.
-
-**Alcance — importante:** esta comunicación se refiere expresamente a
-personas que trabajan por cuenta propia **sin asalariados**. No cubre,
-tal cual, al profesional autónomo con empleados a su cargo (un estudio de
-arquitectura con plantilla, por ejemplo), cuyo encaje en el art. 101 TFUE
-requeriría un análisis distinto. HME se apoya en ella como precedente de
-que la CNMC admite excepciones al art. 101 TFUE basadas en el
-desequilibrio de poder de negociación del trabajador autónomo, no como
-cobertura directa de cualquier forma de ejercicio profesional.
-[Descargar comunicación CNMC CNS/DC/902/23]({{ '/assets/docs/cnmc-cns-dc-902-23-2023.pdf' | relative_url }})
 
 ---
 

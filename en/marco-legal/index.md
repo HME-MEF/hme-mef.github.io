@@ -110,37 +110,50 @@ A recent CJEU judgment confirming the validity of most of the provisions of Dire
 
 ## 3. Spanish Administrative Regulations
 
-Spain has more than a century of state-set architects' fee tariffs, calculated as a percentage of the cost of the works. This historical precedent matters because it shows that a mechanism of remuneration floors regulated by the State — not by professional associations — is an established Spanish legal tradition, not an innovation foreign to the legal order.
+This section distinguishes three types of source, of different scope: (a) general regulations, applicable to any professional association or self-employed person; (b) CNMC reports and decisions on competition and collective bargaining by self-employed workers; and (c) regulations specific to the architecture sector, which is only one subgroup — though a particularly well-documented one — within the broader group of self-employed workers that MEF addresses.
 
-### Royal Decree of 2 November 1905 (*Gaceta de Madrid* no. 309)
+### General regulations
+
+**Law 7/1997, on Liberalising Measures in Land and Professional Association Matters** — Replaces the mandatory-tariff regime of any professional association with **merely indicative fee scales** (art. 5.ñ), in compliance with competition law. From this point on, professional fees in general are no longer set by the State and are instead agreed between the parties, with non-binding professional-association reference scales.
+
+**Royal Decree 1619/2012 (Public Works Contracts)** — Establishes a budgeting methodology for public works, including overheads and industrial profit, used here as a valid reference, applicable to public procurement in general and not only to architectural services.
+
+### CNMC reports and decisions
+
+#### CNMC — Communication CNS/DC/902/23 (26/9/2023)
+
+A communication from the Competition Directorate of the CNMC (the Spanish competition authority), issued in response to a query from healthcare professional associations, on the application in Spain of European Commission Guidelines 2022/C 374/02 on the application of EU competition law to collective agreements regarding the working conditions of solo self-employed people.
+
+The CNMC confirms that, under the Guidelines, collective agreements negotiated by solo self-employed people (without employees) fall **outside the scope of art. 101 TFEU** where they are in one of the following situations: (a) economic dependence (≥50% of income from a single counterparty); (b) working "side by side" with employees, under comparable conditions; or (c) dependence on digital platforms. In addition, the Competition Directorate states that it **will not intervene**, even where those situations do not apply, where there is an imbalance of bargaining power vis-à-vis the counterparty — in particular where the counterparty represents an entire sector or has an annual turnover above €2,000,000 or 10 or more employees.
+
+**Scope — important:** this communication refers expressly to solo self-employed people **without employees**, in any sector — not only healthcare professionals or architects. It does not, as such, cover a self-employed professional with staff (an architectural practice with employees, for instance), whose fit within art. 101 TFEU would require a separate analysis. HME/MEF relies on it as a precedent that the CNMC accepts exceptions to art. 101 TFEU based on the self-employed worker's imbalance of bargaining power, not as direct coverage for any form of professional practice.
+[Download CNMC communication CNS/DC/902/23]({{ '/assets/docs/cnmc-cns-dc-902-23-2023.pdf' | relative_url }}) *(Spanish original)*
+
+### Regulations specific to architects
+
+Spain has more than a century of state-set architects' fee tariffs, calculated as a percentage of the cost of the works. This historical precedent matters because it shows that a mechanism of remuneration floors regulated by the State — not by professional associations — is an established Spanish legal tradition, not an innovation foreign to the legal order, albeit one limited to this specific subgroup of self-employed workers.
+
+#### Royal Decree of 2 November 1905 (*Gaceta de Madrid* no. 309)
 
 The first identified state tariff. Approves the "Tariff of fees to be charged by Architects for the works of their profession," classifying works into six groups by their nature (from sheds and agricultural buildings to cathedrals and first-order buildings) and setting the fee as a percentage of the total cost of the works, decreasing by group and cost bracket.
 [Download RD 2/11/1905]({{ '/assets/docs/gaceta-madrid-1905-rd-tarifas-es.pdf' | relative_url }}) *(Spanish original)*
 
-### Royal Decree of 1 December 1922 (*La Construcción Moderna*, 15/3/1923)
+#### Royal Decree of 1 December 1922 (*La Construcción Moderna*, 15/3/1923)
 
 Replaces the 1905 tariff with the same structure (six groups, a decreasing percentage tariff by cost bracket), updated to the prices of the time. In force until 1977.
 [Download RD 1/12/1922 (reproduced in La Construcción Moderna)]({{ '/assets/docs/construccion-moderna-1923-tarifas-es.pdf' | relative_url }}) *(Spanish original)*
 
-### Royal Decree 2512/1977, of 17 June
+#### Royal Decree 2512/1977, of 17 June
 
 Approves the "Tariff of fees of Architects for the works of their profession," mandatory for twenty years. Regulates fees by commission phase (preliminary studies, preliminary design, basic project, execution project, site supervision), by building type, and an annual update factor (Fa) tied to the cost-of-living index. It is the last mandatory-tariff framework before the 1997 liberalisation.
 [Download RD 2512/1977]({{ '/assets/docs/rd-2512-1977-tarifas-honorarios-es.pdf' | relative_url }}) *(Spanish original)*
 
-### Law 7/1997, on Liberalising Measures in Land and Professional Association Matters
-
-Replaces the mandatory-tariff regime with **merely indicative fee scales** (art. 5.ñ), in compliance with competition law. From this point on, architects' fees are no longer set by the State and are instead agreed between the parties, with non-binding professional-association reference scales.
-
-### COAM — Indicative fee scales 2007 (adapted to the CTE building code)
+#### COAM — Indicative fee scales 2007 (adapted to the CTE building code)
 
 The current indicative-reference document of the Madrid Official Association of Architects (COAM), drawn up pursuant to art. 5.ñ) of Law 7/1997 and art. 14.e) of Law 19/1997 on Professional Associations of the Community of Madrid. It considers the degree of work, training, knowledge, dedication and costs necessary to carry out a commission, with coefficient tables by floor area, use and complexity. Expressly compatible with the freedom of contract under Law 7/1997: it does not set fees, it guides them.
 [Download COAM Indicative Scales 2007]({{ '/assets/docs/coam-baremos-orientativos-2007-es.pdf' | relative_url }}) *(Spanish original)*
 
-### Royal Decree 1619/2012 (Public Works Contracts)
-
-Establishes a budgeting methodology for public works, including overheads and industrial profit, used here as a valid reference.
-
-### SEGIPSA — Resolution of 11 May 2015 (BOE no. 126, 27/5/2015)
+#### SEGIPSA — Resolution of 11 May 2015 (BOE no. 126, 27/5/2015)
 
 SEGIPSA (Sociedad Estatal de Gestión Inmobiliaria de Patrimonio, S.A.), an in-house instrumental body of the Spanish General State Administration, applies percentage tariffs on the Execution Cost Budget (PEM) for drafting projects and site supervision commissioned by the Administration:
 
@@ -159,15 +172,6 @@ SEGIPSA (Sociedad Estatal de Gestión Inmobiliaria de Patrimonio, S.A.), an in-h
 
 In practice, this is the very same mechanism as the state tariffs of 1905, 1922 and 1977 — a percentage of the cost of the works, decreasing by bracket — applied today by the General State Administration itself to its own commissioned work. These brackets are the reference used — as a manual check, not applied automatically — in this site's [calculation tools]({{ '/en/herramientas/' | relative_url }}).
 [Download the SEGIPSA Resolution (BOE 27/5/2015)]({{ '/assets/docs/segipsa-boe-2015-es.pdf' | relative_url }}) *(Spanish original)*
-
-### CNMC — Communication CNS/DC/902/23 (26/9/2023)
-
-A communication from the Competition Directorate of the CNMC (the Spanish competition authority), issued in response to a query from healthcare professional associations, on the application in Spain of European Commission Guidelines 2022/C 374/02 on the application of EU competition law to collective agreements regarding the working conditions of solo self-employed people.
-
-The CNMC confirms that, under the Guidelines, collective agreements negotiated by solo self-employed people (without employees) fall **outside the scope of art. 101 TFEU** where they are in one of the following situations: (a) economic dependence (≥50% of income from a single counterparty); (b) working "side by side" with employees, under comparable conditions; or (c) dependence on digital platforms. In addition, the Competition Directorate states that it **will not intervene**, even where those situations do not apply, where there is an imbalance of bargaining power vis-à-vis the counterparty — in particular where the counterparty represents an entire sector or has an annual turnover above €2,000,000 or 10 or more employees.
-
-**Scope — important:** this communication refers expressly to solo self-employed people **without employees**. It does not, as such, cover a self-employed professional with staff (an architectural practice with employees, for instance), whose fit within art. 101 TFEU would require a separate analysis. HME/MEF relies on it as a precedent that the CNMC accepts exceptions to art. 101 TFEU based on the self-employed worker's imbalance of bargaining power, not as direct coverage for any form of professional practice.
-[Download CNMC communication CNS/DC/902/23]({{ '/assets/docs/cnmc-cns-dc-902-23-2023.pdf' | relative_url }}) *(Spanish original)*
 
 ---
 
