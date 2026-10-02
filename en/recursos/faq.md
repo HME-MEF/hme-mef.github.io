@@ -303,10 +303,10 @@ Spanish Ombudsman is still ongoing.
 ### How can I collaborate?
 
 Through the [contact form]({{ '/en/recursos/contacto/' | relative_url }}) —
-to propose a collaboration, contribute cost data or professional testimony
-(including from other professions or trades), report a relevant regulation
-or action not yet covered on this site, or leave any feedback about the
-proposal.
+to leave any feedback about the proposal, report a relevant regulation or
+judicial or administrative action not yet covered on this site, or
+propose a collaboration: contribute cost data or professional testimony
+(including from other professions or trades).
 
 ---
 

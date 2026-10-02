@@ -298,10 +298,10 @@ Empresa y el Defensor del Pueblo sigue en curso.
 ### ¿Cómo colaborar?
 
 A través del [formulario de contacto]({{ '/recursos/contacto/' | relative_url }}) —
-para proponer una colaboración, aportar datos de coste o testimonio
-profesional (incluyendo de otras profesiones u oficios), informar de una
-norma o actuación relevante no recogida todavía en el sitio, o dejar
-cualquier feedback sobre la propuesta.
+para dejar cualquier feedback sobre la propuesta, informar de una norma o
+actuación judicial o administrativa relevante no recogida todavía en el
+sitio, o proponer una colaboración: aportar datos de coste o testimonio
+profesional (incluyendo de otras profesiones u oficios).
 
 ---
 
