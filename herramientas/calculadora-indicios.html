@@ -84,6 +84,7 @@
           <label for="anio">Año</label>
           <select id="anio" onchange="onAnioChange()">
             <option value="" selected>— Selecciona un año —</option>
+            <option value="2023">2023</option>
             <option value="2024">2024</option>
             <option value="2025">2025</option>
             <option value="2026">2026</option>
@@ -262,6 +263,7 @@ const SITE_URL = "https://www.hmef.eu";
 // limitaciones de cada cifra. Donde no hay tabla o benchmark publicado para un año, se mantiene
 // la última cifra oficial/verificada disponible, marcada explícitamente en NOTA_ANIO.
 const DATA_BY_YEAR = {
+  2023: { mefConvenio: 30.61, mefSmi: 21.03, sueloCoste: 58.23 },
   2024: { mefConvenio: 31.08, mefSmi: 21.59, sueloCoste: 58.23 },
   2025: { mefConvenio: 31.08, mefSmi: 22.11, sueloCoste: 58.23 },
   2026: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 58.23 },
@@ -269,6 +271,7 @@ const DATA_BY_YEAR = {
 };
 
 const NOTA_ANIO = {
+  2023: 'Salario de convenio: tabla oficial de 2023 (XX Convenio, BOE-A-2023-11785). SMI: dato oficial de 2023 (RD 99/2023). Facturabilidad: sin edición Deltek de ese ejercicio; se usa la cifra FY2025 (única disponible), igual que en el resto de años.',
   2024: 'Salario de convenio, SMI y facturabilidad corresponden a fuentes oficiales/verificadas de 2024.',
   2025: 'Salario de convenio: sin tabla pactada para 2025; se mantiene la última tabla oficial (2024). SMI: dato oficial de 2025. Facturabilidad: único dato específico de arquitectura publicado (FY2025).',
   2026: 'Salario de convenio: sin tabla pactada para 2026; se mantiene la última tabla oficial (2024). SMI: dato oficial de 2026. Facturabilidad: sin edición más reciente disponible; se mantiene el dato de FY2025.',

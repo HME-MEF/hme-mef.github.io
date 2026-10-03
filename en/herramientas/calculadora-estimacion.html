@@ -100,6 +100,7 @@
           <legend>Reference year (economic data)</legend>
           <label for="anio">Year</label>
           <select id="anio" onchange="onAnioChange(); calcular();">
+            <option value="2023">2023</option>
             <option value="2024">2024</option>
             <option value="2025">2025</option>
             <option value="2026" selected>2026</option>
@@ -222,6 +223,7 @@ const SITE_URL = "https://www.hmef.eu";
 // limitations of each figure. Where no table or benchmark has been published for a given year, the
 // last official/verified figure is kept, explicitly flagged in NOTA_ANIO.
 const DATA_BY_YEAR = {
+  2023: { mefConvenio: 30.61, mefSmi: 21.03, sueloCoste: 58.23 },
   2024: { mefConvenio: 31.08, mefSmi: 21.59, sueloCoste: 58.23 },
   2025: { mefConvenio: 31.08, mefSmi: 22.11, sueloCoste: 58.23 },
   2026: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 58.23 },
@@ -229,6 +231,7 @@ const DATA_BY_YEAR = {
 };
 
 const NOTA_ANIO = {
+  2023: 'Collective-agreement salary: official 2023 table (XX Agreement, BOE-A-2023-11785). SMI: official 2023 figure (RD 99/2023). Utilization rate: no Deltek edition for that year; the FY2025 figure (the only one available) is used, as in every other year.',
   2024: 'Collective-agreement salary, SMI and utilization rate correspond to official/verified 2024 sources.',
   2025: 'Collective-agreement salary: no agreed table for 2025; the last official table (2024) is kept. SMI: official 2025 figure. Utilization rate: the only architecture-specific figure published (FY2025).',
   2026: 'Collective-agreement salary: no agreed table for 2026; the last official table (2024) is kept. SMI: official 2026 figure. Utilization rate: no more recent edition available; the FY2025 figure is kept.',

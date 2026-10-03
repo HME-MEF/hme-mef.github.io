@@ -13,7 +13,7 @@ un benchmark de industria no oficial, y qué es una hipótesis propia
 —editable y discutible— del modelo. Ambas herramientas comparten el mismo
 motor de cálculo (estimación de horas, suelo de coste, suelo MEF).
 
-Ambas calculadoras incluyen un **selector de año** (2024–2027), porque el
+Ambas calculadoras incluyen un **selector de año** (2023–2027), porque el
 salario de convenio, el SMI y la facturabilidad Deltek sí varían de un
 ejercicio a otro. El modelo italiano y SEGIPSA no tienen un valor
 distinto por año en esta herramienta, pero sí se actualizan de facto con
@@ -36,7 +36,7 @@ uso que cada quien haga de estas cifras depende de su propio criterio.
 
 | Dato | Valor | Estatus |
 |---|---|---|
-| Salario de referencia (convenio) | 28.664 €/año (2024–2027) | Nivel 1, tablas salariales **2024** del XX Convenio colectivo de ingeniería y oficinas de estudios técnicos — **convencional** ([BOE-A-2024-5873, 12/3/2024](https://www.boe.es/buscar/doc.php?id=BOE-A-2024-5873)). Sin tabla pactada para 2025–2027; se mantiene la cifra de 2024 — ver sección 6 |
+| Salario de referencia (convenio) | 28.027 €/año (2023) / 28.664 €/año (2024–2027) | Nivel 1, tablas salariales del XX Convenio colectivo de ingeniería y oficinas de estudios técnicos — **convencional**: **2023** ([BOE-A-2023-11785, 18/5/2023](https://www.boe.es/buscar/doc.php?id=BOE-A-2023-11785)), **2024** ([BOE-A-2024-5873, 12/3/2024](https://www.boe.es/buscar/doc.php?id=BOE-A-2024-5873)). Sin tabla pactada para 2025–2027; se mantiene la cifra de 2024 — ver sección 6 |
 | Cotización empresarial | 33,01% del salario base | Cálculo normativo de Seguridad Social sobre el salario de convenio o el SMI — **normativo** (porcentaje mantenido constante entre 2024 y 2027 como simplificación; no incorpora el incremento anual del Mecanismo de Equidad Intergeneracional) |
 | Costes operativos (Madrid) | 17.569 €/año (alquiler 10.500 €, responsabilidad civil 1.000 €, resto) | Valores medios de mercado en Madrid — **hipótesis propia**, conservadora y editable; sin año de referencia único, se aplica igual a los cuatro años del selector |
 | Horas anuales | 1.792 h | Jornada máxima del convenio de ingeniería y oficinas técnicas — **convencional** |
@@ -44,7 +44,7 @@ uso que cada quien haga de estas cifras depende de su propio criterio.
 | Retribución bruta de referencia (suelo de coste) | 38.345 €/año | Media entre ACE **2020** empleo público (44.512 €) y dirección de estudio privado (32.178 €) — **hipótesis propia**, con dato de partida del Architects' Council of Europe |
 | Coeficiente coste-empresa | 1,356 | Ratio coste bruto / sueldos y salarios, sector Servicios — [INE, Encuesta Anual de Coste Laboral (EACL), año 2025, Tabla 1](https://www.ine.es/dyngs/Prensa/EACL2025.htm) (37.717,75 € / 27.817,39 €) — **benchmark de industria (España)**; el INE no desglosa por rama de actividad más fina, así que se toma el conjunto de Servicios como proxy del sector arquitectura |
 | Gastos generales / beneficio industrial (suelo de coste) | 13% / 6% | Por analogía con el art. 131 RGLCAP (obra pública) — **normativo por analogía**, no una cifra propia del sector arquitectura |
-| SMI | 15.876 € (2024) / 16.576 € (2025) / 17.094 € (2026–2027) | **Normativo** — [BOE-A-2024-2251](https://www.boe.es/buscar/doc.php?id=BOE-A-2024-2251), [BOE-A-2025-2576](https://www.boe.es/buscar/doc.php?id=BOE-A-2025-2576), [BOE-A-2026-3815](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-3815). Sin Real Decreto publicado aún para 2027; se mantiene la cifra de 2026 |
+| SMI | 15.120 € (2023) / 15.876 € (2024) / 16.576 € (2025) / 17.094 € (2026–2027) | **Normativo** — [RD 99/2023](https://www.boe.es/buscar/doc.php?id=BOE-A-2023-3982), [BOE-A-2024-2251](https://www.boe.es/buscar/doc.php?id=BOE-A-2024-2251), [BOE-A-2025-2576](https://www.boe.es/buscar/doc.php?id=BOE-A-2025-2576), [BOE-A-2026-3815](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-3815). Sin Real Decreto publicado aún para 2027; se mantiene la cifra de 2026 |
 | Tarifa de conversión importe→horas | 50 × 1,21 (IPC italiano 2016→2024) = 60,5 €/h | Extremo inferior de la banda del art. 6.2 del DM 17/6/2016, actualizado — **normativo actualizado** |
 | Parámetros V, G, Q, P (modelo italiano) | Tablas Z-1 y Z-2 | DM 17/6/2016 — **normativo (Italia)**; el G y el ΣQ que usa esta herramienta son una categorización agregada orientativa, no el desglose línea a línea del decreto — ver [Marco Legal]({{ '/marco-legal/' | relative_url }}) |
 | DM 2016 O.P. (baja máxima en obra pública) | 65% fijo / 35% con baja posible; 20% en adjudicación directa (< 140.000 €) | Desde el 1/1/2025, el *Codice dei Contratti Pubblici* italiano (D.Lgs. 209/2024, que modifica el D.Lgs. 36/2023) limita la baja admisible sobre la tarifa paramétrica del DM 17/6/2016: en licitación, el 65% de la tarifa es fijo (no rebajable) y solo el 35% restante puede ser objeto de baja, lo que fija el rango máximo de descuento; en adjudicación directa (encargos por debajo de 140.000 €), la baja máxima admitida es del 20% — **normativo (Italia)**, citado como referencia comparada, no aplicable en España |
@@ -163,7 +163,7 @@ tarifa de conversión de 60,5 €/h.
 
 ---
 
-## 6. Datos y resultados por año (2024–2027)
+## 6. Datos y resultados por año (2023–2027)
 
 Las dos calculadoras permiten elegir un año de referencia porque el
 salario de convenio, el SMI y la facturabilidad Deltek se publican (o no)
@@ -174,12 +174,13 @@ defecto, para no dar por supuesto un ejercicio en un cálculo comparativo.
 
 | Año | Salario convenio | SMI | Suelo MEF (convenio) | Suelo MEF (SMI) | Suelo de coste | Notas |
 |---|---|---|---|---|---|---|
+| 2023 | 28.027 € | 15.120 € | 30,61 €/h | 21,03 €/h | 58,23 €/h | Salario de convenio y SMI son cifras oficiales de 2023; facturabilidad y coeficiente coste-empresa sin edición propia de ese ejercicio, se usan las mismas FY2025 Deltek / EACL 2025 que en el resto de años |
 | 2024 | 28.664 € | 15.876 € | 31,08 €/h | 21,59 €/h | 58,23 €/h | Todos los datos son cifras oficiales o el benchmark de referencia (FY2025 Deltek, EACL 2025) verificadas para este ejercicio |
 | 2025 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 16.576 € | 31,08 €/h | 22,11 €/h | 58,23 €/h | SMI oficial de 2025; facturabilidad y coeficiente coste-empresa con las últimas ediciones publicadas (Deltek FY2025, EACL 2025) |
 | 2026 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € | 31,08 €/h | 22,49 €/h | 58,23 €/h | SMI oficial de 2026; facturabilidad y coeficiente coste-empresa sin edición más reciente, se mantienen Deltek FY2025 / EACL 2025 |
 | 2027 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € *(sin RD publicado; se mantiene 2026)* | 31,08 €/h | 22,49 €/h | 58,23 €/h | Año sin ningún dato propio publicado todavía; todas las cifras son la última disponible |
 
-El suelo de coste no varía entre 2024 y 2027 porque sus tres únicos
+El suelo de coste no varía entre 2023 y 2027 porque sus tres únicos
 insumos sensibles al año —la retribución bruta de referencia (ACE 2020,
 hipótesis propia sin serie anual), la facturabilidad Deltek (FY2025,
 único dato específico de arquitectura disponible) y el coeficiente

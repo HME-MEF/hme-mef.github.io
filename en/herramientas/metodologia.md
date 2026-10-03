@@ -14,7 +14,7 @@ industry benchmark, and a working assumption of the model — editable and
 open to debate. Both tools share the same calculation engine (hour
 estimation, cost floor, MEF floor).
 
-Both calculators include a **year selector** (2024–2027), because the
+Both calculators include a **year selector** (2023–2027), because the
 collectively-bargained salary, the SMI (national minimum wage) and the
 Deltek utilization rate do vary from one year to the next. The Italian
 model and SEGIPSA do not carry a different value per year in this tool,
@@ -37,7 +37,7 @@ How anyone uses these figures is a matter of their own judgment.
 
 | Input | Value | Status |
 |---|---|---|
-| Reference salary (collective agreement) | €28,664/year (2024–2027) | Level 1, **2024** salary tables of the 20th Collective Agreement for engineering and technical consultancy firms — **collectively-bargained** ([BOE-A-2024-5873, 12/3/2024](https://www.boe.es/buscar/doc.php?id=BOE-A-2024-5873)). No agreed table for 2025–2027; the 2024 figure is kept — see section 6 |
+| Reference salary (collective agreement) | €28,027/year (2023) / €28,664/year (2024–2027) | Level 1 salary tables of the 20th Collective Agreement for engineering and technical consultancy firms — **collectively-bargained**: **2023** ([BOE-A-2023-11785, 18/5/2023](https://www.boe.es/buscar/doc.php?id=BOE-A-2023-11785)), **2024** ([BOE-A-2024-5873, 12/3/2024](https://www.boe.es/buscar/doc.php?id=BOE-A-2024-5873)). No agreed table for 2025–2027; the 2024 figure is kept — see section 6 |
 | Employer social security contribution | 33.01% of the base salary | Regulatory Social Security calculation on the collectively-bargained salary or the SMI — **regulatory** (percentage held constant between 2024 and 2027 as a simplification; does not incorporate the annual increase of the Intergenerational Equity Mechanism) |
 | Operating costs (Madrid) | €17,569/year (rent €10,500, professional liability insurance €1,000, remainder) | Average market values in Madrid — **working assumption**, conservative and editable; with no single reference year, applied equally across the four years in the selector |
 | Annual hours | 1,792 h | Maximum working hours under the engineering and technical consultancy collective agreement — **collectively-bargained** |
@@ -45,7 +45,7 @@ How anyone uses these figures is a matter of their own judgment.
 | Reference gross remuneration (cost floor) | €38,345/year | Average between ACE **2020** public-sector employment (€44,512) and private-practice management (€32,178) — **working assumption**, with a starting figure from the Architects' Council of Europe |
 | Employer cost-multiplier coefficient | 1.356 | Ratio of gross cost / wages and salaries, Services sector — [INE, Annual Labour Cost Survey (EACL), 2025, Table 1](https://www.ine.es/dyngs/Prensa/EACL2025.htm) (€37,717.75 / €27,817.39) — **industry benchmark (Spain)**; the INE does not break this down by a finer branch of activity, so the Services sector as a whole is taken as a proxy for architecture |
 | Overheads / industrial profit (cost floor) | 13% / 6% | By analogy with art. 131 RGLCAP (public works) — **regulatory by analogy**, not a figure specific to the architecture sector |
-| SMI (national minimum wage) | €15,876 (2024) / €16,576 (2025) / €17,094 (2026–2027) | **Regulatory** — [BOE-A-2024-2251](https://www.boe.es/buscar/doc.php?id=BOE-A-2024-2251), [BOE-A-2025-2576](https://www.boe.es/buscar/doc.php?id=BOE-A-2025-2576), [BOE-A-2026-3815](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-3815). No Royal Decree published yet for 2027; the 2026 figure is kept |
+| SMI (national minimum wage) | €15,120 (2023) / €15,876 (2024) / €16,576 (2025) / €17,094 (2026–2027) | **Regulatory** — [RD 99/2023](https://www.boe.es/buscar/doc.php?id=BOE-A-2023-3982), [BOE-A-2024-2251](https://www.boe.es/buscar/doc.php?id=BOE-A-2024-2251), [BOE-A-2025-2576](https://www.boe.es/buscar/doc.php?id=BOE-A-2025-2576), [BOE-A-2026-3815](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-3815). No Royal Decree published yet for 2027; the 2026 figure is kept |
 | Amount→hours conversion rate | 50 × 1.21 (Italian CPI 2016→2024) = €60.5/h | Lower end of the band under art. 6.2 of DM 17/6/2016, updated — **updated regulatory figure** |
 | Parameters V, G, Q, P (Italian model) | Tables Z-1 and Z-2 | DM 17/6/2016 — **regulatory (Italy)**; the G and ΣQ used by this tool are an indicative aggregated categorisation, not the decree's line-by-line breakdown — see [Legal Framework]({{ '/en/marco-legal/' | relative_url }}) |
 | DM 2016 public-works maximum rebate | 65% fixed / 35% open to rebate; 20% for direct award (< €140,000) | As of 1/1/2025, the Italian *Codice dei Contratti Pubblici* (D.Lgs. 209/2024, amending D.Lgs. 36/2023) limits the admissible rebate on the DM 17/6/2016 parametric tariff: in a tender, 65% of the tariff is fixed (not reducible) and only the remaining 35% can be rebated, which sets the maximum discount range; for direct award (commissions under €140,000), the maximum admissible rebate is 20% — **regulatory (Italy)**, cited as a comparative reference, not applicable in Spain |
@@ -161,7 +161,7 @@ conversion rate of €60.5/h.
 
 ---
 
-## 6. Data and results by year (2024–2027)
+## 6. Data and results by year (2023–2027)
 
 Both calculators let you choose a reference year because the
 collectively-bargained salary, the SMI and the Deltek utilization rate are
@@ -173,12 +173,13 @@ comparative calculation.
 
 | Year | Collective-agreement salary | SMI | MEF floor (collective agreement) | MEF floor (SMI) | Cost floor | Notes |
 |---|---|---|---|---|---|---|
+| 2023 | €28,027 | €15,120 | €30.61/h | €21.03/h | €58.23/h | Collective-agreement salary and SMI are official 2023 figures; utilization rate and cost-multiplier coefficient have no edition of their own for that year, so the same FY2025 Deltek / EACL 2025 figures used for every other year apply |
 | 2024 | €28,664 | €15,876 | €31.08/h | €21.59/h | €58.23/h | All figures are official or the reference benchmark (FY2025 Deltek, EACL 2025) verified for this year |
 | 2025 | €28,664 *(no agreed table; 2024 kept)* | €16,576 | €31.08/h | €22.11/h | €58.23/h | Official 2025 SMI; utilization rate and cost-multiplier coefficient with the latest published editions (Deltek FY2025, EACL 2025) |
 | 2026 | €28,664 *(no agreed table; 2024 kept)* | €17,094 | €31.08/h | €22.49/h | €58.23/h | Official 2026 SMI; utilization rate and cost-multiplier coefficient with no more recent edition, Deltek FY2025 / EACL 2025 kept |
 | 2027 | €28,664 *(no agreed table; 2024 kept)* | €17,094 *(no RD published; 2026 kept)* | €31.08/h | €22.49/h | €58.23/h | A year with no figure of its own published yet; all figures are the latest available |
 
-The cost floor does not change between 2024 and 2027 because its only three
+The cost floor does not change between 2023 and 2027 because its only three
 year-sensitive inputs — the reference gross remuneration (ACE 2020, a
 working assumption with no annual series), the Deltek utilization rate
 (FY2025, the only architecture-specific figure available) and the
