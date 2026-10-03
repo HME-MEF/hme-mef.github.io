@@ -194,6 +194,11 @@
           <div class="result-row"><span>Suelo antidumping (coste sin beneficio industrial)</span><span class="v" id="r-antidumping">—</span></div>
           <div class="result-row"><span>HME según Directiva (UE) 2022/2041 (media INE)</span><span class="v" id="r-directiva">—</span></div>
           <div class="result-row" id="row-italia65"><span>Italia, cuota fija no rebajable</span><span class="v" id="r-italia65">—</span></div>
+          <div class="hint" style="margin:4px 0 0;">
+            El HME según Directiva es, como el suelo MEF sobre SMI, un suelo de salario mínimo
+            (no de empleo equivalente) — por eso queda por debajo del suelo MEF principal de la
+            banda, que por defecto se calcula sobre convenio.
+          </div>
         </div>
 
         <div class="band" id="band-viz"></div>
@@ -214,7 +219,7 @@
           <tr><td>SEGIPSA</td><td>% sobre PEM aplicado por la Administración General del Estado a sus propias encomiendas de gestión (BOE 27/5/2015).</td><td>Sólido</td></tr>
           <tr><td>Italia (DM 17/6/2016)</td><td>Modelo de honorarios de base-valor vigente en Italia, usado aquí solo como referencia comparada — ver <a href="{{ '/marco-legal/' | relative_url }}">Marco Legal</a>.</td><td>Sólido</td></tr>
           <tr><td>Italia, cuota fija (solo proyecto público)</td><td>Cuota no rebajable en licitaciones públicas italianas: 65% del honorario si es ≥140.000 €, 80% si es menor (art. 41.15-bis Codice dei Contratti Pubblici, D.Lgs. 36/2023, modificado por D.Lgs. 209/2024). Normativa italiana, no exigible en España — referencia de cuánto margen admite ese sistema.</td><td>Discontinuo</td></tr>
-          <tr><td>HME según Directiva (UE) 2022/2041</td><td>Aplica el criterio de adecuación salarial del art. 5.4 (salario medio del INE como referencia) a la fórmula del suelo MEF. A diferencia de este, no tiene fundamento constitucional de no discriminación — es una sugerencia de la UE que ni el propio SMI español cumple. Ver <a href="{{ '/herramientas/metodologia/' | relative_url }}">memoria técnica, sección 7.2</a>.</td><td>Discontinuo</td></tr>
+          <tr><td>HME según Directiva (UE) 2022/2041</td><td>Aplica el criterio de adecuación salarial del art. 5.4 (salario medio del INE como referencia) a la fórmula del suelo MEF. A diferencia de este, no tiene fundamento constitucional de no discriminación — es una sugerencia de la UE que ni el propio SMI español cumple. Al igual que el suelo MEF calculado sobre SMI (y a diferencia del que se muestra por defecto en la banda, calculado sobre convenio), es un suelo de salario mínimo, no de empleo equivalente — por eso queda por debajo del suelo MEF principal. Ver <a href="{{ '/herramientas/metodologia/' | relative_url }}">memoria técnica, sección 7.2</a>.</td><td>Discontinuo</td></tr>
         </table>
         <p style="font-size:12.5px; color:#7f8c8d; margin-top:10px;">
           Las tarifas históricas de honorarios de arquitecto (1905, 1923, 1977), actualizadas a euros de hoy, se comparan con estas referencias en la <a href="{{ '/herramientas/normas-historicas/' | relative_url }}">comparación histórica de normas</a>.
