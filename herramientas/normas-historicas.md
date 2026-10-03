@@ -107,9 +107,10 @@ no hay tablas pactadas para esos años.
 | **Coste anual para el empleador (salario + cotización)** | **38.123,28 €** | **21,27 €** |
 
 Cifras de la [memoria técnica de la web]({{ '/herramientas/metodologia/' | relative_url }})
-(2 de octubre de 2026): suelo MEF base convenio 31,08 €/h y suelo de
-coste 44,79 €/h. La hora de 1977 actualizada a 2024 (59,39 €/h) queda un
-32,6% por encima del suelo de coste.
+(3 de octubre de 2026): suelo MEF base convenio 31,08 €/h y suelo de
+coste 48,09 €/h (2024, con la retribución de referencia ACE 2024). La
+hora de 1977 actualizada a 2024 (59,39 €/h) queda un 23,5% por encima
+del suelo de coste.
 
 ---
 
@@ -137,10 +138,10 @@ convenio (21,27 €/h = 100).
 | **C. Honorarios de 1977 (incluyen gastos generales y beneficio)** | | | |
 | Hora 1977 por hora trabajada (59,39 € × 59,3% de facturabilidad) | 63.110 € | 35,22 € | +65,5% |
 | Hora 1977 facturable (ocupación del 100%) | 106.425 € | 59,39 € | +179,2% |
-| Suelo de coste de la calculadora (cifra de su memoria técnica) | 80.264 € | 44,79 € | +110,6% |
+| Suelo de coste de la calculadora (cifra de su memoria técnica) | 86.177 € | 48,09 € | +126,1% |
 
 **Notas**: las cifras de la calculadora se toman de su memoria técnica
-(2 de octubre de 2026) y se supone que están en euros de 2024. El 59,3%
+(3 de octubre de 2026) y se supone que están en euros de 2024. El 59,3%
 de facturabilidad es una referencia de la industria (Deltek), no un dato
 oficial. Los 9.369 € de gastos de esta comparación corresponden a seguro
 de responsabilidad civil, local, software, equipamiento y otros gastos

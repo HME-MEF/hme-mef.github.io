@@ -293,12 +293,15 @@ const SITE_URL = "https://www.hmef.eu";
 // limitaciones de cada cifra. Donde no hay tabla o benchmark publicado para un año, se mantiene
 // la última cifra oficial/verificada disponible, marcada explícitamente en NOTA_ANIO.
 const DATA_BY_YEAR = {
-  2023: { mefConvenio: 30.61, sueloCoste: 44.79, hmeDirectiva: 25.94 },
-  2024: { mefConvenio: 31.08, sueloCoste: 44.79, hmeDirectiva: 26.96 },
-  2025: { mefConvenio: 31.08, sueloCoste: 44.79, hmeDirectiva: 26.96 },
-  2026: { mefConvenio: 31.08, sueloCoste: 44.79, hmeDirectiva: 26.96 },
-  2027: { mefConvenio: 31.08, sueloCoste: 44.79, hmeDirectiva: 26.96 }
+  2023: { mefConvenio: 30.61, sueloCoste: 40.18, hmeDirectiva: 25.94 },
+  2024: { mefConvenio: 31.08, sueloCoste: 48.09, hmeDirectiva: 26.96 },
+  2025: { mefConvenio: 31.08, sueloCoste: 48.09, hmeDirectiva: 26.96 },
+  2026: { mefConvenio: 31.08, sueloCoste: 48.09, hmeDirectiva: 26.96 },
+  2027: { mefConvenio: 31.08, sueloCoste: 48.09, hmeDirectiva: 26.96 }
 };
+// sueloCoste: retribución bruta de referencia = salario medio de empleados de empresas privadas
+// (ACE, sin promediar con directivos/socios — ver memoria técnica, sección 2). 2023: ACE 2022,
+// 26.462 €/año; 2024-2027: ACE 2024, 31.672 €/año (sin edición más reciente para 2025-2027).
 
 const NOTA_ANIO = {
   2023: 'Salario de convenio: tabla oficial de 2023 (XX Convenio, BOE-A-2023-11785). Facturabilidad: sin edición Deltek de ese ejercicio; se usa la cifra FY2025 (única disponible), igual que en el resto de años.',

@@ -252,16 +252,20 @@ const SITE_URL = "https://www.hmef.eu";
 // limitations of each figure. Where no table or benchmark has been published for a given year, the
 // last official/verified figure is kept, explicitly flagged in NOTA_ANIO.
 const DATA_BY_YEAR = {
-  2023: { mefConvenio: 30.61, sueloCoste: 44.79, hmeDirectiva: 25.94 },
-  2024: { mefConvenio: 31.08, sueloCoste: 44.79, hmeDirectiva: 26.96 },
-  2025: { mefConvenio: 31.08, sueloCoste: 44.79, hmeDirectiva: 26.96 },
-  2026: { mefConvenio: 31.08, sueloCoste: 44.79, hmeDirectiva: 26.96 },
-  2027: { mefConvenio: 31.08, sueloCoste: 44.79, hmeDirectiva: 26.96 }
+  2023: { mefConvenio: 30.61, sueloCoste: 40.18, hmeDirectiva: 25.94 },
+  2024: { mefConvenio: 31.08, sueloCoste: 48.09, hmeDirectiva: 26.96 },
+  2025: { mefConvenio: 31.08, sueloCoste: 48.09, hmeDirectiva: 26.96 },
+  2026: { mefConvenio: 31.08, sueloCoste: 48.09, hmeDirectiva: 26.96 },
+  2027: { mefConvenio: 31.08, sueloCoste: 48.09, hmeDirectiva: 26.96 }
 };
 // hmeDirectiva: HME/h from the INE average wage (art. 5(4) of Directive (EU) 2022/2041), see
 // technical methodology, section 7.2. 2023: INE average wage €27,276/year (press release
 // 22/11/2024); 2024: €28,627.20/year (press release 14/11/2025); 2025-2027: no figure
 // published yet, the 2024 figure is kept.
+
+// sueloCoste: reference gross remuneration = average pay of employees of private firms (ACE,
+// not averaged with partners/directors — see technical methodology, section 2). 2023: ACE 2022,
+// €26,462/year; 2024-2027: ACE 2024, €31,672/year (no more recent edition for 2025-2027).
 
 // Anti-dumping floor = cost floor without industrial profit: the same calculation as the cost
 // floor but with ×(1+13% overheads) instead of ×(1+13% overheads+6% industrial profit). See

@@ -138,7 +138,8 @@ producir una hora de trabajo, incluido su margen) ajusta esas horas por
 un índice de **facturabilidad** (59,3%, segmento Architecture/A-E para el
 ejercicio fiscal 2025, *benchmark* de industria — Deltek Clarity A&E, no
 un dato oficial español) y añade gastos generales y beneficio industrial
-por analogía con el art. 131 RGLCAP, resultando en **44,79 €/h**.
+por analogía con el art. 131 RGLCAP, resultando en **40,18 €/h** (2023) /
+**48,09 €/h** (2024–2027).
 
 Estos valores se recalculan automáticamente, para cada encargo concreto,
 en el [evaluador]({{ '/herramientas/evaluador/' | relative_url }}) y el

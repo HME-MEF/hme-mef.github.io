@@ -111,9 +111,9 @@ there are no agreed tables for those years.
 | **Total annual employer cost (salary + contribution)** | **€38,123.28** | **€21.27** |
 
 Figures from the [site's technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }})
-(2 October 2026): collective-agreement-based MEF floor €31.08/h and cost
-floor €44.79/h. The 1977 hour, updated to 2024 (€59.39/h), is 32.6% above
-the cost floor.
+(3 October 2026): collective-agreement-based MEF floor €31.08/h and cost
+floor €48.09/h (2024, with the ACE 2024 reference remuneration). The
+1977 hour, updated to 2024 (€59.39/h), is 23.5% above the cost floor.
 
 ---
 
@@ -141,10 +141,10 @@ per hour over 1,792 h, against the collective-agreement employer cost
 | **C. 1977 fees (include overheads and profit)** | | | |
 | 1977 hour per hour actually worked (€59.39 × 59.3% utilization) | €63,110 | €35.22 | +65.5% |
 | 1977 billable hour (100% occupancy) | €106,425 | €59.39 | +179.2% |
-| Calculator's cost floor (figure from its technical methodology) | €80,264 | €44.79 | +110.6% |
+| Calculator's cost floor (figure from its technical methodology) | €86,177 | €48.09 | +126.1% |
 
 **Notes**: the calculator's figures are taken from its technical
-methodology (2 October 2026) and are assumed to be in 2024 euros. The
+methodology (3 October 2026) and are assumed to be in 2024 euros. The
 59.3% utilization rate is an industry benchmark (Deltek), not an
 official figure. The €9,369 in expenses in this comparison correspond
 to professional-liability insurance, premises, software, equipment and

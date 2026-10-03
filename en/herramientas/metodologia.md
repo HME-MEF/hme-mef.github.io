@@ -42,7 +42,7 @@ How anyone uses these figures is a matter of their own judgment.
 | Operating costs (Madrid) | €17,569/year (rent €10,500, professional liability insurance €1,000, remainder) | Average market values in Madrid — **working assumption**, conservative and editable; with no single reference year, applied equally across the four years in the selector |
 | Annual hours | 1,792 h | Maximum working hours under the engineering and technical consultancy collective agreement — **collectively-bargained** |
 | Utilization rate | 59.3% (2024–2027) | "Architecture or A/E" segment, fiscal year **2025** — *47th Annual Deltek Clarity A&E Industry Study* (Deltek / CMG Consulting), "Statistics at a Glance" table, p. 122 (the narrative median for the whole A&E sector, not just architecture, is 58.9%, p. 99) — **industry benchmark, U.S.**, not an official Spanish figure ([full report](https://info.deltek.com/47th-Annual-Deltek-Clarity-AE-Report-PDF)). The only architecture-specific figure published; applied equally across the four years in the selector — see section 6 |
-| Reference gross remuneration (cost floor) | €29,496.50/year | Average between two private-sector categories, ACE **2020**: sole administrator/partners/directors/senior management (€32,178) and employees of private firms (€26,815) — **working assumption**, with starting data from *The Architectural Profession in Europe 2020: A Sector Study* (Mirza & Nacey Research Ltd, 2021, p. 55), Architects' Council of Europe |
+| Reference gross remuneration (cost floor) | €26,462/year (2023) / €31,672/year (2024–2027) | Average pay of employees of private firms in Spain, PPP-adjusted (not averaged with partners/directors — see note in section 2): **2023** — *ACE Sector Study* **2022**, Table 4-2, Spain, p. 55; **2024–2027** — *ACE Sector Study* **2024**, Table 4-2, Spain, p. 57 — **working assumption**, with starting data from *The Architectural Profession in Europe* (Mirza & Nacey Research Ltd, Architects' Council of Europe), 2022 and 2024 editions |
 | Employer cost-multiplier coefficient | 1.356 | Ratio of gross cost / wages and salaries, Services sector — [INE, Annual Labour Cost Survey (EACL), 2025, Table 1](https://www.ine.es/dyngs/Prensa/EACL2025.htm) (€37,717.75 / €27,817.39) — **industry benchmark (Spain)**; the INE does not break this down by a finer branch of activity, so the Services sector as a whole is taken as a proxy for architecture |
 | Overheads / industrial profit (cost floor) | 13% / 6% | By analogy with art. 131 of the [General Regulation of the Public Administration Contracts Act (RD 1098/2001)](https://www.boe.es/eli/es/rd/2001/10/12/1098/con) (public works) — **regulatory by analogy**, not a figure specific to the architecture sector |
 | SMI (national minimum wage) | €15,120 (2023) / €15,876 (2024) / €16,576 (2025) / €17,094 (2026–2027) | **Regulatory** — [RD 99/2023](https://www.boe.es/buscar/doc.php?id=BOE-A-2023-3982), [BOE-A-2024-2251](https://www.boe.es/buscar/doc.php?id=BOE-A-2024-2251), [BOE-A-2025-2576](https://www.boe.es/buscar/doc.php?id=BOE-A-2025-2576), [BOE-A-2026-3815](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-3815). No Royal Decree published yet for 2027; the 2026 figure is kept |
@@ -82,33 +82,51 @@ work.
 
 ---
 
-## 2. Derivation of the cost floor (€44.79/h)
+## 2. Derivation of the cost floor (by year)
 
-1. Reference gross remuneration: **€29,496.50/year**.
+1. Reference gross remuneration: average pay of employees of private
+   firms, ACE — **€26,462/year** (2023, ACE 2022) / **€31,672/year**
+   (2024–2027, ACE 2024).
 2. × employer cost-multiplier coefficient (1.356 — *INE, EACL 2025, Services
    sector*): gross cost to the employer.
 3. ÷ (1,792 annual hours × 59.3% utilization rate — *Deltek Clarity A&E*):
    cost per effectively billable hour.
 4. × (1 + 13% overheads + 6% industrial profit): adds overheads and
    industrial profit by analogy with art. 131 RGLCAP.
-5. Result: **€44.79/h**.
+5. Result: **€40.18/h** (2023) / **€48.09/h** (2024–2027).
 
 This floor answers the question "how much does it cost a practice to
 produce one hour of work, including its margin?" — it is a **cost** floor,
 not an anti-discrimination floor. A fee below this floor is not necessarily
 discriminatory, but it does indicate a price lower than adequate.
 
+**Note — why only "employees", not averaged with partners/directors:**
+until October 2026 this methodology used the average between the pay of
+"employees" and of "partners/directors" in the private sector (ACE 2020).
+That has been corrected: the cost floor models what it costs a practice
+to produce an hour of work with a team — and on a real commission, most
+hours are produced by employed staff (across seniority levels, already
+aggregated in ACE's "employees of private firms" category), not by
+whoever runs the practice. Averaging 50/50 with a director's pay
+implicitly assumed that half of any commission's hours are done by the
+principal, which overstates the real cost for a typical team. It remains
+an open limitation that, for a self-employed architect working alone and
+billing every hour themselves, their real opportunity cost looks more
+like ACE's "sole principal" figure (€47,772/year in Spain, 2024) than an
+employee's — see section 5.
+
 **Note — cost-coverage threshold (without industrial profit):** of the two
 components in step 4, only overheads (GG) are a real operating cost for
 the practice; industrial profit (BI) is margin, not cost. Repeating the
 calculation with only the overheads applied (× 1.13, without the
-industrial profit) gives **€42.54/h**: the threshold below which a
-practice does not even cover its real costs. This distinction matters
-because art. 17 of the [Ley 3/1991, de 10 de enero, de Competencia Desleal](https://www.boe.es/eli/es/l/1991/01/10/3/con)
+industrial profit) gives **€38.16/h** (2023) / **€45.67/h** (2024–2027):
+the threshold below which a practice does not even cover its real costs.
+This distinction matters because art. 17 of the
+[Ley 3/1991, de 10 de enero, de Competencia Desleal](https://www.boe.es/eli/es/l/1991/01/10/3/con)
 (Spain's Unfair Competition Act, "venta a pérdida" / selling at a loss)
 treats selling below **cost** — not below cost plus profit — as unfair.
 The full cost floor (with industrial profit) is therefore stricter than
-the legal no-dumping threshold, which sits at €42.54/h.
+the legal no-dumping threshold.
 
 ## 3. Derivation of the MEF floor (by year — see table in section 6)
 
@@ -165,6 +183,11 @@ conversion rate of €60.5/h.
   reviewed periodically.
 - Operating costs (€17,569/year) are calculated for Madrid; in other cities
   or regions the cost floor will vary.
+- The reference gross remuneration (ACE, "employees of private firms")
+  models the cost of a typical team, not the opportunity cost of a
+  self-employed architect working alone — for that case, their real cost
+  is closer to ACE's "sole principal" figure (€47,772/year in Spain,
+  2024), noticeably higher — see the note in section 2.
 - The building-type/complexity categorisation (parameter G) and the ΣQ for
   the commission's scope are indicative simplifications of Tables Z-1 and
   Z-2 of DM 17/6/2016, not the official full breakdown by subcategory.
@@ -187,37 +210,30 @@ presuppose a given year in a comparative calculation.
 
 | Year | Collective-agreement salary | SMI | MEF floor (collective agreement) | MEF floor (SMI) | Cost floor | Notes |
 |---|---|---|---|---|---|---|
-| 2023 | €28,027 | €15,120 | €30.61/h | €21.03/h | €44.79/h | Collective-agreement salary and SMI are official 2023 figures; utilization rate and cost-multiplier coefficient have no edition of their own for that year, so the same FY2025 Deltek / EACL 2025 figures used for every other year apply |
-| 2024 | €28,664 | €15,876 | €31.08/h | €21.59/h | €44.79/h | All figures are official or the reference benchmark (FY2025 Deltek, EACL 2025) verified for this year |
-| 2025 | €28,664 *(no agreed table; 2024 kept)* | €16,576 | €31.08/h | €22.11/h | €44.79/h | Official 2025 SMI; utilization rate and cost-multiplier coefficient with the latest published editions (Deltek FY2025, EACL 2025) |
-| 2026 | €28,664 *(no agreed table; 2024 kept)* | €17,094 | €31.08/h | €22.49/h | €44.79/h | Official 2026 SMI; utilization rate and cost-multiplier coefficient with no more recent edition, Deltek FY2025 / EACL 2025 kept |
-| 2027 | €28,664 *(no agreed table; 2024 kept)* | €17,094 *(no RD published; 2026 kept)* | €31.08/h | €22.49/h | €44.79/h | A year with no figure of its own published yet; all figures are the latest available |
+| 2023 | €28,027 | €15,120 | €30.61/h | €21.03/h | €40.18/h | Collective-agreement salary and SMI are official 2023 figures; cost floor uses the ACE **2022** reference remuneration (employees, Spain); utilization rate and cost-multiplier coefficient have no edition of their own for that year, so the same FY2025 Deltek / EACL 2025 figures used for every other year apply |
+| 2024 | €28,664 | €15,876 | €31.08/h | €21.59/h | €48.09/h | All figures are official or the reference benchmark (FY2025 Deltek, EACL 2025, ACE **2024**) verified for this year |
+| 2025 | €28,664 *(no agreed table; 2024 kept)* | €16,576 | €31.08/h | €22.11/h | €48.09/h | Official 2025 SMI; cost floor uses the ACE 2024 remuneration (no edition of its own for 2025); utilization rate and cost-multiplier coefficient with the latest published editions (Deltek FY2025, EACL 2025) |
+| 2026 | €28,664 *(no agreed table; 2024 kept)* | €17,094 | €31.08/h | €22.49/h | €48.09/h | Official 2026 SMI; cost floor uses the ACE 2024 remuneration (no edition of its own for 2026); utilization rate and cost-multiplier coefficient with no more recent edition, Deltek FY2025 / EACL 2025 kept |
+| 2027 | €28,664 *(no agreed table; 2024 kept)* | €17,094 *(no RD published; 2026 kept)* | €31.08/h | €22.49/h | €48.09/h | A year with no figure of its own published yet; all figures are the latest available, including the ACE 2024 remuneration behind the cost floor |
 
-The cost floor does not change between 2023 and 2027 because its only three
-year-sensitive inputs — the reference gross remuneration (ACE 2020, a
-working assumption kept at a fixed figure), the Deltek utilization rate
-(FY2025, the only architecture-specific figure available) and the
-employer cost-multiplier coefficient (EACL 2025, Services sector) — are
-held constant for lack of an applied time series. The year selector is
-already set up to reflect the change automatically once a new edition of
-the Deltek study, the EACL, or an updated working assumption for gross
-remuneration becomes available.
-
-ACE does publish a per-country series every two years (Spain country
-profile, 2014–2024, in *The Architectural Profession in Europe 2024*,
-Mirza & Nacey Research Ltd, April 2025, p. 103), but this tool does not
-chain the figure automatically to each new edition: in that same series,
-earnings for private-sector partners/directors in Spain go from
-€26,000/year (2018) to €30,000 (2020), €37,000 (2022) and €35,000
-(2024) — swings larger than one would expect from a stable variable,
-which may reflect methodological changes not always made explicit
-between editions (which countries took part, whether figures are PPP-
-adjusted, the exchange-rate date used) or high sensitivity to the size
-and composition of the survey sample: for Spain, the number of
-responses ranges from 198 to 847 depending on the edition, with a margin
-of error of ±3.3% to ±7.0% (95% confidence). For that reason the working
-assumption is reviewed manually against each new edition rather than
-chained to it automatically.
+As of October 2026, the cost floor **does vary by year**: it is chained
+to the most recent ACE edition with a figure available for each year
+(2022 for 2023; 2024 for 2024–2027, until a new edition is published),
+the same way the collective-agreement salary and the SMI already were.
+Previously a single fixed figure was used (ACE 2020), deliberately not
+chained, because the figure combined with "partners/directors" showed
+strong swings between editions that looked unreliable to update
+automatically. Limiting the reference remuneration to the "employees of
+private firms" category (see the note in section 2) removes that more
+volatile component — though the employees figure is not perfectly
+stable either: in Spain it goes from €26,462/year (ACE 2022) to
+€31,672/year (ACE 2024), a +19.7% rise across two editions, in the same
+order of magnitude as the sector's general wage growth over that period.
+It is chained anyway because, like the collective-agreement salary or
+the SMI, it is the best year-specific figure available — with the
+caveat, already noted in section 5, that ACE's sample size in Spain
+(198–847 responses depending on the edition, margin of error ±3.3% to
+±7.0% at 95% confidence) still introduces year-to-year noise.
 
 The employer social security contribution is calculated as a fixed
 percentage (33.01%) of the base salary for each year, without modelling the
@@ -248,11 +264,12 @@ figures, so they are not directly equivalent to this methodology's MEF
 floor or cost floor — but the comparison is revealing: Spain's average
 market rate for principals (€39–41/h) sits above the MEF floor
 (€31.08/h), but **below** both the cost-coverage threshold without
-industrial profit (€42.54/h, see section 2) and the full cost floor
-(€44.79/h). In other words, the rate actually billed on average in the
-Spanish market does not cover the real cost of producing that hour of
-work — consistent with this methodology's underlying diagnosis that
-market fees tend to sit below the real cost of the service.
+industrial profit (€45.67/h, 2024, see section 2) and the full cost
+floor (€48.09/h, 2024). In other words, the rate actually billed on
+average in the Spanish market does not cover the real cost of producing
+that hour of work — consistent with this methodology's underlying
+diagnosis that market fees tend to sit below the real cost of the
+service.
 
 Source: *The Architectural Profession in Europe 2024*, Mirza & Nacey
 Research Ltd, April 2025, Table 3-5, p. 40.
@@ -307,4 +324,4 @@ Source: own elaboration from Spain's gross median and average wage for
 
 ---
 
-**Last updated**: October 2026
+**Last updated**: 3 October 2026

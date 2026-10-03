@@ -41,7 +41,7 @@ uso que cada quien haga de estas cifras depende de su propio criterio.
 | Costes operativos (Madrid) | 17.569 €/año (alquiler 10.500 €, responsabilidad civil 1.000 €, resto) | Valores medios de mercado en Madrid — **hipótesis propia**, conservadora y editable; sin año de referencia único, se aplica igual a los cuatro años del selector |
 | Horas anuales | 1.792 h | Jornada máxima del convenio de ingeniería y oficinas técnicas — **convencional** |
 | Facturabilidad (utilization rate) | 59,3% (2024–2027) | Segmento "Architecture or A/E", ejercicio fiscal **2025** — *47th Annual Deltek Clarity A&E Industry Study* (Deltek / CMG Consulting), tabla "Statistics at a Glance", p. 122 (la mediana narrativa de todo el sector A&E, no solo arquitectura, es 58,9%, p. 99) — **benchmark de industria, EE.UU.**, no es un dato oficial español ([informe completo](https://info.deltek.com/47th-Annual-Deltek-Clarity-AE-Report-PDF)). Único dato específico de arquitectura publicado; se aplica igual a los cuatro años del selector — ver sección 6 |
-| Retribución bruta de referencia (suelo de coste) | 29.496,50 €/año | Media entre dos categorías del sector privado, ACE **2020**: administrador único/socios/directivos/alta dirección (32.178 €) y empleados de empresas privadas (26.815 €) — **hipótesis propia**, con datos de partida de *The Architectural Profession in Europe 2020: A Sector Study* (Mirza & Nacey Research Ltd, 2021, p. 55), Architects' Council of Europe |
+| Retribución bruta de referencia (suelo de coste) | 26.462 €/año (2023) / 31.672 €/año (2024–2027) | Salario medio de empleados de empresas privadas en España, ajustado por PPA (sin promediar con directivos/socios — ver nota en sección 2): **2023** — *ACE Sector Study* **2022**, Tabla 4-2, España, p. 55; **2024–2027** — *ACE Sector Study* **2024**, Tabla 4-2, España, p. 57 — **hipótesis propia**, con datos de partida de *The Architectural Profession in Europe* (Mirza & Nacey Research Ltd, Architects' Council of Europe), ediciones 2022 y 2024 |
 | Coeficiente coste-empresa | 1,356 | Ratio coste bruto / sueldos y salarios, sector Servicios — [INE, Encuesta Anual de Coste Laboral (EACL), año 2025, Tabla 1](https://www.ine.es/dyngs/Prensa/EACL2025.htm) (37.717,75 € / 27.817,39 €) — **benchmark de industria (España)**; el INE no desglosa por rama de actividad más fina, así que se toma el conjunto de Servicios como proxy del sector arquitectura |
 | Gastos generales / beneficio industrial (suelo de coste) | 13% / 6% | Por analogía con el art. 131 del [Reglamento General de la Ley de Contratos de las Administraciones Públicas (RD 1098/2001)](https://www.boe.es/eli/es/rd/2001/10/12/1098/con) (obra pública) — **normativo por analogía**, no una cifra propia del sector arquitectura |
 | SMI | 15.120 € (2023) / 15.876 € (2024) / 16.576 € (2025) / 17.094 € (2026–2027) | **Normativo** — [RD 99/2023](https://www.boe.es/buscar/doc.php?id=BOE-A-2023-3982), [BOE-A-2024-2251](https://www.boe.es/buscar/doc.php?id=BOE-A-2024-2251), [BOE-A-2025-2576](https://www.boe.es/buscar/doc.php?id=BOE-A-2025-2576), [BOE-A-2026-3815](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-3815). Sin Real Decreto publicado aún para 2027; se mantiene la cifra de 2026 |
@@ -82,33 +82,51 @@ Administración General del Estado a sus encomiendas de gestión.
 
 ---
 
-## 2. Derivación del suelo de coste (44,79 €/h)
+## 2. Derivación del suelo de coste (por año)
 
-1. Retribución bruta de referencia: **29.496,50 €/año**.
+1. Retribución bruta de referencia: salario medio de empleados de
+   empresas privadas, ACE — **26.462 €/año** (2023, ACE 2022) /
+   **31.672 €/año** (2024–2027, ACE 2024).
 2. × coeficiente coste-empresa (1,356 — *INE, EACL 2025, sector Servicios*):
    coste bruto para el empleador.
 3. ÷ (1.792 horas anuales × 59,3% de facturabilidad — *Deltek Clarity A&E*):
    coste por hora efectivamente facturable.
 4. × (1 + 13% GG + 6% BI): añade gastos generales y beneficio industrial
    por analogía con el art. 131 RGLCAP.
-5. Resultado: **44,79 €/h**.
+5. Resultado: **40,18 €/h** (2023) / **48,09 €/h** (2024–2027).
 
 Este suelo responde a la pregunta "¿cuánto le cuesta a un estudio producir
 una hora de trabajo, incluyendo su margen?" — es un suelo de **coste**,
 no un suelo antidiscriminatorio. Un honorario por debajo de este suelo no
 es necesariamente discriminatorio, pero sí indica un precio inferior al adecuado.
 
+**Nota — por qué solo "empleados", sin promediar con directivos/socios:**
+hasta octubre de 2026 esta memoria usaba la media entre la retribución de
+"empleados" y la de "directivos/socios" del sector privado (ACE 2020). Se
+ha corregido: el suelo de coste modela lo que le cuesta a un estudio
+producir una hora de trabajo con un equipo — y en un encargo real, la
+mayoría de las horas las produce personal empleado (de distintos niveles
+de antigüedad, ya agregados en la categoría ACE "empleados de empresas
+privadas"), no quien dirige el estudio. Promediar al 50% con la
+retribución de un directivo asumía implícitamente que la mitad de las
+horas de cualquier encargo las hace el titular, lo que sobrestima el
+coste real para un equipo típico. Queda como limitación abierta que, para
+un arquitecto autónomo que trabaja en solitario y redacta todas las horas
+él mismo, su coste de oportunidad real se parece más al de un "sole
+principal" ACE (47.772 €/año en España, 2024) que al de un empleado — ver
+sección 5.
+
 **Nota — umbral de cobertura de costes (sin beneficio industrial):** de los
 dos componentes del paso 4, solo los gastos generales (GG) son coste real
 de explotación del estudio; el beneficio industrial (BI) es margen, no
 coste. Si se repite el cálculo aplicando solo el GG (× 1,13, sin el BI),
-el resultado es **42,54 €/h**: el umbral por debajo del cual un estudio no
-cubre siquiera sus costes reales. Esta distinción es relevante porque el
-art. 17 de la [Ley 3/1991, de 10 de enero, de Competencia Desleal](https://www.boe.es/eli/es/l/1991/01/10/3/con)
+el resultado es **38,16 €/h** (2023) / **45,67 €/h** (2024–2027): el
+umbral por debajo del cual un estudio no cubre siquiera sus costes
+reales. Esta distinción es relevante porque el art. 17 de la
+[Ley 3/1991, de 10 de enero, de Competencia Desleal](https://www.boe.es/eli/es/l/1991/01/10/3/con)
 ("venta a pérdida") considera deslealtad vender por debajo de **coste**,
 no por debajo de coste más beneficio; el suelo de coste completo (con BI)
-es, por tanto, más exigente que el umbral legal de no dumping, que se
-sitúa en los 42,54 €/h.
+es, por tanto, más exigente que el umbral legal de no dumping.
 
 ## 3. Derivación del suelo MEF (por año — ver tabla en la sección 6)
 
@@ -165,6 +183,12 @@ tarifa de conversión de 60,5 €/h.
   periódicamente.
 - Los costes operativos (17.569 €/año) están calculados para Madrid; en
   otras ciudades o regiones el suelo de coste variará.
+- La retribución bruta de referencia (ACE, "empleados de empresas
+  privadas") modela el coste de un equipo típico, no el coste de
+  oportunidad de un arquitecto autónomo que trabaja en solitario — para
+  ese caso, su coste real se aproxima más al de un "sole principal" ACE
+  (47.772 €/año en España, 2024), sensiblemente más alto — ver nota en
+  la sección 2.
 - La categorización de tipología/complejidad (parámetro G) y el ΣQ del
   alcance del encargo son simplificaciones orientativas de las Tablas Z-1
   y Z-2 del DM 17/6/2016, no el desglose oficial completo por
@@ -188,37 +212,31 @@ defecto, para no dar por supuesto un ejercicio en un cálculo comparativo.
 
 | Año | Salario convenio | SMI | Suelo MEF (convenio) | Suelo MEF (SMI) | Suelo de coste | Notas |
 |---|---|---|---|---|---|---|
-| 2023 | 28.027 € | 15.120 € | 30,61 €/h | 21,03 €/h | 44,79 €/h | Salario de convenio y SMI son cifras oficiales de 2023; facturabilidad y coeficiente coste-empresa sin edición propia de ese ejercicio, se usan las mismas FY2025 Deltek / EACL 2025 que en el resto de años |
-| 2024 | 28.664 € | 15.876 € | 31,08 €/h | 21,59 €/h | 44,79 €/h | Todos los datos son cifras oficiales o el benchmark de referencia (FY2025 Deltek, EACL 2025) verificadas para este ejercicio |
-| 2025 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 16.576 € | 31,08 €/h | 22,11 €/h | 44,79 €/h | SMI oficial de 2025; facturabilidad y coeficiente coste-empresa con las últimas ediciones publicadas (Deltek FY2025, EACL 2025) |
-| 2026 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € | 31,08 €/h | 22,49 €/h | 44,79 €/h | SMI oficial de 2026; facturabilidad y coeficiente coste-empresa sin edición más reciente, se mantienen Deltek FY2025 / EACL 2025 |
-| 2027 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € *(sin RD publicado; se mantiene 2026)* | 31,08 €/h | 22,49 €/h | 44,79 €/h | Año sin ningún dato propio publicado todavía; todas las cifras son la última disponible |
+| 2023 | 28.027 € | 15.120 € | 30,61 €/h | 21,03 €/h | 40,18 €/h | Salario de convenio y SMI son cifras oficiales de 2023; suelo de coste con retribución de referencia ACE **2022** (empleados, España); facturabilidad y coeficiente coste-empresa sin edición propia de ese ejercicio, se usan las mismas FY2025 Deltek / EACL 2025 que en el resto de años |
+| 2024 | 28.664 € | 15.876 € | 31,08 €/h | 21,59 €/h | 48,09 €/h | Todos los datos son cifras oficiales o el benchmark de referencia (FY2025 Deltek, EACL 2025, ACE **2024**) verificadas para este ejercicio |
+| 2025 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 16.576 € | 31,08 €/h | 22,11 €/h | 48,09 €/h | SMI oficial de 2025; suelo de coste con retribución ACE 2024 (sin edición propia de 2025); facturabilidad y coeficiente coste-empresa con las últimas ediciones publicadas (Deltek FY2025, EACL 2025) |
+| 2026 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € | 31,08 €/h | 22,49 €/h | 48,09 €/h | SMI oficial de 2026; suelo de coste con retribución ACE 2024 (sin edición propia de 2026); facturabilidad y coeficiente coste-empresa sin edición más reciente, se mantienen Deltek FY2025 / EACL 2025 |
+| 2027 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € *(sin RD publicado; se mantiene 2026)* | 31,08 €/h | 22,49 €/h | 48,09 €/h | Año sin ningún dato propio publicado todavía; todas las cifras son la última disponible, incluida la retribución ACE 2024 del suelo de coste |
 
-El suelo de coste no varía entre 2023 y 2027 porque sus tres únicos
-insumos sensibles al año —la retribución bruta de referencia (ACE 2020,
-hipótesis propia con dato fijo), la facturabilidad Deltek (FY2025,
-único dato específico de arquitectura disponible) y el coeficiente
-coste-empresa (EACL 2025, sector Servicios)— se mantienen constantes por
-falta de una serie temporal aplicada. El selector de año queda preparado
-para reflejar el cambio automáticamente en cuanto se disponga de una
-nueva edición del estudio Deltek, de la EACL, o de una hipótesis propia
-actualizada de retribución bruta.
-
-ACE sí publica una serie por país cada dos años (perfil de España,
-2014–2024, en *The Architectural Profession in Europe 2024*, Mirza &
-Nacey Research Ltd, abril 2025, p. 103), pero esta herramienta no
-encadena el dato automáticamente a cada edición nueva: en esa misma
-serie, la retribución de directivos/socios del sector privado en España
-pasa de 26.000 €/año (2018) a 30.000 € (2020), 37.000 € (2022) y
-35.000 € (2024) — oscilaciones que exceden lo esperable de una variable
-estable y que pueden reflejar cambios metodológicos no siempre
-explícitos entre ediciones (composición de países participantes, ajuste
-o no por PPA, fecha del tipo de cambio aplicado) o una sensibilidad alta
-al tamaño y composición de la muestra de encuestados: en España, el
-número de respuestas varía entre 198 y 847 según la edición, con un
-margen de error de ±3,3% a ±7,0% (95% de confianza). Por eso se opta por
-revisar manualmente cada edición antes de actualizar la hipótesis,
-en lugar de encadenarla de forma automática.
+Desde octubre de 2026, el suelo de coste **sí varía por año**: se
+encadena a la edición de ACE más reciente con dato disponible para cada
+ejercicio (2022 para 2023; 2024 para 2024–2027, hasta que se publique
+una nueva edición), igual que ya se hacía con el salario de convenio y
+el SMI. Antes se usaba una única cifra fija (ACE 2020), explícitamente
+sin encadenar, porque el dato combinado con "directivos/socios" mostraba
+oscilaciones fuertes entre ediciones que parecían poco fiables para
+actualizar automáticamente. Al limitar la retribución de referencia a la
+categoría "empleados de empresas privadas" (ver nota en la sección 2),
+se elimina ese componente más volátil — aunque el dato de empleados
+tampoco es perfectamente estable: en España pasa de 26.462 €/año (ACE
+2022) a 31.672 €/año (ACE 2024), un +19,7% en dos ediciones, dentro del
+mismo orden de magnitud que el crecimiento salarial general del sector
+en ese periodo. Se encadena de todos modos porque es, igual que el
+salario de convenio o el SMI, la mejor cifra específica del año
+disponible — con la salvedad, ya señalada en la sección 5, de que el
+tamaño de muestra de ACE en España (198–847 respuestas según la edición,
+margen de error ±3,3% a ±7,0% al 95% de confianza) sigue introduciendo
+ruido año a año.
 
 La cotización empresarial se calcula como un porcentaje fijo (33,01%) del
 salario base de cada año, sin modelar el incremento anual del Mecanismo
@@ -248,12 +266,12 @@ coste, por lo que no son directamente equivalentes al suelo MEF ni al
 suelo de coste de esta memoria — pero su comparación es reveladora: la
 tarifa media de mercado para principales en España (39–41 €/h) queda por
 encima del suelo MEF (31,08 €/h), pero **por debajo** tanto del umbral
-de cobertura de costes sin beneficio industrial (42,54 €/h, ver sección
-2) como del suelo de coste completo (44,79 €/h). Es decir, la tarifa
-media que de hecho se cobra en el mercado español no llega a cubrir el
-coste real de producir esa hora, lo que es coherente con el diagnóstico
-de fondo de esta memoria: los honorarios de mercado tienden a situarse
-por debajo del coste real del servicio.
+de cobertura de costes sin beneficio industrial (45,67 €/h, 2024, ver
+sección 2) como del suelo de coste completo (48,09 €/h, 2024). Es decir,
+la tarifa media que de hecho se cobra en el mercado español no llega a
+cubrir el coste real de producir esa hora, lo que es coherente con el
+diagnóstico de fondo de esta memoria: los honorarios de mercado tienden
+a situarse por debajo del coste real del servicio.
 
 Fuente: *The Architectural Profession in Europe 2024*, Mirza & Nacey
 Research Ltd, abril 2025, Tabla 3-5, p. 40.
@@ -309,4 +327,4 @@ prensa de 14 de noviembre de 2025](https://www.ine.es/dyngs/Prensa/dsEPA2024.htm
 
 ---
 
-**Última actualización**: Octubre 2026
+**Última actualización**: 3 de octubre de 2026
