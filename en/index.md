@@ -7,9 +7,9 @@ excerpt: "A proposal to regulate minimum fees for self-employed workers of any k
 
 ## What is MEF?
 
-The concept arises from an inequality in remuneration protection under the European Union's current legislative framework: while an employee's pay is protected by minimum wage laws and collective agreements, the self-employed worker faces a situation of discrimination, since no equivalent protection exists for them — and this kind of protection is even considered prohibited under competition law.
-
 **Honorarios Mínimos Equivalentes (HME)** — in English, **Minimum Equivalent Fees (MEF)** — is a proposal to establish a minimum remuneration floor for self-employed workers of any kind — from professionals such as architects, engineers, lawyers and consultants to tradespeople such as plumbers and electricians — based on the constitutional principle of non-discrimination.
+
+The concept arises from an inequality in remuneration protection under the European Union's current legislative framework: while an employee's pay is protected by minimum wage laws and collective agreements, the self-employed worker faces a situation of discrimination, since no equivalent protection exists for them — and this kind of protection is even considered prohibited under competition law.
 
 The concept holds that:
 
