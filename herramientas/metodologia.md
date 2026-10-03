@@ -196,13 +196,29 @@ defecto, para no dar por supuesto un ejercicio en un cálculo comparativo.
 
 El suelo de coste no varía entre 2023 y 2027 porque sus tres únicos
 insumos sensibles al año —la retribución bruta de referencia (ACE 2020,
-hipótesis propia sin serie anual), la facturabilidad Deltek (FY2025,
+hipótesis propia con dato fijo), la facturabilidad Deltek (FY2025,
 único dato específico de arquitectura disponible) y el coeficiente
 coste-empresa (EACL 2025, sector Servicios)— se mantienen constantes por
 falta de una serie temporal aplicada. El selector de año queda preparado
 para reflejar el cambio automáticamente en cuanto se disponga de una
 nueva edición del estudio Deltek, de la EACL, o de una hipótesis propia
 actualizada de retribución bruta.
+
+ACE sí publica una serie por país cada dos años (perfil de España,
+2014–2024, en *The Architectural Profession in Europe 2024*, Mirza &
+Nacey Research Ltd, abril 2025, p. 103), pero esta herramienta no
+encadena el dato automáticamente a cada edición nueva: en esa misma
+serie, la retribución de directivos/socios del sector privado en España
+pasa de 26.000 €/año (2018) a 30.000 € (2020), 37.000 € (2022) y
+35.000 € (2024) — oscilaciones que exceden lo esperable de una variable
+estable y que pueden reflejar cambios metodológicos no siempre
+explícitos entre ediciones (composición de países participantes, ajuste
+o no por PPA, fecha del tipo de cambio aplicado) o una sensibilidad alta
+al tamaño y composición de la muestra de encuestados: en España, el
+número de respuestas varía entre 198 y 847 según la edición, con un
+margen de error de ±3,3% a ±7,0% (95% de confianza). Por eso se opta por
+revisar manualmente cada edición antes de actualizar la hipótesis,
+en lugar de encadenarla de forma automática.
 
 La cotización empresarial se calcula como un porcentaje fijo (33,01%) del
 salario base de cada año, sin modelar el incremento anual del Mecanismo

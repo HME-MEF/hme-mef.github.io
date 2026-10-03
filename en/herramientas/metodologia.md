@@ -195,13 +195,29 @@ presuppose a given year in a comparative calculation.
 
 The cost floor does not change between 2023 and 2027 because its only three
 year-sensitive inputs — the reference gross remuneration (ACE 2020, a
-working assumption with no annual series), the Deltek utilization rate
+working assumption kept at a fixed figure), the Deltek utilization rate
 (FY2025, the only architecture-specific figure available) and the
 employer cost-multiplier coefficient (EACL 2025, Services sector) — are
 held constant for lack of an applied time series. The year selector is
 already set up to reflect the change automatically once a new edition of
 the Deltek study, the EACL, or an updated working assumption for gross
 remuneration becomes available.
+
+ACE does publish a per-country series every two years (Spain country
+profile, 2014–2024, in *The Architectural Profession in Europe 2024*,
+Mirza & Nacey Research Ltd, April 2025, p. 103), but this tool does not
+chain the figure automatically to each new edition: in that same series,
+earnings for private-sector partners/directors in Spain go from
+€26,000/year (2018) to €30,000 (2020), €37,000 (2022) and €35,000
+(2024) — swings larger than one would expect from a stable variable,
+which may reflect methodological changes not always made explicit
+between editions (which countries took part, whether figures are PPP-
+adjusted, the exchange-rate date used) or high sensitivity to the size
+and composition of the survey sample: for Spain, the number of
+responses ranges from 198 to 847 depending on the edition, with a margin
+of error of ±3.3% to ±7.0% (95% confidence). For that reason the working
+assumption is reviewed manually against each new edition rather than
+chained to it automatically.
 
 The employer social security contribution is calculated as a fixed
 percentage (33.01%) of the base salary for each year, without modelling the
