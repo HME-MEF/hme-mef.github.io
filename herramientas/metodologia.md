@@ -48,7 +48,7 @@ uso que cada quien haga de estas cifras depende de su propio criterio.
 | Tarifa de conversión importe→horas | 50 × 1,21 (IPC italiano 2016→2024) = 60,5 €/h | Extremo inferior de la banda del art. 6.2 del DM 17/6/2016, actualizado — **normativo actualizado** |
 | Parámetros V, G, Q, P (modelo italiano): V = PEM, G = grado de complejidad (Tabla Z-1), ΣQ = incidencia agregada de las fases del encargo (Tabla Z-2), P = 0,03 + 10/V^0,4 | Tablas Z-1 y Z-2 | DM 17/6/2016 — **normativo (Italia)**; el G y el ΣQ que usa esta herramienta son una categorización agregada orientativa, no el desglose línea a línea del decreto — ver [Marco Legal]({{ '/marco-legal/' | relative_url }}) |
 | DM 2016 O.P. (baja máxima en obra pública) | 65% fijo / 35% con baja posible; 20% en adjudicación directa (< 140.000 €) | Desde el 1/1/2025, el *Codice dei Contratti Pubblici* italiano (D.Lgs. 209/2024, que modifica el D.Lgs. 36/2023) limita la baja admisible sobre la tarifa paramétrica del DM 17/6/2016: en licitación, el 65% de la tarifa es fijo (no rebajable) y solo el 35% restante puede ser objeto de baja, lo que fija el rango máximo de descuento; en adjudicación directa (encargos por debajo de 140.000 €), la baja máxima admitida es del 20% — **normativo (Italia)**, citado como referencia comparada, no aplicable en España |
-| % sobre PEM (SEGIPSA) | 6,65%–3,08% según tramo y concepto | Resolución de 11/5/2015 (BOE 27/5/2015) — **normativo**, verificado contra el texto oficial |
+| % sobre PEM (SEGIPSA) | 6,65%–3,08% según tramo y concepto | [Resolución de 11/5/2015](https://www.boe.es/eli/es/res/2015/05/11/(2)) (BOE 27/5/2015) — **normativo**, verificado contra el texto oficial |
 
 ### Detalle de las tarifas SEGIPSA (BOE 27/5/2015)
 

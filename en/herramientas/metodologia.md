@@ -49,7 +49,7 @@ How anyone uses these figures is a matter of their own judgment.
 | Amount→hours conversion rate | 50 × 1.21 (Italian CPI 2016→2024) = €60.5/h | Lower end of the band under art. 6.2 of DM 17/6/2016, updated — **updated regulatory figure** |
 | Parameters V, G, Q, P (Italian model): V = PEM (value of the works), G = degree of complexity (Table Z-1), ΣQ = aggregated incidence of the commission's phases (Table Z-2), P = 0.03 + 10/V^0.4 | Tables Z-1 and Z-2 | DM 17/6/2016 — **regulatory (Italy)**; the G and ΣQ used by this tool are an indicative aggregated categorisation, not the decree's line-by-line breakdown — see [Legal Framework]({{ '/en/marco-legal/' | relative_url }}) |
 | DM 2016 public-works maximum rebate | 65% fixed / 35% open to rebate; 20% for direct award (< €140,000) | As of 1/1/2025, the Italian *Codice dei Contratti Pubblici* (D.Lgs. 209/2024, amending D.Lgs. 36/2023) limits the admissible rebate on the DM 17/6/2016 parametric tariff: in a tender, 65% of the tariff is fixed (not reducible) and only the remaining 35% can be rebated, which sets the maximum discount range; for direct award (commissions under €140,000), the maximum admissible rebate is 20% — **regulatory (Italy)**, cited as a comparative reference, not applicable in Spain |
-| % of PEM (SEGIPSA) | 6.65%–3.08% depending on bracket and item | Resolution of 11/5/2015 (BOE 27/5/2015) — **regulatory**, verified against the official text |
+| % of PEM (SEGIPSA) | 6.65%–3.08% depending on bracket and item | [Resolution of 11/5/2015](https://www.boe.es/eli/es/res/2015/05/11/(2)) (BOE 27/5/2015) — **regulatory**, verified against the official text |
 
 ### Detail of the SEGIPSA tariffs (BOE 27/5/2015)
 
