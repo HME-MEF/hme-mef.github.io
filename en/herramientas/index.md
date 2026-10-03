@@ -6,17 +6,17 @@ title: "Tools"
 
 {% include beta-notice.html %}
 
-Two calculators, two different questions. Both share the same calculation
-engine (automatic estimation of commission hours, cost floor, MEF floor)
-and a **year selector** (2024–2027), documented in the
-[technical methodology](#technical-methodology) common to both.
-
 **For now, the available calculators are limited to architectural building
 projects.** The plan is to extend the set of calculated scenarios to other
 kinds of commissions and other professions. Their purpose is not only to
 guide architects and the public authorities that set procurement prices,
 but also to show that it is possible to determine equivalent contracting
 values from sufficiently well-established data.
+
+Two calculators, two different questions. Both share the same calculation
+engine (automatic estimation of commission hours, cost floor, MEF floor)
+and a **year selector** (2024–2027), documented in the
+[technical methodology](#technical-methodology) common to both.
 
 <div class="tools-grid" style="display:flex; gap:24px; flex-wrap:wrap; margin:32px 0;">
 

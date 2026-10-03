@@ -5,11 +5,6 @@ title: "Herramientas"
 
 {% include beta-notice.html %}
 
-Dos calculadoras, dos preguntas distintas. Ambas comparten el mismo motor
-de cálculo (estimación automática de horas del encargo, suelo de coste,
-suelo MEF) y un **selector de año** (2024–2027), documentados en la
-[memoria técnica](#memoria-técnica) común a las dos.
-
 **Por el momento, las calculadoras disponibles se limitan a proyectos de
 edificación de arquitectura.** Está previsto ampliar el repertorio de
 supuestos calculados a otros tipos de encargo y a otras profesiones. Su
@@ -17,6 +12,11 @@ función no es solo orientar a arquitectos y a los poderes públicos que
 fijan precios de contratación, sino también mostrar que es posible
 determinar valores equivalentes de contratación a partir de datos
 suficientemente contrastados.
+
+Dos calculadoras, dos preguntas distintas. Ambas comparten el mismo motor
+de cálculo (estimación automática de horas del encargo, suelo de coste,
+suelo MEF) y un **selector de año** (2024–2027), documentados en la
+[memoria técnica](#memoria-técnica) común a las dos.
 
 <div class="tools-grid" style="display:flex; gap:24px; flex-wrap:wrap; margin:32px 0;">
 
