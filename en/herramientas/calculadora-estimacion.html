@@ -192,7 +192,7 @@
 
         <div class="result-box comparativo">
           <div class="result-row"><span>Anti-dumping floor (cost without industrial profit)</span><span class="v" id="r-antidumping">—</span></div>
-          <div class="result-row"><span>HME under Directive (EU) 2022/2041 (INE median)</span><span class="v" id="r-directiva">—</span></div>
+          <div class="result-row"><span>HME under Directive (EU) 2022/2041 (INE average)</span><span class="v" id="r-directiva">—</span></div>
           <div class="result-row" id="row-italia65"><span>Italy, non-discountable fixed share</span><span class="v" id="r-italia65">—</span></div>
         </div>
 
@@ -214,7 +214,7 @@
           <tr><td>SEGIPSA</td><td>% of PEM applied by the Spanish General State Administration to its own commissioned work (BOE 27/5/2015).</td><td>Solid</td></tr>
           <tr><td>Italy (DM 17/6/2016)</td><td>A value-based fee model in force in Italy, used here only as a comparative reference — see <a href="{{ '/en/marco-legal/' | relative_url }}">Legal Framework</a>.</td><td>Solid</td></tr>
           <tr><td>Italy, fixed share (public commissions only)</td><td>Non-discountable share in Italian public tenders: 65% of the fee if it is ≥€140,000, 80% if below that (art. 41.15-bis of the Codice dei Contratti Pubblici, D.Lgs. 36/2023, as amended by D.Lgs. 209/2024). Italian regulation, not binding in Spain — a reference for how much margin that system allows.</td><td>Dashed</td></tr>
-          <tr><td>HME under Directive (EU) 2022/2041</td><td>Applies the wage-adequacy criterion of art. 5(4) (the INE median wage as reference) to the MEF floor formula. Unlike the MEF floor, it has no constitutional anti-discrimination basis — it is an EU suggestion that Spain's own SMI does not even meet. See <a href="{{ '/en/herramientas/metodologia/' | relative_url }}">technical methodology, section 7.2</a>.</td><td>Dashed</td></tr>
+          <tr><td>HME under Directive (EU) 2022/2041</td><td>Applies the wage-adequacy criterion of art. 5(4) (the INE average wage as reference) to the MEF floor formula. Unlike the MEF floor, it has no constitutional anti-discrimination basis — it is an EU suggestion that Spain's own SMI does not even meet. See <a href="{{ '/en/herramientas/metodologia/' | relative_url }}">technical methodology, section 7.2</a>.</td><td>Dashed</td></tr>
         </table>
         <p style="font-size:12.5px; color:#7f8c8d; margin-top:10px;">
           The historical architects' fee regulations (1905, 1923, 1977), updated to today's euros, are compared against these references in the <a href="{{ '/en/herramientas/normas-historicas/' | relative_url }}">historical comparison of regulations</a>.
@@ -242,15 +242,15 @@ const SITE_URL = "https://www.hmef.eu";
 // limitations of each figure. Where no table or benchmark has been published for a given year, the
 // last official/verified figure is kept, explicitly flagged in NOTA_ANIO.
 const DATA_BY_YEAR = {
-  2023: { mefConvenio: 30.61, mefSmi: 21.03, sueloCoste: 44.79, hmeDirectiva: 22.87 },
-  2024: { mefConvenio: 31.08, mefSmi: 21.59, sueloCoste: 44.79, hmeDirectiva: 23.47 },
-  2025: { mefConvenio: 31.08, mefSmi: 22.11, sueloCoste: 44.79, hmeDirectiva: 23.47 },
-  2026: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 44.79, hmeDirectiva: 23.47 },
-  2027: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 44.79, hmeDirectiva: 23.47 }
+  2023: { mefConvenio: 30.61, mefSmi: 21.03, sueloCoste: 44.79, hmeDirectiva: 25.94 },
+  2024: { mefConvenio: 31.08, mefSmi: 21.59, sueloCoste: 44.79, hmeDirectiva: 26.96 },
+  2025: { mefConvenio: 31.08, mefSmi: 22.11, sueloCoste: 44.79, hmeDirectiva: 26.96 },
+  2026: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 44.79, hmeDirectiva: 26.96 },
+  2027: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 44.79, hmeDirectiva: 26.96 }
 };
-// hmeDirectiva: HME/h from the INE median wage (art. 5(4) of Directive (EU) 2022/2041), see
-// technical methodology, section 7.2. 2023: INE median wage €23,226/year (press release
-// 22/11/2024); 2024: €24,016.80/year (press release 14/11/2025); 2025-2027: no figure
+// hmeDirectiva: HME/h from the INE average wage (art. 5(4) of Directive (EU) 2022/2041), see
+// technical methodology, section 7.2. 2023: INE average wage €27,276/year (press release
+// 22/11/2024); 2024: €28,627.20/year (press release 14/11/2025); 2025-2027: no figure
 // published yet, the 2024 figure is kept.
 
 // Anti-dumping floor = cost floor without industrial profit: the same calculation as the cost
@@ -502,7 +502,7 @@ async function descargarPDF(){
 
   h('Comparative references (not binding)', 11, 7);
   p('Anti-dumping floor (cost without industrial profit):', document.getElementById('r-antidumping').textContent);
-  p('HME under Directive (EU) 2022/2041 (INE median):', document.getElementById('r-directiva').textContent);
+  p('HME under Directive (EU) 2022/2041 (INE average):', document.getElementById('r-directiva').textContent);
   if (document.getElementById('publico').checked) {
     p(document.querySelector('#row-italia65 span:first-child').textContent + ':', document.getElementById('r-italia65').textContent);
   }

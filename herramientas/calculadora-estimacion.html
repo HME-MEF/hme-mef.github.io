@@ -192,7 +192,7 @@
 
         <div class="result-box comparativo">
           <div class="result-row"><span>Suelo antidumping (coste sin beneficio industrial)</span><span class="v" id="r-antidumping">—</span></div>
-          <div class="result-row"><span>HME según Directiva (UE) 2022/2041 (mediana INE)</span><span class="v" id="r-directiva">—</span></div>
+          <div class="result-row"><span>HME según Directiva (UE) 2022/2041 (media INE)</span><span class="v" id="r-directiva">—</span></div>
           <div class="result-row" id="row-italia65"><span>Italia, cuota fija no rebajable</span><span class="v" id="r-italia65">—</span></div>
         </div>
 
@@ -214,7 +214,7 @@
           <tr><td>SEGIPSA</td><td>% sobre PEM aplicado por la Administración General del Estado a sus propias encomiendas de gestión (BOE 27/5/2015).</td><td>Sólido</td></tr>
           <tr><td>Italia (DM 17/6/2016)</td><td>Modelo de honorarios de base-valor vigente en Italia, usado aquí solo como referencia comparada — ver <a href="{{ '/marco-legal/' | relative_url }}">Marco Legal</a>.</td><td>Sólido</td></tr>
           <tr><td>Italia, cuota fija (solo proyecto público)</td><td>Cuota no rebajable en licitaciones públicas italianas: 65% del honorario si es ≥140.000 €, 80% si es menor (art. 41.15-bis Codice dei Contratti Pubblici, D.Lgs. 36/2023, modificado por D.Lgs. 209/2024). Normativa italiana, no exigible en España — referencia de cuánto margen admite ese sistema.</td><td>Discontinuo</td></tr>
-          <tr><td>HME según Directiva (UE) 2022/2041</td><td>Aplica el criterio de adecuación salarial del art. 5.4 (salario mediano del INE como referencia) a la fórmula del suelo MEF. A diferencia de este, no tiene fundamento constitucional de no discriminación — es una sugerencia de la UE que ni el propio SMI español cumple. Ver <a href="{{ '/herramientas/metodologia/' | relative_url }}">memoria técnica, sección 7.2</a>.</td><td>Discontinuo</td></tr>
+          <tr><td>HME según Directiva (UE) 2022/2041</td><td>Aplica el criterio de adecuación salarial del art. 5.4 (salario medio del INE como referencia) a la fórmula del suelo MEF. A diferencia de este, no tiene fundamento constitucional de no discriminación — es una sugerencia de la UE que ni el propio SMI español cumple. Ver <a href="{{ '/herramientas/metodologia/' | relative_url }}">memoria técnica, sección 7.2</a>.</td><td>Discontinuo</td></tr>
         </table>
         <p style="font-size:12.5px; color:#7f8c8d; margin-top:10px;">
           Las tarifas históricas de honorarios de arquitecto (1905, 1923, 1977), actualizadas a euros de hoy, se comparan con estas referencias en la <a href="{{ '/herramientas/normas-historicas/' | relative_url }}">comparación histórica de normas</a>.
@@ -242,15 +242,15 @@ const SITE_URL = "https://www.hmef.eu";
 // limitaciones de cada cifra. Donde no hay tabla o benchmark publicado para un año, se mantiene
 // la última cifra oficial/verificada disponible, marcada explícitamente en NOTA_ANIO.
 const DATA_BY_YEAR = {
-  2023: { mefConvenio: 30.61, mefSmi: 21.03, sueloCoste: 44.79, hmeDirectiva: 22.87 },
-  2024: { mefConvenio: 31.08, mefSmi: 21.59, sueloCoste: 44.79, hmeDirectiva: 23.47 },
-  2025: { mefConvenio: 31.08, mefSmi: 22.11, sueloCoste: 44.79, hmeDirectiva: 23.47 },
-  2026: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 44.79, hmeDirectiva: 23.47 },
-  2027: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 44.79, hmeDirectiva: 23.47 }
+  2023: { mefConvenio: 30.61, mefSmi: 21.03, sueloCoste: 44.79, hmeDirectiva: 25.94 },
+  2024: { mefConvenio: 31.08, mefSmi: 21.59, sueloCoste: 44.79, hmeDirectiva: 26.96 },
+  2025: { mefConvenio: 31.08, mefSmi: 22.11, sueloCoste: 44.79, hmeDirectiva: 26.96 },
+  2026: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 44.79, hmeDirectiva: 26.96 },
+  2027: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 44.79, hmeDirectiva: 26.96 }
 };
-// hmeDirectiva: HME/h a partir de la mediana salarial del INE (art. 5.4 Directiva (UE) 2022/2041),
-// ver memoria técnica, sección 7.2. 2023: salario mediano INE 23.226 €/año (nota de prensa
-// 22/11/2024); 2024: 24.016,80 €/año (nota de prensa 14/11/2025); 2025-2027: sin dato publicado
+// hmeDirectiva: HME/h a partir del salario medio del INE (art. 5.4 Directiva (UE) 2022/2041),
+// ver memoria técnica, sección 7.2. 2023: salario medio INE 27.276 €/año (nota de prensa
+// 22/11/2024); 2024: 28.627,20 €/año (nota de prensa 14/11/2025); 2025-2027: sin dato publicado
 // aún, se mantiene la cifra de 2024.
 
 // Suelo antidumping = suelo de coste sin beneficio industrial: mismo cálculo que el suelo de
@@ -501,7 +501,7 @@ async function descargarPDF(){
 
   h('Referencias comparativas (no vinculantes)', 11, 7);
   p('Suelo antidumping (coste sin beneficio industrial):', document.getElementById('r-antidumping').textContent);
-  p('HME según Directiva (UE) 2022/2041 (mediana INE):', document.getElementById('r-directiva').textContent);
+  p('HME según Directiva (UE) 2022/2041 (media INE):', document.getElementById('r-directiva').textContent);
   if (document.getElementById('publico').checked) {
     p(document.querySelector('#row-italia65 span:first-child').textContent + ':', document.getElementById('r-italia65').textContent);
   }
