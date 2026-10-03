@@ -164,15 +164,18 @@
 
         <fieldset>
           <legend>Suelo MEF — base de cálculo</legend>
-          <div class="row">
-            <div>
-              <label><input type="radio" name="mefbase" value="convenio" checked> Convenio (<span id="v-convenio">—</span> €/h)</label>
-            </div>
-            <div>
-              <label><input type="radio" name="mefbase" value="smi"> SMI (<span id="v-smi">—</span> €/h)</label>
-            </div>
+          <div class="result-row" style="border:none; padding:2px 0;">
+            <span>Convenio de ingeniería y oficinas técnicas</span>
+            <span class="v" id="v-convenio">—</span>
           </div>
-          <div class="hint">Convenio = salario de convenio de ingeniería y oficinas técnicas. SMI = salario mínimo interprofesional.</div>
+          <div class="hint">
+            El suelo MEF de esta herramienta se calcula siempre sobre el salario de convenio, no
+            sobre el SMI: al tratarse de una actividad profesional con reserva legal (arquitecto),
+            el comparador adecuado es el empleo cualificado equivalente, no el salario mínimo
+            interprofesional. El SMI sigue apareciendo como referencia informativa en el
+            <a href="{{ '/herramientas/evaluador/' | relative_url }}">evaluador de indicios</a> y en
+            la <a href="{{ '/herramientas/metodologia/' | relative_url }}">memoria técnica</a>.
+          </div>
         </fieldset>
 
         <button onclick="calcular()">Calcular banda de referencia</button>
@@ -214,7 +217,7 @@
         <h2>Origen de cada referencia</h2>
         <table class="ref">
           <tr><th>Referencia</th><th>Naturaleza</th><th>Trazo</th></tr>
-          <tr><td>Suelo MEF</td><td>Coste de oportunidad — lo que costaría contratar a un empleado equivalente. Suelo antidiscriminatorio, con fundamento constitucional (art. 14 CE).</td><td>Sólido</td></tr>
+          <tr><td>Suelo MEF</td><td>Coste de oportunidad — lo que costaría contratar a un empleado equivalente. Suelo antidiscriminatorio, con fundamento constitucional (art. 14 CE). Se calcula siempre sobre el salario de convenio: al ser una actividad profesional con reserva legal, el SMI no es un comparador adecuado.</td><td>Sólido</td></tr>
           <tr><td>Suelo de coste</td><td>Coste de producción del estudio (salario + GG + BI), por analogía con el art. 131 RGLCAP.</td><td>Sólido</td></tr>
           <tr><td>Suelo antidumping</td><td>Umbral de cobertura de costes reales del estudio, sin beneficio industrial (coste × 1,13 en vez de × 1,19). Por debajo, la venta se considera a pérdida bajo el art. 17 de la <a href="https://www.boe.es/eli/es/l/1991/01/10/3/con">Ley 3/1991 de Competencia Desleal</a>. Es el límite inferior del suelo de coste, no una referencia independiente.</td><td>Discontinuo</td></tr>
           <tr><td>SEGIPSA</td><td>% sobre PEM aplicado por la Administración General del Estado a sus propias encomiendas de gestión (BOE 27/5/2015).</td><td>Sólido</td></tr>
@@ -248,11 +251,11 @@ const SITE_URL = "https://www.hmef.eu";
 // limitaciones de cada cifra. Donde no hay tabla o benchmark publicado para un año, se mantiene
 // la última cifra oficial/verificada disponible, marcada explícitamente en NOTA_ANIO.
 const DATA_BY_YEAR = {
-  2023: { mefConvenio: 30.61, mefSmi: 21.03, sueloCoste: 44.79, hmeDirectiva: 25.94 },
-  2024: { mefConvenio: 31.08, mefSmi: 21.59, sueloCoste: 44.79, hmeDirectiva: 26.96 },
-  2025: { mefConvenio: 31.08, mefSmi: 22.11, sueloCoste: 44.79, hmeDirectiva: 26.96 },
-  2026: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 44.79, hmeDirectiva: 26.96 },
-  2027: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 44.79, hmeDirectiva: 26.96 }
+  2023: { mefConvenio: 30.61, sueloCoste: 44.79, hmeDirectiva: 25.94 },
+  2024: { mefConvenio: 31.08, sueloCoste: 44.79, hmeDirectiva: 26.96 },
+  2025: { mefConvenio: 31.08, sueloCoste: 44.79, hmeDirectiva: 26.96 },
+  2026: { mefConvenio: 31.08, sueloCoste: 44.79, hmeDirectiva: 26.96 },
+  2027: { mefConvenio: 31.08, sueloCoste: 44.79, hmeDirectiva: 26.96 }
 };
 // hmeDirectiva: HME/h a partir del salario medio del INE (art. 5.4 Directiva (UE) 2022/2041),
 // ver memoria técnica, sección 7.2. 2023: salario medio INE 27.276 €/año (nota de prensa
@@ -310,8 +313,7 @@ function conPct(valor, pem){
 function onAnioChange(){
   const anio = document.getElementById('anio').value;
   const d = DATA_BY_YEAR[anio];
-  document.getElementById('v-convenio').textContent = fmt2(d.mefConvenio);
-  document.getElementById('v-smi').textContent = fmt2(d.mefSmi);
+  document.getElementById('v-convenio').textContent = fmt2(d.mefConvenio) + ' €/h';
   document.getElementById('anio-nota').textContent = NOTA_ANIO[anio];
 }
 
@@ -345,8 +347,7 @@ function calcular(){
   const complejidad = document.getElementById('complejidad').value;
   const encargo = document.getElementById('encargo').value;
   const coordseg = document.getElementById('coordseg').checked;
-  const mefBase = document.querySelector('input[name=mefbase]:checked').value;
-  const suelomefH = mefBase === 'convenio' ? d.mefConvenio : d.mefSmi;
+  const suelomefH = d.mefConvenio;
   const SUELO_COSTE_H = d.sueloCoste;
 
   const G = G_TABLE[tipologia][complejidad];
@@ -497,8 +498,7 @@ async function descargarPDF(){
   p('Tipo de encargo:', document.getElementById('encargo').selectedOptions[0].text);
   p('Coordinación de seguridad y salud:', document.getElementById('coordseg').checked ? 'Sí' : 'No');
   p('Encargo para administración pública:', document.getElementById('publico').checked ? 'Sí' : 'No');
-  const mefBaseTxt = document.querySelector('input[name=mefbase]:checked').value === 'convenio' ? 'Convenio' : 'SMI';
-  p('Suelo MEF — base de cálculo:', mefBaseTxt);
+  p('Suelo MEF — base de cálculo:', 'Convenio de ingeniería y oficinas técnicas');
   p('Horas estimadas del encargo (HME):', document.getElementById('r-horas').textContent);
   y += 2;
   linea();

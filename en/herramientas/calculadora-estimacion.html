@@ -164,15 +164,19 @@
 
         <fieldset>
           <legend>MEF floor — calculation base</legend>
-          <div class="row">
-            <div>
-              <label><input type="radio" name="mefbase" value="convenio" checked> Collective agreement (<span id="v-convenio">—</span> €/h)</label>
-            </div>
-            <div>
-              <label><input type="radio" name="mefbase" value="smi"> SMI (<span id="v-smi">—</span> €/h)</label>
-            </div>
+          <div class="result-row" style="border:none; padding:2px 0;">
+            <span>Engineering and technical consultancy collective agreement</span>
+            <span class="v" id="v-convenio">—</span>
           </div>
-          <div class="hint">Collective agreement = the salary under the engineering and technical consultancy agreement. SMI = the Spanish national minimum wage.</div>
+          <div class="hint">
+            This tool's MEF floor is always calculated on the collective-agreement salary, not on
+            the SMI: as architecture is a profession with a legal practice reserve, the right
+            comparator is the equivalent qualified employee, not the national minimum wage. The
+            SMI still appears as an informative reference in the
+            <a href="{{ '/en/herramientas/evaluador/' | relative_url }}">pay-discrimination evaluator</a>
+            and in the <a href="{{ '/en/herramientas/metodologia/' | relative_url }}">technical
+            methodology</a>.
+          </div>
         </fieldset>
 
         <button onclick="calcular()">Calculate the reference band</button>
@@ -214,7 +218,7 @@
         <h2>Origin of each reference</h2>
         <table class="ref">
           <tr><th>Reference</th><th>Nature</th><th>Line</th></tr>
-          <tr><td>MEF floor</td><td>Opportunity cost — what it would cost to hire an equivalent employee. Anti-discrimination floor, with a constitutional basis (art. 14 of the Spanish Constitution).</td><td>Solid</td></tr>
+          <tr><td>MEF floor</td><td>Opportunity cost — what it would cost to hire an equivalent employee. Anti-discrimination floor, with a constitutional basis (art. 14 of the Spanish Constitution). Always calculated on the collective-agreement salary: as a profession with a legal practice reserve, the SMI is not an adequate comparator.</td><td>Solid</td></tr>
           <tr><td>Cost floor</td><td>The practice's production cost (salary + overheads + industrial profit), by analogy with art. 131 RGLCAP.</td><td>Solid</td></tr>
           <tr><td>Anti-dumping floor</td><td>Threshold for covering the practice's real costs, without industrial profit (cost × 1.13 instead of × 1.19). Below it, selling is treated as below-cost under art. 17 of the <a href="https://www.boe.es/eli/es/l/1991/01/10/3/con">Ley 3/1991 de Competencia Desleal</a> (Spain's Unfair Competition Act). It is the lower bound of the cost floor, not an independent reference.</td><td>Dashed</td></tr>
           <tr><td>SEGIPSA</td><td>% of PEM applied by the Spanish General State Administration to its own commissioned work (BOE 27/5/2015).</td><td>Solid</td></tr>
@@ -248,11 +252,11 @@ const SITE_URL = "https://www.hmef.eu";
 // limitations of each figure. Where no table or benchmark has been published for a given year, the
 // last official/verified figure is kept, explicitly flagged in NOTA_ANIO.
 const DATA_BY_YEAR = {
-  2023: { mefConvenio: 30.61, mefSmi: 21.03, sueloCoste: 44.79, hmeDirectiva: 25.94 },
-  2024: { mefConvenio: 31.08, mefSmi: 21.59, sueloCoste: 44.79, hmeDirectiva: 26.96 },
-  2025: { mefConvenio: 31.08, mefSmi: 22.11, sueloCoste: 44.79, hmeDirectiva: 26.96 },
-  2026: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 44.79, hmeDirectiva: 26.96 },
-  2027: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 44.79, hmeDirectiva: 26.96 }
+  2023: { mefConvenio: 30.61, sueloCoste: 44.79, hmeDirectiva: 25.94 },
+  2024: { mefConvenio: 31.08, sueloCoste: 44.79, hmeDirectiva: 26.96 },
+  2025: { mefConvenio: 31.08, sueloCoste: 44.79, hmeDirectiva: 26.96 },
+  2026: { mefConvenio: 31.08, sueloCoste: 44.79, hmeDirectiva: 26.96 },
+  2027: { mefConvenio: 31.08, sueloCoste: 44.79, hmeDirectiva: 26.96 }
 };
 // hmeDirectiva: HME/h from the INE average wage (art. 5(4) of Directive (EU) 2022/2041), see
 // technical methodology, section 7.2. 2023: INE average wage €27,276/year (press release
@@ -311,8 +315,7 @@ function conPct(valor, pem){
 function onAnioChange(){
   const anio = document.getElementById('anio').value;
   const d = DATA_BY_YEAR[anio];
-  document.getElementById('v-convenio').textContent = fmt2(d.mefConvenio);
-  document.getElementById('v-smi').textContent = fmt2(d.mefSmi);
+  document.getElementById('v-convenio').textContent = fmt2(d.mefConvenio) + ' €/h';
   document.getElementById('anio-nota').textContent = NOTA_ANIO[anio];
 }
 
@@ -346,8 +349,7 @@ function calcular(){
   const complejidad = document.getElementById('complejidad').value;
   const encargo = document.getElementById('encargo').value;
   const coordseg = document.getElementById('coordseg').checked;
-  const mefBase = document.querySelector('input[name=mefbase]:checked').value;
-  const suelomefH = mefBase === 'convenio' ? d.mefConvenio : d.mefSmi;
+  const suelomefH = d.mefConvenio;
   const SUELO_COSTE_H = d.sueloCoste;
 
   const G = G_TABLE[tipologia][complejidad];
@@ -498,8 +500,7 @@ async function descargarPDF(){
   p('Type of commission:', document.getElementById('encargo').selectedOptions[0].text);
   p('Health and safety coordination:', document.getElementById('coordseg').checked ? 'Yes' : 'No');
   p('Commission for a public authority:', document.getElementById('publico').checked ? 'Yes' : 'No');
-  const mefBaseTxt = document.querySelector('input[name=mefbase]:checked').value === 'convenio' ? 'Collective agreement' : 'SMI';
-  p('MEF floor — calculation base:', mefBaseTxt);
+  p('MEF floor — calculation base:', 'Engineering and technical consultancy collective agreement');
   p('Estimated commission hours (HME):', document.getElementById('r-horas').textContent);
   y += 2;
   linea();
