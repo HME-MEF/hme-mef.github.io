@@ -432,10 +432,18 @@ async function descargarPDF(){
 
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF({ unit: 'mm', format: 'a4' });
-  const marginL = 18, width = 174;
+  const marginL = 18, width = 174, marginB = 16;
+  const pageH = doc.internal.pageSize.getHeight();
   let y = 20;
 
+  function ensureSpace(need){
+    if (y + need > pageH - marginB) {
+      doc.addPage();
+      y = 20;
+    }
+  }
   function h(text, size, gap){
+    ensureSpace(gap + 4);
     doc.setFont('helvetica', 'bold'); doc.setFontSize(size);
     doc.text(text, marginL, y);
     y += gap;
@@ -444,6 +452,7 @@ async function descargarPDF(){
     return String(str).replace(/Σ/g, 'S'); // jsPDF/helvetica no soporta el carácter Σ
   }
   function p(label, value){
+    ensureSpace(11);
     doc.setFont('helvetica', 'bold'); doc.setFontSize(10);
     doc.text(label, marginL, y);
     const labelWidth = doc.getTextWidth(label);
@@ -462,11 +471,14 @@ async function descargarPDF(){
   function parrafo(text, size){
     doc.setFont('helvetica', 'normal'); doc.setFontSize(size || 9);
     const lines = doc.splitTextToSize(text, width);
+    ensureSpace(lines.length * 4.6 + 2);
+    doc.setFont('helvetica', 'normal'); doc.setFontSize(size || 9);
     doc.text(lines, marginL, y);
     y += lines.length * 4.6 + 2;
   }
-  function linea(){ doc.setDrawColor(210); doc.line(marginL, y, marginL + width, y); y += 6; }
+  function linea(){ ensureSpace(8); doc.setDrawColor(210); doc.line(marginL, y, marginL + width, y); y += 6; }
   function logotipo(sigla){
+    ensureSpace(10);
     // Balanza vectorial (el emoji ⚖ de la web no lo dibuja bien jsPDF/Helvetica) + sigla, colores del sitio
     const cx = marginL + 3, cy = y - 1.5;
     doc.setDrawColor(52, 152, 219); doc.setLineWidth(0.6);
@@ -524,6 +536,7 @@ async function descargarPDF(){
     const canvas = await html2canvas(bandEl, { backgroundColor: '#ffffff', scale: 2 });
     const imgW = width;
     const imgH = imgW * canvas.height / canvas.width;
+    ensureSpace(imgH + 6);
     doc.addImage(canvas.toDataURL('image/png'), 'PNG', marginL, y, imgW, imgH);
     y += imgH + 6;
   } catch (e) {
