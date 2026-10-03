@@ -178,10 +178,12 @@ conversion rate of €60.5/h.
 Both calculators let you choose a reference year because the
 collectively-bargained salary, the SMI and the Deltek utilization rate are
 published (or not) year by year — unlike the Italian model or SEGIPSA,
-which do not depend on the chosen year. The band estimator defaults to the
-current year; the pay-discrimination evaluator requires an explicit choice
-of year, with no default, so as not to presuppose a given year in a
-comparative calculation.
+which do not depend on the chosen year in this tool, although they do
+update de facto with construction-cost inflation, since both are
+calculated as a percentage of the PEM (value of the works). The band
+estimator defaults to the current year; the pay-discrimination evaluator
+requires an explicit choice of year, with no default, so as not to
+presuppose a given year in a comparative calculation.
 
 | Year | Collective-agreement salary | SMI | MEF floor (collective agreement) | MEF floor (SMI) | Cost floor | Notes |
 |---|---|---|---|---|---|---|

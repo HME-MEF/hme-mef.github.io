@@ -180,7 +180,9 @@ tarifa de conversión de 60,5 €/h.
 Las dos calculadoras permiten elegir un año de referencia porque el
 salario de convenio, el SMI y la facturabilidad Deltek se publican (o no)
 año a año — a diferencia del modelo italiano o de SEGIPSA, que no dependen
-del año elegido. El estimador de banda usa por defecto el año en curso; el
+del año elegido en esta herramienta, aunque sí se actualizan de facto con
+la inflación de la construcción, al calcularse como un porcentaje sobre
+el PEM. El estimador de banda usa por defecto el año en curso; el
 evaluador de indicios exige elegir un año explícitamente, sin valor por
 defecto, para no dar por supuesto un ejercicio en un cálculo comparativo.
 
