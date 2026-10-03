@@ -40,6 +40,7 @@
   .result-row { display:flex; justify-content:space-between; padding:6px 0; border-bottom:1px solid #eceff2; font-size:13px; }
   .result-row:last-child { border-bottom:none; }
   .result-row .v { font-weight:700; }
+  .result-row .v .pct { font-weight:400; font-size:10.5px; color:#7f8c8d; }
   .diag {
     margin-top:14px; padding:16px; border-radius:8px; font-size:14px; font-weight:600;
   }
@@ -173,15 +174,16 @@
 
         <fieldset>
           <legend>Suelo MEF — base de cálculo</legend>
-          <div class="row">
-            <div>
-              <label><input type="radio" name="mefbase" value="convenio" checked> Convenio (<span id="v-convenio">—</span> €/h)</label>
-            </div>
-            <div>
-              <label><input type="radio" name="mefbase" value="smi"> SMI (<span id="v-smi">—</span> €/h)</label>
-            </div>
+          <div class="result-row" style="border:none; padding:2px 0;">
+            <span>Convenio de ingeniería y oficinas técnicas</span>
+            <span class="v" id="v-convenio">—</span>
           </div>
-          <div class="hint">Convenio = salario de convenio de ingeniería y oficinas técnicas. SMI = salario mínimo interprofesional. El convenio es el suelo de referencia principal; el SMI, el umbral absoluto.</div>
+          <div class="hint">
+            El suelo MEF de esta herramienta se calcula siempre sobre el salario de convenio, no
+            sobre el SMI: al tratarse de una actividad profesional con reserva legal (arquitecto),
+            el comparador adecuado es el empleo cualificado equivalente, no el salario mínimo
+            interprofesional.
+          </div>
         </fieldset>
 
         <button onclick="calcular()">Evaluar</button>
@@ -197,6 +199,34 @@
           <div class="result-row"><span>€/h del importe evaluado</span><span class="v" id="r-euroh">—</span></div>
           <div class="result-row"><span>Suelo de coste (referencia)</span><span class="v" id="r-suelocoste">—</span></div>
           <div class="result-row"><span>Suelo MEF (umbral antidiscriminatorio)</span><span class="v" id="r-mef">—</span></div>
+        </div>
+
+        <div class="result-box">
+          <div class="result-row"><span>Suelo antidumping (coste sin beneficio industrial)</span><span class="v" id="r-antidumping">—</span></div>
+          <div class="result-row"><span>HME según Directiva (UE) 2022/2041 (media INE)</span><span class="v" id="r-directiva">—</span></div>
+        </div>
+        <div class="hint" style="margin-bottom:14px;">
+          Referencias comparativas, no vinculantes en España: el suelo antidumping marca el umbral
+          de cobertura de costes reales del estudio (sin beneficio industrial) bajo el art. 17 de la
+          Ley 3/1991 de Competencia Desleal; la referencia de la Directiva (UE) 2022/2041 aplica el
+          criterio de adecuación salarial (salario medio del INE) a la fórmula del suelo MEF — al ser
+          un suelo de salario mínimo, y no de empleo equivalente, queda por debajo del suelo MEF
+          principal. Ver <a href="{{ '/herramientas/metodologia/' | relative_url }}">memoria técnica</a>.
+        </div>
+
+        <div class="result-box">
+          <div class="result-row"><span>Referencia SEGIPSA (BOE 27/5/2015)</span><span class="v" id="r-segipsa">—</span></div>
+          <div class="result-row"><span>Referencia italiana (DM 17/6/2016)</span><span class="v" id="r-italia">—</span></div>
+          <div class="result-row" id="row-italia65"><span>Italia, cuota fija no rebajable</span><span class="v" id="r-italia65">—</span></div>
+        </div>
+        <div class="hint" style="margin-bottom:14px;">
+          Más referencias de contraste, no vinculantes en España: SEGIPSA es el % sobre PEM que la
+          Administración General del Estado aplica a sus propias encomiendas de gestión; el modelo
+          italiano (DM 17/6/2016) es el honorario de base-valor vigente en Italia; la cuota fija es
+          el porcentaje mínimo no rebajable en licitaciones públicas italianas — 65% del honorario
+          si es ≥140.000 €, 80% si es menor (art. 41.15-bis Codice dei Contratti Pubblici, D.Lgs.
+          36/2023, modificado por D.Lgs. 209/2024) — y solo se muestra para procedimiento de
+          concurso público.
         </div>
 
         <div id="diagnostico" class="diag" style="display:none;"></div>
@@ -263,22 +293,29 @@ const SITE_URL = "https://www.hmef.eu";
 // limitaciones de cada cifra. Donde no hay tabla o benchmark publicado para un año, se mantiene
 // la última cifra oficial/verificada disponible, marcada explícitamente en NOTA_ANIO.
 const DATA_BY_YEAR = {
-  2023: { mefConvenio: 30.61, mefSmi: 21.03, sueloCoste: 44.79 },
-  2024: { mefConvenio: 31.08, mefSmi: 21.59, sueloCoste: 44.79 },
-  2025: { mefConvenio: 31.08, mefSmi: 22.11, sueloCoste: 44.79 },
-  2026: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 44.79 },
-  2027: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 44.79 }
+  2023: { mefConvenio: 30.61, sueloCoste: 44.79, hmeDirectiva: 25.94 },
+  2024: { mefConvenio: 31.08, sueloCoste: 44.79, hmeDirectiva: 26.96 },
+  2025: { mefConvenio: 31.08, sueloCoste: 44.79, hmeDirectiva: 26.96 },
+  2026: { mefConvenio: 31.08, sueloCoste: 44.79, hmeDirectiva: 26.96 },
+  2027: { mefConvenio: 31.08, sueloCoste: 44.79, hmeDirectiva: 26.96 }
 };
 
 const NOTA_ANIO = {
-  2023: 'Salario de convenio: tabla oficial de 2023 (XX Convenio, BOE-A-2023-11785). SMI: dato oficial de 2023 (RD 99/2023). Facturabilidad: sin edición Deltek de ese ejercicio; se usa la cifra FY2025 (única disponible), igual que en el resto de años.',
-  2024: 'Salario de convenio, SMI y facturabilidad corresponden a fuentes oficiales/verificadas de 2024.',
-  2025: 'Salario de convenio: sin tabla pactada para 2025; se mantiene la última tabla oficial (2024). SMI: dato oficial de 2025. Facturabilidad: único dato específico de arquitectura publicado (FY2025).',
-  2026: 'Salario de convenio: sin tabla pactada para 2026; se mantiene la última tabla oficial (2024). SMI: dato oficial de 2026. Facturabilidad: sin edición más reciente disponible; se mantiene el dato de FY2025.',
-  2027: 'Salario de convenio, SMI y facturabilidad: sin dato oficial publicado aún para 2027; se mantienen las últimas cifras disponibles (convenio 2024, SMI 2026, facturabilidad FY2025).'
+  2023: 'Salario de convenio: tabla oficial de 2023 (XX Convenio, BOE-A-2023-11785). Facturabilidad: sin edición Deltek de ese ejercicio; se usa la cifra FY2025 (única disponible), igual que en el resto de años.',
+  2024: 'Salario de convenio y facturabilidad corresponden a fuentes oficiales/verificadas de 2024.',
+  2025: 'Salario de convenio: sin tabla pactada para 2025; se mantiene la última tabla oficial (2024). Facturabilidad: único dato específico de arquitectura publicado (FY2025).',
+  2026: 'Salario de convenio: sin tabla pactada para 2026; se mantiene la última tabla oficial (2024). Facturabilidad: sin edición más reciente disponible; se mantiene el dato de FY2025.',
+  2027: 'Salario de convenio y facturabilidad: sin dato oficial publicado aún para 2027; se mantienen las últimas cifras disponibles (convenio 2024, facturabilidad FY2025).'
 };
 
 const REF_CONVERSION = 60.5; // €/h — extremo inferior art. 6.2 DM 17/6/2016, actualizado por IPC italiano 2016→2024
+const FACTOR_ANTIDUMPING = 1.13 / 1.19; // suelo de coste sin beneficio industrial (GG sí, BI no)
+
+// Cuota fija no rebajable en licitaciones públicas italianas (art. 41.15-bis Codice dei
+// Contratti Pubblici, D.Lgs. 36/2023, modificado por D.Lgs. 209/2024).
+const ITALIA_UMBRAL_PUBLICO = 140000; // € — umbral sobre el honorario (CP), no sobre el PEM
+const ITALIA_CUOTA_FIJA_ALTA = 0.65;  // si CP >= umbral
+const ITALIA_CUOTA_FIJA_BAJA = 0.80;  // si CP < umbral (máx. 20% de rebaja)
 
 // G (grado di complessità), Tabla Z-1 del DM 17/6/2016 — categorías orientativas por grandes grupos
 const G_TABLE = {
@@ -297,6 +334,34 @@ const Q_COORDSEG  = 0.35;  // coordinación de seguridad y salud (ESS + CSS)
 function fmt(n){
   return n.toLocaleString('es-ES', {maximumFractionDigits:2, minimumFractionDigits:2});
 }
+function fmtEuro(n){
+  return n.toLocaleString('es-ES', {maximumFractionDigits:0, minimumFractionDigits:0});
+}
+function conPct(valor, pem){
+  const txt = fmtEuro(valor) + ' €';
+  if (!(pem > 0)) return txt;
+  const pct = (valor / pem * 100).toLocaleString('es-ES', {maximumFractionDigits:1, minimumFractionDigits:1});
+  return txt + ' <span class="pct">(' + pct + '% del PEM)</span>';
+}
+function segipsaTramo(pem, tabla){
+  if (pem <= 1000000) return tabla[0];
+  if (pem <= 3000000) return tabla[1];
+  if (pem <= 6000000) return tabla[2];
+  if (pem <= 10000000) return tabla[3];
+  return tabla[4];
+}
+function segipsaTotal(pem, encargo){
+  const RED = [0.0665, 0.0561, 0.0463, 0.0411, 0.0360];
+  const DIR = [0.0568, 0.0477, 0.0397, 0.0353, 0.0308];
+  let total = 0;
+  if (encargo === 'redaccion' || encargo === 'ambos') {
+    total += Math.max(5474, pem * segipsaTramo(pem, RED));
+  }
+  if (encargo === 'direccion' || encargo === 'ambos') {
+    total += Math.max(4560, pem * segipsaTramo(pem, DIR));
+  }
+  return total;
+}
 
 function toggleHmeManual(){
   const on = document.getElementById('hme-manual-toggle').checked;
@@ -306,23 +371,20 @@ function toggleHmeManual(){
 function onAnioChange(){
   const anio = document.getElementById('anio').value;
   const vConvenio = document.getElementById('v-convenio');
-  const vSmi = document.getElementById('v-smi');
   const rSuelo = document.getElementById('r-suelocoste');
   const nota = document.getElementById('anio-nota');
 
   if (!anio) {
     vConvenio.textContent = '—';
-    vSmi.textContent = '—';
     rSuelo.textContent = '—';
-    nota.textContent = 'Determina qué cifras de salario de convenio, SMI y facturabilidad (Deltek) ' +
+    nota.textContent = 'Determina qué cifras de salario de convenio y facturabilidad (Deltek) ' +
       'se usan en el suelo MEF y el suelo de coste. Ver la memoria técnica (enlace más abajo) para ' +
       'el origen y las limitaciones de cada año.';
     return;
   }
 
   const d = DATA_BY_YEAR[anio];
-  vConvenio.textContent = fmt(d.mefConvenio);
-  vSmi.textContent = fmt(d.mefSmi);
+  vConvenio.textContent = fmt(d.mefConvenio) + ' €/h';
   rSuelo.textContent = fmt(d.sueloCoste) + ' €/h';
   nota.textContent = NOTA_ANIO[anio];
 }
@@ -372,15 +434,16 @@ function calcular(){
 
   const pem = parseFloat(document.getElementById('pem').value) || 0;
   const importe = parseFloat(document.getElementById('importe').value) || 0;
-  const mefBase = document.querySelector('input[name=mefbase]:checked').value;
-  const suelomef = mefBase === 'convenio' ? d.mefConvenio : d.mefSmi;
+  const suelomef = d.mefConvenio;
+  const sueloAntidumping = SUELO_COSTE * FACTOR_ANTIDUMPING;
+  const sueloDirectiva = d.hmeDirectiva;
 
   const manual = document.getElementById('hme-manual-toggle').checked;
-  let hme, calc;
+  const calc = horasEstimadas(pem); // siempre se calcula: CP alimenta las referencias SEGIPSA/Italia
+  let hme;
   if (manual) {
     hme = parseFloat(document.getElementById('hme').value) || 1;
   } else {
-    calc = horasEstimadas(pem);
     hme = calc.horas > 0 ? calc.horas : 1;
   }
 
@@ -393,21 +456,61 @@ function calcular(){
   document.getElementById('r-pct').textContent = fmt(pct) + '% PEM';
   document.getElementById('r-euroh').textContent = fmt(euroh) + ' €/h';
   document.getElementById('r-mef').textContent = fmt(suelomef) + ' €/h';
+  document.getElementById('r-antidumping').textContent = fmt(sueloAntidumping) + ' €/h';
+  document.getElementById('r-directiva').textContent = fmt(sueloDirectiva) + ' €/h';
+
+  const encargo = document.getElementById('encargo').value;
+  const procedimiento = document.getElementById('procedimiento').value;
+  const segipsa = segipsaTotal(pem, encargo);
+  const italia = calc.CP;
+  const cuotaItalia = italia >= ITALIA_UMBRAL_PUBLICO ? ITALIA_CUOTA_FIJA_ALTA : ITALIA_CUOTA_FIJA_BAJA;
+  const italia65Total = italia * cuotaItalia;
+
+  document.getElementById('r-segipsa').innerHTML = conPct(segipsa, pem);
+  document.getElementById('r-italia').innerHTML = conPct(italia, pem);
+  const rowItalia65 = document.getElementById('row-italia65');
+  if (procedimiento === 'publico') {
+    rowItalia65.style.display = '';
+    document.querySelector('#row-italia65 span:first-child').textContent =
+      'Italia, cuota fija ' + (cuotaItalia * 100).toFixed(0) + '% (' +
+      (italia >= ITALIA_UMBRAL_PUBLICO ? '≥140.000 €' : '<140.000 €') + ')';
+    document.getElementById('r-italia65').innerHTML = conPct(italia65Total, pem);
+  } else {
+    rowItalia65.style.display = 'none';
+  }
 
   diag.style.display = 'block';
 
-  if (euroh >= SUELO_COSTE) {
-    diag.className = 'diag ok';
-    diag.innerHTML = '✅ <strong>Adecuado.</strong> El importe evaluado (' + fmt(euroh) +
-      ' €/h) está por encima del suelo de coste (' + fmt(SUELO_COSTE) + ' €/h).';
-  } else if (euroh >= suelomef) {
-    diag.className = 'diag warn';
-    diag.innerHTML = '⚠️ <strong>Ajustado — revisar.</strong> El importe evaluado (' + fmt(euroh) +
-      ' €/h) está entre el suelo MEF (' + fmt(suelomef) + ' €/h) y el suelo de coste (' + fmt(SUELO_COSTE) + ' €/h).';
-  } else {
+  const indicioDiscriminacion = euroh < suelomef;
+  const indicioDumping = euroh < sueloAntidumping;
+
+  if (indicioDiscriminacion && indicioDumping) {
+    diag.className = 'diag bad';
+    diag.innerHTML = '❌ <strong>Indicio de discriminación retributiva y de dumping empresarial.</strong> ' +
+      'El importe evaluado (' + fmt(euroh) + ' €/h) está por debajo tanto del suelo MEF (' + fmt(suelomef) +
+      ' €/h — umbral antidiscriminatorio, art. 14 CE) como del suelo antidumping (' + fmt(sueloAntidumping) +
+      ' €/h — coste real sin beneficio industrial, art. 17 Ley 3/1991 de Competencia Desleal).';
+  } else if (indicioDiscriminacion) {
     diag.className = 'diag bad';
     diag.innerHTML = '❌ <strong>Indicio de discriminación retributiva.</strong> El importe evaluado (' +
       fmt(euroh) + ' €/h) está por debajo del suelo MEF (' + fmt(suelomef) + ' €/h).';
+  } else if (indicioDumping) {
+    diag.className = 'diag bad';
+    diag.innerHTML = '❌ <strong>Indicio de dumping empresarial.</strong> El importe evaluado (' +
+      fmt(euroh) + ' €/h) está por debajo del suelo antidumping (' + fmt(sueloAntidumping) +
+      ' €/h — coste real sin beneficio industrial), posible venta a pérdida bajo el art. 17 de la ' +
+      'Ley 3/1991 de Competencia Desleal, aunque supera el suelo MEF (' + fmt(suelomef) + ' €/h).';
+  } else if (euroh < SUELO_COSTE) {
+    diag.className = 'diag warn';
+    diag.innerHTML = '⚠️ <strong>Ajustado — cubre costes, sin margen pleno.</strong> El importe evaluado (' +
+      fmt(euroh) + ' €/h) está entre el suelo antidumping (' + fmt(sueloAntidumping) +
+      ' €/h) y el suelo de coste (' + fmt(SUELO_COSTE) + ' €/h): cubre el coste real del estudio pero ' +
+      'sin el beneficio industrial completo. No presenta indicios de discriminación ni de dumping.';
+  } else {
+    diag.className = 'diag ok';
+    diag.innerHTML = '✅ <strong>Adecuado.</strong> El importe evaluado (' + fmt(euroh) +
+      ' €/h) está por encima del suelo de coste (' + fmt(SUELO_COSTE) + ' €/h). No presenta indicios ' +
+      'de discriminación retributiva ni de dumping empresarial.';
   }
 }
 
@@ -421,10 +524,18 @@ function descargarPDF(){
 
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF({ unit: 'mm', format: 'a4' });
-  const marginL = 18, width = 174;
+  const marginL = 18, width = 174, marginB = 16;
+  const pageH = doc.internal.pageSize.getHeight();
   let y = 20;
 
+  function ensureSpace(need){
+    if (y + need > pageH - marginB) {
+      doc.addPage();
+      y = 20;
+    }
+  }
   function h(text, size, gap){
+    ensureSpace(gap + 4);
     doc.setFont('helvetica', 'bold'); doc.setFontSize(size);
     doc.text(text, marginL, y);
     y += gap;
@@ -433,6 +544,7 @@ function descargarPDF(){
     return String(str).replace(/Σ/g, 'S'); // jsPDF/helvetica no soporta el carácter Σ
   }
   function p(label, value){
+    ensureSpace(11);
     doc.setFont('helvetica', 'bold'); doc.setFontSize(10);
     doc.text(label, marginL, y);
     const labelWidth = doc.getTextWidth(label);
@@ -451,11 +563,14 @@ function descargarPDF(){
   function parrafo(text, size){
     doc.setFont('helvetica', 'normal'); doc.setFontSize(size || 9);
     const lines = doc.splitTextToSize(text, width);
+    ensureSpace(lines.length * 4.6 + 2);
+    doc.setFont('helvetica', 'normal'); doc.setFontSize(size || 9);
     doc.text(lines, marginL, y);
     y += lines.length * 4.6 + 2;
   }
-  function linea(){ doc.setDrawColor(210); doc.line(marginL, y, marginL + width, y); y += 6; }
+  function linea(){ ensureSpace(8); doc.setDrawColor(210); doc.line(marginL, y, marginL + width, y); y += 6; }
   function logotipo(sigla){
+    ensureSpace(10);
     // Balanza vectorial (el emoji ⚖ de la web no lo dibuja bien jsPDF/Helvetica) + sigla, colores del sitio
     const cx = marginL + 3, cy = y - 1.5;
     doc.setDrawColor(52, 152, 219); doc.setLineWidth(0.6);
@@ -489,8 +604,7 @@ function descargarPDF(){
   p('Procedimiento:', document.getElementById('procedimiento').selectedOptions[0].text);
   p('Horas estimadas del encargo (HME):', document.getElementById('r-horas').textContent);
   p('Importe ofertado o adjudicado:', document.getElementById('importe').value + ' €');
-  const mefBaseTxt = document.querySelector('input[name=mefbase]:checked').value === 'convenio' ? 'Convenio' : 'SMI';
-  p('Suelo MEF — base de cálculo:', mefBaseTxt);
+  p('Suelo MEF — base de cálculo:', 'Convenio de ingeniería y oficinas técnicas');
   y += 2;
   linea();
 
@@ -501,12 +615,24 @@ function descargarPDF(){
   p('Suelo MEF (umbral antidiscriminatorio):', document.getElementById('r-mef').textContent);
   y += 2;
 
+  h('Referencias comparativas (no vinculantes)', 11, 7);
+  p('Suelo antidumping (coste sin beneficio industrial):', document.getElementById('r-antidumping').textContent);
+  p('HME según Directiva (UE) 2022/2041 (media INE):', document.getElementById('r-directiva').textContent);
+  p('Referencia SEGIPSA (BOE 27/5/2015):', document.getElementById('r-segipsa').textContent);
+  p('Referencia italiana (DM 17/6/2016):', document.getElementById('r-italia').textContent);
+  if (document.getElementById('procedimiento').value === 'publico') {
+    p(document.querySelector('#row-italia65 span:first-child').textContent + ':', document.getElementById('r-italia65').textContent);
+  }
+  y += 2;
+
   const diagTexto = document.getElementById('diagnostico').textContent
     .replace(/[☀-➿️]/g, '').trim();
   if (diagTexto) {
-    doc.setFillColor(244, 246, 249);
+    doc.setFont('helvetica', 'bold'); doc.setFontSize(9.5);
     const diagLines = doc.splitTextToSize(diagTexto, width - 8);
     const boxH = diagLines.length * 4.6 + 8;
+    ensureSpace(boxH + 4);
+    doc.setFillColor(244, 246, 249);
     doc.rect(marginL, y - 4, width, boxH, 'F');
     doc.setFont('helvetica', 'bold'); doc.setFontSize(9.5);
     doc.text(diagLines, marginL + 4, y + 1);
