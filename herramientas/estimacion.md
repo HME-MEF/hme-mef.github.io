@@ -47,7 +47,7 @@ mayor de dos **referencias de valor** externas:
 
 | Referencia | Qué mide |
 |---|---|
-| **Suelo MEF** | Coste de oportunidad de la equivalencia autónomo–asalariado. Mínimo absoluto. |
+| **Suelo MEF** | Coste de oportunidad — lo que costaría contratar a un empleado con la misma cualificación. Suelo antidiscriminatorio, calculado siempre sobre el salario de convenio (no sobre el SMI: al ser una actividad con reserva legal, el SMI no es un comparador adecuado). |
 | **Suelo de coste** | Coste real de producción del estudio (salario + gastos generales + beneficio industrial). |
 | **SEGIPSA** (BOE 27/5/2015) | % sobre PEM que la propia Administración General del Estado aplica a sus encomiendas de gestión. |
 | **Italia** (DM 17/6/2016) | Modelo de honorarios de base-valor vigente en la UE, citado como referencia comparada. |
@@ -56,6 +56,16 @@ Las horas del encargo (HME) se estiman automáticamente con el mismo
 método que el evaluador de indicios: la fórmula del DM 17/6/2016
 (CP = V·G·ΣQ·P) aplicada al PEM, la tipología/complejidad y el alcance
 elegidos.
+
+Además de la banda, la calculadora muestra tres **referencias
+comparativas** (trazo discontinuo), informativas y no vinculantes en
+España:
+
+| Referencia | Qué mide |
+|---|---|
+| **Suelo antidumping** | Umbral de cobertura de costes reales del estudio, sin beneficio industrial. Por debajo, la venta se considera a pérdida bajo el art. 17 de la Ley 3/1991 de Competencia Desleal. |
+| **HME según Directiva (UE) 2022/2041** | Aplica el criterio de adecuación salarial del art. 5.4 (salario medio del INE) a la fórmula del suelo MEF. Al ser un suelo de salario mínimo —como el SMI—, y no de empleo equivalente, queda por debajo del suelo MEF principal. |
+| **Italia, cuota fija** (solo proyecto público) | Cuota no rebajable en licitaciones públicas italianas: 65% del honorario si es ≥140.000 €, 80% si es menor (art. 41.15-bis Codice dei Contratti Pubblici). Normativa italiana, no exigible en España. |
 
 ### Advertencias
 
