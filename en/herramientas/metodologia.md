@@ -182,7 +182,18 @@ conversion rate of €60.5/h.
   professional firms; the most recent edition of the EACL should be
   reviewed periodically.
 - Operating costs (€17,569/year) are calculated for Madrid; in other cities
-  or regions the cost floor will vary.
+  or regions the cost floor will vary. An official source or industry
+  benchmark for this figure was explicitly sought — the ACE 2022 and 2024
+  Sector Studies and the ACE Observatory (its interactive data panel for
+  Spain) — without finding any data on technical-office rent or on
+  aggregate operating expenses by country; the rent component
+  (€10,500/year) remains a working assumption, conservative and editable,
+  with no external source. The professional-liability component
+  (€1,000/year) does have an industry benchmark, though aggregated at EU
+  level rather than Spain-specific: the ACE Sector Study 2024 (§3.12)
+  notes that nearly half of European practices spend less than 2.5% of
+  turnover on professional-liability premiums, which is consistent in
+  order of magnitude with the current assumption.
 - The reference gross remuneration (ACE, "employees of private firms")
   models the cost of a typical team, not the opportunity cost of a
   self-employed architect working alone — for that case, their real cost

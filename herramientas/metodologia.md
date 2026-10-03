@@ -182,7 +182,19 @@ tarifa de conversión de 60,5 €/h.
   profesionales; conviene revisar la edición más reciente de la EACL
   periódicamente.
 - Los costes operativos (17.569 €/año) están calculados para Madrid; en
-  otras ciudades o regiones el suelo de coste variará.
+  otras ciudades o regiones el suelo de coste variará. Se ha buscado
+  expresamente una fuente oficial o un benchmark de industria para esta
+  cifra —los estudios ACE 2022 y 2024 y el ACE Observatory (su panel de
+  datos interactivo para España)— sin localizar ningún dato de alquiler
+  de oficina técnica ni de gastos operativos agregados por país; el
+  componente de alquiler (10.500 €/año) se mantiene como hipótesis
+  propia, conservadora y editable, sin fuente externa. El componente de
+  responsabilidad civil (1.000 €/año) sí cuenta con un benchmark de
+  industria, aunque agregado a nivel UE y no específico de España: el
+  ACE Sector Study 2024 (§3.12) señala que casi la mitad de los
+  despachos europeos destinan menos del 2,5% de su facturación a primas
+  de RC profesional, lo que es coherente en orden de magnitud con la
+  hipótesis actual.
 - La retribución bruta de referencia (ACE, "empleados de empresas
   privadas") modela el coste de un equipo típico, no el coste de
   oportunidad de un arquitecto autónomo que trabaja en solitario — para
