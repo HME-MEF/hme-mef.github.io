@@ -42,7 +42,7 @@ How anyone uses these figures is a matter of their own judgment.
 | Operating costs (Madrid) | €17,569/year (rent €10,500, professional liability insurance €1,000, remainder) | Average market values in Madrid — **working assumption**, conservative and editable; with no single reference year, applied equally across the four years in the selector |
 | Annual hours | 1,792 h | Maximum working hours under the engineering and technical consultancy collective agreement — **collectively-bargained** |
 | Utilization rate | 59.3% (2024–2027) | "Architecture or A/E" segment, fiscal year **2025** — *47th Annual Deltek Clarity A&E Industry Study* (Deltek / CMG Consulting), "Statistics at a Glance" table, p. 122 (the narrative median for the whole A&E sector, not just architecture, is 58.9%, p. 99) — **industry benchmark, U.S.**, not an official Spanish figure ([full report](https://info.deltek.com/47th-Annual-Deltek-Clarity-AE-Report-PDF)). The only architecture-specific figure published; applied equally across the four years in the selector — see section 6 |
-| Reference gross remuneration (cost floor) | €38,345/year | Average between ACE **2020** public-sector employment (€44,512) and private-practice management (€32,178) — **working assumption**, with a starting figure from the Architects' Council of Europe |
+| Reference gross remuneration (cost floor) | €29,496.50/year | Average between two private-sector categories, ACE **2020**: sole administrator/partners/directors/senior management (€32,178) and employees of private firms (€26,815) — **working assumption**, with starting data from *The Architectural Profession in Europe 2020: A Sector Study* (Mirza & Nacey Research Ltd, 2021, p. 55), Architects' Council of Europe |
 | Employer cost-multiplier coefficient | 1.356 | Ratio of gross cost / wages and salaries, Services sector — [INE, Annual Labour Cost Survey (EACL), 2025, Table 1](https://www.ine.es/dyngs/Prensa/EACL2025.htm) (€37,717.75 / €27,817.39) — **industry benchmark (Spain)**; the INE does not break this down by a finer branch of activity, so the Services sector as a whole is taken as a proxy for architecture |
 | Overheads / industrial profit (cost floor) | 13% / 6% | By analogy with art. 131 RGLCAP (public works) — **regulatory by analogy**, not a figure specific to the architecture sector |
 | SMI (national minimum wage) | €15,120 (2023) / €15,876 (2024) / €16,576 (2025) / €17,094 (2026–2027) | **Regulatory** — [RD 99/2023](https://www.boe.es/buscar/doc.php?id=BOE-A-2023-3982), [BOE-A-2024-2251](https://www.boe.es/buscar/doc.php?id=BOE-A-2024-2251), [BOE-A-2025-2576](https://www.boe.es/buscar/doc.php?id=BOE-A-2025-2576), [BOE-A-2026-3815](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-3815). No Royal Decree published yet for 2027; the 2026 figure is kept |
@@ -82,16 +82,16 @@ work.
 
 ---
 
-## 2. Derivation of the cost floor (€58.23/h)
+## 2. Derivation of the cost floor (€44.79/h)
 
-1. Reference gross remuneration: **€38,345/year**.
+1. Reference gross remuneration: **€29,496.50/year**.
 2. × employer cost-multiplier coefficient (1.356 — *INE, EACL 2025, Services
    sector*): gross cost to the employer.
 3. ÷ (1,792 annual hours × 59.3% utilization rate — *Deltek Clarity A&E*):
    cost per effectively billable hour.
 4. × (1 + 13% overheads + 6% industrial profit): adds overheads and
    industrial profit by analogy with art. 131 RGLCAP.
-5. Result: **€58.23/h**.
+5. Result: **€44.79/h**.
 
 This floor answers the question "how much does it cost a practice to
 produce one hour of work, including its margin?" — it is a **cost** floor,
@@ -173,11 +173,11 @@ comparative calculation.
 
 | Year | Collective-agreement salary | SMI | MEF floor (collective agreement) | MEF floor (SMI) | Cost floor | Notes |
 |---|---|---|---|---|---|---|
-| 2023 | €28,027 | €15,120 | €30.61/h | €21.03/h | €58.23/h | Collective-agreement salary and SMI are official 2023 figures; utilization rate and cost-multiplier coefficient have no edition of their own for that year, so the same FY2025 Deltek / EACL 2025 figures used for every other year apply |
-| 2024 | €28,664 | €15,876 | €31.08/h | €21.59/h | €58.23/h | All figures are official or the reference benchmark (FY2025 Deltek, EACL 2025) verified for this year |
-| 2025 | €28,664 *(no agreed table; 2024 kept)* | €16,576 | €31.08/h | €22.11/h | €58.23/h | Official 2025 SMI; utilization rate and cost-multiplier coefficient with the latest published editions (Deltek FY2025, EACL 2025) |
-| 2026 | €28,664 *(no agreed table; 2024 kept)* | €17,094 | €31.08/h | €22.49/h | €58.23/h | Official 2026 SMI; utilization rate and cost-multiplier coefficient with no more recent edition, Deltek FY2025 / EACL 2025 kept |
-| 2027 | €28,664 *(no agreed table; 2024 kept)* | €17,094 *(no RD published; 2026 kept)* | €31.08/h | €22.49/h | €58.23/h | A year with no figure of its own published yet; all figures are the latest available |
+| 2023 | €28,027 | €15,120 | €30.61/h | €21.03/h | €44.79/h | Collective-agreement salary and SMI are official 2023 figures; utilization rate and cost-multiplier coefficient have no edition of their own for that year, so the same FY2025 Deltek / EACL 2025 figures used for every other year apply |
+| 2024 | €28,664 | €15,876 | €31.08/h | €21.59/h | €44.79/h | All figures are official or the reference benchmark (FY2025 Deltek, EACL 2025) verified for this year |
+| 2025 | €28,664 *(no agreed table; 2024 kept)* | €16,576 | €31.08/h | €22.11/h | €44.79/h | Official 2025 SMI; utilization rate and cost-multiplier coefficient with the latest published editions (Deltek FY2025, EACL 2025) |
+| 2026 | €28,664 *(no agreed table; 2024 kept)* | €17,094 | €31.08/h | €22.49/h | €44.79/h | Official 2026 SMI; utilization rate and cost-multiplier coefficient with no more recent edition, Deltek FY2025 / EACL 2025 kept |
+| 2027 | €28,664 *(no agreed table; 2024 kept)* | €17,094 *(no RD published; 2026 kept)* | €31.08/h | €22.49/h | €44.79/h | A year with no figure of its own published yet; all figures are the latest available |
 
 The cost floor does not change between 2023 and 2027 because its only three
 year-sensitive inputs — the reference gross remuneration (ACE 2020, a
@@ -207,4 +207,4 @@ assumptions."
 
 ---
 
-**Last updated**: September 2026
+**Last updated**: October 2026

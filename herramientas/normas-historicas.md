@@ -108,8 +108,8 @@ no hay tablas pactadas para esos años.
 
 Cifras de la [memoria técnica de la web]({{ '/herramientas/metodologia/' | relative_url }})
 (2 de octubre de 2026): suelo MEF base convenio 31,08 €/h y suelo de
-coste 58,23 €/h. La hora de 1977 actualizada a 2024 (59,39 €/h) queda un
-2% por encima del suelo de coste.
+coste 44,79 €/h. La hora de 1977 actualizada a 2024 (59,39 €/h) queda un
+32,6% por encima del suelo de coste.
 
 ---
 
@@ -137,7 +137,7 @@ convenio (21,27 €/h = 100).
 | **C. Honorarios de 1977 (incluyen gastos generales y beneficio)** | | | |
 | Hora 1977 por hora trabajada (59,39 € × 59,3% de facturabilidad) | 63.110 € | 35,22 € | +65,5% |
 | Hora 1977 facturable (ocupación del 100%) | 106.425 € | 59,39 € | +179,2% |
-| Suelo de coste de la calculadora (cifra de su memoria técnica) | 104.348 € | 58,23 € | +173,7% |
+| Suelo de coste de la calculadora (cifra de su memoria técnica) | 80.264 € | 44,79 € | +110,6% |
 
 **Notas**: las cifras de la calculadora se toman de su memoria técnica
 (2 de octubre de 2026) y se supone que están en euros de 2024. El 59,3%

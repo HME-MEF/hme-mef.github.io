@@ -112,7 +112,7 @@ there are no agreed tables for those years.
 
 Figures from the [site's technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }})
 (2 October 2026): collective-agreement-based MEF floor €31.08/h and cost
-floor €58.23/h. The 1977 hour, updated to 2024 (€59.39/h), is 2% above
+floor €44.79/h. The 1977 hour, updated to 2024 (€59.39/h), is 32.6% above
 the cost floor.
 
 ---
@@ -141,7 +141,7 @@ per hour over 1,792 h, against the collective-agreement employer cost
 | **C. 1977 fees (include overheads and profit)** | | | |
 | 1977 hour per hour actually worked (€59.39 × 59.3% utilization) | €63,110 | €35.22 | +65.5% |
 | 1977 billable hour (100% occupancy) | €106,425 | €59.39 | +179.2% |
-| Calculator's cost floor (figure from its technical methodology) | €104,348 | €58.23 | +173.7% |
+| Calculator's cost floor (figure from its technical methodology) | €80,264 | €44.79 | +110.6% |
 
 **Notes**: the calculator's figures are taken from its technical
 methodology (2 October 2026) and are assumed to be in 2024 euros. The

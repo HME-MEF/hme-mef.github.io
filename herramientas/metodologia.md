@@ -41,7 +41,7 @@ uso que cada quien haga de estas cifras depende de su propio criterio.
 | Costes operativos (Madrid) | 17.569 €/año (alquiler 10.500 €, responsabilidad civil 1.000 €, resto) | Valores medios de mercado en Madrid — **hipótesis propia**, conservadora y editable; sin año de referencia único, se aplica igual a los cuatro años del selector |
 | Horas anuales | 1.792 h | Jornada máxima del convenio de ingeniería y oficinas técnicas — **convencional** |
 | Facturabilidad (utilization rate) | 59,3% (2024–2027) | Segmento "Architecture or A/E", ejercicio fiscal **2025** — *47th Annual Deltek Clarity A&E Industry Study* (Deltek / CMG Consulting), tabla "Statistics at a Glance", p. 122 (la mediana narrativa de todo el sector A&E, no solo arquitectura, es 58,9%, p. 99) — **benchmark de industria, EE.UU.**, no es un dato oficial español ([informe completo](https://info.deltek.com/47th-Annual-Deltek-Clarity-AE-Report-PDF)). Único dato específico de arquitectura publicado; se aplica igual a los cuatro años del selector — ver sección 6 |
-| Retribución bruta de referencia (suelo de coste) | 38.345 €/año | Media entre ACE **2020** empleo público (44.512 €) y dirección de estudio privado (32.178 €) — **hipótesis propia**, con dato de partida del Architects' Council of Europe |
+| Retribución bruta de referencia (suelo de coste) | 29.496,50 €/año | Media entre dos categorías del sector privado, ACE **2020**: administrador único/socios/directivos/alta dirección (32.178 €) y empleados de empresas privadas (26.815 €) — **hipótesis propia**, con datos de partida de *The Architectural Profession in Europe 2020: A Sector Study* (Mirza & Nacey Research Ltd, 2021, p. 55), Architects' Council of Europe |
 | Coeficiente coste-empresa | 1,356 | Ratio coste bruto / sueldos y salarios, sector Servicios — [INE, Encuesta Anual de Coste Laboral (EACL), año 2025, Tabla 1](https://www.ine.es/dyngs/Prensa/EACL2025.htm) (37.717,75 € / 27.817,39 €) — **benchmark de industria (España)**; el INE no desglosa por rama de actividad más fina, así que se toma el conjunto de Servicios como proxy del sector arquitectura |
 | Gastos generales / beneficio industrial (suelo de coste) | 13% / 6% | Por analogía con el art. 131 RGLCAP (obra pública) — **normativo por analogía**, no una cifra propia del sector arquitectura |
 | SMI | 15.120 € (2023) / 15.876 € (2024) / 16.576 € (2025) / 17.094 € (2026–2027) | **Normativo** — [RD 99/2023](https://www.boe.es/buscar/doc.php?id=BOE-A-2023-3982), [BOE-A-2024-2251](https://www.boe.es/buscar/doc.php?id=BOE-A-2024-2251), [BOE-A-2025-2576](https://www.boe.es/buscar/doc.php?id=BOE-A-2025-2576), [BOE-A-2026-3815](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-3815). Sin Real Decreto publicado aún para 2027; se mantiene la cifra de 2026 |
@@ -82,16 +82,16 @@ Administración General del Estado a sus encomiendas de gestión.
 
 ---
 
-## 2. Derivación del suelo de coste (58,23 €/h)
+## 2. Derivación del suelo de coste (44,79 €/h)
 
-1. Retribución bruta de referencia: **38.345 €/año**.
+1. Retribución bruta de referencia: **29.496,50 €/año**.
 2. × coeficiente coste-empresa (1,356 — *INE, EACL 2025, sector Servicios*):
    coste bruto para el empleador.
 3. ÷ (1.792 horas anuales × 59,3% de facturabilidad — *Deltek Clarity A&E*):
    coste por hora efectivamente facturable.
 4. × (1 + 13% GG + 6% BI): añade gastos generales y beneficio industrial
    por analogía con el art. 131 RGLCAP.
-5. Resultado: **58,23 €/h**.
+5. Resultado: **44,79 €/h**.
 
 Este suelo responde a la pregunta "¿cuánto le cuesta a un estudio producir
 una hora de trabajo, incluyendo su margen?" — es un suelo de **coste**,
@@ -174,11 +174,11 @@ defecto, para no dar por supuesto un ejercicio en un cálculo comparativo.
 
 | Año | Salario convenio | SMI | Suelo MEF (convenio) | Suelo MEF (SMI) | Suelo de coste | Notas |
 |---|---|---|---|---|---|---|
-| 2023 | 28.027 € | 15.120 € | 30,61 €/h | 21,03 €/h | 58,23 €/h | Salario de convenio y SMI son cifras oficiales de 2023; facturabilidad y coeficiente coste-empresa sin edición propia de ese ejercicio, se usan las mismas FY2025 Deltek / EACL 2025 que en el resto de años |
-| 2024 | 28.664 € | 15.876 € | 31,08 €/h | 21,59 €/h | 58,23 €/h | Todos los datos son cifras oficiales o el benchmark de referencia (FY2025 Deltek, EACL 2025) verificadas para este ejercicio |
-| 2025 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 16.576 € | 31,08 €/h | 22,11 €/h | 58,23 €/h | SMI oficial de 2025; facturabilidad y coeficiente coste-empresa con las últimas ediciones publicadas (Deltek FY2025, EACL 2025) |
-| 2026 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € | 31,08 €/h | 22,49 €/h | 58,23 €/h | SMI oficial de 2026; facturabilidad y coeficiente coste-empresa sin edición más reciente, se mantienen Deltek FY2025 / EACL 2025 |
-| 2027 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € *(sin RD publicado; se mantiene 2026)* | 31,08 €/h | 22,49 €/h | 58,23 €/h | Año sin ningún dato propio publicado todavía; todas las cifras son la última disponible |
+| 2023 | 28.027 € | 15.120 € | 30,61 €/h | 21,03 €/h | 44,79 €/h | Salario de convenio y SMI son cifras oficiales de 2023; facturabilidad y coeficiente coste-empresa sin edición propia de ese ejercicio, se usan las mismas FY2025 Deltek / EACL 2025 que en el resto de años |
+| 2024 | 28.664 € | 15.876 € | 31,08 €/h | 21,59 €/h | 44,79 €/h | Todos los datos son cifras oficiales o el benchmark de referencia (FY2025 Deltek, EACL 2025) verificadas para este ejercicio |
+| 2025 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 16.576 € | 31,08 €/h | 22,11 €/h | 44,79 €/h | SMI oficial de 2025; facturabilidad y coeficiente coste-empresa con las últimas ediciones publicadas (Deltek FY2025, EACL 2025) |
+| 2026 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € | 31,08 €/h | 22,49 €/h | 44,79 €/h | SMI oficial de 2026; facturabilidad y coeficiente coste-empresa sin edición más reciente, se mantienen Deltek FY2025 / EACL 2025 |
+| 2027 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € *(sin RD publicado; se mantiene 2026)* | 31,08 €/h | 22,49 €/h | 44,79 €/h | Año sin ningún dato propio publicado todavía; todas las cifras son la última disponible |
 
 El suelo de coste no varía entre 2023 y 2027 porque sus tres únicos
 insumos sensibles al año —la retribución bruta de referencia (ACE 2020,
@@ -207,4 +207,4 @@ con el resto de "hipótesis propia" del modelo.
 
 ---
 
-**Última actualización**: Septiembre 2026
+**Última actualización**: Octubre 2026

@@ -139,7 +139,7 @@ hour of work, including its margin) adjusts those hours by a **utilization
 rate** (59.3%, Architecture/A-E segment for fiscal year 2025, an industry
 *benchmark* — Deltek Clarity A&E, not an official Spanish figure) and adds
 overheads and industrial profit by analogy with art. 131 RGLCAP, resulting
-in **€58.23/h**.
+in **€44.79/h**.
 
 These values are recalculated automatically, for each specific commission,
 in the [evaluator]({{ '/en/herramientas/evaluador/' | relative_url }}) and
