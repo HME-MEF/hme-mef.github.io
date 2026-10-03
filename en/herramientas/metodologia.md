@@ -265,13 +265,19 @@ Union](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022L2041)
 provides that Member States may use internationally common indicative
 reference values to assess the adequacy of their statutory minimum
 wages: 60% of the gross median wage or 50% of the gross average wage.
-Applied to Spain's gross median and average wage for 2024 (INE,
-*Decil de salarios del empleo principal*, press release of 14/11/2025),
-these criteria give the following indicative HME:
+This methodology does not apply that 60%/50% as a further discount, but
+as the justification for using the INE's median and average wage
+directly as the reference salary: if a minimum wage below 60% of the
+median is considered inadequate under the Directive, a reference salary
+**equal to** the median (well above that threshold) is, a fortiori, a
+defensible base for the HME. Applied this way to Spain's gross median
+and average wage for 2024 (INE, *Decil de salarios del empleo
+principal*, press release of 14/11/2025), the following indicative HME
+are obtained:
 
 | | From the median wage | From the average wage |
 |---|---|---|
-| Indicative HME (60% median / 50% average) | €2,001.40/month · €24,016.80/year | €2,385.60/month · €28,627.20/year |
+| Reference salary (INE median / average) | €2,001.40/month · €24,016.80/year | €2,385.60/month · €28,627.20/year |
 | Operating expenses and social security | €17,294.54/year | €18,816.00/year |
 | Resulting HME | €41,311.34/year | €47,443.20/year |
 | HME per hour (1,760 h/year working time) | €23.47/h | €26.96/h |

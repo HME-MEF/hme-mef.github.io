@@ -266,14 +266,19 @@ adecuados en la Unión Europea](https://eur-lex.europa.eu/legal-content/ES/TXT/?
 establece que los Estados miembros podrán utilizar valores de referencia
 indicativos de uso internacional para evaluar la adecuación de sus
 salarios mínimos legales: el 60% de la mediana salarial bruta o el 50%
-del salario medio bruto. Aplicados al salario bruto mediano y medio de
-España en 2024 (INE, *Decil de salarios del empleo principal*, nota de
-prensa de 14/11/2025), estos criterios dan los siguientes HME
-orientativos:
+del salario medio bruto. Esta memoria no aplica ese 60%/50% como un
+descuento adicional, sino como justificación de usar directamente la
+mediana y la media del INE como salario de referencia: si un salario
+mínimo por debajo del 60% de la mediana se considera inadecuado según
+la Directiva, un salario de referencia **igual** a la mediana (muy por
+encima de ese umbral) es, con más razón, una base defendible para el
+HME. Aplicados así al salario bruto mediano y medio de España en 2024
+(INE, *Decil de salarios del empleo principal*, nota de prensa de
+14/11/2025), se obtienen los siguientes HME orientativos:
 
 | | A partir del salario mediano | A partir del salario medio |
 |---|---|---|
-| HME orientativo (60% mediana / 50% media) | 2.001,40 €/mes · 24.016,80 €/año | 2.385,60 €/mes · 28.627,20 €/año |
+| Salario de referencia (mediana / media INE) | 2.001,40 €/mes · 24.016,80 €/año | 2.385,60 €/mes · 28.627,20 €/año |
 | Gastos de explotación y Seguridad Social | 17.294,54 €/año | 18.816,00 €/año |
 | HME resultante | 41.311,34 €/año | 47.443,20 €/año |
 | HME por hora (jornada de 1.760 h/año) | 23,47 €/h | 26,96 €/h |

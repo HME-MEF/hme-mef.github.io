@@ -70,6 +70,12 @@
     transform-origin: left top; transform: rotate(-90deg) translate(-6px, -12px);
     font-size:10.5px; color:#34495e; white-space:nowrap;
   }
+  .band .mark.dashed {
+    background:transparent; border-left:2px dashed #8a6100; width:0;
+  }
+  .band .mark.dashed .lbl, .band .mark.dashed .val { color:#8a6100; }
+  .result-box.comparativo { border:1px dashed #d8c58a; background:#fffdf7; }
+  .result-box.comparativo .result-row .v { color:#8a6100; }
 </style>
 </head>
 <body>
@@ -151,6 +157,8 @@
           </select>
 
           <label><input type="checkbox" id="coordseg"> Includes health and safety coordination (design + execution)</label>
+          <label style="margin-top:8px;"><input type="checkbox" id="publico" onchange="calcular()"> Commission for a public authority</label>
+          <div class="hint">Enables the informative "Italy, fixed share" reference (see "Comparative references").</div>
         </fieldset>
 
         <fieldset>
@@ -182,20 +190,31 @@
           <div class="result-row"><span>Italian reference (DM 17/6/2016)</span><span class="v" id="r-italia">—</span></div>
         </div>
 
+        <div class="result-box comparativo">
+          <div class="result-row"><span>Anti-dumping floor (cost without industrial profit)</span><span class="v" id="r-antidumping">—</span></div>
+          <div class="result-row"><span>HME under Directive (EU) 2022/2041 (INE median)</span><span class="v" id="r-directiva">—</span></div>
+          <div class="result-row" id="row-italia65"><span>Italy, non-discountable fixed share</span><span class="v" id="r-italia65">—</span></div>
+        </div>
+
         <div class="band" id="band-viz"></div>
         <div class="notice">
           The band runs from the MEF floor (the absolute anti-discrimination minimum) to the higher of
           the two external value references. A quote can reasonably fall anywhere within the band, or
           above it; below the MEF floor there is an indicator of undervaluation.
+          The dashed lines (in the chart, and the "Comparative references" box) are informative
+          cross-checks, not part of the band and not binding in Spain.
         </div>
 
         <h2>Origin of each reference</h2>
         <table class="ref">
-          <tr><th>Reference</th><th>Nature</th></tr>
-          <tr><td>MEF floor</td><td>Opportunity cost — what it would cost to hire an equivalent employee. Anti-discrimination floor.</td></tr>
-          <tr><td>Cost floor</td><td>The practice's production cost (salary + overheads + industrial profit), by analogy with art. 131 RGLCAP.</td></tr>
-          <tr><td>SEGIPSA</td><td>% of PEM applied by the Spanish General State Administration to its own commissioned work (BOE 27/5/2015).</td></tr>
-          <tr><td>Italy (DM 17/6/2016)</td><td>A value-based fee model in force in Italy, used here only as a comparative reference — see <a href="{{ '/en/marco-legal/' | relative_url }}">Legal Framework</a>.</td></tr>
+          <tr><th>Reference</th><th>Nature</th><th>Line</th></tr>
+          <tr><td>MEF floor</td><td>Opportunity cost — what it would cost to hire an equivalent employee. Anti-discrimination floor, with a constitutional basis (art. 14 of the Spanish Constitution).</td><td>Solid</td></tr>
+          <tr><td>Cost floor</td><td>The practice's production cost (salary + overheads + industrial profit), by analogy with art. 131 RGLCAP.</td><td>Solid</td></tr>
+          <tr><td>Anti-dumping floor</td><td>Threshold for covering the practice's real costs, without industrial profit (cost × 1.13 instead of × 1.19). Below it, selling is treated as below-cost under art. 17 of the <a href="https://www.boe.es/eli/es/l/1991/01/10/3/con">Ley 3/1991 de Competencia Desleal</a> (Spain's Unfair Competition Act). It is the lower bound of the cost floor, not an independent reference.</td><td>Dashed</td></tr>
+          <tr><td>SEGIPSA</td><td>% of PEM applied by the Spanish General State Administration to its own commissioned work (BOE 27/5/2015).</td><td>Solid</td></tr>
+          <tr><td>Italy (DM 17/6/2016)</td><td>A value-based fee model in force in Italy, used here only as a comparative reference — see <a href="{{ '/en/marco-legal/' | relative_url }}">Legal Framework</a>.</td><td>Solid</td></tr>
+          <tr><td>Italy, fixed share (public commissions only)</td><td>Non-discountable share in Italian public tenders: 65% of the fee if it is ≥€140,000, 80% if below that (art. 41.15-bis of the Codice dei Contratti Pubblici, D.Lgs. 36/2023, as amended by D.Lgs. 209/2024). Italian regulation, not binding in Spain — a reference for how much margin that system allows.</td><td>Dashed</td></tr>
+          <tr><td>HME under Directive (EU) 2022/2041</td><td>Applies the wage-adequacy criterion of art. 5(4) (the INE median wage as reference) to the MEF floor formula. Unlike the MEF floor, it has no constitutional anti-discrimination basis — it is an EU suggestion that Spain's own SMI does not even meet. See <a href="{{ '/en/herramientas/metodologia/' | relative_url }}">technical methodology, section 7.2</a>.</td><td>Dashed</td></tr>
         </table>
         <p style="font-size:12.5px; color:#7f8c8d; margin-top:10px;">
           The historical architects' fee regulations (1905, 1923, 1977), updated to today's euros, are compared against these references in the <a href="{{ '/en/herramientas/normas-historicas/' | relative_url }}">historical comparison of regulations</a>.
@@ -223,12 +242,27 @@ const SITE_URL = "https://www.hmef.eu";
 // limitations of each figure. Where no table or benchmark has been published for a given year, the
 // last official/verified figure is kept, explicitly flagged in NOTA_ANIO.
 const DATA_BY_YEAR = {
-  2023: { mefConvenio: 30.61, mefSmi: 21.03, sueloCoste: 44.79 },
-  2024: { mefConvenio: 31.08, mefSmi: 21.59, sueloCoste: 44.79 },
-  2025: { mefConvenio: 31.08, mefSmi: 22.11, sueloCoste: 44.79 },
-  2026: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 44.79 },
-  2027: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 44.79 }
+  2023: { mefConvenio: 30.61, mefSmi: 21.03, sueloCoste: 44.79, hmeDirectiva: 22.87 },
+  2024: { mefConvenio: 31.08, mefSmi: 21.59, sueloCoste: 44.79, hmeDirectiva: 23.47 },
+  2025: { mefConvenio: 31.08, mefSmi: 22.11, sueloCoste: 44.79, hmeDirectiva: 23.47 },
+  2026: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 44.79, hmeDirectiva: 23.47 },
+  2027: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 44.79, hmeDirectiva: 23.47 }
 };
+// hmeDirectiva: HME/h from the INE median wage (art. 5(4) of Directive (EU) 2022/2041), see
+// technical methodology, section 7.2. 2023: INE median wage €23,226/year (press release
+// 22/11/2024); 2024: €24,016.80/year (press release 14/11/2025); 2025-2027: no figure
+// published yet, the 2024 figure is kept.
+
+// Anti-dumping floor = cost floor without industrial profit: the same calculation as the cost
+// floor but with ×(1+13% overheads) instead of ×(1+13% overheads+6% industrial profit). See
+// technical methodology, section 2.
+const FACTOR_ANTIDUMPING = 1.13 / 1.19;
+
+// Non-discountable fixed share in Italian public tenders (art. 41.15-bis of the Codice dei
+// Contratti Pubblici, D.Lgs. 36/2023, as amended by D.Lgs. 209/2024).
+const ITALIA_UMBRAL_PUBLICO = 140000; // € — threshold on the fee (CP), not on the PEM
+const ITALIA_CUOTA_FIJA_ALTA = 0.65;  // if CP >= threshold
+const ITALIA_CUOTA_FIJA_BAJA = 0.80;  // if CP < threshold (max. 20% discount)
 
 const NOTA_ANIO = {
   2023: 'Collective-agreement salary: official 2023 table (XX Agreement, BOE-A-2023-11785). SMI: official 2023 figure (RD 99/2023). Utilization rate: no Deltek edition for that year; the FY2025 figure (the only one available) is used, as in every other year.',
@@ -321,11 +355,30 @@ function calcular(){
   const segipsa = segipsaTotal(pem, encargo);
   const italia = CP;
 
+  const antidumpingTotal = horas * SUELO_COSTE_H * FACTOR_ANTIDUMPING;
+  const directivaTotal = horas * d.hmeDirectiva;
+  const esPublico = document.getElementById('publico').checked;
+  const cuotaItalia = italia >= ITALIA_UMBRAL_PUBLICO ? ITALIA_CUOTA_FIJA_ALTA : ITALIA_CUOTA_FIJA_BAJA;
+  const italia65Total = italia * cuotaItalia;
+
   document.getElementById('r-horas').textContent = fmtH(horas) + ' h (G=' + G.toFixed(2) + ', ΣQ=' + SQ.toFixed(2) + ')';
   document.getElementById('r-mef').textContent = '€' + fmt(mefTotal);
   document.getElementById('r-coste').textContent = '€' + fmt(costeTotal);
   document.getElementById('r-segipsa').textContent = '€' + fmt(segipsa);
   document.getElementById('r-italia').textContent = '€' + fmt(italia);
+
+  document.getElementById('r-antidumping').textContent = '€' + fmt(antidumpingTotal);
+  document.getElementById('r-directiva').textContent = '€' + fmt(directivaTotal);
+  const rowItalia65 = document.getElementById('row-italia65');
+  if (esPublico) {
+    rowItalia65.style.display = '';
+    document.querySelector('#row-italia65 span:first-child').textContent =
+      'Italy, ' + (cuotaItalia * 100).toFixed(0) + '% fixed share (' +
+      (italia >= ITALIA_UMBRAL_PUBLICO ? '≥€140,000' : '<€140,000') + ')';
+    document.getElementById('r-italia65').textContent = '€' + fmt(italia65Total);
+  } else {
+    rowItalia65.style.display = 'none';
+  }
 
   const top = Math.max(mefTotal, costeTotal, segipsa, italia);
   const points = [
@@ -335,12 +388,26 @@ function calcular(){
     { v: italia, l: 'Italy' }
   ].sort(function(a,b){ return a.v - b.v; });
 
+  const dashedPoints = [
+    { v: antidumpingTotal, l: 'Anti-dumping' },
+    { v: directivaTotal, l: 'Directive' }
+  ];
+  if (esPublico) dashedPoints.push({ v: italia65Total, l: 'Italy ' + (cuotaItalia*100).toFixed(0) + '%' });
+
   const band = document.getElementById('band-viz');
   band.innerHTML = '<div class="band-bar"></div>';
   points.forEach(function(p){
     const pct = top > 0 ? (p.v / top * 92) + 4 : 50;
     const mark = document.createElement('div');
     mark.className = 'mark';
+    mark.style.left = pct + '%';
+    mark.innerHTML = '<span class="lbl">' + p.l + '</span><span class="val">€' + fmt(p.v) + '</span>';
+    band.appendChild(mark);
+  });
+  dashedPoints.forEach(function(p){
+    const pct = top > 0 ? (p.v / top * 92) + 4 : 50;
+    const mark = document.createElement('div');
+    mark.className = 'mark dashed';
     mark.style.left = pct + '%';
     mark.innerHTML = '<span class="lbl">' + p.l + '</span><span class="val">€' + fmt(p.v) + '</span>';
     band.appendChild(mark);
@@ -418,6 +485,7 @@ async function descargarPDF(){
   p('Degree of complexity:', document.getElementById('complejidad').selectedOptions[0].text);
   p('Type of commission:', document.getElementById('encargo').selectedOptions[0].text);
   p('Health and safety coordination:', document.getElementById('coordseg').checked ? 'Yes' : 'No');
+  p('Commission for a public authority:', document.getElementById('publico').checked ? 'Yes' : 'No');
   const mefBaseTxt = document.querySelector('input[name=mefbase]:checked').value === 'convenio' ? 'Collective agreement' : 'SMI';
   p('MEF floor — calculation base:', mefBaseTxt);
   p('Estimated commission hours (HME):', document.getElementById('r-horas').textContent);
@@ -429,6 +497,15 @@ async function descargarPDF(){
   p('Cost floor:', document.getElementById('r-coste').textContent);
   p('SEGIPSA reference (BOE 27/5/2015):', document.getElementById('r-segipsa').textContent);
   p('Italian reference (DM 17/6/2016):', document.getElementById('r-italia').textContent);
+  y += 2;
+  linea();
+
+  h('Comparative references (not binding)', 11, 7);
+  p('Anti-dumping floor (cost without industrial profit):', document.getElementById('r-antidumping').textContent);
+  p('HME under Directive (EU) 2022/2041 (INE median):', document.getElementById('r-directiva').textContent);
+  if (document.getElementById('publico').checked) {
+    p(document.querySelector('#row-italia65 span:first-child').textContent + ':', document.getElementById('r-italia65').textContent);
+  }
   y += 4;
 
   try {
@@ -444,7 +521,9 @@ async function descargarPDF(){
 
   parrafo('The band runs from the MEF floor (the absolute anti-discrimination minimum) to the ' +
     'higher of the two external value references. A quote can reasonably fall anywhere within the ' +
-    'band, or above it; below the MEF floor there is an indicator of undervaluation.');
+    'band, or above it; below the MEF floor there is an indicator of undervaluation. The comparative ' +
+    'references (anti-dumping, Directive (EU) 2022/2041, Italian fixed share) are informative ' +
+    'cross-checks, not part of the band and not binding in Spain.');
 
   linea();
   h('Caveats and methodology', 11, 7);

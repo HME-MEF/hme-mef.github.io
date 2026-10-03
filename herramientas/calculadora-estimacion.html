@@ -70,6 +70,12 @@
     transform-origin: left top; transform: rotate(-90deg) translate(-6px, -12px);
     font-size:10.5px; color:#34495e; white-space:nowrap;
   }
+  .band .mark.dashed {
+    background:transparent; border-left:2px dashed #8a6100; width:0;
+  }
+  .band .mark.dashed .lbl, .band .mark.dashed .val { color:#8a6100; }
+  .result-box.comparativo { border:1px dashed #d8c58a; background:#fffdf7; }
+  .result-box.comparativo .result-row .v { color:#8a6100; }
 </style>
 </head>
 <body>
@@ -151,6 +157,8 @@
           </select>
 
           <label><input type="checkbox" id="coordseg"> Incluye coordinación de seguridad y salud (ESS + CSS)</label>
+          <label style="margin-top:8px;"><input type="checkbox" id="publico" onchange="calcular()"> Encargo para una administración pública</label>
+          <div class="hint">Activa la referencia informativa "Italia, cuota fija" (ver sección "Referencias comparativas").</div>
         </fieldset>
 
         <fieldset>
@@ -182,20 +190,31 @@
           <div class="result-row"><span>Referencia italiana (DM 17/6/2016)</span><span class="v" id="r-italia">—</span></div>
         </div>
 
+        <div class="result-box comparativo">
+          <div class="result-row"><span>Suelo antidumping (coste sin beneficio industrial)</span><span class="v" id="r-antidumping">—</span></div>
+          <div class="result-row"><span>HME según Directiva (UE) 2022/2041 (mediana INE)</span><span class="v" id="r-directiva">—</span></div>
+          <div class="result-row" id="row-italia65"><span>Italia, cuota fija no rebajable</span><span class="v" id="r-italia65">—</span></div>
+        </div>
+
         <div class="band" id="band-viz"></div>
         <div class="notice">
           La banda va del suelo MEF (mínimo absoluto antidiscriminatorio) a la mayor de las dos
           referencias de valor externas. Un presupuesto puede razonablemente situarse en cualquier
           punto de la banda, o por encima; por debajo del suelo MEF hay indicio de infravaloración.
+          Las líneas discontinuas (en el gráfico, y el recuadro "Referencias comparativas") son
+          puntos de contraste informativos, no forman parte de la banda ni son vinculantes en España.
         </div>
 
         <h2>Origen de cada referencia</h2>
         <table class="ref">
-          <tr><th>Referencia</th><th>Naturaleza</th></tr>
-          <tr><td>Suelo MEF</td><td>Coste de oportunidad — lo que costaría contratar a un empleado equivalente. Suelo antidiscriminatorio.</td></tr>
-          <tr><td>Suelo de coste</td><td>Coste de producción del estudio (salario + GG + BI), por analogía con el art. 131 RGLCAP.</td></tr>
-          <tr><td>SEGIPSA</td><td>% sobre PEM aplicado por la Administración General del Estado a sus propias encomiendas de gestión (BOE 27/5/2015).</td></tr>
-          <tr><td>Italia (DM 17/6/2016)</td><td>Modelo de honorarios de base-valor vigente en Italia, usado aquí solo como referencia comparada — ver <a href="{{ '/marco-legal/' | relative_url }}">Marco Legal</a>.</td></tr>
+          <tr><th>Referencia</th><th>Naturaleza</th><th>Trazo</th></tr>
+          <tr><td>Suelo MEF</td><td>Coste de oportunidad — lo que costaría contratar a un empleado equivalente. Suelo antidiscriminatorio, con fundamento constitucional (art. 14 CE).</td><td>Sólido</td></tr>
+          <tr><td>Suelo de coste</td><td>Coste de producción del estudio (salario + GG + BI), por analogía con el art. 131 RGLCAP.</td><td>Sólido</td></tr>
+          <tr><td>Suelo antidumping</td><td>Umbral de cobertura de costes reales del estudio, sin beneficio industrial (coste × 1,13 en vez de × 1,19). Por debajo, la venta se considera a pérdida bajo el art. 17 de la <a href="https://www.boe.es/eli/es/l/1991/01/10/3/con">Ley 3/1991 de Competencia Desleal</a>. Es el límite inferior del suelo de coste, no una referencia independiente.</td><td>Discontinuo</td></tr>
+          <tr><td>SEGIPSA</td><td>% sobre PEM aplicado por la Administración General del Estado a sus propias encomiendas de gestión (BOE 27/5/2015).</td><td>Sólido</td></tr>
+          <tr><td>Italia (DM 17/6/2016)</td><td>Modelo de honorarios de base-valor vigente en Italia, usado aquí solo como referencia comparada — ver <a href="{{ '/marco-legal/' | relative_url }}">Marco Legal</a>.</td><td>Sólido</td></tr>
+          <tr><td>Italia, cuota fija (solo proyecto público)</td><td>Cuota no rebajable en licitaciones públicas italianas: 65% del honorario si es ≥140.000 €, 80% si es menor (art. 41.15-bis Codice dei Contratti Pubblici, D.Lgs. 36/2023, modificado por D.Lgs. 209/2024). Normativa italiana, no exigible en España — referencia de cuánto margen admite ese sistema.</td><td>Discontinuo</td></tr>
+          <tr><td>HME según Directiva (UE) 2022/2041</td><td>Aplica el criterio de adecuación salarial del art. 5.4 (salario mediano del INE como referencia) a la fórmula del suelo MEF. A diferencia de este, no tiene fundamento constitucional de no discriminación — es una sugerencia de la UE que ni el propio SMI español cumple. Ver <a href="{{ '/herramientas/metodologia/' | relative_url }}">memoria técnica, sección 7.2</a>.</td><td>Discontinuo</td></tr>
         </table>
         <p style="font-size:12.5px; color:#7f8c8d; margin-top:10px;">
           Las tarifas históricas de honorarios de arquitecto (1905, 1923, 1977), actualizadas a euros de hoy, se comparan con estas referencias en la <a href="{{ '/herramientas/normas-historicas/' | relative_url }}">comparación histórica de normas</a>.
@@ -223,12 +242,26 @@ const SITE_URL = "https://www.hmef.eu";
 // limitaciones de cada cifra. Donde no hay tabla o benchmark publicado para un año, se mantiene
 // la última cifra oficial/verificada disponible, marcada explícitamente en NOTA_ANIO.
 const DATA_BY_YEAR = {
-  2023: { mefConvenio: 30.61, mefSmi: 21.03, sueloCoste: 44.79 },
-  2024: { mefConvenio: 31.08, mefSmi: 21.59, sueloCoste: 44.79 },
-  2025: { mefConvenio: 31.08, mefSmi: 22.11, sueloCoste: 44.79 },
-  2026: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 44.79 },
-  2027: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 44.79 }
+  2023: { mefConvenio: 30.61, mefSmi: 21.03, sueloCoste: 44.79, hmeDirectiva: 22.87 },
+  2024: { mefConvenio: 31.08, mefSmi: 21.59, sueloCoste: 44.79, hmeDirectiva: 23.47 },
+  2025: { mefConvenio: 31.08, mefSmi: 22.11, sueloCoste: 44.79, hmeDirectiva: 23.47 },
+  2026: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 44.79, hmeDirectiva: 23.47 },
+  2027: { mefConvenio: 31.08, mefSmi: 22.49, sueloCoste: 44.79, hmeDirectiva: 23.47 }
 };
+// hmeDirectiva: HME/h a partir de la mediana salarial del INE (art. 5.4 Directiva (UE) 2022/2041),
+// ver memoria técnica, sección 7.2. 2023: salario mediano INE 23.226 €/año (nota de prensa
+// 22/11/2024); 2024: 24.016,80 €/año (nota de prensa 14/11/2025); 2025-2027: sin dato publicado
+// aún, se mantiene la cifra de 2024.
+
+// Suelo antidumping = suelo de coste sin beneficio industrial: mismo cálculo que el suelo de
+// coste pero con ×(1+13% GG) en vez de ×(1+13% GG+6% BI). Ver memoria técnica, sección 2.
+const FACTOR_ANTIDUMPING = 1.13 / 1.19;
+
+// Cuota fija no rebajable en licitaciones públicas italianas (art. 41.15-bis Codice dei
+// Contratti Pubblici, D.Lgs. 36/2023, modificado por D.Lgs. 209/2024).
+const ITALIA_UMBRAL_PUBLICO = 140000; // € — umbral sobre el honorario (CP), no sobre el PEM
+const ITALIA_CUOTA_FIJA_ALTA = 0.65;  // si CP >= umbral
+const ITALIA_CUOTA_FIJA_BAJA = 0.80;  // si CP < umbral (máx. 20% de rebaja)
 
 const NOTA_ANIO = {
   2023: 'Salario de convenio: tabla oficial de 2023 (XX Convenio, BOE-A-2023-11785). SMI: dato oficial de 2023 (RD 99/2023). Facturabilidad: sin edición Deltek de ese ejercicio; se usa la cifra FY2025 (única disponible), igual que en el resto de años.',
@@ -321,11 +354,30 @@ function calcular(){
   const segipsa = segipsaTotal(pem, encargo);
   const italia = CP;
 
+  const antidumpingTotal = horas * SUELO_COSTE_H * FACTOR_ANTIDUMPING;
+  const directivaTotal = horas * d.hmeDirectiva;
+  const esPublico = document.getElementById('publico').checked;
+  const cuotaItalia = italia >= ITALIA_UMBRAL_PUBLICO ? ITALIA_CUOTA_FIJA_ALTA : ITALIA_CUOTA_FIJA_BAJA;
+  const italia65Total = italia * cuotaItalia;
+
   document.getElementById('r-horas').textContent = fmtH(horas) + ' h (G=' + G.toFixed(2) + ', ΣQ=' + SQ.toFixed(2) + ')';
   document.getElementById('r-mef').textContent = fmt(mefTotal) + ' €';
   document.getElementById('r-coste').textContent = fmt(costeTotal) + ' €';
   document.getElementById('r-segipsa').textContent = fmt(segipsa) + ' €';
   document.getElementById('r-italia').textContent = fmt(italia) + ' €';
+
+  document.getElementById('r-antidumping').textContent = fmt(antidumpingTotal) + ' €';
+  document.getElementById('r-directiva').textContent = fmt(directivaTotal) + ' €';
+  const rowItalia65 = document.getElementById('row-italia65');
+  if (esPublico) {
+    rowItalia65.style.display = '';
+    document.querySelector('#row-italia65 span:first-child').textContent =
+      'Italia, cuota fija ' + (cuotaItalia * 100).toFixed(0) + '% (' +
+      (italia >= ITALIA_UMBRAL_PUBLICO ? '≥140.000 €' : '<140.000 €') + ')';
+    document.getElementById('r-italia65').textContent = fmt(italia65Total) + ' €';
+  } else {
+    rowItalia65.style.display = 'none';
+  }
 
   const top = Math.max(mefTotal, costeTotal, segipsa, italia);
   const points = [
@@ -335,12 +387,26 @@ function calcular(){
     { v: italia, l: 'Italia' }
   ].sort(function(a,b){ return a.v - b.v; });
 
+  const dashedPoints = [
+    { v: antidumpingTotal, l: 'Antidumping' },
+    { v: directivaTotal, l: 'Directiva' }
+  ];
+  if (esPublico) dashedPoints.push({ v: italia65Total, l: 'Italia ' + (cuotaItalia*100).toFixed(0) + '%' });
+
   const band = document.getElementById('band-viz');
   band.innerHTML = '<div class="band-bar"></div>';
   points.forEach(function(p){
     const pct = top > 0 ? (p.v / top * 92) + 4 : 50;
     const mark = document.createElement('div');
     mark.className = 'mark';
+    mark.style.left = pct + '%';
+    mark.innerHTML = '<span class="lbl">' + p.l + '</span><span class="val">' + fmt(p.v) + ' €</span>';
+    band.appendChild(mark);
+  });
+  dashedPoints.forEach(function(p){
+    const pct = top > 0 ? (p.v / top * 92) + 4 : 50;
+    const mark = document.createElement('div');
+    mark.className = 'mark dashed';
     mark.style.left = pct + '%';
     mark.innerHTML = '<span class="lbl">' + p.l + '</span><span class="val">' + fmt(p.v) + ' €</span>';
     band.appendChild(mark);
@@ -418,6 +484,7 @@ async function descargarPDF(){
   p('Grado de complejidad:', document.getElementById('complejidad').selectedOptions[0].text);
   p('Tipo de encargo:', document.getElementById('encargo').selectedOptions[0].text);
   p('Coordinación de seguridad y salud:', document.getElementById('coordseg').checked ? 'Sí' : 'No');
+  p('Encargo para administración pública:', document.getElementById('publico').checked ? 'Sí' : 'No');
   const mefBaseTxt = document.querySelector('input[name=mefbase]:checked').value === 'convenio' ? 'Convenio' : 'SMI';
   p('Suelo MEF — base de cálculo:', mefBaseTxt);
   p('Horas estimadas del encargo (HME):', document.getElementById('r-horas').textContent);
@@ -429,6 +496,15 @@ async function descargarPDF(){
   p('Suelo de coste:', document.getElementById('r-coste').textContent);
   p('Referencia SEGIPSA (BOE 27/5/2015):', document.getElementById('r-segipsa').textContent);
   p('Referencia italiana (DM 17/6/2016):', document.getElementById('r-italia').textContent);
+  y += 2;
+  linea();
+
+  h('Referencias comparativas (no vinculantes)', 11, 7);
+  p('Suelo antidumping (coste sin beneficio industrial):', document.getElementById('r-antidumping').textContent);
+  p('HME según Directiva (UE) 2022/2041 (mediana INE):', document.getElementById('r-directiva').textContent);
+  if (document.getElementById('publico').checked) {
+    p(document.querySelector('#row-italia65 span:first-child').textContent + ':', document.getElementById('r-italia65').textContent);
+  }
   y += 4;
 
   try {
@@ -445,7 +521,9 @@ async function descargarPDF(){
   parrafo('La banda va del suelo MEF (mínimo absoluto antidiscriminatorio) a la mayor de ' +
     'las dos referencias de valor externas. Un presupuesto puede razonablemente situarse ' +
     'en cualquier punto de la banda, o por encima; por debajo del suelo MEF hay indicio de ' +
-    'infravaloración.');
+    'infravaloración. Las referencias comparativas (antidumping, Directiva (UE) 2022/2041, ' +
+    'cuota fija italiana) son puntos de contraste informativos, no forman parte de la banda ' +
+    'ni son vinculantes en España.');
 
   linea();
   h('Advertencias y metodología', 11, 7);
