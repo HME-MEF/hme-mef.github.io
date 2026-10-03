@@ -98,6 +98,18 @@ una hora de trabajo, incluyendo su margen?" — es un suelo de **coste**,
 no un suelo antidiscriminatorio. Un honorario por debajo de este suelo no
 es necesariamente discriminatorio, pero sí indica un precio inferior al adecuado.
 
+**Nota — umbral de cobertura de costes (sin beneficio industrial):** de los
+dos componentes del paso 4, solo los gastos generales (GG) son coste real
+de explotación del estudio; el beneficio industrial (BI) es margen, no
+coste. Si se repite el cálculo aplicando solo el GG (× 1,13, sin el BI),
+el resultado es **42,54 €/h**: el umbral por debajo del cual un estudio no
+cubre siquiera sus costes reales. Esta distinción es relevante porque el
+art. 17 de la [Ley 3/1991, de 10 de enero, de Competencia Desleal](https://www.boe.es/eli/es/l/1991/01/10/3/con)
+("venta a pérdida") considera deslealtad vender por debajo de **coste**,
+no por debajo de coste más beneficio; el suelo de coste completo (con BI)
+es, por tanto, más exigente que el umbral legal de no dumping, que se
+sitúa en los 42,54 €/h.
+
 ## 3. Derivación del suelo MEF (por año — ver tabla en la sección 6)
 
 1. Salario de referencia del año seleccionado (convenio; o SMI, según la

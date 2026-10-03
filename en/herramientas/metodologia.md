@@ -98,6 +98,18 @@ produce one hour of work, including its margin?" — it is a **cost** floor,
 not an anti-discrimination floor. A fee below this floor is not necessarily
 discriminatory, but it does indicate a price lower than adequate.
 
+**Note — cost-coverage threshold (without industrial profit):** of the two
+components in step 4, only overheads (GG) are a real operating cost for
+the practice; industrial profit (BI) is margin, not cost. Repeating the
+calculation with only the overheads applied (× 1.13, without the
+industrial profit) gives **€42.54/h**: the threshold below which a
+practice does not even cover its real costs. This distinction matters
+because art. 17 of the [Ley 3/1991, de 10 de enero, de Competencia Desleal](https://www.boe.es/eli/es/l/1991/01/10/3/con)
+(Spain's Unfair Competition Act, "venta a pérdida" / selling at a loss)
+treats selling below **cost** — not below cost plus profit — as unfair.
+The full cost floor (with industrial profit) is therefore stricter than
+the legal no-dumping threshold, which sits at €42.54/h.
+
 ## 3. Derivation of the MEF floor (by year — see table in section 6)
 
 1. Reference salary for the selected year (collectively-bargained; or the
