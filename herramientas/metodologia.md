@@ -228,6 +228,36 @@ con el resto de "hipótesis propia" del modelo.
 
 ---
 
+## 7. Validación externa de mercado
+
+Como referencia independiente, el estudio *ACE Sector Study 2024* (Mirza
+& Nacey Research Ltd, abril 2025) recoge en su Tabla 3-5 las tarifas
+horarias de facturación medias que efectivamente aplican los estudios de
+arquitectura en España, por categoría profesional:
+
+| Categoría | €/h ajustado por PPA | €/h sin ajustar |
+|---|---|---|
+| Principales (socios/directores) | 41 | 39 |
+| Empleados arquitectos | 37 | 35 |
+| Delineantes/técnicos | 26 | 25 |
+
+Son tarifas de mercado (lo que de hecho se factura a clientes), no de
+coste, por lo que no son directamente equivalentes al suelo MEF ni al
+suelo de coste de esta memoria — pero su comparación es reveladora: la
+tarifa media de mercado para principales en España (39–41 €/h) queda por
+encima del suelo MEF (31,08 €/h), pero **por debajo** tanto del umbral
+de cobertura de costes sin beneficio industrial (42,54 €/h, ver sección
+2) como del suelo de coste completo (44,79 €/h). Es decir, la tarifa
+media que de hecho se cobra en el mercado español no llega a cubrir el
+coste real de producir esa hora, lo que es coherente con el diagnóstico
+de fondo de esta memoria: los honorarios de mercado tienden a situarse
+por debajo del coste real del servicio.
+
+Fuente: *The Architectural Profession in Europe 2024*, Mirza & Nacey
+Research Ltd, abril 2025, Tabla 3-5, p. 40.
+
+---
+
 ## Más información
 
 [**Evaluador de indicios de discriminación →**]({{ '/herramientas/evaluador/' | relative_url }})

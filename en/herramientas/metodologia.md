@@ -228,6 +228,35 @@ assumptions."
 
 ---
 
+## 7. External market validation
+
+As an independent reference, the *ACE Sector Study 2024* (Mirza & Nacey
+Research Ltd, April 2025) gives, in its Table 3-5, the average hourly
+charge-out rates actually billed by architecture practices in Spain, by
+professional category:
+
+| Category | €/h adjusted for PPP | €/h unadjusted |
+|---|---|---|
+| Principals (partners/directors) | 41 | 39 |
+| Architect employees | 37 | 35 |
+| Technologists | 26 | 25 |
+
+These are market rates (what is actually billed to clients), not cost
+figures, so they are not directly equivalent to this methodology's MEF
+floor or cost floor — but the comparison is revealing: Spain's average
+market rate for principals (€39–41/h) sits above the MEF floor
+(€31.08/h), but **below** both the cost-coverage threshold without
+industrial profit (€42.54/h, see section 2) and the full cost floor
+(€44.79/h). In other words, the rate actually billed on average in the
+Spanish market does not cover the real cost of producing that hour of
+work — consistent with this methodology's underlying diagnosis that
+market fees tend to sit below the real cost of the service.
+
+Source: *The Architectural Profession in Europe 2024*, Mirza & Nacey
+Research Ltd, April 2025, Table 3-5, p. 40.
+
+---
+
 ## More information
 
 [**Pay-discrimination evaluator →**]({{ '/en/herramientas/evaluador/' | relative_url }})
