@@ -193,6 +193,7 @@ con el resto de "hipótesis propia" del modelo.
 
 [**Evaluador de indicios de discriminación →**]({{ '/herramientas/evaluador/' | relative_url }})
 [**Estimador de banda de honorarios →**]({{ '/herramientas/estimacion/' | relative_url }})
+[**Comparación histórica de las normas de honorarios (1905–1977) →**]({{ '/herramientas/normas-historicas/' | relative_url }})
 [**Ver Marco Legal completo →**]({{ '/marco-legal/' | relative_url }})
 
 ---

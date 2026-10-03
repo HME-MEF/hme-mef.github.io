@@ -194,6 +194,7 @@ assumptions."
 
 [**Pay-discrimination evaluator →**]({{ '/en/herramientas/evaluador/' | relative_url }})
 [**Fee band estimator →**]({{ '/en/herramientas/estimacion/' | relative_url }})
+[**Historical comparison of the fee regulations (1905–1977) →**]({{ '/en/herramientas/normas-historicas/' | relative_url }})
 [**See the full Legal Framework →**]({{ '/en/marco-legal/' | relative_url }})
 
 ---

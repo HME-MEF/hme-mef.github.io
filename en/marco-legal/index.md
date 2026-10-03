@@ -224,6 +224,12 @@ Replaces the 1905 tariff with the same structure (six groups, a decreasing perce
 Approves the "Tariff of fees of Architects for the works of their profession," mandatory for twenty years. Regulates fees by commission phase (preliminary studies, preliminary design, basic project, execution project, site supervision), by building type, and an annual update factor (Fa) tied to the cost-of-living index. It is the last mandatory-tariff framework before the 1997 liberalisation.
 [Download RD 2512/1977]({{ '/assets/docs/rd-2512-1977-tarifas-honorarios-es.pdf' | relative_url }}) *(Spanish original)*
 
+**Quantitative comparison**: the 1905, 1923 and 1977 fee scales, updated
+to 2024–2026 euros, converge with the employer cost under the current
+collective agreement — evidence that these State-regulated minimums are
+not an arbitrary figure. See the
+[full historical comparison]({{ '/en/herramientas/normas-historicas/' | relative_url }}).
+
 #### COAM — Indicative fee scales 2007 (adapted to the CTE building code)
 
 The current indicative-reference document of the Madrid Official Association of Architects (COAM), drawn up pursuant to art. 5.ñ) of Law 7/1997 and art. 14.e) of Law 19/1997 on Professional Associations of the Community of Madrid. It considers the degree of work, training, knowledge, dedication and costs necessary to carry out a commission, with coefficient tables by floor area, use and complexity. Expressly compatible with the freedom of contract under Law 7/1997: it does not set fees, it guides them.

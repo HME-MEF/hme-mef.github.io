@@ -276,6 +276,12 @@ coste de la vida. Constituye el último marco de tarifa obligatoria antes
 de la liberalización de 1997.
 [Descargar RD 2512/1977]({{ '/assets/docs/rd-2512-1977-tarifas-honorarios-es.pdf' | relative_url }})
 
+**Comparación cuantitativa**: las tarifas de 1905, 1923 y 1977, actualizadas
+a euros de 2024–2026, convergen con el coste de empleador del convenio
+colectivo vigente —evidencia de que estos mínimos regulados por el Estado
+no son una cifra arbitraria. Ver la
+[comparación histórica completa]({{ '/herramientas/normas-historicas/' | relative_url }}).
+
 #### COAM — Baremos Orientativos 2007 (adaptación al CTE)
 
 Documento vigente de referencia orientativa del Colegio Oficial de
