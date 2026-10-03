@@ -117,7 +117,7 @@ in the [technical methodology]({{ '/en/herramientas/metodologia/' | relative_url
 ### Reference case
 
 The model has been validated against two real project-drafting contracts
-recorded by COAM's Fee Observatory (26/5/2025) — they correspond to year
+recorded by the CSCAE's Fee Observatory (26/5/2025) — they correspond to year
 2025 in the tool's year selector:
 
 | Item | Ripollet (Library) | Sta. Margarida (Police station) |

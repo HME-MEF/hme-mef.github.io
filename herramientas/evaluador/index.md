@@ -118,7 +118,7 @@ suelos, está en la [memoria técnica]({{ '/herramientas/metodologia/' | relativ
 ### Caso de referencia
 
 El modelo se ha validado con dos contratos reales de redacción de
-proyecto recogidos por el Observatorio de Honorarios del COAM
+proyecto recogidos por el Observatorio de Honorarios del CSCAE
 (26/5/2025) — corresponden al año 2025 en el selector de año de la
 herramienta:
 
