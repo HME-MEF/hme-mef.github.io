@@ -15,8 +15,13 @@ motor de cálculo (estimación de horas, suelo de coste, suelo MEF).
 
 Ambas calculadoras incluyen un **selector de año** (2024–2027), porque el
 salario de convenio, el SMI y la facturabilidad Deltek sí varían de un
-ejercicio a otro (a diferencia del modelo italiano o de SEGIPSA, que no
-dependen del año). Ver la sección 6 para el detalle de qué cambia por año
+ejercicio a otro. El modelo italiano y SEGIPSA no tienen un valor
+distinto por año en esta herramienta, pero sí se actualizan de facto con
+la inflación de la construcción: ambos se calculan como un porcentaje
+sobre el PEM (presupuesto de ejecución material), por lo que su importe
+en euros corrientes sube o baja junto con el coste de la obra, sin
+necesidad de una revisión normativa expresa. Ver la sección 6 para el
+detalle de qué cambia por año
 y qué se mantiene por falta de dato publicado.
 
 No es una tarifa ni un baremo: es una metodología de justificación de

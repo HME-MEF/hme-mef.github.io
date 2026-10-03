@@ -16,9 +16,13 @@ estimation, cost floor, MEF floor).
 
 Both calculators include a **year selector** (2024–2027), because the
 collectively-bargained salary, the SMI (national minimum wage) and the
-Deltek utilization rate do vary from one year to the next (unlike the
-Italian model or SEGIPSA, which do not depend on the year). See section 6
-for the detail of what changes by year and what stays constant for lack of
+Deltek utilization rate do vary from one year to the next. The Italian
+model and SEGIPSA do not carry a different value per year in this tool,
+but they do update de facto with construction-cost inflation: both are
+calculated as a percentage of the PEM (direct-execution budget), so
+their amount in current euros rises or falls along with the cost of the
+works, without needing an express regulatory revision. See section 6 for
+the detail of what changes by year and what stays constant for lack of
 published data.
 
 It is not a tariff or a fee scale: it is a cost-justification methodology,
