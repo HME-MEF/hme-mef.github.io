@@ -40,6 +40,7 @@
   .result-row { display:flex; justify-content:space-between; padding:6px 0; border-bottom:1px solid #eceff2; font-size:13px; }
   .result-row:last-child { border-bottom:none; }
   .result-row .v { font-weight:700; }
+  .result-row .v .pct { font-weight:400; font-size:10.5px; color:#7f8c8d; }
   table.ref { width:100%; border-collapse:collapse; font-size:12px; margin-top:6px; }
   table.ref th, table.ref td { padding:6px 8px; border-bottom:1px solid #eceff2; text-align:left; }
   table.ref th { background:#f1f3f6; color:#1F3864; font-size:11px; text-transform:uppercase; }
@@ -299,6 +300,12 @@ function fmtH(n){
 function fmt2(n){
   return n.toLocaleString('es-ES', {maximumFractionDigits:2, minimumFractionDigits:2});
 }
+function conPct(valor, pem){
+  const txt = fmt(valor) + ' €';
+  if (!(pem > 0)) return txt;
+  const pct = (valor / pem * 100).toLocaleString('es-ES', {maximumFractionDigits:1, minimumFractionDigits:1});
+  return txt + ' <span class="pct">(' + pct + '% del PEM)</span>';
+}
 
 function onAnioChange(){
   const anio = document.getElementById('anio').value;
@@ -366,20 +373,20 @@ function calcular(){
   const italia65Total = italia * cuotaItalia;
 
   document.getElementById('r-horas').textContent = fmtH(horas) + ' h (G=' + G.toFixed(2) + ', ΣQ=' + SQ.toFixed(2) + ')';
-  document.getElementById('r-mef').textContent = fmt(mefTotal) + ' €';
-  document.getElementById('r-coste').textContent = fmt(costeTotal) + ' €';
-  document.getElementById('r-segipsa').textContent = fmt(segipsa) + ' €';
-  document.getElementById('r-italia').textContent = fmt(italia) + ' €';
+  document.getElementById('r-mef').innerHTML = conPct(mefTotal, pem);
+  document.getElementById('r-coste').innerHTML = conPct(costeTotal, pem);
+  document.getElementById('r-segipsa').innerHTML = conPct(segipsa, pem);
+  document.getElementById('r-italia').innerHTML = conPct(italia, pem);
 
-  document.getElementById('r-antidumping').textContent = fmt(antidumpingTotal) + ' €';
-  document.getElementById('r-directiva').textContent = fmt(directivaTotal) + ' €';
+  document.getElementById('r-antidumping').innerHTML = conPct(antidumpingTotal, pem);
+  document.getElementById('r-directiva').innerHTML = conPct(directivaTotal, pem);
   const rowItalia65 = document.getElementById('row-italia65');
   if (esPublico) {
     rowItalia65.style.display = '';
     document.querySelector('#row-italia65 span:first-child').textContent =
       'Italia, cuota fija ' + (cuotaItalia * 100).toFixed(0) + '% (' +
       (italia >= ITALIA_UMBRAL_PUBLICO ? '≥140.000 €' : '<140.000 €') + ')';
-    document.getElementById('r-italia65').textContent = fmt(italia65Total) + ' €';
+    document.getElementById('r-italia65').innerHTML = conPct(italia65Total, pem);
   } else {
     rowItalia65.style.display = 'none';
   }
