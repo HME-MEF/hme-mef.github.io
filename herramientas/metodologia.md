@@ -228,7 +228,9 @@ con el resto de "hipótesis propia" del modelo.
 
 ---
 
-## 7. Validación externa de mercado
+## 7. Referencias externas de contraste
+
+### 7.1 Tarifas de mercado (ACE Sector Study 2024)
 
 Como referencia independiente, el estudio *ACE Sector Study 2024* (Mirza
 & Nacey Research Ltd, abril 2025) recoge en su Tabla 3-5 las tarifas
@@ -255,6 +257,41 @@ por debajo del coste real del servicio.
 
 Fuente: *The Architectural Profession in Europe 2024*, Mirza & Nacey
 Research Ltd, abril 2025, Tabla 3-5, p. 40.
+
+### 7.2 Valores orientativos de la Directiva (UE) 2022/2041
+
+El art. 5.4 de la [Directiva (UE) 2022/2041 del Parlamento Europeo y del
+Consejo, de 19 de octubre de 2022, relativa a unos salarios mínimos
+adecuados en la Unión Europea](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32022L2041)
+establece que los Estados miembros podrán utilizar valores de referencia
+indicativos de uso internacional para evaluar la adecuación de sus
+salarios mínimos legales: el 60% de la mediana salarial bruta o el 50%
+del salario medio bruto. Aplicados al salario bruto mediano y medio de
+España en 2024 (INE, *Decil de salarios del empleo principal*, nota de
+prensa de 14/11/2025), estos criterios dan los siguientes HME
+orientativos:
+
+| | A partir del salario mediano | A partir del salario medio |
+|---|---|---|
+| HME orientativo (60% mediana / 50% media) | 2.001,40 €/mes · 24.016,80 €/año | 2.385,60 €/mes · 28.627,20 €/año |
+| Gastos de explotación y Seguridad Social | 17.294,54 €/año | 18.816,00 €/año |
+| HME resultante | 41.311,34 €/año | 47.443,20 €/año |
+| HME por hora (jornada de 1.760 h/año) | 23,47 €/h | 26,96 €/h |
+
+Esta estimación usa una jornada anual (1.760 h) y una composición de
+gastos de explotación y Seguridad Social distintas de las de esta
+memoria (1.792 h, 33,01% de cotización + 17.569 €/año de costes
+operativos de Madrid), por lo que no es directamente sustituible por el
+suelo MEF de las secciones 2 y 3 — pero confirma que ambos enfoques
+—convenio colectivo/SMI, por un lado, y los valores orientativos del
+art. 5.4 de la Directiva, por otro— sitúan el suelo antidiscriminatorio
+de un arquitecto en ejercicio independiente en un rango similar, de
+aproximadamente 21 a 31 €/h según la base salarial de referencia
+elegida.
+
+Fuente: elaboración propia a partir del salario bruto mediano y medio en
+España en 2024, [INE, Decil de salarios del empleo principal, nota de
+prensa de 14 de noviembre de 2025](https://www.ine.es/dyngs/Prensa/dsEPA2024.htm).
 
 ---
 

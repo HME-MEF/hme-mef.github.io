@@ -228,7 +228,9 @@ assumptions."
 
 ---
 
-## 7. External market validation
+## 7. External cross-check references
+
+### 7.1 Market rates (ACE Sector Study 2024)
 
 As an independent reference, the *ACE Sector Study 2024* (Mirza & Nacey
 Research Ltd, April 2025) gives, in its Table 3-5, the average hourly
@@ -254,6 +256,39 @@ market fees tend to sit below the real cost of the service.
 
 Source: *The Architectural Profession in Europe 2024*, Mirza & Nacey
 Research Ltd, April 2025, Table 3-5, p. 40.
+
+### 7.2 Indicative reference values under Directive (EU) 2022/2041
+
+Art. 5(4) of [Directive (EU) 2022/2041 of the European Parliament and of
+the Council of 19 October 2022 on adequate minimum wages in the European
+Union](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022L2041)
+provides that Member States may use internationally common indicative
+reference values to assess the adequacy of their statutory minimum
+wages: 60% of the gross median wage or 50% of the gross average wage.
+Applied to Spain's gross median and average wage for 2024 (INE,
+*Decil de salarios del empleo principal*, press release of 14/11/2025),
+these criteria give the following indicative HME:
+
+| | From the median wage | From the average wage |
+|---|---|---|
+| Indicative HME (60% median / 50% average) | €2,001.40/month · €24,016.80/year | €2,385.60/month · €28,627.20/year |
+| Operating expenses and social security | €17,294.54/year | €18,816.00/year |
+| Resulting HME | €41,311.34/year | €47,443.20/year |
+| HME per hour (1,760 h/year working time) | €23.47/h | €26.96/h |
+
+This estimate uses an annual working time (1,760 h) and a composition of
+operating expenses and social security contributions different from this
+methodology's own (1,792 h, 33.01% contribution rate + €17,569/year in
+Madrid operating costs), so it is not directly interchangeable with the
+MEF floor in sections 2 and 3 — but it confirms that both approaches —
+the collective agreement/SMI basis on one hand, and the Directive's
+art. 5(4) indicative values on the other — place the anti-discrimination
+floor for a self-employed architect in a similar range, roughly
+€21–31/h depending on the chosen reference salary base.
+
+Source: own elaboration from Spain's gross median and average wage for
+2024, [INE, Decil de salarios del empleo principal, press release of
+14 November 2025](https://www.ine.es/dyngs/Prensa/dsEPA2024.htm).
 
 ---
 
