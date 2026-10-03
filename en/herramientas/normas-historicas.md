@@ -34,16 +34,20 @@ annual remuneration figure.
 
 ### 2. Key results
 
+- **1905 minimum salary:** 10,000 pesetas/year are equivalent to
+  €43,260 in 2024 terms.
+- **1905 implicit hourly rate:** the updated annual salary divided by
+  1,792 h gives €24.14/h in 2024 (€24.79 in 2025; €25.66 in 2026),
+  ≈2.5 times lower than the updated 1977 hour.
+- **1923 minimum salary:** 15,000 pesetas/year are equivalent to
+  €38,805 in 2024 terms — 2% above the 2024 annual cost of a
+  collectively-bargained architect including social-security
+  contributions (€38,123).
+- **1923 implicit hourly rate:** the updated annual salary divided by
+  1,792 h gives €21.65/h in 2024 (€22.24 in 2025; €23.02 in 2026),
+  ≈2.7 times lower than the updated 1977 hour.
 - **1977 hour, updated:** 1,000 pesetas/h (€6.01) are equivalent to
   €59.39 in 2024, €60.99 in 2025 and €63.13 in 2026 (provisional).
-- **1905 and 1923 minimum salary:** 10,000 and 15,000 pesetas/year are
-  equivalent to €43,260 and €38,805 in 2024 terms. The latter is 2%
-  above the 2024 annual cost of a collectively-bargained architect
-  including social-security contributions (€38,123).
-- **1905 and 1923 implicit hourly rate:** the updated annual salaries
-  divided by 1,792 h give €24.14 and €21.65 per hour in 2024 (€24.79
-  and €22.24 in 2025; €25.66 and €23.02 in 2026) — between 2.5 and 2.7
-  times lower than the updated 1977 hour.
 - **1977 annual income:** the hourly rate over 1,792 h and a 59.3%
   utilization rate give €63,110 in 2024; its "professional share"
   (50–70%) falls between €31,555 and €44,177.

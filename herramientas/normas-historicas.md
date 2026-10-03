@@ -31,16 +31,19 @@ tarifa horaria ni retribución anual.
 
 ### 2. Resultados principales
 
+- **Sueldo mínimo de 1905:** 10.000 ptas/año equivalen a 43.260 € de
+  2024.
+- **Hora implícita de 1905:** el sueldo anual actualizado dividido
+  entre 1.792 h da 24,14 €/h en 2024 (24,79 € en 2025; 25,66 € en
+  2026), ≈2,5 veces menos que la hora de 1977 actualizada.
+- **Sueldo mínimo de 1923:** 15.000 ptas/año equivalen a 38.805 € de
+  2024 — un 2% superior al coste anual de un arquitecto de convenio
+  con su cotización (38.123 €) del año 2024.
+- **Hora implícita de 1923:** el sueldo anual actualizado dividido
+  entre 1.792 h da 21,65 €/h en 2024 (22,24 € en 2025; 23,02 € en
+  2026), ≈2,7 veces menos que la hora de 1977 actualizada.
 - **Hora de 1977 actualizada:** 1.000 ptas/h (6,01 €) equivalen a
   59,39 € en 2024, 60,99 € en 2025 y 63,13 € en 2026 (provisional).
-- **Sueldo mínimo de 1905 y 1923:** 10.000 y 15.000 ptas/año equivalen
-  a 43.260 € y 38.805 € de 2024. El segundo está un 2% superior al
-  coste anual de un arquitecto de convenio con su cotización (38.123 €)
-  del año 2024.
-- **Hora implícita de 1905 y 1923:** los sueldos anuales actualizados
-  divididos entre 1.792 h dan 24,14 € y 21,65 € por hora en 2024
-  (24,79 € y 22,24 € en 2025; 25,66 € y 23,02 € en 2026), entre 2,5 y
-  2,7 veces menos que la hora de 1977 actualizada.
 - **Ingreso anual de 1977:** la tarifa horaria sobre 1.792 h y una
   facturabilidad del 59,3% da 63.110 € en 2024; su parte profesional
   (50–70%) queda entre 31.555 € y 44.177 €.
