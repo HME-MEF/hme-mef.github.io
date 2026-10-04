@@ -47,9 +47,13 @@ Esta desigualdad no responde a eficiencia del mercado, sino a la ausencia
 de un suelo legal de protección retributiva que sí existe para el trabajo
 asalariado (SMI, convenio colectivo).
 
-Esta brecha no es neutra: el colectivo autónomo presenta una mayor
-concentración de mujeres y de trabajadores de mayor edad que el asalariado,
-por lo que la ausencia de dicho suelo retributivo redunda, además, en una
+Esta brecha no es neutra: la brecha de género entre autónomos se produce en
+un colectivo cuyos ingresos ya son inferiores a los de los asalariados, por lo
+que las mujeres autónomas acumulan ambas desigualdades; y el colectivo
+autónomo presenta, además, un mayor porcentaje de personas de edad avanzada
+que el asalariado (edad media de 47,2 años frente a 43,1, según Arranz y
+García-Serrano, *Papeles de Economía Española* nº 183, Funcas, 2025). La
+ausencia de un suelo retributivo redunda así, previsiblemente, en una
 discriminación indirecta por razón de sexo y de edad —ambas expresamente
 prohibidas por el art. 14 CE y los arts. 20, 21 y 15 de la CDFUE—. HME se
 propone, por tanto, también como instrumento para mitigar estas brechas de

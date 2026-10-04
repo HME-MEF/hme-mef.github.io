@@ -49,9 +49,13 @@ This inequality does not reflect market efficiency; rather, it reflects the
 absence of a legal remuneration floor of the kind that already exists for
 salaried work (SMI, collective agreement).
 
-This gap is not neutral: the self-employed collective shows a higher
-concentration of women and of older workers than the salaried workforce,
-so the absence of that remuneration floor also results in indirect
+This gap is not neutral: the gender gap among the self-employed arises
+within a group whose income is already lower than that of employees, so
+self-employed women bear both inequalities; and the self-employed collective
+also has a higher share of older people than the salaried workforce
+(average age 47.2 years versus 43.1, according to Arranz and García-Serrano,
+*Papeles de Economía Española* no. 183, Funcas, 2025). The absence of that
+remuneration floor therefore foreseeably results in indirect
 discrimination on grounds of sex and age — both expressly prohibited
 under art. 14 of the Spanish Constitution and arts. 20, 21 and 15 of the
 Charter of Fundamental Rights of the EU. MEF is therefore also proposed as
