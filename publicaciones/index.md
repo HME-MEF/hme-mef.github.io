@@ -48,7 +48,7 @@ Primera publicación de la investigación. Revisa la evolución de la regulació
 
 ## Presentaciones formales relacionadas
 
-El artículo y la ponencia han sido citados como fundamento en las presentaciones formales ante administraciones españolas (Ministerio de Economía, Comercio y Empresa; Defensor del Pueblo).
+El artículo y la ponencia han sido citados como fundamento en las presentaciones formales ante administraciones españolas (Ministerio de Economía, Comercio y Empresa; Defensor del Pueblo) realizadas en 2026.
 
 [**Ver cronología completa en Advocacy →**]({{ '/advocacy/' | relative_url }})
 

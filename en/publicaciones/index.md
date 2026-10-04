@@ -50,7 +50,7 @@ The first publication of this research. It reviews the evolution of worker-remun
 
 ## Related formal submissions
 
-The article and the conference paper have been cited as grounds in the formal submissions to Spanish administrations (Ministry of Economy, Trade and Business; Spanish Ombudsman).
+The article and the conference paper have been cited as grounds in the formal submissions to Spanish administrations (Ministry of Economy, Trade and Business; Spanish Ombudsman) made in 2026.
 
 [**See the full timeline in Advocacy →**]({{ '/en/advocacy/' | relative_url }})
 
