@@ -27,7 +27,7 @@ Self-employed professionals in Spain face a significant **pay gap**, both in gen
 
 The MEF proposal seeks to close this gap through:
 
-1. **Constitutional grounding**: it is considered that the principle of non-discrimination — recognised both by the Spanish Constitution (arts. 14 and 35) and by the Charter of Fundamental Rights of the EU (arts. 20, 21 and 15) — requires that the same work receive equivalent remuneration, regardless of the type of contract under which it is performed. This is the foundation of the proposal, formally raised since March 2021, not an imported model.
+1. **Constitutional grounding**: it is considered that the principle of non-discrimination — recognised both by the Spanish Constitution (arts. 14 and 35) and by the Charter of Fundamental Rights of the EU (arts. 20, 21 and 15) — requires that the same work receive equivalent remuneration, regardless of the type of contract under which it is performed. This is the foundation of the proposal, formally raised since March 2021.
 2. **Cost analysis**: breaking down direct costs (reference salary, employer social-security contribution, operating costs) yields the MEF parameter — the labour-cost equivalence floor. A productivity factor (utilization rate) then converts this MEF/hour into the effective price that must be charged per billable hour, since not all time worked can be invoiced.
 3. **Comparative validation**: once formulated, the proposal has been checked against two different reference models:
    - *International*: the calculation method of the Italian Decree DM 17/6/2016 and, more recently, the Italian Law 49/2023 on *equo compenso*, which confirm that equivalent formulas are legally viable in the EU, without being the origin of the approach.
