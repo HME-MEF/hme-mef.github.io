@@ -39,7 +39,7 @@ How anyone uses these figures is a matter of their own judgment.
 |---|---|---|
 | Reference salary (collective agreement) | €28,027/year (2023) / €28,664/year (2024–2027) | Level 1 salary tables of the 20th Collective Agreement for engineering and technical consultancy firms — **collectively-bargained**: **2023** ([BOE-A-2023-11785, 18/5/2023](https://www.boe.es/buscar/doc.php?id=BOE-A-2023-11785)), **2024** ([BOE-A-2024-5873, 12/3/2024](https://www.boe.es/buscar/doc.php?id=BOE-A-2024-5873)). No agreed table for 2025–2027; the 2024 figure is kept — see section 6 |
 | Employer social security contribution | 33.01% of the base salary | Regulatory Social Security calculation on the collectively-bargained salary or the SMI — **regulatory** (percentage held constant between 2024 and 2027 as a simplification; does not incorporate the annual increase of the Intergenerational Equity Mechanism) |
-| Operating costs (Madrid) | €13,515.68/year (2023) / €13,560.90/year (2024) / €13,619.13/year (2025) / €13,690.42/year (2026) | Table of 8 line items (professional association fee, liability insurance, workspace, vehicle —leasing and fuel—, software licenses, IT equipment, other current expenses) each with its own source and, where real year-specific data exists, year-on-year variation — see the full table below (§1-bis) and technical memo §11. Replaces the initial aggregate estimate (€17,569/year) |
+| Operating costs (Madrid) | €12,885.18/year (2023) / €12,930.40/year (2024) / €12,988.63/year (2025) / €13,059.92/year (2026) | Table of 8 line items (professional association fee, liability insurance, workspace, vehicle —leasing and fuel—, software licenses, IT equipment, other current expenses) each with its own source and, where real year-specific data exists, year-on-year variation — see the full table below (§1-bis) and technical memo §11. Replaces the initial aggregate estimate (€17,569/year) |
 | Annual hours | 1,792 h | Maximum working hours under the engineering and technical consultancy collective agreement — **collectively-bargained** |
 | Utilization rate | 59.3% (2024–2027) | "Architecture or A/E" segment, fiscal year **2025** — *47th Annual Deltek Clarity A&E Industry Study* (Deltek / CMG Consulting), "Statistics at a Glance" table, p. 122 (the narrative median for the whole A&E sector, not just architecture, is 58.9%, p. 99) — **industry benchmark, U.S.**, not an official Spanish figure ([full report](https://info.deltek.com/47th-Annual-Deltek-Clarity-AE-Report-PDF)). The only architecture-specific figure published; applied equally across the four years in the selector — see section 6 |
 | Reference gross remuneration (cost floor) | €26,462/year (2023) / €31,672/year (2024–2027) | Average pay of employees of private firms in Spain, PPP-adjusted (not averaged with partners/directors — see note in section 2): **2023** — *ACE Sector Study* **2022**, Table 4-2, Spain, p. 55; **2024–2027** — *ACE Sector Study* **2024**, Table 4-2, Spain, p. 57 — **working assumption**, with starting data from *The Architectural Profession in Europe* (Mirza & Nacey Research Ltd, Architects' Council of Europe), 2022 and 2024 editions |
@@ -62,10 +62,10 @@ Breakdown of the MEF's operating costs into eight line items, each with its own 
 | Workspace (coworking, fixed desk + meeting room 4 h/month) | €4,229.00 | €4,229.00 | €4,229.00 | €4,229.00 | Coworking Spain 2025 sector report (fixed desk) + WeWork reference (meeting room). Note: the resulting figure is equivalent to the average cost of renting a 20 m² private office in Madrid (€4,200/year, CBRE), corroborating the adopted figure. Kept fixed across the four years: it was not possible to build a homogeneous 2023-2026 series of Madrid office/coworking prices due to methodological incompatibility between sources (non-comparable "periphery" zone definitions across consultancies) and data-extraction limitations in historical reports (Knight Frank 2023/2024) |
 | Vehicle — leasing | €3,534.00 | €3,534.00 | €3,534.00 | €3,534.00 | Compact car leasing in Madrid, market range €244-345/month + VAT, midpoint adopted (coverage and taxes included); fixed figure across the four years. Alternatives: full-service renting raises the figure to €5,108/year; per-minute carsharing (Zity, WiBLE, Free2Move, Share Now, GoTo), applied to the same usage scenario, yields ≈€3,500/year —a notable coincidence with the leasing figure despite a completely different pricing model—, though carsharing only covers trips within the Madrid municipality |
 | Vehicle — fuel | €123.73 | €128.18 | €121.63 | €132.22 | Annual average price of 95-octane petrol (sector fuel-price bulletin) × reference consumption of 6 l/100 km × annual mileage estimated from the author's own frequency of site visits (1.5/week) and client/administration visits (0.3/week), with an average round-trip distance of 15.6 km (independently corroborated by the Community of Madrid/CRTM's 2018 Household Mobility Survey, EDM) |
-| Software licenses (CAD/BIM + Office 365 + generative AI) | €3,060.00 | €3,060.00 | €3,060.00 | €3,060.00 | Revit €2,765/year + Microsoft 365 Business Basic €72.84/year + standard generative-AI subscription (ChatGPT Plus/Claude Pro) ≈€222/year; public subscription prices, fixed figure across the four years |
+| Software licenses (CAD/BIM + Office 365 + generative AI) | €2,429.50 | €2,429.50 | €2,429.50 | €2,429.50 | Average of Revit (€2,610/year, Autodesk, Spain list price) and ArchiCAD Studio (€1,659/year, Graphisoft, Spain list price) = €2,134.50/year, plus Microsoft 365 Business Basic €72.84/year and a standard generative-AI subscription (ChatGPT Plus/Claude Pro) ≈€222.16/year; public subscription prices, September 2026 reference, fixed figure across the four years. Allplan (Nemetschek), the third BIM package considered, has no published price list (quote-only through resellers) and is left out of the average; per G2.com it sits 31% above the average of compared BIM software (which includes Revit and ArchiCAD), so the two-way average used here is, if anything, conservative on the low side. Replaces the earlier Revit-only figure (€2,765/year), which over-weighted the most expensive of the three |
 | IT equipment | €889.50 | €889.50 | €889.50 | €889.50 | Market prices (MediaMarkt and similar), amortised over useful life: mid-range tower/CPU with dedicated GPU (≈€1,300, replaced every 2 years = €650/year); 24″ monitor (≈€160, replaced every 5 years = €32/year); 2 TB external backup hard drive (≈€65, replaced every 2 years = €32.50/year); mid-range mobile phone (≈€350, replaced every 2 years = €175/year). Fixed figure across the four years |
 | Other current expenses | €682.06 | €701.24 | €720.00 | €745.27 | Working assumption —stationery, printer consumables, minor technical equipment and mobile phone plan (€60/month, 2025 base)—, updated to the other years with the model's year-on-year variation factors |
-| **Total documented operating costs** | **€13,515.68** | **€13,560.90** | **€13,619.13** | **€13,690.42** | |
+| **Total documented operating costs** | **€12,885.18** | **€12,930.40** | **€12,988.63** | **€13,059.92** | |
 
 Final note: the State holds detailed information on the expense structure of self-employed professionals through their own personal income tax returns (IRPF), information that is not public and therefore could not be used as a source for this table.
 
@@ -151,7 +151,7 @@ the legal no-dumping threshold.
 1. Reference salary for the selected year (collectively-bargained; or the
    SMI, depending on the chosen base) + employer social security
    contribution (33.01% of the base salary) + Madrid operating costs for
-   the corresponding year (€13,515.68-€13,690.42, see table in section 1).
+   the corresponding year (€12,885.18-€13,059.92, see table in section 1).
 2. ÷ (1,792 annual hours × 59.3% utilization rate — *Deltek Clarity
    A&E*): cost per effectively billable hour.
 3. Result: the actual anti-discrimination floor (collective-agreement
@@ -180,6 +180,19 @@ cost floor (€48.09/h, 2024) — even though MEF excludes the 13%/6%
 overhead and industrial profit that the cost floor does carry. This
 closeness after the correction is an internal-consistency check on the
 model, not a sought-after coincidence.
+
+**Note — corroborating the software line item (4 October 2026):** the
+"Software licenses" operating-cost item (section 1) originally used only
+Revit's price (€2,765/year), the most expensive of the three BIM
+packages commonly used in practice. For a less contestable figure, it is
+replaced with the average of Revit's (€2,610/year, Autodesk) and
+ArchiCAD Studio's (€1,659/year, Graphisoft) public list prices —
+€2,134.50/year; Allplan (Nemetschek), the third package considered, has
+no published price list. This lowers operating costs by €630.50/year (a
+fixed figure, the same across all four years) and, with it, the MEF
+floor: €48.64/h → €48.05/h (2024, collective-agreement base). The cost
+floor (€48.09/h) is unaffected, since it is not derived from this
+operating-cost table — see section 2.
 
 ## 4. Automatic estimation of commission hours (HME)
 
@@ -218,7 +231,7 @@ conversion rate of €60.5/h.
   EACL 2025, not from a figure specific to architectural practices or
   professional firms; the most recent edition of the EACL should be
   reviewed periodically.
-- Operating costs (€13,515.68-€13,690.42/year depending on the year) are
+- Operating costs (€12,885.18-€13,059.92/year depending on the year) are
   calculated for Madrid; in other cities or regions the cost floor will
   vary. As of this update they are broken down into eight line items each
   with its own source (professional association fee, liability insurance,
@@ -253,11 +266,11 @@ presuppose a given year in a comparative calculation.
 
 | Year | Collective-agreement salary | SMI | Operating costs | MEF floor (collective agreement) | MEF floor (SMI) | Cost floor | Notes |
 |---|---|---|---|---|---|---|---|
-| 2023 | €28,027 | €15,120 | €13,515.68 | €47.80/h | €31.64/h | €40.18/h | Collective-agreement salary and SMI are official 2023 figures; operating costs from the 8-item table (section 1); cost floor uses the ACE **2022** reference remuneration (employees, Spain); utilization rate and cost-multiplier coefficient have no edition of their own for that year, so the same FY2025 Deltek / EACL 2025 figures used for every other year apply |
-| 2024 | €28,664 | €15,876 | €13,560.90 | €48.64/h | €32.63/h | €48.09/h | All figures are official or the reference benchmark (FY2025 Deltek, EACL 2025, ACE **2024**) verified for this year; operating costs from the 8-item table (section 1) |
-| 2025 | €28,664 *(no agreed table; 2024 kept)* | €16,576 | €13,619.13 | €48.69/h | €33.56/h | €48.09/h | Official 2025 SMI; operating costs from the 8-item table (section 1); cost floor uses the ACE 2024 remuneration (no edition of its own for 2025); utilization rate and cost-multiplier coefficient with the latest published editions (Deltek FY2025, EACL 2025) |
-| 2026 | €28,664 *(no agreed table; 2024 kept)* | €17,094 | €13,690.42 | €48.76/h | €34.28/h | €48.09/h | Official 2026 SMI; operating costs from the 8-item table (section 1); cost floor uses the ACE 2024 remuneration (no edition of its own for 2026); utilization rate and cost-multiplier coefficient with no more recent edition, Deltek FY2025 / EACL 2025 kept |
-| 2027 | €28,664 *(no agreed table; 2024 kept)* | €17,094 *(no RD published; 2026 kept)* | €13,690.42 *(no figure of its own; 2026 kept)* | €48.76/h | €34.28/h | €48.09/h | A year with no figure of its own published yet; all figures are the latest available, including the ACE 2024 remuneration behind the cost floor |
+| 2023 | €28,027 | €15,120 | €12,885.18 | €47.21/h | €31.05/h | €40.18/h | Collective-agreement salary and SMI are official 2023 figures; operating costs from the 8-item table (section 1); cost floor uses the ACE **2022** reference remuneration (employees, Spain); utilization rate and cost-multiplier coefficient have no edition of their own for that year, so the same FY2025 Deltek / EACL 2025 figures used for every other year apply |
+| 2024 | €28,664 | €15,876 | €12,930.40 | €48.05/h | €32.04/h | €48.09/h | All figures are official or the reference benchmark (FY2025 Deltek, EACL 2025, ACE **2024**) verified for this year; operating costs from the 8-item table (section 1) |
+| 2025 | €28,664 *(no agreed table; 2024 kept)* | €16,576 | €12,988.63 | €48.10/h | €32.97/h | €48.09/h | Official 2025 SMI; operating costs from the 8-item table (section 1); cost floor uses the ACE 2024 remuneration (no edition of its own for 2025); utilization rate and cost-multiplier coefficient with the latest published editions (Deltek FY2025, EACL 2025) |
+| 2026 | €28,664 *(no agreed table; 2024 kept)* | €17,094 | €13,059.92 | €48.17/h | €33.69/h | €48.09/h | Official 2026 SMI; operating costs from the 8-item table (section 1); cost floor uses the ACE 2024 remuneration (no edition of its own for 2026); utilization rate and cost-multiplier coefficient with no more recent edition, Deltek FY2025 / EACL 2025 kept |
+| 2027 | €28,664 *(no agreed table; 2024 kept)* | €17,094 *(no RD published; 2026 kept)* | €13,059.92 *(no figure of its own; 2026 kept)* | €48.17/h | €33.69/h | €48.09/h | A year with no figure of its own published yet; all figures are the latest available, including the ACE 2024 remuneration behind the cost floor |
 
 As of October 2026, the cost floor **does vary by year**: it is chained
 to the most recent ACE edition with a figure available for each year
@@ -312,7 +325,7 @@ These are market rates (what is actually billed to clients), not cost
 figures, so they are not directly equivalent to this methodology's MEF
 floor or cost floor — but the comparison is revealing: Spain's average
 market rate for principals (€39–41/h) sits **below** the MEF floor
-(€47.80-€48.76/h, depending on the year), the cost-coverage threshold
+(€47.21-€48.17/h, depending on the year), the cost-coverage threshold
 without industrial profit (€45.67/h, 2024, see section 2), and the full
 cost floor (€48.09/h, 2024) alike. In other words, the rate actually
 billed on average in the Spanish market does not cover either the real
@@ -353,7 +366,7 @@ are obtained:
 
 This estimate uses an annual working time (1,760 h) and a composition of
 operating expenses and social security contributions different from this
-methodology's own (1,792 h, 33.01% contribution rate + €13,515.68-€13,690.42/year
+methodology's own (1,792 h, 33.01% contribution rate + €12,885.18-€13,059.92/year
 in Madrid operating costs, depending on the year), so it is not directly interchangeable with the
 MEF floor in sections 2 and 3. Like the MEF floor (section 3), the
 calculator multiplies this value by the billable hours from the HME

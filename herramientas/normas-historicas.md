@@ -55,9 +55,9 @@ tarifa horaria ni retribución anual.
   cercanía, no igualdad.
 - **Capas de comparación:** sin gastos de explotación, 1905 y 1923
   convergen con el convenio más cotización. Con gastos, el HME (26,50
-  €/h; 28,84 €/h en la misma base de horas trabajadas para la calculadora,
+  €/h; 28,49 €/h en la misma base de horas trabajadas para la calculadora,
   2024 — que desde el 4/10/2026 muestra ese mismo importe anual como
-  48,64 €/h por hora *facturable*, ver nota en la sección 6) queda entre
+  48,05 €/h por hora *facturable*, ver nota en la sección 6) queda entre
   ese coste y la hora de 1977 por hora trabajada (35,22 €/h), que incluye
   gastos generales y beneficio.
 - **Gastos:** los del HME de esta comparación (SS y explotación) son
@@ -112,10 +112,10 @@ no hay tablas pactadas para esos años.
 | **Coste anual para el empleador (salario + cotización)** | **38.123,28 €** | **21,27 €** |
 
 Cifras de la [memoria técnica de la web]({{ '/herramientas/metodologia/' | relative_url }})
-(4 de octubre de 2026): suelo MEF base convenio 28,84 €/h sobre esta
-misma base de 1.792 horas trabajadas (equivalente a 48,64 €/h por hora
+(4 de octubre de 2026): suelo MEF base convenio 28,49 €/h sobre esta
+misma base de 1.792 horas trabajadas (equivalente a 48,05 €/h por hora
 facturable, la cifra que la calculadora muestra desde la corrección de
-facturabilidad del 4/10/2026 — ver nota en la sección 6) y suelo de
+facturabilidad y de la partida de software del 4/10/2026 — ver nota en la sección 6) y suelo de
 coste 48,09 €/h (2024, con la retribución de referencia ACE 2024). La
 hora de 1977 actualizada a 2024 (59,39 €/h) queda un 23,5% por encima
 del suelo de coste.
@@ -142,8 +142,8 @@ convenio (21,27 €/h = 100).
 | Sueldo mínimo de 1905 actualizado | 43.260 € | 24,14 € | +13,5% |
 | **B. HME con gastos de explotación (sin beneficio)** | | | |
 | HME de esta comparación: convenio + SS + gastos de explotación (9.369 €) | 47.492 € | 26,50 € | +24,6% |
-| MEF de la calculadora, base convenio (gastos generales incrementados) | 51.684 € | 28,84 € | +35,6% |
-| — misma cifra, por hora *facturable* (calculadora desde 4/10/2026) | 51.684 € | 48,64 € | +128,7% |
+| MEF de la calculadora, base convenio (gastos generales incrementados) | 51.056 € | 28,49 € | +34,0% |
+| — misma cifra, por hora *facturable* (calculadora desde 4/10/2026) | 51.056 € | 48,05 € | +125,9% |
 | **C. Honorarios de 1977 (incluyen gastos generales y beneficio)** | | | |
 | Hora 1977 por hora trabajada (59,39 € × 59,3% de facturabilidad) | 63.110 € | 35,22 € | +65,5% |
 | Hora 1977 facturable (ocupación del 100%) | 106.425 € | 59,39 € | +179,2% |
@@ -159,21 +159,22 @@ dividiendo por las horas *facturables* (1.792 h × 59,3%) en vez de por
 las 1.792 horas trabajadas de esta tabla — consistente con que las
 "horas" que ambas calculadoras multiplican por el suelo MEF (derivadas
 del honorario italiano ÷ 60,5 €/h) ya son horas facturables. El importe
-anual (51.684 €) no cambia; solo cambia la base de horas sobre la que
-se expresa el tipo por hora, lo que explica por qué la fila "por hora
-facturable" de esta tabla (48,64 €/h) no es una cifra distinta, sino la
-misma cifra en otra base.
+anual (51.056 €, tras la corrección de la partida de software del
+4/10/2026) no cambia entre filas; solo cambia la base de horas sobre la
+que se expresa el tipo por hora, lo que explica por qué la fila "por
+hora facturable" de esta tabla (48,05 €/h) no es una cifra distinta,
+sino la misma cifra en otra base.
 
 **Lectura**: sin gastos de explotación (capa A), los sueldos mínimos de
 1923 y 1905 actualizados quedan muy cerca del coste de empleador del
 convenio: +1,8% y +13,5%. Al añadir gastos de explotación (capa B) el
-HME sube a 26,50 €/h (esta comparación) o 28,84 €/h por hora trabajada
-(calculadora, con gastos generales mayores) — equivalente a 48,64 €/h
-por hora facturable, la cifra que la propia calculadora muestra desde
-el 4/10/2026. Las horas de 1977 (capa C), que incluyen gastos generales
-y beneficio, quedan en 35,22 €/h por hora trabajada o 59,39 €/h por
-hora facturable — en esta última base, prácticamente la misma magnitud
-que el MEF corregido (48,64 €/h) y el suelo de coste (48,09 €/h). El
+HME sube a 26,50 €/h (esta comparación) o 28,49 €/h por hora trabajada
+(calculadora) — equivalente a 48,05 €/h por hora facturable, la cifra
+que la propia calculadora muestra desde el 4/10/2026. Las horas de 1977
+(capa C), que incluyen gastos generales y beneficio, quedan en 35,22
+€/h por hora trabajada o 59,39 €/h por hora facturable — en esta última
+base, prácticamente la misma magnitud que el MEF corregido (48,05 €/h)
+y el suelo de coste (48,09 €/h). El
 HME, antes aparentemente muy por debajo de la hora de 1977, queda así
 mucho más cerca de ella una vez ambos se expresan sobre la misma base
 de horas facturables. Los gastos de esta comparación (SS más

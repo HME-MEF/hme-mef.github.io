@@ -131,8 +131,8 @@ en la [memoria técnica]({{ '/herramientas/metodologia/' | relative_url }})):
    horas estimadas del encargo (HME), que ya son horas facturables.
 3. El resultado son dos valores de referencia, que varían por año según
    los costes operativos documentados en la memoria técnica: entre
-   **47,80 €/h** (2023) y **48,76 €/h** (2026–2027) (suelo MEF, base
-   convenio) y, sobre SMI, entre **31,64 €/h** (2023) y **34,28 €/h**
+   **47,21 €/h** (2023) y **48,17 €/h** (2026–2027) (suelo MEF, base
+   convenio) y, sobre SMI, entre **31,05 €/h** (2023) y **33,69 €/h**
    (2026–2027) — el umbral absoluto. Las dos calculadoras incluyen un
    **selector de año** (2023–2027) para elegir qué cifras aplicar en cada
    caso.

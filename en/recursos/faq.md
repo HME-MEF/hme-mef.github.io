@@ -132,9 +132,9 @@ In brief (full derivation, with the source table for each input, in the
    hours (HME), which are already billable hours.
 3. The result is two reference values, which vary by year according to
    the operating costs documented in the technical methodology: between
-   **€47.80/h** (2023) and **€48.76/h** (2026–2027) (MEF floor,
-   collective-agreement base) and, on the SMI, between **€31.64/h**
-   (2023) and **€34.28/h** (2026–2027) — the absolute threshold. Both
+   **€47.21/h** (2023) and **€48.17/h** (2026–2027) (MEF floor,
+   collective-agreement base) and, on the SMI, between **€31.05/h**
+   (2023) and **€33.69/h** (2026–2027) — the absolute threshold. Both
    calculators include a **year selector** (2023–2027) to choose which
    figures to apply in each case.
 

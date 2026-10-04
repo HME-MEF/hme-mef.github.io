@@ -60,9 +60,9 @@ annual remuneration figure.
   equality.
 - **Comparison layers:** without operating expenses, 1905 and 1923
   converge with the collective-agreement cost plus contributions. With
-  expenses, MEF (€26.50/h; €28.84/h on the same worked-hours basis for
+  expenses, MEF (€26.50/h; €28.49/h on the same worked-hours basis for
   the calculator, 2024 — which since 4/10/2026 reports that same annual
-  amount as €48.64/h per *billable* hour, see note in section 6) falls
+  amount as €48.05/h per *billable* hour, see note in section 6) falls
   between that cost and the 1977 hour per hour actually worked
   (€35.22/h), which includes overheads and profit.
 - **Expenses:** the expenses in this comparison's MEF figure (social
@@ -117,10 +117,10 @@ there are no agreed tables for those years.
 | **Total annual employer cost (salary + contribution)** | **€38,123.28** | **€21.27** |
 
 Figures from the [site's technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }})
-(4 October 2026): collective-agreement-based MEF floor €28.84/h on this
-same 1,792-worked-hours basis (equivalent to €48.64/h per billable
+(4 October 2026): collective-agreement-based MEF floor €28.49/h on this
+same 1,792-worked-hours basis (equivalent to €48.05/h per billable
 hour, the figure the calculator has shown since the 4/10/2026
-utilization-rate correction — see note in section 6) and cost floor
+utilization-rate and software-line corrections — see note in section 6) and cost floor
 €48.09/h (2024, with the ACE 2024 reference remuneration). The 1977
 hour, updated to 2024 (€59.39/h), is 23.5% above the cost floor.
 
@@ -146,8 +146,8 @@ per hour over 1,792 h, against the collective-agreement employer cost
 | Updated 1905 minimum salary | €43,260 | €24.14 | +13.5% |
 | **B. MEF with operating expenses (no profit)** | | | |
 | This comparison's MEF: collective agreement + SS + operating expenses (€9,369) | €47,492 | €26.50 | +24.6% |
-| Calculator's MEF, collective-agreement basis (higher overheads) | €51,684 | €28.84 | +35.6% |
-| — same figure, per *billable* hour (calculator since 4/10/2026) | €51,684 | €48.64 | +128.7% |
+| Calculator's MEF, collective-agreement basis (higher overheads) | €51,056 | €28.49 | +34.0% |
+| — same figure, per *billable* hour (calculator since 4/10/2026) | €51,056 | €48.05 | +125.9% |
 | **C. 1977 fees (include overheads and profit)** | | | |
 | 1977 hour per hour actually worked (€59.39 × 59.3% utilization) | €63,110 | €35.22 | +65.5% |
 | 1977 billable hour (100% occupancy) | €106,425 | €59.39 | +179.2% |
@@ -163,21 +163,22 @@ floor by dividing by *billable* hours (1,792 h × 59.3%) instead of the
 1,792 worked hours used in this table — consistent with the fact that
 the "hours" both calculators multiply the MEF floor by (derived from
 the Italian fee ÷ €60.5/h) are already billable hours. The annual
-amount (€51,684) does not change; only the hour basis used to express
-the hourly rate changes, which is why the "per billable hour" row in
-this table (€48.64/h) is not a different figure, just the same figure
-on a different basis.
+amount (€51,056, after the 4/10/2026 software-line correction) does not
+change between rows; only the hour basis used to express the hourly
+rate changes, which is why the "per billable hour" row in this table
+(€48.05/h) is not a different figure, just the same figure on a
+different basis.
 
 **Reading**: without operating expenses (layer A), the updated 1923 and
 1905 minimum salaries sit very close to the collective-agreement
 employer cost: +1.8% and +13.5%. Adding operating expenses (layer B)
-raises MEF to €26.50/h (this comparison) or €28.84/h per hour actually
-worked (calculator, with higher overheads) — equivalent to €48.64/h per
-billable hour, the figure the calculator itself has shown since
-4/10/2026. The 1977 hourly rates (layer C), which include overheads and
-profit, sit at €35.22/h per hour actually worked or €59.39/h per
-billable hour — on this latter basis, practically the same magnitude as
-the corrected MEF (€48.64/h) and the cost floor (€48.09/h). MEF, which
+raises MEF to €26.50/h (this comparison) or €28.49/h per hour actually
+worked (calculator) — equivalent to €48.05/h per billable hour, the
+figure the calculator itself has shown since 4/10/2026. The 1977 hourly
+rates (layer C), which include overheads and profit, sit at €35.22/h
+per hour actually worked or €59.39/h per billable hour — on this latter
+basis, practically the same magnitude as the corrected MEF (€48.05/h)
+and the cost floor (€48.09/h). MEF, which
 previously looked far below the 1977 hour, turns out to be much closer
 to it once both are expressed on the same billable-hours basis. This
 comparison's expenses (SS plus operating costs: €18,828) amount to

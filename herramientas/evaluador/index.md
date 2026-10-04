@@ -85,8 +85,8 @@ importe evaluado frente a ellos:
   de la retribución media de empleados de empresas privadas (ACE 2022
   para 2023, ACE 2024 para 2024–2027), con gastos generales 13% y
   beneficio industrial 6% (por analogía con el art. 131 RGLCAP).
-- **Suelo MEF** (47,80-48,76 €/h sobre salario de convenio, según el año;
-  entre 31,64 €/h y 34,28 €/h sobre SMI, según el año): HME × tarifa
+- **Suelo MEF** (47,21-48,17 €/h sobre salario de convenio, según el año;
+  entre 31,05 €/h y 33,69 €/h sobre SMI, según el año): HME × tarifa
   MEF/h — el suelo antidiscriminatorio propiamente dicho. Ver la
   [memoria técnica]({{ '/herramientas/metodologia/' | relative_url }}#6-datos-y-resultados-por-año-2024-2027)
   para el valor exacto de cada año y por qué algunas cifras se mantienen
@@ -128,7 +128,7 @@ herramienta:
 | Redacción adjudicada (% PEM) | 6,64% (196.950 €) | 3,15% (40.597 €) |
 | Referencia italiana | 7,12% (211.302 €) | 6,73% (86.654 €) |
 | €/h implícito pagado | 56,4 €/h | 28,3 €/h |
-| Suelo MEF (2024) | 48,64 €/h | 48,64 €/h |
+| Suelo MEF (2024) | 48,05 €/h | 48,05 €/h |
 | Diagnóstico | Adecuado | **Indicio de discriminación y de dumping** |
 
 En Santa Margarida, la Administración pagó menos de la mitad de
