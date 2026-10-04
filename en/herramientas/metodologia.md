@@ -348,17 +348,24 @@ are obtained:
 | Reference salary (INE median / average) | €2,001.40/month · €24,016.80/year | €2,385.60/month · €28,627.20/year |
 | Operating expenses and social security | €17,294.54/year | €18,816.00/year |
 | Resulting HME | €41,311.34/year | €47,443.20/year |
-| HME per hour (1,760 h/year working time) | €23.47/h | €26.96/h |
+| HME per hour actually worked (1,760 h/year working time) | €23.47/h | €26.96/h |
+| HME per billable hour (1,760 h × 59.3% utilization rate) | €39.58/h | €45.46/h |
 
 This estimate uses an annual working time (1,760 h) and a composition of
 operating expenses and social security contributions different from this
 methodology's own (1,792 h, 33.01% contribution rate + €13,515.68-€13,690.42/year
 in Madrid operating costs, depending on the year), so it is not directly interchangeable with the
-MEF floor in sections 2 and 3 — but it confirms that both approaches —
-the collective agreement/SMI basis on one hand, and the Directive's
-art. 5(4) indicative values on the other — place the anti-discrimination
-floor for a self-employed architect in a similar range, roughly
-€21–31/h depending on the chosen reference salary base.
+MEF floor in sections 2 and 3. Like the MEF floor (section 3), the
+calculator multiplies this value by the billable hours from the HME
+estimate (Italy ÷ €60.5/h), so since 4 October 2026 it is also divided
+by the 59.3% utilization rate (Deltek Clarity A&E) to keep it on the
+same hour basis — the value the calculator uses is the "per billable
+hour" one (€45.46/h, from the average wage), not the "per hour actually
+worked" one (€26.96/h). Both approaches — the collective agreement/SMI
+basis on one hand, and the Directive's art. 5(4) indicative values on
+the other — place the anti-discrimination floor for a self-employed
+architect in a similar range, roughly €33–49/h on a billable-hour
+basis, depending on the chosen reference salary base.
 
 Source: own elaboration from Spain's gross median and average wage for
 2024, [INE, Decil de salarios del empleo principal, press release of

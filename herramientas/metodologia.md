@@ -352,19 +352,26 @@ HME. Aplicados así al salario bruto mediano y medio de España en 2024
 | Salario de referencia (mediana / media INE) | 2.001,40 €/mes · 24.016,80 €/año | 2.385,60 €/mes · 28.627,20 €/año |
 | Gastos de explotación y Seguridad Social | 17.294,54 €/año | 18.816,00 €/año |
 | HME resultante | 41.311,34 €/año | 47.443,20 €/año |
-| HME por hora (jornada de 1.760 h/año) | 23,47 €/h | 26,96 €/h |
+| HME por hora trabajada (jornada de 1.760 h/año) | 23,47 €/h | 26,96 €/h |
+| HME por hora facturable (1.760 h × 59,3% de facturabilidad) | 39,58 €/h | 45,46 €/h |
 
 Esta estimación usa una jornada anual (1.760 h) y una composición de
 gastos de explotación y Seguridad Social distintas de las de esta
 memoria (1.792 h, 33,01% de cotización + 13.515,68 €-13.690,42 €/año de
 costes operativos de Madrid, según el ejercicio), por lo que no es
 directamente sustituible por el
-suelo MEF de las secciones 2 y 3 — pero confirma que ambos enfoques
+suelo MEF de las secciones 2 y 3. Al igual que el suelo MEF (sección 3),
+la calculadora multiplica este valor por las horas facturables de la
+estimación HME (Italia ÷ 60,5 €/h), por lo que desde el 4 de octubre de
+2026 también se divide por la facturabilidad del 59,3% (Deltek Clarity
+A&E) para mantener la misma base de horas — el valor que usa la
+calculadora es el de "por hora facturable" (45,46 €/h, a partir del
+salario medio), no el "por hora trabajada" (26,96 €/h). Ambos enfoques
 —convenio colectivo/SMI, por un lado, y los valores orientativos del
 art. 5.4 de la Directiva, por otro— sitúan el suelo antidiscriminatorio
 de un arquitecto en ejercicio independiente en un rango similar, de
-aproximadamente 21 a 31 €/h según la base salarial de referencia
-elegida.
+aproximadamente 33 a 49 €/h sobre hora facturable, según la base
+salarial de referencia elegida.
 
 Fuente: elaboración propia a partir del salario bruto mediano y medio en
 España en 2024, [INE, Decil de salarios del empleo principal, nota de
