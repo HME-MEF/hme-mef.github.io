@@ -44,7 +44,9 @@ The MEF proposal seeks to close this gap through:
 >
 > **DOI**: [10.60923/issn.1561-8048/23568](https://doi.org/10.60923/issn.1561-8048/23568)
 
-**Origin document** (1st Congress of Architects of Madrid, COAM, 2025):
+**Origin documents** (2021–2022): the [2021 petition]({{ '/assets/docs/peticion-2021.pdf' | relative_url }}) *(ES)* and the [statement of claim]({{ '/assets/docs/demanda-2022-03-23.pdf' | relative_url }}) *(ES)* and [closing submissions]({{ '/assets/docs/escrito-conclusiones-2022-05-23.pdf' | relative_url }}) *(ES)* drafted in 2022.
+
+**First publication** (1st Congress of Architects of Madrid, COAM, 2025):
 
 > Ricardo Alvira Baeza, *Honorarios Mínimos Profesionales. Un elefante (legislativo) en la habitación* ["Minimum professional fees: a (legislative) elephant in the room"], Proceedings of the 1st Congress of Architects of Madrid (COAM), 2025.
 

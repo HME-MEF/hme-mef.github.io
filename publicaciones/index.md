@@ -28,7 +28,7 @@ La traducción al español ha sido realizada por el propio autor y sigue fielmen
 **Autor:** Ricardo Alvira Baeza · Dr. Arquitecto, Col. nº 13148 · Dr. en Ciencia Política y de la Administración
 **Ponencia presentada en:** I Congreso de Arquitectos de Madrid (COAM), 2025
 
-Documento origen de la investigación. Revisa la evolución de la regulación de la remuneración de los trabajadores en España durante el último siglo, tanto por cuenta ajena como por cuenta propia, y plantea la desconexión actual entre los honorarios profesionales de los arquitectos y una remuneración suficiente conforme al artículo 35 de la Constitución Española. Este documento constituye la base sobre la que se desarrolló posteriormente el artículo académico *Minimum Equivalent Fees* (2026); el propio artículo lo cita expresamente como el trabajo que desarrolla y amplía.
+Primera publicación de la investigación, posterior a su planteamiento formal en la petición de 2021 y los escritos judiciales de 2022. Revisa la evolución de la regulación de la remuneración de los trabajadores en España durante el último siglo, tanto por cuenta ajena como por cuenta propia, y plantea la desconexión actual entre los honorarios profesionales de los arquitectos y una remuneración suficiente conforme al artículo 35 de la Constitución Española. Este documento constituye la base sobre la que se desarrolló posteriormente el artículo académico *Minimum Equivalent Fees* (2026); el propio artículo lo cita expresamente como el trabajo que desarrolla y amplía.
 
 [Descargar PDF]({{ '/publicaciones/2025-alvira-elefante-legislativo-coam.pdf' | relative_url }})
 
