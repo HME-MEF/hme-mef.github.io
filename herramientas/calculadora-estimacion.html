@@ -438,7 +438,6 @@ function calcular(){
     rowRd1977.style.display = 'none';
   }
 
-  const top = Math.max(mefTotal, mefTotalIPC, costeTotal, segipsa, italia);
   const points = [
     { v: mefTotal, l: 'MEF' },
     { v: costeTotal, l: 'Coste' },
@@ -453,21 +452,33 @@ function calcular(){
   if (esPublico) dashedPoints.push({ v: italia65Total, l: 'Italia ' + (cuotaItalia*100).toFixed(0) + '%' });
   if (rd1977) dashedPoints.push({ v: rd1977.honorario, l: 'RD 1977' });
 
+  // Zoom: en vez de escalar desde 0, se usa el rango real [mínimo, máximo]
+  // de todos los puntos (incluidos los de trazo discontinuo), con un margen
+  // del 8% a cada lado. Así los valores —que suelen estar relativamente
+  // próximos entre sí frente a su magnitud absoluta— se separan visualmente
+  // en vez de apelotonarse cerca del 100% de una escala que arranca en 0.
+  const allVals = points.concat(dashedPoints).map(function(p){ return p.v; });
+  const minV = Math.min.apply(null, allVals);
+  const maxV = Math.max.apply(null, allVals);
+  const range = maxV - minV;
+  function pctFor(v){
+    if (!(range > 0)) return 50;
+    return ((v - minV) / range) * 84 + 8;
+  }
+
   const band = document.getElementById('band-viz');
   band.innerHTML = '<div class="band-bar"></div>';
   points.forEach(function(p){
-    const pct = top > 0 ? (p.v / top * 92) + 4 : 50;
     const mark = document.createElement('div');
     mark.className = 'mark';
-    mark.style.left = pct + '%';
+    mark.style.left = pctFor(p.v) + '%';
     mark.innerHTML = '<span class="lbl">' + p.l + '</span><span class="val">' + fmt(p.v) + ' €</span>';
     band.appendChild(mark);
   });
   dashedPoints.forEach(function(p){
-    const pct = top > 0 ? (p.v / top * 92) + 4 : 50;
     const mark = document.createElement('div');
     mark.className = 'mark dashed';
-    mark.style.left = pct + '%';
+    mark.style.left = pctFor(p.v) + '%';
     mark.innerHTML = '<span class="lbl">' + p.l + '</span><span class="val">' + fmt(p.v) + ' €</span>';
     band.appendChild(mark);
   });
