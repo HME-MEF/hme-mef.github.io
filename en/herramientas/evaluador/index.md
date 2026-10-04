@@ -128,11 +128,12 @@ recorded by the CSCAE's Fee Observatory (26/5/2025) — they correspond to year
 | Italian reference | 7.12% (€211,302) | 6.73% (€86,654) |
 | Implicit €/h paid | €56.4/h | €28.3/h |
 | MEF floor (2024) | €48.64/h | €48.64/h |
-| Diagnosis | Adequate | **Indicator of discrimination** |
+| Diagnosis | Adequate | **Indicator of discrimination and dumping** |
 
 In Santa Margarida, the awarding administration paid less than half of
-either value reference, and below the MEF floor even calculated with
-conservative costs.
+either value reference, and below both the MEF floor and the
+antidumping floor (real cost without industrial profit), even
+calculated with conservative costs.
 
 ### Caveats
 

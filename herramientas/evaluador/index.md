@@ -129,11 +129,12 @@ herramienta:
 | Referencia italiana | 7,12% (211.302 €) | 6,73% (86.654 €) |
 | €/h implícito pagado | 56,4 €/h | 28,3 €/h |
 | Suelo MEF (2024) | 48,64 €/h | 48,64 €/h |
-| Diagnóstico | Adecuado | **Indicio de discriminación** |
+| Diagnóstico | Adecuado | **Indicio de discriminación y de dumping** |
 
 En Santa Margarida, la Administración pagó menos de la mitad de
-cualquier referencia de valor, y por debajo del suelo MEF calculado
-incluso con costes conservadores.
+cualquier referencia de valor, y por debajo tanto del suelo MEF como del
+suelo antidumping (coste real sin beneficio industrial), incluso
+calculados con costes conservadores.
 
 ### Advertencias
 
