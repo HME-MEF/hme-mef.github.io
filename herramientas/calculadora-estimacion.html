@@ -127,10 +127,6 @@
           <input type="number" id="pem" value="1500000" min="0" step="1000">
           <div class="hint">Base V de la estimación.</div>
 
-          <label for="superficie">Superficie total construida (m²) <span style="font-weight:400; color:#7f8c8d;">— opcional</span></label>
-          <input type="number" id="superficie" value="" min="0" step="10" placeholder="p. ej. 1890">
-          <div class="hint">Solo se usa para la referencia informativa RD 2512/1977 (Tarifa I), en "Referencias comparativas". Déjalo en blanco si no la necesitas.</div>
-
           <label for="tipologia">Tipología del edificio</label>
           <select id="tipologia">
             <option value="vivienda" selected>Vivienda (unifamiliar o colectiva)</option>
@@ -201,15 +197,6 @@
         <div class="result-box comparativo">
           <div class="result-row"><span>Suelo antidumping (coste sin beneficio industrial)</span><span class="v" id="r-antidumping">—</span></div>
           <div class="result-row" id="row-italia65"><span>Italia, cuota fija no rebajable</span><span class="v" id="r-italia65">—</span></div>
-          <div class="result-row" id="row-rd1977"><span>RD 2512/1977, Tarifa I ÷ Tarifa VI</span><span class="v" id="r-rd1977">—</span></div>
-          <div class="hint" style="margin:4px 0 0;">
-            La referencia RD 2512/1977 es la
-            última tarifación obligatoria española de honorarios de arquitectos (derogada desde la
-            liberalización de 1997); se muestra como corroboración histórica —el honorario de la
-            Tarifa I (según m² construidos, Cuadro I-A) dividido entre su propia Tarifa VI (hora de
-            trabajo)— solo si indicas la superficie construida, y no entra en el cálculo del suelo
-            MEF ni del suelo de coste.
-          </div>
         </div>
 
         <div class="band" id="band-viz"></div>
@@ -230,7 +217,6 @@
           <tr><td>SEGIPSA</td><td>% sobre PEM aplicado por la Administración General del Estado a sus propias encomiendas de gestión (BOE 27/5/2015).</td><td>Sólido</td></tr>
           <tr><td>Italia (DM 17/6/2016)</td><td>Modelo de honorarios de base-valor vigente en Italia, usado aquí solo como referencia comparada — ver <a href="{{ '/marco-legal/' | relative_url }}">Marco Legal</a>.</td><td>Sólido</td></tr>
           <tr><td>Italia, cuota fija (solo proyecto público)</td><td>Cuota no rebajable en licitaciones públicas italianas: 65% del honorario si es ≥140.000 €, 80% si es menor (art. 41.15-bis Codice dei Contratti Pubblici, D.Lgs. 36/2023, modificado por D.Lgs. 209/2024). Normativa italiana, no exigible en España — referencia de cuánto margen admite ese sistema.</td><td>Discontinuo</td></tr>
-          <tr><td>RD 2512/1977 (Tarifa I ÷ Tarifa VI)</td><td>Última tarifación obligatoria española de honorarios de arquitectos (derogada desde la liberalización de 1997, Ley 7/1997). Divide el honorario de la Tarifa I (edificación, según m² construidos — Cuadro I-A) entre la propia Tarifa VI (hora de trabajo, actualizada por IPC): una fuente de horas homogénea, de la misma norma. Se muestra solo si indicas la superficie construida; es corroboración histórica, no entra en el cálculo del suelo MEF ni del suelo de coste. Ver <a href="{{ '/herramientas/normas-historicas/' | relative_url }}">comparación histórica de normas</a>.</td><td>Discontinuo</td></tr>
         </table>
         <p style="font-size:12.5px; color:#7f8c8d; margin-top:10px;">
           Las tarifas históricas de honorarios de arquitecto (1905, 1923, 1977), actualizadas a euros de hoy, se comparan con estas referencias en la <a href="{{ '/herramientas/normas-historicas/' | relative_url }}">comparación histórica de normas</a>.
@@ -300,33 +286,6 @@ const G_TABLE = {
 const Q_REDACCION = 0.86;
 const Q_DIRECCION = 0.44;
 const Q_COORDSEG  = 0.35;
-
-// --- RD 2512/1977 (Tarifa I ÷ Tarifa VI) — referencia informativa, no afecta al suelo MEF ni al
-// suelo de coste. Ver herramientas/normas-historicas.md.
-const TARIFA_VI_1977 = { 2023: 57.77, 2024: 59.39, 2025: 60.99, 2026: 63.13, 2027: 63.13 };
-const CUADRO_IA = [
-  [50,10.0],[100,9.5],[200,8.7],[400,8.0],[600,7.5],[800,7.2],[1000,6.9],[2000,6.5],
-  [3000,6.1],[4000,5.8],[6000,5.6],[8000,5.4],[10000,5.2],[12000,5.1],[14000,5.0],
-  [16000,4.9],[18000,4.8],[20000,4.7],[25000,4.6],[30000,4.5],[35000,4.4],[40000,4.3],
-  [50000,4.2],[65000,4.1],[80000,4.0],[100000,3.9],[120000,3.8],[140000,3.7],[180000,3.6],
-  [200000,3.5]
-];
-function coefC1977(superficie){
-  for (const [limite, c] of CUADRO_IA) { if (superficie <= limite) return c; }
-  return 3.4;
-}
-// Porcentajes de fase acumulados, epígrafe 1.10 RD 2512/1977: redacción (hasta proyecto de
-// ejecución) = 70%; dirección de obra (acumulado) = 95%; "ambos" = 95% (sin liquidación).
-function tarifaI1977(pem, superficie, anio, encargo){
-  if (!(superficie > 0) || !(pem > 0)) return null;
-  const C = coefC1977(superficie);
-  const hCompleto = C / 100 * pem;
-  const pct = encargo === 'redaccion' ? 0.70 : encargo === 'direccion' ? (0.95 - 0.70) : 0.95;
-  const honorario = hCompleto * pct;
-  const tarifaVI = TARIFA_VI_1977[anio] || TARIFA_VI_1977['2026'];
-  const horas = honorario / tarifaVI;
-  return { C, honorario, horas, tarifaVI };
-}
 
 function fmt(n){
   return n.toLocaleString('es-ES', {maximumFractionDigits:0, minimumFractionDigits:0});
@@ -427,17 +386,6 @@ function calcular(){
     rowItalia65.style.display = 'none';
   }
 
-  const superficie = parseFloat(document.getElementById('superficie').value) || 0;
-  const rowRd1977 = document.getElementById('row-rd1977');
-  const rd1977 = tarifaI1977(pem, superficie, anio, encargo);
-  if (rd1977) {
-    rowRd1977.style.display = '';
-    document.getElementById('r-rd1977').innerHTML = conPct(rd1977.honorario, pem) +
-      ' <span class="pct">(≈' + fmtH(rd1977.horas) + ' h, C=' + rd1977.C.toFixed(1) + ')</span>';
-  } else {
-    rowRd1977.style.display = 'none';
-  }
-
   const points = [
     { v: mefTotal, l: 'MEF' },
     { v: costeTotal, l: 'Coste' },
@@ -450,7 +398,6 @@ function calcular(){
   ];
   if (d.mefConvenioIPC !== d.mefConvenio) dashedPoints.push({ v: mefTotalIPC, l: 'MEF (IPC)' });
   if (esPublico) dashedPoints.push({ v: italia65Total, l: 'Italia ' + (cuotaItalia*100).toFixed(0) + '%' });
-  if (rd1977) dashedPoints.push({ v: rd1977.honorario, l: 'RD 1977' });
 
   // Zoom: en vez de escalar desde 0, se usa el rango real [mínimo, máximo]
   // de todos los puntos (incluidos los de trazo discontinuo), con un margen
@@ -563,9 +510,6 @@ async function descargarPDF(){
 
   h('Datos del encargo', 11, 7);
   p('PEM (Presupuesto de Ejecución Material):', document.getElementById('pem').value + ' €');
-  if (document.getElementById('superficie').value) {
-    p('Superficie total construida:', document.getElementById('superficie').value + ' m²');
-  }
   p('Tipología del edificio:', document.getElementById('tipologia').selectedOptions[0].text);
   p('Grado de complejidad:', document.getElementById('complejidad').selectedOptions[0].text);
   p('Tipo de encargo:', document.getElementById('encargo').selectedOptions[0].text);
@@ -588,9 +532,6 @@ async function descargarPDF(){
   p('Suelo antidumping (coste sin beneficio industrial):', document.getElementById('r-antidumping').textContent);
   if (document.getElementById('publico').checked) {
     p(document.querySelector('#row-italia65 span:first-child').textContent + ':', document.getElementById('r-italia65').textContent);
-  }
-  if (document.getElementById('row-rd1977').style.display !== 'none') {
-    p('RD 2512/1977, Tarifa I ÷ Tarifa VI:', document.getElementById('r-rd1977').textContent);
   }
   y += 4;
 
