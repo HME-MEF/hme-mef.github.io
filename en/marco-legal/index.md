@@ -30,7 +30,7 @@ The self-employed professional must be protected against discriminatory treatmen
 > *"All Spaniards have the duty to work and the right to work, to the free choice of profession or trade, to advancement through work, and to sufficient remuneration to satisfy their needs and those of their family, and under no circumstances may they be discriminated against on grounds of sex."*
 
 **Application to MEF:**
-"Sufficient remuneration" must be equivalent for equivalent work, regardless of status (employee vs. self-employed).
+"Sufficient remuneration" must be equivalent for equivalent work, unless it is not possible to achieve this. This site shows, through calculators ([tools section]({{ '/en/herramientas/' | relative_url }})), that it is possible to carry out calculations that achieve a high degree of equivalence between the effective remuneration of the self-employed worker and that received by an employee, thereby showing that the unequal protection of the remuneration of the two types of worker is unjustified.
 
 #### Relevant constitutional case law
 

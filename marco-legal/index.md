@@ -27,7 +27,7 @@ El profesional autónomo debe tener protección frente a tratamiento discriminat
 > *"Todos los españoles tienen el deber de trabajar y el derecho al trabajo, a la libre elección de profesión u oficio, a la promoción a través del trabajo y a una remuneración suficiente para satisfacer sus necesidades y las de su familia, sin que en ningún caso pueda hacerse discriminación por razón de sexo."*
 
 **Aplicación a HME:**  
-La "remuneración suficiente" debe ser equivalente para trabajo equivalente, independientemente del estatus (empleado vs. autónomo).
+La "remuneración suficiente" debe ser equivalente para trabajo equivalente, salvo que no sea posible lograrlo. En esta página se muestra, mediante calculadoras ([sección de herramientas]({{ '/herramientas/' | relative_url }})), que es posible realizar cálculos que logran una equivalencia en grado elevado entre la remuneración efectiva del trabajador autónomo y la que percibe un empleado, mostrando por tanto que la desigualdad de protección de la remuneración de ambos tipos de trabajadores está injustificada.
 
 #### Jurisprudencia constitucional relevante
 
