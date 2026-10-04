@@ -197,13 +197,7 @@
 
         <div class="result-box comparativo">
           <div class="result-row"><span>Anti-dumping floor (cost without industrial profit)</span><span class="v" id="r-antidumping">—</span></div>
-          <div class="result-row"><span>HME under Directive (EU) 2022/2041 (INE average)</span><span class="v" id="r-directiva">—</span></div>
           <div class="result-row" id="row-italia65"><span>Italy, non-discountable fixed share</span><span class="v" id="r-italia65">—</span></div>
-          <div class="hint" style="margin:4px 0 0;">
-            The HME under the Directive is, like the SMI-based MEF floor, a minimum-wage floor
-            (not an equivalent-employment floor) — that is why it sits below the main MEF floor
-            in the band, which defaults to a collective-agreement basis.
-          </div>
         </div>
 
         <div class="band" id="band-viz"></div>
@@ -224,7 +218,6 @@
           <tr><td>SEGIPSA</td><td>% of PEM applied by the Spanish General State Administration to its own commissioned work (BOE 27/5/2015).</td><td>Solid</td></tr>
           <tr><td>Italy (DM 17/6/2016)</td><td>A value-based fee model in force in Italy, used here only as a comparative reference — see <a href="{{ '/en/marco-legal/' | relative_url }}">Legal Framework</a>.</td><td>Solid</td></tr>
           <tr><td>Italy, fixed share (public commissions only)</td><td>Non-discountable share in Italian public tenders: 65% of the fee if it is ≥€140,000, 80% if below that (art. 41.15-bis of the Codice dei Contratti Pubblici, D.Lgs. 36/2023, as amended by D.Lgs. 209/2024). Italian regulation, not binding in Spain — a reference for how much margin that system allows.</td><td>Dashed</td></tr>
-          <tr><td>HME under Directive (EU) 2022/2041</td><td>Applies the wage-adequacy criterion of art. 5(4) (the INE average wage as reference) to the MEF floor formula. Unlike the MEF floor, it has no constitutional anti-discrimination basis — it is an EU suggestion that Spain's own SMI does not even meet. Like the SMI-based MEF floor (and unlike the one shown by default in the band, based on the collective agreement), it is a minimum-wage floor, not an equivalent-employment one — hence it sits below the main MEF floor. See <a href="{{ '/en/herramientas/metodologia/' | relative_url }}">technical methodology, section 7.2</a>.</td><td>Dashed</td></tr>
         </table>
         <p style="font-size:12.5px; color:#7f8c8d; margin-top:10px;">
           The historical architects' fee regulations (1905, 1923, 1977), updated to today's euros, are compared against these references in the <a href="{{ '/en/herramientas/normas-historicas/' | relative_url }}">historical comparison of regulations</a>.
@@ -252,16 +245,12 @@ const SITE_URL = "https://www.hmef.eu";
 // limitations of each figure. Where no table or benchmark has been published for a given year, the
 // last official/verified figure is kept, explicitly flagged in NOTA_ANIO.
 const DATA_BY_YEAR = {
-  2023: { mefConvenio: 47.21, mefConvenioIPC: 47.21, sueloCoste: 40.18, hmeDirectiva: 43.75 },
-  2024: { mefConvenio: 48.05, mefConvenioIPC: 48.05, sueloCoste: 48.09, hmeDirectiva: 45.46 },
-  2025: { mefConvenio: 48.10, mefConvenioIPC: 49.07, sueloCoste: 48.09, hmeDirectiva: 45.46 },
-  2026: { mefConvenio: 48.17, mefConvenioIPC: 50.43, sueloCoste: 48.09, hmeDirectiva: 45.46 },
-  2027: { mefConvenio: 48.17, mefConvenioIPC: 50.43, sueloCoste: 48.09, hmeDirectiva: 45.46 }
+  2023: { mefConvenio: 47.21, mefConvenioIPC: 47.21, sueloCoste: 40.18 },
+  2024: { mefConvenio: 48.05, mefConvenioIPC: 48.05, sueloCoste: 48.09 },
+  2025: { mefConvenio: 48.10, mefConvenioIPC: 49.07, sueloCoste: 48.09 },
+  2026: { mefConvenio: 48.17, mefConvenioIPC: 50.43, sueloCoste: 48.09 },
+  2027: { mefConvenio: 48.17, mefConvenioIPC: 50.43, sueloCoste: 48.09 }
 };
-// hmeDirectiva: HME/h from the INE average wage (art. 5(4) of Directive (EU) 2022/2041), see
-// technical methodology, section 7.2. 2023: INE average wage €27,276/year (press release
-// 22/11/2024); 2024: €28,627.20/year (press release 14/11/2025); 2025-2027: no figure
-// published yet, the 2024 figure is kept.
 
 // sueloCoste: reference gross remuneration = average pay of employees of private firms (ACE,
 // not averaged with partners/directors — see technical methodology, section 2). 2023: ACE 2022,
@@ -375,7 +364,6 @@ function calcular(){
   const italia = CP;
 
   const antidumpingTotal = horas * SUELO_COSTE_H * FACTOR_ANTIDUMPING;
-  const directivaTotal = horas * d.hmeDirectiva;
   const esPublico = document.getElementById('publico').checked;
   const cuotaItalia = italia >= ITALIA_UMBRAL_PUBLICO ? ITALIA_CUOTA_FIJA_ALTA : ITALIA_CUOTA_FIJA_BAJA;
   const italia65Total = italia * cuotaItalia;
@@ -389,7 +377,6 @@ function calcular(){
   document.getElementById('r-italia').innerHTML = conPct(italia, pem);
 
   document.getElementById('r-antidumping').innerHTML = conPct(antidumpingTotal, pem);
-  document.getElementById('r-directiva').innerHTML = conPct(directivaTotal, pem);
   const rowItalia65 = document.getElementById('row-italia65');
   if (esPublico) {
     rowItalia65.style.display = '';
@@ -411,7 +398,6 @@ function calcular(){
 
   const dashedPoints = [
     { v: antidumpingTotal, l: 'Anti-dumping' },
-    { v: directivaTotal, l: 'Directive' }
   ];
   if (d.mefConvenioIPC !== d.mefConvenio) dashedPoints.push({ v: mefTotalIPC, l: 'MEF (CPI)' });
   if (esPublico) dashedPoints.push({ v: italia65Total, l: 'Italy ' + (cuotaItalia*100).toFixed(0) + '%' });
@@ -535,7 +521,6 @@ async function descargarPDF(){
 
   h('Comparative references (not binding)', 11, 7);
   p('Anti-dumping floor (cost without industrial profit):', document.getElementById('r-antidumping').textContent);
-  p('HME under Directive (EU) 2022/2041 (INE average):', document.getElementById('r-directiva').textContent);
   if (document.getElementById('publico').checked) {
     p(document.querySelector('#row-italia65 span:first-child').textContent + ':', document.getElementById('r-italia65').textContent);
   }
@@ -556,7 +541,7 @@ async function descargarPDF(){
   parrafo('The band runs from the MEF floor (the absolute anti-discrimination minimum) to the ' +
     'higher of the two external value references. A quote can reasonably fall anywhere within the ' +
     'band, or above it; below the MEF floor there is an indicator of undervaluation. The comparative ' +
-    'references (anti-dumping, Directive (EU) 2022/2041, Italian fixed share) are informative ' +
+    'references (anti-dumping, Italian fixed share) are informative ' +
     'cross-checks, not part of the band and not binding in Spain.');
 
   linea();

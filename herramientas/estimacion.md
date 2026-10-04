@@ -57,14 +57,13 @@ método que el evaluador de indicios: la fórmula del DM 17/6/2016
 (CP = V·G·ΣQ·P) aplicada al PEM, la tipología/complejidad y el alcance
 elegidos.
 
-Además de la banda, la calculadora muestra tres **referencias
+Además de la banda, la calculadora muestra dos **referencias
 comparativas** (trazo discontinuo), informativas y no vinculantes en
 España:
 
 | Referencia | Qué mide |
 |---|---|
-| **Suelo antidumping** | Umbral de cobertura de costes reales del estudio, sin beneficio industrial. Por debajo, la venta se considera a pérdida bajo el art. 17 de la Ley 3/1991 de Competencia Desleal. |
-| **HME según Directiva (UE) 2022/2041** | Aplica el criterio de adecuación salarial del art. 5.4 (salario medio del INE) a la fórmula del suelo MEF. Al ser un suelo de salario mínimo —como el SMI—, y no de empleo equivalente, queda por debajo del suelo MEF principal. |
+| **Suelo antidumping** | Umbral de cobertura de costes reales del estudio, sin beneficio industrial. Por debajo, la venta se considera a pérdida bajo el art. 17 de la Ley 3/1991 de Competencia Desleal. Comparte fundamento legal con el suelo MEF: ambos convergen en el mismo suelo práctico desde premisas distintas (empresa en competencia vs. equivalencia al trabajo por cuenta ajena) — ver [memoria técnica]({{ '/herramientas/metodologia/' | relative_url }}). |
 | **Italia, cuota fija** (solo proyecto público) | Cuota no rebajable en licitaciones públicas italianas: 65% del honorario si es ≥140.000 €, 80% si es menor (art. 41.15-bis Codice dei Contratti Pubblici). Normativa italiana, no exigible en España. |
 
 ### Advertencias

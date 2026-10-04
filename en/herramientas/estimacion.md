@@ -58,13 +58,12 @@ the pay-discrimination evaluator: the DM 17/6/2016 formula
 (CP = V·G·ΣQ·P) applied to the PEM, the chosen building type/complexity and
 scope.
 
-Besides the band, the calculator shows three **comparative references**
+Besides the band, the calculator shows two **comparative references**
 (dashed line), informative and not binding in Spain:
 
 | Reference | What it measures |
 |---|---|
-| **Anti-dumping floor** | Threshold for covering the practice's real costs, without industrial profit. Below it, selling is treated as below-cost under art. 17 of Spain's Unfair Competition Act (Ley 3/1991). |
-| **HME under Directive (EU) 2022/2041** | Applies the wage-adequacy criterion of art. 5(4) (the INE average wage) to the MEF floor formula. As a minimum-wage floor — like the SMI — rather than an equivalent-employment one, it sits below the main MEF floor. |
+| **Anti-dumping floor** | Threshold for covering the practice's real costs, without industrial profit. Below it, selling is treated as below-cost under art. 17 of Spain's Unfair Competition Act (Ley 3/1991). It shares a legal basis with the MEF floor: both converge on the same practical floor from different premises (a competing business vs. equivalence to employed work) — see the [technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }}). |
 | **Italy, fixed share** (public commissions only) | Non-discountable share in Italian public tenders: 65% of the fee if ≥€140,000, 80% if below that (art. 41.15-bis of the Codice dei Contratti Pubblici). Italian regulation, not binding in Spain. |
 
 ### Caveats

@@ -202,14 +202,15 @@
 
         <div class="result-box">
           <div class="result-row"><span>Anti-dumping floor (cost without industrial profit)</span><span class="v" id="r-antidumping">—</span></div>
-          <div class="result-row"><span>HME under Directive (EU) 2022/2041 (INE average)</span><span class="v" id="r-directiva">—</span></div>
         </div>
         <div class="hint" style="margin-bottom:14px;">
-          Comparative references, not binding in Spain: the anti-dumping floor marks the threshold
+          Comparative reference, not binding in Spain: the anti-dumping floor marks the threshold
           for covering the practice's real costs (without industrial profit) under art. 17 of Spain's
-          Unfair Competition Act (Ley 3/1991); the Directive (EU) 2022/2041 reference applies the
-          wage-adequacy criterion (the INE average wage) to the MEF-floor formula — as a minimum-wage
-          floor, rather than an equivalent-employment one, it sits below the main MEF floor. See the
+          Unfair Competition Act (Ley 3/1991). It shares a legal basis with the MEF floor: the 1997
+          liberalisation assumed that self-employed architects act as businesses in a competitive
+          market, and if that premise is accepted, unfair-competition (anti-dumping) law applies to
+          them; MEF, by contrast, rests on the premise of equivalence to employed work (art. 14 CE).
+          The two premises are mutually exclusive yet converge on the same floor. See the
           <a href="{{ '/en/herramientas/metodologia/' | relative_url }}">technical methodology</a>.
         </div>
 
@@ -290,11 +291,11 @@ const SITE_URL = "https://www.hmef.eu";
 // limitations of each figure. Where no table or benchmark has been published for a given year, the
 // last official/verified figure is kept, explicitly flagged in NOTA_ANIO.
 const DATA_BY_YEAR = {
-  2023: { mefConvenio: 47.21, mefConvenioIPC: 47.21, sueloCoste: 40.18, hmeDirectiva: 43.75 },
-  2024: { mefConvenio: 48.05, mefConvenioIPC: 48.05, sueloCoste: 48.09, hmeDirectiva: 45.46 },
-  2025: { mefConvenio: 48.10, mefConvenioIPC: 49.07, sueloCoste: 48.09, hmeDirectiva: 45.46 },
-  2026: { mefConvenio: 48.17, mefConvenioIPC: 50.43, sueloCoste: 48.09, hmeDirectiva: 45.46 },
-  2027: { mefConvenio: 48.17, mefConvenioIPC: 50.43, sueloCoste: 48.09, hmeDirectiva: 45.46 }
+  2023: { mefConvenio: 47.21, mefConvenioIPC: 47.21, sueloCoste: 40.18 },
+  2024: { mefConvenio: 48.05, mefConvenioIPC: 48.05, sueloCoste: 48.09 },
+  2025: { mefConvenio: 48.10, mefConvenioIPC: 49.07, sueloCoste: 48.09 },
+  2026: { mefConvenio: 48.17, mefConvenioIPC: 50.43, sueloCoste: 48.09 },
+  2027: { mefConvenio: 48.17, mefConvenioIPC: 50.43, sueloCoste: 48.09 }
 };
 // sueloCoste: reference gross remuneration = average pay of employees of private firms (ACE,
 // not averaged with partners/directors — see technical methodology, section 2). 2023: ACE 2022,
@@ -436,7 +437,6 @@ function calcular(){
   const importe = parseFloat(document.getElementById('importe').value) || 0;
   const suelomef = d.mefConvenio;
   const sueloAntidumping = SUELO_COSTE * FACTOR_ANTIDUMPING;
-  const sueloDirectiva = d.hmeDirectiva;
 
   const manual = document.getElementById('hme-manual-toggle').checked;
   const calc = horasEstimadas(pem); // always computed: CP feeds the SEGIPSA/Italy references
@@ -459,7 +459,6 @@ function calcular(){
     (d.mefConvenioIPC !== d.mefConvenio ?
       ' <span class="pct">(€' + fmt(d.mefConvenioIPC) + '/h if the collective-agreement salary had been updated by CPI instead of staying frozen at 2024)</span>' : '');
   document.getElementById('r-antidumping').textContent = '€' + fmt(sueloAntidumping) + '/h';
-  document.getElementById('r-directiva').textContent = '€' + fmt(sueloDirectiva) + '/h';
 
   const encargo = document.getElementById('encargo').value;
   const procedimiento = document.getElementById('procedimiento').value;
@@ -621,7 +620,6 @@ function descargarPDF(){
 
   h('Comparative references (not binding)', 11, 7);
   p('Anti-dumping floor (cost without industrial profit):', document.getElementById('r-antidumping').textContent);
-  p('HME under Directive (EU) 2022/2041 (INE average):', document.getElementById('r-directiva').textContent);
   p('SEGIPSA reference (BOE 27/5/2015):', document.getElementById('r-segipsa').textContent);
   p('Italian reference (DM 17/6/2016):', document.getElementById('r-italia').textContent);
   if (document.getElementById('procedimiento').value === 'publico') {

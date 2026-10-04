@@ -146,6 +146,39 @@ reales. Esta distinción es relevante porque el art. 17 de la
 no por debajo de coste más beneficio; el suelo de coste completo (con BI)
 es, por tanto, más exigente que el umbral legal de no dumping.
 
+**Nota — por qué el modelo mantiene MEF y antidumping como referencias
+"sólidas", y no la Directiva (UE) 2022/2041 (4 de octubre de 2026):**
+hasta esta fecha, el estimador y el evaluador incluían una tercera
+referencia comparativa, calculada aplicando a la fórmula del suelo MEF el
+criterio de adecuación salarial de la Directiva (UE) 2022/2041 (salario
+medio del INE en vez de salario de convenio). Se ha retirado: al ser un
+suelo de salario mínimo y no de empleo equivalente, quedaba siempre por
+debajo del suelo MEF principal sin aportar un umbral adicional distinto,
+y su presencia en la gráfica introducía más confusión que valor
+informativo. En su lugar, el modelo mantiene **dos** referencias con
+fundamento jurídico sólido —MEF (art. 14 CE) y antidumping (art. 17 Ley
+3/1991)— frente al suelo de coste con beneficio industrial, cuyo
+fundamento es solo una analogía regulatoria (art. 131 RGLCAP, una norma
+de contratación pública, no de aplicación directa a honorarios
+profesionales). La razón para mantener ambas referencias sólidas, y no
+solo una, es que son **complementarias, no redundantes**: la
+liberalización de 1997 (Ley 7/1997) sustituyó las tarifas obligatorias
+por la premisa de que el arquitecto autónomo actúa como una empresa en
+competencia, no como el equivalente funcional de un empleado. Si se
+acepta esa premisa empresarial, resulta aplicable la normativa de
+competencia desleal —y por tanto el suelo antidumping del art. 17 de la
+Ley 3/1991—; MEF, en cambio, parte de la premisa alternativa y en
+principio excluyente de que el autónomo debe recibir un trato equivalente
+al del trabajador por cuenta ajena (art. 14 CE). Ambas premisas no pueden
+ser ciertas a la vez desde el punto de vista conceptual, pero convergen
+en el mismo suelo práctico: acéptese la premisa empresarial o la de
+equivalencia laboral, el resultado es la necesidad de un suelo
+retributivo mínimo. Esto cierra la objeción de que el art. 14 CE "no
+sería aplicable" por tratarse de autónomos y no de empleados —la propia
+premisa alternativa que sostuvo la liberalización de 1997 conduce, por
+otra vía jurídica, al mismo suelo. Ver también
+[Marco Legal]({{ '/marco-legal/' | relative_url }}#3-normativa-administrativa-española).
+
 ## 3. Derivación del suelo MEF (por año — ver tabla en la sección 6)
 
 1. Salario de referencia del año seleccionado (convenio; o SMI, según la
@@ -372,19 +405,22 @@ Esta estimación usa una jornada anual (1.760 h) y una composición de
 gastos de explotación y Seguridad Social distintas de las de esta
 memoria (1.792 h, 33,01% de cotización + 12.885,18 €-13.059,92 €/año de
 costes operativos de Madrid, según el ejercicio), por lo que no es
-directamente sustituible por el
-suelo MEF de las secciones 2 y 3. Al igual que el suelo MEF (sección 3),
-la calculadora multiplica este valor por las horas facturables de la
-estimación HME (Italia ÷ 60,5 €/h), por lo que desde el 4 de octubre de
-2026 también se divide por la facturabilidad del 59,3% (Deltek Clarity
-A&E) para mantener la misma base de horas — el valor que usa la
-calculadora es el de "por hora facturable" (45,46 €/h, a partir del
-salario medio), no el "por hora trabajada" (26,96 €/h). Ambos enfoques
-—convenio colectivo/SMI, por un lado, y los valores orientativos del
-art. 5.4 de la Directiva, por otro— sitúan el suelo antidiscriminatorio
-de un arquitecto en ejercicio independiente en un rango similar, de
-aproximadamente 33 a 49 €/h sobre hora facturable, según la base
-salarial de referencia elegida.
+directamente sustituible por el suelo MEF de las secciones 2 y 3. Dividida
+por la facturabilidad del 59,3% (Deltek Clarity A&E) para mantener la
+misma base de horas que el resto de esta memoria, da como resultado "por
+hora facturable" 39,58 €/h (a partir del salario mediano) y 45,46 €/h (a
+partir del salario medio). Ambos enfoques —convenio colectivo/SMI, por un
+lado, y los valores orientativos del art. 5.4 de la Directiva, por otro—
+sitúan el suelo antidiscriminatorio de un arquitecto en ejercicio
+independiente en un rango similar, de aproximadamente 33 a 49 €/h sobre
+hora facturable, según la base salarial de referencia elegida. Esta
+referencia se mantiene aquí como contraste analítico, pero —desde el 4 de
+octubre de 2026— ya no se muestra como línea discontinua en las
+calculadoras del estimador y el evaluador (ver nota en la sección 2):
+al ser un suelo de salario mínimo y no de empleo equivalente, quedaba
+siempre por debajo del suelo MEF principal sin aportar un umbral
+adicional distinto, y el modelo prioriza las dos referencias con
+fundamento jurídico sólido (MEF y antidumping).
 
 Fuente: elaboración propia a partir del salario bruto mediano y medio en
 España en 2024, [INE, Decil de salarios del empleo principal, nota de

@@ -157,6 +157,40 @@ This section distinguishes three types of source, of different scope: (a) genera
 
 **Law 7/1997, on Liberalising Measures in Land and Professional Association Matters** — Replaces the mandatory-tariff regime of any professional association with **merely indicative fee scales** (art. 5.ñ), in compliance with competition law. From this point on, professional fees in general are no longer set by the State and are instead agreed between the parties, with non-binding professional-association reference scales.
 
+**Law 3/1991, of 10 January, on Unfair Competition — Article 17 (Selling
+at a loss)** — Prohibits selling goods or providing services below their
+production cost, or below their acquisition price, where this is liable
+to mislead consumers about the price level of other products or services
+from the same establishment, has the effect of discrediting the image of
+a competitor's product or establishment, or forms part of a strategy
+aimed at eliminating a competitor or group of competitors from the
+market.
+
+**Application to MEF — complementarity with the constitutional
+foundation:** The 1997 liberalisation (Law 7/1997) replaced mandatory fee
+tariffs with the premise that a self-employed professional acts in the
+market as a business in free competition, not as the functional
+equivalent of an employee. That very business premise is what triggers
+the application of unfair-competition law: if a self-employed architect
+is a business competing in the market, the prohibition on selling at a
+loss under art. 17 of Law 3/1991 applies to them exactly as it would to
+any other business. MEF, for its part, rests on the alternative — and in
+principle mutually exclusive — premise that the self-employed
+professional must be treated as equivalent to an employee under the
+non-discrimination principle (art. 14 CE). These two premises cannot both
+be true at the conceptual level (a competing business vs. the functional
+equivalent of an employee), but they **converge on the same practical
+floor**: whether one accepts the business premise (triggering art. 17 of
+Law 3/1991) or the employment-equivalence premise (triggering art. 14
+CE), the result is the same — the need for a minimum remuneration floor.
+This convergence closes off the objection that art. 14 CE "would not
+apply" because the person is self-employed rather than an employee: the
+very alternative premise — that the self-employed professional is a
+business, the premise that underpinned the 1997 liberalisation — leads,
+through a different legal route, to the same floor. See the technical
+development of this complementarity in the
+[technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }}).
+
 **Royal Decree 1619/2012 (Public Works Contracts)** — Establishes a budgeting methodology for public works, including overheads and industrial profit, used here as a valid reference, applicable to public procurement in general and not only to architectural services.
 
 **General Regulation of the Public Administration Contracts Act (RGLCAP),
@@ -347,6 +381,7 @@ abolishing it altogether — following a CJEU ruling.
 | RD 1/12/1922 (fee tariff) | Tariff I | [PDF]({{ '/assets/docs/construccion-moderna-1923-tarifas-es.pdf' | relative_url }}) *(ES)* |
 | RD 2512/1977 (fee tariff) | Arts. 1-2, Transitional provisions | [PDF]({{ '/assets/docs/rd-2512-1977-tarifas-honorarios-es.pdf' | relative_url }}) *(ES)* |
 | Law 7/1997 (liberalisation) | Art. 5.ñ) | [boe.es](https://www.boe.es) |
+| Law 3/1991 (Unfair Competition) | Art. 17 (selling at a loss) | [boe.es](https://www.boe.es) |
 | COAM, Indicative Scales 2007 | — | [PDF]({{ '/assets/docs/coam-baremos-orientativos-2007-es.pdf' | relative_url }}) *(ES)* |
 | SEGIPSA, Resolution 11/5/2015 (BOE 27/5/2015) | Section Second.2 | [PDF]({{ '/assets/docs/segipsa-boe-2015-es.pdf' | relative_url }}) *(ES)* |
 | Legge (IT) 21/4/2023, n. 49 (equo compenso) | Arts. 1-3 | [dirittobancario.it](https://www.dirittobancario.it/wp-content/uploads/2023/05/Legge-21-aprile-2023-n.-49.pdf) |

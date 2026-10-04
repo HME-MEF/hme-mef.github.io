@@ -170,6 +170,41 @@ de estar tarifados por el Estado con carácter general y pasan a fijarse
 por acuerdo entre las partes, con baremos colegiales de referencia no
 vinculante.
 
+**Ley 3/1991, de 10 de enero, de Competencia Desleal — Artículo 17
+(Venta a pérdida)** — Prohíbe la venta o prestación de servicios por
+debajo del coste de producción, o del precio de adquisición, cuando sea
+susceptible de inducir a error a los consumidores acerca del nivel de
+precios de otros productos o servicios del mismo establecimiento, o
+tenga por efecto desacreditar la imagen de un producto o un
+establecimiento ajenos, o forme parte de una estrategia encaminada a
+eliminar a un competidor o grupo de competidores del mercado.
+
+**Aplicación a HME — complementariedad con el fundamento constitucional:**
+La liberalización de 1997 (Ley 7/1997) sustituyó las tarifas obligatorias
+de honorarios por la premisa de que el profesional autónomo actúa en el
+mercado como una empresa en libre competencia, no como un equivalente
+funcional de un trabajador por cuenta ajena. Esa premisa empresarial es,
+precisamente, la que activa la aplicación de la normativa de competencia
+desleal: si un arquitecto autónomo es una empresa que compite en el
+mercado, le es aplicable la prohibición de venta a pérdida del art. 17 de
+la Ley 3/1991, exactamente igual que a cualquier otra empresa. HME, por
+su parte, parte de la premisa alternativa —y en principio excluyente—
+de que el autónomo debe recibir un trato equivalente al del trabajador
+por cuenta ajena en virtud del principio de no discriminación (art. 14
+CE). Estas dos premisas no pueden ser ciertas simultáneamente desde el
+punto de vista conceptual (empresa en competencia vs. equivalente
+funcional de un empleado), pero **convergen en el mismo suelo práctico**:
+tanto si se acepta la premisa empresarial (y se aplica el art. 17 de la
+Ley 3/1991) como si se acepta la premisa de equivalencia laboral (y se
+aplica el art. 14 CE), el resultado es la necesidad de un suelo
+retributivo mínimo. Esta convergencia cierra la objeción de que el art.
+14 CE "no sería aplicable" por tratarse de autónomos y no de empleados:
+la propia premisa alternativa —que el autónomo es una empresa, la que
+sostuvo la liberalización de 1997— conduce, por una vía jurídica
+distinta, al mismo suelo. Ver el desarrollo técnico de esta
+complementariedad en la
+[memoria técnica]({{ '/herramientas/metodologia/' | relative_url }}).
+
 **Real Decreto 1619/2012 (Contratos de Obras)** — Establece metodología
 de cálculo de presupuestos en obra pública, incluyendo gastos generales y
 beneficio industrial, como referencia válida, aplicable a cualquier
@@ -451,6 +486,7 @@ tras un pronunciamiento del TJUE.
 | RD 1/12/1922 (tarifa honorarios) | Tarifa I | [PDF]({{ '/assets/docs/construccion-moderna-1923-tarifas-es.pdf' | relative_url }}) |
 | RD 2512/1977 (tarifa honorarios) | Arts. 1-2, Disp. Transitorias | [PDF]({{ '/assets/docs/rd-2512-1977-tarifas-honorarios-es.pdf' | relative_url }}) |
 | Ley 7/1997 (liberalización) | Art. 5.ñ) | [boe.es](https://www.boe.es) |
+| Ley 3/1991 (Competencia Desleal) | Art. 17 (venta a pérdida) | [boe.es](https://www.boe.es) |
 | COAM, Baremos Orientativos 2007 | — | [PDF]({{ '/assets/docs/coam-baremos-orientativos-2007-es.pdf' | relative_url }}) |
 | SEGIPSA, Resolución 11/5/2015 (BOE 27/5/2015) | Apdo. Segundo.2 | [PDF]({{ '/assets/docs/segipsa-boe-2015-es.pdf' | relative_url }}) |
 | Legge (IT) 21/4/2023, n. 49 (equo compenso) | Arts. 1-3 | [dirittobancario.it](https://www.dirittobancario.it/wp-content/uploads/2023/05/Legge-21-aprile-2023-n.-49.pdf) |

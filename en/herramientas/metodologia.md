@@ -146,6 +146,39 @@ treats selling below **cost** — not below cost plus profit — as unfair.
 The full cost floor (with industrial profit) is therefore stricter than
 the legal no-dumping threshold.
 
+**Note — why the model keeps MEF and anti-dumping as the "solid"
+references, and not Directive (EU) 2022/2041 (4 October 2026):** until
+this date, the estimator and the evaluator included a third comparative
+reference, calculated by applying the Directive (EU) 2022/2041
+wage-adequacy criterion to the MEF-floor formula (the INE average wage
+instead of the collective-agreement salary). It has been removed: as a
+minimum-wage floor rather than an equivalent-employment one, it always
+sat below the main MEF floor without adding a distinct additional
+threshold, and its presence in the chart caused more confusion than
+informational value. In its place, the model keeps **two** references
+with a solid legal basis — MEF (art. 14 CE) and anti-dumping (art. 17,
+Law 3/1991) — as against the cost floor with industrial profit, whose
+basis is only a regulatory analogy (art. 131 RGLCAP, a public-procurement
+rule not directly applicable to professional fees). The reason for
+keeping both solid references, rather than just one, is that they are
+**complementary, not redundant**: the 1997 liberalisation (Law 7/1997)
+replaced mandatory tariffs with the premise that a self-employed
+architect acts as a business in competition, not as the functional
+equivalent of an employee. If that business premise is accepted,
+unfair-competition law applies — and therefore so does the anti-dumping
+floor under art. 17 of Law 3/1991; MEF, by contrast, rests on the
+alternative, and in principle mutually exclusive, premise that the
+self-employed professional must be treated as equivalent to an employee
+(art. 14 CE). The two premises cannot both be true at the conceptual
+level, but they converge on the same practical floor: whether one
+accepts the business premise or the employment-equivalence premise, the
+result is the same need for a minimum remuneration floor. This closes
+off the objection that art. 14 CE "would not apply" because the person is
+self-employed rather than an employee — the very alternative premise that
+underpinned the 1997 liberalisation leads, through a different legal
+route, to the same floor. See also
+[Legal Framework]({{ '/en/marco-legal/' | relative_url }}#3-spanish-administrative-regulations).
+
 ## 3. Derivation of the MEF floor (by year — see table in section 6)
 
 1. Reference salary for the selected year (collectively-bargained; or the
@@ -368,17 +401,21 @@ This estimate uses an annual working time (1,760 h) and a composition of
 operating expenses and social security contributions different from this
 methodology's own (1,792 h, 33.01% contribution rate + €12,885.18-€13,059.92/year
 in Madrid operating costs, depending on the year), so it is not directly interchangeable with the
-MEF floor in sections 2 and 3. Like the MEF floor (section 3), the
-calculator multiplies this value by the billable hours from the HME
-estimate (Italy ÷ €60.5/h), so since 4 October 2026 it is also divided
-by the 59.3% utilization rate (Deltek Clarity A&E) to keep it on the
-same hour basis — the value the calculator uses is the "per billable
-hour" one (€45.46/h, from the average wage), not the "per hour actually
-worked" one (€26.96/h). Both approaches — the collective agreement/SMI
-basis on one hand, and the Directive's art. 5(4) indicative values on
-the other — place the anti-discrimination floor for a self-employed
-architect in a similar range, roughly €33–49/h on a billable-hour
-basis, depending on the chosen reference salary base.
+MEF floor in sections 2 and 3. Divided by the 59.3% utilization rate
+(Deltek Clarity A&E) to keep it on the same hour basis as the rest of
+this methodology, it gives, "per billable hour," €39.58/h (from the
+median wage) and €45.46/h (from the average wage). Both approaches —
+the collective agreement/SMI basis on one hand, and the Directive's
+art. 5(4) indicative values on the other — place the anti-discrimination
+floor for a self-employed architect in a similar range, roughly €33–49/h
+on a billable-hour basis, depending on the chosen reference salary base.
+This reference is kept here as an analytical cross-check, but — since
+4 October 2026 — it is no longer shown as a dashed line in the
+estimator and evaluator calculators (see the note in section 2): as a
+minimum-wage floor rather than an equivalent-employment one, it always
+sat below the main MEF floor without adding a distinct additional
+threshold, and the model now prioritises the two references with a
+solid legal basis (MEF and anti-dumping).
 
 Source: own elaboration from Spain's gross median and average wage for
 2024, [INE, Decil de salarios del empleo principal, press release of
