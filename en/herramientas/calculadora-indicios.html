@@ -290,11 +290,11 @@ const SITE_URL = "https://www.hmef.eu";
 // limitations of each figure. Where no table or benchmark has been published for a given year, the
 // last official/verified figure is kept, explicitly flagged in NOTA_ANIO.
 const DATA_BY_YEAR = {
-  2023: { mefConvenio: 28.35, sueloCoste: 40.18, hmeDirectiva: 25.94 },
-  2024: { mefConvenio: 28.84, sueloCoste: 48.09, hmeDirectiva: 26.96 },
-  2025: { mefConvenio: 28.88, sueloCoste: 48.09, hmeDirectiva: 26.96 },
-  2026: { mefConvenio: 28.92, sueloCoste: 48.09, hmeDirectiva: 26.96 },
-  2027: { mefConvenio: 28.92, sueloCoste: 48.09, hmeDirectiva: 26.96 }
+  2023: { mefConvenio: 28.35, mefConvenioIPC: 28.35, sueloCoste: 40.18, hmeDirectiva: 25.94 },
+  2024: { mefConvenio: 28.84, mefConvenioIPC: 28.84, sueloCoste: 48.09, hmeDirectiva: 26.96 },
+  2025: { mefConvenio: 28.88, mefConvenioIPC: 29.45, sueloCoste: 48.09, hmeDirectiva: 26.96 },
+  2026: { mefConvenio: 28.92, mefConvenioIPC: 30.25, sueloCoste: 48.09, hmeDirectiva: 26.96 },
+  2027: { mefConvenio: 28.92, mefConvenioIPC: 30.25, sueloCoste: 48.09, hmeDirectiva: 26.96 }
 };
 // sueloCoste: reference gross remuneration = average pay of employees of private firms (ACE,
 // not averaged with partners/directors — see technical methodology, section 2). 2023: ACE 2022,
@@ -455,7 +455,9 @@ function calcular(){
 
   document.getElementById('r-pct').textContent = fmt(pct) + '% of PEM';
   document.getElementById('r-euroh').textContent = '€' + fmt(euroh) + '/h';
-  document.getElementById('r-mef').textContent = '€' + fmt(suelomef) + '/h';
+  document.getElementById('r-mef').innerHTML = '€' + fmt(suelomef) + '/h' +
+    (d.mefConvenioIPC !== d.mefConvenio ?
+      ' <span class="pct">(€' + fmt(d.mefConvenioIPC) + '/h if the collective-agreement salary had been updated by CPI instead of staying frozen at 2024)</span>' : '');
   document.getElementById('r-antidumping').textContent = '€' + fmt(sueloAntidumping) + '/h';
   document.getElementById('r-directiva').textContent = '€' + fmt(sueloDirectiva) + '/h';
 

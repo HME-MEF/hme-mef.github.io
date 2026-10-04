@@ -262,11 +262,11 @@ const SITE_URL = "https://www.hmef.eu";
 // limitaciones de cada cifra. Donde no hay tabla o benchmark publicado para un año, se mantiene
 // la última cifra oficial/verificada disponible, marcada explícitamente en NOTA_ANIO.
 const DATA_BY_YEAR = {
-  2023: { mefConvenio: 28.35, sueloCoste: 40.18, hmeDirectiva: 25.94 },
-  2024: { mefConvenio: 28.84, sueloCoste: 48.09, hmeDirectiva: 26.96 },
-  2025: { mefConvenio: 28.88, sueloCoste: 48.09, hmeDirectiva: 26.96 },
-  2026: { mefConvenio: 28.92, sueloCoste: 48.09, hmeDirectiva: 26.96 },
-  2027: { mefConvenio: 28.92, sueloCoste: 48.09, hmeDirectiva: 26.96 }
+  2023: { mefConvenio: 28.35, mefConvenioIPC: 28.35, sueloCoste: 40.18, hmeDirectiva: 25.94 },
+  2024: { mefConvenio: 28.84, mefConvenioIPC: 28.84, sueloCoste: 48.09, hmeDirectiva: 26.96 },
+  2025: { mefConvenio: 28.88, mefConvenioIPC: 29.45, sueloCoste: 48.09, hmeDirectiva: 26.96 },
+  2026: { mefConvenio: 28.92, mefConvenioIPC: 30.25, sueloCoste: 48.09, hmeDirectiva: 26.96 },
+  2027: { mefConvenio: 28.92, mefConvenioIPC: 30.25, sueloCoste: 48.09, hmeDirectiva: 26.96 }
 };
 // hmeDirectiva: HME/h a partir del salario medio del INE (art. 5.4 Directiva (UE) 2022/2041),
 // ver memoria técnica, sección 7.2. 2023: salario medio INE 27.276 €/año (nota de prensa
@@ -405,6 +405,7 @@ function calcular(){
   const horas = CP / REF_CONVERSION;
 
   const mefTotal = horas * suelomefH;
+  const mefTotalIPC = horas * d.mefConvenioIPC;
   const costeTotal = horas * SUELO_COSTE_H;
   const segipsa = segipsaTotal(pem, encargo);
   const italia = CP;
@@ -416,7 +417,9 @@ function calcular(){
   const italia65Total = italia * cuotaItalia;
 
   document.getElementById('r-horas').textContent = fmtH(horas) + ' h (G=' + G.toFixed(2) + ', ΣQ=' + SQ.toFixed(2) + ')';
-  document.getElementById('r-mef').innerHTML = conPct(mefTotal, pem);
+  document.getElementById('r-mef').innerHTML = conPct(mefTotal, pem) +
+    (d.mefConvenioIPC !== d.mefConvenio ?
+      ' <span class="pct">(' + fmt(mefTotalIPC) + ' € si el convenio se hubiera actualizado por IPC)</span>' : '');
   document.getElementById('r-coste').innerHTML = conPct(costeTotal, pem);
   document.getElementById('r-segipsa').innerHTML = conPct(segipsa, pem);
   document.getElementById('r-italia').innerHTML = conPct(italia, pem);
@@ -445,7 +448,7 @@ function calcular(){
     rowRd1977.style.display = 'none';
   }
 
-  const top = Math.max(mefTotal, costeTotal, segipsa, italia);
+  const top = Math.max(mefTotal, mefTotalIPC, costeTotal, segipsa, italia);
   const points = [
     { v: mefTotal, l: 'MEF' },
     { v: costeTotal, l: 'Coste' },
@@ -457,6 +460,7 @@ function calcular(){
     { v: antidumpingTotal, l: 'Antidumping' },
     { v: directivaTotal, l: 'Directiva' }
   ];
+  if (d.mefConvenioIPC !== d.mefConvenio) dashedPoints.push({ v: mefTotalIPC, l: 'MEF (IPC)' });
   if (esPublico) dashedPoints.push({ v: italia65Total, l: 'Italia ' + (cuotaItalia*100).toFixed(0) + '%' });
   if (rd1977) dashedPoints.push({ v: rd1977.honorario, l: 'RD 1977' });
 

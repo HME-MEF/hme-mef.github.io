@@ -308,11 +308,11 @@ const SITE_URL = "https://www.hmef.eu";
 // limitaciones de cada cifra. Donde no hay tabla o benchmark publicado para un año, se mantiene
 // la última cifra oficial/verificada disponible, marcada explícitamente en NOTA_ANIO.
 const DATA_BY_YEAR = {
-  2023: { mefConvenio: 28.35, sueloCoste: 40.18, hmeDirectiva: 25.94 },
-  2024: { mefConvenio: 28.84, sueloCoste: 48.09, hmeDirectiva: 26.96 },
-  2025: { mefConvenio: 28.88, sueloCoste: 48.09, hmeDirectiva: 26.96 },
-  2026: { mefConvenio: 28.92, sueloCoste: 48.09, hmeDirectiva: 26.96 },
-  2027: { mefConvenio: 28.92, sueloCoste: 48.09, hmeDirectiva: 26.96 }
+  2023: { mefConvenio: 28.35, mefConvenioIPC: 28.35, sueloCoste: 40.18, hmeDirectiva: 25.94 },
+  2024: { mefConvenio: 28.84, mefConvenioIPC: 28.84, sueloCoste: 48.09, hmeDirectiva: 26.96 },
+  2025: { mefConvenio: 28.88, mefConvenioIPC: 29.45, sueloCoste: 48.09, hmeDirectiva: 26.96 },
+  2026: { mefConvenio: 28.92, mefConvenioIPC: 30.25, sueloCoste: 48.09, hmeDirectiva: 26.96 },
+  2027: { mefConvenio: 28.92, mefConvenioIPC: 30.25, sueloCoste: 48.09, hmeDirectiva: 26.96 }
 };
 // sueloCoste: retribución bruta de referencia = salario medio de empleados de empresas privadas
 // (ACE, sin promediar con directivos/socios — ver memoria técnica, sección 2). 2023: ACE 2022,
@@ -509,7 +509,9 @@ function calcular(){
 
   document.getElementById('r-pct').textContent = fmt(pct) + '% PEM';
   document.getElementById('r-euroh').textContent = fmt(euroh) + ' €/h';
-  document.getElementById('r-mef').textContent = fmt(suelomef) + ' €/h';
+  document.getElementById('r-mef').innerHTML = fmt(suelomef) + ' €/h' +
+    (d.mefConvenioIPC !== d.mefConvenio ?
+      ' <span class="pct">(' + fmt(d.mefConvenioIPC) + ' €/h si el salario de convenio se hubiera actualizado por IPC en vez de quedar congelado en 2024)</span>' : '');
   document.getElementById('r-antidumping').textContent = fmt(sueloAntidumping) + ' €/h';
   document.getElementById('r-directiva').textContent = fmt(sueloDirectiva) + ' €/h';
 
