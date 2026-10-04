@@ -43,8 +43,6 @@ La propuesta HME busca cerrar esta brecha mediante:
 >
 > **DOI**: [10.60923/issn.1561-8048/23568](https://doi.org/10.60923/issn.1561-8048/23568)
 
-**Documentos origen** (2021–2022): la [petición de 2021]({{ '/assets/docs/peticion-2021.pdf' | relative_url }}) y los escritos de [demanda]({{ '/assets/docs/demanda-2022-03-23.pdf' | relative_url }}) y [conclusiones]({{ '/assets/docs/escrito-conclusiones-2022-05-23.pdf' | relative_url }}) redactados en 2022.
-
 **Primera publicación** (I Congreso de Arquitectos de Madrid, COAM, 2025):
 
 > Ricardo Alvira Baeza, *Honorarios Mínimos Profesionales. Un elefante (legislativo) en la habitación*, Ponencias del I Congreso de Arquitectos de Madrid (COAM), 2025.
@@ -56,6 +54,8 @@ La propuesta HME busca cerrar esta brecha mediante:
 ## Presentaciones Formales
 
 La propuesta ha sido planteada formalmente ante distintas administraciones desde 2021, incluyendo una vía judicial ya cerrada (2021–2024, Audiencia Nacional) y una nueva vía institucional abierta en 2026, centrada en la actualización del criterio de la Comisión Nacional de los Mercados y la Competencia (CNMC).
+
+Los documentos origen de la propuesta son la [petición de 2021]({{ '/assets/docs/peticion-2021.pdf' | relative_url }}) y los escritos de [demanda]({{ '/assets/docs/demanda-2022-03-23.pdf' | relative_url }}) y [conclusiones]({{ '/assets/docs/escrito-conclusiones-2022-05-23.pdf' | relative_url }}) redactados en 2022.
 
 [**Ver cronología completa →**]({{ '/advocacy/' | relative_url }})
 

@@ -30,7 +30,7 @@ The article was originally written and published in English (linked above); the 
 **Author:** Ricardo Alvira Baeza · PhD Architect, Professional Association Reg. No. 13148 · PhD in Political and Administrative Science
 **Paper presented at:** 1st Congress of Architects of Madrid (COAM), 2025
 
-The first publication of this research, after its formal presentation in the 2021 petition and the 2022 court filings. It reviews the evolution of worker-remuneration regulation in Spain over the last century, for both employees and the self-employed, and sets out the current disconnect between architects' professional fees and sufficient remuneration under article 35 of the Spanish Constitution. This document is the basis on which the academic article *Minimum Equivalent Fees* (2026) was later developed; the article itself expressly cites it as the work it expands upon. It has not been translated into English; the peer-reviewed article above is its fuller English-language development.
+The first publication of this research. It reviews the evolution of worker-remuneration regulation in Spain over the last century, for both employees and the self-employed, and sets out the current disconnect between architects' professional fees and sufficient remuneration under article 35 of the Spanish Constitution. This document is the basis on which the academic article *Minimum Equivalent Fees* (2026) was later developed; the article itself expressly cites it as the work it expands upon. It has not been translated into English; the peer-reviewed article above is its fuller English-language development.
 
 [Download PDF (Spanish)]({{ '/publicaciones/2025-alvira-elefante-legislativo-coam.pdf' | relative_url }})
 
