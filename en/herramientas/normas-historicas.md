@@ -60,7 +60,7 @@ annual remuneration figure.
   equality.
 - **Comparison layers:** without operating expenses, 1905 and 1923
   converge with the collective-agreement cost plus contributions. With
-  expenses, MEF (€26.50/h; €31.08/h in the calculator) falls between
+  expenses, MEF (€26.50/h; €28.84/h in the calculator, 2024) falls between
   that cost and the 1977 hour per hour actually worked (€35.22/h),
   which includes overheads and profit.
 - **Expenses:** the expenses in this comparison's MEF figure (social
@@ -115,7 +115,7 @@ there are no agreed tables for those years.
 | **Total annual employer cost (salary + contribution)** | **€38,123.28** | **€21.27** |
 
 Figures from the [site's technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }})
-(3 October 2026): collective-agreement-based MEF floor €31.08/h and cost
+(4 October 2026): collective-agreement-based MEF floor €28.84/h and cost
 floor €48.09/h (2024, with the ACE 2024 reference remuneration). The
 1977 hour, updated to 2024 (€59.39/h), is 23.5% above the cost floor.
 
@@ -141,14 +141,14 @@ per hour over 1,792 h, against the collective-agreement employer cost
 | Updated 1905 minimum salary | €43,260 | €24.14 | +13.5% |
 | **B. MEF with operating expenses (no profit)** | | | |
 | This comparison's MEF: collective agreement + SS + operating expenses (€9,369) | €47,492 | €26.50 | +24.6% |
-| Calculator's MEF, collective-agreement basis (higher overheads) | €55,695 | €31.08 | +46.1% |
+| Calculator's MEF, collective-agreement basis (higher overheads) | €51,684 | €28.84 | +35.6% |
 | **C. 1977 fees (include overheads and profit)** | | | |
 | 1977 hour per hour actually worked (€59.39 × 59.3% utilization) | €63,110 | €35.22 | +65.5% |
 | 1977 billable hour (100% occupancy) | €106,425 | €59.39 | +179.2% |
 | Calculator's cost floor (figure from its technical methodology) | €86,177 | €48.09 | +126.1% |
 
 **Notes**: the calculator's figures are taken from its technical
-methodology (3 October 2026) and are assumed to be in 2024 euros. The
+methodology (4 October 2026) and are assumed to be in 2024 euros. The
 59.3% utilization rate is an industry benchmark (Deltek), not an
 official figure. The €9,369 in expenses in this comparison correspond
 to professional-liability insurance, premises, software, equipment and
@@ -157,7 +157,7 @@ other operating costs.
 **Reading**: without operating expenses (layer A), the updated 1923 and
 1905 minimum salaries sit very close to the collective-agreement
 employer cost: +1.8% and +13.5%. Adding operating expenses (layer B)
-raises MEF to €26.50/h (this comparison) or €31.08/h (calculator, with
+raises MEF to €26.50/h (this comparison) or €28.84/h (calculator, with
 higher overheads). The 1977 hourly rates (layer C), which include
 overheads and profit, sit above: €35.22/h per hour actually worked. MEF
 thus falls between personnel cost and the 1977 hour. This comparison's

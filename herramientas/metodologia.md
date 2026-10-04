@@ -38,7 +38,7 @@ uso que cada quien haga de estas cifras depende de su propio criterio.
 |---|---|---|
 | Salario de referencia (convenio) | 28.027 €/año (2023) / 28.664 €/año (2024–2027) | Nivel 1, tablas salariales del XX Convenio colectivo de ingeniería y oficinas de estudios técnicos — **convencional**: **2023** ([BOE-A-2023-11785, 18/5/2023](https://www.boe.es/buscar/doc.php?id=BOE-A-2023-11785)), **2024** ([BOE-A-2024-5873, 12/3/2024](https://www.boe.es/buscar/doc.php?id=BOE-A-2024-5873)). Sin tabla pactada para 2025–2027; se mantiene la cifra de 2024 — ver sección 6 |
 | Cotización empresarial | 33,01% del salario base | Cálculo normativo de Seguridad Social sobre el salario de convenio o el SMI — **normativo** (porcentaje mantenido constante entre 2024 y 2027 como simplificación; no incorpora el incremento anual del Mecanismo de Equidad Intergeneracional) |
-| Costes operativos (Madrid) | 17.569 €/año (alquiler 10.500 €, responsabilidad civil 1.000 €, resto) | Valores medios de mercado en Madrid — **hipótesis propia**, conservadora y editable; sin año de referencia único, se aplica igual a los cuatro años del selector |
+| Costes operativos (Madrid) | 13.515,68 €/año (2023) / 13.560,90 €/año (2024) / 13.619,13 €/año (2025) / 13.690,42 €/año (2026) | Tabla de 8 partidas (cuota colegial, seguro de RC, local, vehículo —leasing y combustible—, licencias de software, equipamiento informático, otros gastos corrientes) con fuente específica y, donde existe dato real, variación año a año — ver tabla completa más abajo (§1-bis) y memoria técnica §11. Sustituye a la estimación agregada inicial (17.569 €/año) |
 | Horas anuales | 1.792 h | Jornada máxima del convenio de ingeniería y oficinas técnicas — **convencional** |
 | Facturabilidad (utilization rate) | 59,3% (2024–2027) | Segmento "Architecture or A/E", ejercicio fiscal **2025** — *47th Annual Deltek Clarity A&E Industry Study* (Deltek / CMG Consulting), tabla "Statistics at a Glance", p. 122 (la mediana narrativa de todo el sector A&E, no solo arquitectura, es 58,9%, p. 99) — **benchmark de industria, EE.UU.**, no es un dato oficial español ([informe completo](https://info.deltek.com/47th-Annual-Deltek-Clarity-AE-Report-PDF)). Único dato específico de arquitectura publicado; se aplica igual a los cuatro años del selector — ver sección 6 |
 | Retribución bruta de referencia (suelo de coste) | 26.462 €/año (2023) / 31.672 €/año (2024–2027) | Salario medio de empleados de empresas privadas en España, ajustado por PPA (sin promediar con directivos/socios — ver nota en sección 2): **2023** — *ACE Sector Study* **2022**, Tabla 4-2, España, p. 55; **2024–2027** — *ACE Sector Study* **2024**, Tabla 4-2, España, p. 57 — **hipótesis propia**, con datos de partida de *The Architectural Profession in Europe* (Mirza & Nacey Research Ltd, Architects' Council of Europe), ediciones 2022 y 2024 |
@@ -49,6 +49,24 @@ uso que cada quien haga de estas cifras depende de su propio criterio.
 | Parámetros V, G, Q, P (modelo italiano): V = PEM, G = grado de complejidad (Tabla Z-1), ΣQ = incidencia agregada de las fases del encargo (Tabla Z-2), P = 0,03 + 10/V^0,4 | Tablas Z-1 y Z-2 | DM 17/6/2016 — **normativo (Italia)**; el G y el ΣQ que usa esta herramienta son una categorización agregada orientativa, no el desglose línea a línea del decreto — ver [Marco Legal]({{ '/marco-legal/' | relative_url }}) |
 | DM 2016 O.P. (baja máxima en obra pública) | 65% fijo / 35% con baja posible; 20% en adjudicación directa (< 140.000 €) | Desde el 1/1/2025, el *Codice dei Contratti Pubblici* italiano (D.Lgs. 209/2024, que modifica el D.Lgs. 36/2023) limita la baja admisible sobre la tarifa paramétrica del DM 17/6/2016: en licitación, el 65% de la tarifa es fijo (no rebajable) y solo el 35% restante puede ser objeto de baja, lo que fija el rango máximo de descuento; en adjudicación directa (encargos por debajo de 140.000 €), la baja máxima admitida es del 20% — **normativo (Italia)**, citado como referencia comparada, no aplicable en España |
 | % sobre PEM (SEGIPSA) | 6,65%–3,08% según tramo y concepto | [Resolución de 11/5/2015](https://www.boe.es/eli/es/res/2015/05/11/(2)) (BOE 27/5/2015) — **normativo**, verificado contra el texto oficial |
+
+### Detalle de los costes operativos (2023-2026)
+
+Desagregación de los costes operativos del MEF en ocho partidas, cada una con su propia fuente. Ante la ausencia de fuentes oficiales para varias de ellas, se han aceptado fuentes privadas de mercado, señaladas en cada caso. Sustituye a la estimación agregada inicial (17.569 €/año, alquiler 10.500 € + RC 1.000 €).
+
+| Partida | 2023 | 2024 | 2025 | 2026 | Fuente |
+|---|---|---|---|---|---|
+| Cuota colegial COAM | 230,00 € | 230,00 € | 255,00 € | 262,00 € | [web.archive.org](https://web.archive.org), páginas de cuotas COAM para colegiados residentes (capturas del 31/05/2023 y del 22/01/2025); cifra de 2026 confirmada directamente por el titular del estudio; 2024 repite el valor de 2023 a falta de dato propio para ese ejercicio |
+| Seguro de responsabilidad civil profesional | 767,39 € | 788,98 € | 810,00 € | 838,43 € | SEGURCOAM, tabla de primas del seguro de RC profesional del COAM (documento de octubre de 2025), cobertura 190.000 €/facturación ≤150.000 €: 810 €/año (dato real de 2025); 2023, 2024 y 2026 extrapolados aplicando los mismos factores de variación interanual del modelo: 2023→2024 +2,80 %, 2024→2025 +2,69 %, 2025→2026 +3,51 % |
+| Local (coworking, puesto fijo + sala de reuniones 4 h/mes) | 4.229,00 € | 4.229,00 € | 4.229,00 € | 4.229,00 € | Informe sectorial Coworking Spain 2025 (puesto fijo) + referencia WeWork (sala de reuniones). Nota: la cifra resultante es equivalente a la media del alquiler de un despacho propio de 20 m² en Madrid (4.200 €/año, CBRE), lo que corrobora la cifra adoptada. Se mantiene fija para los cuatro años: no ha sido posible construir una serie 2023-2026 homogénea de precios de oficina/coworking en Madrid por incompatibilidad metodológica entre fuentes (definiciones de zona «periferia» no comparables entre consultoras) y por limitaciones de extracción de datos de informes históricos (Knight Frank 2023/2024) |
+| Vehículo — leasing | 3.534,00 € | 3.534,00 € | 3.534,00 € | 3.534,00 € | Leasing de coche compacto en Madrid, rango de mercado 244-345 €/mes + IVA, adoptado el punto medio (cobertura e impuestos incluidos); cifra fija para los cuatro años. Alternativas: renting todo incluido, 5.108 €/año; carsharing por minuto (Zity, WiBLE, Free2Move, Share Now, GoTo), aplicado al mismo supuesto de uso, ≈3.500 €/año —coincidencia notable con el leasing pese a un modelo de precio completamente distinto—, aunque el carsharing solo cubre desplazamientos dentro del municipio de Madrid |
+| Vehículo — combustible | 123,73 € | 128,18 € | 121,63 € | 132,22 € | Precio medio anual de la gasolina 95 (boletín sectorial de precios de carburantes) × consumo de referencia 6 l/100 km × kilometraje anual estimado a partir de la frecuencia propia de visitas de obra (1,5/semana) y de visitas a clientes/administraciones (0,3/semana), con 15,6 km de distancia media ida y vuelta (corroborada independientemente por la Encuesta Domiciliaria de Movilidad EDM 2018 de la Comunidad de Madrid/CRTM) |
+| Licencias de software (CAD/BIM + Office 365 + IA generativa) | 3.060,00 € | 3.060,00 € | 3.060,00 € | 3.060,00 € | Revit 2.765 €/año + Microsoft 365 Business Basic 72,84 €/año + suscripción de IA generativa estándar (ChatGPT Plus/Claude Pro) ≈222 €/año; precios públicos de suscripción, cifra fija para los cuatro años |
+| Equipamiento informático | 889,50 € | 889,50 € | 889,50 € | 889,50 € | Precios de mercado (MediaMarkt y similares), amortizados según vida útil: CPU/torre con GPU dedicada de gama media (≈1.300 €, renovación cada 2 años = 650 €/año); monitor 24″ (≈160 €, renovación cada 5 años = 32 €/año); disco duro externo 2 TB para copias de seguridad (≈65 €, renovación cada 2 años = 32,50 €/año); teléfono móvil de gama media (≈350 €, renovación cada 2 años = 175 €/año). Cifra fija para los cuatro años |
+| Otros gastos corrientes | 682,06 € | 701,24 € | 720,00 € | 745,27 € | Hipótesis propia —papelería, consumibles de impresora, equipamiento técnico menor y cuota de telefonía móvil (60 €/mes, base 2025)—, actualizada a los demás años con los factores de variación interanual del modelo |
+| **Total costes operativos documentados** | **13.515,68 €** | **13.560,90 €** | **13.619,13 €** | **13.690,42 €** | |
+
+Nota final: el Estado cuenta con información detallada sobre la estructura de gastos de los profesionales autónomos a través de las propias declaraciones de la renta (IRPF), información que no es pública y que, por tanto, no ha podido emplearse como fuente para esta tabla.
 
 ### Detalle de las tarifas SEGIPSA (BOE 27/5/2015)
 
@@ -132,7 +150,8 @@ es, por tanto, más exigente que el umbral legal de no dumping.
 
 1. Salario de referencia del año seleccionado (convenio; o SMI, según la
    base elegida) + cotización empresarial (33,01% del salario base) +
-   costes operativos de Madrid (17.569 €).
+   costes operativos de Madrid del año correspondiente (13.515,68 €-13.690,42 €,
+   ver tabla en la sección 1).
 2. ÷ 1.792 horas anuales.
 3. Resultado: el suelo antidiscriminatorio propiamente dicho (base
    convenio) — la comparación directa con lo que costaría contratar a un
@@ -181,20 +200,14 @@ tarifa de conversión de 60,5 €/h.
   un dato específico de estudios de arquitectura ni de despachos
   profesionales; conviene revisar la edición más reciente de la EACL
   periódicamente.
-- Los costes operativos (17.569 €/año) están calculados para Madrid; en
-  otras ciudades o regiones el suelo de coste variará. Se ha buscado
-  expresamente una fuente oficial o un benchmark de industria para esta
-  cifra —los estudios ACE 2022 y 2024 y el ACE Observatory (su panel de
-  datos interactivo para España)— sin localizar ningún dato de alquiler
-  de oficina técnica ni de gastos operativos agregados por país; el
-  componente de alquiler (10.500 €/año) se mantiene como hipótesis
-  propia, conservadora y editable, sin fuente externa. El componente de
-  responsabilidad civil (1.000 €/año) sí cuenta con un benchmark de
-  industria, aunque agregado a nivel UE y no específico de España: el
-  ACE Sector Study 2024 (§3.12) señala que casi la mitad de los
-  despachos europeos destinan menos del 2,5% de su facturación a primas
-  de RC profesional, lo que es coherente en orden de magnitud con la
-  hipótesis actual.
+- Los costes operativos (13.515,68 €-13.690,42 €/año según el ejercicio)
+  están calculados para Madrid; en otras ciudades o regiones el suelo de
+  coste variará. Desde esta actualización están desagregados en ocho
+  partidas con fuente específica para cada una (cuota colegial, seguro de
+  RC, local, vehículo, licencias de software, equipamiento informático,
+  otros gastos corrientes) — ver tabla completa y fuentes en la sección 1.
+  Ante la ausencia de fuentes oficiales para varias partidas se han
+  aceptado fuentes privadas de mercado, señaladas en cada caso.
 - La retribución bruta de referencia (ACE, "empleados de empresas
   privadas") modela el coste de un equipo típico, no el coste de
   oportunidad de un arquitecto autónomo que trabaja en solitario — para
@@ -222,13 +235,13 @@ el PEM. El estimador de banda usa por defecto el año en curso; el
 evaluador de indicios exige elegir un año explícitamente, sin valor por
 defecto, para no dar por supuesto un ejercicio en un cálculo comparativo.
 
-| Año | Salario convenio | SMI | Suelo MEF (convenio) | Suelo MEF (SMI) | Suelo de coste | Notas |
-|---|---|---|---|---|---|---|
-| 2023 | 28.027 € | 15.120 € | 30,61 €/h | 21,03 €/h | 40,18 €/h | Salario de convenio y SMI son cifras oficiales de 2023; suelo de coste con retribución de referencia ACE **2022** (empleados, España); facturabilidad y coeficiente coste-empresa sin edición propia de ese ejercicio, se usan las mismas FY2025 Deltek / EACL 2025 que en el resto de años |
-| 2024 | 28.664 € | 15.876 € | 31,08 €/h | 21,59 €/h | 48,09 €/h | Todos los datos son cifras oficiales o el benchmark de referencia (FY2025 Deltek, EACL 2025, ACE **2024**) verificadas para este ejercicio |
-| 2025 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 16.576 € | 31,08 €/h | 22,11 €/h | 48,09 €/h | SMI oficial de 2025; suelo de coste con retribución ACE 2024 (sin edición propia de 2025); facturabilidad y coeficiente coste-empresa con las últimas ediciones publicadas (Deltek FY2025, EACL 2025) |
-| 2026 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € | 31,08 €/h | 22,49 €/h | 48,09 €/h | SMI oficial de 2026; suelo de coste con retribución ACE 2024 (sin edición propia de 2026); facturabilidad y coeficiente coste-empresa sin edición más reciente, se mantienen Deltek FY2025 / EACL 2025 |
-| 2027 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € *(sin RD publicado; se mantiene 2026)* | 31,08 €/h | 22,49 €/h | 48,09 €/h | Año sin ningún dato propio publicado todavía; todas las cifras son la última disponible, incluida la retribución ACE 2024 del suelo de coste |
+| Año | Salario convenio | SMI | Costes operativos | Suelo MEF (convenio) | Suelo MEF (SMI) | Suelo de coste | Notas |
+|---|---|---|---|---|---|---|---|
+| 2023 | 28.027 € | 15.120 € | 13.515,68 € | 28,35 €/h | 18,76 €/h | 40,18 €/h | Salario de convenio y SMI son cifras oficiales de 2023; costes operativos con la tabla de 8 partidas (sección 1); suelo de coste con retribución de referencia ACE **2022** (empleados, España); facturabilidad y coeficiente coste-empresa sin edición propia de ese ejercicio, se usan las mismas FY2025 Deltek / EACL 2025 que en el resto de años |
+| 2024 | 28.664 € | 15.876 € | 13.560,90 € | 28,84 €/h | 19,35 €/h | 48,09 €/h | Todos los datos son cifras oficiales o el benchmark de referencia (FY2025 Deltek, EACL 2025, ACE **2024**) verificadas para este ejercicio; costes operativos con la tabla de 8 partidas (sección 1) |
+| 2025 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 16.576 € | 13.619,13 € | 28,88 €/h | 19,90 €/h | 48,09 €/h | SMI oficial de 2025; costes operativos con la tabla de 8 partidas (sección 1); suelo de coste con retribución ACE 2024 (sin edición propia de 2025); facturabilidad y coeficiente coste-empresa con las últimas ediciones publicadas (Deltek FY2025, EACL 2025) |
+| 2026 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € | 13.690,42 € | 28,92 €/h | 20,33 €/h | 48,09 €/h | SMI oficial de 2026; costes operativos con la tabla de 8 partidas (sección 1); suelo de coste con retribución ACE 2024 (sin edición propia de 2026); facturabilidad y coeficiente coste-empresa sin edición más reciente, se mantienen Deltek FY2025 / EACL 2025 |
+| 2027 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € *(sin RD publicado; se mantiene 2026)* | 13.690,42 € *(sin dato propio; se mantiene 2026)* | 28,92 €/h | 20,33 €/h | 48,09 €/h | Año sin ningún dato propio publicado todavía; todas las cifras son la última disponible, incluida la retribución ACE 2024 del suelo de coste |
 
 Desde octubre de 2026, el suelo de coste **sí varía por año**: se
 encadena a la edición de ACE más reciente con dato disponible para cada
@@ -249,6 +262,12 @@ disponible — con la salvedad, ya señalada en la sección 5, de que el
 tamaño de muestra de ACE en España (198–847 respuestas según la edición,
 margen de error ±3,3% a ±7,0% al 95% de confianza) sigue introduciendo
 ruido año a año.
+
+Desde esta misma actualización, el suelo MEF **también varía por año**,
+al depender ahora de los costes operativos desagregados (sección 1), que
+sí tienen variación interanual real en varias de sus partidas (seguro de
+RC, combustible) en lugar de la cifra fija de 17.569 €/año usada hasta
+ahora.
 
 La cotización empresarial se calcula como un porcentaje fijo (33,01%) del
 salario base de cada año, sin modelar el incremento anual del Mecanismo
@@ -277,7 +296,7 @@ Son tarifas de mercado (lo que de hecho se factura a clientes), no de
 coste, por lo que no son directamente equivalentes al suelo MEF ni al
 suelo de coste de esta memoria — pero su comparación es reveladora: la
 tarifa media de mercado para principales en España (39–41 €/h) queda por
-encima del suelo MEF (31,08 €/h), pero **por debajo** tanto del umbral
+encima del suelo MEF (28,35-28,92 €/h, según el año), pero **por debajo** tanto del umbral
 de cobertura de costes sin beneficio industrial (45,67 €/h, 2024, ver
 sección 2) como del suelo de coste completo (48,09 €/h, 2024). Es decir,
 la tarifa media que de hecho se cobra en el mercado español no llega a
@@ -315,8 +334,9 @@ HME. Aplicados así al salario bruto mediano y medio de España en 2024
 
 Esta estimación usa una jornada anual (1.760 h) y una composición de
 gastos de explotación y Seguridad Social distintas de las de esta
-memoria (1.792 h, 33,01% de cotización + 17.569 €/año de costes
-operativos de Madrid), por lo que no es directamente sustituible por el
+memoria (1.792 h, 33,01% de cotización + 13.515,68 €-13.690,42 €/año de
+costes operativos de Madrid, según el ejercicio), por lo que no es
+directamente sustituible por el
 suelo MEF de las secciones 2 y 3 — pero confirma que ambos enfoques
 —convenio colectivo/SMI, por un lado, y los valores orientativos del
 art. 5.4 de la Directiva, por otro— sitúan el suelo antidiscriminatorio

@@ -83,9 +83,10 @@ evaluated amount against them:
   of employees of private firms (ACE 2022 for 2023, ACE 2024 for
   2024–2027), with 13% overheads and 6% industrial profit (by analogy
   with art. 131 RGLCAP).
-- **MEF floor** (€31.08/h on the collectively-bargained salary across all
-  four years; between €21.59/h and €22.49/h on the SMI, depending on the
-  year): HME × MEF hourly rate — the actual anti-discrimination floor. See
+- **MEF floor** (€28.35-€28.92/h on the collectively-bargained salary,
+  depending on the year; between €18.76/h and €20.33/h on the SMI,
+  depending on the year): HME × MEF hourly rate — the actual
+  anti-discrimination floor. See
   the
   [technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }}#6-data-and-results-by-year-2024-2027)
   for the exact value for each year and why some figures stay constant for
@@ -126,7 +127,7 @@ recorded by the CSCAE's Fee Observatory (26/5/2025) — they correspond to year
 | Awarded drafting fee (% of PEM) | 6.64% (€196,950) | 3.15% (€40,597) |
 | Italian reference | 7.12% (€211,302) | 6.73% (€86,654) |
 | Implicit €/h paid | €56.4/h | €28.3/h |
-| MEF floor | €31.08/h | €31.08/h |
+| MEF floor (2024) | €28.84/h | €28.84/h |
 | Diagnosis | Adequate | **Indicator of discrimination** |
 
 In Santa Margarida, the awarding administration paid less than half of

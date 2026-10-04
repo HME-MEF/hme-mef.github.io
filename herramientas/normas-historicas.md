@@ -55,7 +55,7 @@ tarifa horaria ni retribución anual.
   cercanía, no igualdad.
 - **Capas de comparación:** sin gastos de explotación, 1905 y 1923
   convergen con el convenio más cotización. Con gastos, el HME (26,50
-  €/h; 31,08 €/h en la calculadora) queda entre ese coste y la hora de
+  €/h; 28,84 €/h en la calculadora, 2024) queda entre ese coste y la hora de
   1977 por hora trabajada (35,22 €/h), que incluye gastos generales y
   beneficio.
 - **Gastos:** los del HME de esta comparación (SS y explotación) son
@@ -110,7 +110,7 @@ no hay tablas pactadas para esos años.
 | **Coste anual para el empleador (salario + cotización)** | **38.123,28 €** | **21,27 €** |
 
 Cifras de la [memoria técnica de la web]({{ '/herramientas/metodologia/' | relative_url }})
-(3 de octubre de 2026): suelo MEF base convenio 31,08 €/h y suelo de
+(4 de octubre de 2026): suelo MEF base convenio 28,84 €/h y suelo de
 coste 48,09 €/h (2024, con la retribución de referencia ACE 2024). La
 hora de 1977 actualizada a 2024 (59,39 €/h) queda un 23,5% por encima
 del suelo de coste.
@@ -137,14 +137,14 @@ convenio (21,27 €/h = 100).
 | Sueldo mínimo de 1905 actualizado | 43.260 € | 24,14 € | +13,5% |
 | **B. HME con gastos de explotación (sin beneficio)** | | | |
 | HME de esta comparación: convenio + SS + gastos de explotación (9.369 €) | 47.492 € | 26,50 € | +24,6% |
-| MEF de la calculadora, base convenio (gastos generales incrementados) | 55.695 € | 31,08 € | +46,1% |
+| MEF de la calculadora, base convenio (gastos generales incrementados) | 51.684 € | 28,84 € | +35,6% |
 | **C. Honorarios de 1977 (incluyen gastos generales y beneficio)** | | | |
 | Hora 1977 por hora trabajada (59,39 € × 59,3% de facturabilidad) | 63.110 € | 35,22 € | +65,5% |
 | Hora 1977 facturable (ocupación del 100%) | 106.425 € | 59,39 € | +179,2% |
 | Suelo de coste de la calculadora (cifra de su memoria técnica) | 86.177 € | 48,09 € | +126,1% |
 
 **Notas**: las cifras de la calculadora se toman de su memoria técnica
-(3 de octubre de 2026) y se supone que están en euros de 2024. El 59,3%
+(4 de octubre de 2026) y se supone que están en euros de 2024. El 59,3%
 de facturabilidad es una referencia de la industria (Deltek), no un dato
 oficial. Los 9.369 € de gastos de esta comparación corresponden a seguro
 de responsabilidad civil, local, software, equipamiento y otros gastos
@@ -153,7 +153,7 @@ corrientes.
 **Lectura**: sin gastos de explotación (capa A), los sueldos mínimos de
 1923 y 1905 actualizados quedan muy cerca del coste de empleador del
 convenio: +1,8% y +13,5%. Al añadir gastos de explotación (capa B) el
-HME sube a 26,50 €/h (esta comparación) o 31,08 €/h (calculadora, con
+HME sube a 26,50 €/h (esta comparación) o 28,84 €/h (calculadora, con
 gastos generales mayores). Las horas de 1977 (capa C), que incluyen
 gastos generales y beneficio, quedan por encima: 35,22 €/h por hora
 trabajada. El HME queda así entre el coste de personal y la hora de

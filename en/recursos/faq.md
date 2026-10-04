@@ -127,12 +127,13 @@ In brief (full derivation, with the source table for each input, in the
    salary** (or, alternatively, the SMI), plus the **employer social
    security contribution** and the practice's **operating costs**.
 2. It is divided by the collective agreement's **annual hours** (1,792 h).
-3. The result is two reference values: **€31.08/h** (MEF floor,
-   collective-agreement base, the same across 2024–2027 for lack of a more
-   recent salary table) and, on the SMI, between **€21.59/h** (2024) and
-   **€22.49/h** (2026–2027), depending on the year — the absolute
-   threshold. Both calculators include a **year selector** (2024–2027) to
-   choose which figures to apply in each case.
+3. The result is two reference values, which vary by year according to
+   the operating costs documented in the technical methodology: between
+   **€28.35/h** (2023) and **€28.92/h** (2026–2027) (MEF floor,
+   collective-agreement base) and, on the SMI, between **€18.76/h**
+   (2023) and **€20.33/h** (2026–2027) — the absolute threshold. Both
+   calculators include a **year selector** (2023–2027) to choose which
+   figures to apply in each case.
 
 Separately, the **cost floor** (what it costs a practice to produce one
 hour of work, including its margin) adjusts those hours by a **utilization
