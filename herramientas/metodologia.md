@@ -152,7 +152,8 @@ es, por tanto, más exigente que el umbral legal de no dumping.
    base elegida) + cotización empresarial (33,01% del salario base) +
    costes operativos de Madrid del año correspondiente (13.515,68 €-13.690,42 €,
    ver tabla en la sección 1).
-2. ÷ 1.792 horas anuales.
+2. ÷ (1.792 horas anuales × 59,3% de facturabilidad — *Deltek Clarity
+   A&E*): coste por hora efectivamente facturable.
 3. Resultado: el suelo antidiscriminatorio propiamente dicho (base
    convenio) — la comparación directa con lo que costaría contratar a un
    profesional empleado con la misma cualificación — y, con base SMI, el
@@ -161,6 +162,25 @@ es, por tanto, más exigente que el umbral legal de no dumping.
 Este suelo es el fundamento de HME: el trabajador autónomo no debería
 cobrar, por trabajo equivalente, menos remuneración neta que la que
 recibiría por el mismo trabajo un trabajador asalariado.
+
+**Nota — corrección de facturabilidad (4 de octubre de 2026):** hasta
+esta actualización, el paso 2 dividía directamente por 1.792 horas
+anuales, sin descontar la fracción no facturable. Esto era inconsistente
+con el resto del modelo: las horas de la estimación HME (sección 4) se
+obtienen dividiendo el honorario de Italia por una tarifa comercial
+(60,5 €/h) que ya es una tarifa *facturable*, y el suelo de coste (sección 2)
+sí aplica esta misma facturabilidad del 59,3% antes de añadir el margen.
+Multiplicar horas facturables por un suelo MEF calculado sobre horas
+totales trabajadas (sin descontar la parte no facturable) infla
+artificialmente el reparto del coste entre menos horas de las que
+realmente lo soportan, y rebajaba el suelo MEF resultante en un factor
+constante de 1/0,593 ≈ 1,69 frente a lo que debería ser. La corrección
+eleva el suelo MEF de 28,84 €/h a 48,64 €/h (2024, base convenio) y lo
+sitúa, como es esperable, muy cerca del suelo de coste (48,09 €/h,
+2024) — pese a que el MEF no incluye el 13%/6% de gastos generales y
+beneficio industrial que sí lleva el suelo de coste. La proximidad entre
+ambos suelos tras la corrección es una comprobación de consistencia
+interna del modelo, no una coincidencia buscada.
 
 ## 4. Estimación automática de horas del encargo (HME)
 
@@ -237,11 +257,11 @@ defecto, para no dar por supuesto un ejercicio en un cálculo comparativo.
 
 | Año | Salario convenio | SMI | Costes operativos | Suelo MEF (convenio) | Suelo MEF (SMI) | Suelo de coste | Notas |
 |---|---|---|---|---|---|---|---|
-| 2023 | 28.027 € | 15.120 € | 13.515,68 € | 28,35 €/h | 18,76 €/h | 40,18 €/h | Salario de convenio y SMI son cifras oficiales de 2023; costes operativos con la tabla de 8 partidas (sección 1); suelo de coste con retribución de referencia ACE **2022** (empleados, España); facturabilidad y coeficiente coste-empresa sin edición propia de ese ejercicio, se usan las mismas FY2025 Deltek / EACL 2025 que en el resto de años |
-| 2024 | 28.664 € | 15.876 € | 13.560,90 € | 28,84 €/h | 19,35 €/h | 48,09 €/h | Todos los datos son cifras oficiales o el benchmark de referencia (FY2025 Deltek, EACL 2025, ACE **2024**) verificadas para este ejercicio; costes operativos con la tabla de 8 partidas (sección 1) |
-| 2025 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 16.576 € | 13.619,13 € | 28,88 €/h | 19,90 €/h | 48,09 €/h | SMI oficial de 2025; costes operativos con la tabla de 8 partidas (sección 1); suelo de coste con retribución ACE 2024 (sin edición propia de 2025); facturabilidad y coeficiente coste-empresa con las últimas ediciones publicadas (Deltek FY2025, EACL 2025) |
-| 2026 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € | 13.690,42 € | 28,92 €/h | 20,33 €/h | 48,09 €/h | SMI oficial de 2026; costes operativos con la tabla de 8 partidas (sección 1); suelo de coste con retribución ACE 2024 (sin edición propia de 2026); facturabilidad y coeficiente coste-empresa sin edición más reciente, se mantienen Deltek FY2025 / EACL 2025 |
-| 2027 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € *(sin RD publicado; se mantiene 2026)* | 13.690,42 € *(sin dato propio; se mantiene 2026)* | 28,92 €/h | 20,33 €/h | 48,09 €/h | Año sin ningún dato propio publicado todavía; todas las cifras son la última disponible, incluida la retribución ACE 2024 del suelo de coste |
+| 2023 | 28.027 € | 15.120 € | 13.515,68 € | 47,80 €/h | 31,64 €/h | 40,18 €/h | Salario de convenio y SMI son cifras oficiales de 2023; costes operativos con la tabla de 8 partidas (sección 1); suelo de coste con retribución de referencia ACE **2022** (empleados, España); facturabilidad y coeficiente coste-empresa sin edición propia de ese ejercicio, se usan las mismas FY2025 Deltek / EACL 2025 que en el resto de años |
+| 2024 | 28.664 € | 15.876 € | 13.560,90 € | 48,64 €/h | 32,63 €/h | 48,09 €/h | Todos los datos son cifras oficiales o el benchmark de referencia (FY2025 Deltek, EACL 2025, ACE **2024**) verificadas para este ejercicio; costes operativos con la tabla de 8 partidas (sección 1) |
+| 2025 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 16.576 € | 13.619,13 € | 48,69 €/h | 33,56 €/h | 48,09 €/h | SMI oficial de 2025; costes operativos con la tabla de 8 partidas (sección 1); suelo de coste con retribución ACE 2024 (sin edición propia de 2025); facturabilidad y coeficiente coste-empresa con las últimas ediciones publicadas (Deltek FY2025, EACL 2025) |
+| 2026 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € | 13.690,42 € | 48,76 €/h | 34,28 €/h | 48,09 €/h | SMI oficial de 2026; costes operativos con la tabla de 8 partidas (sección 1); suelo de coste con retribución ACE 2024 (sin edición propia de 2026); facturabilidad y coeficiente coste-empresa sin edición más reciente, se mantienen Deltek FY2025 / EACL 2025 |
+| 2027 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € *(sin RD publicado; se mantiene 2026)* | 13.690,42 € *(sin dato propio; se mantiene 2026)* | 48,76 €/h | 34,28 €/h | 48,09 €/h | Año sin ningún dato propio publicado todavía; todas las cifras son la última disponible, incluida la retribución ACE 2024 del suelo de coste |
 
 Desde octubre de 2026, el suelo de coste **sí varía por año**: se
 encadena a la edición de ACE más reciente con dato disponible para cada
@@ -295,14 +315,16 @@ arquitectura en España, por categoría profesional:
 Son tarifas de mercado (lo que de hecho se factura a clientes), no de
 coste, por lo que no son directamente equivalentes al suelo MEF ni al
 suelo de coste de esta memoria — pero su comparación es reveladora: la
-tarifa media de mercado para principales en España (39–41 €/h) queda por
-encima del suelo MEF (28,35-28,92 €/h, según el año), pero **por debajo** tanto del umbral
-de cobertura de costes sin beneficio industrial (45,67 €/h, 2024, ver
-sección 2) como del suelo de coste completo (48,09 €/h, 2024). Es decir,
-la tarifa media que de hecho se cobra en el mercado español no llega a
-cubrir el coste real de producir esa hora, lo que es coherente con el
-diagnóstico de fondo de esta memoria: los honorarios de mercado tienden
-a situarse por debajo del coste real del servicio.
+tarifa media de mercado para principales en España (39–41 €/h) queda
+**por debajo** tanto del suelo MEF (47,80-48,76 €/h, según el año) como
+del umbral de cobertura de costes sin beneficio industrial (45,67 €/h,
+2024, ver sección 2) y del suelo de coste completo (48,09 €/h, 2024).
+Es decir, la tarifa media que de hecho se cobra en el mercado español no
+llega a cubrir ni el coste real de producir esa hora ni, con el suelo
+MEF corregido (sección 3), el equivalente a lo que costaría contratar a
+un profesional empleado con la misma cualificación — lo que es coherente
+con el diagnóstico de fondo de esta memoria: los honorarios de mercado
+tienden a situarse por debajo del coste real del servicio.
 
 Fuente: *The Architectural Profession in Europe 2024*, Mirza & Nacey
 Research Ltd, abril 2025, Tabla 3-5, p. 40.

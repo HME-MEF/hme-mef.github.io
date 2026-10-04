@@ -125,20 +125,24 @@ en la [memoria técnica]({{ '/herramientas/metodologia/' | relative_url }})):
 1. Se parte del **salario de referencia** de convenio colectivo del
    sector (o, alternativamente, del SMI), más la **cotización
    empresarial** y los **costes operativos** del estudio.
-2. Se divide entre las **horas anuales** de convenio (1.792 h).
+2. Se divide entre las **horas anuales** de convenio (1.792 h),
+   ajustadas por un índice de **facturabilidad** (59,3%, segmento
+   Architecture/A-E, Deltek Clarity) — para ser consistente con las
+   horas estimadas del encargo (HME), que ya son horas facturables.
 3. El resultado son dos valores de referencia, que varían por año según
    los costes operativos documentados en la memoria técnica: entre
-   **28,35 €/h** (2023) y **28,92 €/h** (2026–2027) (suelo MEF, base
-   convenio) y, sobre SMI, entre **18,76 €/h** (2023) y **20,33 €/h**
+   **47,80 €/h** (2023) y **48,76 €/h** (2026–2027) (suelo MEF, base
+   convenio) y, sobre SMI, entre **31,64 €/h** (2023) y **34,28 €/h**
    (2026–2027) — el umbral absoluto. Las dos calculadoras incluyen un
    **selector de año** (2023–2027) para elegir qué cifras aplicar en cada
    caso.
 
-Separadamente, el **suelo de coste** (lo que le cuesta a un estudio
-producir una hora de trabajo, incluido su margen) ajusta esas horas por
-un índice de **facturabilidad** (59,3%, segmento Architecture/A-E para el
-ejercicio fiscal 2025, *benchmark* de industria — Deltek Clarity A&E, no
-un dato oficial español) y añade gastos generales y beneficio industrial
+El **suelo de coste** (lo que le cuesta a un estudio producir una hora
+de trabajo, incluido su margen) parte de una retribución distinta
+(media de empleados ACE, no salario de convenio) pero aplica la misma
+facturabilidad (59,3%, segmento Architecture/A-E para el ejercicio
+fiscal 2025, *benchmark* de industria — Deltek Clarity A&E, no un dato
+oficial español) y además añade gastos generales y beneficio industrial
 por analogía con el art. 131 RGLCAP, resultando en **40,18 €/h** (2023) /
 **48,09 €/h** (2024–2027).
 

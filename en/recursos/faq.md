@@ -126,21 +126,26 @@ In brief (full derivation, with the source table for each input, in the
 1. It starts from the sector's collectively-bargained **reference
    salary** (or, alternatively, the SMI), plus the **employer social
    security contribution** and the practice's **operating costs**.
-2. It is divided by the collective agreement's **annual hours** (1,792 h).
+2. It is divided by the collective agreement's **annual hours** (1,792 h),
+   adjusted by a **utilization rate** (59.3%, Architecture/A-E segment,
+   Deltek Clarity) — to stay consistent with the commission's estimated
+   hours (HME), which are already billable hours.
 3. The result is two reference values, which vary by year according to
    the operating costs documented in the technical methodology: between
-   **€28.35/h** (2023) and **€28.92/h** (2026–2027) (MEF floor,
-   collective-agreement base) and, on the SMI, between **€18.76/h**
-   (2023) and **€20.33/h** (2026–2027) — the absolute threshold. Both
+   **€47.80/h** (2023) and **€48.76/h** (2026–2027) (MEF floor,
+   collective-agreement base) and, on the SMI, between **€31.64/h**
+   (2023) and **€34.28/h** (2026–2027) — the absolute threshold. Both
    calculators include a **year selector** (2023–2027) to choose which
    figures to apply in each case.
 
-Separately, the **cost floor** (what it costs a practice to produce one
-hour of work, including its margin) adjusts those hours by a **utilization
-rate** (59.3%, Architecture/A-E segment for fiscal year 2025, an industry
-*benchmark* — Deltek Clarity A&E, not an official Spanish figure) and adds
-overheads and industrial profit by analogy with art. 131 RGLCAP, resulting
-in **€40.18/h** (2023) / **€48.09/h** (2024–2027).
+The **cost floor** (what it costs a practice to produce one hour of
+work, including its margin) starts from a different reference pay (ACE
+employee average, not the collective-agreement salary) but applies the
+same utilization rate (59.3%, Architecture/A-E segment for fiscal year
+2025, an industry *benchmark* — Deltek Clarity A&E, not an official
+Spanish figure) and additionally adds overheads and industrial profit
+by analogy with art. 131 RGLCAP, resulting in **€40.18/h** (2023) /
+**€48.09/h** (2024–2027).
 
 These values are recalculated automatically, for each specific commission,
 in the [evaluator]({{ '/en/herramientas/evaluador/' | relative_url }}) and

@@ -152,7 +152,8 @@ the legal no-dumping threshold.
    SMI, depending on the chosen base) + employer social security
    contribution (33.01% of the base salary) + Madrid operating costs for
    the corresponding year (€13,515.68-€13,690.42, see table in section 1).
-2. ÷ 1,792 annual hours.
+2. ÷ (1,792 annual hours × 59.3% utilization rate — *Deltek Clarity
+   A&E*): cost per effectively billable hour.
 3. Result: the actual anti-discrimination floor (collective-agreement
    base) — the direct comparison with what it would cost to hire an
    employed professional with the same qualification — and, on the SMI
@@ -161,6 +162,24 @@ the legal no-dumping threshold.
 This floor is the foundation of MEF: a self-employed worker should not earn,
 for equivalent work, less net remuneration than a salaried worker would
 receive for the same work.
+
+**Note — utilization-rate correction (4 October 2026):** until this
+update, step 2 divided directly by 1,792 annual hours, without
+deducting the non-billable fraction. This was inconsistent with the
+rest of the model: the HME estimate's hours (section 4) are obtained by
+dividing Italy's fee by a commercial rate (€60.5/h) that is already a
+*billable* rate, and the cost floor (section 2) already applies this
+same 59.3% utilization rate before adding margin. Multiplying billable
+hours by an MEF floor computed over total hours worked (without
+deducting the non-billable share) artificially spreads the cost over
+fewer hours than actually bear it, understating the resulting MEF floor
+by a constant factor of 1/0.593 ≈ 1.69 relative to what it should be.
+The correction raises the MEF floor from €28.84/h to €48.64/h (2024,
+collective-agreement base), bringing it, as expected, very close to the
+cost floor (€48.09/h, 2024) — even though MEF excludes the 13%/6%
+overhead and industrial profit that the cost floor does carry. This
+closeness after the correction is an internal-consistency check on the
+model, not a sought-after coincidence.
 
 ## 4. Automatic estimation of commission hours (HME)
 
@@ -234,11 +253,11 @@ presuppose a given year in a comparative calculation.
 
 | Year | Collective-agreement salary | SMI | Operating costs | MEF floor (collective agreement) | MEF floor (SMI) | Cost floor | Notes |
 |---|---|---|---|---|---|---|---|
-| 2023 | €28,027 | €15,120 | €13,515.68 | €28.35/h | €18.76/h | €40.18/h | Collective-agreement salary and SMI are official 2023 figures; operating costs from the 8-item table (section 1); cost floor uses the ACE **2022** reference remuneration (employees, Spain); utilization rate and cost-multiplier coefficient have no edition of their own for that year, so the same FY2025 Deltek / EACL 2025 figures used for every other year apply |
-| 2024 | €28,664 | €15,876 | €13,560.90 | €28.84/h | €19.35/h | €48.09/h | All figures are official or the reference benchmark (FY2025 Deltek, EACL 2025, ACE **2024**) verified for this year; operating costs from the 8-item table (section 1) |
-| 2025 | €28,664 *(no agreed table; 2024 kept)* | €16,576 | €13,619.13 | €28.88/h | €19.90/h | €48.09/h | Official 2025 SMI; operating costs from the 8-item table (section 1); cost floor uses the ACE 2024 remuneration (no edition of its own for 2025); utilization rate and cost-multiplier coefficient with the latest published editions (Deltek FY2025, EACL 2025) |
-| 2026 | €28,664 *(no agreed table; 2024 kept)* | €17,094 | €13,690.42 | €28.92/h | €20.33/h | €48.09/h | Official 2026 SMI; operating costs from the 8-item table (section 1); cost floor uses the ACE 2024 remuneration (no edition of its own for 2026); utilization rate and cost-multiplier coefficient with no more recent edition, Deltek FY2025 / EACL 2025 kept |
-| 2027 | €28,664 *(no agreed table; 2024 kept)* | €17,094 *(no RD published; 2026 kept)* | €13,690.42 *(no figure of its own; 2026 kept)* | €28.92/h | €20.33/h | €48.09/h | A year with no figure of its own published yet; all figures are the latest available, including the ACE 2024 remuneration behind the cost floor |
+| 2023 | €28,027 | €15,120 | €13,515.68 | €47.80/h | €31.64/h | €40.18/h | Collective-agreement salary and SMI are official 2023 figures; operating costs from the 8-item table (section 1); cost floor uses the ACE **2022** reference remuneration (employees, Spain); utilization rate and cost-multiplier coefficient have no edition of their own for that year, so the same FY2025 Deltek / EACL 2025 figures used for every other year apply |
+| 2024 | €28,664 | €15,876 | €13,560.90 | €48.64/h | €32.63/h | €48.09/h | All figures are official or the reference benchmark (FY2025 Deltek, EACL 2025, ACE **2024**) verified for this year; operating costs from the 8-item table (section 1) |
+| 2025 | €28,664 *(no agreed table; 2024 kept)* | €16,576 | €13,619.13 | €48.69/h | €33.56/h | €48.09/h | Official 2025 SMI; operating costs from the 8-item table (section 1); cost floor uses the ACE 2024 remuneration (no edition of its own for 2025); utilization rate and cost-multiplier coefficient with the latest published editions (Deltek FY2025, EACL 2025) |
+| 2026 | €28,664 *(no agreed table; 2024 kept)* | €17,094 | €13,690.42 | €48.76/h | €34.28/h | €48.09/h | Official 2026 SMI; operating costs from the 8-item table (section 1); cost floor uses the ACE 2024 remuneration (no edition of its own for 2026); utilization rate and cost-multiplier coefficient with no more recent edition, Deltek FY2025 / EACL 2025 kept |
+| 2027 | €28,664 *(no agreed table; 2024 kept)* | €17,094 *(no RD published; 2026 kept)* | €13,690.42 *(no figure of its own; 2026 kept)* | €48.76/h | €34.28/h | €48.09/h | A year with no figure of its own published yet; all figures are the latest available, including the ACE 2024 remuneration behind the cost floor |
 
 As of October 2026, the cost floor **does vary by year**: it is chained
 to the most recent ACE edition with a figure available for each year
@@ -292,14 +311,16 @@ professional category:
 These are market rates (what is actually billed to clients), not cost
 figures, so they are not directly equivalent to this methodology's MEF
 floor or cost floor — but the comparison is revealing: Spain's average
-market rate for principals (€39–41/h) sits above the MEF floor
-(€28.35-€28.92/h, depending on the year), but **below** both the cost-coverage threshold without
-industrial profit (€45.67/h, 2024, see section 2) and the full cost
-floor (€48.09/h, 2024). In other words, the rate actually billed on
-average in the Spanish market does not cover the real cost of producing
-that hour of work — consistent with this methodology's underlying
-diagnosis that market fees tend to sit below the real cost of the
-service.
+market rate for principals (€39–41/h) sits **below** the MEF floor
+(€47.80-€48.76/h, depending on the year), the cost-coverage threshold
+without industrial profit (€45.67/h, 2024, see section 2), and the full
+cost floor (€48.09/h, 2024) alike. In other words, the rate actually
+billed on average in the Spanish market does not cover either the real
+cost of producing that hour of work or, with the corrected MEF floor
+(section 3), the equivalent of what it would cost to hire an employed
+professional with the same qualification — consistent with this
+methodology's underlying diagnosis that market fees tend to sit below
+the real cost of the service.
 
 Source: *The Architectural Profession in Europe 2024*, Mirza & Nacey
 Research Ltd, April 2025, Table 3-5, p. 40.
