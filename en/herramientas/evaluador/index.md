@@ -78,11 +78,11 @@ Deltek utilization rate vary by year — unlike the Italian model or SEGIPSA.
 Once the year is chosen, it calculates two floors of its own and places the
 evaluated amount against them:
 
-- **Cost floor** (€40.18/h in 2023; €48.09/h from 2024 to 2027): estimated
+- **Cost floor** (€40.86/h in 2023; €48.90/h from 2024 to 2027): estimated
   commission hours (HME) × hourly cost rate, derived from the average pay
   of employees of private firms (ACE 2022 for 2023, ACE 2024 for
-  2024–2027), with 13% overheads and 6% industrial profit (by analogy
-  with art. 131 RGLCAP).
+  2024–2027), with 15% overheads (the midpoint of the 13%-17% range set out in art. 131
+  RGLCAP) and 6% industrial profit.
 - **MEF floor** (€47.21-€48.17/h on the collectively-bargained salary,
   depending on the year; between €31.05/h and €33.69/h on the SMI,
   depending on the year): HME × MEF hourly rate — the actual

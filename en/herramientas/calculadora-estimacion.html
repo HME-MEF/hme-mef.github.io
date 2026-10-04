@@ -214,7 +214,7 @@
           <tr><th>Reference</th><th>Nature</th><th>Line</th></tr>
           <tr><td>MEF floor</td><td>Opportunity cost — what it would cost to hire an equivalent employee. Anti-discrimination floor, with a constitutional basis (art. 14 of the Spanish Constitution). Always calculated on the collective-agreement salary: as a profession with a legal practice reserve, the SMI is not an adequate comparator.</td><td>Solid</td></tr>
           <tr><td>Cost floor</td><td>The practice's production cost (salary + overheads + industrial profit), by analogy with art. 131 RGLCAP.</td><td>Solid</td></tr>
-          <tr><td>Anti-dumping floor</td><td>Threshold for covering the practice's real costs, without industrial profit (cost × 1.13 instead of × 1.19). Below it, selling is treated as below-cost under art. 17 of the <a href="https://www.boe.es/eli/es/l/1991/01/10/3/con">Ley 3/1991 de Competencia Desleal</a> (Spain's Unfair Competition Act). It is the lower bound of the cost floor, not an independent reference.</td><td>Dashed</td></tr>
+          <tr><td>Anti-dumping floor</td><td>Threshold for covering the practice's real costs, without industrial profit (cost × 1.15 instead of × 1.21). Below it, selling is treated as below-cost under art. 17 of the <a href="https://www.boe.es/eli/es/l/1991/01/10/3/con">Ley 3/1991 de Competencia Desleal</a> (Spain's Unfair Competition Act). It is the lower bound of the cost floor, not an independent reference.</td><td>Dashed</td></tr>
           <tr><td>SEGIPSA</td><td>% of PEM applied by the Spanish General State Administration to its own commissioned work (BOE 27/5/2015).</td><td>Solid</td></tr>
           <tr><td>Italy (DM 17/6/2016)</td><td>A value-based fee model in force in Italy, used here only as a comparative reference — see <a href="{{ '/en/marco-legal/' | relative_url }}">Legal Framework</a>.</td><td>Solid</td></tr>
           <tr><td>Italy, fixed share (public commissions only)</td><td>Non-discountable share in Italian public tenders: 65% of the fee if it is ≥€140,000, 80% if below that (art. 41.15-bis of the Codice dei Contratti Pubblici, D.Lgs. 36/2023, as amended by D.Lgs. 209/2024). Italian regulation, not binding in Spain — a reference for how much margin that system allows.</td><td>Dashed</td></tr>
@@ -245,11 +245,11 @@ const SITE_URL = "https://www.hmef.eu";
 // limitations of each figure. Where no table or benchmark has been published for a given year, the
 // last official/verified figure is kept, explicitly flagged in NOTA_ANIO.
 const DATA_BY_YEAR = {
-  2023: { mefConvenio: 47.21, mefConvenioIPC: 47.21, sueloCoste: 40.18 },
-  2024: { mefConvenio: 48.05, mefConvenioIPC: 48.05, sueloCoste: 48.09 },
-  2025: { mefConvenio: 48.10, mefConvenioIPC: 49.07, sueloCoste: 48.09 },
-  2026: { mefConvenio: 48.17, mefConvenioIPC: 50.43, sueloCoste: 48.09 },
-  2027: { mefConvenio: 48.17, mefConvenioIPC: 50.43, sueloCoste: 48.09 }
+  2023: { mefConvenio: 47.21, mefConvenioIPC: 47.21, sueloCoste: 40.86 },
+  2024: { mefConvenio: 48.05, mefConvenioIPC: 48.05, sueloCoste: 48.90 },
+  2025: { mefConvenio: 48.10, mefConvenioIPC: 49.07, sueloCoste: 48.90 },
+  2026: { mefConvenio: 48.17, mefConvenioIPC: 50.43, sueloCoste: 48.90 },
+  2027: { mefConvenio: 48.17, mefConvenioIPC: 50.43, sueloCoste: 48.90 }
 };
 
 // sueloCoste: reference gross remuneration = average pay of employees of private firms (ACE,
@@ -257,9 +257,9 @@ const DATA_BY_YEAR = {
 // €26,462/year; 2024-2027: ACE 2024, €31,672/year (no more recent edition for 2025-2027).
 
 // Anti-dumping floor = cost floor without industrial profit: the same calculation as the cost
-// floor but with ×(1+13% overheads) instead of ×(1+13% overheads+6% industrial profit). See
+// floor but with ×(1+15% overheads) instead of ×(1+15% overheads+6% industrial profit). See
 // technical methodology, section 2.
-const FACTOR_ANTIDUMPING = 1.13 / 1.19;
+const FACTOR_ANTIDUMPING = 1.15 / 1.21;
 
 // Non-discountable fixed share in Italian public tenders (art. 41.15-bis of the Codice dei
 // Contratti Pubblici, D.Lgs. 36/2023, as amended by D.Lgs. 209/2024).

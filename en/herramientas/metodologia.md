@@ -44,7 +44,7 @@ How anyone uses these figures is a matter of their own judgment.
 | Utilization rate | 59.3% (2024–2027) | "Architecture or A/E" segment, fiscal year **2025** — *47th Annual Deltek Clarity A&E Industry Study* (Deltek / CMG Consulting), "Statistics at a Glance" table, p. 122 (the narrative median for the whole A&E sector, not just architecture, is 58.9%, p. 99) — **industry benchmark, U.S.**, not an official Spanish figure ([full report](https://info.deltek.com/47th-Annual-Deltek-Clarity-AE-Report-PDF)). The only architecture-specific figure published; applied equally across the four years in the selector — see section 6 |
 | Reference gross remuneration (cost floor) | €26,462/year (2023) / €31,672/year (2024–2027) | Average pay of employees of private firms in Spain, PPP-adjusted (not averaged with partners/directors — see note in section 2): **2023** — *ACE Sector Study* **2022**, Table 4-2, Spain, p. 55; **2024–2027** — *ACE Sector Study* **2024**, Table 4-2, Spain, p. 57 — **working assumption**, with starting data from *The Architectural Profession in Europe* (Mirza & Nacey Research Ltd, Architects' Council of Europe), 2022 and 2024 editions |
 | Employer cost-multiplier coefficient | 1.356 | Ratio of gross cost / wages and salaries, Services sector — [INE, Annual Labour Cost Survey (EACL), 2025, Table 1](https://www.ine.es/dyngs/Prensa/EACL2025.htm) (€37,717.75 / €27,817.39) — **industry benchmark (Spain)**; the INE does not break this down by a finer branch of activity, so the Services sector as a whole is taken as a proxy for architecture |
-| Overheads / industrial profit (cost floor) | 13% / 6% | By analogy with art. 131 of the [General Regulation of the Public Administration Contracts Act (RD 1098/2001)](https://www.boe.es/eli/es/rd/2001/10/12/1098/con) (public works) — **regulatory by analogy**, not a figure specific to the architecture sector |
+| Overheads / industrial profit (cost floor) | 15% / 6% | By analogy with art. 131 of the [General Regulation of the Public Administration Contracts Act (RD 1098/2001)](https://www.boe.es/eli/es/rd/2001/10/12/1098/con) (public works), which sets a 13% to 17% range for overheads and 6% for industrial profit: the **15% midpoint of the range explicitly set out by the Act** is used, plus the 6% industrial profit — **regulatory by analogy**, not a figure specific to the architecture sector |
 | SMI (national minimum wage) | €15,120 (2023) / €15,876 (2024) / €16,576 (2025) / €17,094 (2026–2027) | **Regulatory** — [RD 99/2023](https://www.boe.es/buscar/doc.php?id=BOE-A-2023-3982), [BOE-A-2024-2251](https://www.boe.es/buscar/doc.php?id=BOE-A-2024-2251), [BOE-A-2025-2576](https://www.boe.es/buscar/doc.php?id=BOE-A-2025-2576), [BOE-A-2026-3815](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-3815). No Royal Decree published yet for 2027; the 2026 figure is kept |
 | Amount→hours conversion rate | 50 × 1.21 (Italian CPI 2016→2024) = €60.5/h | Lower end of the band under art. 6.2 of DM 17/6/2016, updated — **updated regulatory figure** |
 | Parameters V, G, Q, P (Italian model): V = PEM (value of the works), G = degree of complexity (Table Z-1), ΣQ = aggregated incidence of the commission's phases (Table Z-2), P = 0.03 + 10/V^0.4 | Tables Z-1 and Z-2 | DM 17/6/2016 — **regulatory (Italy)**; the G and ΣQ used by this tool are an indicative aggregated categorisation, not the decree's line-by-line breakdown — see [Legal Framework]({{ '/en/marco-legal/' | relative_url }}) |
@@ -109,14 +109,26 @@ work.
    sector*): gross cost to the employer.
 3. ÷ (1,792 annual hours × 59.3% utilization rate — *Deltek Clarity A&E*):
    cost per effectively billable hour.
-4. × (1 + 13% overheads + 6% industrial profit): adds overheads and
-   industrial profit by analogy with art. 131 RGLCAP.
-5. Result: **€40.18/h** (2023) / **€48.09/h** (2024–2027).
+4. × (1 + 15% overheads + 6% industrial profit): adds overheads and
+   industrial profit by analogy with art. 131 RGLCAP. The 15% overheads
+   figure is the midpoint of the 13% to 17% range set out in that article;
+   the 6% industrial profit is the percentage the same article sets.
+5. Result: **€40.86/h** (2023) / **€48.90/h** (2024–2027).
 
 This floor answers the question "how much does it cost a practice to
 produce one hour of work, including its margin?" — it is a **cost** floor,
 not an anti-discrimination floor. A fee below this floor is not necessarily
 discriminatory, but it does indicate a price lower than adequate.
+
+**Note — overheads percentage (5 October 2026):** until this date the model
+applied 13% overheads, the lower end of the 13% to 17% range explicitly set
+out in art. 131 RGLCAP. It is replaced by **15%, the midpoint of that range**,
+so as not to place the model at one end of the interval the rule itself
+contemplates. Industrial profit stays at 6%. Effect: the cost floor moves from
+€40.18/h to €40.86/h (2023) and from €48.09/h to €48.90/h (2024–2027), and the
+cost-coverage threshold (without industrial profit) from €38.16/h to €38.83/h
+(2023) and from €45.67/h to €46.48/h (2024–2027), i.e. +1.7% and +1.8%. The
+MEF floor is unaffected: its formula includes no overheads or industrial profit.
 
 **Note — why only "employees", not averaged with partners/directors:**
 until October 2026 this methodology used the average between the pay of
@@ -136,8 +148,8 @@ employee's — see section 5.
 **Note — cost-coverage threshold (without industrial profit):** of the two
 components in step 4, only overheads (GG) are a real operating cost for
 the practice; industrial profit (BI) is margin, not cost. Repeating the
-calculation with only the overheads applied (× 1.13, without the
-industrial profit) gives **€38.16/h** (2023) / **€45.67/h** (2024–2027):
+calculation with only the overheads applied (× 1.15, without the
+industrial profit) gives **€38.83/h** (2023) / **€46.48/h** (2024–2027):
 the threshold below which a practice does not even cover its real costs.
 This distinction matters because art. 17 of the
 [Ley 3/1991, de 10 de enero, de Competencia Desleal](https://www.boe.es/eli/es/l/1991/01/10/3/con)
@@ -209,7 +221,7 @@ fewer hours than actually bear it, understating the resulting MEF floor
 by a constant factor of 1/0.593 ≈ 1.69 relative to what it should be.
 The correction raises the MEF floor from €28.84/h to €48.64/h (2024,
 collective-agreement base), bringing it, as expected, very close to the
-cost floor (€48.09/h, 2024) — even though MEF excludes the 13%/6%
+cost floor (€48.90/h, 2024) — even though MEF excludes the 15%/6%
 overhead and industrial profit that the cost floor does carry. This
 closeness after the correction is an internal-consistency check on the
 model, not a sought-after coincidence.
@@ -224,7 +236,7 @@ ArchiCAD Studio's (€1,659/year, Graphisoft) public list prices —
 no published price list. This lowers operating costs by €630.50/year (a
 fixed figure, the same across all four years) and, with it, the MEF
 floor: €48.64/h → €48.05/h (2024, collective-agreement base). The cost
-floor (€48.09/h) is unaffected, since it is not derived from this
+floor (€48.90/h) is unaffected, since it is not derived from this
 operating-cost table — see section 2.
 
 ## 4. Automatic estimation of commission hours (HME)
@@ -299,11 +311,11 @@ presuppose a given year in a comparative calculation.
 
 | Year | Collective-agreement salary | SMI | Operating costs | MEF floor (collective agreement) | MEF floor (SMI) | Cost floor | Notes |
 |---|---|---|---|---|---|---|---|
-| 2023 | €28,027 | €15,120 | €12,885.18 | €47.21/h | €31.05/h | €40.18/h | Collective-agreement salary and SMI are official 2023 figures; operating costs from the 8-item table (section 1); cost floor uses the ACE **2022** reference remuneration (employees, Spain); utilization rate and cost-multiplier coefficient have no edition of their own for that year, so the same FY2025 Deltek / EACL 2025 figures used for every other year apply |
-| 2024 | €28,664 | €15,876 | €12,930.40 | €48.05/h | €32.04/h | €48.09/h | All figures are official or the reference benchmark (FY2025 Deltek, EACL 2025, ACE **2024**) verified for this year; operating costs from the 8-item table (section 1) |
-| 2025 | €28,664 *(no agreed table; 2024 kept)* | €16,576 | €12,988.63 | €48.10/h | €32.97/h | €48.09/h | Official 2025 SMI; operating costs from the 8-item table (section 1); cost floor uses the ACE 2024 remuneration (no edition of its own for 2025); utilization rate and cost-multiplier coefficient with the latest published editions (Deltek FY2025, EACL 2025) |
-| 2026 | €28,664 *(no agreed table; 2024 kept)* | €17,094 | €13,059.92 | €48.17/h | €33.69/h | €48.09/h | Official 2026 SMI; operating costs from the 8-item table (section 1); cost floor uses the ACE 2024 remuneration (no edition of its own for 2026); utilization rate and cost-multiplier coefficient with no more recent edition, Deltek FY2025 / EACL 2025 kept |
-| 2027 | €28,664 *(no agreed table; 2024 kept)* | €17,094 *(no RD published; 2026 kept)* | €13,059.92 *(no figure of its own; 2026 kept)* | €48.17/h | €33.69/h | €48.09/h | A year with no figure of its own published yet; all figures are the latest available, including the ACE 2024 remuneration behind the cost floor |
+| 2023 | €28,027 | €15,120 | €12,885.18 | €47.21/h | €31.05/h | €40.86/h | Collective-agreement salary and SMI are official 2023 figures; operating costs from the 8-item table (section 1); cost floor uses the ACE **2022** reference remuneration (employees, Spain); utilization rate and cost-multiplier coefficient have no edition of their own for that year, so the same FY2025 Deltek / EACL 2025 figures used for every other year apply |
+| 2024 | €28,664 | €15,876 | €12,930.40 | €48.05/h | €32.04/h | €48.90/h | All figures are official or the reference benchmark (FY2025 Deltek, EACL 2025, ACE **2024**) verified for this year; operating costs from the 8-item table (section 1) |
+| 2025 | €28,664 *(no agreed table; 2024 kept)* | €16,576 | €12,988.63 | €48.10/h | €32.97/h | €48.90/h | Official 2025 SMI; operating costs from the 8-item table (section 1); cost floor uses the ACE 2024 remuneration (no edition of its own for 2025); utilization rate and cost-multiplier coefficient with the latest published editions (Deltek FY2025, EACL 2025) |
+| 2026 | €28,664 *(no agreed table; 2024 kept)* | €17,094 | €13,059.92 | €48.17/h | €33.69/h | €48.90/h | Official 2026 SMI; operating costs from the 8-item table (section 1); cost floor uses the ACE 2024 remuneration (no edition of its own for 2026); utilization rate and cost-multiplier coefficient with no more recent edition, Deltek FY2025 / EACL 2025 kept |
+| 2027 | €28,664 *(no agreed table; 2024 kept)* | €17,094 *(no RD published; 2026 kept)* | €13,059.92 *(no figure of its own; 2026 kept)* | €48.17/h | €33.69/h | €48.90/h | A year with no figure of its own published yet; all figures are the latest available, including the ACE 2024 remuneration behind the cost floor |
 
 As of October 2026, the cost floor **does vary by year**: it is chained
 to the most recent ACE edition with a figure available for each year
@@ -359,8 +371,8 @@ figures, so they are not directly equivalent to this methodology's MEF
 floor or cost floor — but the comparison is revealing: Spain's average
 market rate for principals (€39–41/h) sits **below** the MEF floor
 (€47.21-€48.17/h, depending on the year), the cost-coverage threshold
-without industrial profit (€45.67/h, 2024, see section 2), and the full
-cost floor (€48.09/h, 2024) alike. In other words, the rate actually
+without industrial profit (€46.48/h, 2024, see section 2), and the full
+cost floor (€48.90/h, 2024) alike. In other words, the rate actually
 billed on average in the Spanish market does not cover either the real
 cost of producing that hour of work or, with the corrected MEF floor
 (section 3), the equivalent of what it would cost to hire an employed
@@ -432,4 +444,4 @@ Source: own elaboration from Spain's gross median and average wage for
 
 ---
 
-**Last updated**: 3 October 2026
+**Last updated**: 5 October 2026

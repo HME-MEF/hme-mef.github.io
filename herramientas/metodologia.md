@@ -43,7 +43,7 @@ uso que cada quien haga de estas cifras depende de su propio criterio.
 | Facturabilidad (utilization rate) | 59,3% (2024–2027) | Segmento "Architecture or A/E", ejercicio fiscal **2025** — *47th Annual Deltek Clarity A&E Industry Study* (Deltek / CMG Consulting), tabla "Statistics at a Glance", p. 122 (la mediana narrativa de todo el sector A&E, no solo arquitectura, es 58,9%, p. 99) — **benchmark de industria, EE.UU.**, no es un dato oficial español ([informe completo](https://info.deltek.com/47th-Annual-Deltek-Clarity-AE-Report-PDF)). Único dato específico de arquitectura publicado; se aplica igual a los cuatro años del selector — ver sección 6 |
 | Retribución bruta de referencia (suelo de coste) | 26.462 €/año (2023) / 31.672 €/año (2024–2027) | Salario medio de empleados de empresas privadas en España, ajustado por PPA (sin promediar con directivos/socios — ver nota en sección 2): **2023** — *ACE Sector Study* **2022**, Tabla 4-2, España, p. 55; **2024–2027** — *ACE Sector Study* **2024**, Tabla 4-2, España, p. 57 — **hipótesis propia**, con datos de partida de *The Architectural Profession in Europe* (Mirza & Nacey Research Ltd, Architects' Council of Europe), ediciones 2022 y 2024 |
 | Coeficiente coste-empresa | 1,356 | Ratio coste bruto / sueldos y salarios, sector Servicios — [INE, Encuesta Anual de Coste Laboral (EACL), año 2025, Tabla 1](https://www.ine.es/dyngs/Prensa/EACL2025.htm) (37.717,75 € / 27.817,39 €) — **benchmark de industria (España)**; el INE no desglosa por rama de actividad más fina, así que se toma el conjunto de Servicios como proxy del sector arquitectura |
-| Gastos generales / beneficio industrial (suelo de coste) | 13% / 6% | Por analogía con el art. 131 del [Reglamento General de la Ley de Contratos de las Administraciones Públicas (RD 1098/2001)](https://www.boe.es/eli/es/rd/2001/10/12/1098/con) (obra pública) — **normativo por analogía**, no una cifra propia del sector arquitectura |
+| Gastos generales / beneficio industrial (suelo de coste) | 15% / 6% | Por analogía con el art. 131 del [Reglamento General de la Ley de Contratos de las Administraciones Públicas (RD 1098/2001)](https://www.boe.es/eli/es/rd/2001/10/12/1098/con) (obra pública), que fija para los gastos generales un rango del 13% al 17% y para el beneficio industrial el 6%: se toma el **15%, valor intermedio del rango que explicita la Ley**, y el 6% de beneficio industrial — **normativo por analogía**, no una cifra propia del sector arquitectura |
 | SMI | 15.120 € (2023) / 15.876 € (2024) / 16.576 € (2025) / 17.094 € (2026–2027) | **Normativo** — [RD 99/2023](https://www.boe.es/buscar/doc.php?id=BOE-A-2023-3982), [BOE-A-2024-2251](https://www.boe.es/buscar/doc.php?id=BOE-A-2024-2251), [BOE-A-2025-2576](https://www.boe.es/buscar/doc.php?id=BOE-A-2025-2576), [BOE-A-2026-3815](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-3815). Sin Real Decreto publicado aún para 2027; se mantiene la cifra de 2026 |
 | Tarifa de conversión importe→horas | 50 × 1,21 (IPC italiano 2016→2024) = 60,5 €/h | Extremo inferior de la banda del art. 6.2 del DM 17/6/2016, actualizado — **normativo actualizado** |
 | Parámetros V, G, Q, P (modelo italiano): V = PEM, G = grado de complejidad (Tabla Z-1), ΣQ = incidencia agregada de las fases del encargo (Tabla Z-2), P = 0,03 + 10/V^0,4 | Tablas Z-1 y Z-2 | DM 17/6/2016 — **normativo (Italia)**; el G y el ΣQ que usa esta herramienta son una categorización agregada orientativa, no el desglose línea a línea del decreto — ver [Marco Legal]({{ '/marco-legal/' | relative_url }}) |
@@ -109,14 +109,27 @@ Administración General del Estado a sus encomiendas de gestión.
    coste bruto para el empleador.
 3. ÷ (1.792 horas anuales × 59,3% de facturabilidad — *Deltek Clarity A&E*):
    coste por hora efectivamente facturable.
-4. × (1 + 13% GG + 6% BI): añade gastos generales y beneficio industrial
-   por analogía con el art. 131 RGLCAP.
-5. Resultado: **40,18 €/h** (2023) / **48,09 €/h** (2024–2027).
+4. × (1 + 15% GG + 6% BI): añade gastos generales y beneficio industrial
+   por analogía con el art. 131 RGLCAP. El 15% de GG es el valor intermedio
+   del rango del 13% al 17% que explicita dicho artículo; el 6% de BI es el
+   porcentaje que fija el mismo artículo.
+5. Resultado: **40,86 €/h** (2023) / **48,90 €/h** (2024–2027).
 
 Este suelo responde a la pregunta "¿cuánto le cuesta a un estudio producir
 una hora de trabajo, incluyendo su margen?" — es un suelo de **coste**,
 no un suelo antidiscriminatorio. Un honorario por debajo de este suelo no
 es necesariamente discriminatorio, pero sí indica un precio inferior al adecuado.
+
+**Nota — porcentaje de gastos generales (5 de octubre de 2026):** hasta esta
+fecha el modelo aplicaba el 13% de gastos generales, el extremo inferior del
+rango del 13% al 17% que fija expresamente el art. 131 RGLCAP. Se sustituye
+por el **15%, valor intermedio de ese rango**, para no situar el modelo en un
+extremo del intervalo que la propia norma contempla. El beneficio industrial
+se mantiene en el 6%. Efecto: el suelo de coste pasa de 40,18 €/h a 40,86 €/h
+(2023) y de 48,09 €/h a 48,90 €/h (2024–2027), y el umbral de cobertura de
+costes (sin BI) de 38,16 €/h a 38,83 €/h (2023) y de 45,67 €/h a 46,48 €/h
+(2024–2027), es decir, +1,7% y +1,8%. El suelo MEF no se ve afectado: su
+fórmula no incluye gastos generales ni beneficio industrial.
 
 **Nota — por qué solo "empleados", sin promediar con directivos/socios:**
 hasta octubre de 2026 esta memoria usaba la media entre la retribución de
@@ -137,8 +150,8 @@ sección 5.
 **Nota — umbral de cobertura de costes (sin beneficio industrial):** de los
 dos componentes del paso 4, solo los gastos generales (GG) son coste real
 de explotación del estudio; el beneficio industrial (BI) es margen, no
-coste. Si se repite el cálculo aplicando solo el GG (× 1,13, sin el BI),
-el resultado es **38,16 €/h** (2023) / **45,67 €/h** (2024–2027): el
+coste. Si se repite el cálculo aplicando solo el GG (× 1,15, sin el BI),
+el resultado es **38,83 €/h** (2023) / **46,48 €/h** (2024–2027): el
 umbral por debajo del cual un estudio no cubre siquiera sus costes
 reales. Esta distinción es relevante porque el art. 17 de la
 [Ley 3/1991, de 10 de enero, de Competencia Desleal](https://www.boe.es/eli/es/l/1991/01/10/3/con)
@@ -209,8 +222,8 @@ artificialmente el reparto del coste entre menos horas de las que
 realmente lo soportan, y rebajaba el suelo MEF resultante en un factor
 constante de 1/0,593 ≈ 1,69 frente a lo que debería ser. La corrección
 eleva el suelo MEF de 28,84 €/h a 48,64 €/h (2024, base convenio) y lo
-sitúa, como es esperable, muy cerca del suelo de coste (48,09 €/h,
-2024) — pese a que el MEF no incluye el 13%/6% de gastos generales y
+sitúa, como es esperable, muy cerca del suelo de coste (48,90 €/h,
+2024) — pese a que el MEF no incluye el 15%/6% de gastos generales y
 beneficio industrial que sí lleva el suelo de coste. La proximidad entre
 ambos suelos tras la corrección es una comprobación de consistencia
 interna del modelo, no una coincidencia buscada.
@@ -225,7 +238,7 @@ Graphisoft) — 2.134,50 €/año —; Allplan (Nemetschek), el tercer modelo
 considerado, no publica lista de precios. Esto reduce los costes
 operativos en 630,50 €/año (cifra fija, igual en los cuatro años) y, con
 ello, el suelo MEF: 48,64 €/h → 48,05 €/h (2024, base convenio). El
-suelo de coste (48,09 €/h) no se ve afectado, al no derivarse de esta
+suelo de coste (48,90 €/h) no se ve afectado, al no derivarse de esta
 tabla de costes operativos — ver sección 2.
 
 ## 4. Estimación automática de horas del encargo (HME)
@@ -303,11 +316,11 @@ defecto, para no dar por supuesto un ejercicio en un cálculo comparativo.
 
 | Año | Salario convenio | SMI | Costes operativos | Suelo MEF (convenio) | Suelo MEF (SMI) | Suelo de coste | Notas |
 |---|---|---|---|---|---|---|---|
-| 2023 | 28.027 € | 15.120 € | 12.885,18 € | 47,21 €/h | 31,05 €/h | 40,18 €/h | Salario de convenio y SMI son cifras oficiales de 2023; costes operativos con la tabla de 8 partidas (sección 1); suelo de coste con retribución de referencia ACE **2022** (empleados, España); facturabilidad y coeficiente coste-empresa sin edición propia de ese ejercicio, se usan las mismas FY2025 Deltek / EACL 2025 que en el resto de años |
-| 2024 | 28.664 € | 15.876 € | 12.930,40 € | 48,05 €/h | 32,04 €/h | 48,09 €/h | Todos los datos son cifras oficiales o el benchmark de referencia (FY2025 Deltek, EACL 2025, ACE **2024**) verificadas para este ejercicio; costes operativos con la tabla de 8 partidas (sección 1) |
-| 2025 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 16.576 € | 12.988,63 € | 48,10 €/h | 32,97 €/h | 48,09 €/h | SMI oficial de 2025; costes operativos con la tabla de 8 partidas (sección 1); suelo de coste con retribución ACE 2024 (sin edición propia de 2025); facturabilidad y coeficiente coste-empresa con las últimas ediciones publicadas (Deltek FY2025, EACL 2025) |
-| 2026 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € | 13.059,92 € | 48,17 €/h | 33,69 €/h | 48,09 €/h | SMI oficial de 2026; costes operativos con la tabla de 8 partidas (sección 1); suelo de coste con retribución ACE 2024 (sin edición propia de 2026); facturabilidad y coeficiente coste-empresa sin edición más reciente, se mantienen Deltek FY2025 / EACL 2025 |
-| 2027 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € *(sin RD publicado; se mantiene 2026)* | 13.059,92 € *(sin dato propio; se mantiene 2026)* | 48,17 €/h | 33,69 €/h | 48,09 €/h | Año sin ningún dato propio publicado todavía; todas las cifras son la última disponible, incluida la retribución ACE 2024 del suelo de coste |
+| 2023 | 28.027 € | 15.120 € | 12.885,18 € | 47,21 €/h | 31,05 €/h | 40,86 €/h | Salario de convenio y SMI son cifras oficiales de 2023; costes operativos con la tabla de 8 partidas (sección 1); suelo de coste con retribución de referencia ACE **2022** (empleados, España); facturabilidad y coeficiente coste-empresa sin edición propia de ese ejercicio, se usan las mismas FY2025 Deltek / EACL 2025 que en el resto de años |
+| 2024 | 28.664 € | 15.876 € | 12.930,40 € | 48,05 €/h | 32,04 €/h | 48,90 €/h | Todos los datos son cifras oficiales o el benchmark de referencia (FY2025 Deltek, EACL 2025, ACE **2024**) verificadas para este ejercicio; costes operativos con la tabla de 8 partidas (sección 1) |
+| 2025 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 16.576 € | 12.988,63 € | 48,10 €/h | 32,97 €/h | 48,90 €/h | SMI oficial de 2025; costes operativos con la tabla de 8 partidas (sección 1); suelo de coste con retribución ACE 2024 (sin edición propia de 2025); facturabilidad y coeficiente coste-empresa con las últimas ediciones publicadas (Deltek FY2025, EACL 2025) |
+| 2026 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € | 13.059,92 € | 48,17 €/h | 33,69 €/h | 48,90 €/h | SMI oficial de 2026; costes operativos con la tabla de 8 partidas (sección 1); suelo de coste con retribución ACE 2024 (sin edición propia de 2026); facturabilidad y coeficiente coste-empresa sin edición más reciente, se mantienen Deltek FY2025 / EACL 2025 |
+| 2027 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € *(sin RD publicado; se mantiene 2026)* | 13.059,92 € *(sin dato propio; se mantiene 2026)* | 48,17 €/h | 33,69 €/h | 48,90 €/h | Año sin ningún dato propio publicado todavía; todas las cifras son la última disponible, incluida la retribución ACE 2024 del suelo de coste |
 
 Desde octubre de 2026, el suelo de coste **sí varía por año**: se
 encadena a la edición de ACE más reciente con dato disponible para cada
@@ -363,8 +376,8 @@ coste, por lo que no son directamente equivalentes al suelo MEF ni al
 suelo de coste de esta memoria — pero su comparación es reveladora: la
 tarifa media de mercado para principales en España (39–41 €/h) queda
 **por debajo** tanto del suelo MEF (47,21-48,17 €/h, según el año) como
-del umbral de cobertura de costes sin beneficio industrial (45,67 €/h,
-2024, ver sección 2) y del suelo de coste completo (48,09 €/h, 2024).
+del umbral de cobertura de costes sin beneficio industrial (46,48 €/h,
+2024, ver sección 2) y del suelo de coste completo (48,90 €/h, 2024).
 Es decir, la tarifa media que de hecho se cobra en el mercado español no
 llega a cubrir ni el coste real de producir esa hora ni, con el suelo
 MEF corregido (sección 3), el equivalente a lo que costaría contratar a
@@ -437,4 +450,4 @@ prensa de 14 de noviembre de 2025](https://www.ine.es/dyngs/Prensa/dsEPA2024.htm
 
 ---
 
-**Última actualización**: 3 de octubre de 2026
+**Última actualización**: 5 de octubre de 2026

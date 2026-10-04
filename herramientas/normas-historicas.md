@@ -116,8 +116,8 @@ Cifras de la [memoria técnica de la web]({{ '/herramientas/metodologia/' | rela
 misma base de 1.792 horas trabajadas (equivalente a 48,05 €/h por hora
 facturable, la cifra que la calculadora muestra desde la corrección de
 facturabilidad y de la partida de software del 4/10/2026 — ver nota en la sección 6) y suelo de
-coste 48,09 €/h (2024, con la retribución de referencia ACE 2024). La
-hora de 1977 actualizada a 2024 (59,39 €/h) queda un 23,5% por encima
+coste 48,90 €/h (2024, con la retribución de referencia ACE 2024). La
+hora de 1977 actualizada a 2024 (59,39 €/h) queda un 21,5% por encima
 del suelo de coste.
 
 ---
@@ -147,7 +147,7 @@ convenio (21,27 €/h = 100).
 | **C. Honorarios de 1977 (incluyen gastos generales y beneficio)** | | | |
 | Hora 1977 por hora trabajada (59,39 € × 59,3% de facturabilidad) | 63.110 € | 35,22 € | +65,5% |
 | Hora 1977 facturable (ocupación del 100%) | 106.425 € | 59,39 € | +179,2% |
-| Suelo de coste de la calculadora (cifra de su memoria técnica) | 86.177 € | 48,09 € | +126,1% |
+| Suelo de coste de la calculadora (cifra de su memoria técnica) | 87.629 € | 48,90 € | +129,9% |
 
 **Notas**: las cifras de la calculadora se toman de su memoria técnica
 (4 de octubre de 2026) y se supone que están en euros de 2024. El 59,3%
@@ -174,7 +174,7 @@ que la propia calculadora muestra desde el 4/10/2026. Las horas de 1977
 (capa C), que incluyen gastos generales y beneficio, quedan en 35,22
 €/h por hora trabajada o 59,39 €/h por hora facturable — en esta última
 base, prácticamente la misma magnitud que el MEF corregido (48,05 €/h)
-y el suelo de coste (48,09 €/h). El
+y el suelo de coste (48,90 €/h). El
 HME, antes aparentemente muy por debajo de la hora de 1977, queda así
 mucho más cerca de ella una vez ambos se expresan sobre la misma base
 de horas facturables. Los gastos de esta comparación (SS más

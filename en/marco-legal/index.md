@@ -197,7 +197,8 @@ development of this complementarity in the
 approved by Royal Decree 1098/2001, art. 131** — sets the standard
 percentages for overheads (between 13% and 17%) and industrial profit
 (6%) applied to the direct-execution budget in public-works procurement.
-HME uses these same percentages, by analogy, to calculate the **cost
+HME uses, by analogy, 15% overheads — the midpoint of the range the Act
+explicitly sets out — and 6% industrial profit to calculate the **cost
 floor** (the practice's real production cost), distinct from the actual
 anti-discrimination MEF floor — see the
 [technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }}).

@@ -80,11 +80,12 @@ Deltek varían según el ejercicio — a diferencia del modelo italiano o de
 SEGIPSA. Con el año elegido, calcula dos suelos propios y sitúa el
 importe evaluado frente a ellos:
 
-- **Suelo de coste** (40,18 €/h en 2023; 48,09 €/h entre 2024 y 2027):
+- **Suelo de coste** (40,86 €/h en 2023; 48,90 €/h entre 2024 y 2027):
   horas estimadas del encargo (HME) × tarifa horaria de coste, derivada
   de la retribución media de empleados de empresas privadas (ACE 2022
-  para 2023, ACE 2024 para 2024–2027), con gastos generales 13% y
-  beneficio industrial 6% (por analogía con el art. 131 RGLCAP).
+  para 2023, ACE 2024 para 2024–2027), con gastos generales 15% (valor
+  intermedio del rango 13%-17% que explicita el art. 131 RGLCAP) y beneficio
+  industrial 6%.
 - **Suelo MEF** (47,21-48,17 €/h sobre salario de convenio, según el año;
   entre 31,05 €/h y 33,69 €/h sobre SMI, según el año): HME × tarifa
   MEF/h — el suelo antidiscriminatorio propiamente dicho. Ver la

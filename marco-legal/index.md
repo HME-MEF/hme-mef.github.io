@@ -214,8 +214,9 @@ contratación pública y no solo a servicios de arquitectura.
 Públicas (RGLCAP), aprobado por Real Decreto 1098/2001, art. 131** —
 fija los porcentajes estándar de gastos generales (entre el 13% y el 17%)
 y beneficio industrial (6%) aplicables al presupuesto de ejecución
-material en la contratación de obra pública. HME utiliza estos mismos
-porcentajes, por analogía, para calcular el **suelo de coste** (el coste
+material en la contratación de obra pública. HME utiliza, por analogía, el 15% de gastos
+generales —valor intermedio del rango que explicita la Ley— y el 6% de
+beneficio industrial para calcular el **suelo de coste** (el coste
 real de producción de un estudio de arquitectura), distinto del suelo
 antidiscriminatorio MEF propiamente dicho — ver
 [memoria técnica]({{ '/herramientas/metodologia/' | relative_url }}).

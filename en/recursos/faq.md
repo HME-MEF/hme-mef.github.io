@@ -144,8 +144,8 @@ employee average, not the collective-agreement salary) but applies the
 same utilization rate (59.3%, Architecture/A-E segment for fiscal year
 2025, an industry *benchmark* — Deltek Clarity A&E, not an official
 Spanish figure) and additionally adds overheads and industrial profit
-by analogy with art. 131 RGLCAP, resulting in **€40.18/h** (2023) /
-**€48.09/h** (2024–2027).
+by analogy with art. 131 RGLCAP, resulting in **€40.86/h** (2023) /
+**€48.90/h** (2024–2027).
 
 These values are recalculated automatically, for each specific commission,
 in the [evaluator]({{ '/en/herramientas/evaluador/' | relative_url }}) and

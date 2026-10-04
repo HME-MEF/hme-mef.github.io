@@ -121,8 +121,8 @@ Figures from the [site's technical methodology]({{ '/en/herramientas/metodologia
 same 1,792-worked-hours basis (equivalent to €48.05/h per billable
 hour, the figure the calculator has shown since the 4/10/2026
 utilization-rate and software-line corrections — see note in section 6) and cost floor
-€48.09/h (2024, with the ACE 2024 reference remuneration). The 1977
-hour, updated to 2024 (€59.39/h), is 23.5% above the cost floor.
+€48.90/h (2024, with the ACE 2024 reference remuneration). The 1977
+hour, updated to 2024 (€59.39/h), is 21.5% above the cost floor.
 
 ---
 
@@ -151,7 +151,7 @@ per hour over 1,792 h, against the collective-agreement employer cost
 | **C. 1977 fees (include overheads and profit)** | | | |
 | 1977 hour per hour actually worked (€59.39 × 59.3% utilization) | €63,110 | €35.22 | +65.5% |
 | 1977 billable hour (100% occupancy) | €106,425 | €59.39 | +179.2% |
-| Calculator's cost floor (figure from its technical methodology) | €86,177 | €48.09 | +126.1% |
+| Calculator's cost floor (figure from its technical methodology) | €87,629 | €48.90 | +129.9% |
 
 **Notes**: the calculator's figures are taken from its technical
 methodology (4 October 2026) and are assumed to be in 2024 euros. The
@@ -178,7 +178,7 @@ figure the calculator itself has shown since 4/10/2026. The 1977 hourly
 rates (layer C), which include overheads and profit, sit at €35.22/h
 per hour actually worked or €59.39/h per billable hour — on this latter
 basis, practically the same magnitude as the corrected MEF (€48.05/h)
-and the cost floor (€48.09/h). MEF, which
+and the cost floor (€48.90/h). MEF, which
 previously looked far below the 1977 hour, turns out to be much closer
 to it once both are expressed on the same billable-hours basis. This
 comparison's expenses (SS plus operating costs: €18,828) amount to
