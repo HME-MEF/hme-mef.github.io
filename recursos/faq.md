@@ -48,7 +48,7 @@ Existe una **brecha retributiva estructural** entre profesionales
 autónomos y empleados con la misma cualificación: según datos del
 *Architects' Council of Europe*, el ingreso mediano de los arquitectos que
 ejercen como autónomos en España es sensiblemente inferior al de quienes
-ejercen en plantilla, tanto en el sector privado como en el público (cifras
+ejercen como asalariados, tanto en el sector privado como en el público (cifras
 completas en la [memoria técnica]({{ '/herramientas/metodologia/' | relative_url }})).
 
 Esta desigualdad no responde a eficiencia del mercado, sino a la ausencia
