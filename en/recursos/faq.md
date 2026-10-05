@@ -134,9 +134,12 @@ See the full analysis, with case law and comparative precedents, in the
 In brief (full derivation, with the source table for each input, in the
 [technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }})):
 
-1. It starts from the sector's collectively-bargained **reference
-   salary** (or, alternatively, the SMI), plus the **employer social
-   security contribution** and the practice's **operating costs**.
+1. It starts from the **reference salary**: the sector's
+   collectively-bargained salary where the activity legally requires a
+   specific qualification or authorisation to which a collective agreement
+   applies, and the SMI where there is no such requirement; to this are added
+   the **employer social security contribution** and the practice's
+   **operating costs**.
 2. It is divided by the collective agreement's **annual hours** (1,792 h),
    adjusted by a **utilization rate** (59.3%, Architecture/A-E segment,
    Deltek Clarity) — to stay consistent with the commission's estimated

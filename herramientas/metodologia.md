@@ -194,8 +194,9 @@ otra vía jurídica, al mismo suelo. Ver también
 
 ## 3. Derivación del suelo MEF (por año — ver tabla en la sección 6)
 
-1. Salario de referencia del año seleccionado (convenio; o SMI, según la
-   base elegida) + cotización empresarial (33,01% del salario base) +
+1. Salario de referencia del año seleccionado (el de convenio cuando la
+   actividad exige legalmente una cualificación o habilitación específica a
+   la que se aplica convenio; el SMI cuando no existe tal exigencia) + cotización empresarial (33,01% del salario base) +
    costes operativos de Madrid del año correspondiente (12.885,18 €-13.059,92 €,
    ver tabla en la sección 1).
 2. ÷ (1.792 horas anuales × 59,3% de facturabilidad — *Deltek Clarity

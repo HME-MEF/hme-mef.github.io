@@ -47,7 +47,7 @@ mayor de dos **referencias de valor** externas:
 
 | Referencia | Qué mide |
 |---|---|
-| **Suelo MEF** | Coste de oportunidad — lo que costaría contratar a un empleado con la misma cualificación. Suelo antidiscriminatorio, calculado siempre sobre el salario de convenio (no sobre el SMI: al ser una actividad con reserva legal, el SMI no es un comparador adecuado). |
+| **Suelo MEF** | Coste de oportunidad — lo que costaría contratar a un empleado con la misma cualificación. Suelo antidiscriminatorio, calculado siempre sobre el salario de convenio (no sobre el SMI: al ser una actividad que exige legalmente cualificación y habilitación específicas, el SMI no es un comparador adecuado; el SMI es la referencia cuando no existe tal exigencia). |
 | **Suelo de coste** | Coste real de producción del estudio (salario + gastos generales + beneficio industrial). |
 | **SEGIPSA** (BOE 27/5/2015) | % sobre PEM que la propia Administración General del Estado aplica a sus encomiendas de gestión. |
 | **Italia** (DM 17/6/2016) | Modelo de honorarios de base-valor vigente en la UE, citado como referencia comparada. |

@@ -48,7 +48,7 @@ higher of two external **value references**:
 
 | Reference | What it measures |
 |---|---|
-| **MEF floor** | Opportunity cost — what it would cost to hire an employee with the same qualification. Anti-discrimination floor, always calculated on the collective-agreement salary (not the SMI: as a profession with a legal practice reserve, the SMI is not an adequate comparator). |
+| **MEF floor** | Opportunity cost — what it would cost to hire an employee with the same qualification. Anti-discrimination floor, always calculated on the collective-agreement salary (not the SMI: as an activity that legally requires a specific qualification and authorisation, the SMI is not an adequate comparator; the SMI is the reference where there is no such requirement). |
 | **Cost floor** | The practice's real production cost (salary + overheads + industrial profit). |
 | **SEGIPSA** (BOE 27/5/2015) | % of PEM that the Spanish General State Administration itself applies to its own commissioned work. |
 | **Italy** (DM 17/6/2016) | A value-based fee model in force in the EU, cited as a comparative reference. |

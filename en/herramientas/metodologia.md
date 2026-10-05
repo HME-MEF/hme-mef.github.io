@@ -193,8 +193,10 @@ route, to the same floor. See also
 
 ## 3. Derivation of the MEF floor (by year — see table in section 6)
 
-1. Reference salary for the selected year (collectively-bargained; or the
-   SMI, depending on the chosen base) + employer social security
+1. Reference salary for the selected year (the collectively-bargained
+   salary where the activity legally requires a specific qualification or
+   authorisation to which a collective agreement applies; the SMI where there
+   is no such requirement) + employer social security
    contribution (33.01% of the base salary) + Madrid operating costs for
    the corresponding year (€12,885.18-€13,059.92, see table in section 1).
 2. ÷ (1,792 annual hours × 59.3% utilization rate — *Deltek Clarity

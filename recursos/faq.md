@@ -134,9 +134,11 @@ en [Marco Legal]({{ '/marco-legal/' | relative_url }}).
 De forma resumida (derivación completa, con la tabla de fuentes por dato,
 en la [memoria técnica]({{ '/herramientas/metodologia/' | relative_url }})):
 
-1. Se parte del **salario de referencia** de convenio colectivo del
-   sector (o, alternativamente, del SMI), más la **cotización
-   empresarial** y los **costes operativos** del estudio.
+1. Se parte del **salario de referencia**: el de convenio colectivo del
+   sector cuando la actividad exige legalmente una cualificación o
+   habilitación específica a la que se aplica convenio, y el SMI cuando no
+   existe tal exigencia; a ello se suman la **cotización empresarial** y
+   los **costes operativos** del estudio.
 2. Se divide entre las **horas anuales** de convenio (1.792 h),
    ajustadas por un índice de **facturabilidad** (59,3%, segmento
    Architecture/A-E, Deltek Clarity) — para ser consistente con las
