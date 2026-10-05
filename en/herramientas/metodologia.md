@@ -25,8 +25,9 @@ works, without needing an express regulatory revision. See section 6 for
 the detail of what changes by year and what stays constant for lack of
 published data.
 
-It is not an official tariff or a professional-association fee scale: it
-is information about several possible fee references — based on
+The figures provided by the calculators are not an official tariff or a
+professional-association fee scale: they are information about several
+possible fee references — based on
 non-discrimination (HME/MEF), business cost, or Spanish (SEGIPSA) and
 Italian (DM 2016) regulatory parameters — built from explicit layers.
 How anyone uses these figures is a matter of their own judgment.

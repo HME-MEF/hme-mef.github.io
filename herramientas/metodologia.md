@@ -24,8 +24,8 @@ necesidad de una revisión normativa expresa. Ver la sección 6 para el
 detalle de qué cambia por año
 y qué se mantiene por falta de dato publicado.
 
-No es una tarifa oficial ni un baremo colegial: es información sobre
-distintas referencias de honorarios posibles —según no discriminación
+Las cifras que proporcionan las calculadoras no son una tarifa oficial ni un
+baremo colegial: son información sobre distintas referencias de honorarios posibles —según no discriminación
 (HME/MEF), coste empresarial, o parámetros normativos españoles
 (SEGIPSA) e italianos (DM 2016)—, construida por capas explícitas. El
 uso que cada quien haga de estas cifras depende de su propio criterio.
