@@ -110,11 +110,13 @@ appeal cannot prejudice the petitioner.
 [View the cassation appeal]({{ '/assets/docs/recurso-casacion-2024-09.pdf' | relative_url }}) *(ES)*
 
 **16/10/2024** — The Supreme Court (Administrative Chamber, First Section)
-declares the cassation appeal inadmissible by order, on strictly formal
-grounds: insufficient reasoning of the objective cassational interest (art.
-89.2.f and 90.4.b LJCA) and failure to justify the relevance test required
-by art. 89.2.d LJCA. It does not rule on the merits. It sets costs of up to
-€1,000 plus VAT. *(Full-text transcription, with the names of the parties
+declares the cassation appeal inadmissible by order, because the notice of
+intention to appeal does not meet the legal requirements: insufficient
+reasoning, with specific reference to the case, of the objective cassational
+interest (art. 90.4.b, in relation to arts. 89.2.f and 90.4.d LJCA) and
+failure to justify the relevance test required by art. 89.2.d LJCA. It does
+not rule on the merits. It orders the appellant to pay the costs, up to a
+maximum of €1,000 plus VAT. *(Full-text transcription, with the names of the parties
 and judicial staff redacted.)*
 [View the order (text)]({{ '/assets/docs/providencia-inadmision-casacion-2024-10-16.pdf' | relative_url }}) *(ES)*
 

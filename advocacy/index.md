@@ -101,12 +101,13 @@ perjudicar al peticionario.
 [Ver recurso de casación]({{ '/assets/docs/recurso-casacion-2024-09.pdf' | relative_url }})
 
 **16/10/2024** — El Tribunal Supremo (Sala de lo Contencioso-Administrativo,
-Sección Primera) inadmite por providencia el recurso de casación, por razones
-estrictamente formales: falta de
-fundamentación suficiente del interés casacional objetivo (art. 89.2.f y 90.4.b
-LJCA) y falta de justificación del juicio de relevancia exigido por el art. 89.2.d
-LJCA. No entra a valorar el fondo del asunto. Impone una tasación de costas de
-hasta 1.000 € más IVA. *(Transcripción del texto íntegro, con los nombres de
+Sección Primera) inadmite por providencia el recurso de casación por no satisfacer
+el escrito de preparación las exigencias legales: falta de fundamentación
+suficiente, con singular referencia al caso, del interés casacional objetivo
+(art. 90.4.b, en relación con los arts. 89.2.f y 90.4.d LJCA) y falta de
+justificación del juicio de relevancia exigido por el art. 89.2.d LJCA. No
+entra a valorar el fondo del asunto. Impone las costas a la parte recurrente,
+con un máximo de 1.000 € más IVA. *(Transcripción del texto íntegro, con los nombres de
 partes y personal judicial suprimidos.)*
 [Ver providencia (texto)]({{ '/assets/docs/providencia-inadmision-casacion-2024-10-16.pdf' | relative_url }})
 
