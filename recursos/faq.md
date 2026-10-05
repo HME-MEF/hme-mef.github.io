@@ -21,7 +21,10 @@ percibir, como mínimo, una remuneración neta equivalente a la del
 profesional empleado con las mismas competencias; es decir, una
 retribución bruta que, una vez descontados los costes que soporta el
 autónomo y que el empleador asume en nombre del empleado, deje la misma
-remuneración neta.
+remuneración neta. La propuesta no garantiza encargos que cubran toda la
+jornada; garantiza que, a igualdad de horas de trabajo productivo a lo largo
+de un año, la remuneración neta del autónomo no sea inferior a la del
+asalariado.
 
 El modelo distingue dos referencias, derivadas por capas de datos
 normativos y convencionales explícitos (ver

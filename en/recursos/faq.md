@@ -22,7 +22,10 @@ professional should be able to earn, at a minimum, a net remuneration
 equal to that of an employed professional with the same competencies —
 that is, a gross income which, once the costs the self-employed person
 bears but an employer would otherwise cover on behalf of an employee are
-deducted, leaves the same net remuneration.
+deducted, leaves the same net remuneration. The proposal does not guarantee
+commissions that fill a full working day; it guarantees that, for equal hours
+of productive work over a year, the self-employed professional's net
+remuneration is not lower than the employee's.
 
 The model distinguishes two references, derived from explicit layers of
 regulatory and collectively-bargained data (see the
