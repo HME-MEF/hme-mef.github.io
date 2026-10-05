@@ -81,7 +81,10 @@ desestima el recurso e impone las costas a la parte actora (art. 139.1 LJCA).
 La Audiencia no consideró necesario plantear la cuestión prejudicial ante el
 TJUE sugerida subsidiariamente en el Escrito de Conclusiones. La sentencia
 reconoce que la petición debía entenderse admitida a trámite por no haberse
-declarado su inadmisión en plazo (art. 9.2 LO 4/2001), pero considera que
+declarado su inadmisión en plazo (art. 9.2 LO 4/2001), y considera dudoso
+que el informe de la DGPOLECO, elaborado tras la admisión a trámite del
+recurso para su remisión con el expediente, pueda entenderse como la
+contestación a la que el interesado tenía derecho; pero aprecia que
 existía causa de inadmisibilidad, por lo que desestima la demanda sin
 pronunciarse sobre el fondo.
 [Ver sentencia]({{ '/assets/docs/sentencia-an-525-2024.pdf' | relative_url }})
