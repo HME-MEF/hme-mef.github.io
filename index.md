@@ -80,8 +80,8 @@ Propuestas legislativas, presentaciones formales, cronología completa de dilige
 ### 📰 [Noticias]({{ '/noticias/' | relative_url }})
 Novedades normativas, jurisprudenciales e institucionales relevantes para HME/MEF.
 
-### 📚 [Recursos]({{ '/recursos/' | relative_url }})
-Glosario, FAQs, bibliografía completa, enlaces útiles.
+### ❓ [Preguntas frecuentes]({{ '/recursos/faq/' | relative_url }})
+Respuestas a las preguntas habituales sobre HME/MEF: concepto, legalidad, implementación y comparativas.
 
 ---
 
@@ -108,5 +108,5 @@ En el principio de no discriminación, reconocido tanto por la Constitución Esp
 
 ---
 
-**Última actualización**: Octubre 2026
+**Publicada**: septiembre de 2026 · **Última actualización**: octubre de 2026
 **Versión del sitio**: 1.2-advocacy

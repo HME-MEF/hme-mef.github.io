@@ -446,4 +446,4 @@ Source: own elaboration from Spain's gross median and average wage for
 
 ---
 
-**Last updated**: 5 October 2026
+**Published**: September 2026 · **Last updated**: 5 October 2026

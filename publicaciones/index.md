@@ -60,4 +60,4 @@ STJUE, Constitución Española, resoluciones de la CNMC) se recogen en
 
 ---
 
-**Última actualización**: Octubre 2026
+**Publicada**: septiembre de 2026 · **Última actualización**: octubre de 2026

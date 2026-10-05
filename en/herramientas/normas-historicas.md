@@ -237,4 +237,4 @@ comparison's expenses (SS plus operating costs: €18,828) amount to
 
 ---
 
-**Last updated**: October 2026
+**Published**: October 2026

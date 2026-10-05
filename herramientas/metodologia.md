@@ -451,4 +451,4 @@ prensa de 14 de noviembre de 2025](https://www.ine.es/dyngs/Prensa/dsEPA2024.htm
 
 ---
 
-**Última actualización**: 5 de octubre de 2026
+**Publicada**: septiembre de 2026 · **Última actualización**: 5 de octubre de 2026

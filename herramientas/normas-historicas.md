@@ -231,4 +231,4 @@ reconoce la Tarifa VIII de 1977.
 
 ---
 
-**Última actualización**: Octubre 2026
+**Publicada**: octubre de 2026

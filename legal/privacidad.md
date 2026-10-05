@@ -71,4 +71,4 @@ Esta política puede actualizarse para reflejar cambios en el sitio o en la norm
 
 ---
 
-**Última actualización**: Octubre 2026
+**Publicada**: septiembre de 2026 · **Última actualización**: octubre de 2026

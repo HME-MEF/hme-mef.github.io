@@ -81,8 +81,8 @@ Legislative proposals, formal submissions, complete timeline of proceedings.
 ### 📰 [News]({{ '/en/noticias/' | relative_url }})
 Regulatory, case-law and institutional developments relevant to HME/MEF.
 
-### 📚 [Resources]({{ '/en/recursos/' | relative_url }})
-Glossary, FAQ, full bibliography, useful links.
+### ❓ [FAQ]({{ '/en/recursos/faq/' | relative_url }})
+Answers to common questions about HME/MEF: concept, legality, implementation and comparisons.
 
 ---
 
@@ -109,7 +109,7 @@ Questions, comments or collaboration proposals?
 
 ---
 
-**Last updated**: October 2026
+**Published**: September 2026 · **Last updated**: October 2026
 **Site version**: 1.2-advocacy
 
 *This is a translation for reference; the original, authoritative version of this site is in [Spanish]({{ '/' | relative_url }}).*

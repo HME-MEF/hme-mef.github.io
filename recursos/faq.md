@@ -354,4 +354,4 @@ profesional (incluyendo de otras profesiones u oficios).
 
 ---
 
-**Última actualización**: Octubre 2026
+**Publicada**: septiembre de 2026 · **Última actualización**: octubre de 2026

@@ -113,4 +113,4 @@ Más información sobre las licencias Creative Commons: [creativecommons.org](ht
 
 ---
 
-**Última actualización**: Octubre 2026
+**Publicada**: octubre de 2026

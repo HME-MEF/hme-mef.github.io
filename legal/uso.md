@@ -83,4 +83,4 @@ Para cualquier consulta sobre estos términos: [info@hmef.eu](mailto:info@hmef.e
 
 ---
 
-**Última actualización**: Octubre 2026
+**Publicada**: septiembre de 2026 · **Última actualización**: octubre de 2026

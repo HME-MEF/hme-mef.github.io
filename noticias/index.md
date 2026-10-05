@@ -61,4 +61,4 @@ HME/MEF tampoco propone) y "piso legislativo" que sostiene este sitio.
 
 ---
 
-**Última actualización**: Octubre 2026
+**Publicada**: septiembre de 2026 · **Última actualización**: octubre de 2026

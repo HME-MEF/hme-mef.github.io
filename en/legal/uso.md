@@ -119,4 +119,4 @@ or through the [contact form]({{ '/en/recursos/contacto/' | relative_url }}).
 
 ---
 
-**Last updated**: October 2026
+**Published**: September 2026 · **Last updated**: October 2026

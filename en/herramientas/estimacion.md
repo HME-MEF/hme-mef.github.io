@@ -85,4 +85,4 @@ Besides the band, the calculator shows two **comparative references**
 
 ---
 
-**Last updated**: October 2026
+**Published**: September 2026 · **Last updated**: October 2026
