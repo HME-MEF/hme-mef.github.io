@@ -507,9 +507,9 @@ tras un pronunciamiento del TJUE.
 | Legge (IT) 2/3/1949, n. 143 | Capo I, art. 4 | [PDF]({{ '/assets/docs/legge-143-1949-it.pdf' | relative_url }}) |
 | DM (IT) 17/6/2016 | Arts. 2-6 | [PDF]({{ '/assets/docs/dm-17-giugno-2016-it.pdf' | relative_url }}) |
 | D.Lgs. (IT) 31/12/2024, n. 209 | — (referencia general) | [gazzettaufficiale.it](https://www.gazzettaufficiale.it/eli/id/2025/01/22/25A00154/sg) |
-| CNMC, CNS/DC/902/23 (26/9/2023) | — (autónomos sin asalariados) | [PDF]({{ '/assets/docs/cnmc-cns-dc-902-23-2023.pdf' | relative_url }}) |
 | CNC, Informe sector servicios profesionales (2009) | — (antecedente) | [PDF]({{ '/assets/docs/cnc-informe-2009-servicios-profesionales.pdf' | relative_url }}) |
 | CNC, Informe colegios tras Directiva de Servicios (2012) | — (antecedente) | [PDF]({{ '/assets/docs/cnc-informe-2012-colegios-directiva-servicios.pdf' | relative_url }}) |
+| CNMC, CNS/DC/902/23 (26/9/2023) | — (autónomos sin asalariados) | [PDF]({{ '/assets/docs/cnmc-cns-dc-902-23-2023.pdf' | relative_url }}) |
 
 ---
 

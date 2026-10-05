@@ -393,9 +393,9 @@ abolishing it altogether — following a CJEU ruling.
 | Legge (IT) 2/3/1949, n. 143 | Capo I, art. 4 | [PDF]({{ '/assets/docs/legge-143-1949-it.pdf' | relative_url }}) *(IT)* |
 | DM (IT) 17/6/2016 | Arts. 2-6 | [PDF]({{ '/assets/docs/dm-17-giugno-2016-it.pdf' | relative_url }}) *(IT)* |
 | D.Lgs. (IT) 31/12/2024, n. 209 | — (general reference) | [gazzettaufficiale.it](https://www.gazzettaufficiale.it/eli/id/2025/01/22/25A00154/sg) |
-| CNMC, CNS/DC/902/23 (26/9/2023) | — (solo self-employed without employees) | [PDF]({{ '/assets/docs/cnmc-cns-dc-902-23-2023.pdf' | relative_url }}) *(ES)* |
 | CNC, Report on professional services sector (2009) | — (background) | [PDF]({{ '/assets/docs/cnc-informe-2009-servicios-profesionales.pdf' | relative_url }}) *(ES)* |
 | CNC, Report on professional associations after Services Directive (2012) | — (background) | [PDF]({{ '/assets/docs/cnc-informe-2012-colegios-directiva-servicios.pdf' | relative_url }}) *(ES)* |
+| CNMC, CNS/DC/902/23 (26/9/2023) | — (only self-employed without employees) | [PDF]({{ '/assets/docs/cnmc-cns-dc-902-23-2023.pdf' | relative_url }}) *(ES)* |
 
 ---
 
