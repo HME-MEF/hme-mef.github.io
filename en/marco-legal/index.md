@@ -101,7 +101,7 @@ framework.
 - Public policy and public security
 
 **Application to MEF:**
-A regulation of minimum fees can be justified under "protection of workers" (equalising remuneration between the self-employed and employees).
+The minimum-fee regulation proposed here is justified precisely by the "protection of workers and non-discrimination" (equalising remuneration between the self-employed and employees).
 
 ### European Commission Guidelines 2022/C 374/02
 

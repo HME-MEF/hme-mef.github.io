@@ -98,7 +98,7 @@ al marco de libre competencia.
 - Orden público y seguridad pública
 
 **Aplicación a HME:**  
-Una regulación de mínimos de honorarios puede justificarse bajo "protección de trabajadores" (equiparación retributiva autónomo-empleado).
+La regulación de honorarios mínimos que se propone se justifica precisamente por la "protección de trabajadores y no discriminación" (equiparación retributiva autónomo-empleado).
 
 ### Directrices de la Comisión Europea 2022/C 374/02
 
