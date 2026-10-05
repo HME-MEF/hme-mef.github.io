@@ -339,11 +339,9 @@ caveat, already noted in section 5, that ACE's sample size in Spain
 (198–847 responses depending on the edition, margin of error ±3.3% to
 ±7.0% at 95% confidence) still introduces year-to-year noise.
 
-As of this same update, the MEF floor **also varies by year**, since it
-now depends on the broken-down operating costs (section 1), which do
-have real year-on-year variation in several of their line items
-(liability insurance, fuel) rather than the fixed €17,569/year figure
-used until now.
+The MEF floor **also varies by year**, since it depends on the
+broken-down operating costs (section 1), which do have real year-on-year
+variation in several of their line items (liability insurance, fuel).
 
 The employer social security contribution is calculated as a fixed
 percentage (33.01%) of the base salary for each year, without modelling the

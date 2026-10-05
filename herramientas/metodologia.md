@@ -343,11 +343,9 @@ tamaño de muestra de ACE en España (198–847 respuestas según la edición,
 margen de error ±3,3% a ±7,0% al 95% de confianza) sigue introduciendo
 ruido año a año.
 
-Desde esta misma actualización, el suelo MEF **también varía por año**,
-al depender ahora de los costes operativos desagregados (sección 1), que
-sí tienen variación interanual real en varias de sus partidas (seguro de
-RC, combustible) en lugar de la cifra fija de 17.569 €/año usada hasta
-ahora.
+El suelo MEF **también varía por año**, al depender de los costes
+operativos desagregados (sección 1), que sí tienen variación interanual
+real en varias de sus partidas (seguro de RC, combustible).
 
 La cotización empresarial se calcula como un porcentaje fijo (33,01%) del
 salario base de cada año, sin modelar el incremento anual del Mecanismo
