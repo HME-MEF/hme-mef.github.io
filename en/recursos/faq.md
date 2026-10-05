@@ -269,6 +269,17 @@ MEF raises costs, but whether that remuneration floor is necessary and
 proportionate to correct a discrimination — addressed in the
 [Legal Framework]({{ '/en/marco-legal/' | relative_url }}).
 
+There is, in addition, a complementary question. The abolition of tariffs may
+have helped to lower the price of certain professional services — the European
+Commission itself noted in 2003 that countries with less regulation show lower
+income per professional — but that lower price has a cost: the available data
+point to a high proportion of self-employed workers in precarious situations
+and at risk of poverty, higher than among employees (in Italy, 33.7% versus
+22.1% in 2016, according to ISTAT). MEF therefore does not promise that
+certain prices will not rise; it proposes to correct a legal change that has
+contributed to creating a class of working poor, with negative effects on the
+general interest.
+
 That said, the argument put forward in the proposal is that the effect on
 cost would not be significant, because:
 

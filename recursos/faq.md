@@ -267,6 +267,17 @@ equilibrado, de interés general. La pregunta relevante no es si HME eleva o no 
 si ese suelo retributivo es necesario y proporcionado para corregir una
 discriminación —cuestión abordada en el [Marco Legal]({{ '/marco-legal/' | relative_url }}).
 
+Hay, además, una cuestión complementaria. La supresión de las tarifas pudo
+contribuir a abaratar ciertos servicios profesionales —la propia Comisión
+Europea advirtió en 2003 de que los países con menor regulación presentan
+ingresos menores por profesional—, pero ese abaratamiento tiene un coste: los
+datos disponibles apuntan a una proporción elevada de trabajadores autónomos
+en situación de precariedad y riesgo de pobreza, mayor que la de los
+asalariados (en Italia, del 33,7 % frente al 22,1 % en 2016, según ISTAT). HME
+no promete, por tanto, que ciertos precios no suban, sino corregir una
+modificación normativa que ha contribuido a crear una clase de trabajadores
+pobres, con efectos negativos sobre el interés general.
+
 Dicho esto, el argumento sostenido en la propuesta es que el efecto sobre
 el coste no sería significativo, porque:
 
