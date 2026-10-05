@@ -389,13 +389,23 @@ colegio profesional, así como otras prácticas abusivas (modificación
 unilateral del contrato, trabajo adicional no retribuido, plazos de pago
 superiores a 60 días).
 
-**Aplicación a HME:** esta ley es la prueba más directa, dentro del
-Derecho comparado de la UE, de que un mínimo retributivo profesional,
-justificado por cuestiones de interés general diferentes de la protección
-corporativa de un colectivo, es compatible con el Derecho de la Unión. A diferencia del DM 17/6/2016 (que
-es un método de cálculo específico de arquitectura e ingeniería), esta
-ley confirma que el principio puede aplicarse con carácter general a
-cualquier profesión regulada.
+**Aplicación a HME:** esta ley es el precedente más directo, dentro del
+Derecho comparado de la UE, de un mínimo retributivo profesional justificado
+por cuestiones de interés general diferentes de la protección corporativa de
+un colectivo. Su compatibilidad con los arts. 49, 56 y 101 TFUE fue afirmada
+por un tribunal administrativo de primera instancia (TAR Veneto, sent.
+632/2024, de 3 de abril, [texto](https://mdp.giustizia-amministrativa.it/visualizza/?nodeRef=&nomeFile=202400632_01.html&nrg=202301332&schema=tar_ve&subDir=Provvedimenti)), pero el Consiglio di Stato
+(sent. 594/2025, de 27 de enero, [texto](https://www.ambientediritto.it/giurisprudenza/consiglio-di-stato-sez-3-27-gennaio-2025-n-594/))
+reformó esa sentencia y declaró absorbidas las cuestiones de compatibilidad
+con el Derecho de la Unión; interpretó que, en la contratación pública, el
+importe puede reducirse hasta el mínimo resultante de parámetros flexibles, y
+advirtió de que un valor rígido e inderogable chocaría con los criterios de
+necesidad y proporcionalidad del art. 15 de la Directiva 2006/123/CE. Es,
+por tanto, un precedente nacional relevante, de alcance discutido, y no una
+confirmación jurisdiccional definitiva de esa compatibilidad. A diferencia
+del DM 17/6/2016 (que es un método de cálculo específico de arquitectura e
+ingeniería), esta ley muestra que el principio puede aplicarse con carácter
+general a cualquier profesión regulada.
 
 ### Normativa específica de arquitectura e ingeniería
 

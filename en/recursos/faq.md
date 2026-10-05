@@ -109,10 +109,11 @@ non-discrimination — provided the measure is necessary and proportionate
 within the EU: Italian Law 49/2023 on *equo compenso* protects adequate
 remuneration for professionals facing counterparties with greater bargaining
 power, on grounds of general interest, including certain dealings with public
-authorities. The TAR Veneto (judgment 632/2024, 3 April) held that its
+authorities. The TAR Veneto (judgment 632/2024, 3 April; [text](https://mdp.giustizia-amministrativa.it/visualizza/?nodeRef=&nomeFile=202400632_01.html&nrg=202301332&schema=tar_ve&subDir=Provvedimenti))
+held that its
 application to public procurement did not infringe EU freedoms or competition
-rules. The Consiglio di Stato (judgment 594/2025, 27 January) reversed that
-judgment, interpreted that in tenders the amount may be reduced down to the
+rules. The Consiglio di Stato (judgment 594/2025, 27 January; [text](https://www.ambientediritto.it/giurisprudenza/consiglio-di-stato-sez-3-27-gennaio-2025-n-594/))
+reversed that judgment (declaring the first-instance appeal inadmissible for lack of standing and, in any event, unfounded), interpreted that in tenders the amount may be reduced down to the
 minimum resulting from flexible parameters, and left unresolved the questions
 of compatibility with arts. 49, 56 and 101 TFEU and Directive 2006/123/EC,
 warning that a rigid tariff would raise problems of necessity and

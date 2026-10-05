@@ -306,13 +306,21 @@ reference minimums set by ministerial decree for each professional
 association, as well as other unfair practices (unilateral contract
 amendment, unpaid additional work, payment terms exceeding 60 days).
 
-**Application to MEF:** this law is the most direct comparative-EU-law
-evidence that a professional minimum-remuneration floor, justified by
-general-interest grounds other than the corporate protection of a group,
-is compatible with EU law. Unlike the
-DM 17/6/2016 (a calculation method specific to architecture and
-engineering), this law confirms that the principle can be applied
-generally, to any regulated profession.
+**Application to MEF:** this law is the most direct precedent, within
+comparative EU law, of a professional minimum-remuneration floor justified by
+general-interest grounds other than the corporate protection of a group. Its
+compatibility with arts. 49, 56 and 101 TFEU was affirmed by a first-instance
+administrative court (TAR Veneto, judgment 632/2024 of 3 April, [text](https://mdp.giustizia-amministrativa.it/visualizza/?nodeRef=&nomeFile=202400632_01.html&nrg=202301332&schema=tar_ve&subDir=Provvedimenti)),
+but the Consiglio di Stato (judgment 594/2025 of 27 January, [text](https://www.ambientediritto.it/giurisprudenza/consiglio-di-stato-sez-3-27-gennaio-2025-n-594/))
+reversed that judgment and held the EU-law compatibility questions to be
+absorbed; it interpreted that, in public procurement, the amount may be
+reduced down to the minimum resulting from flexible parameters, and warned
+that a rigid, non-derogable value would clash with the necessity and
+proportionality criteria of art. 15 of Directive 2006/123/EC. It is therefore
+a relevant national precedent of contested scope, not a definitive judicial
+confirmation of that compatibility. Unlike the DM 17/6/2016 (a calculation
+method specific to architecture and engineering), this law shows that the
+principle can be applied generally, to any regulated profession.
 
 ### Regulations specific to architecture and engineering
 

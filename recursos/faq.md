@@ -109,10 +109,11 @@ de la Directiva (UE) 2018/958). Hay además un precedente nacional relevante
 en la UE: la ley italiana 49/2023 de *equo compenso* protege una
 remuneración adecuada de los profesionales frente a contrapartes con mayor
 poder de negociación, por razones de interés general, incluidas determinadas
-relaciones con la Administración. El TAR Veneto (sent. 632/2024, 3 de abril)
+relaciones con la Administración. El TAR Veneto (sent. 632/2024, 3 de abril; [texto](https://mdp.giustizia-amministrativa.it/visualizza/?nodeRef=&nomeFile=202400632_01.html&nrg=202301332&schema=tar_ve&subDir=Provvedimenti))
 consideró que su aplicación a la contratación pública no vulneraba las
 libertades ni las reglas de competencia de la Unión. El Consiglio di Stato
-(sent. 594/2025, 27 de enero) reformó esa sentencia, interpretó que en
+(sent. 594/2025, 27 de enero; [texto](https://www.ambientediritto.it/giurisprudenza/consiglio-di-stato-sez-3-27-gennaio-2025-n-594/))
+reformó esa sentencia (declaró el recurso de primera instancia inadmisible por falta de legitimación y, en todo caso, infundado), interpretó que en
 licitación el importe puede reducirse hasta el mínimo resultante de
 parámetros flexibles y dejó sin resolver las cuestiones de compatibilidad con
 los arts. 49, 56 y 101 TFUE y la Directiva 2006/123/CE, advirtiendo de que una
