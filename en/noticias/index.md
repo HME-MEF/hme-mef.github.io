@@ -20,8 +20,7 @@ itself, of the Italian law *Disposizioni in materia di equo compenso delle
 prestazioni professionali* (Gazzetta Ufficiale no. 104, of 5 May 2023),
 together with its ministerial parameters, "for awareness of the situation in
 other European countries." The publication follows communications held with
-COAM's Fees Working Group, coordinated by Fernando Landecho González-Soto,
-1st Member of COAM's Governing Board.
+COAM's Fees Working Group.
 
 It is relevant to HME/MEF for two reasons: first, because it confirms, from
 an independent professional-association source, the content of Law 49/2023
