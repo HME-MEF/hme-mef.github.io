@@ -75,7 +75,7 @@ datos reales antes de automatizarlo aquí. Quien prefiera introducir su
 propio juicio profesional puede activar el ajuste manual de horas.
 
 La herramienta requiere elegir primero un **año de referencia**
-(2024–2027), porque el salario de convenio, el SMI y la facturabilidad
+(2023–2027), porque el salario de convenio, el SMI y la facturabilidad
 Deltek varían según el ejercicio — a diferencia del modelo italiano o de
 SEGIPSA. Con el año elegido, calcula dos suelos propios y sitúa el
 importe evaluado frente a ellos:

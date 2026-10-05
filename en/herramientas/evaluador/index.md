@@ -72,7 +72,7 @@ shown below, which had already been validated against real data before it
 was automated here. Anyone who prefers to apply their own professional
 judgement can switch on the manual hours adjustment.
 
-The tool requires choosing a **reference year** (2024–2027) first, because
+The tool requires choosing a **reference year** (2023–2027) first, because
 the collectively-bargained salary, the SMI (national minimum wage) and the
 Deltek utilization rate vary by year — unlike the Italian model or SEGIPSA.
 Once the year is chosen, it calculates two floors of its own and places the
