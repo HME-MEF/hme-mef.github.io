@@ -62,17 +62,18 @@ Articles 20 and 21 CFR are the EU-level equivalent of art. 14 CE (equality and n
 
 ## 2. European Union Law
 
-### Directive 2010/41/EU — Equal treatment between men and women in self-employment
+### Directive 86/613/EEC (repealed and updated by Directive 2010/41/EU) — Equal treatment between men and women in self-employment
 
-Directive 2010/41/EU of the European Parliament and of the Council of 7
-July 2010 on the application of the principle of equal treatment between
-men and women engaged in a self-employed capacity repeals and updates
 Council Directive 86/613/EEC of 11 December 1986 on the application of
-the principle of equal treatment between men and women engaged in a
-self-employed capacity, including agriculture, and on the protection of
-self-employed women during pregnancy and motherhood — the first EU
-instrument to recognise that the self-employed, like employees, require
-protection against discrimination on grounds of sex.
+the principle of equal treatment between men and women engaged in an
+activity, including agriculture, in a self-employed capacity, and on the
+protection of self-employed women during pregnancy and motherhood, was
+repealed and updated by Directive 2010/41/EU of the European Parliament
+and of the Council of 7 July 2010. It is already in 1986 that EU law
+recognises that the self-employed, like employees, require protection
+against discrimination on grounds of sex; that is, it extends to
+self-employed workers a protection which, as a right inherent to the
+person, does not depend on the work being performed for an employer.
 
 **Application to MEF:**
 Both directives confirm, since 1986, that the EU recognises the need to
@@ -82,7 +83,11 @@ argue that, since there is already an express recognition of the need to
 prevent gender discrimination within the self-employed group, the
 self-employed–employee pay gap documented on this site — which bears
 more heavily on self-employed women — falls squarely within the scope
-these directives seek to address.
+these directives seek to address. This recognition predates the Services
+Directive (2006/123/EC) by twenty years and the 1997 liberalisation
+(Law 7/1997) by eleven: treating the self-employed as persons protected
+against discrimination is neither later than nor foreign to the free-competition
+framework.
 
 ### European Commission Guidelines 2022/C 374/02
 

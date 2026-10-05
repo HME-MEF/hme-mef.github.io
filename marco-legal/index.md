@@ -59,18 +59,18 @@ Los arts. 20 y 21 CDFUE son el equivalente de ámbito europeo del art. 14 CE (ig
 
 ## 2. Derecho de la Unión Europea
 
-### Directiva 2010/41/UE — Igualdad de trato entre hombres y mujeres autónomos
+### Directiva 86/613/CEE (derogada y actualizada por la Directiva 2010/41/UE) — Igualdad de trato entre hombres y mujeres autónomos
 
-La Directiva 2010/41/UE del Parlamento Europeo y del Consejo, de 7 de
-julio de 2010, sobre la aplicación del principio de igualdad de trato
-entre hombres y mujeres que ejercen una actividad autónoma, deroga y
-actualiza la Directiva 86/613/CEE del Consejo, de 11 de diciembre de
-1986, relativa a la aplicación del principio de igualdad de trato entre
-hombres y mujeres que ejercen una actividad autónoma, incluidas las
-actividades agrícolas, así como la protección de la maternidad —primera
-norma de la UE en reconocer que el colectivo autónomo requiere, igual
-que el asalariado, protección frente a la discriminación por razón de
-sexo.
+La Directiva 86/613/CEE del Consejo, de 11 de diciembre de 1986, relativa
+a la aplicación del principio de igualdad de trato entre hombres y mujeres
+que ejercen una actividad autónoma, incluidas las actividades agrícolas,
+así como la protección de la maternidad, fue derogada y actualizada por la
+Directiva 2010/41/UE del Parlamento Europeo y del Consejo, de 7 de julio de
+2010. Es ya en 1986 cuando el Derecho de la UE reconoce que el colectivo
+autónomo requiere, igual que el asalariado, protección frente a la
+discriminación por razón de sexo; es decir, extiende a los trabajadores
+autónomos una protección que, como derecho inherente a la persona, no
+depende de que su trabajo se preste por cuenta ajena.
 
 **Aplicación a HME:**  
 Ambas directivas confirman, desde 1986, que la UE reconoce la necesidad
@@ -80,7 +80,11 @@ para sostener que, si existe ya un reconocimiento expreso de la
 necesidad de evitar la discriminación de género en el colectivo autónomo,
 la brecha retributiva autónomo-asalariado documentada en este sitio —que
 afecta de forma más acusada a las mujeres autónomas— entra directamente
-en el ámbito que estas directivas buscan corregir.
+en el ámbito que estas directivas buscan corregir. Este reconocimiento es
+anterior en veinte años a la Directiva de Servicios (2006/123/CE) y en once
+a la liberalización de 1997 (Ley 7/1997): la consideración del autónomo
+como sujeto protegido frente a la discriminación no es posterior ni ajena
+al marco de libre competencia.
 
 ### Directrices de la Comisión Europea 2022/C 374/02
 
