@@ -7,8 +7,8 @@ title: "Calculator technical methodology"
 {% include beta-notice.html %}
 
 This document explains the origin and status of every input used by the
-[pay-discrimination evaluator]({{ '/en/tools/evaluador/' | relative_url }})
-and the [fee band estimator]({{ '/en/tools/estimacion/' | relative_url }}),
+[pay-discrimination evaluator]({{ '/en/tools/evaluator/' | relative_url }})
+and the [fee band estimator]({{ '/en/tools/estimator/' | relative_url }}),
 so that anyone using them can tell apart a regulatory figure, an unofficial
 industry benchmark, and a working assumption of the model — editable and
 open to debate. Both tools share the same calculation engine (hour
@@ -222,7 +222,7 @@ section 2.
 
 ## 4. Automatic estimation of commission hours (HME)
 
-Explained in detail on the [Evaluator]({{ '/en/tools/evaluador/' | relative_url }}#methodology)
+Explained in detail on the [Evaluator]({{ '/en/tools/evaluator/' | relative_url }}#methodology)
 page: in summary, the DM 17/6/2016 formula itself —
 **CP = V·G·ΣQ·P**, with the flat-rate expenses under art. 5 — is applied to
 the PEM entered, where:
@@ -461,9 +461,9 @@ Source: own elaboration from Spain's gross median and average wage for
 
 ## More information
 
-[**Pay-discrimination evaluator →**]({{ '/en/tools/evaluador/' | relative_url }})
-[**Fee band estimator →**]({{ '/en/tools/estimacion/' | relative_url }})
-[**Historical comparison of the fee regulations (1905–1977) →**]({{ '/en/tools/normas-historicas/' | relative_url }})
+[**Pay-discrimination evaluator →**]({{ '/en/tools/evaluator/' | relative_url }})
+[**Fee band estimator →**]({{ '/en/tools/estimator/' | relative_url }})
+[**Historical comparison of the fee regulations (1905–1977) →**]({{ '/en/tools/historical-norms/' | relative_url }})
 [**See the full Legal Framework →**]({{ '/en/legal-framework/' | relative_url }})
 
 ---

@@ -231,7 +231,7 @@ complaint before the Spanish Ombudsman.
 Do you know of a similar administrative or judicial action, or would you
 like to propose a collaboration?
 
-[**Contact form →**]({{ '/en/resources/contacto/' | relative_url }})
+[**Contact form →**]({{ '/en/resources/contact/' | relative_url }})
 
 ---
 

@@ -25,7 +25,7 @@ from professional-association criteria.
 
 If what you need is to calculate in advance a reference band for a
 commission — instead of evaluating a figure already offered — use the
-[**fee band estimator →**]({{ '/en/tools/estimacion/' | relative_url }}).
+[**fee band estimator →**]({{ '/en/tools/estimator/' | relative_url }}).
 
 ### Scope
 
@@ -39,7 +39,7 @@ commission — instead of evaluating a figure already offered — use the
   commissions in other professions.
 
 <div style="margin:24px 0;">
-  <iframe src="{{ '/en/tools/calculadora-indicios.html' | relative_url }}"
+  <iframe src="{{ '/en/tools/indicators-calculator.html' | relative_url }}"
           style="width:100%; height:1550px; border:none; border-radius:8px;"
           title="Pay-discrimination evaluator">
   </iframe>
@@ -88,7 +88,7 @@ evaluated amount against them:
   depending on the year): HME × MEF hourly rate — the actual
   anti-discrimination floor. See
   the
-  [technical methodology]({{ '/en/tools/metodologia/' | relative_url }}#6-data-and-results-by-year-2023-2027)
+  [technical methodology]({{ '/en/tools/methodology/' | relative_url }}#6-data-and-results-by-year-2023-2027)
   for the exact value for each year and why some figures stay constant for
   lack of a more recent official figure.
 
@@ -105,7 +105,7 @@ Every input (reference salary, operating costs, utilization rate,
 overheads…) has a different origin and status — regulatory,
 collectively-bargained, industry benchmark, or an editable working
 assumption. Full detail, with the step-by-step derivation of both floors, is
-in the [technical methodology]({{ '/en/tools/metodologia/' | relative_url }}).
+in the [technical methodology]({{ '/en/tools/methodology/' | relative_url }}).
 
 ### Diagnosis
 
@@ -149,8 +149,8 @@ calculated with conservative costs.
 
 ## More information
 
-[**Fee band estimator →**]({{ '/en/tools/estimacion/' | relative_url }})
-[**See the calculator's technical methodology →**]({{ '/en/tools/metodologia/' | relative_url }})
+[**Fee band estimator →**]({{ '/en/tools/estimator/' | relative_url }})
+[**See the calculator's technical methodology →**]({{ '/en/tools/methodology/' | relative_url }})
 [**See the full Legal Framework →**]({{ '/en/legal-framework/' | relative_url }})
 [**Read the academic article →**]({{ '/en/publications/' | relative_url }})
 [**FAQ →**]({{ '/en/resources/faq/' | relative_url }})

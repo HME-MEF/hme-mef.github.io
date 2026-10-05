@@ -107,7 +107,7 @@ updating).*
 
 The collective agreement only publishes a salary table for 2024. For
 2025 and 2026 this comparison keeps that figure, just like the
-[calculator's technical methodology]({{ '/en/tools/metodologia/' | relative_url }}):
+[calculator's technical methodology]({{ '/en/tools/methodology/' | relative_url }}):
 there are no agreed tables for those years.
 
 | Item | € (2024) | €/hour (1,792 h) |
@@ -116,7 +116,7 @@ there are no agreed tables for those years.
 | Employer social-security contribution (33.01% of base salary) | €9,459.16 | €5.28 |
 | **Total annual employer cost (salary + contribution)** | **€38,123.28** | **€21.27** |
 
-Figures from the [site's technical methodology]({{ '/en/tools/metodologia/' | relative_url }}): collective-agreement-based MEF floor €28.49/h on this same
+Figures from the [site's technical methodology]({{ '/en/tools/methodology/' | relative_url }}): collective-agreement-based MEF floor €28.49/h on this same
 1,792-worked-hours basis (equivalent to €48.05/h per billable hour, the figure
 the calculator shows — see note in section 6) and cost floor
 €48.90/h (2024, with the ACE 2024 reference remuneration). The 1977
@@ -201,7 +201,7 @@ comparison's expenses (SS plus operating costs: €18,828) amount to
 - Conversion: €1 = 166.386 pesetas.
 - Annual hours: 1,792 h, the maximum working hours under the
   engineering and technical-consultancy collective agreement — the same
-  as in the [technical methodology]({{ '/en/tools/metodologia/' | relative_url }}).
+  as in the [technical methodology]({{ '/en/tools/methodology/' | relative_url }}).
   This is an assumption applied to 1905 and 1923, which do not define an
   annual working schedule.
 - The 1905 (10,000 pesetas) and 1923 (15,000 pesetas) salaries are the
@@ -228,7 +228,7 @@ comparison's expenses (SS plus operating costs: €18,828) amount to
 ## More information
 
 [**See the full Legal Framework →**]({{ '/en/legal-framework/' | relative_url }})
-[**See the calculator's technical methodology →**]({{ '/en/tools/metodologia/' | relative_url }})
+[**See the calculator's technical methodology →**]({{ '/en/tools/methodology/' | relative_url }})
 
 ---
 

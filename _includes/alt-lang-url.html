@@ -4,12 +4,12 @@
   Para añadir una sección nueva con nombre distinto, añádela a las dos cadenas.
 {%- endcomment -%}
 {%- if page.lang == 'en' -%}
-  {%- assign alt_url = page.url | remove_first: '/en' | replace_first: '/tools/', '/herramientas/' | replace_first: '/legal-framework/', '/marco-legal/' | replace_first: '/news/', '/noticias/' | replace_first: '/resources/', '/recursos/' | replace_first: '/publications/', '/publicaciones/' -%}
+  {%- assign alt_url = page.url | remove_first: '/en' | replace_first: '/estimator-calculator.html', '/calculadora-estimacion.html' | replace_first: '/indicators-calculator.html', '/calculadora-indicios.html' | replace_first: '/tools/', '/herramientas/' | replace_first: '/legal-framework/', '/marco-legal/' | replace_first: '/news/', '/noticias/' | replace_first: '/resources/', '/recursos/' | replace_first: '/publications/', '/publicaciones/' | replace_first: '/estimator/', '/estimacion/' | replace_first: '/methodology/', '/metodologia/' | replace_first: '/historical-norms/', '/normas-historicas/' | replace_first: '/evaluator/', '/evaluador/' | replace_first: '/contact/', '/contacto/' | replace_first: '/licence/', '/licencia/' | replace_first: '/privacy/', '/privacidad/' | replace_first: '/terms/', '/uso/' -%}
   {%- if alt_url == '' -%}{%- assign alt_url = '/' -%}{%- endif -%}
 {%- else -%}
   {%- if page.url == '/' -%}
     {%- assign alt_url = '/en/' -%}
   {%- else -%}
-    {%- assign alt_url = '/en' | append: page.url | replace_first: '/herramientas/', '/tools/' | replace_first: '/marco-legal/', '/legal-framework/' | replace_first: '/noticias/', '/news/' | replace_first: '/recursos/', '/resources/' | replace_first: '/publicaciones/', '/publications/' -%}
+    {%- assign alt_url = '/en' | append: page.url | replace_first: '/calculadora-estimacion.html', '/estimator-calculator.html' | replace_first: '/calculadora-indicios.html', '/indicators-calculator.html' | replace_first: '/herramientas/', '/tools/' | replace_first: '/marco-legal/', '/legal-framework/' | replace_first: '/noticias/', '/news/' | replace_first: '/recursos/', '/resources/' | replace_first: '/publicaciones/', '/publications/' | replace_first: '/estimacion/', '/estimator/' | replace_first: '/metodologia/', '/methodology/' | replace_first: '/normas-historicas/', '/historical-norms/' | replace_first: '/evaluador/', '/evaluator/' | replace_first: '/contacto/', '/contact/' | replace_first: '/licencia/', '/licence/' | replace_first: '/privacidad/', '/privacy/' | replace_first: '/uso/', '/terms/' -%}
   {%- endif -%}
 {%- endif -%}

@@ -52,7 +52,7 @@ depending on the type of material:
 | Judicial filings via legal representation (claim, submissions, appeals) | Not claimed exclusively by the author — drafted by him but formally filed by a lawyer/procurador |
 
 Full detail, including the conditions of each licence, is on the
-[Licences]({{ '/en/legal/licencia/' | relative_url }}) page.
+[Licences]({{ '/en/legal/licence/' | relative_url }}) page.
 
 Official third-party documents linked to or reproduced on this site
 (administrative reports and resolutions, judicial rulings and orders,
@@ -67,7 +67,7 @@ their public-sector information reuse regime.
 
 The [calculators on this site]({{ '/en/tools/' | relative_url }})
 are free to use. Their results are based on the parameters and sources
-documented in their [technical methodology]({{ '/en/tools/metodologia/' | relative_url }}),
+documented in their [technical methodology]({{ '/en/tools/methodology/' | relative_url }}),
 some of which are working assumptions, editable and open to debate. The
 author does not guarantee that the figures are permanently up to date
 (SMI, collective agreements, CPI) and assumes no liability for decisions
@@ -88,14 +88,14 @@ for, the content of those external sites.
 The author strives to keep the information up to date and accurate, but
 does not guarantee its completeness or permanent currency. Each page shows
 its last-updated date. If you spot an error, you can report it through the
-[contact form]({{ '/en/resources/contacto/' | relative_url }}).
+[contact form]({{ '/en/resources/contact/' | relative_url }}).
 
 ---
 
 ### 7. Personal data
 
 The processing of personal data (for example, through the contact form) is
-governed by the [Privacy Policy]({{ '/en/legal/privacidad/' | relative_url }}).
+governed by the [Privacy Policy]({{ '/en/legal/privacy/' | relative_url }}).
 
 ---
 
@@ -115,7 +115,7 @@ These terms are governed by Spanish law.
 ### 10. Contact
 
 For any query about these terms: [info@hmef.eu](mailto:info@hmef.eu),
-or through the [contact form]({{ '/en/resources/contacto/' | relative_url }}).
+or through the [contact form]({{ '/en/resources/contact/' | relative_url }}).
 
 ---
 

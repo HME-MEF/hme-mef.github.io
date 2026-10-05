@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pay-discrimination evaluator — HME/MEF</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:#f4f6f9; color:#2c3e50; line-height:1.5; padding:20px;
+  }
+  .wrap { max-width:1100px; margin:0 auto; }
+  .card {
+    background:#fff; border-radius:10px; box-shadow:0 4px 18px rgba(0,0,0,.08);
+    padding:28px 30px; margin-bottom:22px;
+  }
+  h1 { font-size:22px; color:#1F3864; margin-bottom:6px; }
+  .subtitle { color:#595959; font-size:13px; margin-bottom:18px; }
+  h2 { font-size:15px; color:#1F3864; margin:18px 0 10px; border-bottom:2px solid #D9E1F2; padding-bottom:6px; }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:26px; }
+  @media (max-width:760px){ .grid{grid-template-columns:1fr;} }
+  label { display:block; font-size:12.5px; font-weight:600; color:#34495e; margin-bottom:4px; }
+  .hint { font-size:11px; color:#7f8c8d; margin:2px 0 12px; }
+  input[type=number], select {
+    width:100%; padding:9px 10px; border:1px solid #c7ccd1; border-radius:5px;
+    font-size:13.5px; margin-bottom:4px; background:#fff;
+  }
+  input:focus, select:focus { outline:none; border-color:#3498db; }
+  fieldset { border:1px solid #e3e7ea; border-radius:6px; padding:12px 14px; margin-bottom:14px; }
+  legend { font-size:12px; font-weight:700; color:#1F3864; padding:0 6px; }
+  .row { display:flex; gap:10px; }
+  .row > div { flex:1; }
+  button {
+    background:#1F3864; color:#fff; border:none; padding:12px 20px; border-radius:6px;
+    font-size:14px; font-weight:600; cursor:pointer; width:100%; margin-top:6px;
+  }
+  button:hover { background:#16294d; }
+  .result-box { background:#f8f9fb; border-radius:8px; padding:16px 18px; margin-bottom:14px; }
+  .result-row { display:flex; justify-content:space-between; padding:6px 0; border-bottom:1px solid #eceff2; font-size:13px; }
+  .result-row:last-child { border-bottom:none; }
+  .result-row .v { font-weight:700; }
+  .result-row .v .pct { font-weight:400; font-size:10.5px; color:#7f8c8d; }
+  .diag {
+    margin-top:14px; padding:16px; border-radius:8px; font-size:14px; font-weight:600;
+  }
+  .diag.ok { background:#e6f6ec; color:#1e7e42; border-left:5px solid #27ae60; }
+  .diag.warn { background:#fff6e0; color:#8a6100; border-left:5px solid #f0ad4e; }
+  .diag.bad { background:#fdecea; color:#a3261a; border-left:5px solid #d9534f; }
+  table.ref { width:100%; border-collapse:collapse; font-size:12px; margin-top:6px; }
+  table.ref th, table.ref td { padding:6px 8px; border-bottom:1px solid #eceff2; text-align:left; }
+  table.ref th { background:#f1f3f6; color:#1F3864; font-size:11px; text-transform:uppercase; }
+  .notice { font-size:11.5px; color:#7f8c8d; background:#f8f9fb; border-radius:6px; padding:10px 12px; margin-top:10px; }
+  .scope { font-size:12px; background:#eef3fb; border-left:4px solid #3498db; padding:10px 14px; border-radius:6px; margin-bottom:18px; color:#2c3e50; }
+  .btn-secondary {
+    background:#fff; color:#1F3864; border:1px solid #1F3864; padding:10px 20px; border-radius:6px;
+    font-size:13.5px; font-weight:600; cursor:pointer; width:100%; margin-top:8px;
+  }
+  .btn-secondary:hover { background:#eef3fb; }
+  .btn-secondary:disabled { opacity:.5; cursor:not-allowed; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="card">
+    <h1>Pay-discrimination evaluator
+      <span style="display:inline-block; vertical-align:middle; font-size:10.5px; font-weight:700; letter-spacing:.03em; color:#8a6100; background:#fff6e0; border:1px solid #f0ad4e; border-radius:4px; padding:2px 7px; margin-left:8px;">BETA</span>
+    </h1>
+    <div class="subtitle">Project drafting and/or site supervision by architects · public tender or private commission · based on the PEM</div>
+
+    <div class="scope">
+      <strong>Scope:</strong> this tool evaluates a single type of commission — an architect's project
+      drafting and/or site supervision, in a public tender or a direct private-sector commission —
+      comparing the amount offered or awarded against two reference floors (cost and MEF).
+      It is not a general fee calculator and does not replace any fee scale.
+    </div>
+
+    <div class="grid">
+      <!-- INPUTS -->
+      <div>
+        <h2>Commission details</h2>
+
+        <fieldset>
+          <legend>Reference year (economic data)</legend>
+          <label for="anio">Year</label>
+          <select id="anio" onchange="onAnioChange()">
+            <option value="" selected>— Select a year —</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+          </select>
+          <div class="hint" id="anio-nota">
+            Determines which collectively-bargained salary, SMI and utilization-rate (Deltek) figures
+            are used for the MEF floor and the cost floor. See the
+            <a href="{{ '/en/tools/methodology/' | relative_url }}">technical methodology</a> for
+            the origin and limitations of each year.
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Building</legend>
+          <label for="pem">PEM — Execution Cost Budget (€)</label>
+          <input type="number" id="pem" value="1500000" min="0" step="1000">
+          <div class="hint">Used as a contextual reference (% of PEM) and as the base V for the hour estimate.</div>
+
+          <label for="tipologia">Building type</label>
+          <select id="tipologia">
+            <option value="vivienda">Residential (single-family or multi-family)</option>
+            <option value="educativo_sanitario">Educational / healthcare (school, health centre, hospital)</option>
+            <option value="cultural" selected>Cultural / social / sports (library, museum, theatre, sports centre)</option>
+            <option value="administrativo_seguridad">Administrative / security (public offices, police station, courthouse)</option>
+            <option value="industrial">Industrial / tourism / commercial</option>
+          </select>
+
+          <label for="complejidad">Degree of complexity</label>
+          <select id="complejidad">
+            <option value="baja">Low</option>
+            <option value="media" selected>Medium</option>
+            <option value="alta">High</option>
+          </select>
+          <div class="hint">
+            The building type and degree of complexity determine parameter G (*grado di
+            complessità*), read directly from Table Z-1 of DM 17/6/2016 — see
+            <a href="{{ '/en/legal-framework/' | relative_url }}">Legal Framework</a>. It is an indicative
+            categorisation by broad group, not the decree's full subcategory table.
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Scope of the commission</legend>
+          <label for="encargo">Type of commission</label>
+          <select id="encargo">
+            <option value="redaccion">Project drafting</option>
+            <option value="direccion">Site supervision</option>
+            <option value="ambos" selected>Drafting + Supervision</option>
+          </select>
+
+          <label><input type="checkbox" id="coordseg"> Includes health and safety coordination (design + execution)</label>
+
+          <label for="procedimiento" style="margin-top:10px;">Procedure</label>
+          <select id="procedimiento">
+            <option value="publico">Public tender</option>
+            <option value="privado">Private commission</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Commission hours — HME</legend>
+          <div class="result-row" style="border:none; padding:2px 0;">
+            <span>Estimated hours (calculated)</span><span class="v" id="r-horas">—</span>
+          </div>
+          <div class="hint">
+            Estimated from the PEM, the building type/complexity (G) and the scope of the commission
+            (ΣQ), applying the DM 17/6/2016 formula (CP = V·G·ΣQ·P) and converting the result to hours
+            using the reference rate of €60.5/h. You do not need to enter your own estimate of hours:
+            it is derived from objective facts about the works, not the evaluator's subjective
+            judgement. This is the same method used for the reference case (Ripollet / Sta. Margarida)
+            below.
+          </div>
+          <label style="margin-top:8px;"><input type="checkbox" id="hme-manual-toggle" onchange="toggleHmeManual()"> Adjust the hours manually (professional judgement)</label>
+          <div id="hme-manual-wrap" style="display:none; margin-top:6px;">
+            <label for="hme">Estimated commission hours — HME (h)</label>
+            <input type="number" id="hme" value="1500" min="1" step="10">
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Amount to evaluate</legend>
+          <label for="importe">Amount offered or awarded (€)</label>
+          <input type="number" id="importe" value="45000" min="0" step="500">
+        </fieldset>
+
+        <fieldset>
+          <legend>MEF floor — calculation base</legend>
+          <div class="result-row" style="border:none; padding:2px 0;">
+            <span>Engineering and technical consultancy collective agreement</span>
+            <span class="v" id="v-convenio">—</span>
+          </div>
+          <div class="hint">
+            The MEF floor in this tool is always calculated on the collective-agreement salary, not
+            on the SMI: as an activity that legally requires a specific qualification and authorisation (architect), the
+            appropriate comparator is equivalent qualified employment, not the national minimum wage.
+          </div>
+        </fieldset>
+
+        <button onclick="calcular()">Evaluate</button>
+        <button class="btn-secondary" onclick="descargarPDF()">⬇ Download analysis PDF</button>
+      </div>
+
+      <!-- RESULTS -->
+      <div>
+        <h2>Result</h2>
+
+        <div class="result-box">
+          <div class="result-row"><span>% of PEM represented by the evaluated amount</span><span class="v" id="r-pct">—</span></div>
+          <div class="result-row"><span>€/h of the evaluated amount</span><span class="v" id="r-euroh">—</span></div>
+          <div class="result-row"><span>Cost floor (reference)</span><span class="v" id="r-suelocoste">—</span></div>
+          <div class="result-row"><span>MEF floor (anti-discrimination threshold)</span><span class="v" id="r-mef">—</span></div>
+        </div>
+
+        <div class="result-box">
+          <div class="result-row"><span>Anti-dumping floor (cost without industrial profit)</span><span class="v" id="r-antidumping">—</span></div>
+        </div>
+        <div class="hint" style="margin-bottom:14px;">
+          Comparative reference, not binding in Spain: the anti-dumping floor marks the threshold
+          for covering the practice's real costs (without industrial profit) under art. 17 of Spain's
+          Unfair Competition Act (Ley 3/1991). It shares a legal basis with the MEF floor: the 1997
+          liberalisation assumed that self-employed architects act as businesses in a competitive
+          market, and if that premise is accepted, unfair-competition (anti-dumping) law applies to
+          them; MEF, by contrast, rests on the premise of equivalence to employed work (art. 14 CE).
+          The two premises are mutually exclusive yet converge on the same floor. See the
+          <a href="{{ '/en/tools/methodology/' | relative_url }}">technical methodology</a>.
+        </div>
+
+        <div class="result-box">
+          <div class="result-row"><span>SEGIPSA reference (BOE 27/5/2015)</span><span class="v" id="r-segipsa">—</span></div>
+          <div class="result-row"><span>Italian reference (DM 17/6/2016)</span><span class="v" id="r-italia">—</span></div>
+          <div class="result-row" id="row-italia65"><span>Italy, non-discountable fixed share</span><span class="v" id="r-italia65">—</span></div>
+        </div>
+        <div class="hint" style="margin-bottom:14px;">
+          More cross-checks, not binding in Spain: SEGIPSA is the % of PEM the Spanish General State
+          Administration applies to its own commissioned work; the Italian model (DM 17/6/2016) is
+          the value-based fee in force in Italy; the fixed share is the minimum non-discountable
+          percentage in Italian public tenders — 65% of the fee if ≥€140,000, 80% if below that
+          (art. 41.15-bis of the Codice dei Contratti Pubblici, D.Lgs. 36/2023, amended by D.Lgs.
+          209/2024) — and is only shown for a public-tender procedure.
+        </div>
+
+        <div id="diagnostico" class="diag" style="display:none;"></div>
+
+        <h2>Reference tables (manual check)</h2>
+        <table class="ref">
+          <tr><th>Model</th><th>Item</th><th>PEM bracket</th><th>% PEM</th></tr>
+          <tr><td rowspan="5">SEGIPSA<br>(BOE 27/5/2015)<br>Project drafting</td><td rowspan="5"></td><td>Up to €1,000,000</td><td>6.65%</td></tr>
+          <tr><td>€1,000,001 – €3,000,000</td><td>5.61%</td></tr>
+          <tr><td>€3,000,001 – €6,000,000</td><td>4.63%</td></tr>
+          <tr><td>€6,000,001 – €10,000,000</td><td>4.11%</td></tr>
+          <tr><td>Over €10,000,000</td><td>3.60%</td></tr>
+          <tr><td rowspan="5">SEGIPSA<br>(BOE 27/5/2015)<br>Site supervision</td><td rowspan="5"></td><td>Up to €1,000,000</td><td>5.68%</td></tr>
+          <tr><td>€1,000,001 – €3,000,000</td><td>4.77%</td></tr>
+          <tr><td>€3,000,001 – €6,000,000</td><td>3.97%</td></tr>
+          <tr><td>€6,000,001 – €10,000,000</td><td>3.53%</td></tr>
+          <tr><td>Over €10,000,000</td><td>3.08%</td></tr>
+          <tr><td rowspan="2">Italy, DM 17/6/2016</td><td colspan="2">Hourly rate, art. 6.2</td><td>€50 – 75/h (2016)</td></tr>
+          <tr><td colspan="2">Formula (Tables Z-1/Z-2)</td><td>CP = Σ(V·G·Q·P), P = 0.03 + 10/V^0.4</td></tr>
+        </table>
+        <div class="notice">
+          The SEGIPSA brackets are verified directly against the text of the Resolution of 11/5/2015
+          (BOE 27/5/2015) — see <a href="{{ '/en/legal-framework/' | relative_url }}">Legal Framework</a>.
+          Even so, they are shown for manual reference and are not applied automatically, because
+          SEGIPSA prices commissioned work of the Administration itself, not any commission evaluated
+          here. The G/Q parameters of the Italian DM (Tables Z-1 and Z-2, by category and complexity of
+          the works) are likewise not applied automatically: they require identifying the specific
+          building category in the full official table. Use them to check your own HME estimate or the
+          evaluated amount, not as an automatic calculation of the floor.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0;">Reference case (model validation)</h2>
+    <table class="ref">
+      <tr><th>Item</th><th>Ripollet (Library)</th><th>Sta. Margarida (Police station)</th></tr>
+      <tr><td>PEM</td><td>€2,966,214</td><td>€1,287,888</td></tr>
+      <tr><td>Awarded drafting fee</td><td>€196,950 (6.64% of PEM)</td><td>€40,597 (3.15% of PEM)</td></tr>
+      <tr><td>Implicit design hours</td><td>≈ 3,493 h</td><td>≈ 1,432 h</td></tr>
+      <tr><td>€/h actually paid</td><td>€56.4/h</td><td>€28.3/h</td></tr>
+      <tr><td>MEF floor (2024)</td><td>€48.05/h</td><td>€48.05/h</td></tr>
+      <tr><td><strong>Diagnosis</strong></td><td>Adequate</td><td><strong>Indicator of discrimination and dumping</strong></td></tr>
+    </table>
+    <div class="notice">Source: CSCAE Fee Observatory (26/5/2025). Implicit hours derived from the Italian drafting reference at €60.5/h (lower end of art. 6.2 DM 2016, updated by Italian CPI 2016→2024).</div>
+  </div>
+
+  <div class="card notice">
+    This tool is not legal advice or a fee scale. Monetary values (SMI, collective agreement, rates)
+    should be updated periodically in line with CPI. The admissible vehicle for a remuneration floor is
+    state regulation or public-procurement oversight (abnormally low tenders, art. 149 LCSP). A result showing an "indicator of discrimination" does not, by
+    itself, prove an infringement: it is a starting point for reviewing the case.
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script>
+const SITE_URL = "https://www.hmef.eu";
+
+// Data by year — see the technical methodology (herramientas/metodologia.md) for the origin and
+// limitations of each figure. Where no table or benchmark has been published for a given year, the
+// last official/verified figure is kept, explicitly flagged in NOTA_ANIO.
+const DATA_BY_YEAR = {
+  2023: { mefConvenio: 47.21, mefConvenioIPC: 47.21, sueloCoste: 40.86 },
+  2024: { mefConvenio: 48.05, mefConvenioIPC: 48.05, sueloCoste: 48.90 },
+  2025: { mefConvenio: 48.10, mefConvenioIPC: 49.07, sueloCoste: 48.90 },
+  2026: { mefConvenio: 48.17, mefConvenioIPC: 50.43, sueloCoste: 48.90 },
+  2027: { mefConvenio: 48.17, mefConvenioIPC: 50.43, sueloCoste: 48.90 }
+};
+// sueloCoste: reference gross remuneration = average pay of employees of private firms (ACE,
+// not averaged with partners/directors — see technical methodology, section 2). 2023: ACE 2022,
+// €26,462/year; 2024-2027: ACE 2024, €31,672/year (no more recent edition for 2025-2027).
+
+const NOTA_ANIO = {
+  2023: 'Collective-agreement salary: official 2023 table (XX Agreement, BOE-A-2023-11785). Utilization rate: no Deltek edition for that year; the FY2025 figure (the only one available) is used, as in every other year.',
+  2024: 'Collective-agreement salary and utilization rate correspond to official/verified 2024 sources.',
+  2025: 'Collective-agreement salary: no agreed table for 2025; the last official table (2024) is kept. Utilization rate: the only architecture-specific figure published (FY2025).',
+  2026: 'Collective-agreement salary: no agreed table for 2026; the last official table (2024) is kept. Utilization rate: no more recent edition available; the FY2025 figure is kept.',
+  2027: 'Collective-agreement salary and utilization rate: no official figure published yet for 2027; the latest available figures are kept (2024 agreement, FY2025 utilization rate).'
+};
+
+const REF_CONVERSION = 60.5; // €/h — lower end of art. 6.2 DM 17/6/2016, updated by Italian CPI 2016→2024
+const FACTOR_ANTIDUMPING = 1.15 / 1.21; // cost floor without industrial profit (overheads yes, industrial profit no)
+
+// Non-discountable fixed share in Italian public tenders (art. 41.15-bis Codice dei Contratti
+// Pubblici, D.Lgs. 36/2023, amended by D.Lgs. 209/2024).
+const ITALIA_UMBRAL_PUBLICO = 140000; // € — threshold on the fee (CP), not on the PEM
+const ITALIA_CUOTA_FIJA_ALTA = 0.65;  // if CP >= threshold
+const ITALIA_CUOTA_FIJA_BAJA = 0.80;  // if CP < threshold (max. 20% discount)
+
+// G (grado di complessità), Table Z-1 of DM 17/6/2016 — indicative categories by broad group
+const G_TABLE = {
+  vivienda:                 { baja:0.65, media:0.95, alta:1.20 },
+  educativo_sanitario:      { baja:0.95, media:1.15, alta:1.20 },
+  cultural:                 { baja:1.15, media:1.15, alta:1.20 },
+  administrativo_seguridad: { baja:0.65, media:0.95, alta:1.20 },
+  industrial:               { baja:0.65, media:0.95, alta:1.20 }
+};
+
+// ΣQ (incidence of phases), an aggregated approximation from Table Z-2 of DM 17/6/2016
+const Q_REDACCION = 0.86;  // basic + execution project, incl. PSC
+const Q_DIRECCION = 0.44;  // site supervision, without safety coordination
+const Q_COORDSEG  = 0.35;  // health and safety coordination (design + execution)
+
+function fmt(n){
+  return n.toLocaleString('en-GB', {maximumFractionDigits:2, minimumFractionDigits:2});
+}
+function fmtEuro(n){
+  return n.toLocaleString('en-GB', {maximumFractionDigits:0, minimumFractionDigits:0});
+}
+function conPct(valor, pem){
+  const txt = '€' + fmtEuro(valor);
+  if (!(pem > 0)) return txt;
+  const pct = (valor / pem * 100).toLocaleString('en-GB', {maximumFractionDigits:1, minimumFractionDigits:1});
+  return txt + ' <span class="pct">(' + pct + '% of the PEM)</span>';
+}
+function segipsaTramo(pem, tabla){
+  if (pem <= 1000000) return tabla[0];
+  if (pem <= 3000000) return tabla[1];
+  if (pem <= 6000000) return tabla[2];
+  if (pem <= 10000000) return tabla[3];
+  return tabla[4];
+}
+function segipsaTotal(pem, encargo){
+  const RED = [0.0665, 0.0561, 0.0463, 0.0411, 0.0360];
+  const DIR = [0.0568, 0.0477, 0.0397, 0.0353, 0.0308];
+  let total = 0;
+  if (encargo === 'redaccion' || encargo === 'ambos') {
+    total += Math.max(5474, pem * segipsaTramo(pem, RED));
+  }
+  if (encargo === 'direccion' || encargo === 'ambos') {
+    total += Math.max(4560, pem * segipsaTramo(pem, DIR));
+  }
+  return total;
+}
+
+function toggleHmeManual(){
+  const on = document.getElementById('hme-manual-toggle').checked;
+  document.getElementById('hme-manual-wrap').style.display = on ? 'block' : 'none';
+}
+
+function onAnioChange(){
+  const anio = document.getElementById('anio').value;
+  const vConvenio = document.getElementById('v-convenio');
+  const rSuelo = document.getElementById('r-suelocoste');
+  const nota = document.getElementById('anio-nota');
+
+  if (!anio) {
+    vConvenio.textContent = '—';
+    rSuelo.textContent = '—';
+    nota.textContent = 'Determines which collectively-bargained salary and utilization-rate ' +
+      '(Deltek) figures are used for the MEF floor and the cost floor. See the technical ' +
+      'methodology (link below) for the origin and limitations of each year.';
+    return;
+  }
+
+  const d = DATA_BY_YEAR[anio];
+  vConvenio.textContent = '€' + fmt(d.mefConvenio) + '/h';
+  rSuelo.textContent = '€' + fmt(d.sueloCoste) + '/h';
+  nota.textContent = NOTA_ANIO[anio];
+}
+
+function horasEstimadas(pem){
+  const tipologia = document.getElementById('tipologia').value;
+  const complejidad = document.getElementById('complejidad').value;
+  const encargo = document.getElementById('encargo').value;
+  const coordseg = document.getElementById('coordseg').checked;
+
+  const G = G_TABLE[tipologia][complejidad];
+
+  let SQ = 0;
+  if (encargo === 'redaccion') SQ = Q_REDACCION;
+  else if (encargo === 'direccion') SQ = Q_DIRECCION;
+  else SQ = Q_REDACCION + Q_DIRECCION;
+  if (coordseg) SQ += Q_COORDSEG;
+
+  const V = pem > 0 ? pem : 1;
+  const P = 0.03 + 10 / Math.pow(V, 0.4);
+  const spese = V <= 1000000 ? 0.25
+              : V >= 25000000 ? 0.10
+              : 0.25 + (0.10 - 0.25) * (V - 1000000) / (24000000);
+
+  const CP = V * G * SQ * P * (1 + spese);
+  const horas = CP / REF_CONVERSION;
+
+  return { horas, G, SQ, P, spese, CP };
+}
+
+function calcular(){
+  const anio = document.getElementById('anio').value;
+  const diag = document.getElementById('diagnostico');
+
+  if (!anio) {
+    diag.style.display = 'block';
+    diag.className = 'diag warn';
+    diag.innerHTML = '⚠️ First select a <strong>reference year</strong> (above) to calculate the result.';
+    document.getElementById('r-pct').textContent = '—';
+    document.getElementById('r-euroh').textContent = '—';
+    document.getElementById('r-mef').textContent = '—';
+    return;
+  }
+
+  const d = DATA_BY_YEAR[anio];
+  const SUELO_COSTE = d.sueloCoste;
+
+  const pem = parseFloat(document.getElementById('pem').value) || 0;
+  const importe = parseFloat(document.getElementById('importe').value) || 0;
+  const suelomef = d.mefConvenio;
+  const sueloAntidumping = SUELO_COSTE * FACTOR_ANTIDUMPING;
+
+  const manual = document.getElementById('hme-manual-toggle').checked;
+  const calc = horasEstimadas(pem); // always computed: CP feeds the SEGIPSA/Italy references
+  let hme;
+  if (manual) {
+    hme = parseFloat(document.getElementById('hme').value) || 1;
+  } else {
+    hme = calc.horas > 0 ? calc.horas : 1;
+  }
+
+  document.getElementById('r-horas').textContent = fmt(hme) + ' h' +
+    (manual ? ' (manual)' : ' (G=' + fmt(calc.G) + ', ΣQ=' + fmt(calc.SQ) + ')');
+
+  const pct = pem > 0 ? (importe/pem*100) : 0;
+  const euroh = importe / hme;
+
+  document.getElementById('r-pct').textContent = fmt(pct) + '% of PEM';
+  document.getElementById('r-euroh').textContent = '€' + fmt(euroh) + '/h';
+  document.getElementById('r-mef').innerHTML = '€' + fmt(suelomef) + '/h' +
+    (d.mefConvenioIPC !== d.mefConvenio ?
+      ' <span class="pct">(€' + fmt(d.mefConvenioIPC) + '/h if the collective-agreement salary had been updated by CPI instead of staying frozen at 2024)</span>' : '');
+  document.getElementById('r-antidumping').textContent = '€' + fmt(sueloAntidumping) + '/h';
+
+  const encargo = document.getElementById('encargo').value;
+  const procedimiento = document.getElementById('procedimiento').value;
+  const segipsa = segipsaTotal(pem, encargo);
+  const italia = calc.CP;
+  const cuotaItalia = italia >= ITALIA_UMBRAL_PUBLICO ? ITALIA_CUOTA_FIJA_ALTA : ITALIA_CUOTA_FIJA_BAJA;
+  const italia65Total = italia * cuotaItalia;
+
+  document.getElementById('r-segipsa').innerHTML = conPct(segipsa, pem);
+  document.getElementById('r-italia').innerHTML = conPct(italia, pem);
+  const rowItalia65 = document.getElementById('row-italia65');
+  if (procedimiento === 'publico') {
+    rowItalia65.style.display = '';
+    document.querySelector('#row-italia65 span:first-child').textContent =
+      'Italy, fixed share ' + (cuotaItalia * 100).toFixed(0) + '% (' +
+      (italia >= ITALIA_UMBRAL_PUBLICO ? '≥€140,000' : '<€140,000') + ')';
+    document.getElementById('r-italia65').innerHTML = conPct(italia65Total, pem);
+  } else {
+    rowItalia65.style.display = 'none';
+  }
+
+  diag.style.display = 'block';
+
+  const indicioDiscriminacion = euroh < suelomef;
+  const indicioDumping = euroh < sueloAntidumping;
+
+  if (indicioDiscriminacion && indicioDumping) {
+    diag.className = 'diag bad';
+    diag.innerHTML = '❌ <strong>Indicator of pay discrimination and of business dumping.</strong> ' +
+      'The evaluated amount (€' + fmt(euroh) + '/h) is below both the MEF floor (€' + fmt(suelomef) +
+      '/h — anti-discrimination threshold, art. 14 of the Spanish Constitution) and the anti-dumping ' +
+      'floor (€' + fmt(sueloAntidumping) + '/h — real cost without industrial profit, art. 17 of ' +
+      "Spain's Unfair Competition Act, Ley 3/1991).";
+  } else if (indicioDiscriminacion) {
+    diag.className = 'diag bad';
+    diag.innerHTML = '❌ <strong>Indicator of pay discrimination.</strong> The evaluated amount (€' +
+      fmt(euroh) + '/h) is below the MEF floor (€' + fmt(suelomef) + '/h).';
+  } else if (indicioDumping) {
+    diag.className = 'diag bad';
+    diag.innerHTML = '❌ <strong>Indicator of business dumping.</strong> The evaluated amount (€' +
+      fmt(euroh) + '/h) is below the anti-dumping floor (€' + fmt(sueloAntidumping) +
+      '/h — real cost without industrial profit), a possible below-cost sale under art. 17 of ' +
+      "Spain's Unfair Competition Act (Ley 3/1991), although it is above the MEF floor (€" +
+      fmt(suelomef) + '/h).';
+  } else if (euroh < SUELO_COSTE) {
+    diag.className = 'diag warn';
+    diag.innerHTML = '⚠️ <strong>Borderline — covers costs, no full margin.</strong> The evaluated ' +
+      'amount (€' + fmt(euroh) + '/h) is between the anti-dumping floor (€' + fmt(sueloAntidumping) +
+      '/h) and the cost floor (€' + fmt(SUELO_COSTE) + '/h): it covers the practice\'s real cost but ' +
+      'without the full industrial profit margin. It shows no indicator of discrimination or dumping.';
+  } else {
+    diag.className = 'diag ok';
+    diag.innerHTML = '✅ <strong>Adequate.</strong> The evaluated amount (€' + fmt(euroh) +
+      '/h) is above the cost floor (€' + fmt(SUELO_COSTE) + '/h). It shows no indicator of pay ' +
+      'discrimination or business dumping.';
+  }
+}
+
+function descargarPDF(){
+  const anio = document.getElementById('anio').value;
+  if (!anio) {
+    alert('First select a reference year and click "Evaluate" before downloading the PDF.');
+    return;
+  }
+  calcular();
+
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF({ unit: 'mm', format: 'a4' });
+  const marginL = 18, width = 174, marginB = 16;
+  const pageH = doc.internal.pageSize.getHeight();
+  let y = 20;
+
+  function ensureSpace(need){
+    if (y + need > pageH - marginB) {
+      doc.addPage();
+      y = 20;
+    }
+  }
+  function h(text, size, gap){
+    ensureSpace(gap + 4);
+    doc.setFont('helvetica', 'bold'); doc.setFontSize(size);
+    doc.text(text, marginL, y);
+    y += gap;
+  }
+  function limpiar(str){
+    return String(str).replace(/Σ/g, 'S'); // jsPDF/helvetica does not support the Σ character
+  }
+  function p(label, value){
+    ensureSpace(11);
+    doc.setFont('helvetica', 'bold'); doc.setFontSize(10);
+    doc.text(label, marginL, y);
+    const labelWidth = doc.getTextWidth(label);
+    doc.setFont('helvetica', 'normal');
+    const valueText = limpiar(value);
+    const valueWidth = doc.getTextWidth(valueText);
+    if (labelWidth + 3 + valueWidth <= width) {
+      doc.text(valueText, marginL + labelWidth + 3, y);
+      y += 6;
+    } else {
+      y += 5;
+      doc.text(valueText, marginL + 4, y);
+      y += 6;
+    }
+  }
+  function parrafo(text, size){
+    doc.setFont('helvetica', 'normal'); doc.setFontSize(size || 9);
+    const lines = doc.splitTextToSize(text, width);
+    ensureSpace(lines.length * 4.6 + 2);
+    doc.setFont('helvetica', 'normal'); doc.setFontSize(size || 9);
+    doc.text(lines, marginL, y);
+    y += lines.length * 4.6 + 2;
+  }
+  function linea(){ ensureSpace(8); doc.setDrawColor(210); doc.line(marginL, y, marginL + width, y); y += 6; }
+  function logotipo(sigla){
+    ensureSpace(10);
+    // Vector balance icon (the ⚖ emoji used on the web page isn't rendered reliably by jsPDF/Helvetica) + acronym, site colors
+    const cx = marginL + 3, cy = y - 1.5;
+    doc.setDrawColor(52, 152, 219); doc.setLineWidth(0.6);
+    doc.line(cx - 3.5, cy - 2.5, cx + 3.5, cy - 2.5);
+    doc.line(cx, cy - 2.5, cx, cy + 1.5);
+    doc.setFillColor(52, 152, 219);
+    doc.circle(cx - 3.5, cy - 1, 0.9, 'F');
+    doc.circle(cx + 3.5, cy - 1, 0.9, 'F');
+    doc.setFont('helvetica', 'bold'); doc.setFontSize(15);
+    doc.setTextColor(44, 62, 80);
+    doc.text(sigla, cx + 7, y);
+    doc.setTextColor(0);
+    y += 8;
+  }
+
+  // Aviso beta destacado, al principio del documento
+  doc.setFillColor(255, 246, 224); doc.setDrawColor(240, 173, 78); doc.setLineWidth(0.4);
+  doc.roundedRect(marginL, y - 6, width, 18, 1.5, 1.5, 'FD');
+  doc.setFont('helvetica', 'bold'); doc.setFontSize(13); doc.setTextColor(138, 97, 0);
+  doc.text('BETA VERSION · UNDER TESTING', marginL + 4, y + 0.5);
+  doc.setFont('helvetica', 'normal'); doc.setFontSize(8.5);
+  doc.text('Figures and the calculation engine may change in the coming days. This is not legal advice or a fee scale.', marginL + 4, y + 6, { maxWidth: width - 8 });
+  doc.setTextColor(0); doc.setDrawColor(210); doc.setLineWidth(0.2);
+  y += 20;
+  logotipo('MEF');
+  h('Pay-discrimination evaluator', 13, 8);
+  doc.setFont('helvetica', 'normal'); doc.setFontSize(9); doc.setTextColor(100);
+  doc.text('Generated on ' + new Date().toLocaleDateString('en-GB', {day:'2-digit', month:'2-digit', year:'numeric'}) +
+    ' · Reference year: ' + anio, marginL, y);
+  doc.setTextColor(0);
+  y += 8;
+  linea();
+
+  h('Commission details', 11, 7);
+  p('PEM (Execution Cost Budget):', '€' + document.getElementById('pem').value);
+  p('Building type:', document.getElementById('tipologia').selectedOptions[0].text);
+  p('Degree of complexity:', document.getElementById('complejidad').selectedOptions[0].text);
+  p('Type of commission:', document.getElementById('encargo').selectedOptions[0].text);
+  p('Health and safety coordination:', document.getElementById('coordseg').checked ? 'Yes' : 'No');
+  p('Procedure:', document.getElementById('procedimiento').selectedOptions[0].text);
+  p('Estimated commission hours (HME):', document.getElementById('r-horas').textContent);
+  p('Amount offered or awarded:', '€' + document.getElementById('importe').value);
+  p('MEF floor — calculation base:', 'Engineering and technical consultancy collective agreement');
+  y += 2;
+  linea();
+
+  h('Result', 11, 7);
+  p('% of PEM represented by the evaluated amount:', document.getElementById('r-pct').textContent);
+  p('€/h of the evaluated amount:', document.getElementById('r-euroh').textContent);
+  p('Cost floor (reference):', document.getElementById('r-suelocoste').textContent);
+  p('MEF floor (anti-discrimination threshold):', document.getElementById('r-mef').textContent);
+  y += 2;
+
+  h('Comparative references (not binding)', 11, 7);
+  p('Anti-dumping floor (cost without industrial profit):', document.getElementById('r-antidumping').textContent);
+  p('SEGIPSA reference (BOE 27/5/2015):', document.getElementById('r-segipsa').textContent);
+  p('Italian reference (DM 17/6/2016):', document.getElementById('r-italia').textContent);
+  if (document.getElementById('procedimiento').value === 'publico') {
+    p(document.querySelector('#row-italia65 span:first-child').textContent + ':', document.getElementById('r-italia65').textContent);
+  }
+  y += 2;
+
+  const diagTexto = document.getElementById('diagnostico').textContent
+    .replace(/[☀-➿️]/g, '').trim();
+  if (diagTexto) {
+    doc.setFont('helvetica', 'bold'); doc.setFontSize(9.5);
+    const diagLines = doc.splitTextToSize(diagTexto, width - 8);
+    const boxH = diagLines.length * 4.6 + 8;
+    ensureSpace(boxH + 4);
+    doc.setFillColor(244, 246, 249);
+    doc.rect(marginL, y - 4, width, boxH, 'F');
+    doc.setFont('helvetica', 'bold'); doc.setFontSize(9.5);
+    doc.text(diagLines, marginL + 4, y + 1);
+    y += boxH + 4;
+  }
+
+  linea();
+  h('Caveats and methodology', 11, 7);
+  parrafo('This tool is in beta testing: the figures and the calculation engine may change. It is ' +
+    'not legal advice or a fee scale. The admissible vehicle for a remuneration floor is state ' +
+    'regulation or public-procurement oversight (abnormally low tenders, art. 149 LCSP). A ' +
+    'result showing an "indicator of discrimination" does ' +
+    'not, by itself, prove an infringement: it is a starting point for reviewing the case.');
+  parrafo('Origin and status of every input used (regulatory, collectively-bargained, industry ' +
+    'benchmark, or an editable working assumption), and the detail of the values by year: ' +
+    SITE_URL + '/en/tools/methodology/');
+  parrafo('Tool: ' + SITE_URL + '/en/tools/evaluator/  ·  HME/MEF proposal: ' + SITE_URL + '/en/');
+
+  const pem = document.getElementById('pem').value;
+  const ahora = new Date();
+  const pad = n => String(n).padStart(2, '0');
+  const marca = ahora.getFullYear() + pad(ahora.getMonth() + 1) + pad(ahora.getDate()) +
+    '-' + pad(ahora.getHours()) + pad(ahora.getMinutes()) + pad(ahora.getSeconds());
+  doc.save('hme-mef-evaluator-' + anio + '-pem' + pem + '-' + marca + '.pdf');
+}
+
+onAnioChange();
+calcular();
+</script>
+</body>
+</html>

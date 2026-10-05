@@ -105,7 +105,7 @@ On the principle of non-discrimination, recognised both by the Spanish Constitut
 
 Questions, comments or collaboration proposals?
 
-[**Contact form →**]({{ '/en/resources/contacto/' | relative_url }})
+[**Contact form →**]({{ '/en/resources/contact/' | relative_url }})
 
 ---
 

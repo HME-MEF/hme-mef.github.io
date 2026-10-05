@@ -26,7 +26,7 @@ and a **year selector** (2023–2027), documented in the
     <p>Compares an amount already offered or awarded — in a public tender or
     a private commission — against the cost floor and the MEF floor, and
     flags whether it shows indicators of discriminatory undervaluation.</p>
-    <p><a href="{{ '/en/tools/evaluador/' | relative_url }}"><strong>Go to the evaluator →</strong></a></p>
+    <p><a href="{{ '/en/tools/evaluator/' | relative_url }}"><strong>Go to the evaluator →</strong></a></p>
   </div>
 
   <div style="flex:1; min-width:280px; border:1px solid var(--border-color, #ddd); border-radius:8px; padding:24px;">
@@ -36,7 +36,7 @@ and a **year selector** (2023–2027), documented in the
     building type and the scope of a project-drafting and/or site-supervision
     commission, a band of objective references — cost and value — before
     submitting an offer.</p>
-    <p><a href="{{ '/en/tools/estimacion/' | relative_url }}"><strong>Go to the estimator →</strong></a></p>
+    <p><a href="{{ '/en/tools/estimator/' | relative_url }}"><strong>Go to the estimator →</strong></a></p>
   </div>
 
 </div>
@@ -56,7 +56,7 @@ utilization rate, overheads, conversion rates…) has a different origin and
 status — regulatory, collectively-bargained, industry benchmark, or an
 editable working assumption. The full detail, with the step-by-step
 derivation of the floors and the automatic estimation of hours, is in the
-[**calculator's technical methodology →**]({{ '/en/tools/metodologia/' | relative_url }}).
+[**calculator's technical methodology →**]({{ '/en/tools/methodology/' | relative_url }}).
 
 ---
 

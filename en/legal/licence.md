@@ -25,7 +25,7 @@ This project is distributed under a multiple-licence model, depending on the typ
 
 **You cannot:** reproduce, distribute, or publicly display the code, or create derivative works (including similar versions of the calculators, with the same look or other parameters), without explicit written permission. This applies even for non-commercial use.
 
-**You can:** view the source code as published on the public repository; and contact the author for permission to use, adapt or republish it — for example, to adapt a calculator to another profession or trade, one of the collaborations this site invites through the [contact form]({{ '/en/resources/contacto/' | relative_url }}).
+**You can:** view the source code as published on the public repository; and contact the author for permission to use, adapt or republish it — for example, to adapt a calculator to another profession or trade, one of the collaborations this site invites through the [contact form]({{ '/en/resources/contact/' | relative_url }}).
 
 For permissions inquiries, contact: [info@hmef.eu](mailto:info@hmef.eu)
 
@@ -40,7 +40,7 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 **Applies only to text written directly for this site** — not to the external academic articles cited or linked, see below:
 - The legal and constitutional analysis in [Legal Framework]({{ '/en/legal-framework/' | relative_url }})
 - The [FAQ]({{ '/en/resources/faq/' | relative_url }}) and other educational content in [resources/]({{ '/en/resources/' | relative_url }})
-- The [technical methodology]({{ '/en/tools/metodologia/' | relative_url }})
+- The [technical methodology]({{ '/en/tools/methodology/' | relative_url }})
 - Other policy analysis and commentary written for hmef.eu
 
 **You can share and adapt this material**, for any purpose, even commercially, under the following conditions:

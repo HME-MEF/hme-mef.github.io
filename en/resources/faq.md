@@ -29,7 +29,7 @@ remuneration is not lower than the employee's.
 
 The model distinguishes two references, derived from explicit layers of
 regulatory and collectively-bargained data (see the
-[technical methodology]({{ '/en/tools/metodologia/' | relative_url }})):
+[technical methodology]({{ '/en/tools/methodology/' | relative_url }})):
 
 - **MEF floor**: the actual anti-discrimination threshold — reference
   salary + employer social security contribution + operating costs, divided
@@ -50,7 +50,7 @@ employees with the same qualification: according to data from the
 *Architects' Council of Europe*, the median income of architects working
 self-employed in Spain is noticeably lower than that of those working as
 employees, both in the private and public sectors (full figures in the
-[technical methodology]({{ '/en/tools/metodologia/' | relative_url }})).
+[technical methodology]({{ '/en/tools/methodology/' | relative_url }})).
 
 This inequality does not reflect market efficiency; rather, it reflects the
 absence of a legal remuneration floor of the kind that already exists for
@@ -145,7 +145,7 @@ See the full analysis, with case law and comparative precedents, in the
 ### How is the MEF floor calculated?
 
 In brief (full derivation, with the source table for each input, in the
-[technical methodology]({{ '/en/tools/metodologia/' | relative_url }})):
+[technical methodology]({{ '/en/tools/methodology/' | relative_url }})):
 
 1. It starts from the **reference salary**: the sector's
    collectively-bargained salary where the activity legally requires a
@@ -175,13 +175,13 @@ by analogy with art. 131 RGLCAP, resulting in **€40.86/h** (2023) /
 **€48.90/h** (2024–2027).
 
 These values are recalculated automatically, for each specific commission,
-in the [evaluator]({{ '/en/tools/evaluador/' | relative_url }}) and
-the [estimator]({{ '/en/tools/estimacion/' | relative_url }}).
+in the [evaluator]({{ '/en/tools/evaluator/' | relative_url }}) and
+the [estimator]({{ '/en/tools/estimator/' | relative_url }}).
 
 ### Who sets the starting inputs (salary, costs, utilization rate)?
 
 Each input has a different origin and status, documented in the
-[technical methodology]({{ '/en/tools/metodologia/' | relative_url }}):
+[technical methodology]({{ '/en/tools/methodology/' | relative_url }}):
 some are **regulatory** (SMI, social security contributions, SEGIPSA
 tariffs), others are **collectively-bargained** (the sector's collective
 agreement), and others are a **working assumption**, editable and open to
@@ -349,7 +349,7 @@ Spanish Ombudsman is still ongoing.
 
 ### How can I collaborate?
 
-Through the [contact form]({{ '/en/resources/contacto/' | relative_url }}) —
+Through the [contact form]({{ '/en/resources/contact/' | relative_url }}) —
 to leave any feedback about the proposal, report a relevant regulation or
 judicial or administrative action not yet covered on this site, or
 propose a collaboration: contribute cost data or professional testimony

@@ -195,7 +195,7 @@ very alternative premise — that the self-employed professional is a
 business, the premise that underpinned the 1997 liberalisation — leads,
 through a different legal route, to the same floor. See the technical
 development of this complementarity in the
-[technical methodology]({{ '/en/tools/metodologia/' | relative_url }}).
+[technical methodology]({{ '/en/tools/methodology/' | relative_url }}).
 
 **General Regulation of the Public Administration Contracts Act (RGLCAP),
 approved by Royal Decree 1098/2001, art. 131** — sets the standard
@@ -205,7 +205,7 @@ HME uses, by analogy, 15% overheads — the midpoint of the range the Act
 explicitly sets out — and 6% industrial profit to calculate the **cost
 floor** (the practice's real production cost), distinct from the actual
 anti-discrimination MEF floor — see the
-[technical methodology]({{ '/en/tools/metodologia/' | relative_url }}).
+[technical methodology]({{ '/en/tools/methodology/' | relative_url }}).
 
 ### CNC/CNMC reports and decisions
 
@@ -267,7 +267,7 @@ Approves the "Tariff of fees of Architects for the works of their profession," m
 to 2024–2026 euros, converge with the employer cost under the current
 collective agreement — evidence that these State-regulated minimums are
 not an arbitrary figure. See the
-[full historical comparison]({{ '/en/tools/normas-historicas/' | relative_url }}).
+[full historical comparison]({{ '/en/tools/historical-norms/' | relative_url }}).
 
 #### COAM — Indicative fee scales 2007 (adapted to the CTE building code)
 
@@ -276,7 +276,7 @@ A historical indicative-reference document of the Madrid Official Association of
 
 #### SEGIPSA — Resolution of 11 May 2015 (BOE no. 126, 27/5/2015)
 
-SEGIPSA (Sociedad Estatal de Gestión Inmobiliaria de Patrimonio, S.A.), an in-house instrumental body of the Spanish General State Administration, applies percentage tariffs on the Execution Cost Budget (PEM) — between 3.08% and 6.65% depending on bracket and item — for drafting projects and site supervision commissioned by the Administration. In practice, this is the very same mechanism as the state tariffs of 1905, 1922 and 1977 — a percentage of the cost of the works, decreasing by bracket — applied today by the General State Administration itself to its own commissioned work. The full breakdown by bracket, used as a reference in this site's [calculation tools]({{ '/en/tools/' | relative_url }}), is in the [technical methodology]({{ '/en/tools/metodologia/' | relative_url }}).
+SEGIPSA (Sociedad Estatal de Gestión Inmobiliaria de Patrimonio, S.A.), an in-house instrumental body of the Spanish General State Administration, applies percentage tariffs on the Execution Cost Budget (PEM) — between 3.08% and 6.65% depending on bracket and item — for drafting projects and site supervision commissioned by the Administration. In practice, this is the very same mechanism as the state tariffs of 1905, 1922 and 1977 — a percentage of the cost of the works, decreasing by bracket — applied today by the General State Administration itself to its own commissioned work. The full breakdown by bracket, used as a reference in this site's [calculation tools]({{ '/en/tools/' | relative_url }}), is in the [technical methodology]({{ '/en/tools/methodology/' | relative_url }}).
 [Download the SEGIPSA Resolution (BOE 27/5/2015)]({{ '/assets/docs/segipsa-boe-2015-es.pdf' | relative_url }}) *(Spanish original)*
 
 ---
