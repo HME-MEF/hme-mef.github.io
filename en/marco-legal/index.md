@@ -307,9 +307,9 @@ association, as well as other unfair practices (unilateral contract
 amendment, unpaid additional work, payment terms exceeding 60 days).
 
 **Application to MEF:** this law is the most direct comparative-EU-law
-evidence that a professional minimum-remuneration floor, justified by an
-imbalance of bargaining power vis-à-vis a strong counterparty — not by
-corporate protection of a group — is compatible with EU law. Unlike the
+evidence that a professional minimum-remuneration floor, justified by
+general-interest grounds other than the corporate protection of a group,
+is compatible with EU law. Unlike the
 DM 17/6/2016 (a calculation method specific to architecture and
 engineering), this law confirms that the principle can be applied
 generally, to any regulated profession.

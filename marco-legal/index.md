@@ -390,10 +390,9 @@ unilateral del contrato, trabajo adicional no retribuido, plazos de pago
 superiores a 60 días).
 
 **Aplicación a HME:** esta ley es la prueba más directa, dentro del
-Derecho comparado de la UE, de que un mínimo retributivo profesional
-justificado por el desequilibrio de poder de negociación frente a una
-contraparte fuerte —no por la protección corporativa de un colectivo— es
-compatible con el Derecho de la Unión. A diferencia del DM 17/6/2016 (que
+Derecho comparado de la UE, de que un mínimo retributivo profesional,
+justificado por cuestiones de interés general diferentes de la protección
+corporativa de un colectivo, es compatible con el Derecho de la Unión. A diferencia del DM 17/6/2016 (que
 es un método de cálculo específico de arquitectura e ingeniería), esta
 ley confirma que el principio puede aplicarse con carácter general a
 cualquier profesión regulada.
