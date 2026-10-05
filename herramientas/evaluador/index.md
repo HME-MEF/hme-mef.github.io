@@ -145,7 +145,7 @@ calculados con costes conservadores.
   periódicamente conforme al IPC.
 - El vehículo admisible para un suelo retributivo es la norma estatal o
   el control de la contratación pública (oferta anormalmente baja,
-  art. 149 LCSP) — nunca una tabla de origen colegial.
+  art. 149 LCSP).
 - Un resultado "indicio de discriminación" no acredita por sí solo una
   infracción; es un punto de partida para revisar el expediente.
 

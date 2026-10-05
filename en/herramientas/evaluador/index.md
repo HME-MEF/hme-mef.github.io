@@ -141,8 +141,7 @@ calculated with conservative costs.
 - Monetary values (SMI, collectively-bargained salary, rates) should be
   updated periodically in line with CPI.
 - The admissible vehicle for a remuneration floor is state regulation or
-  public-procurement oversight (abnormally low tenders, art. 149 LCSP) —
-  never a professional-association-set table.
+  public-procurement oversight (abnormally low tenders, art. 149 LCSP).
 - A result showing an "indicator of discrimination" does not, by itself,
   prove an infringement; it is a starting point for reviewing the case.
 
