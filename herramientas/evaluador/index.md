@@ -89,7 +89,7 @@ importe evaluado frente a ellos:
 - **Suelo MEF** (47,21-48,17 €/h sobre salario de convenio, según el año;
   entre 31,05 €/h y 33,69 €/h sobre SMI, según el año): HME × tarifa
   MEF/h — el suelo antidiscriminatorio propiamente dicho. Ver la
-  [memoria técnica]({{ '/herramientas/metodologia/' | relative_url }}#6-datos-y-resultados-por-año-2024-2027)
+  [memoria técnica]({{ '/herramientas/metodologia/' | relative_url }}#6-datos-y-resultados-por-año-2023-2027)
   para el valor exacto de cada año y por qué algunas cifras se mantienen
   constantes a falta de dato oficial más reciente.
 

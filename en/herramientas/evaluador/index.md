@@ -88,7 +88,7 @@ evaluated amount against them:
   depending on the year): HME × MEF hourly rate — the actual
   anti-discrimination floor. See
   the
-  [technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }}#6-data-and-results-by-year-2024-2027)
+  [technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }}#6-data-and-results-by-year-2023-2027)
   for the exact value for each year and why some figures stay constant for
   lack of a more recent official figure.
 
