@@ -159,7 +159,7 @@ This section distinguishes three types of source, of different scope: (a) genera
 
 ### General regulations
 
-**Law 7/1997, on Liberalising Measures in Land and Professional Association Matters** — Replaces the mandatory-tariff regime of any professional association with **merely indicative fee scales** (art. 5.ñ), in compliance with competition law. From this point on, professional fees in general are no longer set by the State and are instead agreed between the parties, with non-binding professional-association reference scales.
+**Law 7/1997, on Liberalising Measures in Land and Professional Association Matters** — Replaces the mandatory-tariff regime of any professional association with **merely indicative fee scales** (art. 5.ñ; a possibility later abolished by Law 25/2009, see below), in compliance with competition law. From this point on, professional fees in general are no longer set by the State and are instead agreed between the parties, with non-binding professional-association reference scales.
 
 **Law 25/2009 of 22 December, amending various laws to adapt them to the Law on free access to service activities and their exercise (the "Omnibus Law")** — Rewrites Law 2/1974 on Professional Associations and **abolishes indicative fee scales**: professional associations and their umbrella bodies may not establish indicative scales or any other guidance, recommendation, guideline, rule or standard on professional fees (art. 14 of Law 2/1974, as currently worded). This completes the liberalisation begun in 1997: there are no longer mandatory tariffs or professional-association fee references, not even indicative ones.
 
@@ -273,7 +273,7 @@ not an arbitrary figure. See the
 
 #### COAM — Indicative fee scales 2007 (adapted to the CTE building code)
 
-The current indicative-reference document of the Madrid Official Association of Architects (COAM), drawn up pursuant to art. 5.ñ) of Law 7/1997 and art. 14.e) of Law 19/1997 on Professional Associations of the Community of Madrid. It considers the degree of work, training, knowledge, dedication and costs necessary to carry out a commission, with coefficient tables by floor area, use and complexity. Expressly compatible with the freedom of contract under Law 7/1997: it does not set fees, it guides them.
+A historical indicative-reference document of the Madrid Official Association of Architects (COAM), drawn up under art. 5.ñ) of Law 7/1997 and art. 14.e) of Law 19/1997 on Professional Associations of the Community of Madrid, and predating Law 25/2009 (Omnibus), which abolished indicative scales. It considers the degree of work, training, knowledge, dedication and costs necessary to carry out a commission, with coefficient tables by floor area, use and complexity. At the time it was compatible with the freedom of contract under Law 7/1997: it did not set fees, it guided them. It is retained as a documentary precedent.
 [Download COAM Indicative Scales 2007]({{ '/assets/docs/coam-baremos-orientativos-2007-es.pdf' | relative_url }}) *(Spanish original)*
 
 #### SEGIPSA — Resolution of 11 May 2015 (BOE no. 126, 27/5/2015)

@@ -167,7 +167,8 @@ autónomos al que se dirige HME.
 **Ley 7/1997, de Medidas Liberalizadoras en Materia de Suelo y de
 Colegios Profesionales** — Sustituye el régimen de tarifas obligatorias
 de cualquier colegio profesional por el de **baremos de honorarios de
-carácter meramente orientativo** (art. 5.ñ), en cumplimiento del Derecho
+carácter meramente orientativo** (art. 5.ñ; posibilidad suprimida
+después por la Ley 25/2009, véase más abajo), en cumplimiento del Derecho
 de la competencia. A partir de aquí, los honorarios profesionales dejan
 de estar tarifados por el Estado con carácter general y pasan a fijarse
 por acuerdo entre las partes, con baremos colegiales de referencia no
@@ -335,14 +336,16 @@ no son una cifra arbitraria. Ver la
 
 #### COAM — Baremos Orientativos 2007 (adaptación al CTE)
 
-Documento vigente de referencia orientativa del Colegio Oficial de
-Arquitectos de Madrid, elaborado en cumplimiento del art. 5.ñ) de la Ley
+Documento histórico de referencia orientativa del Colegio Oficial de
+Arquitectos de Madrid, elaborado al amparo del art. 5.ñ) de la Ley
 7/1997 y el art. 14.e) de la Ley 19/1997 de Colegios Profesionales de la
-Comunidad de Madrid. Considera el grado de trabajo, capacitación,
+Comunidad de Madrid, y anterior a la Ley 25/2009 (Ómnibus), que suprimió
+los baremos orientativos. Considera el grado de trabajo, capacitación,
 conocimientos, dedicación y costes necesarios para el desarrollo de un
 encargo, con tablas de coeficientes por superficie, uso y complejidad.
-Expresamente compatible con la libertad de contratación de la Ley 7/1997:
-no fija honorarios, los orienta.
+En su momento fue compatible con la libertad de contratación de la Ley
+7/1997: no fijaba honorarios, los orientaba. Se conserva como
+antecedente documental.
 [Descargar COAM Baremos Orientativos 2007]({{ '/assets/docs/coam-baremos-orientativos-2007-es.pdf' | relative_url }})
 
 #### SEGIPSA — Resolución de 11 de mayo de 2015 (BOE núm. 126, 27/5/2015)
