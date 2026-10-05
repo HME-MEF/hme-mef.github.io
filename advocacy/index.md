@@ -49,9 +49,10 @@ petición. Este informe no constituye una respuesta oficial del Ministerio
 a la petición —que nunca llegó a emitirse—, sino, en todo caso, un
 documento técnico que podría haber servido de base para dicha respuesta;
 al incorporarlo al expediente administrativo, el Ministerio aparentaba
-responder sin hacerlo realmente. Este informe se aportó como parte del
-expediente en sede judicial, con posterioridad a la interposición del
-recurso contencioso-administrativo.
+responder sin hacerlo realmente. Este informe, elaborado en febrero de
+2022 —cuatro meses después de interponerse el recurso
+contencioso-administrativo y antes de la formalización de la demanda—, se
+aportó como parte del expediente en sede judicial.
 [Ver informe DGPOLECO]({{ '/assets/docs/informe-dgpoleco-2022.pdf' | relative_url }})
 
 **23/03/2022** — Formalización de la demanda, con la argumentación jurídica de

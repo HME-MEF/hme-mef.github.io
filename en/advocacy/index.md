@@ -56,8 +56,10 @@ the petition. This report is not an official response from the Ministry
 to the petition — no such response was ever issued — but, at most, a
 technical document that could have served as the basis for one; by
 placing it in the administrative file, the Ministry gave the appearance
-of responding without actually doing so. This report was added to the case file
-in the judicial proceedings, after the administrative appeal had been filed.
+of responding without actually doing so. This report, drawn up in February 2022 —four
+months after the contentious-administrative appeal was filed and before the
+formal statement of claim— was added to the case file in the judicial
+proceedings.
 [View the DGPOLECO report]({{ '/assets/docs/informe-dgpoleco-2022.pdf' | relative_url }}) *(ES)*
 
 **23/03/2022** — Filing of the statement of claim, with the substantive
