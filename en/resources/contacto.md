@@ -9,10 +9,10 @@ positive comments to suggestions for improvement or observations about the
 project's methodology or legal framework; **report a relevant regulation,
 or a judicial or administrative action** not yet included on the site (see
 [Advocacy]({{ '/en/advocacy/' | relative_url }}) and
-[News]({{ '/en/noticias/' | relative_url }})); or **propose a
+[News]({{ '/en/news/' | relative_url }})); or **propose a
 collaboration** — including contributing cost data, professional
 testimony, or data to calculate the MEF for another profession or trade
-not yet covered by the [tools]({{ '/en/herramientas/' | relative_url }}) —.
+not yet covered by the [tools]({{ '/en/tools/' | relative_url }}) —.
 You can also tick the form's checkbox to **receive updates about the
 proposal** (regulatory news, publications, advocacy progress) by leaving
 your email.

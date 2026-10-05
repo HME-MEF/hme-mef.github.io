@@ -58,7 +58,7 @@ The article and the conference paper have been cited as grounds in the formal su
 
 Complementary regulatory and case-law texts (EU directives, CJEU judgments,
 the Spanish Constitution, CNMC resolutions) are collected in the
-[Legal Framework]({{ '/en/marco-legal/' | relative_url }}) section.
+[Legal Framework]({{ '/en/legal-framework/' | relative_url }}) section.
 
 ---
 

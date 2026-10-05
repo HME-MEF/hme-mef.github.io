@@ -29,7 +29,7 @@ political-advocacy purposes**. In particular:
 - **It does not constitute legal advice.** For a specific situation,
   consult a legal professional.
 - **It is not a fee scale or an official tariff.** The reference "floors"
-  (MEF and cost) calculated by the [tools]({{ '/en/herramientas/' | relative_url }})
+  (MEF and cost) calculated by the [tools]({{ '/en/tools/' | relative_url }})
   are a proposal for anti-discrimination minimums, not a fee that is
   currently in force or recommended. Each tool details its own caveats and
   limitations.
@@ -65,9 +65,9 @@ their public-sector information reuse regime.
 
 ### 4. Use of the calculation tools
 
-The [calculators on this site]({{ '/en/herramientas/' | relative_url }})
+The [calculators on this site]({{ '/en/tools/' | relative_url }})
 are free to use. Their results are based on the parameters and sources
-documented in their [technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }}),
+documented in their [technical methodology]({{ '/en/tools/metodologia/' | relative_url }}),
 some of which are working assumptions, editable and open to debate. The
 author does not guarantee that the figures are permanently up to date
 (SMI, collective agreements, CPI) and assumes no liability for decisions
@@ -88,7 +88,7 @@ for, the content of those external sites.
 The author strives to keep the information up to date and accurate, but
 does not guarantee its completeness or permanent currency. Each page shows
 its last-updated date. If you spot an error, you can report it through the
-[contact form]({{ '/en/recursos/contacto/' | relative_url }}).
+[contact form]({{ '/en/resources/contacto/' | relative_url }}).
 
 ---
 
@@ -115,7 +115,7 @@ These terms are governed by Spanish law.
 ### 10. Contact
 
 For any query about these terms: [info@hmef.eu](mailto:info@hmef.eu),
-or through the [contact form]({{ '/en/recursos/contacto/' | relative_url }}).
+or through the [contact form]({{ '/en/resources/contacto/' | relative_url }}).
 
 ---
 

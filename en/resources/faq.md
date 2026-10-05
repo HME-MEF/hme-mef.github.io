@@ -29,7 +29,7 @@ remuneration is not lower than the employee's.
 
 The model distinguishes two references, derived from explicit layers of
 regulatory and collectively-bargained data (see the
-[technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }})):
+[technical methodology]({{ '/en/tools/metodologia/' | relative_url }})):
 
 - **MEF floor**: the actual anti-discrimination threshold — reference
   salary + employer social security contribution + operating costs, divided
@@ -50,7 +50,7 @@ employees with the same qualification: according to data from the
 *Architects' Council of Europe*, the median income of architects working
 self-employed in Spain is noticeably lower than that of those working as
 employees, both in the private and public sectors (full figures in the
-[technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }})).
+[technical methodology]({{ '/en/tools/metodologia/' | relative_url }})).
 
 This inequality does not reflect market efficiency; rather, it reflects the
 absence of a legal remuneration floor of the kind that already exists for
@@ -84,7 +84,7 @@ therefore also proposed as a tool to mitigate these gender and age gaps.
 
 **Reference**: CJEU case law (C-94/04 *Cipolla*, C-202/04 *Asnef-Equifax*,
 C-377/17, C-19/23) draws precisely this distinction — see
-[Legal Framework]({{ '/en/marco-legal/' | relative_url }}).
+[Legal Framework]({{ '/en/legal-framework/' | relative_url }}).
 
 ---
 
@@ -136,7 +136,7 @@ compatible with EU law: it establishes minimum fees on grounds of general
 interest without having been challenged as infringing TFEU art. 101.
 
 See the full analysis, with case law and comparative precedents, in the
-[Legal Framework]({{ '/en/marco-legal/' | relative_url }}).
+[Legal Framework]({{ '/en/legal-framework/' | relative_url }}).
 
 ---
 
@@ -145,7 +145,7 @@ See the full analysis, with case law and comparative precedents, in the
 ### How is the MEF floor calculated?
 
 In brief (full derivation, with the source table for each input, in the
-[technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }})):
+[technical methodology]({{ '/en/tools/metodologia/' | relative_url }})):
 
 1. It starts from the **reference salary**: the sector's
    collectively-bargained salary where the activity legally requires a
@@ -175,13 +175,13 @@ by analogy with art. 131 RGLCAP, resulting in **€40.86/h** (2023) /
 **€48.90/h** (2024–2027).
 
 These values are recalculated automatically, for each specific commission,
-in the [evaluator]({{ '/en/herramientas/evaluador/' | relative_url }}) and
-the [estimator]({{ '/en/herramientas/estimacion/' | relative_url }}).
+in the [evaluator]({{ '/en/tools/evaluador/' | relative_url }}) and
+the [estimator]({{ '/en/tools/estimacion/' | relative_url }}).
 
 ### Who sets the starting inputs (salary, costs, utilization rate)?
 
 Each input has a different origin and status, documented in the
-[technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }}):
+[technical methodology]({{ '/en/tools/metodologia/' | relative_url }}):
 some are **regulatory** (SMI, social security contributions, SEGIPSA
 tariffs), others are **collectively-bargained** (the sector's collective
 agreement), and others are a **working assumption**, editable and open to
@@ -230,7 +230,7 @@ approach.
 | **Spain** | The MEF proposal | In the advocacy stage |
 
 Full analysis of the Italian model, with articles and primary sources, in
-the [Legal Framework]({{ '/en/marco-legal/' | relative_url }}), which also
+the [Legal Framework]({{ '/en/legal-framework/' | relative_url }}), which also
 covers the German precedent (HOAI) and the limits it sets for a proposal
 like MEF.
 
@@ -267,7 +267,7 @@ the EU Charter of Fundamental Rights) and, in doing so, contributing to social
 cohesion and balanced economic growth, in the general interest. The relevant question is not whether
 MEF raises costs, but whether that remuneration floor is necessary and
 proportionate to correct a discrimination — addressed in the
-[Legal Framework]({{ '/en/marco-legal/' | relative_url }}).
+[Legal Framework]({{ '/en/legal-framework/' | relative_url }}).
 
 There is, in addition, a complementary question. The abolition of tariffs may
 have helped to lower the price of certain professional services — the European
@@ -349,7 +349,7 @@ Spanish Ombudsman is still ongoing.
 
 ### How can I collaborate?
 
-Through the [contact form]({{ '/en/recursos/contacto/' | relative_url }}) —
+Through the [contact form]({{ '/en/resources/contacto/' | relative_url }}) —
 to leave any feedback about the proposal, report a relevant regulation or
 judicial or administrative action not yet covered on this site, or
 propose a collaboration: contribute cost data or professional testimony

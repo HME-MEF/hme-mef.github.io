@@ -7,8 +7,8 @@ title: "Calculator technical methodology"
 {% include beta-notice.html %}
 
 This document explains the origin and status of every input used by the
-[pay-discrimination evaluator]({{ '/en/herramientas/evaluador/' | relative_url }})
-and the [fee band estimator]({{ '/en/herramientas/estimacion/' | relative_url }}),
+[pay-discrimination evaluator]({{ '/en/tools/evaluador/' | relative_url }})
+and the [fee band estimator]({{ '/en/tools/estimacion/' | relative_url }}),
 so that anyone using them can tell apart a regulatory figure, an unofficial
 industry benchmark, and a working assumption of the model — editable and
 open to debate. Both tools share the same calculation engine (hour
@@ -48,7 +48,7 @@ How anyone uses these figures is a matter of their own judgment.
 | Overheads / industrial profit (cost floor) | 15% / 6% | By analogy with art. 131 of the [General Regulation of the Public Administration Contracts Act (RD 1098/2001)](https://www.boe.es/eli/es/rd/2001/10/12/1098/con) (public works), which sets a 13% to 17% range for overheads and 6% for industrial profit: the **15% midpoint of the range explicitly set out by the Act** is used, plus the 6% industrial profit — **regulatory by analogy**, not a figure specific to the architecture sector |
 | SMI (national minimum wage) | €15,120 (2023) / €15,876 (2024) / €16,576 (2025) / €17,094 (2026–2027) | **Regulatory** — [RD 99/2023](https://www.boe.es/buscar/doc.php?id=BOE-A-2023-3982), [BOE-A-2024-2251](https://www.boe.es/buscar/doc.php?id=BOE-A-2024-2251), [BOE-A-2025-2576](https://www.boe.es/buscar/doc.php?id=BOE-A-2025-2576), [BOE-A-2026-3815](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-3815). No Royal Decree published yet for 2027; the 2026 figure is kept |
 | Amount→hours conversion rate | 50 × 1.21 (Italian CPI 2016→2024) = €60.5/h | Lower end of the band under art. 6.2 of DM 17/6/2016, updated — **updated regulatory figure** |
-| Parameters V, G, Q, P (Italian model): V = PEM (value of the works), G = degree of complexity (Table Z-1), ΣQ = aggregated incidence of the commission's phases (Table Z-2), P = 0.03 + 10/V^0.4 | Tables Z-1 and Z-2 | DM 17/6/2016 — **regulatory (Italy)**; the G and ΣQ used by this tool are an indicative aggregated categorisation, not the decree's line-by-line breakdown — see [Legal Framework]({{ '/en/marco-legal/' | relative_url }}) |
+| Parameters V, G, Q, P (Italian model): V = PEM (value of the works), G = degree of complexity (Table Z-1), ΣQ = aggregated incidence of the commission's phases (Table Z-2), P = 0.03 + 10/V^0.4 | Tables Z-1 and Z-2 | DM 17/6/2016 — **regulatory (Italy)**; the G and ΣQ used by this tool are an indicative aggregated categorisation, not the decree's line-by-line breakdown — see [Legal Framework]({{ '/en/legal-framework/' | relative_url }}) |
 | DM 2016 public-works maximum rebate | 65% fixed / 35% open to rebate; 20% for direct award (< €140,000) | As of 1/1/2025, the Italian *Codice dei Contratti Pubblici* (D.Lgs. 209/2024, amending D.Lgs. 36/2023) limits the admissible rebate on the DM 17/6/2016 parametric tariff: in a tender, 65% of the tariff is fixed (not reducible) and only the remaining 35% can be rebated, which sets the maximum discount range; for direct award (commissions under €140,000), the maximum admissible rebate is 20% — **regulatory (Italy)**, cited as a comparative reference, not applicable in Spain |
 | % of PEM (SEGIPSA) | 6.65%–3.08% depending on bracket and item | [Resolution of 11/5/2015](https://www.boe.es/eli/es/res/2015/05/11/(2)) (BOE 27/5/2015) — **regulatory**, verified against the official text |
 
@@ -93,7 +93,7 @@ drafting projects and site supervision commissioned by the Administration:
 These brackets are the reference used — as a manual check, not applied
 automatically in every case — in this site's calculators. In practice,
 this is the same mechanism as the historical state architects' fee
-tariffs (1905, 1922, 1977 — see [Legal Framework]({{ '/en/marco-legal/' | relative_url }})) —
+tariffs (1905, 1922, 1977 — see [Legal Framework]({{ '/en/legal-framework/' | relative_url }})) —
 a percentage of the cost of the works, decreasing by bracket — applied
 today by the General State Administration itself to its own commissioned
 work.
@@ -176,7 +176,7 @@ off the objection that art. 14 CE "would not apply" because the person is
 self-employed rather than an employee — the very alternative premise that
 underpinned the 1997 liberalisation leads, through a different legal
 route, to the same floor. See also
-[Legal Framework]({{ '/en/marco-legal/' | relative_url }}#3-spanish-administrative-regulations).
+[Legal Framework]({{ '/en/legal-framework/' | relative_url }}#3-spanish-administrative-regulations).
 
 ## 3. Derivation of the MEF floor (by year — see table in section 6)
 
@@ -222,7 +222,7 @@ section 2.
 
 ## 4. Automatic estimation of commission hours (HME)
 
-Explained in detail on the [Evaluator]({{ '/en/herramientas/evaluador/' | relative_url }}#methodology)
+Explained in detail on the [Evaluator]({{ '/en/tools/evaluador/' | relative_url }}#methodology)
 page: in summary, the DM 17/6/2016 formula itself —
 **CP = V·G·ΣQ·P**, with the flat-rate expenses under art. 5 — is applied to
 the PEM entered, where:
@@ -243,7 +243,7 @@ conversion rate of €60.5/h.
 
 As an order-of-magnitude cross-check — not as a second estimator — the
 model's hours can be compared with those implied by the
-[COAM 2007 indicative fee scales]({{ '/en/marco-legal/' | relative_url }})
+[COAM 2007 indicative fee scales]({{ '/en/legal-framework/' | relative_url }})
 (historical, abolished by Law 25/2009). For refurbishment works, the scale
 expresses the fee as a function of the PEM (§2.2.1: H = CP·PEM·K/20, with
 CP = 0.5 + 6·(M/PEM)^0.2, maximum 2.5) and sets the equivalence 1 module =
@@ -461,10 +461,10 @@ Source: own elaboration from Spain's gross median and average wage for
 
 ## More information
 
-[**Pay-discrimination evaluator →**]({{ '/en/herramientas/evaluador/' | relative_url }})
-[**Fee band estimator →**]({{ '/en/herramientas/estimacion/' | relative_url }})
-[**Historical comparison of the fee regulations (1905–1977) →**]({{ '/en/herramientas/normas-historicas/' | relative_url }})
-[**See the full Legal Framework →**]({{ '/en/marco-legal/' | relative_url }})
+[**Pay-discrimination evaluator →**]({{ '/en/tools/evaluador/' | relative_url }})
+[**Fee band estimator →**]({{ '/en/tools/estimacion/' | relative_url }})
+[**Historical comparison of the fee regulations (1905–1977) →**]({{ '/en/tools/normas-historicas/' | relative_url }})
+[**See the full Legal Framework →**]({{ '/en/legal-framework/' | relative_url }})
 
 ---
 

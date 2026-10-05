@@ -30,7 +30,7 @@ The self-employed professional must be protected against discriminatory treatmen
 > *"All Spaniards have the duty to work and the right to work, to the free choice of profession or trade, to advancement through work, and to sufficient remuneration to satisfy their needs and those of their family, and under no circumstances may they be discriminated against on grounds of sex."*
 
 **Application to MEF:**
-"Sufficient remuneration" must be equivalent for equivalent work, unless it is not possible to achieve this. This site shows, through calculators ([tools section]({{ '/en/herramientas/' | relative_url }})), that it is possible to carry out calculations that achieve a high degree of equivalence between the effective remuneration of the self-employed worker and that received by an employee, thereby showing that the unequal protection of the remuneration of the two types of worker is unjustified.
+"Sufficient remuneration" must be equivalent for equivalent work, unless it is not possible to achieve this. This site shows, through calculators ([tools section]({{ '/en/tools/' | relative_url }})), that it is possible to carry out calculations that achieve a high degree of equivalence between the effective remuneration of the self-employed worker and that received by an employee, thereby showing that the unequal protection of the remuneration of the two types of worker is unjustified.
 
 #### Relevant constitutional case law
 
@@ -195,7 +195,7 @@ very alternative premise — that the self-employed professional is a
 business, the premise that underpinned the 1997 liberalisation — leads,
 through a different legal route, to the same floor. See the technical
 development of this complementarity in the
-[technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }}).
+[technical methodology]({{ '/en/tools/metodologia/' | relative_url }}).
 
 **General Regulation of the Public Administration Contracts Act (RGLCAP),
 approved by Royal Decree 1098/2001, art. 131** — sets the standard
@@ -205,7 +205,7 @@ HME uses, by analogy, 15% overheads — the midpoint of the range the Act
 explicitly sets out — and 6% industrial profit to calculate the **cost
 floor** (the practice's real production cost), distinct from the actual
 anti-discrimination MEF floor — see the
-[technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }}).
+[technical methodology]({{ '/en/tools/metodologia/' | relative_url }}).
 
 ### CNC/CNMC reports and decisions
 
@@ -267,7 +267,7 @@ Approves the "Tariff of fees of Architects for the works of their profession," m
 to 2024–2026 euros, converge with the employer cost under the current
 collective agreement — evidence that these State-regulated minimums are
 not an arbitrary figure. See the
-[full historical comparison]({{ '/en/herramientas/normas-historicas/' | relative_url }}).
+[full historical comparison]({{ '/en/tools/normas-historicas/' | relative_url }}).
 
 #### COAM — Indicative fee scales 2007 (adapted to the CTE building code)
 
@@ -276,7 +276,7 @@ A historical indicative-reference document of the Madrid Official Association of
 
 #### SEGIPSA — Resolution of 11 May 2015 (BOE no. 126, 27/5/2015)
 
-SEGIPSA (Sociedad Estatal de Gestión Inmobiliaria de Patrimonio, S.A.), an in-house instrumental body of the Spanish General State Administration, applies percentage tariffs on the Execution Cost Budget (PEM) — between 3.08% and 6.65% depending on bracket and item — for drafting projects and site supervision commissioned by the Administration. In practice, this is the very same mechanism as the state tariffs of 1905, 1922 and 1977 — a percentage of the cost of the works, decreasing by bracket — applied today by the General State Administration itself to its own commissioned work. The full breakdown by bracket, used as a reference in this site's [calculation tools]({{ '/en/herramientas/' | relative_url }}), is in the [technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }}).
+SEGIPSA (Sociedad Estatal de Gestión Inmobiliaria de Patrimonio, S.A.), an in-house instrumental body of the Spanish General State Administration, applies percentage tariffs on the Execution Cost Budget (PEM) — between 3.08% and 6.65% depending on bracket and item — for drafting projects and site supervision commissioned by the Administration. In practice, this is the very same mechanism as the state tariffs of 1905, 1922 and 1977 — a percentage of the cost of the works, decreasing by bracket — applied today by the General State Administration itself to its own commissioned work. The full breakdown by bracket, used as a reference in this site's [calculation tools]({{ '/en/tools/' | relative_url }}), is in the [technical methodology]({{ '/en/tools/metodologia/' | relative_url }}).
 [Download the SEGIPSA Resolution (BOE 27/5/2015)]({{ '/assets/docs/segipsa-boe-2015-es.pdf' | relative_url }}) *(Spanish original)*
 
 ---
@@ -337,7 +337,7 @@ summarised below.
 - **Art. 5**: flat-rate ancillary expenses (*oneri accessori forfettari*) — up to 25% of the fee for works valued at ≤ €1,000,000, down to 10% for works ≥ €25,000,000, with linear interpolation between the two thresholds.
 - **Art. 6.2**: for services not covered by the tables, reference hourly rates: professionista incaricato €50–75/h, aiuto iscritto €37–50/h, aiuto di concetto €30–37/h.
 
-These hourly rates under art. 6.2 are the basis of the amount↔hours conversion factor (€60.5/h) used in this site's [calculation tools]({{ '/en/herramientas/' | relative_url }}), updating the lower end of the band (€50/h, 2016) by cumulative Italian CPI 2016→2024.
+These hourly rates under art. 6.2 are the basis of the amount↔hours conversion factor (€60.5/h) used in this site's [calculation tools]({{ '/en/tools/' | relative_url }}), updating the lower end of the band (€50/h, 2016) by cumulative Italian CPI 2016→2024.
 [Download DM 17/6/2016 (full text with Tables Z-1 and Z-2)]({{ '/assets/docs/dm-17-giugno-2016-it.pdf' | relative_url }}) *(Italian original)*
 
 **Decreto Legislativo 31 dicembre 2024, n. 209** ("Supplementary and corrective provisions to the public contracts code," amending the Public Contracts Code, D.Lgs. 36/2023; published in Gazzetta Ufficiale no. 17 of 22/1/2025). This is the instrument that consolidates and updates the current Italian public-procurement framework within which the DM 17/6/2016 parameter system continues to operate by reference. No specific article of this decree is cited here: it is referenced only as evidence that the Italian parametric-fee model remains in force and under active legislative development, not as the source of any specific figure or formula used on this site.

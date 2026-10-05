@@ -29,7 +29,7 @@ personality of its own and no associated commercial activity.
 This site **has no database of its own and no admin panel**: it is hosted
 as static pages (GitHub Pages) and does not directly store any personal
 data. The only personal data collected is what you voluntarily enter
-yourself in the [contact form]({{ '/en/recursos/contacto/' | relative_url }}),
+yourself in the [contact form]({{ '/en/resources/contacto/' | relative_url }}),
 for two distinct purposes:
 
 | Purpose | Data processed | Legal basis |

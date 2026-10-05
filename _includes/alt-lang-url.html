@@ -1,0 +1,15 @@
+{%- comment -%}
+  Calcula en `alt_url` la URL de la misma página en el otro idioma.
+  Las secciones inglesas tienen nombre propio (/en/tools/ ↔ /herramientas/, etc.).
+  Para añadir una sección nueva con nombre distinto, añádela a las dos cadenas.
+{%- endcomment -%}
+{%- if page.lang == 'en' -%}
+  {%- assign alt_url = page.url | remove_first: '/en' | replace_first: '/tools/', '/herramientas/' | replace_first: '/legal-framework/', '/marco-legal/' | replace_first: '/news/', '/noticias/' | replace_first: '/resources/', '/recursos/' | replace_first: '/publications/', '/publicaciones/' -%}
+  {%- if alt_url == '' -%}{%- assign alt_url = '/' -%}{%- endif -%}
+{%- else -%}
+  {%- if page.url == '/' -%}
+    {%- assign alt_url = '/en/' -%}
+  {%- else -%}
+    {%- assign alt_url = '/en' | append: page.url | replace_first: '/herramientas/', '/tools/' | replace_first: '/marco-legal/', '/legal-framework/' | replace_first: '/noticias/', '/news/' | replace_first: '/recursos/', '/resources/' | replace_first: '/publicaciones/', '/publications/' -%}
+  {%- endif -%}
+{%- endif -%}

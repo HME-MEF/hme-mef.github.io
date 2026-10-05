@@ -4,7 +4,7 @@ lang: en
 title: "Pay-discrimination evaluator"
 ---
 
-[← Back to Tools]({{ '/en/herramientas/' | relative_url }})
+[← Back to Tools]({{ '/en/tools/' | relative_url }})
 
 {% include beta-notice.html %}
 
@@ -25,7 +25,7 @@ from professional-association criteria.
 
 If what you need is to calculate in advance a reference band for a
 commission — instead of evaluating a figure already offered — use the
-[**fee band estimator →**]({{ '/en/herramientas/estimacion/' | relative_url }}).
+[**fee band estimator →**]({{ '/en/tools/estimacion/' | relative_url }}).
 
 ### Scope
 
@@ -39,7 +39,7 @@ commission — instead of evaluating a figure already offered — use the
   commissions in other professions.
 
 <div style="margin:24px 0;">
-  <iframe src="{{ '/en/herramientas/calculadora-indicios.html' | relative_url }}"
+  <iframe src="{{ '/en/tools/calculadora-indicios.html' | relative_url }}"
           style="width:100%; height:1550px; border:none; border-radius:8px;"
           title="Pay-discrimination evaluator">
   </iframe>
@@ -88,14 +88,14 @@ evaluated amount against them:
   depending on the year): HME × MEF hourly rate — the actual
   anti-discrimination floor. See
   the
-  [technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }}#6-data-and-results-by-year-2023-2027)
+  [technical methodology]({{ '/en/tools/metodologia/' | relative_url }}#6-data-and-results-by-year-2023-2027)
   for the exact value for each year and why some figures stay constant for
   lack of a more recent official figure.
 
 The SEGIPSA and Italian DM tables shown alongside the result are for manual
 reference and are not applied automatically in the calculation. The SEGIPSA
 brackets are verified directly against the Resolution of 11/5/2015 (BOE
-27/5/2015) — see [Legal Framework]({{ '/en/marco-legal/' | relative_url }}).
+27/5/2015) — see [Legal Framework]({{ '/en/legal-framework/' | relative_url }}).
 The building-type/complexity categorisation used for G is an indicative
 simplification by broad groups of the full Table Z-1, just as ΣQ is an
 aggregated approximation of Table Z-2, not the decree's line-by-line
@@ -105,7 +105,7 @@ Every input (reference salary, operating costs, utilization rate,
 overheads…) has a different origin and status — regulatory,
 collectively-bargained, industry benchmark, or an editable working
 assumption. Full detail, with the step-by-step derivation of both floors, is
-in the [technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }}).
+in the [technical methodology]({{ '/en/tools/metodologia/' | relative_url }}).
 
 ### Diagnosis
 
@@ -149,8 +149,8 @@ calculated with conservative costs.
 
 ## More information
 
-[**Fee band estimator →**]({{ '/en/herramientas/estimacion/' | relative_url }})
-[**See the calculator's technical methodology →**]({{ '/en/herramientas/metodologia/' | relative_url }})
-[**See the full Legal Framework →**]({{ '/en/marco-legal/' | relative_url }})
-[**Read the academic article →**]({{ '/en/publicaciones/' | relative_url }})
-[**FAQ →**]({{ '/en/recursos/faq/' | relative_url }})
+[**Fee band estimator →**]({{ '/en/tools/estimacion/' | relative_url }})
+[**See the calculator's technical methodology →**]({{ '/en/tools/metodologia/' | relative_url }})
+[**See the full Legal Framework →**]({{ '/en/legal-framework/' | relative_url }})
+[**Read the academic article →**]({{ '/en/publications/' | relative_url }})
+[**FAQ →**]({{ '/en/resources/faq/' | relative_url }})

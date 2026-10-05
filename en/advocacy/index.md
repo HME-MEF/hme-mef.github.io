@@ -178,7 +178,7 @@ Institute for Gender Equality, CJEU case law, Directive 2018/958, European
 Commission Guidelines 2022/C 374/02, the Italian *equo compenso* model) that
 underpin the Minimum Equivalent Fees proposal.
 [Read the article (DOI)](https://doi.org/10.60923/issn.1561-8048/23568) ·
-[See in Publications →]({{ '/en/publicaciones/' | relative_url }})
+[See in Publications →]({{ '/en/publications/' | relative_url }})
 
 ---
 
@@ -231,7 +231,7 @@ complaint before the Spanish Ombudsman.
 Do you know of a similar administrative or judicial action, or would you
 like to propose a collaboration?
 
-[**Contact form →**]({{ '/en/recursos/contacto/' | relative_url }})
+[**Contact form →**]({{ '/en/resources/contacto/' | relative_url }})
 
 ---
 

@@ -9,9 +9,9 @@
         <div class="footer-section">
             <h4>Resources</h4>
             <ul>
-                <li><a href="{{ '/en/publicaciones/' | relative_url }}">Publications</a></li>
-                <li><a href="{{ '/en/marco-legal/' | relative_url }}">Legal Framework</a></li>
-                <li><a href="{{ '/en/recursos/faq/' | relative_url }}">FAQ</a></li>
+                <li><a href="{{ '/en/publications/' | relative_url }}">Publications</a></li>
+                <li><a href="{{ '/en/legal-framework/' | relative_url }}">Legal Framework</a></li>
+                <li><a href="{{ '/en/resources/faq/' | relative_url }}">FAQ</a></li>
             </ul>
         </div>
 
@@ -21,14 +21,14 @@
                 <li><a href="{{ '/en/advocacy/' | relative_url }}">Formal proposals</a></li>
                 <li><a href="{{ '/en/advocacy/#cronologia' | relative_url }}">Timeline</a></li>
                 <li><a href="{{ '/en/advocacy/#documentos' | relative_url }}">Documents</a></li>
-                <li><a href="{{ '/en/noticias/' | relative_url }}">News</a></li>
+                <li><a href="{{ '/en/news/' | relative_url }}">News</a></li>
             </ul>
         </div>
 
         <div class="footer-section">
             <h4>Contact</h4>
             <ul>
-                <li><a href="{{ '/en/recursos/contacto/' | relative_url }}">Contact form</a></li>
+                <li><a href="{{ '/en/resources/contacto/' | relative_url }}">Contact form</a></li>
             </ul>
             <p style="font-size: 0.9em; margin-top: 1rem;">
                 <strong>Author:</strong> {{ site.author }}
@@ -40,7 +40,7 @@
         <p>
             © 2026 HME — Equivalent Minimum Fees. All rights reserved.<br>
             This page is a translation for reference; the original, authoritative version is in
-            <a href="{{ page.url | remove_first: '/en' | relative_url }}">Spanish</a>.<br>
+            {% include alt-lang-url.html %}<a href="{{ alt_url | relative_url }}">Spanish</a>.<br>
             <a href="{{ '/en/legal/privacidad/' | relative_url }}">Privacy</a> •
             <a href="{{ '/en/legal/uso/' | relative_url }}">Terms of Use</a> •
             <a href="{{ '/en/legal/licencia/' | relative_url }}">Licences</a>

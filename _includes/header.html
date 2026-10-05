@@ -13,19 +13,18 @@
             <nav>
                 <ul>
                     <li><a href="{{ '/en/' | relative_url }}" {% if page.url == '/en/' %}class="active"{% endif %}>Home</a></li>
-                    <li><a href="{{ '/en/publicaciones/' | relative_url }}" {% if page.url contains '/publicaciones' %}class="active"{% endif %}>Publications</a></li>
-                    <li><a href="{{ '/en/marco-legal/' | relative_url }}" {% if page.url contains '/marco-legal' %}class="active"{% endif %}>Legal Framework</a></li>
+                    <li><a href="{{ '/en/publications/' | relative_url }}" {% if page.url contains '/publications' %}class="active"{% endif %}>Publications</a></li>
+                    <li><a href="{{ '/en/legal-framework/' | relative_url }}" {% if page.url contains '/legal-framework' %}class="active"{% endif %}>Legal Framework</a></li>
                     <li><a href="{{ '/en/advocacy/' | relative_url }}" {% if page.url contains '/advocacy' %}class="active"{% endif %}>Advocacy</a></li>
-                    <li><a href="{{ '/en/noticias/' | relative_url }}" {% if page.url contains '/noticias' %}class="active"{% endif %}>News</a></li>
-                    <li><a href="{{ '/en/herramientas/' | relative_url }}" {% if page.url contains '/herramientas' %}class="active"{% endif %}>Tools</a></li>
-                    <li><a href="{{ '/en/recursos/faq/' | relative_url }}" {% if page.url contains '/recursos/faq' %}class="active"{% endif %}>FAQ</a></li>
-                    <li><a href="{{ '/en/recursos/contacto/' | relative_url }}" {% if page.url contains '/recursos/contacto' %}class="active"{% endif %}>Contact</a></li>
+                    <li><a href="{{ '/en/news/' | relative_url }}" {% if page.url contains '/news' %}class="active"{% endif %}>News</a></li>
+                    <li><a href="{{ '/en/tools/' | relative_url }}" {% if page.url contains '/tools' %}class="active"{% endif %}>Tools</a></li>
+                    <li><a href="{{ '/en/resources/faq/' | relative_url }}" {% if page.url contains '/resources/faq' %}class="active"{% endif %}>FAQ</a></li>
+                    <li><a href="{{ '/en/resources/contacto/' | relative_url }}" {% if page.url contains '/resources/contacto' %}class="active"{% endif %}>Contact</a></li>
                 </ul>
             </nav>
 
-            {% assign es_url = page.url | remove_first: '/en' %}
-            {% if es_url == '' %}{% assign es_url = '/' %}{% endif %}
-            <a href="{{ es_url | relative_url }}" class="lang-switch" hreflang="es">ES</a>
+            {% include alt-lang-url.html %}
+            <a href="{{ alt_url | relative_url }}" class="lang-switch" hreflang="es">ES</a>
         </div>
     {% else %}
         <div class="header-bar">
@@ -51,12 +50,8 @@
                 </ul>
             </nav>
 
-            {% if page.url == '/' %}
-                {% assign en_url = '/en/' %}
-            {% else %}
-                {% assign en_url = '/en' | append: page.url %}
-            {% endif %}
-            <a href="{{ en_url | relative_url }}" class="lang-switch" hreflang="en">EN</a>
+            {% include alt-lang-url.html %}
+            <a href="{{ alt_url | relative_url }}" class="lang-switch" hreflang="en">EN</a>
         </div>
     {% endif %}
 </header>

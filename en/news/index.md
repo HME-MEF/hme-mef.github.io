@@ -25,8 +25,8 @@ COAM's Fees Working Group.
 It is relevant to HME/MEF for two reasons: first, because it confirms, from
 an independent professional-association source, the content of Law 49/2023
 already cited as a comparative reference in the
-[academic article]({{ '/en/publicaciones/' | relative_url }}) and in the
-[Legal Framework]({{ '/en/marco-legal/' | relative_url }}) section of this
+[academic article]({{ '/en/publications/' | relative_url }}) and in the
+[Legal Framework]({{ '/en/legal-framework/' | relative_url }}) section of this
 site. Second, and above all, because COAM expressly states that, "following
 the mandate of its Assembly of Representatives, it will continue to press
 for the need to amend Spanish regulation to provide architects' work with
@@ -35,7 +35,7 @@ prohibits both minimum fees (Law 7/1997) and indicative professional-
 association scales (Law 25/2009, the "Omnibus Law"), unlike Italy and,
 until the 2021 reform of the German HOAI, Germany — which has since
 replaced its mandatory minimums and maximums with indicative reference
-values (see [Legal Framework]({{ '/en/marco-legal/' | relative_url }})).
+values (see [Legal Framework]({{ '/en/legal-framework/' | relative_url }})).
 COAM clarifies that it disseminates the Italian law solely for
 informational purposes, without it having any legal or indicative value in
 Spain — the same distinction between a "professional-association tariff"
@@ -50,7 +50,7 @@ site maintains.
 ## More information
 
 [**See the full Advocacy timeline →**]({{ '/en/advocacy/' | relative_url }})
-[**See the full Legal Framework →**]({{ '/en/marco-legal/' | relative_url }})
+[**See the full Legal Framework →**]({{ '/en/legal-framework/' | relative_url }})
 
 ---
 

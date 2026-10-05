@@ -50,7 +50,7 @@ The MEF proposal seeks to close this gap through:
 
 > Ricardo Alvira Baeza, *Honorarios Mínimos Profesionales. Un elefante (legislativo) en la habitación* ["Minimum professional fees: a (legislative) elephant in the room"], Proceedings of the 1st Congress of Architects of Madrid (COAM), 2025.
 
-[**See all publications →**]({{ '/en/publicaciones/' | relative_url }})
+[**See all publications →**]({{ '/en/publications/' | relative_url }})
 
 ---
 
@@ -66,22 +66,22 @@ The proposal's origin documents are the [2021 petition]({{ '/assets/docs/peticio
 
 ## On this site you will find
 
-### 📄 [Publications]({{ '/en/publicaciones/' | relative_url }})
+### 📄 [Publications]({{ '/en/publications/' | relative_url }})
 Academic article, COAM 2025 proceedings, related work.
 
-### ⚖️ [Legal Framework]({{ '/en/marco-legal/' | relative_url }})
+### ⚖️ [Legal Framework]({{ '/en/legal-framework/' | relative_url }})
 Analysis of the Spanish Constitution, EU Directives, CJEU case law, legal doctrine.
 
-### 🔧 [Tools]({{ '/en/herramientas/' | relative_url }})
+### 🔧 [Tools]({{ '/en/tools/' | relative_url }})
 An evaluator of indicators of pay discrimination and an estimator of a reference fee band.
 
 ### 📢 [Advocacy]({{ '/en/advocacy/' | relative_url }})
 Legislative proposals, formal submissions, complete timeline of proceedings.
 
-### 📰 [News]({{ '/en/noticias/' | relative_url }})
+### 📰 [News]({{ '/en/news/' | relative_url }})
 Regulatory, case-law and institutional developments relevant to HME/MEF.
 
-### ❓ [FAQ]({{ '/en/recursos/faq/' | relative_url }})
+### ❓ [FAQ]({{ '/en/resources/faq/' | relative_url }})
 Answers to common questions about HME/MEF: concept, legality, implementation and comparisons.
 
 ---
@@ -97,7 +97,7 @@ No. The proposal is grounded in Directive 2006/123/EC (services), art. 15, which
 **What is the proposal based on?**
 On the principle of non-discrimination, recognised both by the Spanish Constitution (arts. 14 and 35) and by the Charter of Fundamental Rights of the EU (arts. 20, 21 and 15): equal work, equivalent remuneration, regardless of whether the contract is one of employment or of services. This approach was formulated in March 2021. It is not based on any foreign model; the Italian cases (DM 17/6/2016 for the calculation method, and Law 49/2023 on *equo compenso* for comparative validation) were incorporated afterwards, as evidence that equivalent formulas already work in other EU Member States.
 
-[**More FAQ →**]({{ '/en/recursos/faq/' | relative_url }})
+[**More FAQ →**]({{ '/en/resources/faq/' | relative_url }})
 
 ---
 
@@ -105,7 +105,7 @@ On the principle of non-discrimination, recognised both by the Spanish Constitut
 
 Questions, comments or collaboration proposals?
 
-[**Contact form →**]({{ '/en/recursos/contacto/' | relative_url }})
+[**Contact form →**]({{ '/en/resources/contacto/' | relative_url }})
 
 ---
 

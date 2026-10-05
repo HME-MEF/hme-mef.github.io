@@ -4,12 +4,12 @@ lang: en
 title: "Fee band estimator"
 ---
 
-[← Back to Tools]({{ '/en/herramientas/' | relative_url }})
+[← Back to Tools]({{ '/en/tools/' | relative_url }})
 
 {% include beta-notice.html %}
 
 This tool answers a different question from the
-[pay-discrimination evaluator]({{ '/en/herramientas/evaluador/' | relative_url }}):
+[pay-discrimination evaluator]({{ '/en/tools/evaluador/' | relative_url }}):
 instead of comparing an amount already offered or awarded, it calculates
 **in advance** a band of objective references for a commission to **draft a
 project and/or supervise a site**, based on its PEM (construction budget),
@@ -21,7 +21,7 @@ its building type and its scope.
 > that HME/MEF wants to correct. Publishing a band of cost and value
 > references — open, with their origin documented and checkable by anyone —
 > is not the same as a professional-association tariff: the case law (CJEU
-> *Cipolla*, see [Legal Framework]({{ '/en/marco-legal/' | relative_url }}))
+> *Cipolla*, see [Legal Framework]({{ '/en/legal-framework/' | relative_url }}))
 > distinguishes by who sets the figure and how, not by whether the figure is
 > public.
 
@@ -29,10 +29,10 @@ its building type and its scope.
 is obliged to fall within the band or above it; it is a cost-and-value
 reference for reasoning about one's own quote, with the origin of every
 input made explicit in the
-[technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }}).
+[technical methodology]({{ '/en/tools/metodologia/' | relative_url }}).
 
 <div style="margin:24px 0;">
-  <iframe src="{{ '/en/herramientas/calculadora-estimacion.html' | relative_url }}"
+  <iframe src="{{ '/en/tools/calculadora-estimacion.html' | relative_url }}"
           style="width:100%; height:1500px; border:none; border-radius:8px;"
           title="Reference fee band estimator">
   </iframe>
@@ -63,7 +63,7 @@ Besides the band, the calculator shows two **comparative references**
 
 | Reference | What it measures |
 |---|---|
-| **Anti-dumping floor** | Threshold for covering the practice's real costs, without industrial profit. Below it, selling is treated as below-cost under art. 17 of Spain's Unfair Competition Act (Ley 3/1991). It shares a legal basis with the MEF floor: both converge on the same practical floor from different premises (a competing business vs. equivalence to employed work) — see the [technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }}). |
+| **Anti-dumping floor** | Threshold for covering the practice's real costs, without industrial profit. Below it, selling is treated as below-cost under art. 17 of Spain's Unfair Competition Act (Ley 3/1991). It shares a legal basis with the MEF floor: both converge on the same practical floor from different premises (a competing business vs. equivalence to employed work) — see the [technical methodology]({{ '/en/tools/metodologia/' | relative_url }}). |
 | **Italy, fixed share** (public commissions only) | Non-discountable share in Italian public tenders: 65% of the fee if ≥€140,000, 80% if below that (art. 41.15-bis of the Codice dei Contratti Pubblici). Italian regulation, not binding in Spain. |
 
 ### Caveats
@@ -78,9 +78,9 @@ Besides the band, the calculator shows two **comparative references**
 
 ## More information
 
-[**Pay-discrimination evaluator →**]({{ '/en/herramientas/evaluador/' | relative_url }})
-[**See the calculator's technical methodology →**]({{ '/en/herramientas/metodologia/' | relative_url }})
-[**See the full Legal Framework →**]({{ '/en/marco-legal/' | relative_url }})
+[**Pay-discrimination evaluator →**]({{ '/en/tools/evaluador/' | relative_url }})
+[**See the calculator's technical methodology →**]({{ '/en/tools/metodologia/' | relative_url }})
+[**See the full Legal Framework →**]({{ '/en/legal-framework/' | relative_url }})
 
 ---
 
