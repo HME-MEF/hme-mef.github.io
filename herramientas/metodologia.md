@@ -260,6 +260,13 @@ llevar el PEM a euros de 2007 (factor IPC 2007→2024 ≈ 1,39) y con K = 1:
 | 5.000.000 | 6.366 h | 6.192 h | 0,97 |
 | 10.000.000 | 11.173 h | 11.321 h | 1,01 |
 
+![Horas estimadas según el PEM con el modelo HME (DM 2016) y con el baremo COAM 2007: las tres curvas crecen casi en paralelo entre 100.000 € y 10 M€]({{ '/assets/img/horas-hme-vs-coam-2007-es.svg' | relative_url }})
+
+*Horas estimadas según el PEM. La escala logarítmica en ambos ejes hace que
+curvas que crecen con el PEM parezcan casi paralelas: la coincidencia visual
+es en buena parte mecánica, y la información relevante está en la razón
+COAM/HME de la tabla.*
+
 Las horas equivalentes del baremo COAM 2007 están en el mismo orden de
 magnitud que las del modelo, con una diferencia de entre −40 % y +20 %
 según los supuestos. El signo de la diferencia **no es robusto**: depende

@@ -260,6 +260,13 @@ with K = 1:
 | 5,000,000 | 6,366 h | 6,192 h | 0.97 |
 | 10,000,000 | 11,173 h | 11,321 h | 1.01 |
 
+![Estimated hours by PEM with the HME model (DM 2016) and with the COAM 2007 scale: the three curves grow almost in parallel between €100,000 and €10M]({{ '/assets/img/horas-hme-vs-coam-2007-en.svg' | relative_url }})
+
+*Estimated hours by PEM. The logarithmic scale on both axes makes curves that
+grow with the PEM look almost parallel: the visual match is largely
+mechanical, and the relevant information is the COAM/HME ratio in the
+table.*
+
 The equivalent hours of the COAM 2007 scale are of the same order of
 magnitude as the model's, with a difference of between −40% and +20%
 depending on the assumptions. The sign of the difference is **not
