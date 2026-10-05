@@ -260,7 +260,10 @@ cumplimiento al mandato constitucional de no discriminación (arts. 14 y
 35 CE). El mismo razonamiento se aplicaría al SMI o a los salarios de
 convenio: eliminarlos reduciría el coste laboral asalariado, pero eso no
 los convierte en indeseables, porque responden a un mandato de protección
-retributiva. La pregunta relevante no es si HME eleva o no el coste, sino
+retributiva: garantizar una existencia digna a quien trabaja (art. 23.3 de
+la Declaración Universal de Derechos Humanos; art. 31 de la CDFUE) y, con
+ello, contribuir a la cohesión social y a un crecimiento económico
+equilibrado, de interés general. La pregunta relevante no es si HME eleva o no el coste, sino
 si ese suelo retributivo es necesario y proporcionado para corregir una
 discriminación —cuestión abordada en el [Marco Legal]({{ '/marco-legal/' | relative_url }}).
 

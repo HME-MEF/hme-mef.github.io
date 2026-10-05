@@ -261,7 +261,10 @@ non-discrimination (arts. 14 and 35 of the Spanish Constitution). The same
 reasoning would apply to the SMI (national minimum wage) or to
 collectively-bargained wages: removing them would lower salaried labour
 costs, but that does not make them undesirable, because they respond to a
-mandate of remuneration protection. The relevant question is not whether
+mandate of remuneration protection: ensuring a dignified existence for those
+who work (art. 23(3) of the Universal Declaration of Human Rights; art. 31 of
+the EU Charter of Fundamental Rights) and, in doing so, contributing to social
+cohesion and balanced economic growth, in the general interest. The relevant question is not whether
 MEF raises costs, but whether that remuneration floor is necessary and
 proportionate to correct a discrimination — addressed in the
 [Legal Framework]({{ '/en/marco-legal/' | relative_url }}).
