@@ -147,8 +147,8 @@ Permite acuerdos entre competidores si cumplen condiciones: beneficio consumidor
 **C-377/17 (Comisión c. Alemania, 2019 — caso HOAI)**  
 Declara que las tarifas mínimas y máximas obligatorias de honorarios de arquitectos e ingenieros del sistema alemán (HOAI) eran contrarias a la Directiva 2006/123/CE (la HOAI fue reformada en 2021; ver apartado 4). El propio HME se distingue de ese supuesto: el reproche del TJUE recae sobre un baremo impuesto con carácter general y sin justificación suficiente de necesidad y proporcionalidad, no sobre la posibilidad misma de un mínimo retributivo — de ahí que HME se plantee como una regulación estatal fundamentada en la no discriminación (art. 14 y 35 CE) y sometida al test de proporcionalidad de la Directiva (UE) 2018/958, no como un baremo colegial.
 
-**C-19/23**  
-Sentencia reciente del TJUE que confirma la validez de la mayor parte de las disposiciones de la Directiva (UE) 2022/2041 sobre salarios mínimos adecuados, consolidando el principio de remuneración justa en el seno de la Unión Europea.
+**C-19/23 (11/11/2025)**  
+Sentencia del TJUE que confirma la validez de la mayor parte de las disposiciones de la Directiva (UE) 2022/2041 sobre salarios mínimos adecuados —anulando solo parcialmente su art. 5—, consolidando el principio de remuneración justa de los trabajadores asalariados en el seno de la Unión Europea. La extensión de este principio a los trabajadores autónomos es el objetivo de la propuesta HME.
 
 ---
 

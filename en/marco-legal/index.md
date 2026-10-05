@@ -148,8 +148,8 @@ Permits agreements between competitors if certain conditions are met: consumer b
 **C-377/17 (Commission v. Germany, 2019 — the HOAI case)**
 Holds that the mandatory minimum and maximum fees for architects' and engineers' services under the German system (HOAI) were contrary to Directive 2006/123/EC (the HOAI was reformed in 2021; see section 4). HME/MEF distinguishes itself from that case: the CJEU's objection targets a scale imposed generally and without sufficient justification of necessity and proportionality, not the very possibility of a remuneration floor — which is why HME/MEF is framed as state regulation grounded in non-discrimination (arts. 14 and 35 CE) and subject to the proportionality test of Directive (EU) 2018/958, not as a professional-association scale.
 
-**C-19/23**
-A recent CJEU judgment confirming the validity of most of the provisions of Directive (EU) 2022/2041 on adequate minimum wages, consolidating the principle of fair remuneration within the European Union.
+**C-19/23 (11/11/2025)**  
+A CJEU judgment confirming the validity of most of the provisions of Directive (EU) 2022/2041 on adequate minimum wages —annulling only part of its Art. 5—, consolidating the principle of fair remuneration of employed workers within the European Union. Extending this principle to self-employed workers is the aim of the HME proposal.
 
 ---
 
