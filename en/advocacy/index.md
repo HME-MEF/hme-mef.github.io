@@ -147,6 +147,9 @@ admission/inadmission regime for petitions, the chilling effect of the costs
 regime on the exercise of fundamental rights, and the principle of good
 administration (art. 41 of the Charter of Fundamental Rights of the European
 Union).
+(On the chilling effect of costs, see also the case law cited in the
+[cassation appeal]({{ '/assets/docs/recurso-casacion-2024-09.pdf' | relative_url }}) *(ES)*:
+STC 242/1993, STS 910/2017 and STS 1345/2019.)
 [View the complaint]({{ '/assets/docs/queja-defensor-2026-03.pdf' | relative_url }}) *(ES)*
 
 **04/06/2026** — Resolution of the Spanish Ombudsman (case file 26010099,
