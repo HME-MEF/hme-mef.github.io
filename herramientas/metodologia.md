@@ -154,12 +154,7 @@ no por debajo de coste más beneficio; el suelo de coste completo (con BI)
 es, por tanto, más exigente que el umbral legal de no dumping.
 
 **Nota — por qué el modelo mantiene MEF y antidumping como referencias
-"sólidas", y no la Directiva (UE) 2022/2041:**
-la Directiva (UE) 2022/2041 (adecuación salarial) no se incluye como tercera
-referencia comparativa: al ser un suelo de salario mínimo y no de empleo
-equivalente, quedaría siempre por debajo del suelo MEF principal sin aportar
-un umbral adicional distinto, y su presencia en la gráfica introduciría más
-confusión que valor informativo. El modelo mantiene **dos** referencias con
+"sólidas":** el modelo mantiene **dos** referencias con
 fundamento jurídico sólido —MEF (art. 14 CE) y antidumping (art. 17 Ley
 3/1991)— frente al suelo de coste con beneficio industrial, cuyo
 fundamento es solo una analogía regulatoria (art. 131 RGLCAP, una norma

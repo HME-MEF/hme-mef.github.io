@@ -154,12 +154,7 @@ The full cost floor (with industrial profit) is therefore stricter than
 the legal no-dumping threshold.
 
 **Note — why the model keeps MEF and anti-dumping as the "solid"
-references, and not Directive (EU) 2022/2041:** Directive (EU) 2022/2041
-(wage adequacy) is not included as a third comparative reference: as a
-minimum-wage floor rather than an equivalent-employment one, it would always sit
-below the main MEF floor without adding a distinct additional threshold, and its
-presence in the chart would cause more confusion than informational value. The
-model keeps **two** references
+references:** the model keeps **two** references
 with a solid legal basis — MEF (art. 14 CE) and anti-dumping (art. 17,
 Law 3/1991) — as against the cost floor with industrial profit, whose
 basis is only a regulatory analogy (art. 131 RGLCAP, a public-procurement
