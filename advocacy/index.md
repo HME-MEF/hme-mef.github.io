@@ -136,6 +136,9 @@ paradoja del régimen de admisión/inadmisión de peticiones, el efecto disuasor
 del régimen de costas en el ejercicio de derechos fundamentales, y el principio de
 buena administración (art. 41 de la Carta de los Derechos Fundamentales de la
 Unión Europea).
+(Sobre el efecto disuasorio de las costas, véase también la jurisprudencia citada
+en el [recurso de casación]({{ '/assets/docs/recurso-casacion-2024-09.pdf' | relative_url }}):
+STC 242/1993, STS 910/2017 y STS 1345/2019.)
 [Ver queja]({{ '/assets/docs/queja-defensor-2026-03.pdf' | relative_url }})
 
 **04/06/2026** — Resolución del Defensor del Pueblo (expediente 26010099,
