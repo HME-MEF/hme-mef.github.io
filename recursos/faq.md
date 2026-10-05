@@ -31,11 +31,16 @@ normativos y convencionales explícitos (ver
 [memoria técnica]({{ '/herramientas/metodologia/' | relative_url }})):
 
 - **Suelo MEF**: el umbral antidiscriminatorio propiamente dicho —
-  salario de convenio (o SMI) + cotización empresarial + costes
-  operativos, dividido entre horas anuales y facturabilidad.
+  salario de referencia + cotización empresarial + costes operativos,
+  dividido entre horas anuales y facturabilidad. El salario de referencia es
+  el del convenio colectivo cuando la actividad exige legalmente una
+  cualificación o habilitación específica a la que se aplica convenio; cuando
+  no existe tal exigencia, el SMI.
 - **Suelo de coste**: el coste real de producción del estudio (retribución
   de referencia + coeficiente coste-empresa + gastos generales y
-  beneficio industrial, por analogía con el art. 131 RGLCAP).
+  beneficio industrial, por analogía con el art. 131 RGLCAP). Si solo se
+  consideran el coste de empresa y los gastos generales, sin beneficio
+  industrial, se obtiene el umbral antidumping.
 
 ### ¿Por qué se propone HME?
 

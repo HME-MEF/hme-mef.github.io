@@ -31,13 +31,17 @@ The model distinguishes two references, derived from explicit layers of
 regulatory and collectively-bargained data (see the
 [technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }})):
 
-- **MEF floor**: the actual anti-discrimination threshold — the
-  collectively-bargained salary (or the SMI) + employer social security
-  contribution + operating costs, divided by annual hours and the
-  utilization rate.
+- **MEF floor**: the actual anti-discrimination threshold — reference
+  salary + employer social security contribution + operating costs, divided
+  by annual hours and the utilization rate. The reference salary is the
+  collectively-bargained salary where the activity legally requires a
+  specific qualification or authorisation to which a collective agreement
+  applies; where there is no such requirement, the SMI (national minimum wage).
 - **Cost floor**: the practice's real production cost (reference
   remuneration + employer cost-multiplier coefficient + overheads and
-  industrial profit, by analogy with art. 131 RGLCAP).
+  industrial profit, by analogy with art. 131 RGLCAP). If only the employer
+  cost and overheads are considered, without industrial profit, the result is
+  the anti-dumping threshold.
 
 ### Why is MEF proposed?
 
