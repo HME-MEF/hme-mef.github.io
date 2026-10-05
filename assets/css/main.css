@@ -528,6 +528,10 @@ tbody tr:hover {
     color: #ecf0f1;
 }
 
+.footer-section p {
+    text-align: left;
+}
+
 .footer-section h4 {
     color: white;
     margin-top: 0;
