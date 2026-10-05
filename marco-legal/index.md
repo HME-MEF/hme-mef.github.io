@@ -86,6 +86,20 @@ a la liberalización de 1997 (Ley 7/1997): la consideración del autónomo
 como sujeto protegido frente a la discriminación no es posterior ni ajena
 al marco de libre competencia.
 
+### Directiva 2006/123/CE (Directiva de Servicios)
+
+**Artículo 15 — Restricciones a la libre prestación de servicios**
+
+> *"Los Estados miembros podrán mantener o introducir restricciones a la libre prestación de servicios... cuando resulten justificadas por razones imperativas de interés general..."*
+
+**Razones imperativas reconocidas:**
+- Protección de consumidores
+- **Protección de trabajadores y no discriminación**
+- Orden público y seguridad pública
+
+**Aplicación a HME:**  
+Una regulación de mínimos de honorarios puede justificarse bajo "protección de trabajadores" (equiparación retributiva autónomo-empleado).
+
 ### Directrices de la Comisión Europea 2022/C 374/02
 
 Directrices de la Comisión Europea sobre la aplicación del Derecho de la
@@ -106,20 +120,6 @@ carácter general. Su aplicación en España —mediante la Comunicación CNMC
 CNS/DC/902/23— se desarrolla más abajo, en el apartado 3 ("Informes y
 decisiones de la CNMC").
 [Ver Directrices (DOUE C374/2, 2022)](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=OJ:C:2022:374:TOC)
-
-### Directiva 2006/123/CE (Directiva de Servicios)
-
-**Artículo 15 — Restricciones a la libre prestación de servicios**
-
-> *"Los Estados miembros podrán mantener o introducir restricciones a la libre prestación de servicios... cuando resulten justificadas por razones imperativas de interés general..."*
-
-**Razones imperativas reconocidas:**
-- Protección de consumidores
-- **Protección de trabajadores y no discriminación**
-- Orden público y seguridad pública
-
-**Aplicación a HME:**  
-Una regulación de mínimos de honorarios puede justificarse bajo "protección de trabajadores" (equiparación retributiva autónomo-empleado).
 
 ### Tratado de Funcionamiento de la UE (TFUE)
 

@@ -89,6 +89,20 @@ Directive (2006/123/EC) by twenty years and the 1997 liberalisation
 against discrimination is neither later than nor foreign to the free-competition
 framework.
 
+### Directive 2006/123/EC (Services Directive)
+
+**Article 15 — Restrictions on the freedom to provide services**
+
+> *"Member States may maintain or introduce restrictions on the freedom to provide services... where they are justified for overriding reasons relating to the public interest..."*
+
+**Recognised overriding reasons:**
+- Consumer protection
+- **Protection of workers and non-discrimination**
+- Public policy and public security
+
+**Application to MEF:**
+A regulation of minimum fees can be justified under "protection of workers" (equalising remuneration between the self-employed and employees).
+
 ### European Commission Guidelines 2022/C 374/02
 
 European Commission Guidelines on the Application of EU Competition Law
@@ -107,20 +121,6 @@ that MEF proposes more generally. Its application in Spain — through CNMC
 Communication CNS/DC/902/23 — is covered further below, in section 3
 ("CNMC reports and decisions").
 [See the Guidelines (OJ C374/2, 2022)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C:2022:374:TOC)
-
-### Directive 2006/123/EC (Services Directive)
-
-**Article 15 — Restrictions on the freedom to provide services**
-
-> *"Member States may maintain or introduce restrictions on the freedom to provide services... where they are justified for overriding reasons relating to the public interest..."*
-
-**Recognised overriding reasons:**
-- Consumer protection
-- **Protection of workers and non-discrimination**
-- Public policy and public security
-
-**Application to MEF:**
-A regulation of minimum fees can be justified under "protection of workers" (equalising remuneration between the self-employed and employees).
 
 ### Treaty on the Functioning of the European Union (TFEU)
 
