@@ -191,7 +191,7 @@ route, to the same floor. See also
 3. Result: the actual anti-discrimination floor (collective-agreement
    base) — the direct comparison with what it would cost to hire an
    employed professional with the same qualification — and, on the SMI
-   base, the absolute threshold. The values for 2024–2027 are in section 6.
+   base, the absolute threshold. The values for 2023–2027 are in section 6.
 
 This floor is the foundation of MEF: a self-employed worker should not earn,
 for equivalent work, less net remuneration than a salaried worker would

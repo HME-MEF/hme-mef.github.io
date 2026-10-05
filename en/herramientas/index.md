@@ -15,7 +15,7 @@ values from sufficiently well-established data.
 
 Two calculators, two different questions. Both share the same calculation
 engine (automatic estimation of commission hours, cost floor, MEF floor)
-and a **year selector** (2024–2027), documented in the
+and a **year selector** (2023–2027), documented in the
 [technical methodology](#technical-methodology) common to both.
 
 <div class="tools-grid" style="display:flex; gap:24px; flex-wrap:wrap; margin:32px 0;">

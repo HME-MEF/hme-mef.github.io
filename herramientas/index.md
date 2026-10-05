@@ -15,7 +15,7 @@ suficientemente contrastados.
 
 Dos calculadoras, dos preguntas distintas. Ambas comparten el mismo motor
 de cálculo (estimación automática de horas del encargo, suelo de coste,
-suelo MEF) y un **selector de año** (2024–2027), documentados en la
+suelo MEF) y un **selector de año** (2023–2027), documentados en la
 [memoria técnica](#memoria-técnica) común a las dos.
 
 <div class="tools-grid" style="display:flex; gap:24px; flex-wrap:wrap; margin:32px 0;">

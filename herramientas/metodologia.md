@@ -190,7 +190,7 @@ otra vía jurídica, al mismo suelo. Ver también
 3. Resultado: el suelo antidiscriminatorio propiamente dicho (base
    convenio) — la comparación directa con lo que costaría contratar a un
    profesional empleado con la misma cualificación — y, con base SMI, el
-   umbral absoluto. Los valores para 2024–2027 están en la sección 6.
+   umbral absoluto. Los valores para 2023–2027 están en la sección 6.
 
 Este suelo es el fundamento de HME: el trabajador autónomo no debería
 cobrar, por trabajo equivalente, menos remuneración neta que la que
