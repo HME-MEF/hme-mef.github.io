@@ -209,13 +209,6 @@ anti-discrimination MEF floor — see the
 
 ### CNMC reports and decisions
 
-#### CNMC — Communication CNS/DC/902/23 (26/9/2023)
-
-A communication from the Competition Directorate of the CNMC (the Spanish competition authority), issued in response to a query from healthcare professional associations, on the application in Spain of European Commission Guidelines 2022/C 374/02 on the application of EU competition law to collective agreements regarding the working conditions of solo self-employed people.
-
-The CNMC confirms that, under the Guidelines, collective agreements negotiated by solo self-employed people (without employees) fall **outside the scope of art. 101 TFEU** where they are in one of the following situations: (a) economic dependence (≥50% of income from a single counterparty); (b) working "side by side" with employees, under comparable conditions; or (c) dependence on digital platforms. In addition, the Competition Directorate states that, *in principle*, it would not act of its own motion — not a firm exclusion from art. 101 TFEU, but an indication of enforcement priority — even where those situations do not apply, where there is an imbalance of bargaining power vis-à-vis the counterparty: in particular where the counterparty represents an entire sector or has an annual turnover above €2,000,000 or 10 or more employees.
-[Download CNMC communication CNS/DC/902/23]({{ '/assets/docs/cnmc-cns-dc-902-23-2023.pdf' | relative_url }}) *(Spanish original)*
-
 #### CNC — 2009 and 2012 reports (background)
 
 Two reports from the Comisión Nacional de la Competencia (CNC), a body
@@ -243,6 +236,13 @@ nuanced CNMC Communication CNS/DC/902/23 (2023), which does accept
 exceptions for solo self-employed people.
 [Download CNC Report 2009 (professional-services sector)]({{ '/assets/docs/cnc-informe-2009-servicios-profesionales.pdf' | relative_url }}) *(Spanish original)* ·
 [Download CNC Report 2012 (professional associations after the Services Directive)]({{ '/assets/docs/cnc-informe-2012-colegios-directiva-servicios.pdf' | relative_url }}) *(Spanish original)*
+
+#### CNMC — Communication CNS/DC/902/23 (26/9/2023)
+
+A communication from the Competition Directorate of the CNMC (the Spanish competition authority), issued in response to a query from healthcare professional associations, on the application in Spain of European Commission Guidelines 2022/C 374/02 on the application of EU competition law to collective agreements regarding the working conditions of solo self-employed people.
+
+The CNMC confirms that, under the Guidelines, collective agreements negotiated by solo self-employed people (without employees) fall **outside the scope of art. 101 TFEU** where they are in one of the following situations: (a) economic dependence (≥50% of income from a single counterparty); (b) working "side by side" with employees, under comparable conditions; or (c) dependence on digital platforms. In addition, the Competition Directorate states that, *in principle*, it would not act of its own motion — not a firm exclusion from art. 101 TFEU, but an indication of enforcement priority — even where those situations do not apply, where there is an imbalance of bargaining power vis-à-vis the counterparty: in particular where the counterparty represents an entire sector or has an annual turnover above €2,000,000 or 10 or more employees.
+[Download CNMC communication CNS/DC/902/23]({{ '/assets/docs/cnmc-cns-dc-902-23-2023.pdf' | relative_url }}) *(Spanish original)*
 
 ### Regulations specific to architects
 

@@ -235,29 +235,6 @@ antidiscriminatorio MEF propiamente dicho — ver
 
 ### Informes y decisiones de la CNMC
 
-#### CNMC — Comunicación CNS/DC/902/23 (26/9/2023)
-
-Comunicación de la Dirección de Competencia de la CNMC, en respuesta a una
-consulta de asociaciones y colegios de profesionales sanitarios, sobre la
-aplicación a España de las Directrices de la Comisión Europea 2022/C
-374/02 sobre el Derecho de la competencia de la UE y la negociación
-colectiva de personas que trabajan por cuenta propia **sin asalariados**.
-
-La CNMC confirma que, conforme a las Directrices, quedan **fuera del
-ámbito del art. 101 TFUE** los convenios colectivos que negocien
-autónomos sin asalariados que se encuentren en alguna de estas
-situaciones: (a) dependencia económica (≥50% de ingresos de una sola
-contraparte); (b) trabajo "codo con codo" con trabajadores por cuenta
-ajena, en condiciones equiparables; o (c) dependencia de plataformas
-digitales. Además, la Dirección de Competencia señala que, *en
-principio*, no actuaría de oficio —sin que ello constituya una exclusión
-firme del art. 101 TFUE, sino una indicación de prioridad de aplicación—
-aunque no se cumplan esos supuestos, cuando exista un desequilibrio de
-poder de negociación frente a la contraparte: en particular, cuando esta
-represente a todo un sector o tenga un volumen de negocio anual superior
-a 2.000.000 € o 10 o más empleados.
-[Descargar comunicación CNMC CNS/DC/902/23]({{ '/assets/docs/cnmc-cns-dc-902-23-2023.pdf' | relative_url }})
-
 #### CNC — Informes de 2009 y 2012 (antecedentes)
 
 Dos informes de la Comisión Nacional de la Competencia (CNC), organismo
@@ -285,6 +262,29 @@ Comunicación CNMC CNS/DC/902/23 (2023), posterior y más matizada, que sí
 admite excepciones para autónomos sin asalariados.
 [Descargar Informe CNC 2009 (sector de servicios profesionales)]({{ '/assets/docs/cnc-informe-2009-servicios-profesionales.pdf' | relative_url }}) ·
 [Descargar Informe CNC 2012 (colegios profesionales tras la Directiva de Servicios)]({{ '/assets/docs/cnc-informe-2012-colegios-directiva-servicios.pdf' | relative_url }})
+
+#### CNMC — Comunicación CNS/DC/902/23 (26/9/2023)
+
+Comunicación de la Dirección de Competencia de la CNMC, en respuesta a una
+consulta de asociaciones y colegios de profesionales sanitarios, sobre la
+aplicación a España de las Directrices de la Comisión Europea 2022/C
+374/02 sobre el Derecho de la competencia de la UE y la negociación
+colectiva de personas que trabajan por cuenta propia **sin asalariados**.
+
+La CNMC confirma que, conforme a las Directrices, quedan **fuera del
+ámbito del art. 101 TFUE** los convenios colectivos que negocien
+autónomos sin asalariados que se encuentren en alguna de estas
+situaciones: (a) dependencia económica (≥50% de ingresos de una sola
+contraparte); (b) trabajo "codo con codo" con trabajadores por cuenta
+ajena, en condiciones equiparables; o (c) dependencia de plataformas
+digitales. Además, la Dirección de Competencia señala que, *en
+principio*, no actuaría de oficio —sin que ello constituya una exclusión
+firme del art. 101 TFUE, sino una indicación de prioridad de aplicación—
+aunque no se cumplan esos supuestos, cuando exista un desequilibrio de
+poder de negociación frente a la contraparte: en particular, cuando esta
+represente a todo un sector o tenga un volumen de negocio anual superior
+a 2.000.000 € o 10 o más empleados.
+[Descargar comunicación CNMC CNS/DC/902/23]({{ '/assets/docs/cnmc-cns-dc-902-23-2023.pdf' | relative_url }})
 
 ### Normativa específica de arquitectos
 
