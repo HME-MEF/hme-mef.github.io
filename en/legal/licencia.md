@@ -116,4 +116,4 @@ More information about Creative Commons licences: [creativecommons.org](https://
 
 ---
 
-**Last updated**: September 2026
+**Last updated**: October 2026

@@ -235,4 +235,4 @@ like to propose a collaboration?
 
 ---
 
-**Last updated**: September 2026
+**Last updated**: October 2026

@@ -109,7 +109,7 @@ Questions, comments or collaboration proposals?
 
 ---
 
-**Last updated**: September 2026
+**Last updated**: October 2026
 **Site version**: 1.2-advocacy
 
 *This is a translation for reference; the original, authoritative version of this site is in [Spanish]({{ '/' | relative_url }}).*

@@ -357,4 +357,4 @@ propose a collaboration: contribute cost data or professional testimony
 
 ---
 
-**Last updated**: September 2026
+**Last updated**: October 2026

@@ -222,4 +222,4 @@ proponer una colaboración?
 
 ---
 
-**Última actualización**: Septiembre 2026
+**Última actualización**: Octubre 2026

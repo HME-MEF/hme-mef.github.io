@@ -69,4 +69,4 @@ estimación automática de horas, está en la
 
 ---
 
-**Última actualización**: Septiembre 2026
+**Última actualización**: Octubre 2026

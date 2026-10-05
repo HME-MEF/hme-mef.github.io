@@ -108,5 +108,5 @@ En el principio de no discriminación, reconocido tanto por la Constitución Esp
 
 ---
 
-**Última actualización**: Septiembre 2026
+**Última actualización**: Octubre 2026
 **Versión del sitio**: 1.2-advocacy

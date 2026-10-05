@@ -55,4 +55,4 @@ site maintains.
 
 ---
 
-**Last updated**: September 2026
+**Last updated**: October 2026
