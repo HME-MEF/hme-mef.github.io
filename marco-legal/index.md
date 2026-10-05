@@ -173,6 +173,18 @@ de estar tarifados por el Estado con carácter general y pasan a fijarse
 por acuerdo entre las partes, con baremos colegiales de referencia no
 vinculante.
 
+**Ley 25/2009, de 22 de diciembre, de modificación de diversas leyes para
+su adaptación a la Ley sobre el libre acceso a las actividades de
+servicios y su ejercicio (Ley Ómnibus)** — Da nueva redacción a la Ley
+2/1974 de Colegios Profesionales y **suprime los baremos de honorarios
+orientativos**: los colegios profesionales y sus organizaciones
+colegiales no pueden establecer baremos orientativos ni cualquier otra
+orientación, recomendación, directriz, norma o regla sobre honorarios
+profesionales (art. 14 de la Ley 2/1974, en su redacción vigente). Con
+ello se completa la liberalización iniciada en 1997: ya no existen
+tarifas obligatorias ni referencias colegiales de honorarios, ni
+siquiera orientativas.
+
 **Ley 3/1991, de 10 de enero, de Competencia Desleal — Artículo 17
 (Venta a pérdida)** — Prohíbe la venta o prestación de servicios por
 debajo del coste de producción, o del precio de adquisición, cuando sea
@@ -490,6 +502,7 @@ tras un pronunciamiento del TJUE.
 | RD 1/12/1922 (tarifa honorarios) | Tarifa I | [PDF]({{ '/assets/docs/construccion-moderna-1923-tarifas-es.pdf' | relative_url }}) |
 | RD 2512/1977 (tarifa honorarios) | Arts. 1-2, Disp. Transitorias | [PDF]({{ '/assets/docs/rd-2512-1977-tarifas-honorarios-es.pdf' | relative_url }}) |
 | Ley 7/1997 (liberalización) | Art. 5.ñ) | [boe.es](https://www.boe.es) |
+| Ley 25/2009 (Ómnibus) / Ley 2/1974 | Art. 14 Ley 2/1974 | [boe.es](https://www.boe.es) |
 | Ley 3/1991 (Competencia Desleal) | Art. 17 (venta a pérdida) | [boe.es](https://www.boe.es) |
 | COAM, Baremos Orientativos 2007 | — | [PDF]({{ '/assets/docs/coam-baremos-orientativos-2007-es.pdf' | relative_url }}) |
 | SEGIPSA, Resolución 11/5/2015 (BOE 27/5/2015) | Apdo. Segundo.2 | [PDF]({{ '/assets/docs/segipsa-boe-2015-es.pdf' | relative_url }}) |

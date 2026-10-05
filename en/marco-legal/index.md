@@ -161,6 +161,8 @@ This section distinguishes three types of source, of different scope: (a) genera
 
 **Law 7/1997, on Liberalising Measures in Land and Professional Association Matters** — Replaces the mandatory-tariff regime of any professional association with **merely indicative fee scales** (art. 5.ñ), in compliance with competition law. From this point on, professional fees in general are no longer set by the State and are instead agreed between the parties, with non-binding professional-association reference scales.
 
+**Law 25/2009 of 22 December, amending various laws to adapt them to the Law on free access to service activities and their exercise (the "Omnibus Law")** — Rewrites Law 2/1974 on Professional Associations and **abolishes indicative fee scales**: professional associations and their umbrella bodies may not establish indicative scales or any other guidance, recommendation, guideline, rule or standard on professional fees (art. 14 of Law 2/1974, as currently worded). This completes the liberalisation begun in 1997: there are no longer mandatory tariffs or professional-association fee references, not even indicative ones.
+
 **Law 3/1991, of 10 January, on Unfair Competition — Article 17 (Selling
 at a loss)** — Prohibits selling goods or providing services below their
 production cost, or below their acquisition price, where this is liable
@@ -386,6 +388,7 @@ abolishing it altogether — following a CJEU ruling.
 | RD 1/12/1922 (fee tariff) | Tariff I | [PDF]({{ '/assets/docs/construccion-moderna-1923-tarifas-es.pdf' | relative_url }}) *(ES)* |
 | RD 2512/1977 (fee tariff) | Arts. 1-2, Transitional provisions | [PDF]({{ '/assets/docs/rd-2512-1977-tarifas-honorarios-es.pdf' | relative_url }}) *(ES)* |
 | Law 7/1997 (liberalisation) | Art. 5.ñ) | [boe.es](https://www.boe.es) |
+| Law 25/2009 (Omnibus) / Law 2/1974 | Art. 14 Law 2/1974 | [boe.es](https://www.boe.es) |
 | Law 3/1991 (Unfair Competition) | Art. 17 (selling at a loss) | [boe.es](https://www.boe.es) |
 | COAM, Indicative Scales 2007 | — | [PDF]({{ '/assets/docs/coam-baremos-orientativos-2007-es.pdf' | relative_url }}) *(ES)* |
 | SEGIPSA, Resolution 11/5/2015 (BOE 27/5/2015) | Section Second.2 | [PDF]({{ '/assets/docs/segipsa-boe-2015-es.pdf' | relative_url }}) *(ES)* |
