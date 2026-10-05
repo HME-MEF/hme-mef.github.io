@@ -100,7 +100,8 @@ the claim without ruling on the merits.
 **03/09/2024** — Notice of intention to appeal in cassation before the
 Supreme Court (Cassation Appeal 6564/2024) against the judgment. It argues,
 among other grounds: that the judgment orders costs despite acknowledging
-that the Administration breached the right of petition; that it ignores that
+that the petition must be deemed admitted and that it is doubtful that the
+report constitutes the response due; that it ignores that
 the petition transmitted European regulation (Directive 2018/958, CJEU
 ECLI:EU:C:2019:562) unknown to the Ministry, which by itself would generate
 independent legal effects regardless of whether a ruling on the merits was

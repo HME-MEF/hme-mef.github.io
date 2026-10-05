@@ -91,8 +91,8 @@ pronunciarse sobre el fondo.
 
 **03/09/2024** — Preparación de recurso de casación ante el Tribunal Supremo
 (R. Casación 6564/2024) contra la sentencia. Alega, entre otros motivos: que la
-sentencia impone las costas pese a reconocer que la Administración vulneró el
-derecho de petición; que ignora que la petición incorporaba una transmisión de
+sentencia impone las costas pese a reconocer que la petición debía entenderse
+admitida y que es dudoso que el informe constituya la contestación debida; que ignora que la petición incorporaba una transmisión de
 normativa europea (Directiva 2018/958, STJUE ECLI:EU:C:2019:562) desconocida
 por el Ministerio, lo que por sí sola generaría efectos jurídicos autónomos con
 independencia de si procedía o no un pronunciamiento sobre el fondo; y que la
