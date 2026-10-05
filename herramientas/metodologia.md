@@ -316,7 +316,12 @@ salario de convenio o el SMI, la mejor cifra específica del año
 disponible — con la salvedad, ya señalada en la sección 5, de que el
 tamaño de muestra de ACE en España (198–847 respuestas según la edición,
 margen de error ±3,3% a ±7,0% al 95% de confianza) sigue introduciendo
-ruido año a año.
+ruido año a año. Esta limitación es propia de una fuente sectorial privada:
+si la propuesta se aprobara, la retribución de referencia de los empleados
+podría obtenerse de fuentes administrativas oficiales —la Agencia Tributaria
+y la Seguridad Social disponen de datos exhaustivos de rendimientos del
+trabajo y de cotización por grupo profesional—, con cobertura completa y sin
+error muestral.
 
 El suelo MEF **también varía por año**, al depender de los costes
 operativos desagregados (sección 1), que sí tienen variación interanual

@@ -311,7 +311,11 @@ It is chained anyway because, like the collective-agreement salary or
 the SMI, it is the best year-specific figure available — with the
 caveat, already noted in section 5, that ACE's sample size in Spain
 (198–847 responses depending on the edition, margin of error ±3.3% to
-±7.0% at 95% confidence) still introduces year-to-year noise.
+±7.0% at 95% confidence) still introduces year-to-year noise. This limitation is inherent to a private sector survey:
+if the proposal were approved, the employee reference pay could be drawn from
+official administrative sources — the Tax Agency (AEAT) and the Social Security
+administration hold exhaustive data on employment income and on contributions
+by professional group — with full coverage and no sampling error.
 
 The MEF floor **also varies by year**, since it depends on the
 broken-down operating costs (section 1), which do have real year-on-year
