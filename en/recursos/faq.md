@@ -56,17 +56,20 @@ This inequality does not reflect market efficiency; rather, it reflects the
 absence of a legal remuneration floor of the kind that already exists for
 salaried work (SMI, collective agreement).
 
-This gap is not neutral: the gender gap among the self-employed arises
-within a group whose income is already lower than that of employees, so
-self-employed women bear both inequalities; and the self-employed collective
-also has a higher share of older people than the salaried workforce
-(average age 47.2 years versus 43.1, according to Arranz and García-Serrano,
-*Papeles de Economía Española* no. 183, Funcas, 2025). The absence of that
-remuneration floor therefore foreseeably results in indirect
-discrimination on grounds of sex and age — both expressly prohibited
-under art. 14 of the Spanish Constitution and arts. 20, 21 and 15 of the
-Charter of Fundamental Rights of the EU. MEF is therefore also proposed as
-a tool to mitigate these gender and age gaps.
+This gap is not neutral. According to the *Architects' Council of Europe*, the
+gender pay gap exists across all modes of architectural practice (25% on
+average in Europe in 2018), including among the self-employed, who are also
+the lowest-earning group (median of €24,377 in Spain in 2020, versus €28,711
+in private firms); and Eurostat series on the median income of the
+self-employed by sex show gaps of 25% to 34% (2008–2011). Self-employed women
+thus bear both inequalities. The self-employed collective also has a higher
+share of older people than the salaried workforce (average age 47.2 years
+versus 43.1, according to Arranz and García-Serrano, *Papeles de Economía
+Española* no. 183, Funcas, 2025). The absence of a remuneration floor
+therefore foreseeably results in indirect discrimination on grounds of sex and
+age — both expressly prohibited under art. 14 of the Spanish Constitution and
+arts. 20, 21 and 15 of the Charter of Fundamental Rights of the EU. MEF is
+therefore also proposed as a tool to mitigate these gender and age gaps.
 
 ### Isn't this a "tariff" that violates free competition?
 
