@@ -111,11 +111,9 @@ no hay tablas pactadas para esos años.
 | Cotización empresarial (33,01% del salario base) | 9.459,16 € | 5,28 € |
 | **Coste anual para el empleador (salario + cotización)** | **38.123,28 €** | **21,27 €** |
 
-Cifras de la [memoria técnica de la web]({{ '/herramientas/metodologia/' | relative_url }})
-(4 de octubre de 2026): suelo MEF base convenio 28,49 €/h sobre esta
-misma base de 1.792 horas trabajadas (equivalente a 48,05 €/h por hora
-facturable, la cifra que la calculadora muestra desde la corrección de
-facturabilidad y de la partida de software del 4/10/2026 — ver nota en la sección 6) y suelo de
+Cifras de la [memoria técnica de la web]({{ '/herramientas/metodologia/' | relative_url }}): suelo MEF base convenio 28,49 €/h sobre esta misma base de 1.792 horas
+trabajadas (equivalente a 48,05 €/h por hora facturable, la cifra que muestra
+la calculadora — ver nota en la sección 6) y suelo de
 coste 48,90 €/h (2024, con la retribución de referencia ACE 2024). La
 hora de 1977 actualizada a 2024 (59,39 €/h) queda un 21,5% por encima
 del suelo de coste.
@@ -149,21 +147,18 @@ convenio (21,27 €/h = 100).
 | Hora 1977 facturable (ocupación del 100%) | 106.425 € | 59,39 € | +179,2% |
 | Suelo de coste de la calculadora (cifra de su memoria técnica) | 87.629 € | 48,90 € | +129,9% |
 
-**Notas**: las cifras de la calculadora se toman de su memoria técnica
-(4 de octubre de 2026) y se supone que están en euros de 2024. El 59,3%
-de facturabilidad es una referencia de la industria (Deltek), no un dato
-oficial. Los 9.369 € de gastos de esta comparación corresponden a seguro
-de responsabilidad civil, local, software, equipamiento y otros gastos
-corrientes. Desde el 4/10/2026, la calculadora corrige el suelo MEF
-dividiendo por las horas *facturables* (1.792 h × 59,3%) en vez de por
-las 1.792 horas trabajadas de esta tabla — consistente con que las
-"horas" que ambas calculadoras multiplican por el suelo MEF (derivadas
-del honorario italiano ÷ 60,5 €/h) ya son horas facturables. El importe
-anual (51.056 €, tras la corrección de la partida de software del
-4/10/2026) no cambia entre filas; solo cambia la base de horas sobre la
-que se expresa el tipo por hora, lo que explica por qué la fila "por
-hora facturable" de esta tabla (48,05 €/h) no es una cifra distinta,
-sino la misma cifra en otra base.
+**Notas**: las cifras de la calculadora se toman de su memoria técnica y se
+suponen en euros de 2024. El 59,3% de facturabilidad es una referencia de la
+industria (Deltek), no un dato oficial. Los 9.369 € de gastos de esta
+comparación corresponden a seguro de responsabilidad civil, local, software,
+equipamiento y otros gastos corrientes. La calculadora calcula el suelo MEF
+dividiendo por las horas *facturables* (1.792 h × 59,3%), no por las 1.792
+horas trabajadas de esta tabla — consistente con que las "horas" que ambas
+calculadoras multiplican por el suelo MEF (derivadas del honorario italiano
+÷ 60,5 €/h) ya son horas facturables. El importe anual (51.056 €) no cambia
+entre filas; solo cambia la base de horas sobre la que se expresa el tipo por
+hora, lo que explica por qué la fila "por hora facturable" de esta tabla
+(48,05 €/h) no es una cifra distinta, sino la misma cifra en otra base.
 
 **Lectura**: sin gastos de explotación (capa A), los sueldos mínimos de
 1923 y 1905 actualizados quedan muy cerca del coste de empleador del

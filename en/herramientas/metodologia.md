@@ -121,26 +121,20 @@ produce one hour of work, including its margin?" — it is a **cost** floor,
 not an anti-discrimination floor. A fee below this floor is not necessarily
 discriminatory, but it does indicate a price lower than adequate.
 
-**Note — overheads percentage (5 October 2026):** until this date the model
-applied 13% overheads, the lower end of the 13% to 17% range explicitly set
-out in art. 131 RGLCAP. It is replaced by **15%, the midpoint of that range**,
-so as not to place the model at one end of the interval the rule itself
-contemplates. Industrial profit stays at 6%. Effect: the cost floor moves from
-€40.18/h to €40.86/h (2023) and from €48.09/h to €48.90/h (2024–2027), and the
-cost-coverage threshold (without industrial profit) from €38.16/h to €38.83/h
-(2023) and from €45.67/h to €46.48/h (2024–2027), i.e. +1.7% and +1.8%. The
-MEF floor is unaffected: its formula includes no overheads or industrial profit.
+**Note — overheads percentage:** the model applies 15% overheads, the
+midpoint of the 13% to 17% range explicitly set out in art. 131 RGLCAP, so as
+not to place the model at one end of the interval the rule itself contemplates.
+Industrial profit is set at 6%. The MEF floor is not affected by these
+percentages: its formula includes no overheads or industrial profit.
 
 **Note — why only "employees", not averaged with partners/directors:**
-until October 2026 this methodology used the average between the pay of
-"employees" and of "partners/directors" in the private sector (ACE 2020).
-That has been corrected: the cost floor models what it costs a practice
+the cost floor models what it costs a practice
 to produce an hour of work with a team — and on a real commission, most
 hours are produced by employed staff (across seniority levels, already
 aggregated in ACE's "employees of private firms" category), not by
 whoever runs the practice. Averaging 50/50 with a director's pay
-implicitly assumed that half of any commission's hours are done by the
-principal, which overstates the real cost for a typical team. It remains
+would implicitly assume that half of any commission's hours are done by the
+principal, which would overstate the real cost for a typical team. It remains
 an open limitation that, for a self-employed architect working alone and
 billing every hour themselves, their real opportunity cost looks more
 like ACE's "sole principal" figure (€47,772/year in Spain, 2024) than an
@@ -160,15 +154,12 @@ The full cost floor (with industrial profit) is therefore stricter than
 the legal no-dumping threshold.
 
 **Note — why the model keeps MEF and anti-dumping as the "solid"
-references, and not Directive (EU) 2022/2041 (4 October 2026):** until
-this date, the estimator and the evaluator included a third comparative
-reference, calculated by applying the Directive (EU) 2022/2041
-wage-adequacy criterion to the MEF-floor formula (the INE average wage
-instead of the collective-agreement salary). It has been removed: as a
-minimum-wage floor rather than an equivalent-employment one, it always
-sat below the main MEF floor without adding a distinct additional
-threshold, and its presence in the chart caused more confusion than
-informational value. In its place, the model keeps **two** references
+references, and not Directive (EU) 2022/2041:** Directive (EU) 2022/2041
+(wage adequacy) is not included as a third comparative reference: as a
+minimum-wage floor rather than an equivalent-employment one, it would always sit
+below the main MEF floor without adding a distinct additional threshold, and its
+presence in the chart would cause more confusion than informational value. The
+model keeps **two** references
 with a solid legal basis — MEF (art. 14 CE) and anti-dumping (art. 17,
 Law 3/1991) — as against the cost floor with industrial profit, whose
 basis is only a regulatory analogy (art. 131 RGLCAP, a public-procurement
@@ -211,36 +202,28 @@ This floor is the foundation of MEF: a self-employed worker should not earn,
 for equivalent work, less net remuneration than a salaried worker would
 receive for the same work.
 
-**Note — utilization-rate correction (4 October 2026):** until this
-update, step 2 divided directly by 1,792 annual hours, without
-deducting the non-billable fraction. This was inconsistent with the
-rest of the model: the HME estimate's hours (section 4) are obtained by
-dividing Italy's fee by a commercial rate (€60.5/h) that is already a
-*billable* rate, and the cost floor (section 2) already applies this
-same 59.3% utilization rate before adding margin. Multiplying billable
-hours by an MEF floor computed over total hours worked (without
-deducting the non-billable share) artificially spreads the cost over
-fewer hours than actually bear it, understating the resulting MEF floor
-by a constant factor of 1/0.593 ≈ 1.69 relative to what it should be.
-The correction raises the MEF floor from €28.84/h to €48.64/h (2024,
-collective-agreement base), bringing it, as expected, very close to the
-cost floor (€48.90/h, 2024) — even though MEF excludes the 15%/6%
-overhead and industrial profit that the cost floor does carry. This
-closeness after the correction is an internal-consistency check on the
-model, not a sought-after coincidence.
+**Note — utilization rate in the MEF floor:** step 2 divides by annual hours
+adjusted by the utilization rate (1,792 h × 59.3%), not by the full 1,792
+hours. This is consistent with the rest of the model: the HME estimate's hours
+(section 4) are obtained by dividing Italy's fee by a commercial rate
+(€60.5/h) that is already a *billable* rate, and the cost floor (section 2)
+applies this same 59.3% utilization rate before adding margin. Dividing the
+cost by total hours worked rather than billable hours would spread it over more
+hours than are actually billed and artificially understate the MEF floor by a
+constant factor of 1/0.593 ≈ 1.69. On this formulation, the MEF floor (€48.05/h
+in 2024, collective-agreement base) comes, as expected, very close to the cost
+floor (€48.90/h) — even though MEF excludes the 15%/6% overhead and industrial
+profit that the cost floor does carry. This closeness is an internal-consistency
+check on the model, not a sought-after coincidence.
 
-**Note — corroborating the software line item (4 October 2026):** the
-"Software licenses" operating-cost item (section 1) originally used only
-Revit's price (€2,765/year), the most expensive of the three BIM
-packages commonly used in practice. For a less contestable figure, it is
-replaced with the average of Revit's (€2,610/year, Autodesk) and
-ArchiCAD Studio's (€1,659/year, Graphisoft) public list prices —
-€2,134.50/year; Allplan (Nemetschek), the third package considered, has
-no published price list. This lowers operating costs by €630.50/year (a
-fixed figure, the same across all four years) and, with it, the MEF
-floor: €48.64/h → €48.05/h (2024, collective-agreement base). The cost
-floor (€48.90/h) is unaffected, since it is not derived from this
-operating-cost table — see section 2.
+**Note — software line item:** the "Software licenses" operating-cost item
+(section 1) takes the average of Revit's (€2,610/year, Autodesk) and ArchiCAD
+Studio's (€1,659/year, Graphisoft) public list prices — €2,134.50/year —
+instead of the price of the most expensive package, to obtain a less
+contestable figure; Allplan (Nemetschek), the third commonly used BIM package,
+has no published price list. It is a fixed figure, the same across all four
+years. The cost floor is not derived from this operating-cost table — see
+section 2.
 
 ## 4. Automatic estimation of commission hours (HME)
 
@@ -281,7 +264,7 @@ conversion rate of €60.5/h.
   reviewed periodically.
 - Operating costs (€12,885.18-€13,059.92/year depending on the year) are
   calculated for Madrid; in other cities or regions the cost floor will
-  vary. As of this update they are broken down into eight line items each
+  vary. They are broken down into eight line items each
   with its own source (professional association fee, liability insurance,
   workspace, vehicle, software licenses, IT equipment, other current
   expenses) — see the full table and sources in section 1. In the absence
@@ -320,16 +303,12 @@ presuppose a given year in a comparative calculation.
 | 2026 | €28,664 *(no agreed table; 2024 kept)* | €17,094 | €13,059.92 | €48.17/h | €33.69/h | €48.90/h | Official 2026 SMI; operating costs from the 8-item table (section 1); cost floor uses the ACE 2024 remuneration (no edition of its own for 2026); utilization rate and cost-multiplier coefficient with no more recent edition, Deltek FY2025 / EACL 2025 kept |
 | 2027 | €28,664 *(no agreed table; 2024 kept)* | €17,094 *(no RD published; 2026 kept)* | €13,059.92 *(no figure of its own; 2026 kept)* | €48.17/h | €33.69/h | €48.90/h | A year with no figure of its own published yet; all figures are the latest available, including the ACE 2024 remuneration behind the cost floor |
 
-As of October 2026, the cost floor **does vary by year**: it is chained
-to the most recent ACE edition with a figure available for each year
-(2022 for 2023; 2024 for 2024–2027, until a new edition is published),
-the same way the collective-agreement salary and the SMI already were.
-Previously a single fixed figure was used (ACE 2020), deliberately not
-chained, because the figure combined with "partners/directors" showed
-strong swings between editions that looked unreliable to update
-automatically. Limiting the reference remuneration to the "employees of
-private firms" category (see the note in section 2) removes that more
-volatile component — though the employees figure is not perfectly
+The cost floor **varies by year**: it is chained to the most recent ACE edition
+with a figure available for each year (2022 for 2023; 2024 for 2024–2027, until a
+new edition is published), the same way as the collective-agreement salary and
+the SMI. Limiting the reference remuneration to the "employees of private firms"
+category (see the note in section 2) avoids the more volatile component, that of
+partners/directors — though the employees figure is not perfectly
 stable either: in Spain it goes from €26,462/year (ACE 2022) to
 €31,672/year (ACE 2024), a +19.7% rise across two editions, in the same
 order of magnitude as the sector's general wage growth over that period.
@@ -422,11 +401,10 @@ the collective agreement/SMI basis on one hand, and the Directive's
 art. 5(4) indicative values on the other — place the anti-discrimination
 floor for a self-employed architect in a similar range, roughly €33–49/h
 on a billable-hour basis, depending on the chosen reference salary base.
-This reference is kept here as an analytical cross-check, but — since
-4 October 2026 — it is no longer shown as a dashed line in the
-estimator and evaluator calculators (see the note in section 2): as a
-minimum-wage floor rather than an equivalent-employment one, it always
-sat below the main MEF floor without adding a distinct additional
+This reference is kept here as an analytical cross-check, but it is not shown
+as a dashed line in the estimator and evaluator calculators (see the note in
+section 2): as a minimum-wage floor rather than an equivalent-employment one,
+it always sits below the main MEF floor without adding a distinct additional
 threshold, and the model now prioritises the two references with a
 solid legal basis (MEF and anti-dumping).
 

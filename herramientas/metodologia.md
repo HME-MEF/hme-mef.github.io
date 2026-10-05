@@ -120,27 +120,21 @@ una hora de trabajo, incluyendo su margen?" — es un suelo de **coste**,
 no un suelo antidiscriminatorio. Un honorario por debajo de este suelo no
 es necesariamente discriminatorio, pero sí indica un precio inferior al adecuado.
 
-**Nota — porcentaje de gastos generales (5 de octubre de 2026):** hasta esta
-fecha el modelo aplicaba el 13% de gastos generales, el extremo inferior del
-rango del 13% al 17% que fija expresamente el art. 131 RGLCAP. Se sustituye
-por el **15%, valor intermedio de ese rango**, para no situar el modelo en un
-extremo del intervalo que la propia norma contempla. El beneficio industrial
-se mantiene en el 6%. Efecto: el suelo de coste pasa de 40,18 €/h a 40,86 €/h
-(2023) y de 48,09 €/h a 48,90 €/h (2024–2027), y el umbral de cobertura de
-costes (sin BI) de 38,16 €/h a 38,83 €/h (2023) y de 45,67 €/h a 46,48 €/h
-(2024–2027), es decir, +1,7% y +1,8%. El suelo MEF no se ve afectado: su
-fórmula no incluye gastos generales ni beneficio industrial.
+**Nota — porcentaje de gastos generales:** el modelo aplica un 15% de gastos
+generales, valor intermedio del rango del 13% al 17% que fija expresamente el
+art. 131 RGLCAP, para no situarse en un extremo del intervalo que la propia
+norma contempla. El beneficio industrial se fija en el 6%. El suelo MEF no se
+ve afectado por estos porcentajes: su fórmula no incluye gastos generales ni
+beneficio industrial.
 
 **Nota — por qué solo "empleados", sin promediar con directivos/socios:**
-hasta octubre de 2026 esta memoria usaba la media entre la retribución de
-"empleados" y la de "directivos/socios" del sector privado (ACE 2020). Se
-ha corregido: el suelo de coste modela lo que le cuesta a un estudio
+el suelo de coste modela lo que le cuesta a un estudio
 producir una hora de trabajo con un equipo — y en un encargo real, la
 mayoría de las horas las produce personal empleado (de distintos niveles
 de antigüedad, ya agregados en la categoría ACE "empleados de empresas
 privadas"), no quien dirige el estudio. Promediar al 50% con la
-retribución de un directivo asumía implícitamente que la mitad de las
-horas de cualquier encargo las hace el titular, lo que sobrestima el
+retribución de un directivo asumiría implícitamente que la mitad de las
+horas de cualquier encargo las hace el titular, lo que sobrestimaría el
 coste real para un equipo típico. Queda como limitación abierta que, para
 un arquitecto autónomo que trabaja en solitario y redacta todas las horas
 él mismo, su coste de oportunidad real se parece más al de un "sole
@@ -160,15 +154,12 @@ no por debajo de coste más beneficio; el suelo de coste completo (con BI)
 es, por tanto, más exigente que el umbral legal de no dumping.
 
 **Nota — por qué el modelo mantiene MEF y antidumping como referencias
-"sólidas", y no la Directiva (UE) 2022/2041 (4 de octubre de 2026):**
-hasta esta fecha, el estimador y el evaluador incluían una tercera
-referencia comparativa, calculada aplicando a la fórmula del suelo MEF el
-criterio de adecuación salarial de la Directiva (UE) 2022/2041 (salario
-medio del INE en vez de salario de convenio). Se ha retirado: al ser un
-suelo de salario mínimo y no de empleo equivalente, quedaba siempre por
-debajo del suelo MEF principal sin aportar un umbral adicional distinto,
-y su presencia en la gráfica introducía más confusión que valor
-informativo. En su lugar, el modelo mantiene **dos** referencias con
+"sólidas", y no la Directiva (UE) 2022/2041:**
+la Directiva (UE) 2022/2041 (adecuación salarial) no se incluye como tercera
+referencia comparativa: al ser un suelo de salario mínimo y no de empleo
+equivalente, quedaría siempre por debajo del suelo MEF principal sin aportar
+un umbral adicional distinto, y su presencia en la gráfica introduciría más
+confusión que valor informativo. El modelo mantiene **dos** referencias con
 fundamento jurídico sólido —MEF (art. 14 CE) y antidumping (art. 17 Ley
 3/1991)— frente al suelo de coste con beneficio industrial, cuyo
 fundamento es solo una analogía regulatoria (art. 131 RGLCAP, una norma
@@ -210,37 +201,30 @@ Este suelo es el fundamento de HME: el trabajador autónomo no debería
 cobrar, por trabajo equivalente, menos remuneración neta que la que
 recibiría por el mismo trabajo un trabajador asalariado.
 
-**Nota — corrección de facturabilidad (4 de octubre de 2026):** hasta
-esta actualización, el paso 2 dividía directamente por 1.792 horas
-anuales, sin descontar la fracción no facturable. Esto era inconsistente
-con el resto del modelo: las horas de la estimación HME (sección 4) se
-obtienen dividiendo el honorario de Italia por una tarifa comercial
-(60,5 €/h) que ya es una tarifa *facturable*, y el suelo de coste (sección 2)
-sí aplica esta misma facturabilidad del 59,3% antes de añadir el margen.
-Multiplicar horas facturables por un suelo MEF calculado sobre horas
-totales trabajadas (sin descontar la parte no facturable) infla
-artificialmente el reparto del coste entre menos horas de las que
-realmente lo soportan, y rebajaba el suelo MEF resultante en un factor
-constante de 1/0,593 ≈ 1,69 frente a lo que debería ser. La corrección
-eleva el suelo MEF de 28,84 €/h a 48,64 €/h (2024, base convenio) y lo
-sitúa, como es esperable, muy cerca del suelo de coste (48,90 €/h,
-2024) — pese a que el MEF no incluye el 15%/6% de gastos generales y
-beneficio industrial que sí lleva el suelo de coste. La proximidad entre
-ambos suelos tras la corrección es una comprobación de consistencia
-interna del modelo, no una coincidencia buscada.
+**Nota — facturabilidad en el suelo MEF:** el paso 2 divide por las horas
+anuales ajustadas por la facturabilidad (1.792 h × 59,3%), no por las 1.792
+horas totales. Es lo coherente con el resto del modelo: las horas de la
+estimación HME (sección 4) se obtienen dividiendo el honorario de Italia por
+una tarifa comercial (60,5 €/h) que ya es una tarifa *facturable*, y el suelo
+de coste (sección 2) aplica esta misma facturabilidad del 59,3% antes de
+añadir el margen. Dividir el coste entre las horas totales trabajadas, en
+lugar de entre las facturables, lo repartiría entre más horas de las que
+realmente se facturan y rebajaría artificialmente el suelo MEF en un factor
+constante de 1/0,593 ≈ 1,69. Con esta formulación, el suelo MEF (48,05 €/h en
+2024, base convenio) queda, como es esperable, muy cerca del suelo de coste
+(48,90 €/h) —pese a que el MEF no incluye el 15%/6% de gastos generales y
+beneficio industrial que sí lleva el suelo de coste—. Esta proximidad es una
+comprobación de consistencia interna del modelo, no una coincidencia
+buscada.
 
-**Nota — contraste de la partida de software (4 de octubre de 2026):**
-la partida "Licencias de software" de los costes operativos (sección 1)
-usaba inicialmente solo el precio de Revit (2.765 €/año), el más caro de
-los tres modelos BIM de trabajo habituales en el sector. Para una cifra
-menos cuestionable, se sustituye por la media de precios públicos de
-lista de Revit (2.610 €/año, Autodesk) y ArchiCAD Studio (1.659 €/año,
-Graphisoft) — 2.134,50 €/año —; Allplan (Nemetschek), el tercer modelo
-considerado, no publica lista de precios. Esto reduce los costes
-operativos en 630,50 €/año (cifra fija, igual en los cuatro años) y, con
-ello, el suelo MEF: 48,64 €/h → 48,05 €/h (2024, base convenio). El
-suelo de coste (48,90 €/h) no se ve afectado, al no derivarse de esta
-tabla de costes operativos — ver sección 2.
+**Nota — partida de software:** la partida "Licencias de software" de los
+costes operativos (sección 1) toma la media de precios públicos de lista de
+Revit (2.610 €/año, Autodesk) y ArchiCAD Studio (1.659 €/año, Graphisoft) —
+2.134,50 €/año—, en lugar del precio del modelo más caro, para obtener una
+cifra menos cuestionable; Allplan (Nemetschek), el tercer modelo BIM de uso
+habitual, no publica lista de precios. Es una cifra fija, igual en los cuatro
+años. El suelo de coste no se deriva de esta tabla de costes operativos — ver
+sección 2.
 
 ## 4. Estimación automática de horas del encargo (HME)
 
@@ -282,7 +266,7 @@ tarifa de conversión de 60,5 €/h.
   periódicamente.
 - Los costes operativos (12.885,18 €-13.059,92 €/año según el ejercicio)
   están calculados para Madrid; en otras ciudades o regiones el suelo de
-  coste variará. Desde esta actualización están desagregados en ocho
+  coste variará. Están desagregados en ocho
   partidas con fuente específica para cada una (cuota colegial, seguro de
   RC, local, vehículo, licencias de software, equipamiento informático,
   otros gastos corrientes) — ver tabla completa y fuentes en la sección 1.
@@ -323,16 +307,12 @@ defecto, para no dar por supuesto un ejercicio en un cálculo comparativo.
 | 2026 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € | 13.059,92 € | 48,17 €/h | 33,69 €/h | 48,90 €/h | SMI oficial de 2026; costes operativos con la tabla de 8 partidas (sección 1); suelo de coste con retribución ACE 2024 (sin edición propia de 2026); facturabilidad y coeficiente coste-empresa sin edición más reciente, se mantienen Deltek FY2025 / EACL 2025 |
 | 2027 | 28.664 € *(sin tabla pactada; se mantiene 2024)* | 17.094 € *(sin RD publicado; se mantiene 2026)* | 13.059,92 € *(sin dato propio; se mantiene 2026)* | 48,17 €/h | 33,69 €/h | 48,90 €/h | Año sin ningún dato propio publicado todavía; todas las cifras son la última disponible, incluida la retribución ACE 2024 del suelo de coste |
 
-Desde octubre de 2026, el suelo de coste **sí varía por año**: se
-encadena a la edición de ACE más reciente con dato disponible para cada
-ejercicio (2022 para 2023; 2024 para 2024–2027, hasta que se publique
-una nueva edición), igual que ya se hacía con el salario de convenio y
-el SMI. Antes se usaba una única cifra fija (ACE 2020), explícitamente
-sin encadenar, porque el dato combinado con "directivos/socios" mostraba
-oscilaciones fuertes entre ediciones que parecían poco fiables para
-actualizar automáticamente. Al limitar la retribución de referencia a la
-categoría "empleados de empresas privadas" (ver nota en la sección 2),
-se elimina ese componente más volátil — aunque el dato de empleados
+El suelo de coste **varía por año**: se encadena a la edición de ACE más
+reciente con dato disponible para cada ejercicio (2022 para 2023; 2024 para
+2024–2027, hasta que se publique una nueva edición), igual que el salario de
+convenio y el SMI. Al limitar la retribución de referencia a la categoría
+"empleados de empresas privadas" (ver nota en la sección 2) se evita el
+componente más volátil, el de directivos/socios — aunque el dato de empleados
 tampoco es perfectamente estable: en España pasa de 26.462 €/año (ACE
 2022) a 31.672 €/año (ACE 2024), un +19,7% en dos ediciones, dentro del
 mismo orden de magnitud que el crecimiento salarial general del sector
@@ -426,11 +406,10 @@ lado, y los valores orientativos del art. 5.4 de la Directiva, por otro—
 sitúan el suelo antidiscriminatorio de un arquitecto en ejercicio
 independiente en un rango similar, de aproximadamente 33 a 49 €/h sobre
 hora facturable, según la base salarial de referencia elegida. Esta
-referencia se mantiene aquí como contraste analítico, pero —desde el 4 de
-octubre de 2026— ya no se muestra como línea discontinua en las
-calculadoras del estimador y el evaluador (ver nota en la sección 2):
-al ser un suelo de salario mínimo y no de empleo equivalente, quedaba
-siempre por debajo del suelo MEF principal sin aportar un umbral
+referencia se mantiene aquí como contraste analítico, pero no se muestra como
+línea discontinua en las calculadoras del estimador y el evaluador (ver nota
+en la sección 2): al ser un suelo de salario mínimo y no de empleo
+equivalente, queda siempre por debajo del suelo MEF principal sin aportar un umbral
 adicional distinto, y el modelo prioriza las dos referencias con
 fundamento jurídico sólido (MEF y antidumping).
 

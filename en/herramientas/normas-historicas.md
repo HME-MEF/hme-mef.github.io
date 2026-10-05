@@ -116,11 +116,9 @@ there are no agreed tables for those years.
 | Employer social-security contribution (33.01% of base salary) | €9,459.16 | €5.28 |
 | **Total annual employer cost (salary + contribution)** | **€38,123.28** | **€21.27** |
 
-Figures from the [site's technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }})
-(4 October 2026): collective-agreement-based MEF floor €28.49/h on this
-same 1,792-worked-hours basis (equivalent to €48.05/h per billable
-hour, the figure the calculator has shown since the 4/10/2026
-utilization-rate and software-line corrections — see note in section 6) and cost floor
+Figures from the [site's technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }}): collective-agreement-based MEF floor €28.49/h on this same
+1,792-worked-hours basis (equivalent to €48.05/h per billable hour, the figure
+the calculator shows — see note in section 6) and cost floor
 €48.90/h (2024, with the ACE 2024 reference remuneration). The 1977
 hour, updated to 2024 (€59.39/h), is 21.5% above the cost floor.
 
@@ -153,21 +151,18 @@ per hour over 1,792 h, against the collective-agreement employer cost
 | 1977 billable hour (100% occupancy) | €106,425 | €59.39 | +179.2% |
 | Calculator's cost floor (figure from its technical methodology) | €87,629 | €48.90 | +129.9% |
 
-**Notes**: the calculator's figures are taken from its technical
-methodology (4 October 2026) and are assumed to be in 2024 euros. The
-59.3% utilization rate is an industry benchmark (Deltek), not an
-official figure. The €9,369 in expenses in this comparison correspond
-to professional-liability insurance, premises, software, equipment and
-other operating costs. Since 4/10/2026, the calculator corrects the MEF
-floor by dividing by *billable* hours (1,792 h × 59.3%) instead of the
-1,792 worked hours used in this table — consistent with the fact that
-the "hours" both calculators multiply the MEF floor by (derived from
-the Italian fee ÷ €60.5/h) are already billable hours. The annual
-amount (€51,056, after the 4/10/2026 software-line correction) does not
-change between rows; only the hour basis used to express the hourly
-rate changes, which is why the "per billable hour" row in this table
-(€48.05/h) is not a different figure, just the same figure on a
-different basis.
+**Notes**: the calculator's figures are taken from its technical methodology
+and are assumed to be in 2024 euros. The 59.3% utilization rate is an industry
+benchmark (Deltek), not an official figure. The €9,369 in expenses in this
+comparison correspond to professional-liability insurance, premises, software,
+equipment and other operating costs. The calculator computes the MEF floor by
+dividing by *billable* hours (1,792 h × 59.3%) rather than the 1,792 worked
+hours used in this table — consistent with the fact that the "hours" both
+calculators multiply the MEF floor by (derived from the Italian fee ÷
+€60.5/h) are already billable hours. The annual amount (€51,056) does not
+change between rows; only the hour basis used to express the hourly rate
+changes, which is why the "per billable hour" row in this table (€48.05/h) is
+not a different figure, just the same figure on a different basis.
 
 **Reading**: without operating expenses (layer A), the updated 1923 and
 1905 minimum salaries sit very close to the collective-agreement
