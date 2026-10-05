@@ -69,10 +69,9 @@ Besides the band, the calculator shows two **comparative references**
 ### Caveats
 
 - It does not replace professional judgement about the specific commission,
-  nor is it legal advice.
+  nor does it constitute legal advice.
 - No point on the band is a price to be charged: each professional sets
-  their own fee freely, above or below any of these references, except for
-  the MEF floor, which marks the anti-discrimination threshold.
+  their own fee freely.
 - Monetary values should be updated periodically in line with CPI.
 
 ---

@@ -68,12 +68,10 @@ España:
 
 ### Advertencias
 
-- No sustituye el juicio profesional sobre el encargo concreto, ni es
-  asesoramiento jurídico.
+- No sustituye el juicio profesional sobre el encargo concreto, ni
+  constituye asesoramiento jurídico.
 - Ningún punto de la banda es un precio a cobrar: cada profesional fija
-  su honorario libremente, por encima o por debajo de cualquiera de
-  estas referencias, salvo el suelo MEF, que marca el umbral
-  antidiscriminatorio.
+  su honorario libremente.
 - Los valores monetarios deben actualizarse periódicamente conforme al
   IPC.
 
