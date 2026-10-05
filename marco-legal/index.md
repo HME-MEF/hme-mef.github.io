@@ -117,7 +117,7 @@ Es otro referente de Derecho de la UE para HME: reconoce, para ciertos
 trabajadores autónomos, derechos laborales equiparables a los de los
 asalariados. Su aplicación en España —mediante la Comunicación CNMC
 CNS/DC/902/23— se desarrolla más abajo, en el apartado 3 ("Informes y
-decisiones de la CNMC").
+decisiones de la CNC/CNMC").
 [Ver Directrices (DOUE C374/2, 2022)](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=OJ:C:2022:374:TOC)
 
 ### Tratado de Funcionamiento de la UE (TFUE)
@@ -156,7 +156,7 @@ Sentencia del TJUE que confirma la validez de la mayor parte de las disposicione
 
 Esta sección distingue tres tipos de fuentes, de alcance distinto: (a)
 normativa general, aplicable a cualquier colegio profesional o persona
-autónoma; (b) informes y decisiones de la CNMC sobre competencia y
+autónoma; (b) informes y decisiones de la CNC/CNMC sobre competencia y
 negociación colectiva de autónomos; y (c) normativa específica del
 sector de la arquitectura, que es solo un subgrupo —aunque
 particularmente bien documentado— dentro del colectivo de trabajadores
@@ -233,7 +233,7 @@ real de producción de un estudio de arquitectura), distinto del suelo
 antidiscriminatorio MEF propiamente dicho — ver
 [memoria técnica]({{ '/herramientas/metodologia/' | relative_url }}).
 
-### Informes y decisiones de la CNMC
+### Informes y decisiones de la CNC/CNMC
 
 #### CNC — Informes de 2009 y 2012 (antecedentes)
 

@@ -118,7 +118,7 @@ this amounting to a restriction of competition. It is another EU-law
 reference point for MEF: it recognises, for certain self-employed
 workers, labour rights comparable to those of employees. Its application in Spain — through CNMC
 Communication CNS/DC/902/23 — is covered further below, in section 3
-("CNMC reports and decisions").
+("CNC/CNMC reports and decisions").
 [See the Guidelines (OJ C374/2, 2022)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C:2022:374:TOC)
 
 ### Treaty on the Functioning of the European Union (TFEU)
@@ -155,7 +155,7 @@ A CJEU judgment confirming the validity of most of the provisions of Directive (
 
 ## 3. Spanish Administrative Regulations
 
-This section distinguishes three types of source, of different scope: (a) general regulations, applicable to any professional association or self-employed person; (b) CNMC reports and decisions on competition and collective bargaining by self-employed workers; and (c) regulations specific to the architecture sector, which is only one subgroup — though a particularly well-documented one — within the broader group of self-employed workers that MEF addresses.
+This section distinguishes three types of source, of different scope: (a) general regulations, applicable to any professional association or self-employed person; (b) CNC/CNMC reports and decisions on competition and collective bargaining by self-employed workers; and (c) regulations specific to the architecture sector, which is only one subgroup — though a particularly well-documented one — within the broader group of self-employed workers that MEF addresses.
 
 ### General regulations
 
@@ -207,7 +207,7 @@ floor** (the practice's real production cost), distinct from the actual
 anti-discrimination MEF floor — see the
 [technical methodology]({{ '/en/herramientas/metodologia/' | relative_url }}).
 
-### CNMC reports and decisions
+### CNC/CNMC reports and decisions
 
 #### CNC — 2009 and 2012 reports (background)
 
