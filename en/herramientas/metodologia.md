@@ -239,6 +239,45 @@ the PEM entered, where:
 The result (CP, in euros) is converted to hours by dividing by the
 conversion rate of €60.5/h.
 
+### 4.1 Cross-check against the COAM 2007 indicative scale
+
+As an order-of-magnitude cross-check — not as a second estimator — the
+model's hours can be compared with those implied by the
+[COAM 2007 indicative fee scales]({{ '/en/marco-legal/' | relative_url }})
+(historical, abolished by Law 25/2009). For refurbishment works, the scale
+expresses the fee as a function of the PEM (§2.2.1: H = CP·PEM·K/20, with
+CP = 0.5 + 6·(M/PEM)^0.2, maximum 2.5) and sets the equivalence 1 module =
+10 standard hours, with M = €432 and standard hour = €43.20 in 2007. The
+equivalent hours are obtained by dividing the fee by the standard hour,
+after bringing the PEM to 2007 euros (CPI factor 2007→2024 ≈ 1.39) and
+with K = 1:
+
+| PEM (2024 €) | HME model (DM 2016) | COAM 2007 scale | COAM / HME |
+|---:|---:|---:|---:|
+| 300,000 | 723 h | 558 h | 0.77 |
+| 1,000,000 | 1,781 h | 1,551 h | 0.87 |
+| 1,500,000 | 2,438 h | 2,193 h | 0.90 |
+| 5,000,000 | 6,366 h | 6,192 h | 0.97 |
+| 10,000,000 | 11,173 h | 11,321 h | 1.01 |
+
+The equivalent hours of the COAM 2007 scale are of the same order of
+magnitude as the model's, with a difference of between −40% and +20%
+depending on the assumptions. The sign of the difference is **not
+robust**: it depends on (i) the PEM update factor (the crossover between
+the two methods lies at 1.18 for €1M and at 1.41 for €10M); (ii) the
+DM's flat-rate expenses (*forfettari*), which are not working hours and
+which the COAM scale does not include (without them, the COAM figure is
+9–21% higher from €1M upwards); and (iii) the scale's own calculation
+route, since the PEM route yields between 11% and 58% more fee than the
+floor-area route for the same dwelling. Within the complexity range (G from
+0.65 to 1.20 in the DM; K from 0.8 to 1.4 in the COAM) the two bands
+overlap almost entirely.
+
+Caveats: the COAM scale is a fee, not a measure of effort — there is no
+indication that it was calibrated on actual hours — so the "equivalent
+hours" are a unit of account; the CPI factor is approximate; and below
+about €200,000 the cap on CP (2.5) conditions the result.
+
 ---
 
 ## 5. Explicit limitations

@@ -240,6 +240,43 @@ introducido, donde:
 El resultado (CP, en euros) se convierte a horas dividiendo por la
 tarifa de conversión de 60,5 €/h.
 
+### 4.1 Contraste con el baremo orientativo del COAM de 2007
+
+Como contraste de orden de magnitud —no como segundo estimador—, las horas
+del modelo pueden compararse con las que resultan de los
+[baremos orientativos del COAM de 2007]({{ '/marco-legal/' | relative_url }})
+(histórico, suprimido por la Ley 25/2009). Para obras de reforma, el baremo
+expresa el honorario en función del PEM (§2.2.1: H = CP·PEM·K/20, con
+CP = 0,5 + 6·(M/PEM)^0,2, máximo 2,5) y fija la equivalencia 1 módulo =
+10 horas-tipo, con M = 432 € y hora-tipo = 43,20 € en 2007. Las horas
+equivalentes se obtienen dividiendo el honorario entre la hora-tipo, tras
+llevar el PEM a euros de 2007 (factor IPC 2007→2024 ≈ 1,39) y con K = 1:
+
+| PEM (€ de 2024) | Modelo HME (DM 2016) | Baremo COAM 2007 | COAM / HME |
+|---:|---:|---:|---:|
+| 300.000 | 723 h | 558 h | 0,77 |
+| 1.000.000 | 1.781 h | 1.551 h | 0,87 |
+| 1.500.000 | 2.438 h | 2.193 h | 0,90 |
+| 5.000.000 | 6.366 h | 6.192 h | 0,97 |
+| 10.000.000 | 11.173 h | 11.321 h | 1,01 |
+
+Las horas equivalentes del baremo COAM 2007 están en el mismo orden de
+magnitud que las del modelo, con una diferencia de entre −40 % y +20 %
+según los supuestos. El signo de la diferencia **no es robusto**: depende
+de (i) el factor de actualización del PEM (el cruce entre ambos métodos se
+sitúa en 1,18 a 1 M€ y en 1,41 a 10 M€); (ii) los gastos *forfettari* del
+DM, que no son horas de trabajo y que el baremo COAM no incluye (sin ellos,
+el COAM queda un 9–21 % por encima a partir de 1 M€); y (iii) la vía de
+cálculo del propio baremo, ya que la vía por PEM da entre un 11 % y un 58 %
+más de honorario que la vía por superficie para la misma vivienda. Dentro
+del rango de complejidad (G de 0,65 a 1,20 en el DM; K de 0,8 a 1,4 en el
+COAM) ambas bandas se solapan casi por completo.
+
+Salvedades: el baremo COAM es un honorario, no una medición de esfuerzo
+—no consta que se calibrara sobre horas reales—, de modo que las «horas
+equivalentes» son una unidad de cuenta; el factor IPC es aproximado; y por
+debajo de unos 200.000 € el tope de CP (2,5) condiciona el resultado.
+
 ---
 
 ## 5. Limitaciones explícitas
