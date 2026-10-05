@@ -114,10 +114,9 @@ These Guidelines expressly recognise that certain solo self-employed
 people — in a situation of economic dependence, working "side by side"
 with employees, or dependent on digital platforms — may collectively
 bargain working conditions equivalent to those of employees, without
-this amounting to a prohibited restriction of competition. It is the
-most direct EU-law precedent for MEF: it recognises, for a subset of the
-self-employed, the same right to employee-equivalent labour protection
-that MEF proposes more generally. Its application in Spain — through CNMC
+this amounting to a restriction of competition. It is another EU-law
+reference point for MEF: it recognises, for certain self-employed
+workers, labour rights comparable to those of employees. Its application in Spain — through CNMC
 Communication CNS/DC/902/23 — is covered further below, in section 3
 ("CNMC reports and decisions").
 [See the Guidelines (OJ C374/2, 2022)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C:2022:374:TOC)

@@ -112,11 +112,10 @@ Estas Directrices reconocen expresamente que determinados autónomos sin
 empleados —en situación de dependencia económica, que trabajan "codo con
 codo" con asalariados, o dependientes de plataformas digitales— pueden
 negociar colectivamente condiciones de trabajo equivalentes a las de los
-asalariados, sin que ello constituya una restricción prohibida de la
-competencia. Es el precedente de derecho de la UE más directo para HME:
-reconoce, para un subconjunto de autónomos, el mismo derecho a una
-protección laboral equiparable al asalariado que HME plantea con
-carácter general. Su aplicación en España —mediante la Comunicación CNMC
+asalariados, sin que ello constituya una restricción de la competencia.
+Es otro referente de Derecho de la UE para HME: reconoce, para ciertos
+trabajadores autónomos, derechos laborales equiparables a los de los
+asalariados. Su aplicación en España —mediante la Comunicación CNMC
 CNS/DC/902/23— se desarrolla más abajo, en el apartado 3 ("Informes y
 decisiones de la CNMC").
 [Ver Directrices (DOUE C374/2, 2022)](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=OJ:C:2022:374:TOC)
