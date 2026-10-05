@@ -371,8 +371,8 @@ específica del sector de la arquitectura e ingeniería.
 
 *El fundamento de HME no es la normativa italiana ni alemana —la
 propuesta se planteó en España en 2021, sobre la base del principio
-constitucional de no discriminación (arts. 14 y 35 CE)—, sino que estas
-normas se incorporan después como referencia de método de cálculo y como
+constitucional de no discriminación (arts. 14 y 35 CE)—, estas
+normas se incorporan como referencia de método de cálculo y como
 prueba de que un mecanismo equivalente es jurídicamente viable en la UE.*
 
 ### Normativa general

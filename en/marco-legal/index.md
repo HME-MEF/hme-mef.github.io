@@ -289,8 +289,8 @@ specific to the architecture and engineering sector.
 
 *HME/MEF's foundation is not Italian or German law — the proposal was
 raised in Spain in 2021, on the basis of the constitutional principle of
-non-discrimination (arts. 14 and 35 CE) — rather, these rules are brought
-in afterwards as a reference for the calculation method and as evidence
+non-discrimination (arts. 14 and 35 CE) — these rules are brought
+in as a reference for the calculation method and as evidence
 that an equivalent mechanism is legally viable in the EU.*
 
 ### General regulations
