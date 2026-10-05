@@ -499,6 +499,15 @@ async function descargarPDF(){
     y += 8;
   }
 
+  // Aviso beta destacado, al principio del documento
+  doc.setFillColor(255, 246, 224); doc.setDrawColor(240, 173, 78); doc.setLineWidth(0.4);
+  doc.roundedRect(marginL, y - 6, width, 18, 1.5, 1.5, 'FD');
+  doc.setFont('helvetica', 'bold'); doc.setFontSize(13); doc.setTextColor(138, 97, 0);
+  doc.text('VERSIÓN BETA · EN FASE DE PRUEBA', marginL + 4, y + 0.5);
+  doc.setFont('helvetica', 'normal'); doc.setFontSize(8.5);
+  doc.text('Las cifras y el motor de cálculo pueden cambiar en los próximos días. No es asesoramiento jurídico ni un baremo de honorarios.', marginL + 4, y + 6, { maxWidth: width - 8 });
+  doc.setTextColor(0); doc.setDrawColor(210); doc.setLineWidth(0.2);
+  y += 20;
   logotipo('HME');
   h('Estimador de banda de honorarios de referencia', 13, 8);
   doc.setFont('helvetica', 'normal'); doc.setFontSize(9); doc.setTextColor(100);
