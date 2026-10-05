@@ -105,10 +105,19 @@ That is the argument put forward in the proposal: article 15 allows
 restrictions on the freedom to provide services for "overriding reasons
 relating to the public interest," including the protection of workers and
 non-discrimination — provided the measure is necessary and proportionate
-(the test under Directive (EU) 2018/958). There is precedent for
-compatibility within the EU: Italian Law 49/2023 on *equo compenso*
-establishes minimum fees for professionals facing counterparties with
-greater bargaining power, precisely on grounds of general interest.
+(the test under Directive (EU) 2018/958). There is also a relevant national precedent
+within the EU: Italian Law 49/2023 on *equo compenso* protects adequate
+remuneration for professionals facing counterparties with greater bargaining
+power, on grounds of general interest, including certain dealings with public
+authorities. The TAR Veneto (judgment 632/2024, 3 April) held that its
+application to public procurement did not infringe EU freedoms or competition
+rules. The Consiglio di Stato (judgment 594/2025, 27 January) reversed that
+judgment, interpreted that in tenders the amount may be reduced down to the
+minimum resulting from flexible parameters, and left unresolved the questions
+of compatibility with arts. 49, 56 and 101 TFEU and Directive 2006/123/EC,
+warning that a rigid tariff would raise problems of necessity and
+proportionality. It is therefore a precedent of contested scope, not a
+definitive judicial confirmation of that compatibility.
 
 ### And with TFEU art. 101 (prohibition of cartels)?
 
