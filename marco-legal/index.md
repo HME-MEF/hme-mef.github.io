@@ -221,16 +221,12 @@ distinta, al mismo suelo. Ver el desarrollo técnico de esta
 complementariedad en la
 [memoria técnica]({{ '/herramientas/metodologia/' | relative_url }}).
 
-**Real Decreto 1619/2012 (Contratos de Obras)** — Establece metodología
-de cálculo de presupuestos en obra pública, incluyendo gastos generales y
-beneficio industrial, como referencia válida, aplicable a cualquier
-contratación pública y no solo a servicios de arquitectura.
-
 **Reglamento General de la Ley de Contratos de las Administraciones
 Públicas (RGLCAP), aprobado por Real Decreto 1098/2001, art. 131** —
 fija los porcentajes estándar de gastos generales (entre el 13% y el 17%)
 y beneficio industrial (6%) aplicables al presupuesto de ejecución
-material en la contratación de obra pública. HME utiliza, por analogía, el 15% de gastos
+material en la contratación de obra pública, como referencia válida para
+cualquier contratación pública y no solo para servicios de arquitectura. HME utiliza, por analogía, el 15% de gastos
 generales —valor intermedio del rango que explicita la Ley— y el 6% de
 beneficio industrial para calcular el **suelo de coste** (el coste
 real de producción de un estudio de arquitectura), distinto del suelo
@@ -499,7 +495,6 @@ tras un pronunciamiento del TJUE.
 | TFUE | 101, 102 | [eur-lex.europa.eu](https://eur-lex.europa.eu) |
 | Directiva 2006/123/CE | 15 | [eur-lex.europa.eu](https://eur-lex.europa.eu) |
 | Directiva 2018/958 | Arts. 6-8 | [eur-lex.europa.eu](https://eur-lex.europa.eu) |
-| RD 1619/2012 | 107-115 | [boe.es](https://www.boe.es) |
 | RGLCAP (RD 1098/2001) | 131 | [boe.es](https://www.boe.es) |
 | RD 2/11/1905 (tarifa honorarios) | Tarifa I-XI | [PDF]({{ '/assets/docs/gaceta-madrid-1905-rd-tarifas-es.pdf' | relative_url }}) |
 | RD 1/12/1922 (tarifa honorarios) | Tarifa I | [PDF]({{ '/assets/docs/construccion-moderna-1923-tarifas-es.pdf' | relative_url }}) |
