@@ -40,13 +40,13 @@ political-advocacy purposes**. In particular:
 
 ### 3. Content licences
 
-The content of this site is distributed under a multiple-licence model,
-depending on the type of material:
+The site's own content is subject to all rights reserved; third-party material
+keeps its own regime, depending on the type of material:
 
 | Content | Licence |
 |---|---|
 | Site code (Jekyll configuration, HTML, CSS, JS, calculators) | All rights reserved |
-| Site's original content (Legal Framework, FAQ, methodology) | Creative Commons BY-NC-SA 4.0 |
+| Site's original content (Legal Framework, FAQ, methodology) | All rights reserved — express permission required for reproduction, except for standard academic citation with attribution |
 | External academic articles cited (e.g. the article in the *Italian Labour Law e-Journal*) | That of their original publication — this site does not grant a different licence over them |
 | Author's own administrative petitions (Ministry, Ombudsman) | All rights reserved — express permission required for reproduction, except for standard academic citation with attribution |
 | Judicial filings via legal representation (claim, submissions, appeals) | Not claimed exclusively by the author — drafted by him but formally filed by a lawyer/procurador |

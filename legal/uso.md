@@ -25,12 +25,12 @@ Todo el contenido de este sitio —artículos, análisis del marco legal, herram
 
 ### 3. Licencias del contenido
 
-El contenido de este sitio se distribuye bajo un modelo de licencia múltiple, según el tipo de material:
+Los contenidos propios de este sitio tienen todos los derechos reservados; el material de terceros conserva su propio régimen, según el tipo de material:
 
 | Contenido | Licencia |
 |---|---|
 | Código del sitio (configuración Jekyll, HTML, CSS, JS, calculadoras) | Todos los derechos reservados |
-| Contenido original del sitio (Marco Legal, FAQs, metodología) | Creative Commons BY-NC-SA 4.0 |
+| Contenido original del sitio (Marco Legal, FAQs, metodología) | Todos los derechos reservados — requieren permiso expreso para su reproducción, salvo cita académica estándar con atribución |
 | Artículos académicos externos citados (p. ej. el artículo en el *Italian Labour Law e-Journal*) | La de su publicación original — este sitio no otorga una licencia distinta sobre ellos |
 | Peticiones administrativas propias (al Ministerio, al Defensor del Pueblo) | Todos los derechos reservados — requieren permiso expreso para su reproducción, salvo cita académica estándar con atribución |
 | Escritos judiciales presentados mediante representación legal (demanda, conclusiones, recursos) | No reclamados por el autor a título exclusivo — redactados por él, pero presentados formalmente por abogado/procurador |

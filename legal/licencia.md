@@ -5,7 +5,7 @@ title: "Licencias"
 
 ## Licencias
 
-Este proyecto se distribuye bajo un modelo de licencia múltiple, según el tipo de material.
+Todos los derechos de los contenidos propios de este sitio están reservados. El material de terceros conserva su propio régimen, según se indica a continuación.
 
 ---
 
@@ -28,11 +28,9 @@ Para solicitudes de permiso, contacta con: [info@hmef.eu](mailto:info@hmef.eu)
 
 ---
 
-### Licencia del contenido original del sitio (CC BY-NC-SA 4.0)
+### Licencia del contenido original del sitio (todos los derechos reservados)
 
-Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional © Ricardo Alvira Baeza
-
-Esta obra está bajo una licencia Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional. Para ver una copia de esta licencia, visita [creativecommons.org/licenses/by-nc-sa/4.0/](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+© Ricardo Alvira Baeza — Todos los derechos reservados
 
 **Se aplica únicamente al texto redactado directamente para este sitio** —no a los artículos académicos externos citados o enlazados, ver más abajo—:
 - El análisis jurídico y constitucional de [Marco Legal]({{ '/marco-legal/' | relative_url }})
@@ -40,15 +38,11 @@ Esta obra está bajo una licencia Creative Commons Reconocimiento-NoComercial-Co
 - La [memoria técnica/metodología]({{ '/herramientas/metodologia/' | relative_url }})
 - Otro análisis y comentario de políticas públicas redactado para hmef.eu
 
-**Puedes compartir y adaptar este material**, para cualquier propósito, incluso comercialmente, bajo las siguientes condiciones:
+**No puedes:** reproducir, distribuir o mostrar públicamente este contenido, ni crear obras derivadas, ni utilizarlo con fines comerciales, sin permiso expreso por escrito.
 
-- **Reconocimiento (BY):** debes dar crédito de manera adecuada, proporcionar un enlace a la licencia e indicar si se han realizado cambios. Puedes hacerlo de cualquier manera razonable, pero no de forma que sugiera que el licenciante te respalda a ti o a tu uso.
-- **NoComercial (NC):** no puedes utilizar el material con finalidades comerciales.
-- **CompartirIgual (SA):** si remezclas, transformas o creas a partir del material, deberás difundir tus contribuciones bajo la misma licencia que el original.
+**Puedes:** consultarlo en el sitio; realizar cita académica estándar (en tesis, artículos, libros), con atribución clara; y contactar con el autor para solicitar permiso de uso o republicación.
 
-La cita académica estándar (en tesis, artículos, libros) siempre está permitida.
-
-Más información: [creativecommons.org/licenses/by-nc-sa/4.0/](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+Para solicitudes de permiso, contacta con: [info@hmef.eu](mailto:info@hmef.eu)
 
 ---
 
@@ -95,7 +89,7 @@ Estos documentos **pertenecen a sus respectivos organismos o autores**, que debe
 | Componente | Licencia | Usar | Modificar | Vender | Uso comercial | Requiere atribución |
 |---|---|---|---|---|---|---|
 | Código (Jekyll, CSS, HTML, JS, calculadoras) | Todos los derechos reservados | No | No | No | No | Sí* |
-| Contenido original del sitio (Marco Legal, FAQs, metodología) | CC BY-NC-SA 4.0 | Sí | Sí | No | No | Sí |
+| Contenido original del sitio (Marco Legal, FAQs, metodología) | Todos los derechos reservados | No | No | No | No | Sí* |
 | Artículos académicos externos citados | La de su publicación original | — | — | — | — | — |
 | Peticiones administrativas propias (al Ministerio, al Defensor del Pueblo) | Todos los derechos reservados | No | No | No | No | Sí* |
 | Escritos judiciales por representación legal (demanda, conclusiones, recursos) | No reclamados por el autor a título exclusivo | — | — | — | — | — |
@@ -108,8 +102,6 @@ Estos documentos **pertenecen a sus respectivos organismos o autores**, que debe
 ### ¿Dudas?
 
 Si tienes dudas sobre cómo se aplican estas licencias a un caso de uso concreto, contacta con: [info@hmef.eu](mailto:info@hmef.eu)
-
-Más información sobre las licencias Creative Commons: [creativecommons.org](https://creativecommons.org/)
 
 ---
 

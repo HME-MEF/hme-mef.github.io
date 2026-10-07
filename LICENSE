@@ -1,5 +1,5 @@
 Licenses
-This project uses a multiple licensing model:
+All rights in the site's own content are reserved. Third-party material keeps its own regime, as set out below:
 
 Code License (All Rights Reserved)
 © Ricardo Alvira Baeza - All Rights Reserved
@@ -23,9 +23,8 @@ You CAN:
 For permissions inquiries, contact: info@hmef.eu
 
 
-Site's Original Content License (CC BY-NC-SA 4.0)
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International © Ricardo Alvira Baeza
-This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
+Site's Original Content License (All Rights Reserved)
+© Ricardo Alvira Baeza - All Rights Reserved
 
 Applies only to text written directly for this site, NOT to the external
 academic articles cited or linked below:
@@ -34,23 +33,16 @@ academic articles cited or linked below:
   Technical methodology (herramientas/metodologia/)
   Other policy analysis and commentary written for hmef.eu
 
-You can:
-  Share, adapt, and build upon this material
-  For any purpose, even commercially — but only under the following conditions:
+You may not:
+  Reproduce, distribute or publicly display this content
+  Create derivative works
+  Use it commercially
+  — without express written permission
 
-Attribution (BY):
-  You must give appropriate credit, provide a link to the license, and indicate if changes were made
-  You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use
-
-NonCommercial (NC):
-  You may not use the material for commercial purposes
-
-ShareAlike (SA):
-  If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original
-
-Standard academic citation is always permitted (e.g., in thesis, papers, books)
-
-See: https://creativecommons.org/licenses/by-nc-sa/4.0/
+You may:
+  Read it on the site
+  Make standard academic citation (e.g., in thesis, papers, books) with clear attribution
+  Contact the author to request permission to use or republish it
 
 
 External Academic Articles Cited or Linked
@@ -116,7 +108,7 @@ purposes, in accordance with the public-sector information reuse regime.
 Summary Table
 Component                                        License                        Can Use  Can Modify  Can Sell  Can Use Commercially  Requires Attribution
 Code (Jekyll, CSS, HTML, JS, calculators)        All Rights Reserved            ✗*       ✗*          ✗         ✗                      Yes*
-Site's original content (legal analysis, FAQs)   CC BY-NC-SA 4.0                ✓        ✓           ✗         ✗                      ✓
+Site's original content (legal analysis, FAQs)   All Rights Reserved            ✗        ✗           ✗         ✗                      Yes*
 External academic articles cited                 Their original publication's  —        —           —         —                      —
 Author's own administrative petitions            All Rights Reserved            ✗        ✗           ✗         ✗                      Yes*
 Judicial filings via legal representation         Not exclusively claimed        —        —           —         —                      —
@@ -127,5 +119,4 @@ Official third-party documents (reports, rulings) Belong to issuing body        
 Questions?
 If you have questions about how these licenses apply to a specific use case, please contact: info@hmef.eu
 
-For more information about Creative Commons licenses, visit: https://creativecommons.org/
 Last updated: October 2026

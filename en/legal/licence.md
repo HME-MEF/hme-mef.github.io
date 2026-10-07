@@ -8,7 +8,7 @@ title: "Licences"
 
 *This is a translation for reference. The [Spanish version]({{ '/legal/licencia/' | relative_url }}) is the authoritative one.*
 
-This project is distributed under a multiple-licence model, depending on the type of material.
+All rights in the site's own content are reserved. Third-party material keeps its own regime, as set out below.
 
 ---
 
@@ -31,11 +31,9 @@ For permissions inquiries, contact: [info@hmef.eu](mailto:info@hmef.eu)
 
 ---
 
-### Licence for the site's original content (CC BY-NC-SA 4.0)
+### Licence for the site's original content (all rights reserved)
 
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International © Ricardo Alvira Baeza
-
-This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit [creativecommons.org/licenses/by-nc-sa/4.0/](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+© Ricardo Alvira Baeza — All Rights Reserved
 
 **Applies only to text written directly for this site** — not to the external academic articles cited or linked, see below:
 - The legal and constitutional analysis in [Legal Framework]({{ '/en/legal-framework/' | relative_url }})
@@ -43,15 +41,11 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 - The [technical methodology]({{ '/en/tools/methodology/' | relative_url }})
 - Other policy analysis and commentary written for hmef.eu
 
-**You can share and adapt this material**, for any purpose, even commercially, under the following conditions:
+**You may not:** reproduce, distribute or publicly display this content, create derivative works, or use it commercially, without express written permission.
 
-- **Attribution (BY):** you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-- **NonCommercial (NC):** you may not use the material for commercial purposes.
-- **ShareAlike (SA):** if you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+**You may:** read it on the site; make standard academic citation (in theses, papers, books) with clear attribution; and contact the author to request permission to use or republish it.
 
-Standard academic citation (in theses, papers, books) is always permitted.
-
-More information: [creativecommons.org/licenses/by-nc-sa/4.0/](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+For permission requests, contact: [info@hmef.eu](mailto:info@hmef.eu)
 
 ---
 
@@ -98,7 +92,7 @@ These documents **belong to their respective bodies or authors**, who must be co
 | Component | Licence | Can use | Can modify | Can sell | Commercial use | Requires attribution |
 |---|---|---|---|---|---|---|
 | Code (Jekyll, CSS, HTML, JS, calculators) | All rights reserved | No | No | No | No | Yes* |
-| Site's original content (Legal Framework, FAQ, methodology) | CC BY-NC-SA 4.0 | Yes | Yes | No | No | Yes |
+| Site's original content (Legal Framework, FAQ, methodology) | All rights reserved | No | No | No | No | Yes* |
 | External academic articles cited | That of their original publication | — | — | — | — | — |
 | Author's own administrative petitions (Ministry, Ombudsman) | All rights reserved | No | No | No | No | Yes* |
 | Judicial filings via legal representation (claim, submissions, appeals) | Not claimed exclusively by the author | — | — | — | — | — |
@@ -111,8 +105,6 @@ These documents **belong to their respective bodies or authors**, who must be co
 ### Questions?
 
 If you have questions about how these licences apply to a specific use case, contact: [info@hmef.eu](mailto:info@hmef.eu)
-
-More information about Creative Commons licences: [creativecommons.org](https://creativecommons.org/)
 
 ---
 
